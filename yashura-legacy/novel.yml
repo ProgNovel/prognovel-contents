@@ -1,0 +1,11 @@
+author:
+  - name: NodiX
+  - paymentPointer: $wallet.example.com/test
+
+# Uncomment below by removing # if you want to add Patreon
+#patreon: my-patreon-page
+
+monetization:
+  - $: webmonetization
+  - $$: $0.99/chapter
+  - [patreon]: asd
