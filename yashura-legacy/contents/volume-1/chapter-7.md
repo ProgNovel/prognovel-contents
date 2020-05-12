@@ -1,5 +1,5 @@
+---
 title: Venerable Mama Ross
-
 ---
 
 In Badril Village, lived two friends who were as close as blood sisters. One had her posture clean, straight, noble--her spotless white face shone like gem, and she moved as graceful as a beautiful swan. 

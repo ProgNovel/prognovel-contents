@@ -1,5 +1,5 @@
+---
 title: One Tulip Restaurant
-
 ---
 
 When he arrived at Yashura Family’s gate, Shira saw Yulong was planting fresh torches around the road of Yashura Family. The boy then glanced beside him; much to his quiet expectation, the Nalaq who didn’t seem to get tired from pestering him before turning one-hundred-eighty degrees as he sneered toward the butler’s direction, waving his hand goodbye and floated away somewhere else.

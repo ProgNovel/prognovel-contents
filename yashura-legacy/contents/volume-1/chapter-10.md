@@ -1,5 +1,5 @@
+---
 title: Bountiful Badril Mountain
-
 ---
 
 Shuro Yashura had a little black cow friend he called Beefy. Beefy was a high grade cow born from a superior breed that was the best cow Yashura Family could afford in these past decades. Days upon days, Shuro Yashura would be laughing across the barley field as Beefy chasing him from behind. They played, they were best friends forever. Shuro Yashura loved Beefy. No one could break them apart. For years, it was Shuro Yashura’s lifetime dream to make the greatest beef rendang ever from Beefy’s meat.

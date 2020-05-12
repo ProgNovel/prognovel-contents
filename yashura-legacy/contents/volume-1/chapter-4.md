@@ -1,5 +1,5 @@
+---
 title: The Generation's Best Unique Class
-
 ---
 
 Mila Yashura, who’d done talking with her friend Romana, saw Shira awkwardly listening to the old man. Her eyes glinted a pleasant surprise. Conjuring herself out of the crowd, she waved her hand, vigorously yelling, “Ohhh! Is that you, Grandpa Piss?”

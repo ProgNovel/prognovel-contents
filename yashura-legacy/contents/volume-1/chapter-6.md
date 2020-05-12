@@ -1,5 +1,5 @@
+---
 title: Lyla Blackwood
-
 ---
 
 When the news about what happened in Malikh Family’s ngajen ceremony arrived at Blackwood Family, Madam Blackwood was so enraged she broke the tea cup she held onto the floor. Establishing the family’s foot in Badril Village was supposed to be easy, but not only he failed to gain the support of Malikh Family and the villagers, the Young Master of Blackwood Family somehow managed to incite the bedridden patriarch’s supporters to regain their lost foothold against the corrupt Malikh Family’s elders.

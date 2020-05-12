@@ -1,0 +1,24 @@
+{
+  "name": "prognovel-contents",
+  "version": "1.0.0",
+  "description": "A repo to manage contents of ProgNovel platform.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProgNovel/prognovel-contents.git"
+  },
+  "author": "ProgNovel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProgNovel/prognovel-contents/issues"
+  },
+  "homepage": "https://github.com/ProgNovel/prognovel-contents#readme",
+  "dependencies": {
+    "front-matter": "^3.1.0",
+    "marked": "^1.0.0",
+    "sharp": "^0.25.2"
+  }
+}

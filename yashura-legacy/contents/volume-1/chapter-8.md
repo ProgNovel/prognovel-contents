@@ -1,5 +1,5 @@
+---
 title: Evil Rogue Nalaq
-
 ---
 
 The Yashura was a normal family in Badril Village, Norman’s investigations concluded to this. Yet the pair of Yurin cousins believed Yashura was anything but normal, simply because Mama Ross said so.

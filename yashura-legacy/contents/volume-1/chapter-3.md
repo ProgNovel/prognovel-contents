@@ -1,5 +1,5 @@
+---
 title: Ngajen Ceremony
-
 ---
 
 What Good-Natured Spirit told Shira lingered in his mind. That jerk Nalaq blurted something about killing someone as if it was something trivial that could popped out easily in normal conversation. To kill someone after finding out his secret--what kind of secret he needed to protect anyway? A secret he never wanted people to know the fact he was drawing semi-porns for money. But he wasn’t that insecure to kill someone over a petty secret like that. The more he thought about it, the more it disturbed him. Especially right now, when his hands painted in red, bathed in blood. When he just did an act of actual killing.

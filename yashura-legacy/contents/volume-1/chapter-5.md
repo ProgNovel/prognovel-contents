@@ -1,5 +1,5 @@
+---
 title: Hidden Power in Yashura Family
-
 ---
 
 Everyone was taken aback by the sudden reveal of Bhela’s true talent, they didn’t realize the magic arrows were actually fatal if they hit Mila.

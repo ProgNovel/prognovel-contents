@@ -1,5 +1,6 @@
+---
 title: The Cursed Young Lady of Blackwood Family
-
+monetization: true
 ---
 
 _From the tender age of six, the Young Lady of Blackwood Family had lived alongside a deadly pandemic._
