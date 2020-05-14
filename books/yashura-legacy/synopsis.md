@@ -1,3 +1,1 @@
-# Synopsis
-
 Sets in a laidback southern Mossack ancestry land, the young master of Yashura Family is troubled when his fiancee comes back from two years of study abroad, has making a name of herself, and looks down on him whose talent is far below his peers' average. With the unreliable help of his spiritual partner-in-crime, the young master for the first time is forced to take his underperforming growth seriously and thus evintably stumble upon hidden politics and powers that led him learn matters of the past and the right to decide the matters of the future.
