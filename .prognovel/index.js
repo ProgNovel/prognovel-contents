@@ -1,4 +1,4 @@
-const { generateBookCover, compileChapterList } = require('./books/index')
+const { generateBookCover, generateMetadata } = require('./books/index')
 
 generateBookCover()
-compileChapterList()
+generateMetadata()

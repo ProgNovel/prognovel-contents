@@ -1,6 +1,6 @@
 const generateBookCover = require('./generate-cover')
-const compileChapterList = require('./compile-chapter-list')
+const generateMetadata = require('./generate-metadata')
 
 module.exports = {
-  generateBookCover, compileChapterList
+  generateBookCover, generateMetadata
 }

@@ -4,12 +4,12 @@ const fs = require('fs')
 const yaml = require('js-yaml')
 const md = require('marked')
 const { WORKING_FOLDER } = require('../prognovel.config')
+const checkValidBookFolder = require('../utils/check-valid-book-folder')
 
-function compileChapterList() {
+function generateMetadata() {
   glob(path.resolve(WORKING_FOLDER, '*'), (err, folders) => {
     folders.forEach(folder => {
-      if (fs.existsSync(folder + '/metadata.json')) {
-        console.log(folder, 'is found.')
+      if (checkValidBookFolder(folder)) {
         compileChapter(folder)
       }
     })
@@ -21,31 +21,20 @@ async function compileChapter(folder) {
   glob(path.resolve(folder, 'contents/**/*.md'), (err, files) => {
     files.forEach(file => {
       chapters.push(file)
-      // console.log(file)
-    })
-    chapters = chapters.sort((a, b) => {
-
     })
 
-    const metadatafile = fs.readFileSync(folder + '/metadata.json', 'utf-8')
-    let meta
-
-    try {
-      meta = JSON.parse(metadatafile)
-    } catch (err) {
-      meta = {}
-    }
+    let meta = {}
 
     const chapterList = chapters.map(file => {
       const split = file.split('/')
-      return split[split.length - 1]
+      return convertToNumeric(split[split.length - 1], false)
     }).sort(sortChapters)
 
     const info = yaml.safeLoad(fs.readFileSync(folder + '/info.yml', 'utf8'));
     const synopsis = md(fs.readFileSync(folder + '/synopsis.md', 'utf8'))
 
     meta = { ...info, synopsis, chapters: chapterList }
-    fs.writeFileSync(folder + '/metadata.json', JSON.stringify(meta, null, 4))
+    fs.writeFileSync(folder + '/.publish/metadata.json', JSON.stringify(meta, null, 4))
   })
 }
 
@@ -56,9 +45,15 @@ function sortChapters(a, b) {
   return a - b
 }
 
-function convertToNumeric(chapterName) {
-  let s = chapterName.replace('chapter-', '').replace('.md', '').replace('-', '.')
-  return JSON.parse(s)
+function convertToNumeric(chapterName, parse = true) {
+  let s = chapterName.replace('chapter-', '').replace('.md', '')
+
+  if (parse) {
+    if (s === 'prologue') s = 0
+    return JSON.parse(s.replace('-', '.'))
+  }
+
+  return s
 }
 
-module.exports = compileChapterList
+module.exports = generateMetadata
