@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node .prognovel/index.js",
+    "publish": "git add . && git commit -m \"update novels...\" && git push",
     "test": "test"
   },
   "repository": {
