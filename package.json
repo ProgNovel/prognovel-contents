@@ -19,10 +19,13 @@
   },
   "homepage": "https://github.com/ProgNovel/prognovel-contents#readme",
   "dependencies": {
+    "chalk": "^4.0.0",
     "front-matter": "^3.1.0",
     "glob": "^7.1.6",
     "js-yaml": "^3.13.1",
     "marked": "^1.0.0",
-    "sharp": "^0.25.2"
+    "meow": "^7.0.1",
+    "sharp": "^0.25.2",
+    "yargs": "^15.3.1"
   }
 }
