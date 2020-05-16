@@ -1,4 +1,6 @@
-const { generateBookCover, generateMetadata } = require('./books/index')
+const { generateBookCover, generateMetadata } = require('./novels/index')
+const generateSiteSettings = require('./site/generate-site-settings')
 
-generateBookCover()
-generateMetadata()
+const settings = generateSiteSettings()
+generateBookCover(settings.novels)
+generateMetadata(settings.novels)

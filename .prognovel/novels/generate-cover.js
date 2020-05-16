@@ -11,7 +11,7 @@ const sizes = [250, Math.floor(250 * 0.75)]
 const formats = ['jpeg', 'webp']
 const inputType = 'jpg'
 
-function generateCover() {
+function generateCover(novels) {
   if (!fs.existsSync(folder)) return workingFolderNotFound()
 
   glob(path.resolve(folder, `**/cover.${inputType}`), (err, files) => {

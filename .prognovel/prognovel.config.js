@@ -8,7 +8,7 @@ const BOOK_COVER = {
   formats: ['webp', 'jpeg']
 }
 
-const WORKING_FOLDER = path.resolve(__dirname, '../books')
+const WORKING_FOLDER = path.resolve(__dirname, '../novels')
 
 module.exports = {
   BOOK_COVER,

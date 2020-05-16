@@ -1,0 +1,11 @@
+site_title: ProgNovel
+contact: prognovel@gmail.com
+payment_pointer: $wallet.example.com/fsad
+backend_api: https://api.prognovel.workers.dev
+
+### PUBLISHED BOOKS ###
+# you can left out a book folder if you're not ready
+# to publish unfinished books
+novels:
+  - yashura-legacy
+  - crime-and-punishment

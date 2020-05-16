@@ -7,13 +7,22 @@ const { WORKING_FOLDER } = require('../prognovel.config')
 const checkValidBookFolder = require('../utils/check-valid-book-folder')
 const chalk = require('chalk')
 
-function generateMetadata() {
+function generateMetadata(novels) {
+  console.log(WORKING_FOLDER)
   glob(path.resolve(WORKING_FOLDER, '*'), (err, folders) => {
     folders.forEach(folder => {
-      if (checkValidBookFolder(folder)) {
-        compileChapter(folder)
+      // foldername can be optimized in one line ...
+      let folderName = folder.split('/')
+      folderName = folderName[folderName.length - 1]
+      if (novels.includes(folderName)) {
+        if (checkValidBookFolder(folder)) {
+          compileChapter(folder)
+          // splice can be optimized
+          novels = novels.splice(novels.indexOf(folderName) - 1, 1)
+        }
       }
     })
+    if (novels.length) console.log(novels, 'fails to generate.')
   })
 }
 
