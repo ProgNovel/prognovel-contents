@@ -9,6 +9,7 @@ const convertBookCover = require('./generate-cover')
 const chalk = require('chalk')
 
 function generateMetadata(novels) {
+  const firstNovel = novels[0]
   console.log(WORKING_FOLDER)
   glob(path.resolve(WORKING_FOLDER, '*'), (err, folders) => {
     folders.forEach(folder => {
@@ -17,7 +18,9 @@ function generateMetadata(novels) {
       folderName = folderName[folderName.length - 1]
       if (novels.includes(folderName)) {
         if (checkValidBookFolder(folder)) {
-          convertBookCover(folder + '/cover.jpg')
+          // TODO refactor placeholder ratio in prognovel.config.js
+          const placeholderRatio = firstNovel === folderName ? 2 : 1
+          convertBookCover(folder + '/cover.jpg', placeholderRatio)
             .then(images => {
               compileChapter(folder, images)
             })

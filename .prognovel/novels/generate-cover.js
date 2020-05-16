@@ -11,7 +11,7 @@ const sizes = BOOK_COVER.sizes
 const formats = BOOK_COVER.formats
 const inputType = 'jpg'
 
-async function convertBookCover(input) {
+async function convertBookCover(input, placeholderRatio = 1) {
   let outputFolder = path.resolve(input, '../.publish')
   if (!fs.existsSync(outputFolder)) fs.mkdirSync(outputFolder)
   outputFolder = outputFolder + '/cover'
@@ -46,7 +46,7 @@ async function convertBookCover(input) {
   })
 
   const buffer = await sharp(input)
-    .resize(50)
+    .resize(50 * placeholderRatio)
     .jpeg({ quality: 25 })
     .toBuffer()
   images.placeholder = 'data:image/jpeg;base64,' + buffer.toString('base64')

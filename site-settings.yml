@@ -4,8 +4,6 @@ payment_pointer: $wallet.example.com/fsad
 backend_api: https://api.prognovel.workers.dev
 
 ### PUBLISHED BOOKS ###
-# you can left out a book folder if you're not ready
-# to publish unfinished books
+# you can left out a book folder if you're not ready yo puvlish a certain book
 novels:
   - yashura-legacy
-  - crime-and-punishment
