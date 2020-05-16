@@ -16,5 +16,16 @@
         "9",
         "10",
         "10-5"
-    ]
+    ],
+    "cover": {
+        "book": {
+            "webp": "/cover-book.webp",
+            "jpeg": "/cover-book.jpeg"
+        },
+        "thumbnail": {
+            "webp": "/cover-thumbnail.webp",
+            "jpeg": "/cover-thumbnail.jpeg"
+        },
+        "placeholder": "data:image/jpeg;base64,/9j/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAyADIDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQCAwUB/8QALRAAAgIBAgQEBAcAAAAAAAAAAQIAEQMSIQQiMVEFQWGBEzIzcRREUnKRkrH/xAAXAQEBAQEAAAAAAAAAAAAAAAABAgAD/8QAGBEBAQEBAQAAAAAAAAAAAAAAABEBEkH/2gAMAwEAAhEDEQA/AH1+GOoEsdkVNqircouU8TnbFj1aSfsJNVFPE8TqsatgdxfWIPkJPKAoncts2prttzZkAN6on16QU6CzHYn79Jx2ZTd33uMY8ZdlULVmhIZcZpfeFZEGx1P8wkAhr5jCLNvKzaRQlGffESXK12l5z4qFsJTny4mUgEGMTSY4dmUNZpjpG9x1/DhhcOaOJdyD1lCONONQRpBubOJlzY0f3rsZKifD8G5DZnGlyKUfpinG48iaQ64wq7JXUibikV81zO8SxretiewAEzZrKGPaEuONQaowipw43ryMiMTHqs03wHKFONjkYcpJWr9Z0nHgpNCZTXMT3lRzzWcuNh5Co3wbZRkJRqUbsOtyw5FJ+hiHsYzgIXh2ZlCg+SitoQ2pnOa2Xf1iXHanRXuwDvL8GZM7lSpoC/SdzOmLIMekFCOYEeUMzTc8ZFnvCOn8Jf0H/vCMboz4iShUKSLu684sIQigRz8qf2j/ACEIHEfDByZPuIvxH129oQiFMIQmZ//Z"
+    }
 }

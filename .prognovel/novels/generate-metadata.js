@@ -5,6 +5,7 @@ const yaml = require('js-yaml')
 const md = require('marked')
 const { WORKING_FOLDER } = require('../prognovel.config')
 const checkValidBookFolder = require('../utils/check-valid-book-folder')
+const convertBookCover = require('./generate-cover')
 const chalk = require('chalk')
 
 function generateMetadata(novels) {
@@ -16,7 +17,10 @@ function generateMetadata(novels) {
       folderName = folderName[folderName.length - 1]
       if (novels.includes(folderName)) {
         if (checkValidBookFolder(folder)) {
-          compileChapter(folder)
+          convertBookCover(folder + '/cover.jpg')
+            .then(images => {
+              compileChapter(folder, images)
+            })
           // splice can be optimized
           novels = novels.splice(novels.indexOf(folderName) - 1, 1)
         }
@@ -26,14 +30,12 @@ function generateMetadata(novels) {
   })
 }
 
-async function compileChapter(folder) {
+async function compileChapter(folder, images) {
   let chapters = []
   glob(path.resolve(folder, 'contents/**/*.md'), (err, files) => {
     files.forEach(file => {
       chapters.push(file)
     })
-
-    let meta = {}
 
     const chapterList = chapters.map(file => {
       const split = file.split('/')
@@ -43,7 +45,7 @@ async function compileChapter(folder) {
     const info = yaml.safeLoad(fs.readFileSync(folder + '/info.yml', 'utf8'));
     const synopsis = md(fs.readFileSync(folder + '/synopsis.md', 'utf8'))
 
-    meta = { ...info, synopsis, chapters: chapterList }
+    let meta = { ...info, synopsis, chapters: chapterList, cover: images }
     console.log('Generating', chalk.bold.underline.green(meta.title), 'metadata...')
     fs.writeFileSync(folder + '/.publish/metadata.json', JSON.stringify(meta, null, 4))
   })
@@ -68,7 +70,7 @@ function convertToNumeric(chapterName, parse = true) {
     s = s.split('-')
     if (s[1] == 0) s[1] = 0.5
     if (s[1] === undefined) s[1] = 0
-    if (s[1] * 0 !== 0) s[1] = 9999
+    if (s[1] * 0 !== 0) s[1] = 99999 // NaN sub-index will be sorted as non-numeric
 
     let result
     try {
