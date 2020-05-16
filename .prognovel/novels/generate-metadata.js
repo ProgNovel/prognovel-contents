@@ -18,6 +18,8 @@ function generateMetadata(novels) {
       folderName = folderName[folderName.length - 1]
       if (novels.includes(folderName)) {
         if (checkValidBookFolder(folder)) {
+          novels = novels.filter(novel => novel !== folderName)
+
           // TODO refactor placeholder ratio in prognovel.config.js
           const placeholderRatio = firstNovel === folderName ? 2 : 1
           convertBookCover(folder + '/cover.jpg', placeholderRatio)
@@ -25,7 +27,6 @@ function generateMetadata(novels) {
               compileChapter(folder, images)
             })
           // splice can be optimized
-          novels = novels.splice(novels.indexOf(folderName) - 1, 1)
         }
       }
     })

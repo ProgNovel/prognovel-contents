@@ -25,28 +25,30 @@ async function convertBookCover(input, placeholderRatio = 1) {
 
   formats.forEach(format => {
     for (const size in sizes) {
-      const quality = 70
+      const quality = BOOK_COVER.quality
       const name = `/cover-${size}.${format}`
       const output = outputFolder + name
 
       images[size][format] = name
 
-      if (format === 'webp') {
-        sharp(input)
-          .resize(sizes[size])
-          .webp({ quality, reductionEffort: 6 })
-          .toFile(output)
-      } else {
-        sharp(input)
-          .resize(sizes[size])
-          .jpeg({ quality })
-          .toFile(output)
+      if (size !== 'placeholder') {
+        if (format === 'webp') {
+          sharp(input)
+            .resize(sizes[size][0], sizes[size][1])
+            .webp({ quality, reductionEffort: 6 })
+            .toFile(output)
+        } else {
+          sharp(input)
+            .resize(sizes[size][0], sizes[size][1])
+            .jpeg({ quality })
+            .toFile(output)
+        }
       }
     }
   })
-
+  const placeholderSizes = sizes.placeholder.map(size => size * 2)
   const buffer = await sharp(input)
-    .resize(50 * placeholderRatio)
+    .resize(placeholderSizes[0], placeholderSizes[1])
     .jpeg({ quality: 25 })
     .toBuffer()
   images.placeholder = 'data:image/jpeg;base64,' + buffer.toString('base64')
