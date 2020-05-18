@@ -4,9 +4,7 @@
     "payment_pointer": "$wallet.example.com/fsad",
     "backend_api": "https://api.prognovel.workers.dev",
     "novels": [
-        "yashura-legacy",
-        "crime",
-        "gi"
+        "yashura-legacy"
     ],
     "cors": "*"
 }
