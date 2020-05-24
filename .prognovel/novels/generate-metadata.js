@@ -8,27 +8,32 @@ const checkValidBookFolder = require('../utils/check-valid-book-folder')
 const convertBookCover = require('./generate-cover')
 const chalk = require('chalk')
 
-function generateMetadata(novels) {
+async function generateMetadata(novels) {
   const firstNovel = novels[0]
   console.log(WORKING_FOLDER)
-  return Promise.all(
+  return await Promise.all(
     glob(path.resolve(WORKING_FOLDER, '*'), (err, folders) => {
-      folders.forEach(folder => {
-        // foldername can be optimized in one line ...
-        let folderName = folder.split('/')
-        folderName = folderName[folderName.length - 1]
-        if (novels.includes(folderName)) {
-          if (checkValidBookFolder(folder)) {
-            novels = novels.filter(novel => novel !== folderName)
+      folders.map(folder => {
+        return new Promise(
+          resolve => {
+            let folderName = folder.split('/')
+            folderName = folderName[folderName.length - 1]
+            if (novels.includes(folderName)) {
+              if (checkValidBookFolder(folder)) {
+                novels = novels.filter(novel => novel !== folderName)
 
-            // TODO refactor placeholder ratio in prognovel.config.js
-            const placeholderRatio = firstNovel === folderName ? 2 : 1
-            convertBookCover(folder + '/cover.jpg', placeholderRatio)
-              .then(images => {
-                compileChapter(folder, images)
-              })
+                // TODO refactor placeholder ratio in prognovel.config.js
+                const placeholderRatio = firstNovel === folderName ? 2 : 1
+                convertBookCover(folder + '/cover.jpg', placeholderRatio)
+                  .then(images => {
+                    resolve(compileChapter(folder, images))
+                  })
+              }
+            }
+
           }
-        }
+        )
+        // foldername can be optimized in one line ...
       })
       if (novels.length) console.log(novels, 'fails to generate.')
     })
