@@ -1,4 +1,4 @@
-const glob = require('glob')
+const glob = require('glob').__promisify__
 const path = require('path')
 const fs = require('fs')
 const yaml = require('js-yaml')
@@ -10,33 +10,24 @@ const chalk = require('chalk')
 
 async function generateMetadata(novels) {
   const firstNovel = novels[0]
-  return await Promise.all(
-    glob(path.resolve(WORKING_FOLDER, '*'), (err, folders) => {
-      return folders.map(async folder => {
-        await new Promise(
-          resolve => {
-            let folderName = folder.split('/')
-            folderName = folderName[folderName.length - 1]
-            if (novels.includes(folderName)) {
-              if (checkValidBookFolder(folder)) {
-                novels = novels.filter(novel => novel !== folderName)
+  console.log(WORKING_FOLDER)
+  const folders = await glob(path.resolve(WORKING_FOLDER, '*'))
+  return Promise.all(folders.map(async folder => {
+    let folderName = folder.split('/')
+    folderName = folderName[folderName.length - 1]
+    if (novels.includes(folderName)) {
+      if (checkValidBookFolder(folder)) {
+        novels = novels.filter(novel => novel !== folderName)
 
-                // TODO refactor placeholder ratio in prognovel.config.js
-                const placeholderRatio = firstNovel === folderName ? 2 : 1
-                convertBookCover(folder + '/cover.jpg', placeholderRatio)
-                  .then(images => {
-                    resolve(compileChapter(folder, images))
-                  })
-              }
-            }
-
-          }
-        )
-        // foldername can be optimized in one line ...
-      })
-      if (novels.length) console.log(novels, 'fails to generate.')
-    })
-  )
+        // TODO refactor placeholder ratio in prognovel.config.js
+        const placeholderRatio = firstNovel === folderName ? 2 : 1
+        const images = await convertBookCover(folder + '/cover.jpg', placeholderRatio)
+        return await compileChapter(folder, images)
+      }
+    }
+    return {}
+  }))
+  if (novels.length) console.log(novels, 'fails to generate.')
 }
 
 async function compileChapter(folder, images) {
