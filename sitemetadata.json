@@ -1,10 +1,19 @@
 {
-    "site_title": "ProgNovel",
-    "contact": "prognovel@gmail.com",
-    "payment_pointer": "$wallet.example.com/fsad",
-    "backend_api": "https://api.prognovel.workers.dev",
-    "novels": [
-        "yashura-legacy"
-    ],
-    "cors": "*"
+  "site_title": "ProgNovel",
+  "contact": "prognovel@gmail.com",
+  "payment_pointer": "$wallet.example.com/fsad",
+  "backend_api": "https://api.prognovel.workers.dev",
+  "novels": [
+    "yashura-legacy"
+  ],
+  "cors": "*",
+  "novelsMetadata": [
+    {
+      "id": "yashura-legacy",
+      "title": "Yashura Legacy",
+      "author": "Radhy",
+      "chapterTotal": 11,
+      "lastChapter": "10-5"
+    }
+  ]
 }

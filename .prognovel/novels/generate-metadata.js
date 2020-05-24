@@ -1,4 +1,4 @@
-const glob = require('glob').__promisify__
+const glob = require('glob-promise')
 const path = require('path')
 const fs = require('fs')
 const yaml = require('js-yaml')
@@ -11,7 +11,7 @@ const chalk = require('chalk')
 async function generateMetadata(novels) {
   const firstNovel = novels[0]
   console.log(WORKING_FOLDER)
-  const folders = await glob(path.resolve(WORKING_FOLDER, '/*'))
+  const folders = await glob(WORKING_FOLDER + '/*')
   return Promise.all(folders.map(async folder => {
     let folderName = folder.split('/')
     folderName = folderName[folderName.length - 1]
@@ -22,7 +22,7 @@ async function generateMetadata(novels) {
         // TODO refactor placeholder ratio in prognovel.config.js
         const placeholderRatio = firstNovel === folderName ? 2 : 1
         const images = await convertBookCover(folder + '/cover.jpg', placeholderRatio)
-        return await compileChapter(folder, images)
+        return await compileChapter(folder, images, folderName)
       }
     }
     return {}
@@ -30,7 +30,7 @@ async function generateMetadata(novels) {
   if (novels.length) console.log(novels, 'fails to generate.')
 }
 
-async function compileChapter(folder, images) {
+async function compileChapter(folder, images, id) {
   return new Promise((resolve, reject) => {
     let chapters = []
     glob(path.resolve(folder, 'contents/**/*.md'), (err, files) => {
@@ -46,7 +46,7 @@ async function compileChapter(folder, images) {
       const info = yaml.safeLoad(fs.readFileSync(folder + '/info.yml', 'utf8'));
       const synopsis = md(fs.readFileSync(folder + '/synopsis.md', 'utf8'))
 
-      let meta = { ...info, synopsis, chapters: chapterList, cover: images }
+      let meta = { id, ...info, synopsis, chapters: chapterList, cover: images }
       console.log('Generating', chalk.bold.underline.green(meta.title), 'metadata...')
       fs.writeFileSync(folder + '/.publish/metadata.json', JSON.stringify(meta, null, 4))
 
