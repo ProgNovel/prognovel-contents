@@ -35,23 +35,32 @@ function generateMetadata(novels) {
 }
 
 async function compileChapter(folder, images) {
-  let chapters = []
-  glob(path.resolve(folder, 'contents/**/*.md'), (err, files) => {
-    files.forEach(file => {
-      chapters.push(file)
+  return new Promise((resolve, reject) => {
+    let chapters = []
+    glob(path.resolve(folder, 'contents/**/*.md'), (err, files) => {
+      files.forEach(file => {
+        chapters.push(file)
+      })
+
+      const chapterList = chapters.map(file => {
+        const split = file.split('/')
+        return convertToNumeric(split[split.length - 1], false)
+      }).sort(sortChapters)
+
+      const info = yaml.safeLoad(fs.readFileSync(folder + '/info.yml', 'utf8'));
+      const synopsis = md(fs.readFileSync(folder + '/synopsis.md', 'utf8'))
+
+      let meta = { ...info, synopsis, chapters: chapterList, cover: images }
+      console.log('Generating', chalk.bold.underline.green(meta.title), 'metadata...')
+      fs.writeFileSync(folder + '/.publish/metadata.json', JSON.stringify(meta, null, 4))
+
+      if (err) {
+        console.error(err)
+        reject(err)
+      }
+
+      resolve(meta)
     })
-
-    const chapterList = chapters.map(file => {
-      const split = file.split('/')
-      return convertToNumeric(split[split.length - 1], false)
-    }).sort(sortChapters)
-
-    const info = yaml.safeLoad(fs.readFileSync(folder + '/info.yml', 'utf8'));
-    const synopsis = md(fs.readFileSync(folder + '/synopsis.md', 'utf8'))
-
-    let meta = { ...info, synopsis, chapters: chapterList, cover: images }
-    console.log('Generating', chalk.bold.underline.green(meta.title), 'metadata...')
-    fs.writeFileSync(folder + '/.publish/metadata.json', JSON.stringify(meta, null, 4))
   })
 }
 
