@@ -12,8 +12,8 @@ async function generateMetadata(novels) {
   const firstNovel = novels[0]
   return await Promise.all(
     glob(path.resolve(WORKING_FOLDER, '*'), (err, folders) => {
-      return folders.map(folder => {
-        return new Promise(
+      return folders.map(async folder => {
+        await new Promise(
           resolve => {
             let folderName = folder.split('/')
             folderName = folderName[folderName.length - 1]
