@@ -11,7 +11,7 @@ const chalk = require('chalk')
 async function generateMetadata(novels) {
   const firstNovel = novels[0]
   console.log(WORKING_FOLDER)
-  const folders = await glob(path.resolve(WORKING_FOLDER, '*'))
+  const folders = await glob(path.resolve(WORKING_FOLDER, '/*'))
   return Promise.all(folders.map(async folder => {
     let folderName = folder.split('/')
     folderName = folderName[folderName.length - 1]
