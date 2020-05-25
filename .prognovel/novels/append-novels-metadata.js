@@ -11,7 +11,7 @@ async function appendNovelsMetadata(novelsMetadata) {
       id: meta.id,
       title: meta.title,
       author: meta.author,
-      chapterTotal: meta.chapters.length,
+      totalChapter: meta.chapters.length,
       lastChapter: meta.chapters[meta.chapters.length - 1]
     }
   })
