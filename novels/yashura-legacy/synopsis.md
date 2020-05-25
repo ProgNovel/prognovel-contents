@@ -4,4 +4,4 @@ The young master of Yashura Family is troubled when his fiancee comes back from 
 
 Yashura Legacy is a translated Indonesian novel which previously been published under different title. It's being rebooted as a material to explore the new format ProgNovel aims to explore.
 
-This novel is purely a demo. It hasn't yet completed, edited, and proofread, most likely will go through changes in the future.
+_This novel is purely a demo for ProgNovel alpha version. It hasn't yet completed, edited, and proofread, most likely will go through changes in the future._
