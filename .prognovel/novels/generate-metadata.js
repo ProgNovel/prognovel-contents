@@ -72,25 +72,25 @@ function sortChapters(a, b) {
 }
 
 function convertToNumeric(chapterName, parse = true) {
-  let s = chapterName.replace('chapter-', '').replace('.md', '')
+  let splitString = chapterName.replace('chapter-', '').replace('.md', '')
 
   if (parse) {
-    if (s === 'prologue') s = 0.1
-    s = s.split('-')
-    if (s[1] == 0) s[1] = 0.5
-    if (s[1] === undefined) s[1] = 0
-    if (s[1] * 0 !== 0) s[1] = 99999 // NaN sub-index will be sorted as non-numeric
+    if (splitString === 'prologue') splitString = 0.1
+    splitString = splitString.split('-')
+    if (splitString[1] == 0) splitString[1] = 0.5
+    if (splitString[1] === undefined) splitString[1] = 0
+    if (splitString[1] * 0 !== 0) splitString[1] = 99999 // NaN sub-index will be sorted as non-numeric
 
     let result
     try {
-      result = s.map(ch => JSON.parse(ch))
+      result = splitString.map(ch => JSON.parse(ch))
     } catch (error) {
-      console.log('Error when parsing', s[1])
+      console.log('Error when parsing', splitString[1])
     }
 
     return result
   }
-  return s
+  return splitString
 }
 
 module.exports = generateMetadata
