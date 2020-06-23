@@ -1,4 +1,4 @@
 title: Yashura Legacy
 author: Radhy
 contact: prognovel@gmail.com
-payment_pointer: $wallet.example.com/pointer # default author's payment pointer
+paymentPointers: $wallet.example.com/pointer

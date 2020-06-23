@@ -44,6 +44,9 @@ async function compileChapter(folder, images, id) {
       }).sort(sortChapters)
 
       const info = yaml.safeLoad(fs.readFileSync(folder + '/info.yml', 'utf8'));
+      if (!Array.isArray(info.paymentPointers)) {
+        info.paymentPointers = [info.paymentPointers]
+      }
       const synopsis = md(fs.readFileSync(folder + '/synopsis.md', 'utf8'))
 
       let meta = { id, ...info, synopsis, chapters: chapterList, cover: images }
