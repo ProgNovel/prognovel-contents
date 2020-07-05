@@ -343,8 +343,8 @@ After that Bhela continued with light training. Good-Natured Spirit watched her 
 
 ***
 
-<author-note id=”Radhy”>
+<authors-note id="Radhy">
 
 Testing, testing. This should be converted to Web Components from Markdown as a base for ProgNovel’s plugins. If you see the raw HTML tags, then plugins development still WIP.
 
-</author-note>
+</authors-note>
