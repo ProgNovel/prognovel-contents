@@ -22,8 +22,16 @@
     ],
     "cover": {
         "book": {
-            "webp": "/cover-book.webp",
-            "jpeg": "/cover-book.jpeg"
+            "jpeg": {
+                "1x": "/cover-book.jpeg",
+                "2x": "/cover-book-2x.jpeg",
+                "3x": "/cover-book-3x.jpeg"
+            },
+            "webp": {
+                "1x": "/cover-book.webp",
+                "2x": "/cover-book-2x.webp",
+                "3x": "/cover-book-3x.webp"
+            }
         },
         "thumbnail": {
             "webp": "/cover-thumbnail.webp",

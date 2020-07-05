@@ -18,30 +18,50 @@ async function convertBookCover(input, placeholderRatio = 1) {
   if (!fs.existsSync(outputFolder)) fs.mkdirSync(outputFolder)
 
   const images = {
-    book: {},
+    book: {
+      jpeg: {},
+      webp: {}
+    },
     thumbnail: {},
     placeholder: ''
   }
 
   formats.forEach(format => {
     for (const size in sizes) {
+      const loop = size === 'book' ? 3 : 1
       const quality = BOOK_COVER.quality
-      const name = `/cover-${size}.${format}`
-      const output = outputFolder + name
-
-      images[size][format] = name
+      const name = (i = 1) => {
+        if (i > 1) {
+          return `/cover-${size}-${i}x.${format}`
+        }
+        return `/cover-${size}.${format}`
+      }
 
       if (size !== 'placeholder') {
         if (format === 'webp') {
-          sharp(input)
-            .resize(sizes[size][0], sizes[size][1])
-            .webp({ quality, reductionEffort: 6 })
-            .toFile(output)
+          for (let i = 1; i <= loop; i++) {
+            if (size === 'book') {
+              images[size][format][i + 'x'] = name(i)
+            } else {
+              images[size][format] = name(i)
+            }
+            sharp(input)
+              .resize(sizes[size][0] * i, sizes[size][1] * i)
+              .webp({ quality, reductionEffort: 6 })
+              .toFile(outputFolder + name(i))
+          }
         } else {
-          sharp(input)
-            .resize(sizes[size][0], sizes[size][1])
-            .jpeg({ quality })
-            .toFile(output)
+          for (let i = 1; i <= loop; i++) {
+            if (size === 'book') {
+              images[size][format][i + 'x'] = name(i)
+            } else {
+              images[size][format] = name(i)
+            }
+            sharp(input)
+              .resize(sizes[size][0] * i, sizes[size][1] * i)
+              .jpeg({ quality })
+              .toFile(outputFolder + name(i))
+          }
         }
       }
     }
