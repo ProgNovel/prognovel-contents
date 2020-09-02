@@ -2,7 +2,7 @@
 title: Hidden Power in Yashura Family
 ---
 
-<authors-note>
+<authors-note id="Radhy">
 
 I don’t recommend reading from here onwards because the chapter below is still from the previous draft, which is different from the previous 4 chapters. Further edits will be made that most likely makes this chapter quite different than the current one.
 
