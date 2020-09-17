@@ -26,12 +26,6 @@ As the custom dictates, every month in ngajen ceremony preparation, the boys wil
 
 After doing his part in butchering a goat Shira immediately took a bath to remove the bloody pungent. On a whim he then strolled to the kitchen to grab some snacks. There he witnessed how all the coconuts he and his uncle shred already transformed into delicious foods; rendang, Bulayak satay, coconut satay, spicy curry, many other mouth drolling coconut cuisines. The coconut loving uncle was all smiles and gave him a big portion of the famous beef cuisine the locals called rendang--which, normally, even for a young master like Shira would get to eat rendang once every few months. But with enough wit and experience in currying favor with his uncle, he got to taste those delicious food handed down by his uncle, the Chief Chef, personally.
 
-<novel-trivia>
-
-Domesticated cows were less in numbers than goats in Badril Village, so meals from cows, not including the innards which could be made into popular but cheap cuisines, like only served for village big shots or important visitors during the ngajen ceremony.
-
-</novel-trivia>
-
 “Shira my boy,” Patriarch Shuro said to his nephew who was squatting below the shadow of a thick pillar, happily munching on his rendang, “you’re going to visit Malikh Family tonight. Keep a good check on your cousin. Don’t embarrass Yashura Family and present our rendang_ _for their main family.”
 
 “Sure.”
@@ -41,6 +35,12 @@ Domesticated cows were less in numbers than goats in Badril Village, so meals fr
 Laughters and chatters made the night more merry than any other thay of the month. It was brighter than usual, as villagers came out of their house to set up big braziers to light the road between the families that were holding festives. From one hundred meters away, through the thick wall of the big families, the mouth-watering aroma of prepared food wafted through the air as if they informally invited people to come and to taste the delicacy these big families had. The change in scenery upon the arrival of the night signaled the nigh of Ngajen Ceremony.
 
 Yashura Family, the oldest family around, was known to have the best food amongst all families in Badril Village, while Elzhier Family known as the family that always threw the biggest party post-ceremony--Elzhier Family’s maidservants were beautiful and they’d show off their voluptuous bodies every single ngajen ceremony. Particularly this month however, everyone was anticipating the ceremony thrown by Malikh Family; for two years since the young lady’s absence they threw nothing more than mediocre festivities, her return was to be seen as their revival on the village’s political stage. And from how big their arrangement looked like, it seemed Malikh Family didn’t plan to fail everyone’s expectations.
+
+<novel-trivia>
+
+Domesticated cows were less in numbers than goats in Badril Village, so meals from cows, not including the innards which could be made into popular but cheap cuisines, like only served for village big shots or important visitors during the ngajen ceremony.
+
+</novel-trivia>
 
 Shira Yashura wore the same suit he got from his uncle on his fifteenth birthday. It was the usual suit he’d wear whenever a ceremony was held. His uncle bought it from a merchant who had connections outside the kingdom, which was pretty good since the fabric wasn’t stiff, but could get unbearably itchy in places he didn’t want to scratch whenever there were people around. The obvious part missing from the wears his peers were wearing was beast pelts. 
 
