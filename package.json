@@ -6,6 +6,7 @@
   "scripts": {
     "build": "node .prognovel/index.js",
     "publish": "npm run build && git add . && git commit -m \"update novels...\" && git push",
+    "dev": "node .prognovel/.development/server.js",
     "test": "test"
   },
   "repository": {
@@ -26,6 +27,7 @@
     "js-yaml": "^3.14.0",
     "marked": "^1.1.1",
     "meow": "^7.0.1",
+    "polka": "^0.5.2",
     "sharp": "^0.25.4",
     "yargs": "^15.4.1"
   }
