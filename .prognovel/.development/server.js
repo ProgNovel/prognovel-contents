@@ -1,7 +1,6 @@
 const polka = require('polka');
-const { Writable } = require('stream');
-const { getNovelMetadata, getSiteMetadata, getChapterData, addMeter } = require('./utils');
-const { streamImage, getImage } = require('./image')
+const { getNovelMetadata, getSiteMetadata, getChapterData, addMeter, getNovelChapterTitles } = require('./utils');
+const { getImage } = require('./image')
 
 const PORT = 4000
 
@@ -19,12 +18,18 @@ polka()
     res.end(getSiteMetadata());
   })
   .get('/novel', (req, res) => {
-    const { name } = req.query;
+    const {
+      name, titles_only
+    } = req.query;
     try {
       res.setHeader('Content-Type', 'application/json');
       res.setHeader('Cache-Control', 'no-store');
       res.setHeader('Access-Control-Allow-Origin', '*');
-      res.end(getNovelMetadata(name));
+      if (!!titles_only) {
+        res.end(getNovelChapterTitles(name))
+      } else {
+        res.end(getNovelMetadata(name));
+      }
     } catch (err) {
       console.log(err);
       res.end('Novel not found.');

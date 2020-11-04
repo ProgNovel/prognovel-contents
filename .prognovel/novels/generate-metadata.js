@@ -2,6 +2,7 @@ const glob = require('glob-promise')
 const path = require('path')
 const fs = require('fs')
 const yaml = require('js-yaml')
+const fm = require('front-matter')
 const md = require('marked')
 const { WORKING_FOLDER } = require('../prognovel.config')
 const checkValidBookFolder = require('../utils/check-valid-book-folder')
@@ -33,8 +34,12 @@ async function generateMetadata(novels) {
 async function compileChapter(folder, images, id) {
   return new Promise((resolve, reject) => {
     let chapters = []
+    let chapterTitles = {}
     glob(path.resolve(folder, 'contents/**/*.md'), (err, files) => {
       files.forEach(file => {
+        const meta = fm(fs.readFileSync(file, 'utf-8'))
+        const index = file.split('chapter-')[1].slice(0, -3);
+        chapterTitles[index] = meta.attributes.title || 'chapter-' + index
         chapters.push(file)
       })
 
@@ -52,6 +57,7 @@ async function compileChapter(folder, images, id) {
       let meta = { id, ...info, synopsis, chapters: chapterList, cover: images }
       console.log('Generating', chalk.bold.underline.green(meta.title), 'metadata...')
       fs.writeFileSync(folder + '/.publish/metadata.json', JSON.stringify(meta, null, 4))
+      fs.writeFileSync(folder + '/.publish/chapter-titles.json', JSON.stringify(chapterTitles))
 
       if (err) {
         console.error(err)

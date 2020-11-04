@@ -20,6 +20,12 @@ function getNovelMetadata(novel) {
   )
 }
 
+function getNovelChapterTitles(novel) {
+  return readFileSync(
+    getNovelPath(novel) + '/.publish/chapter-titles.json'
+  )
+}
+
 function getChapterData(novel, name, book) {
   let markup;
   try {
@@ -62,6 +68,7 @@ function addMeter(index) {
 module.exports = {
   getNovelPath,
   getNovelMetadata,
+  getNovelChapterTitles,
   getSiteMetadata,
   getChapterData,
   addMeter
