@@ -2,291 +2,227 @@
 title: Ngajen Ceremony
 ---
 
-What Good-Natured Spirit told Shira lingered in his mind. That jerk Nalaq blurted something about killing someone as if it was something trivial that could popped out easily in normal conversation. To kill someone after finding out his secret--what kind of secret he needed to protect anyway? A secret he never wanted people to know the fact he was drawing semi-porns for money. But he wasn’t that insecure to kill someone over a petty secret like that. The more he thought about it, the more it disturbed him. Especially right now, when his hands painted in red, bathed in blood. When he just did an act of actual killing.
+What the Nalaq told Shira lingered in his mind. Good-Natured Spirit blurted something about killing someone as if it was something trivial that could popped out easily in normal conversation. To kill someone after finding out his secret--what kind of secret he needed to protect anyway? A secret he never wanted people to know the fact he was drawing semi-porns for money. But he wasn’t that insecure to kill someone over a petty secret like that? That would be him being not right in the head. The more he thought about Good-Natured Spirit’s remark, the more it disturbed him. Especially right now, when his hands painted in red, bathed in blood. When he just did an act of actual killing.
 
 “Something on your mind, Young Master Shira?” a rough voice disturbed his train of thought.
 
-“Ah,” Shira looked at a burly man, an experienced hunter, who called him. The man’s body even redder, drenched in thicker blood than him. The sight didn’t make the boy flinched, however.
+“Ah,” Shira looked at a burly man, an experienced hunter, who called him. 
 
-The hunter spun a small yet sharp dagger, holding it by the tip of its blade, offering the dagger to Shira. “Here. Look at his gut. Spilling out his innards with your own hands might be a good experience for you, young master.”
+The man’s body even drenched in thicker blood than him. One would get easily nauseated by the sight of it. Yet it didn’t make the boy flinched, as he was expecting the experience for a few months already.
+
+“Here. Look at his gut. Spilling out his innards with your own hands might be a good experience for you, young master.”
+
+The hunter spun a sharp dagger, holding it by the tip of its blade, having a gesture of offering it to his young master.
 
 “Is that okay? I even had trouble when skinning the hide,” Shira said. 
 
-He’d rather not, to be honest, since splitting a goat’s gut could be messy if he did it crudely. Even if he was the young master of the family, when messing with the raw meat, not even his uncle could save him from the aunties’ nagging.
+He’d rather not, to be honest, since splitting a goat’s gut could be messy if he did it crudely. Even if he was the young master of the family, when messing with the raw meat, not even his uncle could save him from the aunties’ nagging. Shira Yashura was nearly sixteen, almost reaching adulthood, so he had to participate in butchering goats; it was a quite tasking task, but was easy enough compared to butchering cows he had to do in a few years. But for the fifteen years old young master, getting the hang of the butchering knife’s handle was plenty of experience already for him.
 
-Currently his body reeked of blood. He glad he wore worn out clothes. Shira Yashura was nearly sixteen, almost reaching adulthood, so he had to participate in butchering goats. It was part of the custom on the day of ngajen ceremony. As the custom dictated, every month in ngajen ceremony preparation, the boys dealt with cows and goats while the girls would help aunties plucking chickens’ and ducks’ feathers--they had to do it whether they were lowly guards’ children or the family’s next heir. When he became twenty the goats he had to butcher would increased year by year. But for now, for the fifteen years old young master, getting the hang of the butchering knife’s handle was plenty of experience already for him.
+<novel-trivia>
 
-After done doing his part in butchering a goat Shira immediately took a bath to remove the bloody pungent. Then he strolled to the kitchen to grab some snacks. In there, he witnessed how all the coconuts he and his uncle shred already transformed into delicious foods. Patriarch Shuro Yashura, who would be the Chief Chef for Yashura Family’s tonight ceremony, did his magical cooking skills well. The coconut loving uncle was all smiles and gave him a big portion of cooked beef the locals called _rendang_--which, of course, cooked in drenching coconut milk seven hours straight till the texture became muddy and the meats became deliciously tender. Domesticated cows were less in numbers than goats in Badril Village, so meals from cows--not including the innards which were quite popular cuisines if one asked the locals’ tongues--like _rendang_ and grilled beef only served for village big shots or important visitors during the ngajen ceremony. Normally a young master like Shira would get to eat _rendang_ once every few months. But he got his own tricks and he’d take his delicious reward as much as he could get.
+As the custom dictates, every month in ngajen ceremony preparation, the boys will have to deal with cows and goats while the girls help aunties plucking chickens’ and ducks’ feathers. Whether the gatekeepers' children or the family’s next heirs, all of them are required to do it every time a major ceremony approaches. 
 
-“Shira my boy,” Patriarch Shuro said, “you’re going to visit Malikh Family tonight. Keep a good check on your cousin. Don’t embarrass Yashura Family and present our _rendangs _for their main family.”
+</novel-trivia>
 
-“Yeah, sure,” crouching in the shadow of a thick pillar, Shira nodded like a parrot. His hands couldn’t stop shoving white rice and _rendang_ happily.
+After doing his part in butchering a goat Shira immediately took a bath to remove the bloody pungent. On a whim he then strolled to the kitchen to grab some snacks. There he witnessed how all the coconuts he and his uncle shred already transformed into delicious foods; rendang, Bulayak satay, coconut satay, spicy curry, many other mouth drolling coconut cuisines. The coconut loving uncle was all smiles and gave him a big portion of the famous beef cuisine the locals called rendang--which, normally, even for a young master like Shira would get to eat rendang once every few months. But with enough wit and experience in currying favor with his uncle, he got to taste those delicious food handed down by his uncle, the Chief Chef, personally.
 
-The afternoon that day, he made time to play a chess game with Good-Natured Spirit. Good-Natured Spirit didn’t mentioned any talking about killing people again, so Shira concluded that the Nalaq was only messing with him.
+“Shira my boy,” Patriarch Shuro said to his nephew who was squatting below the shadow of a thick pillar, happily munching on his rendang, “you’re going to visit Malikh Family tonight. Keep a good check on your cousin. Don’t embarrass Yashura Family and present our rendang_ _for their main family.”
 
-“This has been on my mind recently,” Good-Natured Spirit chimed as he took out a pouch of coins as he lost the chess game bet. “But why do you like money so much? I can give you some cool skill or battle technique, y’know. You’d be a chick magnet even if your level shitty if you did some of my battle techniques.”
-
-“My future,” Shira said as he weighed the pouch. “I’m not a skilled fighter like my father nor I’m a great cook like my uncle--become a patriarch in the future without something to hold on is pretty tough.”
-
-“You know with only having a great wealth doesn’t mean that you’d become powerful, right?”
-
-“At least I can make my family live comfortably with that.”
+“Sure.”
 
 ***
 
-Later, when the boy arrived at the market he found Monkey was packing up his wares. The ngajen ceremony would be held tonight. So villagers didn’t like merchants from outside the village loitering around with their selling goods. Snake was smoking a tobacco pipe by the carriage, bathing under the sun to combat the suffocating sour-smelling humidity that came from his experiments. They told Shira their plan to visit one of big families, not as peddlers, but as guests, so they could eat good foods in the last day they were here. Hearing that Shira invited them to visit Yashura Family tonight. Monkey readily agreed with a big grin.
+<novel-trivia>
 
-“You decided to invest on the potion you drank yesterday?” Snake raised his brows when Shira finally said his intention. “Which one?”
+Domesticated cows were less in numbers than goats in Badril Village, so meals from cows, not including the innards which could be made into popular but cheap cuisines, like only served for village big shots or important visitors during the ngajen ceremony.
 
-“Both of them,” Shira said.
+</novel-trivia>
 
-“The last one is not something I can create right now. But if you get me your father’s backing then maybe there’s something I can do--in ten years time, minimum.”
+Laughters and chatters made the night more merry than any other thay of the month. It was brighter than usual, as villagers came out of their house to set up big braziers to light the road between the families that were holding festives. From one hundred meters away, through the thick wall of the big families, the mouth-watering aroma of prepared food wafted through the air as if they informally invited people to come and to taste the delicacy these big families had. The change in scenery upon the arrival of the night signaled the nigh of Ngajen Ceremony.
 
-Shira shook his head. “Too long.”
+Yashura Family, the oldest family around, was known to have the best food amongst all families in Badril Village, while Elzhier Family known as the family that always threw the biggest party post-ceremony--Elzhier Family’s maidservants were beautiful and they’d show off their voluptuous bodies every single ngajen ceremony. Particularly this month however, everyone was anticipating the ceremony thrown by Malikh Family; for two years since the young lady’s absence they threw nothing more than mediocre festivities, her return was to be seen as their revival on the village’s political stage. And from how big their arrangement looked like, it seemed Malikh Family didn’t plan to fail everyone’s expectations.
 
-“It’s short, believe me--for that sort of elixir.”
+Shira Yashura wore the same suit he got from his uncle on his fifteenth birthday. It was the usual suit he’d wear whenever a ceremony was held. His uncle bought it from a merchant who had connections outside the kingdom, which was pretty good since the fabric wasn’t stiff, but could get unbearably itchy in places he didn’t want to scratch whenever there were people around. The obvious part missing from the wears his peers were wearing was beast pelts. 
 
-Shira then remembered how the container of that elixir was luxurious, even though the content was only so-so. It was no ordinary elixir.
+Pelts from ferocious beasts were known for irrefutable proof for boys’ courage and manliness. As many young gentlemen of Badril Village wore on their necks, always looking for the opportunity to show off the trophy of their preys to girls--which translated as fashionable fads for boys who wanted to get laids. 
 
-“I’ll go with your prototype masterpiece then. It’s a 100% success rate elixir, isn’t it?”
+Of course, Shira, as part of the dull and no-nonsense camp of the boys in Badril Village, never had participated in that kind of indecent business. He was so dull that the only girl who would accompany him to attend ceremonies was his cousin Mila--who, even though her face was quite pretty, also happened to be in terrible luck for romance.
 
-“Ah,” Monkey confessed, “it’s down to 50% since the elixir not working on you yesterday.”
+“No matter how many times I see it, it’s always impressive to see how fast you wrap all these banana leaves,” Shira commented as he watched how Mila wrapped rendang with banana leaves. She was very good at it, comparable to the aunties’ skills that had been forged day and night in the family’s kitchen.
 
-“That is too fast to boast about 100% rate, isn’t it? Who’s the other 50%?”
+“You talking? You’ve done your training with the family's sword technique, I assume?” Mila said with her lips pouted. Shira thought it was unusual for Mila didn’t nag her mouth off immediately when she saw him. He saw a sword wrapped in cloth near Mila. His face immediately twisted in a troubled look.
 
-Monkey sheepishly replied, “Me…”
+“I won’t bring that thing,” he protested. 
 
-Snake crossed his arms, gesturing he wanted to start talking real business. “Let’s see how serious you are, then.”
+“You--” Mila hissed.
 
-Shira’d prepared his wealth beforehand. He didn’t have much local kobe coins but since the other party was a foreigner, he thought maybe he could do something with the money Good-Natured Spirit gave him. His bag was fat, but not fat enough to scare people. When he opened it, however, the faces of the peddler and the alchemist were frozen in an instant.
+“What should I do with a sword inside another family’s ceremony?” Shira said. The sword was his father’s, and that was his reason he didn’t want to use it. “Look, I can only draw the blade from the sheath at most. Without a proper amount of Strength attribute I can’t swing this properly. It rejects my mana. I’d make a fool out of myself if that happened.”
 
-“These coins…” Monkey couldn’t believe what he picked with his fingers.
+“That’s because you were stupidly increasing your Wisdom instead of, that’s why you--arghh! Just forget about it! I know you’re trying to make excuses! Since you’re so weak all we can do is flaunting around your father’s reputation. We’ve got to remind people that our Yashura Family’s not to mess with. Here, just slip this fucking sword in your belt.”
 
-Shira said, “Not enough? I have lots of kobe coins too, just in case.”
+“Ah, this is embarrassing. Those rumors are about to get worse tonight,” Shira said with a sigh. His reputation as a trash talent was annoying enough, added this shameless act of throwing his weight around, he’d become more reluctant to show his face in the public later on. But still he unwillingly slipped the sword in his belt.
 
-Snake snatched one of the coins from Monkey’s hand. He inspected the coin himself, the foreign one Shira won from Good-Natured Spirit not too long ago.
-
-“That’s not the case. You managed to surprise us, Young Master Shira Yashura,” he said.
-
-The Alchemist’s usual sharp tone became mellower all of the sudden.
-
-“W-where did you get all these coins, young master?” Monkey said.
-
-But Snake flicked the coin back to Monkey and said to Shira, “You don’t have to speak, young master. It’s Tatalghia Kingdom’s coins. Good money. Monkey and I can raise our credibility amongst the merchant circle holding on this currency alone. They’d think we have a transactions with the westerners, maybe we could make them believe we have connections with Tatalghia Kingdom’s merchants.” He stopped, peered the young master before him. “Still, I couldn’t have ever guessed that you manage to conjure Tatalghia Kingdom’s coin by yourself. I reckon Yashura Family isn’t behind this, I'm a bit curious but… I shouldn’t have pry too much, am I?”
-
-“I’ll be grateful if we can have a comfortable level of secret between us, Mister Snake, Mister Monkey,” Shira smiled. He didn’t have the mood to explain the coins were hard-working fruits he got from gambling with an annoying Nalaq.
-
-Snake nodded. He didn’t pursue the case any further as he stuffed the Tatalghia coins into Monkey’s carriage. He said, “I’ve got something to do in the capital next month so you have Monkey alone to deal with. I’ll work to improve my prototype elixir in the meantime, so you’ll have to wait for sometime before the money you’ve invested on us rolled back to you. Do you have any objection with this arrangement, young master?”
-
-“No, you do what you have to do. Even if I kept those foreign coins with me there’s nothing to do with them since they are rare around here.”
-
-As a gift, Snake gave him a bottle of herbal balm to treat internal injuries. Before they got separated, Shira shoved a few pieces of kobe gold coins more to Monkey, saying he’d like to invest in low-risk commodities like the popular white peppers and told Monkey to give him back some of them next month. Most boys around his age never bought gold coins with them but surely Shira was different. And that was enough to command the eager Monkey who swiftly ran around from shop to shop and bought some spices he could sell in the next village with Shira’s money. That concluded the business, which turned out to be smoother than Shira though.
-
-Walking home satisfied that he accomplished something worthwhile, he suddenly remembered he had to go to Malikh Family for tonight’s ngajen ceremony. At the thought, he sighed wearily.
-
-He didn’t say much to his cousin and uncle, but since the engagement arrangement revealed, the relationship between him and Bhela Malikh had gone beyond the point of awkwardness. Visiting the Malikh Family was a plainly troublesome matter. If there was a chance for him to bail out, he’d take it anytime.
-
-Back in the market. It was when Shira no longer around. Monkey approached Snake with a hesitated face.
-
-“This is quite troubling my mind since yesterday,” he said.
-
-“What is?”
-
-“You said the later elixir Young Master Shira drank isn’t for human consumption, isn’t that right?”
-
-“I recall I said that, yes.”
-
-“T-then…” Monkey lowered his voice. “What is Young Master Shira?”
-
-“Monkey….”
-
-“Y-yes?”
-
-Snake’s voice was cold.
-
-“It’s better for you to stay ignorant.”
-
-Monkey unwillingly nodded. The warning rolled out from Snake’s lips was by no means a joke. He stepped back with his head lowered to the ground. At a time like this, he ought to cultivate his ability to play along with the flow and pretended to know nothing. He’d live longer that way.
-
-***
-
-Laughters and chatters made the night more crowdful. It was brighter than usual. Villagers came out of their house to set up big braziers. The licking flames lining up and danced, as if their light guided the road that connected from houses to houses. From one hundred meters away, through the thick wall of the big families, the mouth-watering spicy smells wafted through the air as if they informally invited people to come and to taste the delicacy these big families had. Most were looking forward to taste their free food tonight. 
-
-Yashura Family, the oldest family around, was known to have the best food amongst all families in Badril Village, while Elzhier Family known as the family that always threw the biggest party post-ceremony--Elzhier Family’s maidservants were beautiful and they’d show off their voluptuous bodies every single ngajen ceremony. Particularly this month however, everyone was anticipating for Malikh Family’s ceremony; for two years since the young lady’s absence they threw nothing more than mediocre festivities, her return was to be seen as their revival. And from how big their arrangement looked like, it seemed Malikh Family didn’t plan to fail everybody’s expectations.
-
-Shira Yashura wore the same suit he got from his uncle in his fifteenth birthday. It was the usual suit he’d wear whenever a ceremony was held. His uncle bought it from a merchant who had connection outside the kingdom, so the materials wasn’t from around here and sometimes annoyingly he got itches in places he shouldn’t scratch whenever people were around. But fabric wasn’t stiff, and the style also simple but not common. Some parts of the suit glimmered next to lighting from the braziers and torches in not so flashy manner. All in all, it was a good wear--if not counting the itchy part. 
-
-What was missing, though, a pelt boys around his age wore around their necks. 
-
-Boys usually wore pelts with smug expressions on their faces. Wearing pelts from the beast they hunted themselves was an unspoken custom to show one’s courage and manliness, fashionable fad for boys who hungry for girls’ attentions. A proven method as one of the easiest ways to get laid. 
-
-Of course, as the young master who carried the name of Yashura Family, Shira Yashura never mingled in that kind of indecent businesses. He was one of those dull kids who were never looking forward for ngajen ceremony like brats his age. The only girl who would accompany him in this kind of ceremony was his cousin Mila Yashura, who, despite her face was quite pretty, seemed never to be approached by one of those horny boys with pelts hanging on their shoulders.
-
-“No matter how many times I see it, you girls always do wonder with your fingers when it comes to something like this,” Shira commented as he watched how Mila wrapped _rendang_ with banana leaves. She was very good at it.
-
-“You talking? You’ve done your training with family’s sword technique, I assume?” Mila asked.
-
-Shira thought it was unusual for Mila didn’t nagging her mouth off immediately she saw him. He saw a sword wrapped in cloth near Mila. His face immediately twisted in troubled look.
-
-“I won’t use that,” he protested.
-
-“You--” Mila hissed. Apparently, from the family’s vault, she prepared for him an eastern Kaya style slim blade his father Jhuro Yashura used to have in his youth. Mila wanted to use her uncle’s prestige to heightened Shira’s impressions later when they visited Malikh Family. But all coming to waste if they boy himself wouldn’t bother to sharpen his sword skills.
-
-“What should I do with a sword in another family’s ceremony?” Shira said. “Look, I can only draw the blade from the sheath at most. Without a proper amount of Strength attribute I won’t be able to swing this properly. It rejects my mana. I’d make a fool out of myself if that happened.”
-
-“That’s because you’ve been stupidly increased your Wisdom, that’s why you--arghh! Just forget about it! Since you’re so weak all we can do is flaunting around your father’s reputation. We’ve got to remind people that our Yashura Family’s not to mess with. Here, just slip this fucking sword in your belt.”
-
-“This is embarrassing,” Shira said with a sigh. His reputation as a trash talent was annoying enough, added this shameless act of throwing his weight around, he’d getting more reluctant to show his face in the public later on.
-
-Mila snorted. She ignored the complaint. She could care less about the rumor. What she had to prioritize tonight was the bad premonition she had about Bhela Malikh’s short hair--nobody believed her when she said that Bhela was being a slut for cutting her hair short. While her hands craftly knotted the _rendang_ wrapped in banana leaves with a rope made with dried coconut leaves, she suddenly had a cold smile; the image of those impudent Malikhs shuddering under the famous Yashura Family’s Unique Class, Jhuro Yashura the Blackfang Swordsman, entertained her she began to chuckle coldly.
+Mila snorted. She ignored the complaint. Right now she could care less about the rumors about her cousin. What she had to prioritize tonight was the bad premonition she had about Bhela Malikh’s short hair--nobody believed her when she said that Bhela was being a slut for cutting her hair short in spite of her being in an engagement. While her hands craftly knotted the rendang wrapped in banana leaves with a rope made with dried coconut leaves, she suddenly had a cold smile; the image of those impudent Malikhs shuddering under the famous sword of Yashura Family’s Unique Class, Jhuro Yashura the Blackfang Swordsman, entertained her she began to chuckle coldly.
 
 “Huhuhu… just you wait you bitch…”
 
-Shira stepped back. From some reason Mila was becoming even more terrifying than before.
+Shira stepped back. He had the hunch he should keep a distance away from his current cousin right now.
 
 ***
 
-Every month, for every family in Badril Village, cooking during the ngajen ceremony always a time rushing hectic. Even more in Malikh Family this time. Since the amount of food they had to deliver before the ceremony started more than twice the amount they made last month, most of the aunties in duty were cooking outdoors. The smoke from the half-dried firewood would be too unbearable for the eyes if all of them cooked in one cramped place. The Malikh Family’s kitchen couldn’t hold them all.
+Every month, for every family in Badril Village, cooking during the Ngajen Ceremony was always a time rushing hectic. Even more in Malikh Family this time. Since the amount of food they had to deliver before the ceremony started more than twice the amount they made last month, most of the aunties in duty were cooking outdoors. The smoke from the half-dried firewood would be too unbearable for the eyes if all of them cooked in one cramped place. Fortunately, most of the dishes were already cooked and sent to the courtyard, so the only people who were still on duty preparing food were a small number of aunties and maidservants. 
 
-After hours and hours of hard work since morning, most of the dishes already cooked and sent to the courtyard, so the only people who still on duty preparing foods were a small number of aunties and maidservants, who happened to cook for the last batch. The young maidservants were tired but they still could fight a bit more. And the aunties didn’t show a sign of wanting to rest. When it came to preparing for a loadful of party’s foods, which lasted from the sun rose till the sun fell, nothing could beat the resilience of the kitchen-duty armies.
+The young maidservants were pale from tiredness but they couldn’t afford to slack in this one Ngajen Ceremony. The usual noisy aunties, they didn’t even show a sign of wanting to rest. Nobody could beat the resilience of the kitchen-duty armies when it came to preparing for a loadful of party’s foods.
 
-Usually, the one who would supervise these spartan cooking aunties would be the patriarch’s wife, Bhela’s mother. It was already a long-held tradition in the village for the patriarch to cook for the family’s important guests as the Chief Chef, while the wife supported him by supervising the aunties and maidservants. In ngajen ceremony this month, however, Bhela’s mother holed herself to accompany the husband on his ill-bed. Since she was not in the mood to meet with people, Bhela stepped in to fill her position. When she was little Bhela often followed her mother working during the ngajen ceremony, thus she knew what she had to do by the back of her hand. In usage of salt, for example, she knew down to the tiniest detail of how much salt should be applied to different kind of cuisines without having to waste them--it was quite an important matter since its expense was quite heavy every time ngajen ceremony was held. She also instructed the inexperienced maidservants who were in charge of cooking side dishes so the overall quality of the feast would be balanced. Bhela Malikh didn’t betray everyone’s expectations about her. She did her work splendidly.
+Usually, the one who would supervise these spartan cooking aunties would be the patriarch’s wife, Bhela’s mother. It was already a long-held tradition in the village for the patriarch to cook for the family’s important guests as the Chief Chef, while the wife supported him by supervising the aunties and maidservants. In Ngajen Ceremony this month, however, Bhela’s mother holed herself to accompany the husband on his ill-bed. 
 
-There was a matter she saw that didn’t make her happy, though. The largest furnace that usually reserved for the Chief Chef, today was used by an old man from outer family. A great cook, the old man was. Known for his vast experience in handling the family’s food stalls for years. But the problem was his common status. Without at least an elder status made it awkward for him to cook as the Chief Chef in this kitchen, even if he was a mere proxy.
+She was not in the mood to meet with people. So Bhela stepped in to fill her position. 
+
+Back when she was little Bhela often followed her mother working during the ngajen ceremony, she knew what she had to do by the back of her hand. In usage of salt, for example, she knew down to the tiniest detail of how much salt should be applied to different kinds of cuisines. She also instructed the inexperienced maidservants who were in charge of cooking side dishes so the overall quality of the feast would be balanced. Bhela Malikh didn’t betray everyone’s expectations about her. She did her work splendidly.
+
+However, there was a matter she saw that didn’t make her happy. The largest furnace that was usually reserved for the Chief Chef, today was used by an old man from the outer family. A great cook, the old man was. Known for his vast experience in handling the family’s food stalls for years. The problem was his common status. Without at least an elder status made it awkward for him to cook as the Chief Chef in this kitchen, even if he was a mere proxy. Bhela wondered whether the one who took the charge when her parents were unavailable knew the risk of being laughed at and criticized by the other two big families--especially now that the relationship between Yashura and Malikh wasn’t that good like before.
 
 “Young lady, the day’s getting dark, you should take a bath now and prepare yourself for the ceremony,” an aunty said to Bhela.
 
-“Yes, young lady no longer a little girl, so making you pretty will take a while,” an early twenty maidservant added from the side. She continued, “The new girls should be able to complete the foods since you directed them a lot. Please don’t worry about us.”
+“Yes, young lady is no longer a little girl, so making you pretty will take a while,” an early twenty maidservant added from the side. She continued, “The new girls should be able to complete the foods since you directed them a lot. Please don’t worry about us.”
 
 “I’m relieved to hear that,” Bhela said. Not yet three seconds later her eyes wandered to the old cook again. She couldn’t hide her frown.
 
 “Something the matter, Young Lady Bhela?”
 
-“Yes. Maybe it’s a misunderstanding from my part but… I can’t see the elder who would substitute my father as the Chief Chef.”
+“Yes. Maybe it’s a misunderstanding on my part but… I can’t see the elder who would substitute my father as the Chief Chef.”
 
 Hearing Bhela said her concern, the aunties and the maidservants averted eyes with their young lady with troubled faces. Bhela then understood there was something shady going on.
 
-Her suspicion turned worse when she saw a young man in his twenty came leading four manservants with him. It was an unspoken rule for the men not to approach the kitchen unless they were helpers for the one who cooked the main course. They came fetching the foods the old man cooked. But the strangest part was, all of them came from Elder Jhamil’s faction. While the one who cooked for the main course, who usually the patriarch himself, supposed to be the main conductor of the kitchen and holding authority even above the supervisor like Bhela was, this old cook didn’t act anything like that and instead, he promptly stopped cooking to greet Elder Jhamil’s son with his head lowered.
+Her suspicion turned worse when she saw a young man in his twenties leading four manservants with him. When the aunties were working in the kitchen, it was an unspoken rule for unrelated adult men not to approach, but the battle-hardened aunties that normally were ferocious in defending their territories were all silent in welcoming the cocky visitors. It wasn’t surprising to Bhela that all of them came from Elder Jhamil’s faction.
 
-“Why aren’t you ready yet old worm?!” the loud, unpleasant yell belonged to Elder Jhamil’s son. It seemed it wasn’t his first time acting arrogant in the kitchen as he was comfortable being a tyrant without caring the scared, hesitant eyes peering at him. He was so comfortable he wasn’t even realized Bhela Malikh was melding amongst the aunties in deeper side of the kitchen.
+“Why aren’t you ready yet, old worm?!”
 
 “I am sorry, young elder… some dish cannot be rushed so I prepared some to--”
 
 _Slap!!_
 
-The slapping sound echoed the kitchen. The room descended to dead silent. The old cook was trembling; he lowered his head and covered the cheek that just got slapped but everyone could see the blood on the corner of his mouth.
+The slapping sound echoed in the kitchen. The room descended into a dead silent. The old cook was trembling; he lowered his head and covered the cheek that just got slapped but everyone could see the blood on the corner of his mouth. Bhela recollected her memory, and finally remembered the arrogant young man was actually Elder Jhamil’s own son.
 
-“Shit!” Elder Jhamil’s son swore, “the first elder from Village Hall has come; they’re supposed to know that my father’s cooking food faster than anyone else in the village. We must complete the set before too long! People must know my father can cook faster than everyone else!”
+“Shit!” Elder Jhamil’s son swore, “those councils from Village Hall came. We must complete the set before too long! Those people are the ones who usually have the heaviest voice when valuing Ngajen Ceremony dishes!”
 
-One by one, the followers twitted agreeingly. “Young elder is right. This old man can’t cook shit! The only achievement Elder Jhamil could have is the fastest cook if this old worm handles the wok!”
+One follower quipped, “Young elder is right. This old worm can’t cook shit! If this goes on, the only things the Village Hall council will remember about Elder Jhamil’s cooking is that we Malikhs cook as slow as snail!”
 
-The frown on Bhela’s face became deeper. Young elder? Before she went out for the seminars that lasted two years, this man, son of Elder Jhamil, merely a family member with a post within the family’s business. As far as Bhela remembered the man wasn’t that competent to be qualified to enter the family’s inner council. And something else that disturbed her was how she couldn’t see how Elder Jhamil could have any achievement while she, the one who worked in the kitchen all day, didn’t see him even once today. Customs and rules were broken so blatantly. It was clear Elder Jhamil wanted to steal credits while Bhela’s father couldn’t do nothing in his ill-bed.
+The frown on Bhela’s face became deeper. Young elder? Before she went out for the seminars that lasted two years, this man, son of Elder Jhamil, merely a family member with a post within the family’s business. And something else that disturbed her was how she couldn’t see how the blurted about Elder Jhamil’s cooking, the one who worked in the kitchen all day, didn’t see the said elder even once today. 
 
-“This is wrong in so many ways,” Bhela whispered. She looked around, saw the aunties and the maidservants, though with the sympathy in their eyes, were afraid to stand for the old man. The situation apparently quite complicated, Bhela found out. So she holding back from opening her mouth. As the young lady from the main family, she quietly assessing the situation she wasn’t expecting to happen.
+Bhela still held her silent. But her eyes were cold and sharp judging people and the situation. The aunties and the maidservants, though they looked sympathetic with the old man, were afraid to go against Elder Jhamil’s son. Maybe because the lack of resistance Elder Jhamil’s son dared to do a taboo known in the kitchen--swapping food that wrapped in banana leaves with ceramic plates, garnished a bit, and called it the Chief Chef’s cuisine.
 
-Elder Jhamil’s son ordered his followers to gather the food. They preyed upon the common dishes made by the aunties and the maidservants cooked. The arrogant young elder, despite knowing the custom, told his men to switch the banana leaves covered clay plates with the ceramic bowls and plates--most of which were imported and quite expensive. That way they could pretend the dishes were theirs.
+“No, young elder!” a brave middle-aged aunty stepped forward, “you can’t do that!”
 
-“They wore the family official robes but acted like a bunch of thieves,” someone whispered with a low voice. Even the gentlest ones amongst the aunties crinkled their noses and scowled silently at their impudentness.
+“Why not?” one follower sneered in Elder Jhamil’s son’s place. “This one also got beef, isn’t it? We need to quickly serve the Chief Chef cuisine to the people from Village Hall councils.”
 
-“No, young elder!” a brave middle-aged aunty stepped forward as she felt swapping common foods for important guests was completely out of the line, “you can’t do that! Having important guests to eat common dishes is rude. You’ll tarnish Malikh Family’s honor if people knew about th--eeekkh!!”
+“Exactly because they are from the Village Hall council--just from inferior cuts of the beef they’d know the dishes have been swapped! You’ll tarnish Malikh Family’s honor if people knew you were fooling--”
 
-The tyrannical young elder raised his hand. Fortunately the brave aunty wasn’t so brave that she’d promptly stepped back whilst her hands covered her check. Elder Jhamil’s son didn’t swing his hand though, he proceeded into a barking rampage, yelling and threatening them to cut their salary and the portion of leftover foods they’d get after the ceremony as if his father held the entire Malikh Family’s treasury with iron grasp. His words scared all the girls and the women inside the kitchen. All except Bhela Malikh.
+“Fooling?!” Elder Jhamil roared.
 
-After they were done swapping the foods, the young elder led his men out of the kitchen with great confidence. A maidservant who was in the way immediately retreated. The young elder stopped at the door, turned around, and gave the old cook one last ultimatum: “There’ll be a noble in the ceremony so we need _rendang_ for the main course. So make it, old man. You know what’s gonna happen if you couldn’t deliver, don’t you?”
+The young elder raised his hand, though the aunty who complained quickly hid back behind the maidservants. Elder Jhamil’s son then rampaged into a series of barking, yelling and threatening the aunties to cut their salary just because his mood was spoiled. 
 
-The old man trembled. Even the eyes on the aunties sympathized with him more and more. Only two to three hours before the ceremony started. To start cooking _rendang_ without any preparation beforehand was difficult. With only two hours the _rendang_ wouldn’t be as tender as the southern people liked it. If he couldn’t deliver the _rendang_ everybody loved, what was going to happen then? Bhela didn’t know but she planned to find out later on.
+His words scared all the girls and the women inside the kitchen. All except Bhela Malikh.
+
+After they were done swapping the foods, the young elder led his men out of the kitchen with great swagger. The young elder stopped at the door, turned around, and gave the old cook one last ultimatum: “There’ll be a noble in the ceremony so we need rendang for the main course. So go make it, old worm. You know what’s gonna happen if you couldn’t deliver, don’t you?”
+
+The old man trembled. Even the eyes on the aunties couldn’t help but shake at the threat. There was now way they could prepare rendang with only two hours remaining until the Ngajen Ceremony started.
 
 After that situation calmed down. The aunties and the maidservants went back to work. Some of them still exchanged whispered and gossiped amongst themselves. But when Bhela approached, immediately they stopped and pretended nothing happened.
 
-Bhela found it was unusual for mere servants would guard against a member of the main family, the sole daughter of the current patriarch nonetheless. However, when she thought about it again, the atmosphere in the family since she returned home two days ago, not counting the solemn air around the topic of her ill father, it was strangely cold and strangely tense.
+“Young lady…” a pudgy aunty came to her, the one who stood up against the young elder from before.
 
-An aunty tugged her sleeve and whispered to her ear, “Young Lady Bhela, we know you’re concerned. But we’ve already getting used to it. You’re still young, young lady. Your future is brighter than everyone else in the family. It’s better to endure than pointlessly making enemies.”
+“Aunty?”
 
-Bhela Malikh realized this pudgy aunty who was giving her advice was the one who standing in front of her while the son of Elder Jhamil made a ruckus. Before, she thought it was a coincidence for this aunty immediately stood in front of her when the unpleasant scene started. But after looking at the troubled expression on the aunty’s face, Bhela knew that wasn’t the case.
+“We are sorry… we’ve had no meaning to show you that embarrassing scene.”
 
-“This isn’t pointless,” Bhela said. She then grabbed the nearest apron and wore it. Her father was the patriarch. And she wasn’t a poster girl to draw everyone’s attention to the family. Her future would be worthless if she couldn’t do anything about the present.
+Bhela shook her head. “No, I’m one from the main family bloodline; I should've been the one who stood up to him instead of hiding behind everyone.”
 
-The pudgy aunty wanted to say something. But words stuck on her throat, she closed her mouth as soon as she opened it.
+The aunty knew the young lady didn’t say a word before because the girl wanted to know the situation. Some other middle-aged aunties who were close with Madam Malikh also knew more or less Bhela’s detached wait-and-see attitude, so no one really would blame her even if she didn’t say a word before--especially since she had just returned from overseas. The pudgy aunty tugged on Bhela’s sleeve, whispered to her ear, “Young Lady Bhela, we know you’re concerned. But we’ve already gotten used to it. You’re still young. Your future is brighter than everyone else in the family, Young Lady Bhela. It’s better to endure than pointlessly making enemies.”
 
-Meanwhile, the old man began to pick some mature coconut and shredded it listlessly. He got more than four decades of handling food stalls for Malikh Family, he wasn’t a stranger at cooking _rendang_. However, he only got three hours maximum this time. All of his experience and expertise would go to the drain if Elder Jhamil sent bullies instead of helpers. Even the most ignorant maidservants would be able to tell the old man wouldn’t be able to escape punishment after this.
+“This isn’t pointless,” Bhela said. She then grabbed the nearest apron and wore it. Her father was the patriarch. And she wasn’t a poster girl to draw everyone’s attention to the family.
+
+The pudgy aunty wanted to say something again. But words stuck on her throat, she closed her mouth as soon as she opened it.
+
+Meanwhile, the old man began to pick some mature coconut and shredded it listlessly. He got more than four decades of handling food stalls for Malikh Family, he wasn’t a stranger at cooking rendang. But he already gave up on finishing one for tonight’s Ngajen Ceremony. 
 
 “Uncle, I’ll take it from here,” Bhela said as she approached the weary old man.
 
-“Ahh, yes?” the old man was started. The girl came with an apron and common garment. She looked like she came from the outer family but it was clear that she wasn’t. No matter how oblivious the old man was, when facing the famous cold beauty everyone had been talking about, he instantly knew her real identity.
+“Ahh, yes?” the old man was started. The girl came with an apron and common garment, had fair and beautiful skin, as well clear and articulate voice; a maidservant from the inner family was the first one that came to his mind. But only when he noticed even the aunties were respectful to her and her striking bob-cut short hair that the old man began drenched in cold sweat.
 
 “I said, uncle,” Bhela repeated, “I’ll take it from here. You can rest now.”
 
-The old man hesitantly shook his head.
+The old man vigorously shook his head.
 
 “Please Young Lady Bhela… please spare this old bone….”
 
-“This is originally my father’s post, uncle. At least a status of an elder would be needed to be his substitute in case of him can’t cook for the ceremony.”
+“This is originally my father’s post, uncle. You’ll have to be at least an elder and write your name in council’s ledger to be a substitute for my father.”
 
-The old man began to tremble. Even worse than when he faced Elder Jhamil’s son harassment before. Some people in the family council might know the trick Elder Jhamil was pulling to insert an outer member like the old man to cook. However, if the matter to be spoken for the entire family to hear, from the one and only Young Lady of Malikh Family nonetheless, the old man knew the result would be as scary as Elder Jhamil’s threat. Because of that he didn’t know what to do. He had forgotten the coconut and the shredder in his hands as he was busy scared over his fate instead. Seeing that the old was frozen, Bhela Malikh proceed to grab the cooking lid and told the aunties and the maidservants in the kitchen about her plan.
-
-“I brought some spices from faraway land with me and some dried curry leaves. I want to make chicken curry for tonight’s main course instead. Please tell someone to butcher some chicken immediately, and you--” Bhela pointed at the youngest maidservant in kitchen, the same age as she was, “--please go to my room and pick the yellow box on the drawer. It’s beside the bed. Sniff for spices’ aroma to be sure.”
+The old man wanted to break into a tearless cry. This is worse than when he faced Elder Jhamil’s son's harassment before. The most thing he was afraid of was the news of Elder Jhamil using him as Chief Chef behind the scene to reach the ears of the main family. And now that Bhela Malikh was here, there was nothing he could do but to resign his life to fate.
 
 “Y-young lady!” a maidservant yelled, “you can’t!”
 
 “Who says I can’t?” Bhela asked sharply.
 
-An aunty, who had a stern-looking face, said, “You can’t cook for the main course, young lady. In case of patriarch’s absence, usually one of the elders who’s going to take his place. There’s no rule saying it’s okay for women to do it.”
+An aunty, who had a stern-looking face, said, “You can’t cook for the main course, young lady. In case of a patriarch's absence, usually one of the elders who’s going to take his place. There’s no rule saying it’s okay for women to do it.”
 
 “Then, I’m going to ask,” from the aunty, Bhela threw her glance toward the old man, “are you an elder cooking here to substitute my father as a cook, uncle?”
 
-The old man’s face turned pale. There was no point to ask him that kind of question. Everyone in the kitchen already knew the answer. There was no one with a real authority there to stop Bhela Malikh from doing what she wanted to do.
+The old man’s face turned pale. Whichever the answer of that question would lead him to the road of punishment. All of the sudden, he became a mute.
 
-Sure enough, from the mouths of the aunty and the maidservant who fetched the chickens and the spices for her, not long after that, the story about how the Young Lady of Malikh Family wanted to substitute her father spread like a wildfire. Never happened in Badril Village’s history a daughter would do that. A crowd of curious males, mostly the youngsters from main and outer of Malikh Family, surrounded the kitchen as they wanted to catch a glimpse of how their beautiful young lady recklessly challenge the custom by her own. The boys sighed in admirement. Bhela Malikh was essentially an Archer at heart. But the way she handled a blade, even if it was a kitchen knife, was skillful and graceful, as every time her slim wrist stopped moving from cutting down a vegetable, a wave of gulping could be heard. The boys couldn’t take their eyes from her. The reckless and brave young lady was simply too charming.
+Because she had the most standing, nobody made a sound when Young Lady Bhela Malikh asked them to fetch chickens and spices for her.
 
-“Young lady!” from the crowd came out an angry bald man. He was Elder Jhamil. “W-what are you doing there?” the elder continued with a balked expression.
+Not long after, the story about how the Young Lady of Malikh Family wanted to substitute her father spread like a wildfire. Never in Badril Village’s history would a young lady do that. A crowd of curious males, mostly the youngsters from main and outer of Malikh Family, surrounded the kitchen as they wanted to catch a glimpse of how their beautiful young lady recklessly challenged the custom by her own. The boys sighed in admiration. Bhela Malikh was essentially an Archer at heart. But the way she handled a blade, even if it was a kitchen knife, was skillful and graceful, as every time her slim wrist stopped moving from cutting down a vegetable, a wave of gulping could be heard. The boys couldn’t take their eyes from her. The reckless and brave young lady was simply too charming.
 
-“I’m working,” Bhela said.
+“Did you know that foreigners often confuse rendang as dried curry?” Bhela said to one maidservant who stared at the way she cooked. “Curry leaves originated from an area close to western Haldeen lands, so many local Mossacks sailed the sea to try their luck making it big working for western empires.”
 
-“But you can’t work there!” Elder Jhamil yelled. “No women can substitute for patriarch! That’s against the rule!”
+The usual aloof Bhela unusually was talkative when she was cooking, which was quite a big surprise for people who were watching. She explained to the clueless maidservants how, during her two years travelling in seminars from countries to countries, found many noble owned restaurants claimed to serve rendang but turned out to be dried curry. All the while sharply focused on doing her cooking duty.
+
+“Young lady!” from the crowd came out an angry bald man. He was Elder Jhamil. “W-what are you doing there?”
+
+“I’m cooking,” Bhela said.
+
+“But you can’t work there!” Elder Jhamil yelled. “No woman can substitute for patriarch! That’s against the rule!”
 
 “I don’t recall we have a rule like that.”
 
-“It’s there, you’re just too young to know it!”
+“If you know why you still stand there?”
 
-Bhela wasn’t afraid to show her frown. She said, “No point of talking about rules when they clearly broken for profit for a certain individual and his group. That’s just underhanded. Besides, two generations before my father our Malikh Family was led by a matriarch. She raised our family as one of three major families of Badril Village. I’m sure by the Mossack tradition standard, especially in this village, no decent leaders can hold their positions if they don’t take the main stage during ngajen ceremony. That matriarch had to be at least the best cook in the village to be able to expand our Malikh Family at the time.”
+“Neither do I recall a rule for an elder to use a stand-in for the Chief Chef position.”
 
-She was sure the so called rules of women not being able to substitute for the patriarch, only something Elder Jhamil conjured out of thin air as he freaked out his scheming of using an old cook being found by her.
+Elder Jhamil’s face turned weird as if he suddenly got constipated. Many of the youngsters didn’t catch Bhela’s remarks nor they cared too much about it, but some in the crowd were nodding knowingly, as many of them were familiar with how shady Elder Jhamil was doing things.
 
-Elder Jhamil was tongue-tied. He didn’t expect the young lady, who usually behaved herself, would fight him over this matter. He knew he was clearly in the wrong here. He knew he had a weakness since most likely, from how she dressed herself commonly as if she had been working in the kitchen all day, Bhela Malikh witnessed how the old cook he planted being forced to cook for the ngajen ceremony’s main course. If his opponent was an ordinary elder then Elder Jhamil knew a handful of tricks to make them submit. But now he was facing the one and only Young Lady Bhela Malikh--on top of just returned from abroad and had a ridiculous amount of fame and admirers, she recently showed a brilliant talent that it’d hard to measure her future potential. Blatantly crushing her would be no good for Elder Jhamil. A socially-suicide move, even. No matter how arrogant he was, Elder Jhamil knew this time that he had to step back from being to pumpous in his dealing.
+As the bald elder’s head was racing fast looking for an answer to defuse the young lady’s claim, suddenly, a loud roar exploded behind him.
 
-Unfortunately, a certain tyrannical young elder, the son who happened not as sophisticated as his father, yelled, “Young Lady Bhela, who do you think you are? Just because your father is the family’s patriarch you think you can do whatever you want?”
+“Young Lady Bhela, who do you think you are? Just because your father is the family’s patriarch you think you can do whatever you want?!”
 
-The faces of aunties and the maidservants twitched. They witnessed how the young elder harassed the old man before, so they were itching to throw back the same question at him instead. No one dared to, though. They kept their mouth shut to avoid troubles.
+The faces of aunties and the maidservants twitched. They witnessed how the young elder harassed the old man before, so they were itching to throw back the same question at him instead, though no more brave aunties dared to cause more troubles.
 
-Thus Elder Jhamil’s son continued, “The ingredient for making Chief dishes takes money, young lady. Not even the patriarch himself has the daring to use coins from the treasury for himself. Do you want to embarrass your parents that much?”
+Elder Jhamil’s son continued, “The ingredient for making Chief dishes takes money, young lady. Not even the patriarch himself has the daring to use coins from the treasury for himself. Do you want to embarrass your parents that much?”
 
-“I’m not making this food for myself nor I cook for my father. It’s for the guests. And I provided the spices and the foreign curry leaves by myself,” Bhela said. Ethically speaking, if the food she’d make was for the guests to eat, then there was no need for her pay the ingredients for herself. 
+“I’m not making this food for myself nor I cook for my father. It’s for the guests. And I provided the spices and the foreign curry leaves by myself,” Bhela said. Some maidservants behind her nodded nervously as Bhela indeed ordered them to fetch spices from the personal kitchen in the main family’s residential area.
 
 In spite of that, the young elder kept pushing on with nasty smile on his face.
 
-“Oh, don’t get me wrong, I’m not talking about cheap spices. I’m talking about the chicken you asked to be butchered! They cost money, young lady! What do you say about that, huh?”
+“What about the chicken, young lady? They cost money! What do you say about that, huh?”
 
-Bhela blinked. She was dumbfounded. Not because she was dumbfounded by the young elder’s intimidation but because of his sheer stupidity. 
+Behind Bhela, the aunties, even the maidservants, were whispering at each other on how ridiculous it was to question the sole young generation of Malikh Family main bloodline over some chickens. Even Bhela, the young lady in question, would only glanced at the troubled expression of Elder Jhamil.
 
-In front of the crowd, no sane person with a title of an elder would recklessly raise his voice against a member of main family, the sole young lady at that. Apparently, the young elder couldn’t hold back his anger when he realized Bhela was there to see how he cheating the old cook, playing dumb and waiting for a moment to make him lost his face--at least what he thought.
-
-Bhela Malikh didn’t glare. Not even annoyed. But her eyes were sharply stabbed at the sneaky bald elder, the father, who immediately taking a few subtle steps back, acting like he had nothing to do with this. It seemed to Bhela that even toward his son Elder Jhamil was a calculating man. It was really obvious. By letting his son barking at her, he thought he could make the young lady behave a little. Then he’d wash his hands clean by berating his son with good words, or maybe, taking back his new elder’s position just to be sure. His own son merely a pawn for him. 
-
-While his son yelling loudly, Elder Jhamil gloated. He thought giving a scare to a fifteen years young lady was a good idea. He’d grasp the situation faster that way. Unfortunately for Elder Jhamil, Bhela Malikh wasn’t anything like girl he thought she was.
-
-“I will pay for the chicken,” Bhela said.
+“I will pay for the chicken,” she said.
 
 “Ha? Pay? With what? Your father’s money? Can’t a sick person even pay the cost of the foods for ngajen ceremony all by himself?”
 
-“No need to bring my father’s name here.” Although the expressionless on Bhela’s face still didn’t change, her voice creepingly cold, her eyes dangerously even colder. Mentioning her unfortunate father was the bottom line. “I got a dress as a gift from a certain person who has too much money in his pocket,” she said. “He said the dress is so valuable even the princesses wear it in parties. So if I sell the dress it should cover the cost for some chickens.” 
+“No need to bring my father’s name here.” Bhela said with a dangerously cold tone.
 
-Bhela tilted her head and glanced at the bald elder.
+The chillness in her eyes was telling that she really did hate people bringing her parents’ name in bad faith. After hearing gasps of surprise from people that didn’t expect the usually silent young lady could utter something with such a biting tone, she sighed, said with an explanation, “I got a dress as a gift from a certain person who has too much money in his pocket. He said the dress is so valuable even the princesses wear them in parties. It should cover the cost of these chickens I’m going to cook if I sell the dress right here right now.”
+
+Bhela then tilted her head and glanced at the bald elder.
 
 “Am I right, Elder Jhamil?”
 
-Elder Jhamil wanted to maintain his smile, but his face went stiff as stone. He was trembling inside for knowing that the dress he acquired with a large sum of money and with his best connection, valued merely as some village chickens in Bhela’s eyes.
+Elder Jhamil wanted to maintain his smile, but his face went stiff as stone. He was trembling inside for knowing that the dress he acquired with a large sum of money and with his best connection, valued the same as some mere village chickens in Bhela’s eyes.
 
-“Ha! Did you not train your brain when you were overseas, my young lady?” Elder Jhamil’s son scoffed so loudly he even startled his father who stood near him. “The same dress princesses wear in parties? Only someone dumb believe that! Hah! It’s as clear as day you’ve been lied to! You’ve been crooked, young lady, crooked--”
+Meanwhile, his son, who was taken aback for a bit from the cold remark Bhela had said earlier, recovered, began to yell again, “Ha! Did you not train your brain when you were overseas, my young lady? The same dress princesses wear in parties? Only someone dumb believe that! Hah! Obviously you’ve been lied to! You’ve been crooked, young lady, crooked--”
 
 _Paak!_
 
@@ -294,89 +230,39 @@ From behind, the already red-faced Elder Jhamil smacked his son’s head. “You
 
 While in fact it was him who couldn’t bear to hear being called a crook. 
 
-That didn’t amuse Bhela, however. With the lid in her hand, Bhela scooped boiled water in splashed it in the direction of the annoying pair father and son. Surprised, the stupid young elder swore with nasty words while his father cried in high-pitched voice.
+“Apologize!” Elder Jhamil roared.
 
-“Please get out,” Bhela said coldly.
+_Splash!_
+
+The pair father and son’s performance didn’t amuse Bhela, however. With the lid in her hand, Bhela scooped boiling curry broth and splashed it to their direction. Surprised, the stupid young elder swore with nasty words while his father cried in high-pitched voice.
+
+“Please get out,” Bhela said.
 
 Elder Jhamil laughed wryly.
 
 “Please don’t be like that, young lady. I know my son doesn't have the best education but--”
 
-_Splash!_
+_Splash!!_
 
 Bhela waved the cooking lid once again as soon as Elder Jhamil stepped forward. The hot water splashed on his expensive boots. This time, while he didn’t expect for Bhela splashing hot water at him again, he wasn’t freaking out. It seemed his plan to make the young lady behave a little backfiring instead. His face turned solemn.
 
 “Young lady…”
 
-As the sole daughter of the Malikh Family patriarch, Bhela Malikh felt she needed to exercise her right to make one or two political statements. She said, “Elder Jhamil, although there is no rule that states I can’t use the family’s treasury funds to cook for ngajen ceremony, this time, I’ll use money from my own pocket to cover the costs of my own cooking per your son’s request. In return, I want a small favor, Elder Jhamil. I recall there’s at least three elders who are more senior and more capable than you to substitute my father. But since you _generously_ attend the position to cook for important guests, it seems the elders I mentioned can’t take the Chief Chef position, no? In that case, while it’s a bit unconventional, I’d like to substitute for my father who unfortunately can’t be here for us. I’d like to cook with my own recipe instead the position of Chief Chef taken by an elder who’s too busy to _personally _come to the kitchen. Can you relay the message to other elders in charge?”
-
-The room immediately came to an uncomfortable silence right after Bhela Malikh finished her words. Even the dumbest maidservant knew the subtle rebellation behind what had been said. Thus the women showed trouble expressions as they looked at the determined young lady’s face. The arrogant young elder wanted to argue, but his father Elder Jhamil gripped his shoulder to make him shut his mouth up.
-
-“Since there’s a kind noble comes hundreds of miles away to come here and meet you, I guess you want to personally cook for him, am I right?” Elder Jhamil said with a smile, sour smile. “If that makes Young Lady Bhela happy, I guess we can bend some rules a little bit.”
-
-Bhela calmly bowed her head and said, “Thank you, honorable elder. I’ll be in your debt.” By the time she raised her head, her face immediately went colder, and she continued, “now, please get out from here.”
-
-Elder Jhamil snorted and he turned, waving his hands to gather his men. 
-
-Aunties and maidservants timidly made way for them as they retreated with naked dissatisfaction on their faces. They were horrified. Bhela still had a bright future for her, they were worried to see her making enemy with an influential elder in the family. 
-
-Not long after that, Bhela received the chickens she wanted, along with the spices from her room, and she began to cook chicken curry.
-
-“Mmm…” Bhela mumbled as she tasted the thickening broth. Beside her, an obedient little maidservant, the same who fetched the spices from her room, was waiting for the next instruction from the young Chief Chef. “Try this,” Bhela told her.
-
-The maidservant received a few drops of the brooth on her back hand, licked it and then her eyes glistened immediately.
-
-“Good?”
-
-The maidservant raised her head and looked at Bhela. She nodded, and Bhela nodded back at her. After than Bhela continued to stir the bubbling simmered chicken curry.
-
-“Did you know,” Bhela said, “that westerners often confused _rendang_ as dried curry?”
-
-“You learned that while you were away, young lady?” the maidservant asked.
-
-Bhela replied with a nod. She said, “Curry and _rendang_, they almost the same but they are different. Curry originated in the southest of the south and their turmeric, for example, is completely different than ours who rooted from our southeast Mossacks ancestors. You change one of these spices and the food you cook would end up completely different foods. Although these two cuisines share the same bases such as meat and coconut-milk, they’re still completely two different delicacies one should have eating at least once in their lifetime.” Bhela thought the curry she made ready to serve, so she gestured the maidservant to pick some high-quality ceramic plate to pour it on. “People in the west, though,” she continued on, eyes on the curry, “can’t eat _rendang_ with dry sauce. Two years living oversea I only ate wet _rendang_, it just different for my tongue. They should’ve make original curry instead.”
-
-The little maidservant blinked. The Young Lady of Malikh Family she remembered two years ago was cold and aloof, she didn’t expect her to talk so much about _rendang_ and before too, she talked a lot to trash Elder Jhamil and his son.
-
-When they saw the contrast of their young lady’s personality, the aunties were appalled. they whispering with each other. One of the aunty said, “Whenever the young lady talks a lot, you know she’s real mad.”
-
-Muffled gasps could be heard across the kitchen. The new maidservants who weren’t that familiar with Bhela Malikh nodded absent-mindedly as if they had a shocking revelation.
-
-Bhela pretended not to hear that, despite her sharp perception catching all the sneak whispers passing around in the kitchen. She was occupied occupied with filling the ceramic plates with hot chicken curry, when suddenly, a rare smirk flashed on her face.
-
-“S-something wrong, young lady?” the little maidservant asked.
-
-“Ah, no. It’s just this curry remind me of my dear friend who likes eating a lot.”
-
-_Gasp!_
-
-This time, the aunties didn’t bother to muffle their surprised gasping.
-
-“F… f…” the pudgy aunty muttered with trembling lips, “friend?”
-
-“Young Lady Bhela finally has a friend?”
-
-“But that imposs--”
-
-That even ruder than Elder Jhamil’s son talking crap. The maidservant who said the last words immediately cover her mouth with her two hands, scared when her eyes met with Bhela’s sharp gaze.
-
-Once again, as the model Young Lady of Malikh Family, Bhela Malikh was big-hearted enough to pretend not to hear that. She continued filling the plates as if the aunties’ gossip was none of her business.
+“I’m not going to say it thrice--everyone who has nothing to do in the kitchen, please get out,” Bhela said. “Or else--”
 
 ***
 
-Not long after the commotion happened in Malikh Family’s kitchen, Shira and Mila, the only guests coming as the scions of Yashura Family, arrived at the Malikh’s main gate.
+The major families’ lands were astonishingly spacious and complex, their walls were thick and tall, therefore each of them employed a few stationary guards for the main gate as gatekeepers. These gatekeepers, though usually filled by members of the outer part of the families, their duty were significantly more important than others since they represented the face of the family they served. So they always maintain polite gestures to everyone who came through their gate, either commoners or rich people from big families. Yet when Shira and Mila arrived the Malikh Family’s gatekeepers didn’t even hide their scoffs.
 
-The major families’ lands were astonishingly spacious and complex, their walls were thick and tall, therefore each of them employed a few of stationary guards for the main gate as gatekeepers. Usually the gatekeepers would greet the guests from other big families with beaming smiles and slippery flattery gestures. However, Malikh Family’s gatekeepers on duty stared at Shira and Mila coldly. One of the gatekeepers even snorted when his eyes met with Shira’s. 
+“Ridiculous!” she hissed with a face boiled in anger, “even lowly gatekeepers are looking down on us!”
 
-“Ridiculous!” she hissed with face boiled in anger, “even lowly gatekeepers are looking down on us!”
+“Don’t bother with them,” Shira said. Unlike his cousin’s furious temper, his flair seemed like he shrugged the blatant disrespect, as the holder of “Eternal Novice” title he was already numb by how people were talking behind his back.
 
-“Don’t bother with them,” Shira said. Unlike his cousin’s furious temper, his flair seemed like he shrugged the blatant disrespect.
+“If your father was here they’d bow their asses as soon as they saw us Yashura coming.”
 
-Mila crossed her arms. “Hmph. You should’ve bring that sword, I saw this coming miles away. If your father was here they’d bow their asses as soon as they see us Yashura coming.”
+Shira shrugged his shoulders again.
 
-Shira shrugged his shoulders.
-
-Still seething in anger, Mila cast her eyes on the banana leaves wrapped food in Shira’s hands. “Who should we give the _rendang_ to?” she asked.
+Still seething in anger, Mila cast her eyes on the banana leaves wrapped food in Shira’s hands. “Who should we give the rendang to?” she asked.
 
 “Let’s just give it to a random servant.” Then Shira called a maidservant who was carrying a tray full of food. “Excuse me!”
 
@@ -384,80 +270,211 @@ Still seething in anger, Mila cast her eyes on the banana leaves wrapped food in
 
 “The fuck?!” Mila was flastergabbed, didn’t know what to say.
 
-Later on Shira and Mila realized how unpopular Yashura Family was to the current Malikhs, even the servants who usually held no voice in the family were avoiding the pair of cousins like plague. Their attitude especially worsen when it came to Shira Yashura.
+Later on Shira and Mila realized how unpopular Yashura Family was to the current Malikhs, even the servants who usually held no voice in the family were avoiding the pair of cousins like plague. Their attitude especially worsened when it came to Shira Yashura.
 
-“Look there,” someone whispered amongst the guests, “Yashura Family send their eldest young miss and the young master! Are they drooling to get another Unique Class after knowing our Young Lady Bhela’s real talent?”
+“Look there,” someone whispered amongst the guests, “Yashura Family send their eldest young miss and the young master! Out of all the Ngajen Ceremony, they choose tonight to show their faces--pretty obvious, eh? Bet they’re drooling to get another Unique Class after knowing our Young Lady Bhela’s real talent tonight!”
 
-Someone else agreed and replied, “With that kind of trash as their young master, Yashura Family would be dreaming to get Young Lady Bhela to their side. Pueh!”
+Someone else agreed and replied, “With that kind of trash as their young master, they’d be dreamin’ to get even a touch of our Young Lady Bhela. Pueh!”
 
-Hearing the muffled whispers, Mila Yashura’s brows twitched. She whirled her body, glaring people with eyes of eagle. “Who said that?!” she growled.
+Hearing the muffled disdain, Mila Yashura whirled her body, glaring people with eagle eyes. “Who said that?!” she growled.
 
-“Mila…” Shira held her shoulder back. 
-
-Mila scoffed as her face turned fiercer.
+“Mila…” Shira held her shoulder.
 
 “The fuckers don’t even put our Yashura Family in their eyes. Just because shitty rumors about Unique Class they started to feel high and mighty, eh?”
 
-“Just let go, Mila,” Shira said. He showed the banana leaves wrapped _rendang_, then continued, “let’s give this _rendang _to them and get out of here. All we need to do is to show our faces here and give them our _rendang_. Whether they received it or not, that’d be an issue for Uncle Shuro to think about another day.”
+“Just let go, Uncle Shuro didn’t send us here to start troubles,” Shira said. “All we need to do is to show our faces here and give them our rendang. It’s not our problem whether they welcome our good intention with grace or not.”
 
-Though Shira said that, he secretly hoped for Malikh Family would grow too proud to receive it so he had an excuse to eat his uncle’s _rendang _for himself. He didn’t have to worry about what to eat for tomorrow’s breakfast that way.
+Though Shira said that, he secretly hoped Malikh Family would grow too proud to receive it--all so he had an excuse to keep his uncle’s rendang for himself.
 
-A commotion arose. People hussing here and there with excitement. When Shira and Mila wanted to know what was going on, a parade of beautiful young women glittering and stealing the whole show came from inside of Malikh Family’s hall. Leading them was a short-haired young beauty, face as icy as an ice sculpture, the recent name that everyone had been talking about these days, Bhela Malikh. These young women brought ceramic plates food with them, as if they were announcing themselves as the followers of Malikh Family’s tonight Chief Chef.
+A commotion arose. People hussing here and there with excitement. When Shira and Mila wanted to know what was going on, a parade of beautiful young women glittering and stealing the whole show came from inside of Malikh Family’s hall. Leading them was a short-haired young beauty, face as icy as an ice sculpture, the recent name that everyone had been talking about these days, Bhela Malikh. 
 
-“Whoa, so Malikh Family let her do that,” Shira murmured. They were the same age but all he did was helping some uncle hunter to butcher some goats. Sole daughter of the patriarch to present herself as the Chief Chef of ngajen ceremony was unheard of. The sight made people talking about various things. The boys--the horny boys with wolf pelts--were over the moon looking at her grace, while the girls--the likes of Mila Yashura--hissing endless curses of jealousy with sneaky low voices. Most older people only shook their head, thinking the arrangement was a bit inappropriate, though some felt it wasn’t that unreasonable for Malikh Family to be too excited after knowing a Unique Class appeared in their family.
+It was clear from the way Bhela positioned herself she represented the family as the ceremony’s Chief Chef.
 
-“Sup, young master!” from behind a voice called him. Shira turned around, found the one who greeted him was a monkey-like faced man, Monkey.
+“Whoa, so Malikh Family let her do that,” Shira murmured. 
 
-“Who?” Mila asked Shira.
+Not to mention being the Chief Chef--the most Shira did in his family’s kitchen was helping his uncle, helping him shred coconuts. They were at the same age, but the same old Shira still practiced butchering goats while the supposed fiancée of his was climbing the social ladder. Even Mila was angry by the special treatment Malikh Family gave to their young lady.
 
-“This one is called by the name of Monkey, young lady,” Monkey, with his self-trained Mossack’s style bowing gesture, introduced himself smoothly. Minus his awkward shaped face, this guy actually had a good social skill. Mila nodded weakly as she didn’t put any effort to print him in her mind. With that combination of face and awkward name, it was harder to forget than putting effort to remember someone like Monkey.
+“Sup, young master!” from behind a voice called him. 
 
-“Mister Monkey, I thought you’ll spend the ceremony to show Mister Snake around since he’s a foreigner. What are you doing in Malikh Family?” Shira asked.
+Shira turned around, found the one who greeted him was Monkey.
 
-“Now, now, please drop the ‘Mister’, young master. I’m not that old yet to be called as such,” Monkey said, then he continued explaining his situation. “We were planning to go to your family’s ceremony, young master, but then Snake met with his relatives. Who would have thought the relatives actually Malikh Family’s guests for tonight’s ngajen ceremony? He’d gone chatting with his family right now.”
+“Who?” Mila asked Shira as the stranger with a monkey-like face approaching.
 
-Mila butted in and asked Shira, “You have some business to attend, no?”
+“This one is called by the name of Monkey, young lady,” Monkey, with his self-trained Mossack’s style bowing gesture, introduced himself smoothly. 
 
-“Not really,” Shira replied.
+Mila hummed in ackwnoledgement. It was harder to forget than remembering someone with such combination of face and awkward name.
 
-“Really, though? I saw Romana just now. I’ll chat with her a bit. You’ll do your thing, okay?”
+“Mister Monkey, I thought you’ll spend the ceremony to show Mister Snake around since he’s an outsider. What are you doing in Malikh Family?” Shira asked.
 
-It seemed to Shira that his cousin meeting with Romana here, in Malikh Family’s ngajen ceremony, was not to have fun. He didn’t like it but he didn’t have the right to stop Mila either. “Don’t go home without me,” he said.
+“Now, now, please drop the ‘Mister’, young master. I’m not that old yet to be called as such,” Monkey said, then he continued explaining his story this evening. “We were planning to go to your family’s ceremony, young master. But who would have thought Snake to meet with his relatives here? His relatives are actually Malikh Family’s guests for tonight’s Ngajen Ceremony. Bet he got to eat expensive cuisines right now.”
+
+“Well, it’ll be easier with Mister Snake here. I’ve got some coins I want to show you, I wonder if it works to use them for--” Shira sneakily glanced at his cousin, then turned back to Monkey like it was nothing, “--for the thing we talked about yesterday.”
+
+Mila sneered, “You have some business to attend, no?”
+
+“Not really, no,” Shira shrugged off her question.
+
+“Really, though?” Mila crossed her arms, sneered again. “I think I saw Romana just now. I’mma chat with her a little bit.”
+
+It seemed to Shira that his cousin meeting with Romana here, in Malikh Family’s Ngajen Ceremony, wasn’t simply to have fun. He didn’t like his cousin would make trouble but he didn’t want to spend the whole night with her either. “Don’t go home without me,” he said eventually.
 
 “Hmph! You’re not a kid anymore but still need me to accompany you home?”
 
-No, Shira actually more worried about her than himself. Mila went without a care, waving her hand as soon as Romana saw her on the opposite side of the crowd.
+No, Shira actually was more worried about her than himself.
 
-Glancing beside him, Shira called, “Mister Monkey.”
+He then glanced beside and said, “Mister Monkey.”
 
 “Just Monkey,” Monkey corrected.
 
-“Mister Just Monkey, you said Mister Snake with relative? Where is he?”
+“Mister Just Monkey, you said Mister Snake with relative? And his relatives are Malikh Family’s guests?”
 
-“Not Just Mon--ah, forget about it,” Monkey already gave up guessing whether Young Master Shira Yashura was purposely pulling his leg or not. With his thumb he pointed at a certain direction. Shira’s eyes followed and he saw the familiar Alchemist he knew not long ago, Snake, was talking with two men, young and old, most likely brother and his grandfather. They wore worn out pale robes as their clothes, unlike the image of revered experts in Shira’s mind. The old man who likely to be Snake’s grandfather had an old white hair and long beard. He supported his crooked back with a walking staff and the light in his eyes were dim, giving people an expression of sleepy old man. The young one though, had an always angry-looking face with fierce brows, crossing his muscle-thick arms, locked in a debate with Snake. Snake’s face paler than when Shira met him in the market.
+“Not Just Mon--ah, forget about it,” Monkey already gave up guessing whether Young Master Shira Yashura was purposely pulling his leg or not. “They really were Malikh Family’s guests, they even got the front row for the prayer and all.”
 
-“We can’t greet Mister Snake now, can we?” Shira murmured.
+“Is hard for us to be friendly if Mister Snake is involved with Malikh Family.”
 
-“I don’t think we can,” Monkey said. Even though he long considered Snake as his partner, the two guests appearing incognito were still the main members of revered Alchemist family. This was no time for commoners like him acting friendly on them all of the sudden.
+“You mean, that, huh? Well, I’ve been here for a while and they talked about you a lot, so I guess even someone as chill as you can get angry sometimes. But you don’t have to worry about those Malikhs, Young Master Shira. As long as their patriarch is Ghalim Malikh they won’t sever ties with Yashura so easily.”
 
-The sleepy-looking old man, noticed two pairs of eyes were looking at him, raised his head. He caught the sight of Shira. Their eyes met.
+“Oh, is this your opinion?”
+
+“It’s Snake’s. It’s what he said before he met his relatives.”
+
+Shira thought the Alchemist he met once before was a total stranger of Badril Village, but it appeared he was wrong. “He really does know about Malikh Family that much, doesn’t he?”
+
+“Well, yeah, but I think he’s more familiar with Yashura than Malikh Family, though,” Monkey said, crossing his arms and nodded to himself as he recalled things that Snake told him to get his wares supported by Yashura Family; for example, obtaining Butler Yulong’s permission the same as Patriarch Shuro Yashura’s, Snake once said.
+
+“What? Why do you make that kind of face, Young Master Shira?” Monkey was snapped from his train of thought.
+
+“Ah, no, I just don’t expect you’re going to say some like that.”
+
+“What are you saying, young master. In the first place, Snake became my crew because he heard I’ve some dealing with Yashura Family.”
+
+Shira did recall the first time Monkey contacted Yashura Family--through him. To be more exact, the first item Monkey dealt from Malikh Family was Shira’s smuggled erotic painting that Good-Natured Spirit rejected.
+
+“--Speaking of Snake,” with his thumb Monkey did point in a certain direction. The place was separated from the common guest as they indeed were Malikh Family’s special guests. Shira’s eyes followed and he saw the familiar Alchemist he knew not long ago, Snake, was talking with two men, young and old, most likely brother and his grandfather. 
+
+“Don’t be fooled by their appearances, young master. They’re renowned experts,” Monkey said.
+
+The pair of brother and grandfather wore worn out pale robes as their clothes, unlike the image of revered experts in Shira’s mind. Monkey told him both likely to travel incognito for various reasons. The old man had an old white hair and long beard, his back crooked and had to bring a walking staff to support himself, and gave people the impression of a sleepy grandpa from the dim light on his eyes. The young one though, had an always angry-looking face with fierce brows, crossing his muscle-thick arms, locked in a debate with Snake. Snake’s face was notably paler than when Shira met him in the market.
+
+“We can’t greet Mister Snake now, can we?” Shira said.
+
+“I don’t think we can,” Monkey said. Even though he long considered Snake as his partner, the two guests appearing incognito were still the main members of the revered Alchemist family. This was no time for commoners like him acting friendly on them all of the sudden.
+
+The sleepy-looking old man, noticing two pairs of eyes looking at him, he raised his head. He caught the sight of Shira. Their eyes met.
 
 “Oh ho,” the old man smiled when he found the boy. He dragged his old body to approach the flastergabbed Shira and Monkey.
 
-“He’s heading this way…” Monkey was unsure whether he voiced it out as a question or not.
+Even Monkey who knew more about them wouldn’t expect Snake’s relatives to introduce themselves first.
 
-“Ah, yes, apparently,” Shira agreed.
+“He’s heading this way…”
+
+“Ah, yes, apparently.”
 
 Monkey gulped. “It’s different with Snake. Although he looked like that, whatever you do, please, young master, you can’t afford to be rude in front of this elder…”
 
-Shira of course knew that. Although Monkey didn’t say much about Snake’s family, he had the general idea that Snake actually hailed from a prestigious family. Even if it was his uncle the patriarch he’d need to bow before a random elder from that kind of family. A young master from a country place like Badril Village couldn’t afford to offend this weak-looking elder. Thus the Young Master of Yashura Family better get his act straight.
+From the nervousness in Monkey’s voice Shira found the approaching old man seemed to hail from a more prestigious family than he originally thought.
 
-“Greeting, elder,” Shira said with his head humbly lowered as soon as he approached. He offered his greeting, asking to kiss the back of the old man’s right hand like any filial Mossack youngsters would do to give respectful greeting for their elders. He did it without any hesitation, which surprised Monkey who had already became a timid ape standing behind him. Kissing an elder’s hand might show the highest form of respect, but if he got rejected, Shira’d make a fool out of himself. Monkey couldn’t be sure whether it was the boy’s own gut or his obliviousness was beyond cure.
+“Greeting, elder,” Shira said with his head humbly lowered as soon as he approached.
 
-Fortunately the old man didn’t reject Shira’s good intentions. Instead, still with a smile plastered on his face, the elder nodded, patting Shira’s head, then said, “Ah, Young Master Shira, look how much you’ve grown. It feels like only yesterday I looked how happy you were running around just like other little kids.”
+The old man chuckled, patted Shira’s head, said, “Ah, Young Master, look how much you’ve grown. It feels like only yesterday how happy you were running around like a little kid you are.”
 
-Shira nodded hearing that. He grinned, a confused grin, then stole a glance to a flastergabbed Monkey behind him.
+Shira nodded hearing that. He glanced beside him, and caught Monkey’s face flabbergasted looking both at the boy and the old man.
 
-So you knew him from the start? That was how the look on Monkey’s face screaming. 
+Hiding his embarrassment behind a fake cough, Shira then tried to understand whether the old man mistook him for someone else. “I’m sorry, elder. I don’t know if I’m mistaken, but, have we met before?”
+
+“Hoho, have we met? Of course we’ve--” he stopped. The old man's eyes were covered by a pair of soft hands of a girl.
+
+“Guess who this is?” the girl who sneakily teased the old man from behind was grinning.
+
+“Oho! Who is this? Who is this?” the old man smiled delightedly.
+
+Both Shira and Monkey were tense watching the scene before them. Especially Shira Yashura, who knew that the grin on his cousin’s face always told that the girl enjoyed herself a little bit too much.
+
+“Isn’t this… Tomboy Princess?” the old man guessed.
+
+“Tuut! Wrong!”
+
+Mila released her hands. When the old man turned to see the preparator, he exclaimed with a chuckle.
+
+“It’s really you, Tomboy Princess.”
+
+Mila excitedly echoed, “It’s really you, Grandpa Piss!”
+
+They were so glad they met after a long time that they started to hug each other. Then Mila pull herself from the oldman’s embrace, yelling, “Ugghh…” she pinched her nose, “I smell something pissy around here.”
+
+Just when Shira and Monkey wondered what Mila meant by that, the girl looked at the old man, saying, “It’s no wonder it smells pissy. Have you taken a bath, Grandpa Piss.”
+
+Grandpa Piss answered with a laugh. But Shira and Monkey facepalmed.
+
+So much for being mindful in front of the revered old expert.
+
+Shira awkwardly smiled to cover his shame. “Mila, you should be mindful in front of elders.”
+
+“Mindful?” Mila gasped. “In front of Grandpa Piss? Why?”
+
+“Hoho, it’s okay, young master,” the old man said as he waved his hand. “I’m not that old to lose my sense of humor. Yashura Family’s princess sure is as naughty as always.” His wrinkles deepened as he curled his lips into a big smile. He said to Mila, “I reckon Patriarch Shuro’s been well, my princess? I recall he got a lot of migraines back in the day.”
+
+Haughtily, Mila replied, “Don’t worry about that guy, Grandpa Piss. His brain capacity has been declining these past years so there’s really nothing left inside to give him any headache!”
+
+“Ehem,” Shira cleared his phlegm. “She meant our patriarch has been well, elder.”
+
+“That’s what I said,” Mila laughed, and the old man laughed too. After that Mila kissed Grandpa Piss’s right hand as if she was kissing an elder’s hand from her own family, then continued laughing as cheeky as always.
+
+“My naughty princess,” Grandpa Piss ruffled Mila’s hair, “I planned to visit Yashura Family later. But since we’ve already met, here, please take this.”
+
+Receiving a pack wrapped in dried leaves, Mila pouted her lips. “You wouldn’t be lying about this being a candy again, would you?”
+
+“Hoho, of course not.”
+
+As far as her memory served her well, what Grandpa Piss called candy actually a really bitter herb for young children to gain their appetite. Mila sniffed. She opened it and have a little taste. “Uuueeekk!”
+
+It was sour and even more bitter than she remembered. “What the hell is this?!”
+
+“That herb’s not for consumption, Young Lady Mila” the big man with muscles, Snake’s big brother, said from behind Grandpa Piss. He was smiling politely despite the other party merely a young lady of a rural village. “It’s a cosmetic for skin care.”
+
+“Skin care?!” 
+
+Mila’s mouth widened agape. But soon as she glanced at the muscle man who was approaching her, she became wary, leaned to Grandpa Piss and whispered, “Grandpa Piss, who’s that?”
+
+With a patient smile replied, Grandpa Piss said, “He’s Snotty. Don’t you remember Snotty?”
+
+Mila was surprised. “Oooohh! Snotty! You’ve turned into a real man now I can’t even recognize you anymore!”
+
+“Haha… you’re surely jest young lady,” Snotty said.
+
+“No, really…” with fingers on her chin, eyes on muscles, Mila added, “you really transformed into something new, Snotty. I’m impressed. You were so skinny and really a snotty boy back then.”
+
+The man continued to laugh. The atmosphere was friendly and harmless. Yet Monkey, who had long heard Snotty’s real identity and preceding reputation from Snake’s mouth, began sweating profusely.
+
+Mila really loved gifted cosmetics and the like. After knowing how effective it was for her beauty, she shamelessly asked, “Can I ask for more, Grandpa Piss? I have a good friend who needs to be a beauty--as soon as possible!”
+
+“Hoho, of course I have more--here, take this,” Grandpa Piss took out another one.
+
+“Waow!” Mila’s eyes sparkled in a weird glint. Shira, who saw that, knew his cousin’s greed began to surface; suddenly the unruly young lady acted as if she was a timid maiden. “Grandpa Piss… I think my other friend needs it too…” she asked sweetly.
+
+“Hohoh!” Grandpa Piss stroked his beard again. “Unfortunately, my princess, I’ve got only three pack and I planned to give the last one for Young Lady Malikh.”
+
+Hearing a certain short-haired girl being mentioned, the shy maiden’s face twisted in an ugly sour face, returned back to her original color. “Tch.”
+
+“Hey, don’t click your tongue in front of elders,” Shira warned her.
+
+“Tch.” Mila crossed her arms and threw away her pouting face.
+
+Shira was always frustrated whenever a younger one like him would be the one to reprimand ethics into this blockhead of a girl.
+
+“Now, now, young lady. Please remember Grandpa’s already too old to concoct too many cosmetics--getting two packs already good enough,” Snotty said.
+
+Snake looked at the leaves wrapped cosmetics in Mila’s hands and exclaimed, “Grandfather concocted them himself?”
+
+Grandpa Piss nodded with an amiable smile. “Of course. Been twelve years since the last time I was here. It’d be embarrassing if I came with half-hearted gifts, don’t you think so?”
 
 ***
+
+<novel-trivia>
+
+The nickname of “Grandpa Piss” stuck on Grandmaster Alchemist’s name for twelve years. When a friend of his asked the origin of this horrible nickname, the Grandmaster laughed it off and said a princess of his old friend’s family started calling him that, because her cousin who was still a three years old brat urinated on him every time the Grandmaster tried to hug him.
+
+Legend said that the princess was also calling the heir of Grandmaster Alchemist’s family with the nickname of “Snotty”. But even to this day, nobody knows which kingdom this cheeky princess comes from.
+
+</novel-trivia>
+

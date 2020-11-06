@@ -2,219 +2,15 @@
 title: Hidden Power in Yashura Family
 ---
 
-Everyone was taken aback by the sudden reveal of Bhela’s true talent, they didn’t realize the magic arrows were actually fatal if they hit Mila.
+<authors-note id="Radhy" type="danger">
 
-_Wyyuuunngg!_
+I don’t recommend reading from here onwards because the chapter below is still from the previous draft, which is different from the previous 4 chapters. Further edits will be made that most likely makes this chapter quite different than the current one.
 
-Unexpectedly, the arrows that should’ve hit Mila suddenly vanished when, out of thin air, four lines of blue ribbon light pouncing at the speed almost as fast as the light itself. The ribbons merely formed with condensed mana, completely harmless to living being, yet when they came into contact with other mana related magic, the clashing mana energies would try to dominate and eat each other in a span duration less than it took to blink an eye. The theory behind it was simple, yet to actually pull it out, would require a great deal of skill. Eventually, the light ribbons canceled Bhela’s magic arrows.
+</authors-note>
 
-“Ah!”
+In a certain hall in Malikh Family’s left wing complex, four people sat idly on the bamboo mats covered floor. They were being served local-specialty ginger drinks mixed with brown sugar with herbs to drink. There were also some roasted peanuts to chew. Despite they dressed humbly when attending the Ngajen Ceremony, three of them were elders with statuses, while one of them, the sword bearing Kaya man, wasn’t anyone to ignore either. 
 
-Mila was so surprised she slipped and fell onto her bottom.
-
-Seeing that Mila still confused about what had happened, Bhela came forward and offered her a hand. “Are you okay, Young Lady Mila? I purposely make the arrows a bit slower so you can dodge them. So I don’t expect you to stand there doing nothing. Please be careful next time.”
-
-Her words, although said with neutral and emotionless tone, was implied as calling Mila a brainless girl by the bystanders.
-
-Mila slapped Bhela’s hand and stood up by herself. Looking at Bhela, she snorted, said, “Damn! What did you give your guests to eat?! My stomach is a little upset so that doesn’t count!”
-
-Before Bhela thought something to say, Shira already came and pulled Mila’s shoulder. “Come on, Mila. You lost. At least admit that before people look down on you.”
-
-Mila knew it was shameless for her to make an excuse when everyone already saw how helpless she was in front of Mila’s skill. Yet, when her eyes met with that cold, proud eyes of Bhela Malikh, the little pride left in her couldn’t bring Mila to say it. “Hmph!
-
-Just when Mila threw away her face, Young Master Frane Blackwood came and said, “Village bums certainly doesn’t have any shame. You certainly don’t have any chance having a standoff with Young Lady Bhela. Why don’t you get the clue and scram back?”
-
-“And who you are supposed to be?” Mila scoffed.
-
-“I don’t have any obligation to tell village bum like you. But I will since everyone is perhaps feeling curious for someone like me came to visit this village,” he faced the crowd and proudly announced, “My name is Frane Blackwood, the eldest and Young Master of Blackwood Family. I came here to payback the favor my family owe to Young Lady Bhela for taking care of my young sister during the seminar these past two years.”
-
-After saying that, the young noble gracefully bowed and kissed Bhela’s hand. The locals of Badril Village who witnessed the gesture a blue noble gave to one of their own made their pride inflated. Surely, even if Young Master Frane Blackwood didn’t explain the reason for his visit, people would still rather a polite, graceful young noble like him getting engaged to the talented Bhela Malikh instead of some talentless boy like Shira Yashura. 
-
-Shira said, “I don’t know if you aware of this, Young Master Blackwood, but my Yashura Family has ties with Malikh Family. Your gesture to Young Lady Malikh might be common in where you’re coming from but here, we don’t have that kind of custom.”
-
-“Who are you?”
-
-Frane Blackwood blatantly didn’t put Shira in his eyes. Because of that, Shira reminded him again.
-
-“I’m the Yashura Family patriarch’s nephew.”
-
-“You’re that Level 3 Novice trash?” the young noble snickered.
-
-Shira decided to ignore than and said unhurriedly, “This is Badril Village. We are very hospitable people. We love to be a host to many kinds of guests. We do, however, never take kindly to guests of the bad kind. It’s best for you not pushing our bottom line.”
-
-The young noble of Blackwood Family chuckled at Shira’s warning.
-
-“Am I supposed to listen to him, my young lady?” Frane asked Bhela.
-
-Bhela said nothing, but she pulled back her hand from Young Master Frane Blackwood’s fingers. As a daughter of Malikh Family’s patriarch, how could she not know the heaviness of Shira’s words.
-
-Seeing Bhela Malikh didn’t answer, a guest came forward and said, “Young Master Blackwood, what Shira Yashura said isn’t exactly true. Even though we have the village customs but we’re still the residents of South Tiramikal Kingdom. What Shira meant is for the foreign commoners to behave, it naturally doesn’t count for good noble like you.”
-
-The villager’s voice was fawning. Shira smiled coldly at him. Thinking back again, Mila was right, all these villagers of upstart families only dared to flaunt around when Yashura Family hiding its claw. Back when his father Jhuro Yashura was here, even the most brazen members of Elzhier Family--who were riding the wind since the Village Head as their patriarch give them benefits and statuses--wouldn’t dare to headbutting against Yashrua Family even for trivial matters. Not to mention this person not from the three big families. He felt the Yashura who revered in the past had lost its dignity.
-
-Frane Blackwood sneered at Shira. 
-
-“You have a way with words, commoner.”
-
-“At least I’ve said what I have to say,” Shira replied as he curled the corner of his lips.
-
-“I’m very interested about a boy who’s supposed to be Young Lady Bhela’s fiancé,” Frane Blackwood said to Shira. “How about this, commoner. I’m a Level 13 Knight. Since your girlfriend propose my young lady to a duel, why don’t we do something to know each other too?”
-
-“I’m his cousin!” Mila corrected. “And are you suggesting you want to know each other? You homo?”
-
-“No, he means a duel,” Shira said.
-
-After he said that, snickers came from the crowd of guests. The didn’t mean to laugh at Mila’s joke, but the thing they found funny was a weak Novice like Shira acting tough in front of a noble Knight who obviously, no matter how shabby his talent was, would definitely be strong with expensive items and equipment.
-
-For a Level 3 Novice trash to accept a duel against a Knight ten levels above him, that was the epitome of courting death.
-
-Blatantly, Bhela Malikh said what everyone wanted to say, “You’re ten levels short against him. And a man with a Class is vastly different than a newbie still in Novice years. No way you’re going to win him in a fight.”
-
-“Oh,” Shira looked at her, “is this Young Lady of Malikh Family show concern to her fiancé?”
-
-“Don’t flatter yourself,” Bhela said without batting an eye. With that, Shira couldn’t help but smile wryly.
-
-Young Master Blackwood smirked, “It’s a shame for Young Lady Bhela has to get engaged with someone like him.”
-
-When the situation about to turn more lively, the expert from Elemental Stone School also couldn’t help but say the same thing.
-
-“Young Lady Bhela is certainly a talent that would come once every one hundred years,” the man from Elemental Stone School said as he approached them on his back. “Getting tied to a rural village like this would definitely a loss for everyone in Tiramikal Continent. I don’t know what the elders of Malikh Family thinking when they gave the young lady into a rushed engagement.”
-
-“I appreciate your concern, Mister Harrington. But my father has his own reason,” Bhela said.
-
-“You’re right, young lady. It is too hasty for me to guess your father’s intention,” the expert quickly took back his previous remark as he nodded amiably. Before, he was arrogant and angry and Bhela had to be polite in front of him. But after witnessing the girl’s true potential, it was his turn to act careful to not upset this young talent named Bhela Malikh.
-
-Young Master Frane Blackwood, on the other hand, was concerned about how Bhela refer the foreign guest. She called him with “Mister” even though his cloth was shabby and not worth mentioning. It was a custom for Mossack people to refer the foreign western ladies with title “Madame” and the title “Mister” for the foreign western men, granted they had a certain degree of status and dignity.
-
-The Elemental School Stone expert’s companion, the middle-aged woman, also came to give her point of view, “Why don’t we use the duel as a test to see whether this young man worthy of being a fiancé of a Unique Class with unprecedented four elemental-affinity Archer?”
-
-“This is my family’s matter, Madame Sylvia,” Bhela’s voice became a little stern.
-
-“Not to say I want to meddle with your family’s affair,” the woman said. “But from the place where I come from a duel can be used to fight over a woman. Even myself married to a guy who had defeated my ex-boyfriend.”
-
-Bhela didn’t say anything after that. The three revered guests, however, hoped Bhela to use this opportunity to ditch her hopeless fiancé. Married to a family in this village surely would harm Bhela Malikh’s future.
-
-It was then, another person came up to join the little conversation. This person, a buffy man with a hearty laugh, patted Shira’s back as soon as he arrived. “Getting too lively, are we?” Snotty said.
-
-“Young master!” the pair Mister Harrington and Madame Sylvia greeted Snotty with their head lowered.
-
-Snotty nodded at their greeting with a smile. Then he glanced at Mila and said, “Are you okay, young lady? Losing against a Unique Class with four elemental-affinity isn’t that shameful. Young Lady Mila, please don’t cry….”
-
-“Do I looked like I’m crying?!” Mila hissed.
-
-Snotty laughed again.
-
-“I recalled I hear something like a duel for Young Lady Bhela’s favor,” he looked at Bhela’s two guests, the ones who had dissent on Shira’s and Bhela’s engagement. Then his eyes moved toward the young noble who arrogantly dressed himself better than his host, a trait which Mossack people didn’t like. He continued, “I reckon you feel good about yourself, young man, acting tough while only dare to fight a junior ten levels behind you.”
-
-Frane Blackwood saw the two Mister and Madame acted respectful toward this muscle man. So he said cautiously, “This is not something an outsider should meddle.”
-
-“Oh, I’m not exactly an outsider though. Young Lady Bhela’s great-grandmother asked my family’s help to treat Patriarch Ghalim Malikh’s illness.”
-
-Hearing her father’s had been treated, the light on Bhela’s eyes moved. “How is my father’s condition, young master…” she hesitated since she didn’t know his name.
-
-“Call me Snotty, young lady,” Snotty said with an apologizing smile. “As for your father’s illness… my grandfather has checked him and we might need your great-grandmother’s pointer to continue.”
-
-“Oh…”
-
-“Please don’t be sad, Young Lady Bhela,” Snotty took out something from his pocket, “this is a cosmetic my grandfather’s personally made. Please accept it as a token of our apology.”
-
-Young Master Blackwood didn’t like seeing Bhela receiving gifts from another man. A disatisfied snort rang out, not from the young noble, but from Mila Yashura. Shira immediately whispered beside her to keep her mouth shut.
-
-“Young master,” the woman called Madame Sylvia approached Snotty, “you coming here, perhaps, are interested in participating the duel?”
-
-“Haha, please don’t tell a joke, Madame. I’m twenty seven and already married with a baby son!”
-
-Mila gasped. “You’re married?”
-
-“Sorry to disappoint you, young lady. You’re too young for me so I go ahead marry a girl with a beauty you wouldn’t believe, haha!”
-
-“Ueeekk!” Mila groaned in disgust. Who wanted to marry this muscle man? But Snotty’s laughter became more hearty by the minute.
-
-“Anyway,” Snotty looked at Shira, “young master, do you think you can fight against this pompy young noble?”
-
-“I can fight. But I’d lie if I could win,” Shira said.
-
-“How about two months for now?” Snotty asked again.
-
-Shira nodded. Honestly, if he didn’t have to fight, that’d be great. But he couldn’t refuse on his own. If people thought he was afraid of accepting the duel, the one who disgraced would not only him, but also Yashura Family behind him.
-
-And just like that, the duel between Shira Yashura and Frane Blackwood settled in two months. The two experts Bhela invited also wouldn’t say anything as long as Snotty handled the affair. Still they thought two months would be a waste of time, since there was no way for a boy of fifteen years old would catch up in ten levels merely in two months. Even if Shira could manage it somehow--which they felt impossible--there was no guarantee for him to get a combat Class after he graduated from Novice. Considering the opponent was a Knight, which might be experienced in duel combats due to the nature of his Class, Mister Harrington and Madame Sylvia exchanged glances and shook their head at the same time; any chance for this young master of Yashura Family standing proud after the duel was nill. They returned to their seat after the bulky Snotty shouted to disperse the curious bystanders. Bhela Malikh went back to help with the ceremony while Shira and Mila decided they had enough with the Malikhs, they returned back to Yashura Family.
-
-“What the hell is going on?” Young Master Frane Blackwood hissed when there was nobody around him except his adjutant.
-
-“It seems the big man who calls himself Snotty also isn’t in guest list Elder Jhamil invited,” the adjutant said.
-
-“I know that, I know Bhela’s great-grandmother who invited them to treat her father!”
-
-“That’s… did they succeed?” the adjutant asked anxiously.
-
-“No, of course not,” Frane snorted. “Mother assured the poison is incurable. How could a no background family like Malikh succeed on curing something like that?”
-
-The adjutant apologized as he realized his anxious question made the young noble into a bad mood. 
-
-Currently the Young Master Blackwood and the adjutant, along with an obedient servant who standing waiting like a wooden statue, were in a separate room Elder Jhamil provided beforehand--which, naturally, the most extravagant room, the one that supposed the patriarch’s personal use.
-
-Not long after the young noble enjoyed the best meal Malikh could provide, a visitor came knocking, and the obedient servant immediately opened the door before going back to stand like a statue. The visitor was Elder Jhamil’s son.
-
-“Greetings, great young noble!” he excitedly greeted, almost yelling.
-
-“Cut the flattery. Young master doesn’t want to be bothered so you can tell me the business you come for,” the adjutant said.
-
-“My father Elder Jhamil sent me to inform you, that the ngajen ceremony has come to an end. The closing part of the ceremony was us locals sending food to the mountain to give our offering, so that our Badril Village will be saved from haunting Selaqs until the next month.”
-
-The adjutant glanced at the young noble who was eating and couldn’t be bothered with it.
-
-“What your ceremony has to do with us?” the adjutant asked Elder Jhamil’s son.
-
-“It’s like this, sir,” clearing his phlegm, Elder Jhamil’s son continued, “currently, Young Lady Bhela Malikh is coming along with the groups that send the offering to the mountain. However, we somehow heard she has some other plan right after the ceremony ended. The foreigners she invited now are in a hall she booked using her father’s name--it seems she wants to have a private discussion with the foreigners…”
-
-“Private discussions?” the young noble’s ears twitched hearing that. His face changed, and the adjutant also realized it was a bad news for them.
-
-“Young master… apparently Young Lady Bhela wants to offer her talent to the highest bidder…” the adjutant weakly said.
-
-“Shut up! I know what it means!” Young Master Blackwood slammed the dinner table. Still angry, he pointed fingers at the Elder Jhamil’s son face, yelling, “where’s Elder Jhamil?!”
-
-“He’s… he’s leading the elders and priests climbing the mountain,” the elder’s son stuttered, “he said he’d come back in half an hour…”
-
-“Then get me inside the hall where they’re going to have discussion! They absolutely can’t start without me!”
-
-Although he cried furiously, inside, Young Master Blackwood felt nervous. Blackwood Family took their sweet time to get Bhela Malikh to their side. They planned meticulously. Slipping inside by buying out people in Malikh’s elders line-up wasn’t easy, not to mention his mother even reached out for the creepy uncle of his to get the Malikh Family’s patriarch fell ill and decreased his influence.
-
-“Us Blackwood Family are the one who find out Bhela’s real talent. We can’t afford people snatch her under our noses! You hear me?!”
-
-The adjutant nodded vigorously. He wasn’t afraid by the young master’s anger, but he knew if tonight’s failure fell into him, the madam back in Blackwood manor wouldn’t go easy on punishment. Therefore, even if it would kill him, the adjutant must prevent the others from getting their hands on Young Lady Bhela Malikh!
-
-***
-
-Although Elder Jhamil had been flexing his influence over Malikh Family’s politics, there were still Patriarch Ghalim Malikh’s fervent supporter he couldn’t buy. 
-
-Ever since the patriarch fell ill, these good elders had been listening to the patriarch’s wife. Sadly, Madam Malikh always on the edge and thus hadn’t been speaking much with them lately. Hearing so little from the above, some people began to doubt whether the patriarch’s faction could hold a bit longer. They knew the madam wasn’t the type that could manage political affairs. It was fortunate that their young lady was sensible, and when the words get around on how she got herself as the Chief Chef of the ngajen ceremony, some people found hope. Therefore, when Young Lady Bhela came to them asking a private hall to host her guests, the leader of those elders quickly prepare a decent place for her to use. The leader of Patriarch Malikh’s supporter was a good-natured middle-aged man named Elder Khasim.
-
-While the hall was decent, however, to host foreign experts the hall wasn’t enough. But Bhela could only accept Elder Khasim’s good intention as it was. To get a better hall she had to go through Elder Jhamil, something that she wasn’t willing to do.
-
-“Young Lady Bhela, welcome home.” Elder Khasim had been waiting for Bhela Malikh at the gates for her return. He was more respectful to the young lady more than other elders because he was an old follower of the late old patriarch, Bhela’s grandfather, a loyal supporter of Malikh main family. “How’s the mountain? The Selaqs have been calm, I reckon?” he asked.
-
-“Yes. Fortunately, the other families have been diligent. The Selaqs don’t get angry,” Bhela said. She followed the elder to the prepared hall. “The guests have settled, elder?”
-
-“Yes, young lady. They don’t give any dissatisfaction when I showed them to our shabby place. It all thanks to you, they even show a bit of respect to this old man, hoho.”
-
-Although Malikh Family hadn’t had land as big as Yashura and Elzhier, their land still was big enough they had to walk for a while to get to their destination.
-
-“Young lady…” the elder hesitated, he had something to say and wasn’t willing to let go of the girl before he spoke it out. “Are you planning to talk with your parents about how you took the position of the chief chef?”
-
-“I don’t think I would. My mother worried a lot about my father’s condition. Decreasing the burden from my parents’ plate is the most important thing I can do as a daughter.”
-
-“Then how about taking it a step further, young lady? I don’t know if you’re aware of this, but the supporters of young lady’s father are being confused and anxious from lack of instruction from main family…”
-
-“If there’s something I could help, please do tell me,” Bhela said. “But if you asked me to enter the political scene, elder, then I’m afraid I can’t help you.”
-
-From the era of ancient Mossack hunters and gatherers, the southerners always let the adults making decisions for their families, villages, and tribes. That meant the youngest person in the political scene would be eighteen years old, and even that they mostly didn’t take the youngsters seriously; while sixteen, at most, the young people could only watch from the sideline by helping the elders as interns. Bhela this year only a fifteen years old girl. Unlike her venture in taking over the kitchen as the chief chef before, slipping into the political scene, for her, not only would need to get approval from the Malikhs, but from other families in the village as well. Her status as the family’s legitimate young lady wouldn’t help in this case. Malikh Family had once disrupted Badril Village around a century ago by appointing a matriarch to lead the family. But that only worked out because the matriarch herself, a widow of then recently late-patriarch, was a remarkable woman of steel--so remarkable the villagers even still remembered her as the Iron Lady of Malikh Family. She took the opportunity from “make it or break it” situation of Malikh Family to become the third major power of Badril Village. Bhela Malikh, although her talent and potential as an Archer of Unique Class was immeasurable, doubted she had the same temperament as the matriarch from one hundred years ago. Honestly, Bhela wasn’t even sure why the elder brought that up in the first place.
-
-Elder Khasim naturally saw the young lady’s doubt and quickly explained, “You don’t have to take the elder mantle like us older people, young lady. You don’t even need to manage us if you don’t want to. What we need young lady for is that you bless us with your presence, just by having breakfast with us every morning in the family hall.”
-
-“Ah,” Bhela nodded as she understood. What the elder needed wasn’t necessarily a substitute for her father’s absence, but a mascot for the supporters’ morale. The politics of Mossack people also relied on food, especially when they gathered to enjoy their meals, so daily events like having breakfast and dinner amongst the political circle hold meanings depending on who mingled with who. By having the young lady with them, the main family supporters would still able to hold ground against Elder Jhamil’s faction. Bhela Malikh’s potential was like that, everybody wanted to get on her good side even if she would get married to another family in less than five years.
-
-In a certain hall in Malikh Family’s left wing complex, four people sat idly on the bamboo mats covered floor. They being served local-specialty ginger drinks mixed with brown sugar with herbs to drink, and some roasted peanuts to chew, perfect for to accompany an idle night. They were respected elders in their respective factions. And in spite of their status, however, they were waiting for Bhela Malikh to finish her business on the ngajen ceremony calmly.
+Having knowing this, they still waiting for their host, Bhela Malikh, to wrap up the Ngajen Ceremony.
 
 “Still,” Madame Sylvia said after a sip of ginger drink, “I wouldn’t have expected the girl’s talent to be that rare when she approached my sect with the invitation. The top brass only interested of her being the top grade during the seminar thus sent me to check her out. How about you, Mister Harrington?”
 
@@ -294,7 +90,7 @@ The eastern man saw himself out. Following his suggestion, Bhela Malikh sat down
 
 “I come as the representative of Blackwood Family!” Young Master Frane Blackwood boldly yelled.
 
-He swagered himself in along with Elder Jhamil’s son and the adjutant of Blackwood Family under his wings. The arrogant  behaviour of this young noble completely diseregard the experts in the room. Madame Sylvia had enough. She dissed him, “What are you doing here uninvited?”
+He swagered himself in along with Elder Jhamil’s son and the adjutant of Blackwood Family under his wings. The arrogant  behaviour of this young noble completely disregard the experts in the room. Madame Sylvia had enough. She dissed him, “What are you doing here uninvited?”
 
 Instead of the adjutant who usually spoke for his young master, it was the young elder of Malikh Family, Elder Jhamil’s son who replying. “This madam has eyes but doesn’t know what good for her. Of course Young Master Blackwood is invited! He’s the special guest of Malikh Family after all!”
 
@@ -316,9 +112,9 @@ Young Master Blackwood rolled his eyes and told his adjutant, “Send this toad 
 
 “Is the discussion still ongoing?” Frane Blackwood asked the sitting guests as he tightened the blue necktie he wore. He said to Bhela, “Blackwood Family offers a lifetime terms of benefit for you, young lady. Not only medicines, if it boost potion you ask, or equipments, magic items, weapons--you name it, we have all things you’d dare to imagine!”
 
-“Hoho,” his uninvited offer gave Sir Baront Staterwind a chuckle. The three guests Bhela invited hailed from their own factions, so even if they wanted to rope Bhela in, they would consult with their higher ups about the specific of terms they’d give to her as benefits. However, Blackwood Family was, in fact, only a noble family, not an organizational faction, with the only way in was through marriage--so of course the young noble would be able to offer a “lifetime benefits” to her so brazenly.
+“Hoho,” his uninvited offer gave Sir Baront Staterwind a chuckle. The three guests Bhela invited hailed from their own factions, so even if they wanted to rope Bhela in, they would consult with their higher ups about the specific terms they’d give to her as benefits. However, Blackwood Family was, in fact, only a noble family, not an organizational faction, with the only way in was through marriage--so of course the young noble would be able to offer a “lifetime benefits” to her so brazenly.
 
-“Thank you for holding back your anger, Madame Sylvia,” Bhela completely bowed her head to the angry guest while she completely disregard Young Master Blackwood’s offers.
+“Thank you for holding back your anger, Madame Sylvia,” Bhela completely bowed her head to the angry guest while she completely disregarded Young Master Blackwood’s offers.
 
 Madame Sylvia nodded. She then looked at Young Master Blackwood and snorted. “Young lady, think carefully about what we said before. Some incapable people only able to spout honey trap to get what they want. Don’t be foolish because your father’s situation.”
 
@@ -599,3 +395,4 @@ The masked man knew the pale man was irritated by his sister’s cockiness. So h
 “We’ve rested enough,” the pale man said as he crumbled the small letter he read. The bald barbarian’s head cocked and he await the order. “Prepare the horses,” the man continued, “I’ve got an old friend I should say hi to.”
 
 ***
+
