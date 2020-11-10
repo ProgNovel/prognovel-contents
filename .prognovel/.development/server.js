@@ -5,7 +5,6 @@ const { getImage } = require('./image')
 const PORT = 4000
 
 function cors(res, req, next) {
-
   next()
 }
 
@@ -41,7 +40,18 @@ polka()
     res.setHeader('Content-Type', 'application/json');
     res.setHeader('Cache-Control', 'no-store');
     res.setHeader('Access-Control-Allow-Origin', '*');
-    res.end(getChapterData(novel, name, book))
+    try {
+      res.end(getChapterData(novel, name, book))
+    } catch (err) {
+      res.writeHead(404, {
+        'Content-Type': 'application/json',
+        'X-Error-Code': 'Chapter not found.'
+      });
+      res.end(JSON.stringify({
+        error: 'Chapter not found',
+        status: 404
+      }, null, 2))
+    }
   })
   .get('/image', (req, res) => {
     res.setHeader('Content-Type', 'image/webp');
