@@ -73,7 +73,6 @@ async function convertBookCover(input, placeholderRatio = 1) {
     .toBuffer()
   images.placeholder = 'data:image/jpeg;base64,' + buffer.toString('base64')
 
-  console.log(images)
 
   return images
 }

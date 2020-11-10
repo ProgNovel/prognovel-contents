@@ -4,10 +4,18 @@
   "payment_pointer": "$wallet.example.com/fsad",
   "backend_api": "https://api.prognovel.workers.dev",
   "novels": [
-    "yashura-legacy"
+    "yashura-legacy",
+    "mock-novel"
   ],
   "cors": "*",
   "novelsMetadata": [
+    {
+      "id": "mock-novel",
+      "title": "Mock Novel",
+      "author": "ProgNovel",
+      "totalChapter": 7,
+      "lastChapter": "10-5"
+    },
     {
       "id": "yashura-legacy",
       "title": "Yashura Legacy",
