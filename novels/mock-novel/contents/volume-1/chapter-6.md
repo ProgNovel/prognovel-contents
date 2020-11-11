@@ -1,5 +1,7 @@
 ---
 title: Lyla Blackwood
+author: Radhy
+editor: MyEditor
 ---
 
 When the news about what happened in Malikh Family’s ngajen ceremony arrived at Blackwood Family, Madam Blackwood was so enraged she broke the tea cup she held onto the floor. Establishing the family’s foot in Badril Village was supposed to be easy, but not only he failed to gain the support of Malikh Family and the villagers, the Young Master of Blackwood Family somehow managed to incite the bedridden patriarch’s supporters to regain their lost foothold against the corrupt Malikh Family’s elders.
@@ -38,7 +40,7 @@ The cake served on a small plate along with a silver fork. The girl took only me
 
 “Why can’t I?!”
 
-“You must present yourself as  a proper young lady, so you can’t!”
+“You must present yourself as a proper young lady, so you can’t!”
 
 The cake was to be portioned to serve for the same amount of guests since the last party, but because the Blackwood Family’s young lady had a bad reputation in the seminars, most invited families didn’t actually come.
 
@@ -70,7 +72,7 @@ Lyla’s head straightened, she forgot to pout. “Vacation? Where? Where where?
 
 Ignoring that she was the center of attention, Lyla suddenly jumped and danced like no tomorrow. Aunt Jiji tried to stop her, but it was futile since Lyla only promised not to be glutton. The remaining guests began whispering with each other. They were people who doubted the rumors about this Young Lady Blackwood, but after seeing how childish and ridiculous the girl danced, people were finally convinced. How was this a viscount’s daughter supposed to act? The girl danced her hips and hopped around like a bunny that had an itchy bum. Soon, the Young Lady Lyla Blackwood fell to the bottom list of desired young ladies to marry. Her reputation fell from not-so-smart, to stupid, and then fell again to brainless and imbecile. People didn’t see her in a good light. But that just how a girl named Lyla Blackwood really was.
 
-***
+---
 
 Yashura Family got a peculiar visitor these past two days. He introduced himself as an expert from overseas, and somehow this foreign expert became interested in Shira Yashura. When the story leaked by insiders from Yashura Family, people were scratching their heads, wondering what could an educated man saw from this trash who could only get himself to level 3 Novice. Some people even sneered, saying that whole news was just Yashura Family’s little trick to clear up rumors from their heir’s name.
 
@@ -106,7 +108,7 @@ After Shira said that, Good-Natured Spirit’s knight jumped over a wall of pawn
 
 “No, it is not.”
 
-“You sneaky bastard. You really got me,” Good-Natured Spirit threw his hands up in the air.  \
+“You sneaky bastard. You really got me,” Good-Natured Spirit threw his hands up in the air. \
 “Man, I surrender, that is some sick psychological tactic you got there.”
 
 “Now I don’t really know what you’re talking about.”
@@ -135,7 +137,7 @@ Because the Nalaq suddenly became vigilant, Shira instinctively lowered his voic
 
 After he saying that, Good-Natured Spirit’s figure melting into the thin air.
 
-Shira Yashura sighed. At times, asking favor to this vulgar Nalaq not only difficult, it also unpredictable he’d only incite troubles if he not careful. 
+Shira Yashura sighed. At times, asking favor to this vulgar Nalaq not only difficult, it also unpredictable he’d only incite troubles if he not careful.
 
 After his winning streak for more than half a year maybe he became cocky. He forgot the Nalaq wasn’t there to solve his problem whenever he wanted, although the Nalaq sort of ended up like that after a few months he came here. Shira got some thinking, maybe he should stop seeing this Nalaq as his convenient piggy bank for his own good.
 
@@ -165,7 +167,7 @@ As carefree as he usually was, Good-Natured Spirit said with a grin, “Those Bi
 
 Shira stepped back when the Nalaq offered his palm. It was still on fire, the boy didn’t want to get burn along with him. Besides, he didn’t want to get involved with the Nalaq’s deprived hobby.
 
-“Sure you don’t want it?” Good-Natured Spirit took a last sniff from his palm, followed by a low chuckle of his. 
+“Sure you don’t want it?” Good-Natured Spirit took a last sniff from his palm, followed by a low chuckle of his.
 
 “Good-Natured Spirit… what’s that fire?”
 
@@ -247,9 +249,9 @@ The more Shira saw how the previous tense hall turned jubilant and full of relie
 
 Sir Baront Staterwind said, “Still, since he seems reluctant to use his old name, I reckon the Nalaq that approaching you is a low-tier one, Young Master Shira. Low-tier Nalaqs usually spirits that gain consciousness merely by luck. They don’t have factions backing them, and fortunately--in my experience--it easier to initiate negotiation with unaffiliated Nalaqs.” A hint of pride then flashed through his eyes, he continued, “my disciples will arrive tomorrow morning. One of them contracted with a high-tier Nalaq. Since the Nalaq’s mood turned sour is partly my fault, with help from the Nalaq contracted with one of my disciples, I will ask him to leave Yashura Family peacefully!”
 
-“Sir Staterwind is wise! Thank you for your concern, Sir!” Patriarch Shuro sang praises toward this expert. The elders of Yashura Family followed suit. 
+“Sir Staterwind is wise! Thank you for your concern, Sir!” Patriarch Shuro sang praises toward this expert. The elders of Yashura Family followed suit.
 
-“As expected of such expert!” 
+“As expected of such expert!”
 
 “Sir Staterwind is the best of bunch of all experts that I know all my life!”
 
@@ -287,7 +289,7 @@ Following Yulong’s gaze, Shira peeped the hall and saw Sir Baront’s awkward 
 
 “You’re right…” Shira could only hide his face with his palm. Just when he thought he could understand them, the boy then wished he didn’t know these shameless men.
 
-***
+---
 
 As far as the current generation of Badril Village locals knew, they never got visited by nobles until this month Malikh Family’s ngajen ceremony happened. Everyone still talking about it.
 
@@ -297,7 +299,7 @@ Because the carriages going out from Badril Village mostly for public transports
 
 “You have a very bright future, Young Lady Bhela. A girl with limitless potential. So your favor will become very valuable as you mature,” Madame Sylvia said. “If you need something, you can always send letters to my sect. Don’t hold back. Just think about this of us making an investment.”
 
-Since Bhela a smart girl anyway, Madame Sylvia decided not to make her words fancy and told her in a straightforward manner. Bhela appreciated her honesty, and said her thanks. 
+Since Bhela a smart girl anyway, Madame Sylvia decided not to make her words fancy and told her in a straightforward manner. Bhela appreciated her honesty, and said her thanks.
 
 The carriage then set off. In the main gate of Badril Village, the guards on duty witnessed the recently blazing popular Young Lady Bhela Malikh bowing her body as she sent off two foreigners in traveling clothes made from expensive linen.
 
@@ -419,7 +421,7 @@ The girls then walked inside. Lyla was so excited she didn’t leave her friend,
 
 Nobody more happier than the aunties who were familiar with how their Young Lady Bhela lived her live. They silently cried watching their young lady, who usually alone and unapproachable, finally grown up and had her first friend in these past ten years.
 
-***
+---
 
 Butler Tim grimaced inside. Despite the fact that he was tasked to win over Bhela Malikh with any means necessary, he didn’t like this girl. It wasn’t because his handkerchief got dirty--well, maybe he resented her for it a little--it because the girl named Bhela Malikh wasn’t acting as a young country girl supposed to act. Country bumpkins supposed to falter when they saw the radiance seeped out of the nobles’ aura, they supposed to tremble when they saw the noble wealth glittering beneath the sun. But this girl was indifferent and aloof. She was cold but the coldness paired with concise and elegant mannerism. Butler Tim knew she trying to act noble herself. That was why he didn’t like her.
 
@@ -429,7 +431,7 @@ Toward country bumpkins, too expensive gifts would never work. He knew this beca
 
 Therefore, he presented Bhela Malikh with popular city biscuits.
 
-“I heard this biscuit is currently very popular among noble young ladies. This butler happened to  pass by a store that sold this, so I reckon Young Lady Bhela might love to taste some.”
+“I heard this biscuit is currently very popular among noble young ladies. This butler happened to pass by a store that sold this, so I reckon Young Lady Bhela might love to taste some.”
 
 Meanwhile, because the elders roughly knew the Blackwood Family’s youngest lady would come to visit, two leaders of opposing factions came to watch how their Young Lady Bhela would receive the noble guest. Elder Jhamil was all smiling because he liked what he saw. But the expression of Elder Khasim turned sour when he saw how the butler of Blackwood Family tried to butter up to Bhela Malikh.
 
@@ -443,9 +445,9 @@ After receiving the snacks, Bhela excused herself and brought Lyla with her to s
 
 Indeed, Bhela Malikh hadn’t had any city biscuits her entire life. Not before and also not today. What Butler Tim didn’t know was that the snacks he bought with his own money ultimately ended up returned to Blackwood Family--to be exact, it ended up inside Lyla Blackwood’s belly. Bhela couldn’t help but received the biscuits when, beside her, she saw Lyla was drooling looking at the biscuits.
 
-The elders led by Elder Jhamil then respectfully welcomed the butler along with servants and guards from Blackwood Family. From the impression alone, Butler Tim could see reasons for him to like this slick-tongued Elder Jhamil. He knew how to flatter and also he knew how to act humble in front of people with higher status than him. Not like that noble-wannabe Young Lady of Malikh Family. This Elder Jhamil knew that he was only a country bumpkin thus acted accordingly. Naturally, the smart Butler Tim was pleased. 
+The elders led by Elder Jhamil then respectfully welcomed the butler along with servants and guards from Blackwood Family. From the impression alone, Butler Tim could see reasons for him to like this slick-tongued Elder Jhamil. He knew how to flatter and also he knew how to act humble in front of people with higher status than him. Not like that noble-wannabe Young Lady of Malikh Family. This Elder Jhamil knew that he was only a country bumpkin thus acted accordingly. Naturally, the smart Butler Tim was pleased.
 
-And so began Butler Tim’s quests to swallow Malikh Family with his smartly planned schemes and cunning political games. 
+And so began Butler Tim’s quests to swallow Malikh Family with his smartly planned schemes and cunning political games.
 
 In mere hours, the neutral elders who hadn’t joined either both rivalling factions began flocking to Elder Jhamil’s side. One part because they wanted to side with the faction that had the noble support and another part simply because Elder Jhamil, with the help of Butler Tim, had been throwing around sweet deals over all directions.
 
@@ -495,9 +497,9 @@ Elder Jhamil was excitedly rubbing his hands when Butler Tim said that. Finally,
 
 “Hmm, what do you mean?”
 
-What the maid meant was that someone in Malikh Family already brought Lyla to have dinner with them. 
+What the maid meant was that someone in Malikh Family already brought Lyla to have dinner with them.
 
-When Butler Tim playing political games and scheming around in Malikh Family, Bhela Malikh, along with the elders friendly with Elder Khasim, had been giving bunch of candies and food for Lyla Blackwood, much more than the biscuits Butler Tim brought with him. Being a great foodie herself, Lyla never had enough, the first day in Malikh Family she ate more sweets and foods worth of one week back in Blackwood Family’s manor. Aunt Jiji and other Blackwood Family’s maid servants would freak out if they saw how glutton Lyla currently was. 
+When Butler Tim playing political games and scheming around in Malikh Family, Bhela Malikh, along with the elders friendly with Elder Khasim, had been giving bunch of candies and food for Lyla Blackwood, much more than the biscuits Butler Tim brought with him. Being a great foodie herself, Lyla never had enough, the first day in Malikh Family she ate more sweets and foods worth of one week back in Blackwood Family’s manor. Aunt Jiji and other Blackwood Family’s maid servants would freak out if they saw how glutton Lyla currently was.
 
 Nevertheless, the news that the main family’s faction hosting a dinner for a noble miss swept Malikh Family like a thunderstorm. The neutral elders Elder Jhamil had just bought flocking back toward Elder Khasim’s side. It was so sudden. Everyone wasn’t even got a breath to process what had happened. And this for sure was an unprecedented move ever since Patriarch Ghalim suddenly fell ill and retreated from the political scene.
 
@@ -507,7 +509,7 @@ Just as one side was busy completing the first stage to win over the Young Lady 
 
 Even Butler Tim couldn’t pull his own young miss seeing how happy she was. His plan had been jabbed in a completely unexpected way. Maybe he wasn’t so smart after all.
 
-***
+---
 
 It was unfortunate that Madam Malikh didn’t see the Young Noble Miss of Blackwood Family kindly. Even though the girl did nothing wrong, Madam Malikh wasn’t so muddled that she wasn’t aware what Blackwood Family and those corrupt elders conspiring against her husband and Malikh’s main family. Even Bhela herself couldn’t do anything to change her mother’s mind.
 
@@ -547,7 +549,7 @@ Patriarch Ghalim weakly waved his hand back. Of course, after the girls were alr
 
 The woman held her husband’s hand, kissing it with her forehead as she hid her face. She whispered, “Oh, don’t you know how hurt this heart holding back my grievance? Why did our daughter had to bring someone from that family inside our roof?” she sniffed, “how long this farce gonna last? What should I do in the mean time? Oh! I don’t know! I don’t know!”
 
-Patriarch Ghalim sighed as he witnessed his wife cried helplessly. 
+Patriarch Ghalim sighed as he witnessed his wife cried helplessly.
 
 In the courtyard, near the coops where Malikh Family raised chickens and ducks, Lyla was squatting in front of the new bunny she and Bhela bought just yesterday. She was waiting the whole morning just to feed this bunny. The bunny hopped around, itching to play in spite it couldn’t resist the temptation of delicious green leaves, again and again. Wathing how glutton the bunny was, Lyla found herself immerse in immense joy. She very much envying the life of a bunny. Perhaps that because she could relate to how it spent its day without worry; eating, playing, sleeping, then playing again--a life that she longed to have. If only she was born a rabbit instead of a young lady of noble family….
 
@@ -561,9 +563,9 @@ Originally, Lyla wanted her friend also playing with the bunny. But hearing Bhel
 
 “The west and the south have different values,” Bhela said. “Complete your virtue for your parents then you’ll grow to be a fine lady, Lyla.”
 
-“Uggghhh…” Lyla grunted as she didn’t want to continue the topic any further. She long developed a sense for her own survival to detect whether or not the conversation ended up she being forced to do some boring stuff. Knowing Bhela’s personality, Lyla knew soon Sis Bhela’d make her doing chores too. Grabbing the bunny, Lyla quickly escaped somewhere else so that she could spend her time playing. Bhela shook her head seeing the girl’s behavior. 
+“Uggghhh…” Lyla grunted as she didn’t want to continue the topic any further. She long developed a sense for her own survival to detect whether or not the conversation ended up she being forced to do some boring stuff. Knowing Bhela’s personality, Lyla knew soon Sis Bhela’d make her doing chores too. Grabbing the bunny, Lyla quickly escaped somewhere else so that she could spend her time playing. Bhela shook her head seeing the girl’s behavior.
 
-Bhela then noticed some servants whispering while they looking at Lyla from the distance. Many people were curious what a noble young lady like her would do in a rural place like this, and Bhela wasn’t that oblivious not to notice the eyes planted by the elders of Malikh Family. 
+Bhela then noticed some servants whispering while they looking at Lyla from the distance. Many people were curious what a noble young lady like her would do in a rural place like this, and Bhela wasn’t that oblivious not to notice the eyes planted by the elders of Malikh Family.
 
 Not long after that, she then saw four girls dressed in expensive garments approaching Lyla with their mouth covered with feathered fans in their hands. Their clothing looked as if they attending some sort of ceremony, while in fact, they calculated that this kind of appearance was the most suitable for them to socialize with a girl of blue-blooded origin. Bhela recognized the leader of those girls was actually Elder Jhamil’s niece.
 
@@ -607,11 +609,11 @@ Seeing that the young noble miss wouldn’t come back soon, the feathered fan gi
 
 “Oh, fancy to meet Young Lady Bhela here, le banjour!”
 
-“Le bonjour…” Bhela hesitated to reply back. Tilting her head slightly, she studied the pompously dressed girls before her. These girls were relatives of Malikh Family’s elders. None of them could match with Bhela if talking strictly about social status wise, not to mention talents. However, while she was holding her broom, it looked like Bhela was the one with common origin, while these girls were floating swans who happened to be generous enough to greet plebeians with their _unique_ vocabulary. 
+“Le bonjour…” Bhela hesitated to reply back. Tilting her head slightly, she studied the pompously dressed girls before her. These girls were relatives of Malikh Family’s elders. None of them could match with Bhela if talking strictly about social status wise, not to mention talents. However, while she was holding her broom, it looked like Bhela was the one with common origin, while these girls were floating swans who happened to be generous enough to greet plebeians with their _unique_ vocabulary.
 
 Meanwhile, Lyla Blackwood hid behind Lyla’s back. Despite a noble origin herself, meeting more cocky and fake young ladies than the girls before her were rare experience for Lyla.
 
-“Young Lady Bhela, fancy to meet you. Good morning. The weather is nice. I eat snails everyday,” Elder Jhamil’s niece took the lead and said that with a hint of inflated pride. 
+“Young Lady Bhela, fancy to meet you. Good morning. The weather is nice. I eat snails everyday,” Elder Jhamil’s niece took the lead and said that with a hint of inflated pride.
 
 Bhela narrowed her eyes. She could see why Lyla instantly hated these girls. She then said in a sleek foreign language, “Je ne sais pas de quoi tu parles. Si vous ne parlez pas une langue étrangère, fermez simplement la bouche, sinon vous faites peur aux enfants avec votre non-sens.”
 
@@ -627,7 +629,7 @@ Elder Jhamil’s niece didn’t say anything as she only maintained a sweet smil
 
 “Blackwood Family is migrating noble that has long been making their roots here in southern land. Hundred of years living far away from their western peers, noble families like this would naturally become more lax. It’s natural for Lyla to not mastering her homeland’s native tongue.”
 
-Bhela said that in a straight manner. That was a white lie, however. It was true that many noble families coming from the western side of Tiramikal Continent to forgot their western root and began to see themselves as southerners. But those were usually the case depending right circumstances, like exiled nobles, or some young masters who had lost in political battle branched out and fancied themselves a legit noble family with themselves at the helm. Blackwood Family weren’t exiled nobles, and though Lyla’s ancestors branching out some hundreds of years ago, that didn’t automatically made them cutting off ties with the original family. The main family of Blackwood was back in a western country called Tatalghia Kingdom, still sending letters and envoys from time to time to the branch Lyla was living in--although, undeniably, the southern branch of Blackwood Family had long developed and surpassed the main one. 
+Bhela said that in a straight manner. That was a white lie, however. It was true that many noble families coming from the western side of Tiramikal Continent to forgot their western root and began to see themselves as southerners. But those were usually the case depending right circumstances, like exiled nobles, or some young masters who had lost in political battle branched out and fancied themselves a legit noble family with themselves at the helm. Blackwood Family weren’t exiled nobles, and though Lyla’s ancestors branching out some hundreds of years ago, that didn’t automatically made them cutting off ties with the original family. The main family of Blackwood was back in a western country called Tatalghia Kingdom, still sending letters and envoys from time to time to the branch Lyla was living in--although, undeniably, the southern branch of Blackwood Family had long developed and surpassed the main one.
 
 It seemed like Bhela already used to tell this lie. Anyone who heard this would be forced to accept it, unless they wanted to spend time and resources digging through the details--which to be honest, none of these pompous young girls were willing or simply unable to go through.
 
@@ -669,4 +671,4 @@ Bhela ruffled Lyla’s hair. Apparently Lyla still believed these girls came to 
 
 Actually, Lyla was made fun of so many times. Especially during her study in the seminars abroad. She made fun of so much that she formed a survival instinct to hide behind Bhela’s back. But they didn’t know that. They just assumed as a young lady coming from a noble family, Lyla Blackwood would be adequately pure noble in stories and gossip. The main reason Bhela brought Lyla away was so that Lyla didn’t have to mingle with these delusional le bonjour girls.
 
-***
+---

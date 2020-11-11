@@ -7,7 +7,22 @@
     "yashura-legacy",
     "mock-novel"
   ],
+  "payment_pointers_site_global": [
+    {
+      "platform": "10%"
+    }
+  ],
+  "rev_share_contribution_per_chapter": {
+    "author": 5,
+    "editor": 3,
+    "proofreader": 2
+  },
   "cors": "*",
+  "contribution_roles": [
+    "author",
+    "editor",
+    "proofreader"
+  ],
   "novelsMetadata": [
     {
       "id": "mock-novel",

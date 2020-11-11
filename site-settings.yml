@@ -8,3 +8,13 @@ backend_api: https://api.prognovel.workers.dev
 novels:
   - yashura-legacy
   - mock-novel
+
+### WEBMONETIZATION REVSHARE OPTIONS ###
+# can point to multiple payment pointers with rev share using webfunding syntax
+payment_pointers_site_global:
+  - platform: 10%
+
+rev_share_contribution_per_chapter:
+  author: 5
+  editor: 3
+  proofreader: 2

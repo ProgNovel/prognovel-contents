@@ -1,8 +1,11 @@
 ---
 title: Hope
+author: Radhy
+editor: MyEditor
+proofreader: MyProofreader
 ---
 
-Dinner at Malikh Family; the family hall bustling with relatives who wanted to celebrate Bhela Malikh’s return. Even though the expensive Ngajen Ceremony drew near a good number of ducks and a goat were butchered along with their spice reserves taken out. There were laughters, there lots of people wanted to get on the good side of the only Young Lady of Malikh Family. 
+Dinner at Malikh Family; the family hall bustling with relatives who wanted to celebrate Bhela Malikh’s return. Even though the expensive Ngajen Ceremony drew near a good number of ducks and a goat were butchered along with their spice reserves taken out. There were laughters, there lots of people wanted to get on the good side of the only Young Lady of Malikh Family.
 
 But Bhela’s face was straight the whole time. Given choices, she’d rather have a small dinner with her mother and sick father right now.
 
@@ -38,7 +41,7 @@ The dry smile on Elder Jhamil turned elated when people were chanting along with
 
 She stopped. Not a single more soul dared to send her further flatteries until dinner was over. Even the bald Elder Jhamil, the most enthusiastic of all them, quietly sat back where he belonged.
 
-***
+---
 
 “Ah, young lady, please wait, Young Lady Bhela!” the bald Elder Jhamil chased her, trotting, with a box in his hands.
 
@@ -98,7 +101,7 @@ As if the letter was his assurance, Patriarch Ghalim Malikh closed his eyes agai
 
 Bhela looked at her mother who folded the recently opened letter, she asked. “Whose letter is that?”
 
-“Your great-grandmother who lived overseas,” her mother said. 
+“Your great-grandmother who lived overseas,” her mother said.
 
 “I see.” Bhela wasn’t sure which relative her mother mentioned, but she decided to ask something else seeing her mother’s bad mood. “Why Great-grandmother mentioned something about Yulong? Isn’t Yulong the Yashura Family’s butler, mother?”
 
@@ -108,7 +111,7 @@ The strained smile on her mother’s face made Bhela realize that even her mothe
 
 “Have you sent someone to inform Yulong, mother?” Bhela asked.
 
-Madam Malikh shook her head. Bhela reckoned with Elder Jhamil gaining influence so fast, her mother wouldn’t know anyone to trust in this kind of situation. 
+Madam Malikh shook her head. Bhela reckoned with Elder Jhamil gaining influence so fast, her mother wouldn’t know anyone to trust in this kind of situation.
 
 The girl then gave her mother a glass of water to ease her down. “I’ll let him know then,” she said.
 
@@ -124,15 +127,15 @@ Bhela thought her parents would go along with her arrangement. Madam Malikh hung
 
 “What is it, father?” Bhela, too, leaned closer.
 
-“Don’t… ask… don’t… favor… purple...” the sickly patriarch’s voice turned hoarse and defragmented before he completed his sentences. Bhela and her mother quickly shushed him, they couldn’t afford to see the sick father forcing himself with this condition. Even after two minutes, he still struggled to tell his words to his daughter. Though eventually he fell to slumber by himself after his wife tried to put him to sleep with her eyes wet with tears. 
+“Don’t… ask… don’t… favor… purple...” the sickly patriarch’s voice turned hoarse and defragmented before he completed his sentences. Bhela and her mother quickly shushed him, they couldn’t afford to see the sick father forcing himself with this condition. Even after two minutes, he still struggled to tell his words to his daughter. Though eventually he fell to slumber by himself after his wife tried to put him to sleep with her eyes wet with tears.
 
 Beside her mother, Bhela picked a bamboo fan and used it to make a breeze for her father’s sleep to be more comfortable. Her expression was flat and straight the entire time, but inside, she was disturbed by the words her father failed to tell her.
 
-***
+---
 
 For as long as the Yashuras knew him, their Young Master Shira Yashura lived alone in his house. The only other person who should’ve been living here, his father, didn’t come home for months already. So ever since his uncle let him live in his house a few years back, Shira enjoyed an independent lifestyle he’d take for granted one of these days.
 
-At night, his schedule often filled with working on painting commissions Good-Natured Spirit gave him. Which, unfortunately, not something he wished for people to know. This part of his schedule was one of his secrets, if known by a certain meddlesome cousin, hell would surely be waiting for him. 
+At night, his schedule often filled with working on painting commissions Good-Natured Spirit gave him. Which, unfortunately, not something he wished for people to know. This part of his schedule was one of his secrets, if known by a certain meddlesome cousin, hell would surely be waiting for him.
 
 “I told you again and again,” a voice from behind him blurted, “you should’ve shown the boobs a little more.”
 
@@ -170,7 +173,7 @@ Shira glanced at him with tightened brows. “I’ll be troubled if they somehow
 
 Shira wanted to say no but he felt it’d be better for him not to comment on that. He then hurriedly kicked out the Nalaq so he could get some sleep in peace.
 
-***
+---
 
 In almost all of Mossack race traditions, ngajen ceremony held monthly in villages near a mountain. It was one of those legacy of ancient Mossack that still around simply because of its practice brought safety to the people. Originally was a session of prayers and offerings to calm down Selaqs which dwelling on the mountains--they had to, because many stories being passed down in every families that even ancient tribe chieftains and heroes couldn’t do nothing if waves of Selaqs rampaged over the southern lands. Though, as the cost of ceremony getting more expensive as the time went on and getting more political, nowadays it became a time of feasts for big families to assert their surrounding influence. And a time of feasts where small and independent families gained side incomes from providing food and good for the big families’ feats. Ngajen ceremony was also the main reason why there was a weird rule for every Mossack-rooted families, tribes, and clans, that saying the leaders must be someone of a great cook--the majority of them were simply foodies.
 
@@ -180,7 +183,7 @@ Shira Yashura quietly nodded. He didn’t plan to learn cooking from the start b
 
 “So you understand. Good. Sooner or later you’ll understand being strong is not everything, having talent is not everything,” the patriarch said. “Look at your father, for instance. He’s the only one in Badril Village who has an Unique class since… I don’t know, many many years. He’s pretty badass, eh? But why is that the one who ended up being the patriarch was me?”
 
-“Oh, Uncle Shuro, please do tell me.” 
+“Oh, Uncle Shuro, please do tell me.”
 
 Shuro Yashura, the patriarch uncle, smiled as he looked at his obedient nephew. He then half-bragging said, “Because he can only boil water, that’s why. Cooking is a great heritage of our ancestors thus those who have no talent on it as to be satisfied with being a second-rate Mossack. The only reason why people like me always ended up becoming the leader of clans because we Mossack appreciate food to a very high degree. Justice is food. Food is justice. With great cooking comes great responsibility.”
 
@@ -190,7 +193,7 @@ Uncle and nephew turned their heads to see a daughter pop her head from the wind
 
 “What are you guys doing anyway?” she asked. Apparently, in the kitchen, she saw her father and cousin shredding a ridiculous amount of coconuts. No one else was here in the kitchen, so Mila asked, “Did you two really do these by all yourselves?”
 
-“Of course,” her father, the revered patriarch, said as his hand vigorously shredded coconut. He couldn’t hide the annoying proud smile on his mustache filled face. 
+“Of course,” her father, the revered patriarch, said as his hand vigorously shredded coconut. He couldn’t hide the annoying proud smile on his mustache filled face.
 
 “Since dawn?” Mila asked again suspiciously.
 
@@ -218,7 +221,7 @@ Shira further lowered his head and pretended not to hear that as if he was a tur
 
 “Better be careful. He’s too deep in coconuts he doesn’t even hear me,” the patriarch gave his daughter a glare.
 
-Mila Yashura rolled her eyes. She crouched and disappeared from the window view, then stood up again a moment later. Her hand clutching a pebble. 
+Mila Yashura rolled her eyes. She crouched and disappeared from the window view, then stood up again a moment later. Her hand clutching a pebble.
 
 The patriarch gawked, “Oi, what are you--”
 
@@ -238,25 +241,25 @@ Shira glanced at his uncle unwillingly. “Do I have to meet with Bhela in her F
 
 As if waiting for Patriarch Shuro’s completed his words, the door of the kitchen knocked at the very moment. A tall gray-haired old man entered. He had a posture that was straight and sharp, classy western-style butler uniform that hadn’t had looked worn out in spite no tailors around to know how to sew the said uniform, and his hand was balanced to hold a tray with a dozen elixirs on top of it with his left hand fingers, while his right hand rested on his back as if he followed an etiquette stranger to most of the villagers. He was the sole butler in Yashura Family--and perhaps, the only butler that ever employed in Badril VIllage.
 
-“Young Master Shira, this month’s elixirs your father sent for you have arrived,” he said. 
+“Young Master Shira, this month’s elixirs your father sent for you have arrived,” he said.
 
 “Thank you, Yulong.”
 
-As usual, Shira drank elixirs his father sent abroad without a rest. The content was painfully bitter, thank goodness Yulong provided brown sugars for the boy to nibble after he drank those. His father Jhuro Yashura said--in a letter from abroad--that the elixirs were some kind of nutrient custom-made only for Shira, were expensive, so they could only afford them every one or two months. 
+As usual, Shira drank elixirs his father sent abroad without a rest. The content was painfully bitter, thank goodness Yulong provided brown sugars for the boy to nibble after he drank those. His father Jhuro Yashura said--in a letter from abroad--that the elixirs were some kind of nutrient custom-made only for Shira, were expensive, so they could only afford them every one or two months.
 
 “How do you feel, Shira my boy?”
 
 Shira said as he munched a brown sugar to dismiss the bitter after taste. “Uh-hm. Better?”
 
-The family always thought they were a level-boost potion, Jhuro once sent a potion that could increase Shira’s level up to Level 3 in a single gulp after all. But the elixirs seemed to do nothing other than let Shira sleep comfortably at night. Still, his relatives, especially Mila, put their hopes on the resourceful Jhuro Yashura to nurture his own son--the heir of Yashura Family. 
+The family always thought they were a level-boost potion, Jhuro once sent a potion that could increase Shira’s level up to Level 3 in a single gulp after all. But the elixirs seemed to do nothing other than let Shira sleep comfortably at night. Still, his relatives, especially Mila, put their hopes on the resourceful Jhuro Yashura to nurture his own son--the heir of Yashura Family.
 
 Seeing the lack of enthusiasm in his nephew’s eyes, Patriarch Shuro laughed and said, “Haha. If those don’t work on your progress problems, don’t let it bother you! Your father worked very hard as an instructor in second-rank school and he’d definitely send a better elixir, like that one from three years ago!”
 
 “Oh,” Shira nodded. The elixir from three years ago was special. He knew it the moment he drank the potion. The warm feeling surrounding his manasphere was special, as with only drinking from one bottle, he leveled up 2 levels overnight.
 
-***
+---
 
-After that his uncle let him go out of the kitchen, since it was promised that Shira would do errands for his aunt every morning. 
+After that his uncle let him go out of the kitchen, since it was promised that Shira would do errands for his aunt every morning.
 
 When he was heading off for his duty, Shira Yashura got pranked by Good-Natured Spirit in the hallway, popped out his head from a wall and cried, “Boo!”--which Shira ignored because Yulong the butler was walking behind him.
 
@@ -276,7 +279,7 @@ Yulong said, “You cannot guarantee everyone’s nature all around you, Young M
 
 Good-Natured Spirit, who was around, snorted.
 
-Shira pretended he didn’t hear the Nalaq and nodded at the butler’s words. “You don’t have to worry about the peddler. Even though he’s been peddling for two years now, I found the fella got a pretty good sense.” 
+Shira pretended he didn’t hear the Nalaq and nodded at the butler’s words. “You don’t have to worry about the peddler. Even though he’s been peddling for two years now, I found the fella got a pretty good sense.”
 
 “Hearing your words relieves me greatly. Thank you.”
 
@@ -298,13 +301,13 @@ Yulong was someone Shira heartily respected. He always used polite language when
 
 “I need to sell the painting you rejected before the market becomes too crowdy. Let’s go,” he said. Bantering with Good-Natured Spirit would only make him more cocky, so Shira held the urge to humor his annoying behavior and headed off to the village’s market.
 
-***
+---
 
 Back in the kitchen, Mila stayed with his father--who still shredding coconuts--while she read from a see-through board in front of her.
 
 “Ugh… his experience didn’t even change a single point,” Mila groaned.
 
-Patriarch Shuro too engrossed himself in coconut to realize what his daughter was doing just now. “You did a **Status Window** on him?” 
+Patriarch Shuro too engrossed himself in coconut to realize what his daughter was doing just now. “You did a **Status Window** on him?”
 
 Mila Yashura nodded. Her face was sour though. “Look at this, old man. See what’s wrong with the number?”
 
@@ -404,7 +407,7 @@ There was an unspoken law of the system most people didn’t know. A premonition
 
 “See what I’m getting at?” Shuro Yashura said with a smile. “Time will reveal it, you don’t have to worry. Sooner or later, there’ll be another Unique class in our Yashura Family.”
 
-***
+---
 
 That morning the family getting busy preparing for ngajen ceremony; family officials, the servants, even brats too, were busy with their own errands. Usually with a few of copper kobe coins older kids could secretly pass their morning errands to the little ones--as lazier and richer kids like Shira wasn’t foreign to the practice, but unfortunately he couldn’t find some kids to bribe even on days like this. Not that he wasn’t happy about it. The errand his aunt gave him accidentally had something to do in the market, the destination he’d go to sell his painting today anyway.
 
@@ -470,7 +473,7 @@ Though it was clear Monkey meant no harm, Shira narrowed his eyes at the pedder.
 
 “You jest again, Young Master… ha ha… haaa….” Monkey awkwardly laughed as he tried to hide his dampened enthusiasm. “Why don’t you try it first, Young Master Shira. You don’t have to pay if you didn’t get to graduate from Level 3 Novice.”
 
-Eventually, Shira drank the Boost Elixir within a gulp, not because he believed its miraculous effect, but because he was weak for free and discounted goods. 
+Eventually, Shira drank the Boost Elixir within a gulp, not because he believed its miraculous effect, but because he was weak for free and discounted goods.
 
 “Your EXP bar didn’t even budge a little,” Monkey muttered with a meek voice.
 
@@ -498,7 +501,7 @@ A man appeared from the wagon Monkey had, had an appearance of the stereotypical
 
 “Yes, you call me Snake--don’t ask for my real name,” the Alchemist said.
 
-One would hide his name if he didn’t want to be associated with his family anymore. So Shira didn’t ask. He looked at the scholarly Alchemist, then at the peddler. One was the Snake and the other one was the Monkey. 
+One would hide his name if he didn’t want to be associated with his family anymore. So Shira didn’t ask. He looked at the scholarly Alchemist, then at the peddler. One was the Snake and the other one was the Monkey.
 
 Shira found some sort of strange camradice between them. “I see, so both of you decided to be a partner for life.”
 
@@ -522,7 +525,7 @@ Shira then asked Snake straightforwardly.
 
 “No, I’d gladly make profit out of those trash talking they did behind my back--though, it seems you picked the wrong guinea pig to be your mascot for your ‘business hack’,” Shira said with a wry smile.
 
-Monkey nodded weakly. As a peddler from outside the village, he was always bothered by how nasty rumors could be, especially with some acquaintance he depended on sometimes as an important business partner. 
+Monkey nodded weakly. As a peddler from outside the village, he was always bothered by how nasty rumors could be, especially with some acquaintance he depended on sometimes as an important business partner.
 
 Seeing that they no longer had things to chat about, Shira said to them he’d consider putting some resources if he managed to gain some nod from the family elders after he went through the coming-of-age ceremony next year. And now that he finished selling Good-Natured Spirit’s rejected commision and completed the errand his aunt gave him, Shira then bid farewell to the two animal-nicknamed gentlemen.
 
@@ -540,7 +543,7 @@ The after taste was incredibly sour. Unlike any other bitter concocted elixirs o
 
 “What?” the surprised Shira glanced at Snake and asked slowly, “This one’s free, right?”
 
-It was in a single flash Shira did catch a strange dumbfoundedness in Snake eyes, like the result even came more shocking than him than either of Shira and Monkey. Yet the moment after he promptly regained his stoic exposure, then said to Shira, “Don’t worry, I don’t plan to take back my words,” 
+It was in a single flash Shira did catch a strange dumbfoundedness in Snake eyes, like the result even came more shocking than him than either of Shira and Monkey. Yet the moment after he promptly regained his stoic exposure, then said to Shira, “Don’t worry, I don’t plan to take back my words,”
 
 The odd Alchemist put his hands at his back and walked back to his wagon. Before he climbed the wagon, he once again glanced at Shira, looking in a state of half-disbelief like expression
 
@@ -550,7 +553,7 @@ As Snake disappeared into the wagon, Shira and Monkey exchanged glances.
 
 Monkey grinned. “Though an oddball, I never seen anyone with more talent in alchemy than him, like, ever.”
 
-After leaving Monkey to continue his stall, Shira saw Good-Natured Spirit again when he visited a food stall not far from Monkey’s wagon. He asked what he was doing, and the Nalaq told him there was a fool who bet a lot and won a lot in the gambling games. To lose against in gambling against someone with Good-Natured Spirit’s caliber, really--Shira sighed--he couldn’t wait for his coming-of-age ceremony next year so he too could farm on these gullible people in some friendly matches--just like what he did with Good-Natured Spirit for this past one year. 
+After leaving Monkey to continue his stall, Shira saw Good-Natured Spirit again when he visited a food stall not far from Monkey’s wagon. He asked what he was doing, and the Nalaq told him there was a fool who bet a lot and won a lot in the gambling games. To lose against in gambling against someone with Good-Natured Spirit’s caliber, really--Shira sighed--he couldn’t wait for his coming-of-age ceremony next year so he too could farm on these gullible people in some friendly matches--just like what he did with Good-Natured Spirit for this past one year.
 
 “You know,” munching on some satays he bought from the market, Shira muttered when he headed home along with Good-Natured Spirit, “just then I drank this elixir that really could boost my EXP a little. I don’t know how the guy concocts it, but I have the feeling that I just drink some very expensive elixir for free.”
 
@@ -572,7 +575,7 @@ On the way back to Yashura Family Shira told the Nalaq spirit about the Alchemis
 
 “He realized one little secret about you then,” Good-Natured Spirit said.
 
-Shira stopped walking. He looked at him with his head tilted. 
+Shira stopped walking. He looked at him with his head tilted.
 
 “What secret?”
 
@@ -580,4 +583,4 @@ Good-Natured Spirit who floated before, spoke again.
 
 “You shouldn’t worry about it too much for now, brat. But, I advise you, if you are still holding dear for your lazy, peaceful village life, you should turn back and kill him right now.”
 
-***
+---

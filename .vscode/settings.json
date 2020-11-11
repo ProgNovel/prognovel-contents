@@ -1,0 +1,15 @@
+{
+  "eslint.enable": false,
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.run": "onSave",
+  "editor.formatOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "deno.enable": false
+}

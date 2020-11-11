@@ -4,10 +4,16 @@
   "description": "A repo to manage contents of ProgNovel platform.",
   "main": "index.js",
   "scripts": {
-    "build": "node .prognovel/index.js",
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "npm run type-check -- --watch",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build:js": "rollup -c",
+    "build": "npm run build:types && npm run build:js",
     "publish": "npm run build && git add . && git commit -m \"update novels...\" && git push",
     "dev": "node .prognovel/.development/server.js",
-    "test": "test"
+    "format": "prettier --write .prognovel/**/*.{ts,js,md}",
+    "test": "test",
+    "start": "node .prognovel/dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,14 +27,35 @@
   "homepage": "https://github.com/ProgNovel/prognovel-contents#readme",
   "dependencies": {
     "chalk": "^4.1.0",
+    "dessert-yaml-core": "^0.1.1",
     "front-matter": "^3.1.0",
     "glob": "^7.1.6",
     "glob-promise": "^3.4.0",
     "js-yaml": "^3.14.0",
+    "lodash.camelcase": "^4.3.0",
+    "markdown-wasm": "^1.1.2",
     "marked": "^1.1.1",
     "meow": "^7.0.1",
     "polka": "^0.5.2",
     "sharp": "^0.25.4",
     "yargs": "^15.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-typescript": "^7.12.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "prettier": "^2.1.2",
+    "rollup": "^2.33.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-sourcemaps": "^0.6.3",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "typescript": "^4.0.5"
   }
 }

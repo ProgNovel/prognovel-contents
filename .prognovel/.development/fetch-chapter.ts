@@ -1,9 +1,9 @@
 // @ts-ignore
-import md from 'marked';
+import md from "marked";
 // import { Remarkable } from 'remarkable';
-import fm from 'front-matter';
-import { cleanHTML } from '../utils/string';
-import { getGithubContentURL } from '../utils/github';
+import fm from "front-matter";
+import { cleanHTML } from "../utils/string";
+import { getGithubContentURL } from "../utils/github";
 
 const CACHE_EXPIRE = 60;
 const DEFAULT_INDEX = 2;
@@ -17,9 +17,9 @@ export async function fetchChapter(
   const chapter = await getRawChapter(params, event);
 
   return {
-    title: chapter.title || '',
+    title: chapter.title || "",
     monetization: chapter.monetization || false,
-    html: chapter.content || '',
+    html: chapter.content || "",
     index: DEFAULT_INDEX,
   };
 }
@@ -30,7 +30,7 @@ async function getRawChapter(
 ): Promise<RawChapter> {
   const url = getGithubContentURL(
     event,
-    `/novels/${novel}/contents/${book ? book + '/' : ''}${name}.${format}`,
+    `/novels/${novel}/contents/${book ? book + "/" : ""}${name}.${format}`,
   );
 
   const res = await fetch(url, {
@@ -40,16 +40,16 @@ async function getRawChapter(
     },
   });
 
-  console.log('Fetching', url);
+  console.log("Fetching", url);
   const text = await res.text();
   const frontmatter = fm(text);
   const content = md(frontmatter.body);
   // @ts-ignore
-  const isMonetized = ('' + frontmatter.attributes.monetization).toLowerCase() === 'true';
+  const isMonetized = ("" + frontmatter.attributes.monetization).toLowerCase() === "true";
 
   return {
     //@ts-ignore
-    title: frontmatter.attributes.title || '',
+    title: frontmatter.attributes.title || "",
     monetization: isMonetized,
     content: cleanHTML(content),
     raw_url: url,
