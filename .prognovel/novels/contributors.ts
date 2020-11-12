@@ -1,3 +1,5 @@
+import chalk from "chalk";
+
 export const contributors = {
   pool: new Map(),
   addContributor(novel: string, contributor: string) {
@@ -31,4 +33,39 @@ export const revSharePerChapter = {
 
 export function addContributor(novel: string, contributor: string) {
   contributors[novel] = (contributors[novel] || []).push(contributor);
+}
+
+export function calculateContributors(novel, contributions): string[] {
+  // console.log(contributors.get(novel));
+  return Object.keys(contributions).map((contributor) => {
+    return `${contributors.get(novel)[contributor]}#${contributions[contributor]}`;
+  });
+}
+
+export function warnUnregisteredContributors(
+  contributors: Array<{ contributor: string; where: string }>,
+) {
+  const EMPTY_SPACES = 44; // length
+  const l = contributors.length;
+  if (!l) return;
+  // console.log("");
+  console.log(chalk.bold.yellow("**********************************************"));
+  console.log(chalk.bold.yellow("*                                            *"));
+  console.log(
+    chalk.bold.yellow(
+      `*  ${chalk.underline(
+        l + (l > 10 ? "" : " ") + "unregistered contributors found ",
+      )}        *`,
+    ),
+  );
+  console.log(chalk.bold.yellow("*                                            *"));
+  contributors.forEach((warn) => {
+    const text = `  - ${warn.contributor} at ${warn.where}`;
+    const spaces =
+      EMPTY_SPACES - text.length > 0 ? new Array(EMPTY_SPACES - text.length).join(" ") + " " : "";
+    console.log(chalk.bold.yellow("*" + text + spaces + "*"));
+  });
+  console.log(chalk.bold.yellow("*                                            *"));
+  console.log(chalk.bold.yellow("**********************************************"));
+  console.log("");
 }

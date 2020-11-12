@@ -1,8 +1,7 @@
 ---
 title: The Youth from Badril Village
-editors:
-  - Radhy
-  - ZooM
+author: Radhy
+editor: Radhy, Zoom, MyEditor, Wooewe
 ---
 
 A fifteen years old boy played a game of chess against a spirit. Yesterday, he won a ghastly old encyclopedia nobody ever heard of. Today, the bet he eyed was silver coins. He didn’t know what he wanted from his opponent for tomorrow’s game. But the spirit in this dashing leather armor, adventurer-style, always wanted one thing for the game’s prize: taking control of the boy’s mortal body.
@@ -33,13 +32,13 @@ The spirit scoffed.
 
 “Then use it to add your savings,” the spirit said. “And don’t call me Nalaq. Don’t push your primitive tribal nonsense to me. Call me ‘Good-Natured Spirit’ as usual. I’m not like your usual Nalaqs, brat.”
 
-“It’s not tribal.” The boy didn’t show any sign of agreement. He didn’t know why this roguish-grinning spirit didn’t like to be called a Nalaq. The way southern Mossack people, like the boy himself, addressed spirits were usually by two terms: Nalaq and Selaq. As far as he knew Nalaq was a title worth to be proud of. 
+“It’s not tribal.” The boy didn’t show any sign of agreement. He didn’t know why this roguish-grinning spirit didn’t like to be called a Nalaq. The way southern Mossack people, like the boy himself, addressed spirits were usually by two terms: Nalaq and Selaq. As far as he knew Nalaq was a title worth to be proud of.
 
 <novel-trivia label=”Lore”>
 
-Nalaq were those of the spirit of fallen heroes and mages, had attained high-level of enlightenment to see ways to preserve souls across death. Whilst no longer to be alive, Nalaqs own their consciousness and retain their memories as well intelligence, though part of their original power diminished, especially those who relied on physical might during their prime. 
+Nalaq were those of the spirit of fallen heroes and mages, had attained high-level of enlightenment to see ways to preserve souls across death. Whilst no longer to be alive, Nalaqs own their consciousness and retain their memories as well intelligence, though part of their original power diminished, especially those who relied on physical might during their prime.
 
-Meanwhile, Selaqs arose from death through unnatural causes, sometimes fueled by resentment and great energy of negativity. Though more powerful, their spirit didn’t dissipate because of strong, usually vile, emotions their harbour when they died, the restless spirits stuck in the limbo and returned back to the mortal world as hostile, mindless haunting spectres. 
+Meanwhile, Selaqs arose from death through unnatural causes, sometimes fueled by resentment and great energy of negativity. Though more powerful, their spirit didn’t dissipate because of strong, usually vile, emotions their harbour when they died, the restless spirits stuck in the limbo and returned back to the mortal world as hostile, mindless haunting spectres.
 
 </novel-trivia>
 
@@ -53,7 +52,7 @@ Theoretically the spirit that currently playing chess was a Nalaq. He still got 
 
 “Hooohhh…” the boy half-heartedly nodded. As expected, every time he brought the topic about the spirit’s identity, all he got was empty talks, disgusting enough for him to regret for bringing up the topic. For now, the only joyous thing he got to do was counting the money he won from the chess game as the bullshit Good-Natured Spirit sang about his past tuning endlessly in the background.
 
-***
+---
 
 Somewhere in Tiramikal Continent, far in the opposite side of the cold, barbaric northern lands, not too isolated from the bustling early-capitalistic empires of the western lands, and not too far away from the neighbor eastern lands of never-ending warfares between the eastern Kaya feudal lords, a village known as Badril Village was living peaceful for a number of years. The old blood the locals knew as Badril Village’s three big families rooted deeply these past one hundred years in spite of the thinning southern Mossack heritage. Despite slowly developing their rural village worthy of the westerner tourists and easterners refugees, the southern locals still taking pride in their Mossack hunters and gatherers ancestry. Exactly one year ago Good-Natured Spirit appeared in this humble village.󠆞
 
@@ -65,7 +64,7 @@ There was a young woman he knew trotted the street. Good-Natured Spirit knew her
 
 “Aunty,” Mila greeted an aunty by lowering her head, “did you see my cousin Shira around here?”
 
-The local wife she asked shook her head. Mila Yashura said a polite thanks and continued searching for her cousin. 
+The local wife she asked shook her head. Mila Yashura said a polite thanks and continued searching for her cousin.
 
 Good-Natured Spirit swept the street with his eyes, looking for something. When he saw a certain manservant he stopped. Using his spiritual knife, he dismantled a small pebble from the stone wall he sat on, flicked it using his thumb and knocked the manservant’s head with it.
 
@@ -111,7 +110,7 @@ Shira wanted to simply give her money to make her shut up. But the coins he had 
 
 “Yeah, that reminds me, the news I wanted to tell you!” Mila finally snapped out of her nagging mode. “That Malikh girl! Your fiancée! After two years abroad! She’s finally coming home!”
 
-“Ohh…” the reply was anticlimactic. 
+“Ohh…” the reply was anticlimactic.
 
 “Ohh? What the fuck with that reply?”
 
@@ -151,7 +150,7 @@ Carrying the canvas and the chess with him, Shira warned the Nalaq, “You bette
 
 After he said that Shira Yashura turned around. He started to walk down the hill. Good-Natured Spirit saw the boy walk without caring for the world, then he set off to check the girl by himself with a chuckle that escaped from his mouth.
 
-***
+---
 
 A few hours later the said fiancée showed herself in a public training field. The field, owned by the most influential family in Badril Village--the Elzhier Family--was neatly arranged with archery targets and provided with dulled swords for the teenagers trained themselves or doing mock battles. The Elzhiers sent some menservants occasionally to act as security in case conflicts would occur. Today, the young master of the said family himself, nicknamed Bony, guarded the entrance along with two of his lackeys.
 
@@ -213,7 +212,7 @@ Pilek, the most cheerful in Bony’s group, who was actually the most friendly, 
 
 Pilek wryly smiled and nodded. Polio also thought his friend Pilek couldn’t read between the line. Although Pilek’s remark was well-intentioned, it’d just make things worse for Bony. The bad mood from back three years ago still left after taste that made him and her uncomfortable dealing with each other.
 
-After that, more people were coming to see the young lady of Malikh Family. 
+After that, more people were coming to see the young lady of Malikh Family.
 
 The talks and speculations about her hair made the boys think she was dissatisfied with her engagement with Shira Yashura. Thus giving them hopes to snatch her away. It was no exaggeration to say that most of the boys fell for her, especially after they saw how the young lady grew beautifully. They surrounded this girl who had this icy expression on her face, though she herself greatly concentrated on holding a bow and an arrow, eyes straight to the archery target dozens of meters from her. She shot. And when the arrow hit splendidly, the boys would cheer and fawn all over her. The girl kept her face cold despite the flooding flattery coming at her way.
 
@@ -243,7 +242,7 @@ And this made her raised brows turned into a frown. Going by the crowd, for a Le
 
 “Ah, Young Lady Bhela! You don’t have to bother yourself with such eyesore trash. I know you’re troubled with the careless arrangement your father made, but if we put our mind to it, we can--”
 
-All was well until the young man put bad words about her father. Never did he expect that the girl would mercilessly retract her hand just before the tips of their fingers touched. 
+All was well until the young man put bad words about her father. Never did he expect that the girl would mercilessly retract her hand just before the tips of their fingers touched.
 
 “Please don’t pretend you were familiar with me,” that was what she said.
 
@@ -273,9 +272,9 @@ Bony’s expression didn’t change much as he still crossed his arms and rested
 
 On the other hand, Pilek, the one received the returned bow from Bhela, waved his hand again and shouted, “Take care, princess!”
 
-***
+---
 
-Because she couldn’t train her archery peacefully in public, Bhela returned back to Malikh Family and trained in her private training place. 
+Because she couldn’t train her archery peacefully in public, Bhela returned back to Malikh Family and trained in her private training place.
 
 It was originally a backyard turned archery ground, made by Malikh Family Patriarch after knowing his daughter showed interest in archery. It was nothing fancy. It was spacious and good enough when she started with her first bow but now Bhela felt the place was lacking. At most, she had to live with the meager fifty meters range maximum. Therefore, the practice she had made a habit of had to wait.
 
@@ -341,7 +340,7 @@ They decided to make it history with only the four of them who knew the previous
 
 After that Bhela continued with light training. Good-Natured Spirit watched her doing simple shooting, she didn’t even use a slightest of her mana from then on. Yawning, Good-Natured Spirit stood up. Then he flew away from Malikh Family and began to look for some other interesting thing to sate his boredom.
 
-***
+---
 
 <authors-note id="Radhy">
 

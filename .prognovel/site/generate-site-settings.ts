@@ -14,7 +14,7 @@ export function generateSiteSettings() {
     : [];
 
   const metadataFile = path.resolve(__dirname, "../../sitemetadata.json");
-  console.log(metadataFile);
+  // console.log(metadataFile);
   fs.writeFileSync(metadataFile, JSON.stringify(settings, null, 4));
 
   contributionRoles.set(settings.contribution_roles);

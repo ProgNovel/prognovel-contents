@@ -2,7 +2,9 @@
 Radhy: $wallet.example.com/test-1
 
 # Editor
-MyEditor: r2
+MyEditor: $wallet.example.com/editor
 
 # Proofreader
-MyProofreader: 24r
+MyProofreader: $wallet.example.com/proofreader
+
+Zoom: $wallet.example.com/test-zoom

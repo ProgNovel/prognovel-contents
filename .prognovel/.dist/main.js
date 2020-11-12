@@ -986,6 +986,53 @@ function _defineProperty(obj, key, value) {
 
 var defineProperty = _defineProperty;
 
+function _arrayLikeToArray(arr, len) {
+  if (len == null || len > arr.length) len = arr.length;
+
+  for (var i = 0, arr2 = new Array(len); i < len; i++) {
+    arr2[i] = arr[i];
+  }
+
+  return arr2;
+}
+
+var arrayLikeToArray = _arrayLikeToArray;
+
+function _arrayWithoutHoles(arr) {
+  if (Array.isArray(arr)) return arrayLikeToArray(arr);
+}
+
+var arrayWithoutHoles = _arrayWithoutHoles;
+
+function _iterableToArray(iter) {
+  if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter);
+}
+
+var iterableToArray = _iterableToArray;
+
+function _unsupportedIterableToArray(o, minLen) {
+  if (!o) return;
+  if (typeof o === "string") return arrayLikeToArray(o, minLen);
+  var n = Object.prototype.toString.call(o).slice(8, -1);
+  if (n === "Object" && o.constructor) n = o.constructor.name;
+  if (n === "Map" || n === "Set") return Array.from(o);
+  if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return arrayLikeToArray(o, minLen);
+}
+
+var unsupportedIterableToArray = _unsupportedIterableToArray;
+
+function _nonIterableSpread() {
+  throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+}
+
+var nonIterableSpread = _nonIterableSpread;
+
+function _toConsumableArray(arr) {
+  return arrayWithoutHoles(arr) || iterableToArray(arr) || unsupportedIterableToArray(arr) || nonIterableSpread();
+}
+
+var toConsumableArray = _toConsumableArray;
+
 function isNothing(subject) {
   return (typeof subject === 'undefined') || (subject === null);
 }
@@ -16712,16 +16759,41 @@ var revSharePerChapter = {
     return this.rev_share;
   }
 };
+function calculateContributors(novel, contributions) {
+  // console.log(contributors.get(novel));
+  return Object.keys(contributions).map(function (contributor) {
+    return "".concat(contributors.get(novel)[contributor], "#").concat(contributions[contributor]);
+  });
+}
+function warnUnregisteredContributors(contributors) {
+  var EMPTY_SPACES = 44; // length
+
+  var l = contributors.length;
+  if (!l) return; // console.log("");
+
+  console.log(source.bold.yellow("**********************************************"));
+  console.log(source.bold.yellow("*                                            *"));
+  console.log(source.bold.yellow("*  ".concat(source.underline(l + (l > 10 ? "" : " ") + "unregistered contributors found "), "        *")));
+  console.log(source.bold.yellow("*                                            *"));
+  contributors.forEach(function (warn) {
+    var text = "  - ".concat(warn.contributor, " at ").concat(warn.where);
+    var spaces = EMPTY_SPACES - text.length > 0 ? new Array(EMPTY_SPACES - text.length).join(" ") + " " : "";
+    console.log(source.bold.yellow("*" + text + spaces + "*"));
+  });
+  console.log(source.bold.yellow("*                                            *"));
+  console.log(source.bold.yellow("**********************************************"));
+  console.log("");
+}
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
-function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
+function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray$1(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
 
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+function _unsupportedIterableToArray$1(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray$1(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray$1(o, minLen); }
 
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+function _arrayLikeToArray$1(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 function generateMetadata(_x) {
   return _generateMetadata.apply(this, arguments);
 }
@@ -16832,7 +16904,7 @@ function _compileChapter() {
               var _ref2 = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelContents_node_modules__babel_runtime_regenerator.mark(function _callee3(resolve) {
                 var _Object$keys, _Object$keys2;
 
-                var novel, chapters, chapterTitles, contributions, t0, glob0, files, glob1, cacheFolder, cacheFile, cache, rev0, rev_share, rev1, ch0, chapterList, ch1, info, synopsis, meta, logTitle, t1;
+                var novel, chapters, chapterTitles, contributions, unregisteredContributor, t0, glob0, files, glob1, cacheFolder, cacheFile, cache, rev0, rev_share, rev1, ch0, chapterList, ch1, info, synopsis, meta, logTitle, t1;
                 return F___CODE_proyek_prognovelContents_node_modules__babel_runtime_regenerator.wrap(function _callee3$(_context3) {
                   while (1) {
                     switch (_context3.prev = _context3.next) {
@@ -16841,12 +16913,13 @@ function _compileChapter() {
                         chapters = [];
                         chapterTitles = {};
                         contributions = {};
+                        unregisteredContributor = [];
                         t0 = perf_hooks.performance.now();
                         glob0 = perf_hooks.performance.now();
-                        _context3.next = 8;
+                        _context3.next = 9;
                         return globby$1("novels/".concat(novel, "/contents/**/*.md"));
 
-                      case 8:
+                      case 9:
                         files = _context3.sent;
                         glob1 = perf_hooks.performance.now();
                         cacheFolder = path__default['default'].resolve(__dirname, "../.cache");
@@ -16867,23 +16940,39 @@ function _compileChapter() {
                           var index = file.split("chapter-")[1].slice(0, -3);
                           var book = file.split("contents/")[1].split("/chapter")[0];
                           var cacheLastModified = ((_cache$file = cache[file]) === null || _cache$file === void 0 ? void 0 : _cache$file.lastModified) || 0;
+                          var share = {};
+                          var unregistered = [];
 
                           if (lastModified > cacheLastModified) {
                             cache[file] = {};
                             meta = frontMatter(fs__default['default'].readFileSync(file, "utf-8"));
-                            console.log("book:", book);
 
                             var _iterator = _createForOfIteratorHelper(contributionRoles.get()),
                                 _step;
 
                             try {
-                              for (_iterator.s(); !(_step = _iterator.n()).done;) {
+                              var _loop = function _loop() {
                                 var contribution = _step.value;
-                                var contributor = meta.attributes[contribution];
+                                var workers = meta.attributes[contribution];
 
-                                if (contributor && revSharePerChapter.get()[contribution]) {
-                                  contributions[contributor] = (contributions[contributor] || 0) + revSharePerChapter.get()[contribution];
+                                if (workers && revSharePerChapter.get()[contribution]) {
+                                  workers.split(",").forEach(function (contributor) {
+                                    contributor = contributor.trim();
+
+                                    if (Object.keys(contributors.get(novel)).includes(contributor)) {
+                                      share[contributor] = (share[contributor] || 0) + revSharePerChapter.get()[contribution];
+                                    } else {
+                                      unregistered.push({
+                                        contributor: contributor,
+                                        where: "".concat(book, "/chapter-").concat(index)
+                                      });
+                                    }
+                                  });
                                 }
+                              };
+
+                              for (_iterator.s(); !(_step = _iterator.n()).done;) {
+                                _loop();
                               }
                             } catch (err) {
                               _iterator.e(err);
@@ -16891,24 +16980,30 @@ function _compileChapter() {
                               _iterator.f();
                             }
 
-                            cache[file]["contributions"] = contributions;
+                            cache[file]["contributions"] = share;
                             cache[file].lastModified = lastModified;
-                            cache[file].chapters = chapters;
                             cache[file].data = meta.attributes;
+                            cache[file]["unregistered"] = unregistered;
                           } else {
                             // console.log("Get from cache for", file);
-                            contributions = cache[file]["contributions"];
+                            share = cache[file]["contributions"];
+                            unregistered = cache[file]["unregistered"];
                             (meta ? meta : meta = {}).attributes = cache[file].data; // contributors.bulkAddContributors(novel, cache[file]["contributors"]);
                           }
 
-                          chapterTitles[index] = meta.attributes.title || "chapter-" + index;
-                          chapters.push(book + "/" + index);
+                          unregisteredContributor = [].concat(toConsumableArray(unregisteredContributor), toConsumableArray(unregistered));
+                          unregistered = [];
+                          if (!chapterTitles[book]) chapterTitles[book] = {};
+                          chapterTitles[book][index] = meta.attributes.title || "chapter-" + index;
+                          chapters.push(book + "/" + index); // console.log(share);
+
+                          Object.keys(contributors.get(novel)).forEach(function (contributor) {
+                            contributions[contributor] = (contributions[contributor] || 0) + (share[contributor] || 0);
+                          });
                         }); // console.log(cache);
 
                         rev0 = perf_hooks.performance.now();
-                        rev_share = Object.keys(contributions).map(function (contributor) {
-                          return "".concat(contributors.get(novel)[contributor], "#").concat(contributions[contributor]);
-                        });
+                        rev_share = calculateContributors(novel, contributions);
                         rev1 = perf_hooks.performance.now();
                         ch0 = perf_hooks.performance.now();
                         chapterList = chapters.sort(sortChapters);
@@ -16940,9 +17035,10 @@ function _compileChapter() {
                         fs__default['default'].writeFileSync(cacheFile, JSON.stringify(cache || {}), "utf-8");
                         t1 = perf_hooks.performance.now();
                         console.log("Processing", files.length, "markdowns for novel", novel, "in", (t1 - t0).toFixed(2), "ms.");
+                        warnUnregisteredContributors(unregisteredContributor);
                         resolve(meta);
 
-                      case 38:
+                      case 40:
                       case "end":
                         return _context3.stop();
                     }
@@ -16971,8 +17067,8 @@ function generateSiteSettings() {
   var settings = F___CODE_proyek_prognovelContents_node_modules_jsYaml.safeLoad(fs__default['default'].readFileSync(settingsFile));
   if (!settings.cors) settings.cors = "*";
   settings.contribution_roles = settings["rev_share_contribution_per_chapter"] ? Object.keys(settings["rev_share_contribution_per_chapter"]) : [];
-  var metadataFile = path__default['default'].resolve(__dirname, "../../sitemetadata.json");
-  console.log(metadataFile);
+  var metadataFile = path__default['default'].resolve(__dirname, "../../sitemetadata.json"); // console.log(metadataFile);
+
   fs__default['default'].writeFileSync(metadataFile, JSON.stringify(settings, null, 4));
   contributionRoles.set(settings.contribution_roles);
   revSharePerChapter.set(settings["rev_share_contribution_per_chapter"]);

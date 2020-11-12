@@ -11,7 +11,13 @@ import { performance } from "perf_hooks";
 import { checkValidBookFolder } from "../utils/check-valid-book-folder";
 import { generateBookCover } from "./generate-cover";
 import { convertToNumeric, sortChapters } from "../utils/sort";
-import { contributionRoles, revSharePerChapter, contributors } from "./contributors";
+import {
+  contributionRoles,
+  revSharePerChapter,
+  contributors,
+  calculateContributors,
+  warnUnregisteredContributors,
+} from "./contributors";
 
 export async function generateMetadata(novels: string[]) {
   const firstNovel = novels[0];
@@ -56,6 +62,7 @@ async function compileChapter(folder, images, id) {
     let chapters = [];
     let chapterTitles = {};
     let contributions = {};
+    let unregisteredContributor = [];
 
     const t0 = performance.now();
     const glob0 = performance.now();
@@ -77,36 +84,53 @@ async function compileChapter(folder, images, id) {
       const index = file.split("chapter-")[1].slice(0, -3);
       const book = file.split("contents/")[1].split("/chapter")[0];
       const cacheLastModified = cache[file]?.lastModified || 0;
+      let share = {};
+      let unregistered = [];
       if (lastModified > cacheLastModified) {
         cache[file] = {};
         meta = fm(fs.readFileSync(file, "utf-8"));
 
-        console.log("book:", book);
         for (const contribution of contributionRoles.get()) {
-          const contributor = meta.attributes[contribution];
-          if (contributor && revSharePerChapter.get()[contribution]) {
-            contributions[contributor] =
-              (contributions[contributor] || 0) + revSharePerChapter.get()[contribution];
+          const workers = meta.attributes[contribution];
+          if (workers && revSharePerChapter.get()[contribution]) {
+            workers.split(",").forEach((contributor: string) => {
+              contributor = contributor.trim();
+              if (Object.keys(contributors.get(novel)).includes(contributor)) {
+                share[contributor] =
+                  (share[contributor] || 0) + revSharePerChapter.get()[contribution];
+              } else {
+                unregistered.push({ contributor, where: `${book}/chapter-${index}` });
+              }
+            });
           }
         }
-        cache[file]["contributions"] = contributions;
+
+        cache[file]["contributions"] = share;
         cache[file].lastModified = lastModified;
-        cache[file].chapters = chapters;
         cache[file].data = meta.attributes;
+        cache[file]["unregistered"] = unregistered;
       } else {
         // console.log("Get from cache for", file);
-        contributions = cache[file]["contributions"];
+        share = cache[file]["contributions"];
+        unregistered = cache[file]["unregistered"];
         (meta ? meta : (meta = {})).attributes = cache[file].data;
         // contributors.bulkAddContributors(novel, cache[file]["contributors"]);
       }
-      chapterTitles[index] = (meta.attributes as any).title || "chapter-" + index;
+      unregisteredContributor = [...unregisteredContributor, ...unregistered];
+      unregistered = [];
+      if (!chapterTitles[book]) chapterTitles[book] = {};
+      chapterTitles[book][index] = (meta.attributes as any).title || "chapter-" + index;
       chapters.push(book + "/" + index);
+      // console.log(share);
+      Object.keys(contributors.get(novel)).forEach((contributor) => {
+        contributions[contributor] = (contributions[contributor] || 0) + (share[contributor] || 0);
+      });
     });
     // console.log(cache);
+
     const rev0 = performance.now();
-    const rev_share = Object.keys(contributions).map((contributor) => {
-      return `${contributors.get(novel)[contributor]}#${contributions[contributor]}`;
-    });
+    const rev_share = calculateContributors(novel, contributions);
+
     const rev1 = performance.now();
     const ch0 = performance.now();
     const chapterList = chapters.sort(sortChapters);
@@ -150,6 +174,7 @@ async function compileChapter(folder, images, id) {
       (t1 - t0).toFixed(2),
       "ms.",
     );
+    warnUnregisteredContributors(unregisteredContributor);
     resolve(meta);
   });
 }

@@ -15,3 +15,8 @@ export declare const revSharePerChapter: {
     get(): any;
 };
 export declare function addContributor(novel: string, contributor: string): void;
+export declare function calculateContributors(novel: any, contributions: any): string[];
+export declare function warnUnregisteredContributors(contributors: Array<{
+    contributor: string;
+    where: string;
+}>): void;
