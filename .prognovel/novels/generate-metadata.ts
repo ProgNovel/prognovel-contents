@@ -3,12 +3,14 @@ import path from "path";
 import yaml from "js-yaml";
 import fm from "front-matter";
 import { matter } from "wasm-frontmatter";
+import chalk from "chalk";
 import md from "marked";
 import globby from "globby";
+import glob from "tiny-glob";
 import { performance } from "perf_hooks";
 import { checkValidBookFolder } from "../utils/check-valid-book-folder";
 import { generateBookCover } from "./generate-cover";
-import chalk from "chalk";
+import { convertToNumeric, sortChapters } from "../utils/sort";
 import { contributionRoles, revSharePerChapter, contributors } from "./contributors";
 
 export async function generateMetadata(novels: string[]) {
@@ -72,13 +74,14 @@ async function compileChapter(folder, images, id) {
     files.forEach((file) => {
       let meta;
       let lastModified = fs.statSync(file).mtime.getTime();
+      const index = file.split("chapter-")[1].slice(0, -3);
+      const book = file.split("contents/")[1].split("/chapter")[0];
       const cacheLastModified = cache[file]?.lastModified || 0;
       if (lastModified > cacheLastModified) {
         cache[file] = {};
         meta = fm(fs.readFileSync(file, "utf-8"));
-        const index = file.split("chapter-")[1].slice(0, -3);
-        chapterTitles[index] = (meta.attributes as any).title || "chapter-" + index;
-        chapters.push(file);
+
+        console.log("book:", book);
         for (const contribution of contributionRoles.get()) {
           const contributor = meta.attributes[contribution];
           if (contributor && revSharePerChapter.get()[contribution]) {
@@ -88,11 +91,16 @@ async function compileChapter(folder, images, id) {
         }
         cache[file]["contributions"] = contributions;
         cache[file].lastModified = lastModified;
+        cache[file].chapters = chapters;
+        cache[file].data = meta.attributes;
       } else {
         // console.log("Get from cache for", file);
         contributions = cache[file]["contributions"];
+        (meta ? meta : (meta = {})).attributes = cache[file].data;
         // contributors.bulkAddContributors(novel, cache[file]["contributors"]);
       }
+      chapterTitles[index] = (meta.attributes as any).title || "chapter-" + index;
+      chapters.push(book + "/" + index);
     });
     // console.log(cache);
     const rev0 = performance.now();
@@ -100,14 +108,8 @@ async function compileChapter(folder, images, id) {
       return `${contributors.get(novel)[contributor]}#${contributions[contributor]}`;
     });
     const rev1 = performance.now();
-
     const ch0 = performance.now();
-    const chapterList = chapters
-      .map((file) => {
-        const split = file.split("/");
-        return convertToNumeric(split[split.length - 1], false);
-      })
-      .sort(sortChapters);
+    const chapterList = chapters.sort(sortChapters);
     const ch1 = performance.now();
 
     const info = yaml.load(fs.readFileSync(folder + "/info.yml", "utf8"));
@@ -120,7 +122,7 @@ async function compileChapter(folder, images, id) {
 
     console.log("");
     console.log("Generating", chalk.bold.underline.green(meta.title), "metadata...");
-    const logTitle = "[" + chalk.bold.greenBright(meta.title) + "]:";
+    const logTitle = chalk.bold.greenBright("[" + meta.title + "]:");
     console.log(logTitle, "Iterating globby takes", (glob1 - glob0).toFixed(2), "ms");
     console.log(logTitle, "Sorting chapter takes", (ch1 - ch0).toFixed(2), "ms");
     console.log(logTitle, "Calculating rev share takes", (rev1 - rev0).toFixed(2), "ms");
@@ -150,37 +152,4 @@ async function compileChapter(folder, images, id) {
     );
     resolve(meta);
   });
-}
-
-function sortChapters(a, b) {
-  a = convertToNumeric(a);
-  b = convertToNumeric(b);
-
-  if (a[0] === b[0]) {
-    return a[1] - b[1];
-  }
-
-  return a[0] - b[0];
-}
-
-function convertToNumeric(chapterName, parse = true) {
-  let splitString = chapterName.replace("chapter-", "").replace(".md", "");
-
-  if (parse) {
-    if (splitString === "prologue") splitString = 0.1;
-    splitString = splitString.split("-");
-    if (splitString[1] == 0) splitString[1] = 0.5;
-    if (splitString[1] === undefined) splitString[1] = 0;
-    if (splitString[1] * 0 !== 0) splitString[1] = 99999; // NaN sub-index will be sorted as non-numeric
-
-    let result;
-    try {
-      result = splitString.map((ch) => JSON.parse(ch));
-    } catch (error) {
-      console.log("Error when parsing", splitString[1]);
-    }
-
-    return result;
-  }
-  return splitString;
 }

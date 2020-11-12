@@ -13,7 +13,7 @@
     "dev": "node .prognovel/.development/server.js",
     "format": "prettier --write .prognovel/**/*.{ts,js,md}",
     "test": "test",
-    "start": "node .prognovel/.dist/main.js --experimental-wasm-modules"
+    "start": "node .prognovel/.dist/main.js --enable-source-maps"
   },
   "repository": {
     "type": "git",
@@ -38,6 +38,7 @@
     "meow": "^7.0.1",
     "polka": "^0.5.2",
     "sharp": "^0.25.4",
+    "tiny-glob": "^0.2.6",
     "wasm-frontmatter": "^1.0.0",
     "yargs": "^15.4.1"
   },

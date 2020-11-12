@@ -28,14 +28,15 @@
       "id": "mock-novel",
       "title": "Mock Novel",
       "author": "ProgNovel",
-      "totalChapter": 70,
-      "lastChapter": "62"
+      "totalChapter": 84,
+      "lastChapter": "volume-6/62"
     },
     {
       "id": "yashura-legacy",
       "title": "Yashura Legacy",
       "author": "Radhy",
-      "totalChapter": 0
+      "totalChapter": 11,
+      "lastChapter": "volume-1/10-5"
     }
   ]
 }
