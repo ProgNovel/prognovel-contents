@@ -16794,57 +16794,86 @@ function _compileChapter() {
           case 0:
             return _context4.abrupt("return", new Promise( /*#__PURE__*/function () {
               var _ref2 = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelContents_node_modules__babel_runtime_regenerator.mark(function _callee3(resolve) {
-                var t0, novel, chapters, chapterTitles, contributions, files, rev_share, chapterList, info, synopsis, meta, t1;
+                var _Object$keys, _Object$keys2;
+
+                var novel, chapters, chapterTitles, contributions, t0, glob0, files, glob1, cacheFolder, cacheFile, cache, rev0, rev_share, rev1, ch0, chapterList, ch1, info, synopsis, meta, logTitle, t1;
                 return F___CODE_proyek_prognovelContents_node_modules__babel_runtime_regenerator.wrap(function _callee3$(_context3) {
                   while (1) {
                     switch (_context3.prev = _context3.next) {
                       case 0:
-                        t0 = perf_hooks.performance.now();
                         novel = folder.split("novels/")[1];
                         chapters = [];
                         chapterTitles = {};
                         contributions = {};
-                        _context3.next = 7;
-                        return globby$1("novels/".concat(novel, "/contents/**/*.md"), {
-                          onlyFiles: true
-                        });
+                        t0 = perf_hooks.performance.now();
+                        glob0 = perf_hooks.performance.now();
+                        _context3.next = 8;
+                        return globby$1("novels/".concat(novel, "/contents/**/*.md"));
 
-                      case 7:
+                      case 8:
                         files = _context3.sent;
+                        glob1 = perf_hooks.performance.now();
+                        cacheFolder = path__default['default'].resolve(__dirname, "../.cache");
+                        cacheFile = cacheFolder + "/".concat(novel, ".json");
+                        if (!fs__default['default'].existsSync(cacheFolder)) fs__default['default'].mkdirSync(cacheFolder);
+
+                        try {
+                          cache = JSON.parse(fs__default['default'].readFileSync(cacheFile, "utf-8")) || {};
+                        } catch (err) {
+                          cache = {};
+                        }
+
                         files.forEach(function (file) {
-                          var matter0 = perf_hooks.performance.now();
-                          var meta = frontMatter(fs__default['default'].readFileSync(file, "utf-8"));
-                          var matter1 = perf_hooks.performance.now(); // console.log("reading frontmatter takes", matter1 - matter0, "ms.");
+                          var _cache$file;
 
-                          var index = file.split("chapter-")[1].slice(0, -3);
-                          chapterTitles[index] = meta.attributes.title || "chapter-" + index;
-                          chapters.push(file);
+                          var meta;
+                          var lastModified = fs__default['default'].statSync(file).mtime.getTime();
+                          var cacheLastModified = ((_cache$file = cache[file]) === null || _cache$file === void 0 ? void 0 : _cache$file.lastModified) || 0;
 
-                          var _iterator = _createForOfIteratorHelper(contributionRoles.get()),
-                              _step;
+                          if (lastModified > cacheLastModified) {
+                            cache[file] = {};
+                            meta = frontMatter(fs__default['default'].readFileSync(file, "utf-8"));
+                            var index = file.split("chapter-")[1].slice(0, -3);
+                            chapterTitles[index] = meta.attributes.title || "chapter-" + index;
+                            chapters.push(file);
 
-                          try {
-                            for (_iterator.s(); !(_step = _iterator.n()).done;) {
-                              var contribution = _step.value;
-                              var contributor = meta.attributes[contribution];
+                            var _iterator = _createForOfIteratorHelper(contributionRoles.get()),
+                                _step;
 
-                              if (contributor && revSharePerChapter.get()[contribution]) {
-                                contributions[contributor] = (contributions[contributor] || 0) + revSharePerChapter.get()[contribution];
+                            try {
+                              for (_iterator.s(); !(_step = _iterator.n()).done;) {
+                                var contribution = _step.value;
+                                var contributor = meta.attributes[contribution];
+
+                                if (contributor && revSharePerChapter.get()[contribution]) {
+                                  contributions[contributor] = (contributions[contributor] || 0) + revSharePerChapter.get()[contribution];
+                                }
                               }
+                            } catch (err) {
+                              _iterator.e(err);
+                            } finally {
+                              _iterator.f();
                             }
-                          } catch (err) {
-                            _iterator.e(err);
-                          } finally {
-                            _iterator.f();
+
+                            cache[file]["contributions"] = contributions;
+                            cache[file].lastModified = lastModified;
+                          } else {
+                            // console.log("Get from cache for", file);
+                            contributions = cache[file]["contributions"]; // contributors.bulkAddContributors(novel, cache[file]["contributors"]);
                           }
-                        });
+                        }); // console.log(cache);
+
+                        rev0 = perf_hooks.performance.now();
                         rev_share = Object.keys(contributions).map(function (contributor) {
                           return "".concat(contributors.get(novel)[contributor], "#").concat(contributions[contributor]);
                         });
+                        rev1 = perf_hooks.performance.now();
+                        ch0 = perf_hooks.performance.now();
                         chapterList = chapters.map(function (file) {
                           var split = file.split("/");
                           return convertToNumeric(split[split.length - 1], false);
                         }).sort(sortChapters);
+                        ch1 = perf_hooks.performance.now();
                         info = F___CODE_proyek_prognovelContents_node_modules_jsYaml.load(fs__default['default'].readFileSync(folder + "/info.yml", "utf8"));
 
                         if (!Array.isArray(info.paymentPointers)) {
@@ -16860,14 +16889,21 @@ function _compileChapter() {
                           cover: images,
                           rev_share: rev_share
                         });
+                        console.log("");
                         console.log("Generating", source.bold.underline.green(meta.title), "metadata...");
+                        logTitle = "[" + source.bold.greenBright(meta.title) + "]:";
+                        console.log(logTitle, "Iterating globby takes", (glob1 - glob0).toFixed(2), "ms");
+                        console.log(logTitle, "Sorting chapter takes", (ch1 - ch0).toFixed(2), "ms");
+                        console.log(logTitle, "Calculating rev share takes", (rev1 - rev0).toFixed(2), "ms");
+                        console.log(logTitle, ((_Object$keys = Object.keys(contributors)) === null || _Object$keys === void 0 ? void 0 : _Object$keys.length) === 1 ? "person contributes" : (_Object$keys2 = Object.keys(contributors)) === null || _Object$keys2 === void 0 ? void 0 : _Object$keys2.length, "people contribute", "over", files.length, "chapters.");
                         fs__default['default'].writeFileSync(folder + "/.publish/metadata.json", JSON.stringify(meta, null, 4));
                         fs__default['default'].writeFileSync(folder + "/.publish/chapter-titles.json", JSON.stringify(chapterTitles));
+                        fs__default['default'].writeFileSync(cacheFile, JSON.stringify(cache || {}), "utf-8");
                         t1 = perf_hooks.performance.now();
                         console.log("Processing", files.length, "markdowns for novel", novel, "in", (t1 - t0).toFixed(2), "ms.");
                         resolve(meta);
 
-                      case 21:
+                      case 38:
                       case "end":
                         return _context3.stop();
                     }
