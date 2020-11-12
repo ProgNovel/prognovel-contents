@@ -1,9 +1,9 @@
-const { readFile, writeFile } = require("fs").promises;
-const path = require("path");
+import { readFileSync, writeFileSync } from "fs";
+import path from "path";
 
-async function appendNovelsMetadata(novelsMetadata) {
+export async function appendNovelsMetadata(novelsMetadata) {
   const siteMetadataFile = path.resolve(__dirname, "../../sitemetadata.json");
-  const siteMetadata = JSON.parse(await readFile(siteMetadataFile));
+  const siteMetadata = JSON.parse(readFileSync(siteMetadataFile, "utf-8"));
   novelsMetadata = novelsMetadata.map((meta) => {
     return {
       id: meta.id,
@@ -14,7 +14,5 @@ async function appendNovelsMetadata(novelsMetadata) {
     };
   });
   siteMetadata.novelsMetadata = novelsMetadata;
-  await writeFile(siteMetadataFile, JSON.stringify(siteMetadata, null, 2));
+  writeFileSync(siteMetadataFile, JSON.stringify(siteMetadata, null, 2));
 }
-
-module.exports = appendNovelsMetadata;

@@ -1,6 +1,6 @@
-const chalk = require("chalk");
+import chalk from "chalk";
 
-function workingFolderNotFound() {
+export function workingFolderNotFound() {
   console.log(".");
   console.log(".");
   console.log("-------------------------------------");
@@ -10,7 +10,3 @@ function workingFolderNotFound() {
   console.log("");
   console.log('%cMake sure you put your novels in "novels" directory.', '"color: green"');
 }
-
-module.exports = {
-  workingFolderNotFound,
-};

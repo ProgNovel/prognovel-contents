@@ -1,6 +1,6 @@
 site_title: ProgNovel
 contact: prognovel@gmail.com
-payment_pointer: $wallet.example.com/fsad
+payment_pointer: $wallet.example.com/test
 backend_api: https://api.prognovel.workers.dev
 
 ### PUBLISHED BOOKS ###

@@ -13,7 +13,7 @@
     "dev": "node .prognovel/.development/server.js",
     "format": "prettier --write .prognovel/**/*.{ts,js,md}",
     "test": "test",
-    "start": "node .prognovel/dist/index.js"
+    "start": "node .prognovel/.dist/main.js --experimental-wasm-modules"
   },
   "repository": {
     "type": "git",
@@ -27,23 +27,29 @@
   "homepage": "https://github.com/ProgNovel/prognovel-contents#readme",
   "dependencies": {
     "chalk": "^4.1.0",
-    "dessert-yaml-core": "^0.1.1",
+    "dessert-yaml-js": "^1.0.3",
     "front-matter": "^3.1.0",
     "glob": "^7.1.6",
     "glob-promise": "^3.4.0",
+    "globby": "^11.0.1",
     "js-yaml": "^3.14.0",
-    "lodash.camelcase": "^4.3.0",
     "markdown-wasm": "^1.1.2",
     "marked": "^1.1.1",
     "meow": "^7.0.1",
     "polka": "^0.5.2",
     "sharp": "^0.25.4",
+    "wasm-frontmatter": "^1.0.0",
     "yargs": "^15.4.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.12.1",
+    "@babel/plugin-proposal-optional-chaining": "^7.12.1",
+    "@babel/plugin-transform-regenerator": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.8.3",
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-typescript": "^7.12.1",
+    "@rollup/plugin-wasm": "^5.1.1",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.13.0",
     "eslint-config-prettier": "^6.15.0",
@@ -53,7 +59,9 @@
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
     "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-regenerator": "^0.6.0",
     "rollup-plugin-sourcemaps": "^0.6.3",
     "rollup-plugin-typescript2": "^0.29.0",
     "typescript": "^4.0.5"

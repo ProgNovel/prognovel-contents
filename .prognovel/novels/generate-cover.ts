@@ -1,16 +1,15 @@
-const sharp = require("sharp");
-const path = require("path");
-const fs = require("fs");
-const glob = require("glob");
-const { WORKING_FOLDER, BOOK_COVER } = require("../prognovel.config");
-const { workingFolderNotFound } = require("../utils/_errors");
+import sharp from "sharp";
+import path from "path";
+import fs from "fs";
+import { WORKING_FOLDER, BOOK_COVER } from "../prognovel.config";
+import { workingFolderNotFound } from "../utils/_errors";
 
 const folder = WORKING_FOLDER;
 const sizes = BOOK_COVER.sizes;
 const formats = BOOK_COVER.formats;
 const inputType = "jpg";
 
-async function convertBookCover(input, placeholderRatio = 1) {
+export async function generateBookCover(input, placeholderRatio = 1) {
   let outputFolder = path.resolve(input, "../.publish");
   if (!fs.existsSync(outputFolder)) fs.mkdirSync(outputFolder);
   outputFolder = outputFolder + "/cover";
@@ -74,5 +73,3 @@ async function convertBookCover(input, placeholderRatio = 1) {
 
   return images;
 }
-
-module.exports = convertBookCover;

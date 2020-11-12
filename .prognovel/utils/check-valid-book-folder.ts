@@ -1,9 +1,9 @@
-const fs = require("fs");
-const chalk = require("chalk");
-const yaml = require("js-yaml");
-const path = require("path");
+import fs from "fs";
+import chalk from "chalk";
+import yaml from "js-yaml";
+import path from "path";
 
-function checkValidBookFolder(folder) {
+export function checkValidBookFolder(folder) {
   const settingsFile = path.resolve(__dirname, "../../site-settings.yml");
   const settings = yaml.safeLoad(fs.readFileSync(settingsFile));
 
@@ -22,5 +22,3 @@ function checkValidBookFolder(folder) {
 
   return isInfoExist && isSynopsisExist && isExistInSettings;
 }
-
-module.exports = checkValidBookFolder;
