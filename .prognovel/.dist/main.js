@@ -16694,8 +16694,8 @@ function checkValidBookFolder(folder) {
 }
 
 function sortChapters(a, b) {
-  var bookA = a.split("/")[0];
-  var bookB = b.split("/")[0];
+  var bookA = a.split("/chapter-")[0];
+  var bookB = b.split("/chapter-")[0];
   var isDifferentBook = bookA !== bookB;
   a = convertToNumeric(a, isDifferentBook);
   b = convertToNumeric(b, isDifferentBook);
@@ -16708,7 +16708,7 @@ function sortChapters(a, b) {
 }
 function convertToNumeric(name) {
   var book = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-  var splitString = book ? name.split("/")[0] : name.split("/")[1];
+  var splitString = book ? name.split("/chapter-")[0] : name.split("/chapter-")[1];
   if (book) return [0, splitString];
   if (splitString === "prologue") splitString = 0.1;
   splitString = splitString.split("-");
@@ -16994,8 +16994,8 @@ function _compileChapter() {
                           unregisteredContributor = [].concat(toConsumableArray(unregisteredContributor), toConsumableArray(unregistered));
                           unregistered = [];
                           if (!chapterTitles[book]) chapterTitles[book] = {};
-                          chapterTitles[book][index] = meta.attributes.title || "chapter-" + index;
-                          chapters.push(book + "/" + index); // console.log(share);
+                          chapterTitles[book]["chapter-" + index] = meta.attributes.title || "chapter-" + index;
+                          chapters.push(book + "/chapter-" + index); // console.log(share);
 
                           Object.keys(contributors.get(novel)).forEach(function (contributor) {
                             contributions[contributor] = (contributions[contributor] || 0) + (share[contributor] || 0);

@@ -1,6 +1,6 @@
 export function sortChapters(a, b) {
-  const bookA = a.split("/")[0];
-  const bookB = b.split("/")[0];
+  const bookA = a.split("/chapter-")[0];
+  const bookB = b.split("/chapter-")[0];
   const isDifferentBook = bookA !== bookB;
 
   a = convertToNumeric(a, isDifferentBook);
@@ -14,7 +14,7 @@ export function sortChapters(a, b) {
 }
 
 export function convertToNumeric(name, book = false) {
-  let splitString = book ? name.split("/")[0] : name.split("/")[1];
+  let splitString = book ? name.split("/chapter-")[0] : name.split("/chapter-")[1];
 
   if (book) return [0, splitString];
   if (splitString === "prologue") splitString = 0.1;

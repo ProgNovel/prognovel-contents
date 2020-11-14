@@ -119,8 +119,9 @@ async function compileChapter(folder, images, id) {
       unregisteredContributor = [...unregisteredContributor, ...unregistered];
       unregistered = [];
       if (!chapterTitles[book]) chapterTitles[book] = {};
-      chapterTitles[book][index] = (meta.attributes as any).title || "chapter-" + index;
-      chapters.push(book + "/" + index);
+      chapterTitles[book]["chapter-" + index] =
+        (meta.attributes as any).title || "chapter-" + index;
+      chapters.push(book + "/chapter-" + index);
       // console.log(share);
       Object.keys(contributors.get(novel)).forEach((contributor) => {
         contributions[contributor] = (contributions[contributor] || 0) + (share[contributor] || 0);
