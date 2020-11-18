@@ -2,13 +2,12 @@ import fs from "fs";
 import path from "path";
 import yaml from "js-yaml";
 import fm from "front-matter";
-import { matter } from "wasm-frontmatter";
 import chalk from "chalk";
 import md from "marked";
 import globby from "globby";
 import glob from "tiny-glob";
 import { performance } from "perf_hooks";
-import { checkValidBookFolder } from "../utils/check-valid-book-folder";
+import { checkValidBookFolder, ensurePublishDirectoryExist } from "../utils/check-valid-book-folder";
 import { generateBookCover } from "./generate-cover";
 import { convertToNumeric, sortChapters } from "../utils/sort";
 import {
@@ -35,7 +34,7 @@ export async function generateMetadata(novels: string[]) {
 
           // TODO refactor placeholder ratio in prognovel.config.js
           const placeholderRatio = firstNovel === folderName ? 2 : 1;
-          const images = await generateBookCover(folder + "/cover.jpg", placeholderRatio);
+          const images = await generateBookCover(folderName, placeholderRatio);
           return await compileChapter(folder, images, folderName);
         }
       }
@@ -56,7 +55,7 @@ export async function generateMetadata(novels: string[]) {
   }
 }
 
-async function compileChapter(folder, images, id) {
+async function compileChapter(folder: string, images, id: string) {
   return new Promise(async (resolve) => {
     const novel = folder.split("novels/")[1];
     let chapters = [];
@@ -68,7 +67,7 @@ async function compileChapter(folder, images, id) {
     const glob0 = performance.now();
     const files = await globby(`novels/${novel}/contents/**/*.md`);
     const glob1 = performance.now();
-    const cacheFolder = path.resolve(__dirname, "../.cache");
+    const cacheFolder = path.join(process.cwd(), "/.cache");
     const cacheFile = cacheFolder + `/${novel}.json`;
     if (!fs.existsSync(cacheFolder)) fs.mkdirSync(cacheFolder);
     let cache;
@@ -96,8 +95,7 @@ async function compileChapter(folder, images, id) {
             workers.split(",").forEach((contributor: string) => {
               contributor = contributor.trim();
               if (Object.keys(contributors.get(novel)).includes(contributor)) {
-                share[contributor] =
-                  (share[contributor] || 0) + revSharePerChapter.get()[contribution];
+                share[contributor] = (share[contributor] || 0) + revSharePerChapter.get()[contribution];
               } else {
                 unregistered.push({ contributor, where: `${book}/chapter-${index}` });
               }
@@ -119,8 +117,7 @@ async function compileChapter(folder, images, id) {
       unregisteredContributor = [...unregisteredContributor, ...unregistered];
       unregistered = [];
       if (!chapterTitles[book]) chapterTitles[book] = {};
-      chapterTitles[book]["chapter-" + index] =
-        (meta.attributes as any).title || "chapter-" + index;
+      chapterTitles[book]["chapter-" + index] = (meta.attributes as any).title || "chapter-" + index;
       chapters.push(book + "/chapter-" + index);
       // console.log(share);
       Object.keys(contributors.get(novel)).forEach((contributor) => {
@@ -153,28 +150,20 @@ async function compileChapter(folder, images, id) {
     console.log(logTitle, "Calculating rev share takes", (rev1 - rev0).toFixed(2), "ms");
     console.log(
       logTitle,
-      Object.keys(contributors)?.length === 1
-        ? "person contributes"
-        : Object.keys(contributors)?.length,
+      Object.keys(contributors)?.length === 1 ? "person contributes" : Object.keys(contributors)?.length,
       "people contribute",
       "over",
       files.length,
       "chapters.",
     );
 
-    fs.writeFileSync(folder + "/.publish/metadata.json", JSON.stringify(meta, null, 4));
-    fs.writeFileSync(folder + "/.publish/chapter-titles.json", JSON.stringify(chapterTitles));
+    ensurePublishDirectoryExist(novel);
+    const publishFolder = path.join(process.cwd(), `/.publish/${novel}`);
+    fs.writeFileSync(publishFolder + "/metadata.json", JSON.stringify(meta, null, 4));
+    fs.writeFileSync(publishFolder + "/chapter-titles.json", JSON.stringify(chapterTitles));
     fs.writeFileSync(cacheFile, JSON.stringify(cache || {}), "utf-8");
     const t1 = performance.now();
-    console.log(
-      "Processing",
-      files.length,
-      "markdowns for novel",
-      novel,
-      "in",
-      (t1 - t0).toFixed(2),
-      "ms.",
-    );
+    console.log("Processing", files.length, "markdowns for novel", novel, "in", (t1 - t0).toFixed(2), "ms.");
     warnUnregisteredContributors(unregisteredContributor);
     resolve(meta);
   });

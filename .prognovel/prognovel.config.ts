@@ -10,4 +10,4 @@ export const BOOK_COVER = {
   quality: 80,
 };
 
-export const WORKING_FOLDER = path.resolve(__dirname, "../novels");
+export const NOVEL_FOLDER = path.join(process.cwd(), "/novels");

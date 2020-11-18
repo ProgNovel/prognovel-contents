@@ -13,7 +13,7 @@ const pkg = require("./package.json");
 const extensions = [".js", ".jsx", ".ts", ".tsx"];
 
 export default {
-  input: "prognovel.ts",
+  input: ".prognovel/prognovel.ts",
   output: {
     file: ".prognovel/.dist/main.js",
     name: "prognovel-contents",

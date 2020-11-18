@@ -1,8 +1,12 @@
 {
-  "name": "prognovel-contents",
-  "version": "1.0.0",
+  "name": "@prognovel/prognovel-cli",
+  "version": "0.0.1",
   "description": "A repo to manage contents of ProgNovel platform.",
-  "main": "index.js",
+  "main": ".prognovel/prognovel.js",
+  "bin": {
+    "@prognovel/prognovel-cli": ".prognovel/bin/index.js",
+    "prognovel": ".prognovel/bin/index.js"
+  },
   "scripts": {
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
