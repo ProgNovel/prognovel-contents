@@ -4,6 +4,10 @@ author: Radhy
 proofreader: MyProofreader, Jeeny
 ---
 
+<authors-note id="Radhy">
+This chapter is taken from Yashura Legacy for development purpose.
+</authors-note>
+
 A fifteen years old boy played a game of chess against a spirit. Yesterday, he won a ghastly old encyclopedia nobody ever heard of. Today, the bet he eyed was silver coins. He didn’t know what he wanted from his opponent for tomorrow’s game. But the spirit in this dashing leather armor, adventurer-style, always wanted one thing for the game’s prize: taking control of the boy’s mortal body.
 
 More than a hundred games of chess later, the boy still got his healthy body intact, he never lost even once. And that made the spirit grow more dissatisfied as the days passing by.

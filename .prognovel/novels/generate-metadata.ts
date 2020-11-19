@@ -17,6 +17,8 @@ import {
   calculateContributors,
   warnUnregisteredContributors,
 } from "./contributors";
+import * as markdown from "markdown-wasm";
+import brotli from "brotli";
 
 export async function generateMetadata(novels: string[]) {
   const firstNovel = novels[0];
@@ -55,13 +57,28 @@ export async function generateMetadata(novels: string[]) {
   }
 }
 
+interface Cache {
+  file: {
+    body: string;
+    data: any;
+    lastModified: DOMHighResTimeStamp;
+    contributions: any;
+    unregistered: string[];
+  };
+}
+
 async function compileChapter(folder: string, images, id: string) {
   return new Promise(async (resolve) => {
     const novel = folder.split("novels/")[1];
+    let content = {};
     let chapters = [];
     let chapterTitles = {};
     let contributions = {};
     let unregisteredContributor = [];
+    let unchangedFiles = 0;
+
+    // // @ts-ignore
+    // await markdown.ready;
 
     const t0 = performance.now();
     const glob0 = performance.now();
@@ -70,24 +87,27 @@ async function compileChapter(folder: string, images, id: string) {
     const cacheFolder = path.join(process.cwd(), "/.cache");
     const cacheFile = cacheFolder + `/${novel}.json`;
     if (!fs.existsSync(cacheFolder)) fs.mkdirSync(cacheFolder);
-    let cache;
+    let cache: Cache | {};
     try {
       cache = JSON.parse(fs.readFileSync(cacheFile, "utf-8")) || {};
     } catch (err) {
       cache = {};
     }
 
+    const md0 = performance.now();
     files.forEach((file) => {
       let meta;
       let lastModified = fs.statSync(file).mtime.getTime();
       const index = file.split("chapter-")[1].slice(0, -3);
       const book = file.split("contents/")[1].split("/chapter")[0];
+      const name = `${book}/chapter-${index}`;
       const cacheLastModified = cache[file]?.lastModified || 0;
       let share = {};
       let unregistered = [];
       if (lastModified > cacheLastModified) {
         cache[file] = {};
         meta = fm(fs.readFileSync(file, "utf-8"));
+        content[name] = markdown.parse(meta.body);
 
         for (const contribution of contributionRoles.get()) {
           const workers = meta.attributes[contribution];
@@ -106,12 +126,15 @@ async function compileChapter(folder: string, images, id: string) {
         cache[file]["contributions"] = share;
         cache[file].lastModified = lastModified;
         cache[file].data = meta.attributes;
+        cache[file].body = content[name];
         cache[file]["unregistered"] = unregistered;
       } else {
         // console.log("Get from cache for", file);
         share = cache[file]["contributions"];
         unregistered = cache[file]["unregistered"];
+        content[name] = cache[file].body;
         (meta ? meta : (meta = {})).attributes = cache[file].data;
+        ++unchangedFiles;
         // contributors.bulkAddContributors(novel, cache[file]["contributors"]);
       }
       unregisteredContributor = [...unregisteredContributor, ...unregistered];
@@ -124,6 +147,7 @@ async function compileChapter(folder: string, images, id: string) {
         contributions[contributor] = (contributions[contributor] || 0) + (share[contributor] || 0);
       });
     });
+    const md1 = performance.now();
     // console.log(cache);
 
     const rev0 = performance.now();
@@ -150,6 +174,14 @@ async function compileChapter(folder: string, images, id: string) {
     console.log(logTitle, "Calculating rev share takes", (rev1 - rev0).toFixed(2), "ms");
     console.log(
       logTitle,
+      `Processing ${files.length} markdowns${
+        unchangedFiles ? ` (${files.length - unchangedFiles} changed)` : ""
+      } take`,
+      (rev1 - rev0).toFixed(2),
+      "ms",
+    );
+    console.log(
+      logTitle,
       Object.keys(contributors)?.length === 1 ? "person contributes" : Object.keys(contributors)?.length,
       "people contribute",
       "over",
@@ -161,9 +193,13 @@ async function compileChapter(folder: string, images, id: string) {
     const publishFolder = path.join(process.cwd(), `/.publish/${novel}`);
     fs.writeFileSync(publishFolder + "/metadata.json", JSON.stringify(meta, null, 4));
     fs.writeFileSync(publishFolder + "/chapter-titles.json", JSON.stringify(chapterTitles));
+    fs.writeFileSync(
+      publishFolder + "/content.json.br",
+      brotli.compress(Buffer.from(JSON.stringify(content), "utf-8"), { quality: 9 }),
+    );
     fs.writeFileSync(cacheFile, JSON.stringify(cache || {}), "utf-8");
     const t1 = performance.now();
-    console.log("Processing", files.length, "markdowns for novel", novel, "in", (t1 - t0).toFixed(2), "ms.");
+    console.log("Processing", novel, "in", (t1 - t0).toFixed(2), "ms.");
     warnUnregisteredContributors(unregisteredContributor);
     resolve(meta);
   });

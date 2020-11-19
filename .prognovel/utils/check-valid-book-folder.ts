@@ -32,7 +32,7 @@ export function ensurePublishDirectoryExist(novel?: string) {
 
   if (!novel) return;
   folder.novel = path.join(folder.publish, `/${novel}`);
-  console.log("creating folder", folder.novel);
+  // console.log("creating folder", folder.novel);
 
   if (!fs.existsSync(folder.novel)) {
     fs.mkdirSync(folder.novel);

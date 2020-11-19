@@ -16,7 +16,7 @@ export function generateSiteSettings() {
 
   const publishFolder = path.join(process.cwd(), "/.publish");
   ensurePublishDirectoryExist();
-  const metadataFile = path.resolve(publishFolder, "/sitemetadata.json");
+  const metadataFile = path.join(publishFolder, "/sitemetadata.json");
   // console.log(metadataFile);
   fs.writeFileSync(metadataFile, JSON.stringify(settings, null, 4));
 
