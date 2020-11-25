@@ -1,7 +1,6 @@
 import fs from "fs";
 import path from "path";
 import yaml from "js-yaml";
-import fm from "front-matter";
 import chalk from "chalk";
 import md from "marked";
 import globby from "globby";
@@ -10,14 +9,8 @@ import { performance } from "perf_hooks";
 import { checkValidBookFolder, ensurePublishDirectoryExist } from "../utils/check-valid-book-folder";
 import { generateBookCover } from "./generate-cover";
 import { convertToNumeric, sortChapters } from "../utils/sort";
-import {
-  contributionRoles,
-  revSharePerChapter,
-  contributors,
-  calculateContributors,
-  warnUnregisteredContributors,
-} from "./contributors";
-import * as markdown from "markdown-wasm";
+import { parseMarkdown } from "./metadata/parse-markdown";
+import { contributors, calculateContributors, warnUnregisteredContributors } from "./contributors";
 import brotli from "brotli";
 
 export async function generateMetadata(novels: string[]) {
@@ -57,96 +50,25 @@ export async function generateMetadata(novels: string[]) {
   }
 }
 
-interface Cache {
-  file: {
-    body: string;
-    data: any;
-    lastModified: DOMHighResTimeStamp;
-    contributions: any;
-    unregistered: string[];
-  };
-}
-
-async function compileChapter(folder: string, images, id: string) {
+async function compileChapter(folder: string, images, novel: string) {
   return new Promise(async (resolve) => {
-    const novel = folder.split("novels/")[1];
-    let content = {};
-    let chapters = [];
-    let chapterTitles = {};
-    let contributions = {};
-    let unregisteredContributor = [];
-    let unchangedFiles = 0;
-
-    // // @ts-ignore
-    // await markdown.ready;
-
     const t0 = performance.now();
+
     const glob0 = performance.now();
     const files = await globby(`novels/${novel}/contents/**/*.md`);
     const glob1 = performance.now();
-    const cacheFolder = path.join(process.cwd(), "/.cache");
-    const cacheFile = cacheFolder + `/${novel}.json`;
-    if (!fs.existsSync(cacheFolder)) fs.mkdirSync(cacheFolder);
-    let cache: Cache | {};
-    try {
-      cache = JSON.parse(fs.readFileSync(cacheFile, "utf-8")) || {};
-    } catch (err) {
-      cache = {};
-    }
 
     const md0 = performance.now();
-    files.forEach((file) => {
-      let meta;
-      let lastModified = fs.statSync(file).mtime.getTime();
-      const index = file.split("chapter-")[1].slice(0, -3);
-      const book = file.split("contents/")[1].split("/chapter")[0];
-      const name = `${book}/chapter-${index}`;
-      const cacheLastModified = cache[file]?.lastModified || 0;
-      let share = {};
-      let unregistered = [];
-      if (lastModified > cacheLastModified) {
-        cache[file] = {};
-        meta = fm(fs.readFileSync(file, "utf-8"));
-        content[name] = markdown.parse(meta.body);
-
-        for (const contribution of contributionRoles.get()) {
-          const workers = meta.attributes[contribution];
-          if (workers && revSharePerChapter.get()[contribution]) {
-            workers.split(",").forEach((contributor: string) => {
-              contributor = contributor.trim();
-              if (Object.keys(contributors.get(novel)).includes(contributor)) {
-                share[contributor] = (share[contributor] || 0) + revSharePerChapter.get()[contribution];
-              } else {
-                unregistered.push({ contributor, where: `${book}/chapter-${index}` });
-              }
-            });
-          }
-        }
-
-        cache[file]["contributions"] = share;
-        cache[file].lastModified = lastModified;
-        cache[file].data = meta.attributes;
-        cache[file].body = content[name];
-        cache[file]["unregistered"] = unregistered;
-      } else {
-        // console.log("Get from cache for", file);
-        share = cache[file]["contributions"];
-        unregistered = cache[file]["unregistered"];
-        content[name] = cache[file].body;
-        (meta ? meta : (meta = {})).attributes = cache[file].data;
-        ++unchangedFiles;
-        // contributors.bulkAddContributors(novel, cache[file]["contributors"]);
-      }
-      unregisteredContributor = [...unregisteredContributor, ...unregistered];
-      unregistered = [];
-      if (!chapterTitles[book]) chapterTitles[book] = {};
-      chapterTitles[book]["chapter-" + index] = (meta.attributes as any).title || "chapter-" + index;
-      chapters.push(book + "/chapter-" + index);
-      // console.log(share);
-      Object.keys(contributors.get(novel)).forEach((contributor) => {
-        contributions[contributor] = (contributions[contributor] || 0) + (share[contributor] || 0);
-      });
-    });
+    let {
+      content,
+      chapters,
+      chapterTitles,
+      contributions,
+      unregisteredContributors,
+      unchangedFiles,
+      cache,
+      cacheFile,
+    } = parseMarkdown(novel, files);
     const md1 = performance.now();
     // console.log(cache);
 
@@ -164,7 +86,7 @@ async function compileChapter(folder: string, images, id: string) {
     }
     const synopsis = md(fs.readFileSync(folder + "/synopsis.md", "utf8"));
 
-    let meta = { id, ...info, synopsis, chapters: chapterList, cover: images, rev_share };
+    let meta = { id: novel, ...info, synopsis, chapters: chapterList, cover: images, rev_share };
 
     console.log("");
     console.log("Generating", chalk.bold.underline.green(meta.title), "metadata...");
@@ -193,14 +115,11 @@ async function compileChapter(folder: string, images, id: string) {
     const publishFolder = path.join(process.cwd(), `/.publish/${novel}`);
     fs.writeFileSync(publishFolder + "/metadata.json", JSON.stringify(meta, null, 4));
     fs.writeFileSync(publishFolder + "/chapter-titles.json", JSON.stringify(chapterTitles));
-    fs.writeFileSync(
-      publishFolder + "/content.json.br",
-      brotli.compress(Buffer.from(JSON.stringify(content), "utf-8"), { quality: 9 }),
-    );
+    fs.writeFileSync(publishFolder + "/content.json", JSON.stringify(content));
     fs.writeFileSync(cacheFile, JSON.stringify(cache || {}), "utf-8");
     const t1 = performance.now();
     console.log("Processing", novel, "in", (t1 - t0).toFixed(2), "ms.");
-    warnUnregisteredContributors(unregisteredContributor);
+    warnUnregisteredContributors(unregisteredContributors);
     resolve(meta);
   });
 }
