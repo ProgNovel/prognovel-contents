@@ -16590,41 +16590,222 @@ globby$1.generateGlobTasks = generateGlobTasks_1;
 globby$1.hasMagic = hasMagic;
 globby$1.gitignore = gitignore_1;
 
-function sortChapters(a, b) {
-  var bookA = a.split("/chapter-")[0];
-  var bookB = b.split("/chapter-")[0];
-  var isDifferentBook = bookA !== bookB;
-  a = convertToNumeric(a, isDifferentBook);
-  b = convertToNumeric(b, isDifferentBook);
+var zero = '0'.charCodeAt(0);
+var plus = '+'.charCodeAt(0);
+var minus = '-'.charCodeAt(0);
 
-  if (a[0] === b[0]) {
-    return a[1] - b[1];
-  }
-
-  return a[0] - b[0];
+function isWhitespace$1(code) {
+	return code <= 32;
 }
-function convertToNumeric(name) {
-  var book = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-  var splitString = book ? name.split("/chapter-")[0] : name.split("/chapter-")[1];
-  if (book) return [0, splitString];
-  if (splitString === "prologue") splitString = 0.1;
-  splitString = splitString.split("-");
-  if (splitString[1] == 0) splitString[1] = 0.5;
-  if (splitString[1] === undefined) splitString[1] = 0;
-  if (splitString[1] * 0 !== 0) splitString[1] = 99999; // NaN sub-index will be sorted as non-numeric
 
-  var result;
-
-  try {
-    result = splitString.map(function (ch) {
-      return JSON.parse(ch);
-    });
-  } catch (error) {
-    console.log("Error when parsing", splitString[1]);
-  }
-
-  return result;
+function isDigit(code) {
+	return 48 <= code && code <= 57;
 }
+
+function isSign(code) {
+	return code === minus || code === plus;
+}
+
+var compare$1 = function (opts, a, b) {
+	var checkSign = opts.sign;
+	var ia = 0;
+	var ib = 0;
+	var ma = a.length;
+	var mb = b.length;
+	var ca, cb; // character code
+	var za, zb; // leading zero count
+	var na, nb; // number length
+	var sa, sb; // number sign
+	var ta, tb; // temporary
+	var bias;
+
+	while (ia < ma && ib < mb) {
+		ca = a.charCodeAt(ia);
+		cb = b.charCodeAt(ib);
+		za = zb = 0;
+		na = nb = 0;
+		sa = sb = true;
+		bias = 0;
+
+		// skip over leading spaces
+		while (isWhitespace$1(ca)) {
+			ia += 1;
+			ca = a.charCodeAt(ia);
+		}
+		while (isWhitespace$1(cb)) {
+			ib += 1;
+			cb = b.charCodeAt(ib);
+		}
+
+		// skip and save sign
+		if (checkSign) {
+			ta = a.charCodeAt(ia + 1);
+			if (isSign(ca) && isDigit(ta)) {
+				if (ca === minus) {
+					sa = false;
+				}
+				ia += 1;
+				ca = ta;
+			}
+			tb = b.charCodeAt(ib + 1);
+			if (isSign(cb) && isDigit(tb)) {
+				if (cb === minus) {
+					sb = false;
+				}
+				ib += 1;
+				cb = tb;
+			}
+		}
+
+		// compare digits with other symbols
+		if (isDigit(ca) && !isDigit(cb)) {
+			return -1;
+		}
+		if (!isDigit(ca) && isDigit(cb)) {
+			return 1;
+		}
+
+		// compare negative and positive
+		if (!sa && sb) {
+			return -1;
+		}
+		if (sa && !sb) {
+			return 1;
+		}
+
+		// count leading zeros
+		while (ca === zero) {
+			za += 1;
+			ia += 1;
+			ca = a.charCodeAt(ia);
+		}
+		while (cb === zero) {
+			zb += 1;
+			ib += 1;
+			cb = b.charCodeAt(ib);
+		}
+
+		// count numbers
+		while (isDigit(ca) || isDigit(cb)) {
+			if (isDigit(ca) && isDigit(cb) && bias === 0) {
+				if (sa) {
+					if (ca < cb) {
+						bias = -1;
+					} else if (ca > cb) {
+						bias = 1;
+					}
+				} else {
+					if (ca > cb) {
+						bias = -1;
+					} else if (ca < cb) {
+						bias = 1;
+					}
+				}
+			}
+			if (isDigit(ca)) {
+				ia += 1;
+				na += 1;
+				ca = a.charCodeAt(ia);
+			}
+			if (isDigit(cb)) {
+				ib += 1;
+				nb += 1;
+				cb = b.charCodeAt(ib);
+			}
+		}
+
+		// compare number length
+		if (sa) {
+			if (na < nb) {
+				return -1;
+			}
+			if (na > nb) {
+				return 1;
+			}
+		} else {
+			if (na > nb) {
+				return -1;
+			}
+			if (na < nb) {
+				return 1;
+			}
+		}
+
+		// compare numbers
+		if (bias) {
+			return bias;
+		}
+
+		// compare leading zeros
+		if (sa) {
+			if (za > zb) {
+				return -1;
+			}
+			if (za < zb) {
+				return 1;
+			}
+		} else {
+			if (za < zb) {
+				return -1;
+			}
+			if (za > zb) {
+				return 1;
+			}
+		}
+
+		// compare ascii codes
+		if (ca < cb) {
+			return -1;
+		}
+		if (ca > cb) {
+			return 1;
+		}
+
+		ia += 1;
+		ib += 1;
+	}
+
+	// compare length
+	if (ma < mb) {
+		return -1;
+	}
+	if (ma > mb) {
+		return 1;
+	}
+};
+
+function mediator(a, b) {
+	return compare$1(this, a.converted, b.converted);
+}
+
+var F___CODE_proyek_prognovelCli_node_modules_alphanumSort_lib = function (array, opts) {
+	if (!Array.isArray(array) || array.length < 2) {
+		return array;
+	}
+	if (typeof opts !== 'object') {
+		opts = {};
+	}
+	opts.sign = !!opts.sign;
+	var insensitive = !!opts.insensitive;
+	var result = Array(array.length);
+	var i, max, value;
+
+	for (i = 0, max = array.length; i < max; i += 1) {
+		value = String(array[i]);
+		result[i] = {
+			value: array[i],
+			converted: insensitive ? value.toLowerCase() : value
+		};
+	}
+
+	result.sort(mediator.bind(opts));
+
+	for (i = result.length - 1; ~i; i -= 1) {
+		result[i] = result[i].value;
+	}
+
+	return result;
+};
 
 function _arrayLikeToArray(arr, len) {
   if (len == null || len > arr.length) len = arr.length;
@@ -16790,22 +16971,24 @@ function calculateContributors(novel, contributions) {
   });
 }
 function warnUnregisteredContributors(contributors) {
+  var margin = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
   var EMPTY_SPACES = 44; // length
 
   var l = contributors.length;
+  var m = Array(margin).fill(" ").join("");
   if (!l) return; // console.log("");
 
-  console.log(source.bold.yellow("**********************************************"));
-  console.log(source.bold.yellow("*                                            *"));
-  console.log(source.bold.yellow("*  ".concat(source.underline(l + (l > 10 ? "" : " ") + "unregistered contributors found "), "        *")));
-  console.log(source.bold.yellow("*                                            *"));
+  console.log(m + source.bold.yellow("**********************************************"));
+  console.log(m + source.bold.yellow("*                                            *"));
+  console.log(m + source.bold.yellow("*  ".concat(source.underline(l + (l > 10 ? "" : " ") + "unregistered contributors found "), "        *")));
+  console.log(source.bold.yellow(m + "*                                            *"));
   contributors.forEach(function (warn) {
     var text = "  - ".concat(warn.contributor, " at ").concat(warn.where);
     var spaces = EMPTY_SPACES - text.length > 0 ? new Array(EMPTY_SPACES - text.length).join(" ") + " " : "";
-    console.log(source.bold.yellow("*" + text + spaces + "*"));
+    console.log(m + source.bold.yellow("*" + text + spaces + "*"));
   });
-  console.log(source.bold.yellow("*                                            *"));
-  console.log(source.bold.yellow("**********************************************"));
+  console.log(m + source.bold.yellow("*                                            *"));
+  console.log(m + source.bold.yellow("**********************************************"));
   console.log("");
 }
 
@@ -16916,6 +17099,155 @@ function parseMarkdown(novel, files) {
     cache: cache,
     cacheFile: cacheFile
   };
+}
+
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+var classCallCheck = _classCallCheck;
+
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+    Object.defineProperty(target, descriptor.key, descriptor);
+  }
+}
+
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  return Constructor;
+}
+
+var createClass = _createClass;
+
+var Log = /*#__PURE__*/function () {
+  function Log(opts) {
+    classCallCheck(this, Log);
+
+    this.marginTop = 1;
+    this.marginBottom = 2;
+    this.marginLeft = 4;
+    this.padding = 2;
+    this.width = 100;
+    this.withBorders = false;
+    this.borderText = Array(this.width).fill("*").join("");
+    if (opts === null || opts === void 0 ? void 0 : opts.withBorders) this.withBorders = opts.withBorders;
+    if (opts === null || opts === void 0 ? void 0 : opts.marginTop) this.marginTop = opts.marginTop;
+    if (opts === null || opts === void 0 ? void 0 : opts.marginBottom) this.marginBottom = opts.marginBottom;
+    if (opts === null || opts === void 0 ? void 0 : opts.marginLeft) this.marginLeft = opts.marginLeft;
+    if (opts === null || opts === void 0 ? void 0 : opts.padding) this.padding = opts.padding;
+    if (opts === null || opts === void 0 ? void 0 : opts.width) this.width = opts.width;
+  }
+
+  createClass(Log, [{
+    key: "createLine",
+    value: function createLine(text) {
+      var length = text.length + this.padding * 2 + (this.withBorders ? 2 : 0);
+      var getPadding = this.createWhitespace;
+      var space = getPadding(this.width - length);
+      var borders = this.withBorders ? c$1("*") : "";
+
+      if (length <= this.width) {
+        return "".concat(borders + getPadding() + text + space + getPadding() + borders);
+      }
+    }
+  }, {
+    key: "createWhitespace",
+    value: function createWhitespace(space) {
+      if (!space) space = Log.prototype.padding;
+      if (space < 1) return "";
+      return Array(space).fill(" ").join("");
+    }
+  }, {
+    key: "show",
+    value: function show(texts) {
+      var _this = this;
+
+      var margin = this.createWhitespace(this.marginLeft);
+      if (this.withBorders) console.log(margin + c$1(this.borderText));
+
+      for (var i = 0; i < this.marginTop; i++) {
+        console.log(margin + c$1(this.createLine("")));
+      }
+
+      texts.forEach(function (text) {
+        return console.log(margin + _this.createLine(text));
+      });
+
+      for (var _i = 0; _i < this.marginBottom; _i++) {
+        console.log(margin + c$1(this.createLine("")));
+      }
+
+      if (this.withBorders) console.log(margin + c$1(this.borderText));
+    }
+  }]);
+
+  return Log;
+}();
+
+function c$1(text) {
+  return source.bold.yellowBright(text);
+}
+
+var benchmark = {
+  glob: {
+    start: 0,
+    end: 0
+  },
+  sorting_chapters: {
+    start: 0,
+    end: 0
+  },
+  markdown: {
+    start: 0,
+    end: 0
+  },
+  rev_share: {
+    start: 0,
+    end: 0
+  },
+  filesystem: {
+    start: 0,
+    end: 0
+  }
+};
+function outputMessage(_ref) {
+  var _Object$keys;
+
+  var title = _ref.title,
+      files = _ref.files,
+      unchangedFiles = _ref.unchangedFiles,
+      contributors = _ref.contributors,
+      totalDuration = _ref.totalDuration,
+      unregisteredContributors = _ref.unregisteredContributors;
+  var logTitle = source.bold.blueBright("[" + title + "]:");
+  var log = new Log({
+    marginLeft: 0
+  });
+  var contributorsNumber = (_Object$keys = Object.keys(contributors)) === null || _Object$keys === void 0 ? void 0 : _Object$keys.length;
+  var glob = benchmark.glob,
+      sorting_chapters = benchmark.sorting_chapters,
+      markdown = benchmark.markdown,
+      rev_share = benchmark.rev_share,
+      filesystem = benchmark.filesystem;
+  var texts = ["Generating ".concat(source.bold.underline.blue(title), " metadata..."), "", "".concat(logTitle, " Finding markdown files takes ").concat((glob.end - glob.start).toFixed(2), " ms."), "".concat(logTitle, " Sorting chapters takes ").concat((sorting_chapters.end - sorting_chapters.start).toFixed(2), " ms."), "".concat(logTitle, " Calculating revenue sharing takes ").concat((rev_share.end - rev_share.start).toFixed(2), " ms."), "".concat(logTitle, " Processing ").concat(files.length, " markdown").concat(files.length !== 1 ? "s" : "", " (").concat(files.length - unchangedFiles, " changed) takes ").concat((markdown.end - markdown.start).toFixed(2), " ms."), "".concat(logTitle, " ").concat(contributorsNumber === 1 ? "person contributes" : contributorsNumber + " people contribute", " over ").concat(files.length, " chapters."), "".concat(logTitle, " Generating output files takes ").concat((filesystem.end - filesystem.start).toFixed(2), " ms.")];
+
+  if (unregisteredContributors.length) {
+    log.marginBottom = 0;
+    texts.push.apply(texts, ["    ".concat(source.bold.yellowBright("*")), "    ".concat(source.bold.yellowBright("*"))]);
+  } else {
+    texts.push.apply(texts, ["", "".concat(source.bold.underline.greenBright("SUCCESS"), " processing ").concat(title, " in ").concat(totalDuration, " ms.")]);
+  }
+
+  log.show(texts);
+  warnUnregisteredContributors(unregisteredContributors, log.padding + log.marginLeft);
 }
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -17029,32 +17361,31 @@ function _compileChapter() {
           case 0:
             return _context4.abrupt("return", new Promise( /*#__PURE__*/function () {
               var _ref2 = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee3(resolve) {
-                var _Object$keys, _Object$keys2;
-
-                var t0, glob0, files, glob1, md0, _parseMarkdown, content, chapters, chapterTitles, contributions, unregisteredContributors, unchangedFiles, cache, cacheFile, md1, rev0, rev_share, rev1, ch0, chapterList, ch1, info, synopsis, meta, logTitle, publishFolder, t1;
+                var t0, files, _parseMarkdown, content, chapters, chapterTitles, contributions, unregisteredContributors, unchangedFiles, cache, cacheFile, rev_share, chapterList, info, synopsis, meta, publishFolder, t1;
 
                 return F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee3$(_context3) {
                   while (1) {
                     switch (_context3.prev = _context3.next) {
                       case 0:
                         t0 = perf_hooks.performance.now();
-                        glob0 = perf_hooks.performance.now();
+                        benchmark.glob.start = perf_hooks.performance.now();
                         _context3.next = 4;
                         return globby$1("novels/".concat(novel, "/contents/**/*.md"));
 
                       case 4:
                         files = _context3.sent;
-                        glob1 = perf_hooks.performance.now();
-                        md0 = perf_hooks.performance.now();
+                        benchmark.glob.end = perf_hooks.performance.now();
+                        benchmark.markdown.start = perf_hooks.performance.now();
                         _parseMarkdown = parseMarkdown(novel, files), content = _parseMarkdown.content, chapters = _parseMarkdown.chapters, chapterTitles = _parseMarkdown.chapterTitles, contributions = _parseMarkdown.contributions, unregisteredContributors = _parseMarkdown.unregisteredContributors, unchangedFiles = _parseMarkdown.unchangedFiles, cache = _parseMarkdown.cache, cacheFile = _parseMarkdown.cacheFile;
-                        md1 = perf_hooks.performance.now(); // console.log(cache);
+                        benchmark.markdown.end = perf_hooks.performance.now(); // console.log(cache);
 
-                        rev0 = perf_hooks.performance.now();
+                        benchmark.rev_share.start = perf_hooks.performance.now();
                         rev_share = calculateContributors(novel, contributions);
-                        rev1 = perf_hooks.performance.now();
-                        ch0 = perf_hooks.performance.now();
-                        chapterList = chapters.sort(sortChapters);
-                        ch1 = perf_hooks.performance.now();
+                        benchmark.rev_share.end = perf_hooks.performance.now();
+                        benchmark.sorting_chapters.start = perf_hooks.performance.now();
+                        chapterList = F___CODE_proyek_prognovelCli_node_modules_alphanumSort_lib(chapters);
+                        benchmark.sorting_chapters.end = perf_hooks.performance.now();
+                        benchmark.filesystem.start = perf_hooks.performance.now();
                         info = F___CODE_proyek_prognovelCli_node_modules_jsYaml.load(fs__default['default'].readFileSync(folder + "/info.yml", "utf8"));
 
                         if (!Array.isArray(info.paymentPointers)) {
@@ -17070,26 +17401,25 @@ function _compileChapter() {
                           cover: images,
                           rev_share: rev_share
                         });
-                        console.log("");
-                        console.log("Generating", source.bold.underline.green(meta.title), "metadata...");
-                        logTitle = source.bold.greenBright("[" + meta.title + "]:");
-                        console.log(logTitle, "Iterating globby takes", (glob1 - glob0).toFixed(2), "ms");
-                        console.log(logTitle, "Sorting chapter takes", (ch1 - ch0).toFixed(2), "ms");
-                        console.log(logTitle, "Calculating rev share takes", (rev1 - rev0).toFixed(2), "ms");
-                        console.log(logTitle, "Processing ".concat(files.length, " markdowns").concat(unchangedFiles ? " (".concat(files.length - unchangedFiles, " changed)") : "", " take"), (rev1 - rev0).toFixed(2), "ms");
-                        console.log(logTitle, ((_Object$keys = Object.keys(contributors)) === null || _Object$keys === void 0 ? void 0 : _Object$keys.length) === 1 ? "person contributes" : (_Object$keys2 = Object.keys(contributors)) === null || _Object$keys2 === void 0 ? void 0 : _Object$keys2.length, "people contribute", "over", files.length, "chapters.");
                         ensurePublishDirectoryExist(novel);
                         publishFolder = path__default['default'].join(process.cwd(), "/.publish/".concat(novel));
                         fs__default['default'].writeFileSync(publishFolder + "/metadata.json", JSON.stringify(meta, null, 4));
                         fs__default['default'].writeFileSync(publishFolder + "/chapter-titles.json", JSON.stringify(chapterTitles));
                         fs__default['default'].writeFileSync(publishFolder + "/content.json", JSON.stringify(content));
                         fs__default['default'].writeFileSync(cacheFile, JSON.stringify(cache || {}), "utf-8");
+                        benchmark.filesystem.end = perf_hooks.performance.now();
                         t1 = perf_hooks.performance.now();
-                        console.log("Processing", novel, "in", (t1 - t0).toFixed(2), "ms.");
-                        warnUnregisteredContributors(unregisteredContributors);
+                        outputMessage({
+                          title: meta.title,
+                          files: files,
+                          unchangedFiles: unchangedFiles,
+                          contributors: contributors,
+                          totalDuration: (t1 - t0).toFixed(2),
+                          unregisteredContributors: unregisteredContributors
+                        });
                         resolve(meta);
 
-                      case 37:
+                      case 30:
                       case "end":
                         return _context3.stop();
                     }

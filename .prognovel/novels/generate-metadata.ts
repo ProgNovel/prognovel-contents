@@ -8,10 +8,12 @@ import glob from "tiny-glob";
 import { performance } from "perf_hooks";
 import { checkValidBookFolder, ensurePublishDirectoryExist } from "../utils/check-valid-book-folder";
 import { generateBookCover } from "./generate-cover";
-import { convertToNumeric, sortChapters } from "../utils/sort";
+import { sortChapters } from "../utils/sort";
+import sort from "alphanum-sort";
 import { parseMarkdown } from "./metadata/parse-markdown";
-import { contributors, calculateContributors, warnUnregisteredContributors } from "./contributors";
+import { contributors, calculateContributors } from "./contributors";
 import brotli from "brotli";
+import { outputMessage, benchmark } from "./metadata/logging";
 
 export async function generateMetadata(novels: string[]) {
   const firstNovel = novels[0];
@@ -54,11 +56,11 @@ async function compileChapter(folder: string, images, novel: string) {
   return new Promise(async (resolve) => {
     const t0 = performance.now();
 
-    const glob0 = performance.now();
+    benchmark.glob.start = performance.now();
     const files = await globby(`novels/${novel}/contents/**/*.md`);
-    const glob1 = performance.now();
+    benchmark.glob.end = performance.now();
 
-    const md0 = performance.now();
+    benchmark.markdown.start = performance.now();
     let {
       content,
       chapters,
@@ -69,17 +71,18 @@ async function compileChapter(folder: string, images, novel: string) {
       cache,
       cacheFile,
     } = parseMarkdown(novel, files);
-    const md1 = performance.now();
+    benchmark.markdown.end = performance.now();
     // console.log(cache);
 
-    const rev0 = performance.now();
+    benchmark.rev_share.start = performance.now();
     const rev_share = calculateContributors(novel, contributions);
+    benchmark.rev_share.end = performance.now();
 
-    const rev1 = performance.now();
-    const ch0 = performance.now();
-    const chapterList = chapters.sort(sortChapters);
-    const ch1 = performance.now();
+    benchmark.sorting_chapters.start = performance.now();
+    const chapterList = sort(chapters);
+    benchmark.sorting_chapters.end = performance.now();
 
+    benchmark.filesystem.start = performance.now();
     const info = yaml.load(fs.readFileSync(folder + "/info.yml", "utf8"));
     if (!Array.isArray(info.paymentPointers)) {
       info.paymentPointers = [info.paymentPointers];
@@ -88,38 +91,24 @@ async function compileChapter(folder: string, images, novel: string) {
 
     let meta = { id: novel, ...info, synopsis, chapters: chapterList, cover: images, rev_share };
 
-    console.log("");
-    console.log("Generating", chalk.bold.underline.green(meta.title), "metadata...");
-    const logTitle = chalk.bold.greenBright("[" + meta.title + "]:");
-    console.log(logTitle, "Iterating globby takes", (glob1 - glob0).toFixed(2), "ms");
-    console.log(logTitle, "Sorting chapter takes", (ch1 - ch0).toFixed(2), "ms");
-    console.log(logTitle, "Calculating rev share takes", (rev1 - rev0).toFixed(2), "ms");
-    console.log(
-      logTitle,
-      `Processing ${files.length} markdowns${
-        unchangedFiles ? ` (${files.length - unchangedFiles} changed)` : ""
-      } take`,
-      (rev1 - rev0).toFixed(2),
-      "ms",
-    );
-    console.log(
-      logTitle,
-      Object.keys(contributors)?.length === 1 ? "person contributes" : Object.keys(contributors)?.length,
-      "people contribute",
-      "over",
-      files.length,
-      "chapters.",
-    );
-
     ensurePublishDirectoryExist(novel);
     const publishFolder = path.join(process.cwd(), `/.publish/${novel}`);
     fs.writeFileSync(publishFolder + "/metadata.json", JSON.stringify(meta, null, 4));
     fs.writeFileSync(publishFolder + "/chapter-titles.json", JSON.stringify(chapterTitles));
     fs.writeFileSync(publishFolder + "/content.json", JSON.stringify(content));
     fs.writeFileSync(cacheFile, JSON.stringify(cache || {}), "utf-8");
+    benchmark.filesystem.end = performance.now();
+
     const t1 = performance.now();
-    console.log("Processing", novel, "in", (t1 - t0).toFixed(2), "ms.");
-    warnUnregisteredContributors(unregisteredContributors);
+    outputMessage({
+      title: meta.title,
+      files,
+      unchangedFiles,
+      contributors,
+      totalDuration: (t1 - t0).toFixed(2),
+      unregisteredContributors,
+    });
+
     resolve(meta);
   });
 }

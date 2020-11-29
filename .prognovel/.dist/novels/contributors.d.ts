@@ -19,4 +19,4 @@ export declare function calculateContributors(novel: any, contributions: any): s
 export declare function warnUnregisteredContributors(contributors: Array<{
     contributor: string;
     where: string;
-}>): void;
+}>, margin?: number): void;

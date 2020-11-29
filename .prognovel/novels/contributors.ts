@@ -44,28 +44,29 @@ export function calculateContributors(novel, contributions): string[] {
 
 export function warnUnregisteredContributors(
   contributors: Array<{ contributor: string; where: string }>,
+  margin = 0,
 ) {
   const EMPTY_SPACES = 44; // length
   const l = contributors.length;
+  const m = Array(margin).fill(" ").join("");
   if (!l) return;
   // console.log("");
-  console.log(chalk.bold.yellow("**********************************************"));
-  console.log(chalk.bold.yellow("*                                            *"));
+  console.log(m + chalk.bold.yellow("**********************************************"));
+  console.log(m + chalk.bold.yellow("*                                            *"));
   console.log(
-    chalk.bold.yellow(
-      `*  ${chalk.underline(
-        l + (l > 10 ? "" : " ") + "unregistered contributors found ",
-      )}        *`,
-    ),
+    m +
+      chalk.bold.yellow(
+        `*  ${chalk.underline(l + (l > 10 ? "" : " ") + "unregistered contributors found ")}        *`,
+      ),
   );
-  console.log(chalk.bold.yellow("*                                            *"));
+  console.log(chalk.bold.yellow(m + "*                                            *"));
   contributors.forEach((warn) => {
     const text = `  - ${warn.contributor} at ${warn.where}`;
     const spaces =
       EMPTY_SPACES - text.length > 0 ? new Array(EMPTY_SPACES - text.length).join(" ") + " " : "";
-    console.log(chalk.bold.yellow("*" + text + spaces + "*"));
+    console.log(m + chalk.bold.yellow("*" + text + spaces + "*"));
   });
-  console.log(chalk.bold.yellow("*                                            *"));
-  console.log(chalk.bold.yellow("**********************************************"));
+  console.log(m + chalk.bold.yellow("*                                            *"));
+  console.log(m + chalk.bold.yellow("**********************************************"));
   console.log("");
 }
