@@ -1,4 +1,4 @@
-exports.command = "build";
+exports.command = ".";
 exports.aliases = ["build", "b"];
 
 // exports.builder = {

@@ -16934,6 +16934,79 @@ function test (string) {
 }
 frontMatter.test = test_1;
 
+var F___CODE_proyek_prognovelCli_node_modules_stringSimilarity_src = {
+	compareTwoStrings:compareTwoStrings,
+	findBestMatch:findBestMatch
+};
+
+function compareTwoStrings(first, second) {
+	first = first.replace(/\s+/g, '');
+	second = second.replace(/\s+/g, '');
+
+	if (!first.length && !second.length) return 1;                   // if both are empty strings
+	if (!first.length || !second.length) return 0;                   // if only one is empty string
+	if (first === second) return 1;       							 // identical
+	if (first.length === 1 && second.length === 1) return 0;         // both are 1-letter strings
+	if (first.length < 2 || second.length < 2) return 0;			 // if either is a 1-letter string
+
+	let firstBigrams = new Map();
+	for (let i = 0; i < first.length - 1; i++) {
+		const bigram = first.substring(i, i + 2);
+		const count = firstBigrams.has(bigram)
+			? firstBigrams.get(bigram) + 1
+			: 1;
+
+		firstBigrams.set(bigram, count);
+	}
+	let intersectionSize = 0;
+	for (let i = 0; i < second.length - 1; i++) {
+		const bigram = second.substring(i, i + 2);
+		const count = firstBigrams.has(bigram)
+			? firstBigrams.get(bigram)
+			: 0;
+
+		if (count > 0) {
+			firstBigrams.set(bigram, count - 1);
+			intersectionSize++;
+		}
+	}
+
+	return (2.0 * intersectionSize) / (first.length + second.length - 2);
+}
+
+function findBestMatch(mainString, targetStrings) {
+	if (!areArgsValid(mainString, targetStrings)) throw new Error('Bad arguments: First argument should be a string, second should be an array of strings');
+	
+	const ratings = [];
+	let bestMatchIndex = 0;
+
+	for (let i = 0; i < targetStrings.length; i++) {
+		const currentTargetString = targetStrings[i];
+		const currentRating = compareTwoStrings(mainString, currentTargetString);
+		ratings.push({target: currentTargetString, rating: currentRating});
+		if (currentRating > ratings[bestMatchIndex].rating) {
+			bestMatchIndex = i;
+		}
+	}
+	
+	
+	const bestMatch = ratings[bestMatchIndex];
+	
+	return { ratings: ratings, bestMatch: bestMatch, bestMatchIndex: bestMatchIndex };
+}
+
+function areArgsValid(mainString, targetStrings) {
+	if (typeof mainString !== 'string') return false;
+	if (!Array.isArray(targetStrings)) return false;
+	if (!targetStrings.length) return false;
+	if (targetStrings.find( function (s) { return typeof s !== 'string'})) return false;
+	return true;
+}
+var F___CODE_proyek_prognovelCli_node_modules_stringSimilarity_src_2 = F___CODE_proyek_prognovelCli_node_modules_stringSimilarity_src.findBestMatch;
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 var contributors = {
   pool: new Map(),
   addContributor: function addContributor(novel, contributor) {
@@ -16970,26 +17043,50 @@ function calculateContributors(novel, contributions) {
     return "".concat(contributors.get(novel)[contributor], "#").concat(contributions[contributor]);
   });
 }
-function warnUnregisteredContributors(contributors) {
+function warnUnregisteredContributors(unregisteredContributors) {
   var margin = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
+  var novel = arguments.length > 2 ? arguments[2] : undefined;
   var EMPTY_SPACES = 44; // length
 
-  var l = contributors.length;
+  var l = unregisteredContributors.length;
   var m = Array(margin).fill(" ").join("");
-  if (!l) return; // console.log("");
-
-  console.log(m + source.bold.yellow("**********************************************"));
-  console.log(m + source.bold.yellow("*                                            *"));
-  console.log(m + source.bold.yellow("*  ".concat(source.underline(l + (l > 10 ? "" : " ") + "unregistered contributors found "), "        *")));
-  console.log(source.bold.yellow(m + "*                                            *"));
-  contributors.forEach(function (warn) {
+  var i = 0;
+  var typos = unregisteredContributors.length ? more() : [];
+  if (!l) return;
+  console.log(m + source.bold.yellow("**********************************************") + (typos[i++] || ""));
+  console.log(m + source.bold.yellow("*                                            *") + (typos[i++] || ""));
+  console.log(m + source.bold.yellow("*  ".concat(source.underline(l + (l > 10 ? "" : " ") + "unregistered contributors found "), "        *")) + (typos[i++] || ""));
+  console.log(source.bold.yellow(m + "*                                            *") + (typos[i++] || ""));
+  unregisteredContributors.forEach(function (warn) {
     var text = "  - ".concat(warn.contributor, " at ").concat(warn.where);
     var spaces = EMPTY_SPACES - text.length > 0 ? new Array(EMPTY_SPACES - text.length).join(" ") + " " : "";
-    console.log(m + source.bold.yellow("*" + text + spaces + "*"));
+    console.log(m + source.bold.yellow("*" + text + spaces + "*") + (typos[i++] || ""));
   });
-  console.log(m + source.bold.yellow("*                                            *"));
-  console.log(m + source.bold.yellow("**********************************************"));
+  console.log(m + source.bold.yellow("*                                            *") + (typos[i++] || ""));
+  console.log(m + source.bold.yellow("**********************************************") + (typos[i++] || ""));
   console.log("");
+
+  function more() {
+    var c = source.bold.grey;
+    var i = 0;
+    var prefix = "  // ";
+    var text = [];
+    text[i++] = c(prefix + source.underline("possible typos:"));
+    unregisteredContributors.map(function (obj) {
+      var typo = F___CODE_proyek_prognovelCli_node_modules_stringSimilarity_src_2(obj.contributor, Object.keys(contributors.get(novel)));
+      return _objectSpread(_objectSpread({}, obj), {}, {
+        rating: typo.bestMatch.rating,
+        fixedName: typo.bestMatch.target
+      });
+    }).filter(function (contributor) {
+      return contributor.rating > 0.2;
+    }).sort(function (a, b) {
+      return b.rating - a.rating;
+    }).forEach(function (obj) {
+      text[i++] = c(prefix + "".concat(obj.contributor, " -> ").concat(obj.fixedName, " (").concat(obj.where, ") ...").concat(Math.floor(obj.rating * 100), "% likely"));
+    });
+    return text;
+  }
 }
 
 function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray$1(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
@@ -17065,15 +17162,15 @@ function parseMarkdown(novel, files) {
         _iterator.f();
       }
 
-      cache[file]["contributions"] = share;
+      cache[file].contributions = share;
       cache[file].lastModified = lastModified;
       cache[file].data = meta.attributes;
       cache[file].body = content[name];
-      cache[file]["unregistered"] = unregistered;
+      cache[file].unregistered = unregistered;
     } else {
       // console.log("Get from cache for", file);
-      share = cache[file]["contributions"];
-      unregistered = cache[file]["unregistered"];
+      share = cache[file].contributions;
+      unregistered = cache[file].unregistered;
       content[name] = cache[file].body;
       (meta ? meta : meta = {}).attributes = cache[file].data;
       ++unchangedFiles; // contributors.bulkAddContributors(novel, cache[file]["contributors"]);
@@ -17221,7 +17318,8 @@ var benchmark = {
 function outputMessage(_ref) {
   var _Object$keys;
 
-  var title = _ref.title,
+  var id = _ref.id,
+      title = _ref.title,
       files = _ref.files,
       unchangedFiles = _ref.unchangedFiles,
       contributors = _ref.contributors,
@@ -17231,7 +17329,7 @@ function outputMessage(_ref) {
   var log = new Log({
     marginLeft: 0
   });
-  var contributorsNumber = (_Object$keys = Object.keys(contributors)) === null || _Object$keys === void 0 ? void 0 : _Object$keys.length;
+  var contributorsNumber = (_Object$keys = Object.keys(contributors.get(id))) === null || _Object$keys === void 0 ? void 0 : _Object$keys.length;
   var glob = benchmark.glob,
       sorting_chapters = benchmark.sorting_chapters,
       markdown = benchmark.markdown,
@@ -17247,12 +17345,12 @@ function outputMessage(_ref) {
   }
 
   log.show(texts);
-  warnUnregisteredContributors(unregisteredContributors, log.padding + log.marginLeft);
+  warnUnregisteredContributors(unregisteredContributors, log.padding + log.marginLeft, id);
 }
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+function ownKeys$1(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread$1(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys$1(Object(source), true).forEach(function (key) { defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys$1(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 function generateMetadata(_x) {
   return _generateMetadata.apply(this, arguments);
 }
@@ -17393,7 +17491,7 @@ function _compileChapter() {
                         }
 
                         synopsis = marked_1(fs__default['default'].readFileSync(folder + "/synopsis.md", "utf8"));
-                        meta = _objectSpread(_objectSpread({
+                        meta = _objectSpread$1(_objectSpread$1({
                           id: novel
                         }, info), {}, {
                           synopsis: synopsis,
@@ -17410,6 +17508,7 @@ function _compileChapter() {
                         benchmark.filesystem.end = perf_hooks.performance.now();
                         t1 = perf_hooks.performance.now();
                         outputMessage({
+                          id: novel,
                           title: meta.title,
                           files: files,
                           unchangedFiles: unchangedFiles,

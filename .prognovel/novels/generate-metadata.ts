@@ -101,6 +101,7 @@ async function compileChapter(folder: string, images, novel: string) {
 
     const t1 = performance.now();
     outputMessage({
+      id: novel,
       title: meta.title,
       files,
       unchangedFiles,

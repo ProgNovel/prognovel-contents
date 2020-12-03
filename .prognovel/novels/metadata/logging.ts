@@ -26,6 +26,7 @@ export const benchmark = {
 };
 
 export function outputMessage({
+  id,
   title,
   files,
   unchangedFiles,
@@ -35,7 +36,7 @@ export function outputMessage({
 }) {
   const logTitle = chalk.bold.blueBright("[" + title + "]:");
   const log = new Log({ marginLeft: 0 });
-  const contributorsNumber = Object.keys(contributors)?.length;
+  const contributorsNumber = Object.keys(contributors.get(id))?.length;
   const { glob, sorting_chapters, markdown, rev_share, filesystem } = benchmark;
 
   const texts = [
@@ -63,5 +64,5 @@ export function outputMessage({
   }
 
   log.show(texts);
-  warnUnregisteredContributors(unregisteredContributors, log.padding + log.marginLeft);
+  warnUnregisteredContributors(unregisteredContributors, log.padding + log.marginLeft, id);
 }

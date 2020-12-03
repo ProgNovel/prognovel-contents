@@ -4,7 +4,7 @@ payment_pointer: $wallet.example.com/test
 backend_api: https://api.prognovel.workers.dev
 
 ### PUBLISHED BOOKS ###
-# you can left out a book folder if you're not ready yo puvlish a certain book
+# you can left out a book folder if you're not ready to publish a certain book
 novels:
   - yashura-legacy
   - mock-novel
@@ -16,5 +16,6 @@ payment_pointers_site_global:
 
 rev_share_contribution_per_chapter:
   author: 5
+  translator: 4
   editor: 3
   proofreader: 2

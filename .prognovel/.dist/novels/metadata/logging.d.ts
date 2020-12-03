@@ -20,7 +20,8 @@ export declare const benchmark: {
         end: number;
     };
 };
-export declare function outputMessage({ title, files, unchangedFiles, contributors, totalDuration, unregisteredContributors, }: {
+export declare function outputMessage({ id, title, files, unchangedFiles, contributors, totalDuration, unregisteredContributors, }: {
+    id: any;
     title: any;
     files: any;
     unchangedFiles: any;

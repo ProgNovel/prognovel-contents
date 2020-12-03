@@ -14,12 +14,14 @@
   ],
   "rev_share_contribution_per_chapter": {
     "author": 5,
+    "translator": 4,
     "editor": 3,
     "proofreader": 2
   },
   "cors": "*",
   "contribution_roles": [
     "author",
+    "translator",
     "editor",
     "proofreader"
   ],

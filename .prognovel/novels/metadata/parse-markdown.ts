@@ -58,15 +58,15 @@ export function parseMarkdown(novel: string, files: string[]) {
         }
       }
 
-      cache[file]["contributions"] = share;
+      cache[file].contributions = share;
       cache[file].lastModified = lastModified;
       cache[file].data = meta.attributes;
       cache[file].body = content[name];
-      cache[file]["unregistered"] = unregistered;
+      cache[file].unregistered = unregistered;
     } else {
       // console.log("Get from cache for", file);
-      share = cache[file]["contributions"];
-      unregistered = cache[file]["unregistered"];
+      share = cache[file].contributions;
+      unregistered = cache[file].unregistered;
       content[name] = cache[file].body;
       (meta ? meta : (meta = {})).attributes = cache[file].data;
       ++unchangedFiles;
