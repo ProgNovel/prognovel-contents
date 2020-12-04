@@ -17053,8 +17053,8 @@ function warnUnregisteredContributors(unregisteredContributors) {
   var i = 0;
   var typos = unregisteredContributors.length ? more() : [];
   if (!l) return;
-  console.log(m + source.bold.yellow("**********************************************") + (typos[i++] || ""));
-  console.log(m + source.bold.yellow("*                                            *") + (typos[i++] || ""));
+  console.log(m + source.bold.yellow(Array(EMPTY_SPACES + 2).fill("*").join("")) + (typos[i++] || ""));
+  console.log(m + source.bold.yellow("*" + Array(EMPTY_SPACES).fill(" ").join("") + "*") + (typos[i++] || ""));
   console.log(m + source.bold.yellow("*  ".concat(source.underline(l + (l > 10 ? "" : " ") + "unregistered contributors found "), "        *")) + (typos[i++] || ""));
   console.log(source.bold.yellow(m + "*                                            *") + (typos[i++] || ""));
   unregisteredContributors.forEach(function (warn) {
@@ -17062,8 +17062,8 @@ function warnUnregisteredContributors(unregisteredContributors) {
     var spaces = EMPTY_SPACES - text.length > 0 ? new Array(EMPTY_SPACES - text.length).join(" ") + " " : "";
     console.log(m + source.bold.yellow("*" + text + spaces + "*") + (typos[i++] || ""));
   });
-  console.log(m + source.bold.yellow("*                                            *") + (typos[i++] || ""));
-  console.log(m + source.bold.yellow("**********************************************") + (typos[i++] || ""));
+  console.log(m + source.bold.yellow("*" + Array(EMPTY_SPACES).fill(" ").join("") + "*") + (typos[i++] || ""));
+  console.log(m + source.bold.yellow(Array(EMPTY_SPACES + 2).fill("*").join("")) + (typos[i++] || ""));
   console.log("");
 
   function more() {
@@ -17072,7 +17072,7 @@ function warnUnregisteredContributors(unregisteredContributors) {
     var prefix = "  // ";
     var text = [];
     text[i++] = c(prefix + source.underline("possible typos:"));
-    unregisteredContributors.map(function (obj) {
+    var cacheUnregistered = unregisteredContributors.map(function (obj) {
       var typo = F___CODE_proyek_prognovelCli_node_modules_stringSimilarity_src_2(obj.contributor, Object.keys(contributors.get(novel)));
       return _objectSpread(_objectSpread({}, obj), {}, {
         rating: typo.bestMatch.rating,
@@ -17082,9 +17082,16 @@ function warnUnregisteredContributors(unregisteredContributors) {
       return contributor.rating > 0.2;
     }).sort(function (a, b) {
       return b.rating - a.rating;
-    }).forEach(function (obj) {
+    });
+    cacheUnregistered.forEach(function (obj) {
       text[i++] = c(prefix + "".concat(obj.contributor, " -> ").concat(obj.fixedName, " (").concat(obj.where, ") ...").concat(Math.floor(obj.rating * 100), "% likely"));
     });
+    text[i++] = "";
+    text[i++] = "  " + source.bgGreen.whiteBright(" TIPS ") + " Use command ".concat(source.bold.green("prognovel fix-typo"), " if you're sure");
+    text[i++] = "         all of typos above are true.";
+    var cacheFolder = path.join(process.cwd(), "/.cache");
+    if (!fs$2.existsSync(cacheFolder)) fs$2.mkdirSync(cacheFolder);
+    fs$2.writeFileSync(path.join(cacheFolder, "contributors-typo.json"), JSON.stringify(cacheUnregistered));
     return text;
   }
 }

@@ -1,4 +1,6 @@
 import chalk from "chalk";
+import { join } from "path";
+import { existsSync, mkdirSync, writeFileSync } from "fs";
 import { findBestMatch } from "string-similarity/src/index";
 
 export const contributors = {
@@ -54,8 +56,16 @@ export function warnUnregisteredContributors(
   let i = 0;
   const typos = unregisteredContributors.length ? more() : [];
   if (!l) return;
-  console.log(m + chalk.bold.yellow("**********************************************") + (typos[i++] || ""));
-  console.log(m + chalk.bold.yellow("*                                            *") + (typos[i++] || ""));
+  console.log(
+    m +
+      chalk.bold.yellow(
+        Array(EMPTY_SPACES + 2)
+          .fill("*")
+          .join(""),
+      ) +
+      (typos[i++] || ""),
+  );
+  console.log(m + chalk.bold.yellow("*" + Array(EMPTY_SPACES).fill(" ").join("") + "*") + (typos[i++] || ""));
   console.log(
     m +
       chalk.bold.yellow(
@@ -70,8 +80,16 @@ export function warnUnregisteredContributors(
       EMPTY_SPACES - text.length > 0 ? new Array(EMPTY_SPACES - text.length).join(" ") + " " : "";
     console.log(m + chalk.bold.yellow("*" + text + spaces + "*") + (typos[i++] || ""));
   });
-  console.log(m + chalk.bold.yellow("*                                            *") + (typos[i++] || ""));
-  console.log(m + chalk.bold.yellow("**********************************************") + (typos[i++] || ""));
+  console.log(m + chalk.bold.yellow("*" + Array(EMPTY_SPACES).fill(" ").join("") + "*") + (typos[i++] || ""));
+  console.log(
+    m +
+      chalk.bold.yellow(
+        Array(EMPTY_SPACES + 2)
+          .fill("*")
+          .join(""),
+      ) +
+      (typos[i++] || ""),
+  );
   console.log("");
 
   function more() {
@@ -80,7 +98,7 @@ export function warnUnregisteredContributors(
     let prefix = "  // ";
     let text = [];
     text[i++] = c(prefix + chalk.underline("possible typos:"));
-    unregisteredContributors
+    const cacheUnregistered = unregisteredContributors
       .map((obj: unregisterContributor) => {
         let typo = findBestMatch(obj.contributor, Object.keys(contributors.get(novel)));
         return {
@@ -90,15 +108,26 @@ export function warnUnregisteredContributors(
         };
       })
       .filter((contributor: typoUnregisteredContributor) => contributor.rating > 0.2)
-      .sort((a: typoUnregisteredContributor, b: typoUnregisteredContributor) => b.rating - a.rating)
-      .forEach((obj: typoUnregisteredContributor) => {
-        text[i++] = c(
-          prefix +
-            `${obj.contributor} -> ${obj.fixedName} (${obj.where}) ...${Math.floor(
-              obj.rating * 100,
-            )}% likely`,
-        );
-      });
+      .sort((a: typoUnregisteredContributor, b: typoUnregisteredContributor) => b.rating - a.rating);
+
+    cacheUnregistered.forEach((obj: typoUnregisteredContributor) => {
+      text[i++] = c(
+        prefix +
+          `${obj.contributor} -> ${obj.fixedName} (${obj.where}) ...${Math.floor(obj.rating * 100)}% likely`,
+      );
+    });
+
+    text[i++] = "";
+    text[i++] =
+      "  " +
+      chalk.bgGreen.whiteBright(" TIPS ") +
+      ` Use command ${chalk.bold.green("prognovel fix-typo")} if you're sure`;
+    text[i++] = "         all of typos above are true.";
+
+    const cacheFolder = join(process.cwd(), "/.cache");
+    if (!existsSync(cacheFolder)) mkdirSync(cacheFolder);
+
+    writeFileSync(join(cacheFolder, "contributors-typo.json"), JSON.stringify(cacheUnregistered));
 
     return text;
   }
