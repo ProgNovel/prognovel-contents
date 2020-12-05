@@ -17004,6 +17004,39 @@ function areArgsValid(mainString, targetStrings) {
 }
 var F___CODE_proyek_prognovelCli_node_modules_stringSimilarity_src_2 = F___CODE_proyek_prognovelCli_node_modules_stringSimilarity_src.findBestMatch;
 
+var imageExt = ["jpg", "jpeg", "png", "webp"];
+var files = {
+  cache: function cache() {
+    var cacheFolder = path.join(process.cwd(), "/.cache");
+    return {
+      folder: cacheFolder,
+      siteMetadata: path.join(cacheFolder, "sitemetadata.json"),
+      typoCache: path.join(cacheFolder, "contributors-typo.json"),
+      novelMetadata: function novelMetadata(id) {
+        return path.join(cacheFolder, "".concat(id, ".json"));
+      }
+    };
+  },
+  novel: function novel(id) {
+    return {
+      metadata: path.join(process.cwd(), "novels", id, "metadata.json"),
+      contentFolder: path.join(process.cwd(), "novels", id, "contents"),
+      banner: getImagePath(id, "banner"),
+      cover: getImagePath(id, "cover")
+    };
+  }
+};
+
+function getImagePath(novel, image) {
+  var ext = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : "";
+  if (!ext) ext = imageExt[0];
+  var file = path.join(process.cwd(), "novels", novel, "".concat(image, ".").concat(ext));
+  if (file && fs$2.existsSync(file)) return file;
+  if (imageExt.indexOf(ext) === imageExt.length - 1) throw new Error("No banner found for novel " + novel);
+  ext = imageExt[imageExt.indexOf(ext) + 1];
+  return getImagePath(novel, image, ext);
+}
+
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
@@ -17073,7 +17106,7 @@ function warnUnregisteredContributors(unregisteredContributors) {
     var text = [];
     text[i++] = c(prefix + source.underline("possible typos:"));
     text[i++] = c(prefix);
-    var cacheUnregistered = unregisteredContributors.map(function (obj) {
+    var processedUnregisteredContributors = unregisteredContributors.map(function (obj) {
       var typo = F___CODE_proyek_prognovelCli_node_modules_stringSimilarity_src_2(obj.contributor, Object.keys(contributors.get(novel)));
       return _objectSpread(_objectSpread({}, obj), {}, {
         rating: typo.bestMatch.rating,
@@ -17084,7 +17117,7 @@ function warnUnregisteredContributors(unregisteredContributors) {
     }).sort(function (a, b) {
       return b.rating - a.rating;
     });
-    cacheUnregistered.forEach(function (obj) {
+    processedUnregisteredContributors.forEach(function (obj) {
       text[i++] = c(prefix + "".concat(obj.contributor, " -> ").concat(obj.fixedName, " (").concat(obj.where, ") ...").concat(Math.floor(obj.rating * 100), "% likely"));
     });
     text[i++] = "";
@@ -17092,7 +17125,16 @@ function warnUnregisteredContributors(unregisteredContributors) {
     text[i++] = "         all of typos above are true.";
     var cacheFolder = path.join(process.cwd(), "/.cache");
     if (!fs$2.existsSync(cacheFolder)) fs$2.mkdirSync(cacheFolder);
-    fs$2.writeFileSync(path.join(cacheFolder, "contributors-typo.json"), JSON.stringify(cacheUnregistered));
+    var typoCache;
+
+    try {
+      typoCache = JSON.parse(fs$2.readFileSync(files.cache().typoCache, "utf-8"));
+    } catch (error) {
+      typoCache = {};
+    }
+
+    typoCache[novel] = processedUnregisteredContributors;
+    fs$2.writeFileSync(files.cache().typoCache, JSON.stringify(typoCache));
     return text;
   }
 }
@@ -17356,29 +17398,6 @@ function outputMessage(_ref) {
   warnUnregisteredContributors(unregisteredContributors, log.padding + log.marginLeft, id);
 }
 
-var imageExt = ["jpg", "jpeg", "png", "webp"];
-var files = {
-  cache: path.join(process.cwd(), "/.cache"),
-  novel: function novel(id) {
-    return {
-      metadata: path.join(process.cwd(), "novels", id, "metadata.json"),
-      contentFolder: path.join(process.cwd(), "novels", id, "contents"),
-      banner: getImagePath(id, "banner"),
-      cover: getImagePath(id, "cover")
-    };
-  }
-};
-
-function getImagePath(novel, image) {
-  var ext = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : "";
-  if (!ext) ext = imageExt[0];
-  var file = path.join(process.cwd(), "novels", novel, "".concat(image, ".").concat(ext));
-  if (file && fs$2.existsSync(file)) return file;
-  if (imageExt.indexOf(ext) === imageExt.length - 1) throw new Error("No banner found for novel " + novel);
-  ext = imageExt[imageExt.indexOf(ext) + 1];
-  return getImagePath(novel, image, ext);
-}
-
 function ownKeys$1(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread$1(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys$1(Object(source), true).forEach(function (key) { defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys$1(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
@@ -17407,14 +17426,13 @@ function _generateMetadata() {
             };
 
             firstNovel = novels[0];
-            console.log(files.novel(firstNovel));
-            _context2.next = 5;
+            _context2.next = 4;
             return globby$1("novels/*", {
               onlyDirectories: true,
               unique: true
             });
 
-          case 5:
+          case 4:
             folders = _context2.sent;
             return _context2.abrupt("return", Promise.all(folders.map( /*#__PURE__*/function () {
               var _ref = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee(folder) {
@@ -17469,7 +17487,7 @@ function _generateMetadata() {
               };
             }())));
 
-          case 8:
+          case 7:
           case "end":
             return _context2.stop();
         }
@@ -17627,12 +17645,131 @@ function _check() {
   return _check.apply(this, arguments);
 }
 
-function init(_x, _x2) {
+function _arrayWithHoles(arr) {
+  if (Array.isArray(arr)) return arr;
+}
+
+var arrayWithHoles = _arrayWithHoles;
+
+function _iterableToArrayLimit(arr, i) {
+  if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return;
+  var _arr = [];
+  var _n = true;
+  var _d = false;
+  var _e = undefined;
+
+  try {
+    for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {
+      _arr.push(_s.value);
+
+      if (i && _arr.length === i) break;
+    }
+  } catch (err) {
+    _d = true;
+    _e = err;
+  } finally {
+    try {
+      if (!_n && _i["return"] != null) _i["return"]();
+    } finally {
+      if (_d) throw _e;
+    }
+  }
+
+  return _arr;
+}
+
+var iterableToArrayLimit = _iterableToArrayLimit;
+
+function _nonIterableRest() {
+  throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+}
+
+var nonIterableRest = _nonIterableRest;
+
+function _slicedToArray(arr, i) {
+  return arrayWithHoles(arr) || iterableToArrayLimit(arr, i) || unsupportedIterableToArray(arr, i) || nonIterableRest();
+}
+
+var slicedToArray = _slicedToArray;
+
+function fixTypo(_x) {
+  return _fixTypo.apply(this, arguments);
+}
+
+function _fixTypo() {
+  _fixTypo = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee(opts) {
+    var typo, novel;
+    return F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            if (fs$2.existsSync(files.cache().typoCache)) {
+              _context.next = 4;
+              break;
+            }
+
+            console.log("");
+            console.log("    " + source.bold.redBright("No typo cache found. Make sure you're in the right folder and build the content first."));
+            return _context.abrupt("return");
+
+          case 4:
+            typo = JSON.parse(fs$2.readFileSync(files.cache().typoCache, "utf-8"));
+
+            if (Object.keys(typo).length) {
+              _context.next = 9;
+              break;
+            }
+
+            console.log("");
+            console.log(source.greenBright("  No typos found! Nice!"));
+            return _context.abrupt("return");
+
+          case 9:
+            console.log("");
+            console.log("");
+            console.log(source.bgGreen.white(" FIXING TYPOS "));
+
+            for (novel in typo) {
+              replaceTypo(novel, typo[novel]);
+            }
+
+            console.log("");
+            console.log(""); // clear cache
+
+            fs$2.writeFileSync(files.cache().typoCache, "{}", "utf-8");
+
+          case 16:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, _callee);
+  }));
+  return _fixTypo.apply(this, arguments);
+}
+
+function replaceTypo(novel, typos) {
+  console.log("");
+  console.log("(".concat(novel, ")"));
+  typos.forEach(function (typo) {
+    var _typo$where$split = typo.where.split("/"),
+        _typo$where$split2 = slicedToArray(_typo$where$split, 2),
+        book = _typo$where$split2[0],
+        chapter = _typo$where$split2[1];
+
+    var file = path.join(files.novel(novel).contentFolder, book, "".concat(chapter, ".md"));
+    var data = fs$2.readFileSync(file, "utf-8").replace(typo.contributor, typo.fixedName);
+    fs$2.writeFileSync(file, data, "utf-8");
+    console.log(source.bold.green("  > ".concat(typo.contributor, " --> ").concat(typo.fixedName, " (").concat(typo.where, ")")));
+  });
+}
+
+function init(_x) {
   return _init.apply(this, arguments);
 }
 
 function _init() {
-  _init = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee(cwd, opts) {
+  _init = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee(opts) {
     return F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
@@ -17649,19 +17786,16 @@ function _init() {
   return _init.apply(this, arguments);
 }
 
-function addNovel(_x3, _x4) {
+function addNovel(_x2) {
   return _addNovel.apply(this, arguments);
 }
 
 function _addNovel() {
-  _addNovel = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee2(cwd, opts) {
+  _addNovel = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee2(opts) {
     return F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee2$(_context2) {
       while (1) {
         switch (_context2.prev = _context2.next) {
           case 0:
-            console.log("Test:", cwd);
-
-          case 1:
           case "end":
             return _context2.stop();
         }
@@ -17671,12 +17805,12 @@ function _addNovel() {
   return _addNovel.apply(this, arguments);
 }
 
-function build(_x5, _x6) {
+function build(_x3) {
   return _build.apply(this, arguments);
 }
 
 function _build() {
-  _build = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee3(cwd, opts) {
+  _build = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee3(opts) {
     var settings, novelsMetadata, cleanMetadata;
     return F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee3$(_context3) {
       while (1) {
@@ -17708,6 +17842,7 @@ function _build() {
 exports.addNovel = addNovel;
 exports.build = build;
 exports.check = check;
+exports.fixTypo = fixTypo;
 exports.host = host;
 exports.init = init;
 //# sourceMappingURL=main.js.map

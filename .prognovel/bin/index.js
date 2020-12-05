@@ -10,4 +10,5 @@ require("yargs")
   .usage(`Usage: prognovel <command> [option (if any)]`)
   .command(require("./init"))
   .command(require("./build"))
+  .command(require("./fix-typo"))
   .command(require("./check")).argv;

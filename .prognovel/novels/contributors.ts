@@ -1,7 +1,8 @@
 import chalk from "chalk";
 import { join } from "path";
-import { existsSync, mkdirSync, writeFileSync } from "fs";
+import { existsSync, mkdirSync, writeFileSync, readFileSync } from "fs";
 import { findBestMatch } from "string-similarity/src/index";
+import { files } from "../_shared";
 
 export const contributors = {
   pool: new Map(),
@@ -99,7 +100,7 @@ export function warnUnregisteredContributors(
     let text = [];
     text[i++] = c(prefix + chalk.underline("possible typos:"));
     text[i++] = c(prefix);
-    const cacheUnregistered = unregisteredContributors
+    const processedUnregisteredContributors = unregisteredContributors
       .map((obj: unregisterContributor) => {
         let typo = findBestMatch(obj.contributor, Object.keys(contributors.get(novel)));
         return {
@@ -111,7 +112,7 @@ export function warnUnregisteredContributors(
       .filter((contributor: typoUnregisteredContributor) => contributor.rating > 0.2)
       .sort((a: typoUnregisteredContributor, b: typoUnregisteredContributor) => b.rating - a.rating);
 
-    cacheUnregistered.forEach((obj: typoUnregisteredContributor) => {
+    processedUnregisteredContributors.forEach((obj: typoUnregisteredContributor) => {
       text[i++] = c(
         prefix +
           `${obj.contributor} -> ${obj.fixedName} (${obj.where}) ...${Math.floor(obj.rating * 100)}% likely`,
@@ -128,18 +129,26 @@ export function warnUnregisteredContributors(
     const cacheFolder = join(process.cwd(), "/.cache");
     if (!existsSync(cacheFolder)) mkdirSync(cacheFolder);
 
-    writeFileSync(join(cacheFolder, "contributors-typo.json"), JSON.stringify(cacheUnregistered));
+    let typoCache;
+    try {
+      typoCache = JSON.parse(readFileSync(files.cache().typoCache, "utf-8"));
+    } catch (error) {
+      typoCache = {};
+    }
+    typoCache[novel] = processedUnregisteredContributors;
+
+    writeFileSync(files.cache().typoCache, JSON.stringify(typoCache));
 
     return text;
   }
 }
 
-interface unregisterContributor {
+export interface unregisterContributor {
   contributor: string;
   where: string;
 }
 
-interface typoUnregisteredContributor {
+export interface typoUnregisteredContributor {
   contributor: string;
   where: string;
   rating: number;

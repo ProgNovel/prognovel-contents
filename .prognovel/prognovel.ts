@@ -3,16 +3,15 @@ import { generateMetadata, appendNovelsMetadata } from "./novels/index";
 import { generateSiteSettings } from "./site/generate-site-settings";
 import { host } from "./hosting";
 import { check } from "./check";
+import { fixTypo } from "./fix-typo";
 
-async function init(cwd: string, opts?: any) {
+async function init(opts?: any) {
   console.log("Initialize on folder:", process.cwd());
 }
 
-async function addNovel(cwd: string, opts?: any) {
-  console.log("Test:", cwd);
-}
+async function addNovel(opts?: any) {}
 
-async function build(cwd: string, opts?: any) {
+async function build(opts?: any) {
   console.log("Starting ProgNovel");
   const settings = generateSiteSettings();
   const novelsMetadata = await generateMetadata(settings.novels);
@@ -20,6 +19,6 @@ async function build(cwd: string, opts?: any) {
   appendNovelsMetadata(cleanMetadata);
 }
 
-export { init, build, addNovel, host, check };
+export { init, build, addNovel, host, check, fixTypo };
 
 // init();

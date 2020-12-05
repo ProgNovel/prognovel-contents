@@ -20,3 +20,13 @@ export declare function warnUnregisteredContributors(unregisteredContributors: A
     contributor: string;
     where: string;
 }>, margin: number, novel: string): void;
+export interface unregisterContributor {
+    contributor: string;
+    where: string;
+}
+export interface typoUnregisteredContributor {
+    contributor: string;
+    where: string;
+    rating: number;
+    fixedName: string;
+}

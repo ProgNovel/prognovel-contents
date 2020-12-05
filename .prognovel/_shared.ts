@@ -5,8 +5,23 @@ const imageExt = ["jpg", "jpeg", "png", "webp"];
 
 declare type NovelID = string;
 
+type cacheFiles = {
+  folder: string;
+  siteMetadata: string;
+  typoCache: string;
+  novelMetadata: (novel: NovelID) => string;
+};
+
 export const files = {
-  cache: join(process.cwd(), "/.cache"),
+  cache: function (): cacheFiles {
+    const cacheFolder = join(process.cwd(), "/.cache");
+    return {
+      folder: cacheFolder,
+      siteMetadata: join(cacheFolder, "sitemetadata.json"),
+      typoCache: join(cacheFolder, "contributors-typo.json"),
+      novelMetadata: (id: NovelID) => join(cacheFolder, `${id}.json`),
+    };
+  },
   novel: (id: NovelID) => {
     return {
       metadata: join(process.cwd(), "novels", id, "metadata.json"),
