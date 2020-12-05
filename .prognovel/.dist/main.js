@@ -17072,6 +17072,7 @@ function warnUnregisteredContributors(unregisteredContributors) {
     var prefix = "  // ";
     var text = [];
     text[i++] = c(prefix + source.underline("possible typos:"));
+    text[i++] = c(prefix);
     var cacheUnregistered = unregisteredContributors.map(function (obj) {
       var typo = F___CODE_proyek_prognovelCli_node_modules_stringSimilarity_src_2(obj.contributor, Object.keys(contributors.get(novel)));
       return _objectSpread(_objectSpread({}, obj), {}, {
@@ -17355,6 +17356,29 @@ function outputMessage(_ref) {
   warnUnregisteredContributors(unregisteredContributors, log.padding + log.marginLeft, id);
 }
 
+var imageExt = ["jpg", "jpeg", "png", "webp"];
+var files = {
+  cache: path.join(process.cwd(), "/.cache"),
+  novel: function novel(id) {
+    return {
+      metadata: path.join(process.cwd(), "novels", id, "metadata.json"),
+      contentFolder: path.join(process.cwd(), "novels", id, "contents"),
+      banner: getImagePath(id, "banner"),
+      cover: getImagePath(id, "cover")
+    };
+  }
+};
+
+function getImagePath(novel, image) {
+  var ext = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : "";
+  if (!ext) ext = imageExt[0];
+  var file = path.join(process.cwd(), "novels", novel, "".concat(image, ".").concat(ext));
+  if (file && fs$2.existsSync(file)) return file;
+  if (imageExt.indexOf(ext) === imageExt.length - 1) throw new Error("No banner found for novel " + novel);
+  ext = imageExt[imageExt.indexOf(ext) + 1];
+  return getImagePath(novel, image, ext);
+}
+
 function ownKeys$1(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread$1(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys$1(Object(source), true).forEach(function (key) { defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys$1(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
@@ -17383,13 +17407,14 @@ function _generateMetadata() {
             };
 
             firstNovel = novels[0];
-            _context2.next = 4;
+            console.log(files.novel(firstNovel));
+            _context2.next = 5;
             return globby$1("novels/*", {
               onlyDirectories: true,
               unique: true
             });
 
-          case 4:
+          case 5:
             folders = _context2.sent;
             return _context2.abrupt("return", Promise.all(folders.map( /*#__PURE__*/function () {
               var _ref = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee(folder) {
@@ -17444,7 +17469,7 @@ function _generateMetadata() {
               };
             }())));
 
-          case 7:
+          case 8:
           case "end":
             return _context2.stop();
         }

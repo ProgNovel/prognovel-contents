@@ -98,6 +98,7 @@ export function warnUnregisteredContributors(
     let prefix = "  // ";
     let text = [];
     text[i++] = c(prefix + chalk.underline("possible typos:"));
+    text[i++] = c(prefix);
     const cacheUnregistered = unregisteredContributors
       .map((obj: unregisterContributor) => {
         let typo = findBestMatch(obj.contributor, Object.keys(contributors.get(novel)));
