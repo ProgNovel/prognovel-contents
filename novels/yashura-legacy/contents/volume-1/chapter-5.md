@@ -1,5 +1,6 @@
 ---
 title: Hidden Power in Yashura Family
+author: radhy
 ---
 
 <authors-note id="Radhy" type="danger">
@@ -8,7 +9,7 @@ I don’t recommend reading from here onwards because the chapter below is still
 
 </authors-note>
 
-In a certain hall in Malikh Family’s left wing complex, four people sat idly on the bamboo mats covered floor. They were being served local-specialty ginger drinks mixed with brown sugar with herbs to drink. There were also some roasted peanuts to chew. Despite they dressed humbly when attending the Ngajen Ceremony, three of them were elders with statuses, while one of them, the sword bearing Kaya man, wasn’t anyone to ignore either. 
+In a certain hall in Malikh Family’s left wing complex, four people sat idly on the bamboo mats covered floor. They were being served local-specialty ginger drinks mixed with brown sugar with herbs to drink. There were also some roasted peanuts to chew. Despite they dressed humbly when attending the Ngajen Ceremony, three of them were elders with statuses, while one of them, the sword bearing Kaya man, wasn’t anyone to ignore either.
 
 Having knowing this, they still waiting for their host, Bhela Malikh, to wrap up the Ngajen Ceremony.
 
@@ -16,9 +17,9 @@ Having knowing this, they still waiting for their host, Bhela Malikh, to wrap up
 
 “I wasn’t expecting it either. I only interested when the report said she showed a potential of being two elemental-affinities Archer. Three already great, but with four elementals, chances she’ll get her name down in history books.”
 
-“That is what happen if she able to live long enough to develop her full potential,” the quiet man with sharp aura remarked. His face was thin, rough, and since he never liked to smile, he always looked like he meant business. The man was role model of eastern Kaya race ancient warriors--stand and sit in straight posture, humorless, and most importantly, always bringing the sharp, thin sword of katana on his hips. 
+“That is what happen if she able to live long enough to develop her full potential,” the quiet man with sharp aura remarked. His face was thin, rough, and since he never liked to smile, he always looked like he meant business. The man was role model of eastern Kaya race ancient warriors--stand and sit in straight posture, humorless, and most importantly, always bringing the sharp, thin sword of katana on his hips.
 
-Madame Sylvia was interested on his remark. So she asked, “Oh, why you think of that, Sir Kurusiya?” 
+Madame Sylvia was interested on his remark. So she asked, “Oh, why you think of that, Sir Kurusiya?”
 
 The eastern man replied, “Because she tangled herself with Blackwood Family,” he paused. “If this Blackwood the same one from this Blackwood guy I know, then it’s definitely a bad news for her.”
 
@@ -80,7 +81,7 @@ Bhela Malikh bit her lips. She was eloquent when she invited these experts month
 
 “You want my advice, young lady?” the sharp voice of Sir Kurusiya sliced through the awkward atmosphere. He continued, “Having turned your back against Yashura Family is the dumbest decision you did. I didn’t come here because of you. I know your father, and I certainly know that swordsman from Yashura Family more. It’s a pity I couldn’t meet them today. Really, a complete waste miles and miles of journey.”
 
-With that, Sir Kurusiya, stood up and prepared to leave. 
+With that, Sir Kurusiya, stood up and prepared to leave.
 
 Bhela Malikh quickly swallowed her bitterness, also stood up and said, “Please, Elder Kurusiya, let me see you the way out.”
 
@@ -90,7 +91,7 @@ The eastern man saw himself out. Following his suggestion, Bhela Malikh sat down
 
 “I come as the representative of Blackwood Family!” Young Master Frane Blackwood boldly yelled.
 
-He swagered himself in along with Elder Jhamil’s son and the adjutant of Blackwood Family under his wings. The arrogant  behaviour of this young noble completely disregard the experts in the room. Madame Sylvia had enough. She dissed him, “What are you doing here uninvited?”
+He swagered himself in along with Elder Jhamil’s son and the adjutant of Blackwood Family under his wings. The arrogant behaviour of this young noble completely disregard the experts in the room. Madame Sylvia had enough. She dissed him, “What are you doing here uninvited?”
 
 Instead of the adjutant who usually spoke for his young master, it was the young elder of Malikh Family, Elder Jhamil’s son who replying. “This madam has eyes but doesn’t know what good for her. Of course Young Master Blackwood is invited! He’s the special guest of Malikh Family after all!”
 
@@ -192,7 +193,7 @@ The adjutant gulped before he replied.
 
 So much for his dreamy private discussion! Young Master Blackwood was so angry for being misled that he slapped the adjutant’s face all the way back to his inn.
 
-***
+---
 
 A single torch on a stick stubbornly lit the corner of the village in spite of the strong wind. A howling wolf in the distance reinforced the lone, cold sense of the midnight Badril Village. The only shop that still open at this hours could be counted with one hand, and this liquor shop was one of them. No customer visited it except a foreign eastern Kaya man.
 
@@ -276,15 +277,15 @@ Sir Kurusiya abruptly stopped his steps.
 
 “I’m always serious,” Sir Kurusiya said.
 
-***
+---
 
-Patriarch of Yashura Family, Shuro Yashura, was exhilarated to see Grandpa Piss and Snotty came to visit the village. One part because he treasured the friendships between their family and Grandpa Piss’s relatives, but mainly, he got to show-off his latest coconut cake recipe. 
+Patriarch of Yashura Family, Shuro Yashura, was exhilarated to see Grandpa Piss and Snotty came to visit the village. One part because he treasured the friendships between their family and Grandpa Piss’s relatives, but mainly, he got to show-off his latest coconut cake recipe.
 
 “Ah, this is life, drinking _tuak_ when we’re watching the moon, getting drunk while we’re eating coconuts. What a life!” Patriarch Shuro mumbled.
 
 “What a life indeed,” Grandpa Piss nodded with a low chuckle. On the sky, the full moon was shining bright really beautiful.
 
-After he’d done his part in ngajen ceremony, Patriarch Shuro Yashura accompanied the old Alchemist and his grandson in a spacious veranda, where they ate coconut cakes and drinking _tuak _while spending time moongazing. They had the Yashura Family’s sole butler, Yulong, to hold the _tuak _bottle and refilled their cups when empty.
+After he’d done his part in ngajen ceremony, Patriarch Shuro Yashura accompanied the old Alchemist and his grandson in a spacious veranda, where they ate coconut cakes and drinking \_tuak \_while spending time moongazing. They had the Yashura Family’s sole butler, Yulong, to hold the \_tuak \_bottle and refilled their cups when empty.
 
 “Grandpa Piss, why didn’t you tell us beforehand before you visit Badril Village? We ran out of _rendang_ before even the ceremony ended, so I’m sorry if you couldn’t eat _rendang_!”
 
@@ -330,11 +331,11 @@ After both of them gone, Yulong picked up a clean glass. He poured the liquor th
 
 “Is there’s something you need to discuss with me?” Yulong asked.
 
-“Indeed, it’s about Ghalim Malikh’s real condition…” Grandpa Piss didn’t leave any details when he told the Butler Yulong what had really happened in Malikh Family, particularly his discovery about the true nature of poison that made Patriarch Ghalim bedridden. 
+“Indeed, it’s about Ghalim Malikh’s real condition…” Grandpa Piss didn’t leave any details when he told the Butler Yulong what had really happened in Malikh Family, particularly his discovery about the true nature of poison that made Patriarch Ghalim bedridden.
 
 When he heard that shocking fact, there was no surprise in the butler’s old face. Only sorrow and regret.
 
-“I knew this would happened,” Yulong sighed. 
+“I knew this would happened,” Yulong sighed.
 
 “Then there’s Blackwood Family too…” Grandpa Piss’s sigh followed. “They seems interested in taking away Young Lady Bhela as a bride… I really don’t know what to say…”
 
@@ -370,7 +371,7 @@ In front of an inn owned by Elzhier Family, Yulong saw a familiar eastern Kaya m
 
 “Oh, that’s why you know him.” Yulong was his mother helper, and his father brought him along to Yashura Family when Shira still in his mother’s belly. Shira never liked to listen about his father’s past, even though it was often glorified since he was completely stopped marauding bandits from approaching Badril Village. Walking toward the market, Shira kept quiet and didn’t ask the matter any further.
 
-***
+---
 
 Far away from Badril Village, the golden owl Yulong tasked with the emergency letter flew through walls of mist and mountains. It instinctively knew the location of its recipient, Jhuro Yashura, even though Yulong wasn’t necesserarily knew where he was. Not even a half day passed by since the bird took off from Yashura Family, it flew already more than halfway toward its destination.
 
@@ -394,5 +395,4 @@ The masked man knew the pale man was irritated by his sister’s cockiness. So h
 
 “We’ve rested enough,” the pale man said as he crumbled the small letter he read. The bald barbarian’s head cocked and he await the order. “Prepare the horses,” the man continued, “I’ve got an old friend I should say hi to.”
 
-***
-
+---
