@@ -1,24 +1,19 @@
 import fs from "fs";
-import path from "path";
 import yaml from "js-yaml";
 import { contributionRoles, revSharePerChapter } from "../novels/contributors";
 import { ensurePublishDirectoryExist } from "../utils/check-valid-book-folder";
+import { publishFiles, siteFiles } from "../_files";
 
 export function generateSiteSettings() {
-  const settingsFile = path.join(process.cwd(), "/site-settings.yml");
-  console.log("Generating site metadata from site-settings.yml at", settingsFile);
-  const settings = yaml.safeLoad(fs.readFileSync(settingsFile));
+  const settings = yaml.safeLoad(fs.readFileSync(siteFiles().settings));
 
   if (!settings.cors) settings.cors = "*";
   settings.contribution_roles = settings["rev_share_contribution_per_chapter"]
     ? Object.keys(settings["rev_share_contribution_per_chapter"])
     : [];
 
-  const publishFolder = path.join(process.cwd(), "/.publish");
   ensurePublishDirectoryExist();
-  const metadataFile = path.join(publishFolder, "/sitemetadata.json");
-  // console.log(metadataFile);
-  fs.writeFileSync(metadataFile, JSON.stringify(settings, null, 4));
+  fs.writeFileSync(publishFiles().siteMetadata, JSON.stringify(settings, null, 4));
 
   contributionRoles.set(settings.contribution_roles);
   revSharePerChapter.set(settings["rev_share_contribution_per_chapter"]);

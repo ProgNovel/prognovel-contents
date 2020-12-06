@@ -1,8 +1,7 @@
 import chalk from "chalk";
-import { join } from "path";
 import { existsSync, mkdirSync, writeFileSync, readFileSync } from "fs";
 import { findBestMatch } from "string-similarity/src/index";
-import { files } from "../_shared";
+import { cacheFiles } from "../_files";
 
 export const contributors = {
   pool: new Map(),
@@ -127,18 +126,17 @@ export function warnUnregisteredContributors(
       ` Use command ${chalk.bold.green("prognovel fix-typo")} to fix above typos`;
     text[i++] = "         in batches (make sure suggestions above correct first).";
 
-    const cacheFolder = join(process.cwd(), "/.cache");
-    if (!existsSync(cacheFolder)) mkdirSync(cacheFolder);
+    if (!existsSync(cacheFiles().folder)) mkdirSync(cacheFiles().folder);
 
     let typoCache;
     try {
-      typoCache = JSON.parse(readFileSync(files.cache().typoCache, "utf-8"));
+      typoCache = JSON.parse(readFileSync(cacheFiles().typoCache, "utf-8"));
     } catch (error) {
       typoCache = {};
     }
     typoCache[novel] = processedUnregisteredContributors;
 
-    writeFileSync(files.cache().typoCache, JSON.stringify(typoCache));
+    writeFileSync(cacheFiles().typoCache, JSON.stringify(typoCache));
 
     return text;
   }

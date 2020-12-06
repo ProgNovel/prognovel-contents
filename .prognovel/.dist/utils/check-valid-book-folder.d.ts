@@ -1,2 +1,2 @@
-export declare function checkValidBookFolder(folder: any): any;
+export declare function checkValidBookFolder(novel: string): any;
 export declare function ensurePublishDirectoryExist(novel?: string): void;

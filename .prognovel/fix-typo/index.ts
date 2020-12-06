@@ -1,11 +1,11 @@
 import chalk from "chalk";
-import { files } from "../_shared";
+import { cacheFiles, novelFiles } from "../_files";
 import { existsSync, readFileSync, writeFileSync } from "fs";
 import { join } from "path";
 import type { typoUnregisteredContributor } from "../novels/contributors";
 
 export async function fixTypo(opts?: any) {
-  if (!existsSync(files.cache().typoCache)) {
+  if (!existsSync(cacheFiles().typoCache)) {
     console.log("");
     console.log(
       "    " +
@@ -16,7 +16,7 @@ export async function fixTypo(opts?: any) {
     return;
   }
 
-  const typo = JSON.parse(readFileSync(files.cache().typoCache, "utf-8"));
+  const typo = JSON.parse(readFileSync(cacheFiles().typoCache, "utf-8"));
 
   if (!Object.keys(typo).length) {
     console.log("");
@@ -28,26 +28,26 @@ export async function fixTypo(opts?: any) {
   console.log("");
   console.log("");
   console.log(chalk.bgGreen.white(" FIXING TYPOS "));
-  for (const novel in typo) {
-    replaceTypo(novel, typo[novel]);
+  for (const id in typo) {
+    replaceTypo(id, typo[id]);
   }
   console.log("");
   console.log("");
 
   // clear cache
-  writeFileSync(files.cache().typoCache, "{}", "utf-8");
+  writeFileSync(cacheFiles().typoCache, "{}", "utf-8");
 }
 
-function replaceTypo(novel: string, typos: typoUnregisteredContributor[]) {
+function replaceTypo(novelID: string, typos: typoUnregisteredContributor[]) {
   console.log("");
-  console.log(`(${novel})`);
-  typos.forEach((typo: typoUnregisteredContributor) => {
-    const [book, chapter] = typo.where.split("/");
-    const file = join(files.novel(novel).contentFolder, book, `${chapter}.md`);
+  console.log(`(${novelID})`);
+  typos.forEach(({ where, contributor, fixedName, rating }: typoUnregisteredContributor) => {
+    const [book, chapter] = where.split("/");
+    const file = join(novelFiles(novelID).contentFolder, book, `${chapter}.md`);
 
-    let data = readFileSync(file, "utf-8").replace(typo.contributor, typo.fixedName);
+    let data = readFileSync(file, "utf-8").replace(contributor, fixedName);
     writeFileSync(file, data, "utf-8");
 
-    console.log(chalk.bold.green(`  > ${typo.contributor} --> ${typo.fixedName} (${typo.where})`));
+    console.log(chalk.bold.green(`  > ${contributor} --> ${fixedName} (${where})`));
   });
 }

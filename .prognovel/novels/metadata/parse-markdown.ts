@@ -1,8 +1,8 @@
 import fs from "fs";
-import path from "path";
 import * as markdown from "markdown-wasm";
 import fm from "front-matter";
 import { contributionRoles, revSharePerChapter, contributors } from "../contributors";
+import { cacheFiles } from "../../_files";
 
 interface Cache {
   file: {
@@ -22,11 +22,10 @@ export function parseMarkdown(novel: string, files: string[]) {
   let unregisteredContributors = [];
   let unchangedFiles = 0;
   let cache: Cache | {};
-  const cacheFolder = path.join(process.cwd(), "/.cache");
-  const cacheFile = cacheFolder + `/${novel}.json`;
-  if (!fs.existsSync(cacheFolder)) fs.mkdirSync(cacheFolder);
+  let folder = cacheFiles();
+  if (!fs.existsSync(folder.folder)) fs.mkdirSync(folder.folder);
   try {
-    cache = JSON.parse(fs.readFileSync(cacheFile, "utf-8")) || {};
+    cache = JSON.parse(fs.readFileSync(folder.novelCompileCache(novel), "utf-8")) || {};
   } catch (err) {
     cache = {};
   }
@@ -94,6 +93,5 @@ export function parseMarkdown(novel: string, files: string[]) {
     unregisteredContributors,
     unchangedFiles,
     cache,
-    cacheFile,
   };
 }

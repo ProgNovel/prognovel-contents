@@ -1,8 +1,8 @@
 import { readFileSync, writeFileSync } from "fs";
-import path from "path";
+import { publishFiles } from "../_files";
 
 export function appendNovelsMetadata(novelsMetadata) {
-  const siteMetadataFile = path.join(process.cwd(), "/.publish/sitemetadata.json");
+  const siteMetadataFile = publishFiles().siteMetadata;
   try {
     const siteMetadata = JSON.parse(readFileSync(siteMetadataFile, "utf-8"));
     novelsMetadata = novelsMetadata.map((meta) => {

@@ -1,8 +1,8 @@
 import sharp from "sharp";
-import path from "path";
 import fs from "fs";
-import { NOVEL_FOLDER, BOOK_COVER } from "../prognovel.config";
-import { workingFolderNotFound } from "../utils/_errors";
+import { join } from "path";
+import { publishFiles, novelFiles } from "../_files";
+import { BOOK_COVER } from "../prognovel.config";
 import { ensurePublishDirectoryExist } from "../utils/check-valid-book-folder";
 
 const sizes = BOOK_COVER.sizes;
@@ -10,18 +10,12 @@ const formats = BOOK_COVER.formats;
 const inputType = "jpg";
 
 export async function generateBookCover(novel: string, placeholderRatio = 1) {
-  // checking in publish folder
-  let novelPublishFolder = path.join(process.cwd(), "/.publish/" + novel);
+  const folder = publishFiles();
   ensurePublishDirectoryExist(novel);
-  let outputFolder = path.join(novelPublishFolder, "/cover");
-  if (!fs.existsSync(outputFolder)) fs.mkdirSync(outputFolder);
+  if (!fs.existsSync(folder.novelCoverFolder(novel))) fs.mkdirSync(folder.novelCoverFolder(novel));
 
   // checking input image
-  let inputImage = path.join(process.cwd(), `novels/${novel}/cover.png`);
-  if (!fs.existsSync(inputImage)) inputImage = path.join(process.cwd(), `novels/${novel}/cover.jpg`);
-  if (!fs.existsSync(inputImage)) inputImage = path.join(process.cwd(), `novels/${novel}/cover.jpeg`);
-  if (!fs.existsSync(inputImage))
-    throw `Error: cover image for novel ${novel} not found; make sure an image with name cover (png or jpg) exists in novel folder.`;
+  let inputImage = novelFiles(novel).cover;
 
   // metadata
   const images = {
@@ -55,7 +49,7 @@ export async function generateBookCover(novel: string, placeholderRatio = 1) {
             sharp(inputImage)
               .resize(sizes[size][0] * i, sizes[size][1] * i)
               .webp({ quality, reductionEffort: 6 })
-              .toFile(outputFolder + name(i));
+              .toFile(join(folder.novelCoverFolder(novel), name(i)));
           }
         } else {
           for (let i = 1; i <= loop; i++) {
@@ -67,7 +61,7 @@ export async function generateBookCover(novel: string, placeholderRatio = 1) {
             sharp(inputImage)
               .resize(sizes[size][0] * i, sizes[size][1] * i)
               .jpeg({ quality })
-              .toFile(outputFolder + name(i));
+              .toFile(join(folder.novelCoverFolder(novel), name(i)));
           }
         }
       }

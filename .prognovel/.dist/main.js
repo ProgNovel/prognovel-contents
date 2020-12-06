@@ -4,9 +4,9 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 var fs$2 = require('fs');
 var path = require('path');
-var sharp = require('sharp');
 var os = require('os');
 var tty = require('tty');
+var sharp = require('sharp');
 var stream$5 = require('stream');
 var util$1 = require('util');
 var events = require('events');
@@ -16,9 +16,9 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 
 var fs__default = /*#__PURE__*/_interopDefaultLegacy(fs$2);
 var path__default = /*#__PURE__*/_interopDefaultLegacy(path);
-var sharp__default = /*#__PURE__*/_interopDefaultLegacy(sharp);
 var os__default = /*#__PURE__*/_interopDefaultLegacy(os);
 var tty__default = /*#__PURE__*/_interopDefaultLegacy(tty);
+var sharp__default = /*#__PURE__*/_interopDefaultLegacy(sharp);
 var stream__default = /*#__PURE__*/_interopDefaultLegacy(stream$5);
 var util__default = /*#__PURE__*/_interopDefaultLegacy(util$1);
 var events__default = /*#__PURE__*/_interopDefaultLegacy(events);
@@ -824,39 +824,6 @@ function _asyncToGenerator(fn) {
 }
 
 var asyncToGenerator = _asyncToGenerator;
-
-function appendNovelsMetadata(novelsMetadata) {
-  var siteMetadataFile = path__default['default'].join(process.cwd(), "/.publish/sitemetadata.json");
-
-  try {
-    var siteMetadata = JSON.parse(fs$2.readFileSync(siteMetadataFile, "utf-8"));
-    novelsMetadata = novelsMetadata.map(function (meta) {
-      return {
-        id: meta.id,
-        title: meta.title,
-        author: meta.author,
-        totalChapter: meta.chapters.length,
-        lastChapter: meta.chapters[meta.chapters.length - 1]
-      };
-    });
-    siteMetadata.novelsMetadata = novelsMetadata;
-    fs$2.writeFileSync(siteMetadataFile, JSON.stringify(siteMetadata, null, 2));
-  } catch (err) {
-    console.error("Error when reading site metadata.");
-    console.error(err);
-  }
-}
-
-var BOOK_COVER = {
-  sizes: {
-    book: [250, 250],
-    thumbnail: [187, 187],
-    placeholder: [50, 50]
-  },
-  formats: ["webp", "jpeg"],
-  quality: 80
-};
-var NOVEL_FOLDER = path__default['default'].join(process.cwd(), "/novels");
 
 var colorName = {
 	"aliceblue": [240, 248, 255],
@@ -2729,6 +2696,135 @@ chalk.stderr = Chalk({level: stderrColor ? stderrColor.level : 0}); // eslint-di
 chalk.stderr.supportsColor = stderrColor;
 
 var source = chalk;
+
+function errorImageNotFound(novel, imageType) {
+  failBuild(["".concat(imageType, " image not found in folder ").concat(novel, "."), "make sure image file with name ".concat(source.underline(imageType), " exists, with extensions one of the following:"), " - " + imageExt.join(", ")]);
+}
+function failBuild(reason) {
+  var color = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : source.red;
+  var prefix = "  ";
+  console.log("");
+  console.log("");
+  console.log(prefix + source.bgRed.white(" ERROR "));
+  console.log("");
+
+  if (Array.isArray(reason)) {
+    reason.forEach(function (text) {
+      console.log(color(prefix + text));
+    });
+  } else {
+    console.log(color(prefix + reason));
+  }
+
+  console.log("");
+  console.log("");
+  process.exit();
+}
+
+var publishFiles = function publishFiles() {
+  var folder = path.join(process.cwd(), "/.publish");
+  return {
+    folder: folder,
+    siteMetadata: path.join(folder, "sitemetadata.json"),
+    novelFolder: function novelFolder(id) {
+      return path.join(folder, id);
+    },
+    novelMetadata: function novelMetadata(id) {
+      return path.join(folder, id, "metadata.json");
+    },
+    novelChapterTitles: function novelChapterTitles(id) {
+      return path.join(folder, id, "chapter-titles.json");
+    },
+    novelCompiledContent: function novelCompiledContent(id) {
+      return path.join(folder, id, "content.json");
+    },
+    novelCoverFolder: function novelCoverFolder(id) {
+      return path.join(folder, id, "cover");
+    },
+    novelCover: function novelCover(id, type, ext, size) {
+      return path.join(folder, id, "cover", "cover-".concat(type).concat(size ? "-" + size : "", ".").concat(ext));
+    }
+  };
+};
+var siteFiles = function siteFiles() {
+  return {
+    settings: getYaml(path.join(process.cwd(), "site-settings.yml"))
+  };
+};
+var cacheFiles = function cacheFiles() {
+  var folder = path.join(process.cwd(), "/.cache");
+  return {
+    folder: folder,
+    siteMetadata: path.join(folder, "sitemetadata.json"),
+    typoCache: path.join(folder, "contributors-typo.json"),
+    novelCompileCache: function novelCompileCache(id) {
+      return path.join(folder, "".concat(id, ".json"));
+    }
+  };
+};
+var novelFiles = function novelFiles(id) {
+  var folder = path.join(process.cwd(), "novels", id);
+  return {
+    metadata: path.join(folder, "metadata.json"),
+    contentFolder: path.join(folder, "contents"),
+    banner: getNovelImagePath(id, "banner"),
+    cover: getNovelImagePath(id, "cover"),
+    synopsis: path.join(folder, "synopsis.md"),
+    info: getYaml(path.join(folder, "info.yml")),
+    contributorsConfig: getYaml(path.join(folder, "contributors.yml"))
+  };
+
+  function getNovelImagePath(novel, image) {
+    var ext = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : "";
+    if (!ext) ext = imageExt[0];
+    var file = path.join(folder, "".concat(image, ".").concat(ext));
+    if (file && fs$2.existsSync(file)) return file;
+    if (imageExt.indexOf(ext) === imageExt.length - 1) errorImageNotFound(novel, image);
+    ext = imageExt[imageExt.indexOf(ext) + 1];
+    return getNovelImagePath(novel, image, ext);
+  }
+};
+var imageExt = ["jpg", "jpeg", "png", "webp"];
+
+function getYaml(file) {
+  if (fs$2.existsSync(file)) return file;
+  var currentExt = file.endsWith("yaml") ? "yaml" : "yml";
+  var nextExt = file.endsWith("yaml") ? "yml" : "yaml";
+  return file.slice(0, -1 * currentExt.length) + nextExt;
+}
+
+function appendNovelsMetadata(novelsMetadata) {
+  var siteMetadataFile = publishFiles().siteMetadata;
+
+  try {
+    var siteMetadata = JSON.parse(fs$2.readFileSync(siteMetadataFile, "utf-8"));
+    novelsMetadata = novelsMetadata.map(function (meta) {
+      return {
+        id: meta.id,
+        title: meta.title,
+        author: meta.author,
+        totalChapter: meta.chapters.length,
+        lastChapter: meta.chapters[meta.chapters.length - 1]
+      };
+    });
+    siteMetadata.novelsMetadata = novelsMetadata;
+    fs$2.writeFileSync(siteMetadataFile, JSON.stringify(siteMetadata, null, 2));
+  } catch (err) {
+    console.error("Error when reading site metadata.");
+    console.error(err);
+  }
+}
+
+var BOOK_COVER = {
+  sizes: {
+    book: [250, 250],
+    thumbnail: [187, 187],
+    placeholder: [50, 50]
+  },
+  formats: ["webp", "jpeg"],
+  quality: 80
+};
+var NOVEL_FOLDER = path__default['default'].join(process.cwd(), "/novels");
 
 function isNothing(subject) {
   return (typeof subject === 'undefined') || (subject === null);
@@ -6571,31 +6667,25 @@ var jsYaml = {
 
 var F___CODE_proyek_prognovelCli_node_modules_jsYaml = jsYaml;
 
-function checkValidBookFolder(folder) {
-  var settingsFile = path__default['default'].join(process.cwd(), "/site-settings.yml");
-  var settings = F___CODE_proyek_prognovelCli_node_modules_jsYaml.safeLoad(fs__default['default'].readFileSync(settingsFile));
-  var isInfoExist = fs__default['default'].existsSync(folder + "/info.yml");
-  var isSynopsisExist = fs__default['default'].existsSync(folder + "/synopsis.md");
-  var isExistInSettings = settings.novels.includes(folder.split("novels/")[1]);
-  if (!isInfoExist) console.error(source.bold.red("info.yml doesn't exist at ".concat(folder)));
-  if (!isSynopsisExist) console.error(source.bold.red("synopsis.md doesn't exist at ".concat(folder)));
-  if (!isExistInSettings) console.error(source.bold.yellow("novel ".concat(folder, " is not defined in site-settings.yaml (check in root folder)")));
+function checkValidBookFolder(novel) {
+  var settings = F___CODE_proyek_prognovelCli_node_modules_jsYaml.safeLoad(fs__default['default'].readFileSync(siteFiles().settings));
+  var isInfoExist = fs__default['default'].existsSync(novelFiles(novel).info);
+  var isSynopsisExist = fs__default['default'].existsSync(novelFiles(novel).synopsis);
+  var isExistInSettings = settings.novels.includes(novel);
+  if (!isInfoExist) console.error(source.bold.red("info.yml doesn't exist in folder ".concat(novel)));
+  if (!isSynopsisExist) console.error(source.bold.red("synopsis.md doesn't exist in folder ".concat(novel)));
+  if (!isExistInSettings) console.error(source.bold.yellow("novel ".concat(novel, " is not defined in site-settings.yaml (check in root folder)")));
   return isInfoExist && isSynopsisExist && isExistInSettings;
 }
 function ensurePublishDirectoryExist(novel) {
-  var folder = {
-    publish: path__default['default'].join(process.cwd(), "/.publish")
-  };
-
-  if (!fs__default['default'].existsSync(folder.publish)) {
-    fs__default['default'].mkdirSync(folder.publish);
+  if (!fs__default['default'].existsSync(publishFiles().folder)) {
+    fs__default['default'].mkdirSync(publishFiles().folder);
   }
 
   if (!novel) return;
-  folder.novel = path__default['default'].join(folder.publish, "/".concat(novel)); // console.log("creating folder", folder.novel);
 
-  if (!fs__default['default'].existsSync(folder.novel)) {
-    fs__default['default'].mkdirSync(folder.novel);
+  if (!fs__default['default'].existsSync(publishFiles().novelFolder(novel))) {
+    fs__default['default'].mkdirSync(publishFiles().novelFolder(novel));
   }
 }
 
@@ -6607,8 +6697,7 @@ function generateBookCover(_x) {
 
 function _generateBookCover() {
   _generateBookCover = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee(novel) {
-    var novelPublishFolder,
-        outputFolder,
+    var folder,
         inputImage,
         images,
         placeholderSizes,
@@ -6617,25 +6706,12 @@ function _generateBookCover() {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
-            // checking in publish folder
-            novelPublishFolder = path__default['default'].join(process.cwd(), "/.publish/" + novel);
+            folder = publishFiles();
             ensurePublishDirectoryExist(novel);
-            outputFolder = path__default['default'].join(novelPublishFolder, "/cover");
-            if (!fs__default['default'].existsSync(outputFolder)) fs__default['default'].mkdirSync(outputFolder); // checking input image
+            if (!fs__default['default'].existsSync(folder.novelCoverFolder(novel))) fs__default['default'].mkdirSync(folder.novelCoverFolder(novel)); // checking input image
 
-            inputImage = path__default['default'].join(process.cwd(), "novels/".concat(novel, "/cover.png"));
-            if (!fs__default['default'].existsSync(inputImage)) inputImage = path__default['default'].join(process.cwd(), "novels/".concat(novel, "/cover.jpg"));
-            if (!fs__default['default'].existsSync(inputImage)) inputImage = path__default['default'].join(process.cwd(), "novels/".concat(novel, "/cover.jpeg"));
+            inputImage = novelFiles(novel).cover; // metadata
 
-            if (fs__default['default'].existsSync(inputImage)) {
-              _context.next = 10;
-              break;
-            }
-
-            throw "Error: cover image for novel ".concat(novel, " not found; make sure an image with name cover (png or jpg) exists in novel folder.");
-
-          case 10:
-            // metadata
             images = {
               book: {
                 jpeg: {},
@@ -6671,7 +6747,7 @@ function _generateBookCover() {
                       sharp__default['default'](inputImage).resize(sizes[size][0] * i, sizes[size][1] * i).webp({
                         quality: quality,
                         reductionEffort: 6
-                      }).toFile(outputFolder + name(i));
+                      }).toFile(path.join(folder.novelCoverFolder(novel), name(i)));
                     }
                   } else {
                     for (var _i = 1; _i <= loop; _i++) {
@@ -6683,7 +6759,7 @@ function _generateBookCover() {
 
                       sharp__default['default'](inputImage).resize(sizes[size][0] * _i, sizes[size][1] * _i).jpeg({
                         quality: quality
-                      }).toFile(outputFolder + name(_i));
+                      }).toFile(path.join(folder.novelCoverFolder(novel), name(_i)));
                     }
                   }
                 }
@@ -6696,17 +6772,17 @@ function _generateBookCover() {
             placeholderSizes = sizes.placeholder.map(function (size) {
               return size * 2;
             });
-            _context.next = 15;
+            _context.next = 10;
             return sharp__default['default'](inputImage).resize(placeholderSizes[0], placeholderSizes[1]).jpeg({
               quality: 25
             }).toBuffer();
 
-          case 15:
+          case 10:
             buffer = _context.sent;
             images.placeholder = "data:image/jpeg;base64," + buffer.toString("base64");
             return _context.abrupt("return", images);
 
-          case 18:
+          case 13:
           case "end":
             return _context.stop();
         }
@@ -17004,39 +17080,6 @@ function areArgsValid(mainString, targetStrings) {
 }
 var F___CODE_proyek_prognovelCli_node_modules_stringSimilarity_src_2 = F___CODE_proyek_prognovelCli_node_modules_stringSimilarity_src.findBestMatch;
 
-var imageExt = ["jpg", "jpeg", "png", "webp"];
-var files = {
-  cache: function cache() {
-    var cacheFolder = path.join(process.cwd(), "/.cache");
-    return {
-      folder: cacheFolder,
-      siteMetadata: path.join(cacheFolder, "sitemetadata.json"),
-      typoCache: path.join(cacheFolder, "contributors-typo.json"),
-      novelMetadata: function novelMetadata(id) {
-        return path.join(cacheFolder, "".concat(id, ".json"));
-      }
-    };
-  },
-  novel: function novel(id) {
-    return {
-      metadata: path.join(process.cwd(), "novels", id, "metadata.json"),
-      contentFolder: path.join(process.cwd(), "novels", id, "contents"),
-      banner: getImagePath(id, "banner"),
-      cover: getImagePath(id, "cover")
-    };
-  }
-};
-
-function getImagePath(novel, image) {
-  var ext = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : "";
-  if (!ext) ext = imageExt[0];
-  var file = path.join(process.cwd(), "novels", novel, "".concat(image, ".").concat(ext));
-  if (file && fs$2.existsSync(file)) return file;
-  if (imageExt.indexOf(ext) === imageExt.length - 1) throw new Error("No banner found for novel " + novel);
-  ext = imageExt[imageExt.indexOf(ext) + 1];
-  return getImagePath(novel, image, ext);
-}
-
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
@@ -17084,7 +17127,7 @@ function warnUnregisteredContributors(unregisteredContributors) {
   var l = unregisteredContributors.length;
   var m = Array(margin).fill(" ").join("");
   var i = 0;
-  var typos = unregisteredContributors.length ? more() : [];
+  var typos = unregisteredContributors.length ? showTypoError() : [];
   if (!l) return;
   console.log(m + source.bold.yellow(Array(EMPTY_SPACES + 2).fill("*").join("")) + (typos[i++] || ""));
   console.log(m + source.bold.yellow("*" + Array(EMPTY_SPACES).fill(" ").join("") + "*") + (typos[i++] || ""));
@@ -17099,7 +17142,7 @@ function warnUnregisteredContributors(unregisteredContributors) {
   console.log(m + source.bold.yellow(Array(EMPTY_SPACES + 2).fill("*").join("")) + (typos[i++] || ""));
   console.log("");
 
-  function more() {
+  function showTypoError() {
     var c = source.bold.grey;
     var i = 0;
     var prefix = "  // ";
@@ -17117,24 +17160,27 @@ function warnUnregisteredContributors(unregisteredContributors) {
     }).sort(function (a, b) {
       return b.rating - a.rating;
     });
-    processedUnregisteredContributors.forEach(function (obj) {
-      text[i++] = c(prefix + "".concat(obj.contributor, " -> ").concat(obj.fixedName, " (").concat(obj.where, ") ...").concat(Math.floor(obj.rating * 100), "% likely"));
+    processedUnregisteredContributors.forEach(function (_ref) {
+      var contributor = _ref.contributor,
+          fixedName = _ref.fixedName,
+          where = _ref.where,
+          rating = _ref.rating;
+      text[i++] = c(prefix + "".concat(contributor, " -> ").concat(fixedName, " (").concat(where, ") ...").concat(Math.floor(rating * 100), "% likely"));
     });
     text[i++] = "";
     text[i++] = "  " + source.bgGreen.whiteBright(" TIPS ") + " Use command ".concat(source.bold.green("prognovel fix-typo"), " to fix above typos");
     text[i++] = "         in batches (make sure suggestions above correct first).";
-    var cacheFolder = path.join(process.cwd(), "/.cache");
-    if (!fs$2.existsSync(cacheFolder)) fs$2.mkdirSync(cacheFolder);
+    if (!fs$2.existsSync(cacheFiles().folder)) fs$2.mkdirSync(cacheFiles().folder);
     var typoCache;
 
     try {
-      typoCache = JSON.parse(fs$2.readFileSync(files.cache().typoCache, "utf-8"));
+      typoCache = JSON.parse(fs$2.readFileSync(cacheFiles().typoCache, "utf-8"));
     } catch (error) {
       typoCache = {};
     }
 
     typoCache[novel] = processedUnregisteredContributors;
-    fs$2.writeFileSync(files.cache().typoCache, JSON.stringify(typoCache));
+    fs$2.writeFileSync(cacheFiles().typoCache, JSON.stringify(typoCache));
     return text;
   }
 }
@@ -17152,12 +17198,11 @@ function parseMarkdown(novel, files) {
   var unregisteredContributors = [];
   var unchangedFiles = 0;
   var cache;
-  var cacheFolder = path__default['default'].join(process.cwd(), "/.cache");
-  var cacheFile = cacheFolder + "/".concat(novel, ".json");
-  if (!fs__default['default'].existsSync(cacheFolder)) fs__default['default'].mkdirSync(cacheFolder);
+  var folder = cacheFiles();
+  if (!fs__default['default'].existsSync(folder.folder)) fs__default['default'].mkdirSync(folder.folder);
 
   try {
-    cache = JSON.parse(fs__default['default'].readFileSync(cacheFile, "utf-8")) || {};
+    cache = JSON.parse(fs__default['default'].readFileSync(folder.novelCompileCache(novel), "utf-8")) || {};
   } catch (err) {
     cache = {};
   }
@@ -17188,7 +17233,9 @@ function parseMarkdown(novel, files) {
           var workers = meta.attributes[contribution];
 
           if (workers && revSharePerChapter.get()[contribution]) {
-            workers.split(",").forEach(function (contributor) {
+            workers.split(",").filter(function (name) {
+              return !!name;
+            }).forEach(function (contributor) {
               contributor = contributor.trim();
 
               if (Object.keys(contributors.get(novel)).includes(contributor)) {
@@ -17243,8 +17290,7 @@ function parseMarkdown(novel, files) {
     contributions: contributions,
     unregisteredContributors: unregisteredContributors,
     unchangedFiles: unchangedFiles,
-    cache: cache,
-    cacheFile: cacheFile
+    cache: cache
   };
 }
 
@@ -17417,7 +17463,7 @@ function _generateMetadata() {
               var novelContributors;
 
               try {
-                novelContributors = F___CODE_proyek_prognovelCli_node_modules_jsYaml.load(fs__default['default'].readFileSync(folder + "/contributors.yml"));
+                novelContributors = F___CODE_proyek_prognovelCli_node_modules_jsYaml.load(fs__default['default'].readFileSync(novelFiles(novel).contributorsConfig));
               } catch (err) {
                 console.error(source.bold.red("Can't find contributors.yml for novel ".concat(novel, ".")));
               }
@@ -17441,6 +17487,7 @@ function _generateMetadata() {
                   while (1) {
                     switch (_context.prev = _context.next) {
                       case 0:
+                        // folder name is the same as novel id
                         folderName = folder.split("/");
                         folderName = folderName[folderName.length - 1];
 
@@ -17449,7 +17496,7 @@ function _generateMetadata() {
                           break;
                         }
 
-                        if (!checkValidBookFolder(folder)) {
+                        if (!checkValidBookFolder(folderName)) {
                           _context.next = 13;
                           break;
                         }
@@ -17509,7 +17556,7 @@ function _compileChapter() {
           case 0:
             return _context4.abrupt("return", new Promise( /*#__PURE__*/function () {
               var _ref2 = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee3(resolve) {
-                var t0, files, _parseMarkdown, content, chapters, chapterTitles, contributions, unregisteredContributors, unchangedFiles, cache, cacheFile, rev_share, chapterList, info, synopsis, meta, publishFolder, t1;
+                var t0, files, _parseMarkdown, content, chapters, chapterTitles, contributions, unregisteredContributors, unchangedFiles, cache, rev_share, chapterList, info, synopsis, meta, t1;
 
                 return F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee3$(_context3) {
                   while (1) {
@@ -17524,7 +17571,7 @@ function _compileChapter() {
                         files = _context3.sent;
                         benchmark.glob.end = perf_hooks.performance.now();
                         benchmark.markdown.start = perf_hooks.performance.now();
-                        _parseMarkdown = parseMarkdown(novel, files), content = _parseMarkdown.content, chapters = _parseMarkdown.chapters, chapterTitles = _parseMarkdown.chapterTitles, contributions = _parseMarkdown.contributions, unregisteredContributors = _parseMarkdown.unregisteredContributors, unchangedFiles = _parseMarkdown.unchangedFiles, cache = _parseMarkdown.cache, cacheFile = _parseMarkdown.cacheFile;
+                        _parseMarkdown = parseMarkdown(novel, files), content = _parseMarkdown.content, chapters = _parseMarkdown.chapters, chapterTitles = _parseMarkdown.chapterTitles, contributions = _parseMarkdown.contributions, unregisteredContributors = _parseMarkdown.unregisteredContributors, unchangedFiles = _parseMarkdown.unchangedFiles, cache = _parseMarkdown.cache;
                         benchmark.markdown.end = perf_hooks.performance.now(); // console.log(cache);
 
                         benchmark.rev_share.start = perf_hooks.performance.now();
@@ -17534,13 +17581,13 @@ function _compileChapter() {
                         chapterList = F___CODE_proyek_prognovelCli_node_modules_alphanumSort_lib(chapters);
                         benchmark.sorting_chapters.end = perf_hooks.performance.now();
                         benchmark.filesystem.start = perf_hooks.performance.now();
-                        info = F___CODE_proyek_prognovelCli_node_modules_jsYaml.load(fs__default['default'].readFileSync(folder + "/info.yml", "utf8"));
+                        info = F___CODE_proyek_prognovelCli_node_modules_jsYaml.load(fs__default['default'].readFileSync(novelFiles(novel).info, "utf8"));
 
                         if (!Array.isArray(info.paymentPointers)) {
                           info.paymentPointers = [info.paymentPointers];
                         }
 
-                        synopsis = marked_1(fs__default['default'].readFileSync(folder + "/synopsis.md", "utf8"));
+                        synopsis = marked_1(fs__default['default'].readFileSync(novelFiles(novel).synopsis, "utf8"));
                         meta = _objectSpread$1(_objectSpread$1({
                           id: novel
                         }, info), {}, {
@@ -17550,11 +17597,10 @@ function _compileChapter() {
                           rev_share: rev_share
                         });
                         ensurePublishDirectoryExist(novel);
-                        publishFolder = path__default['default'].join(process.cwd(), "/.publish/".concat(novel));
-                        fs__default['default'].writeFileSync(publishFolder + "/metadata.json", JSON.stringify(meta, null, 4));
-                        fs__default['default'].writeFileSync(publishFolder + "/chapter-titles.json", JSON.stringify(chapterTitles));
-                        fs__default['default'].writeFileSync(publishFolder + "/content.json", JSON.stringify(content));
-                        fs__default['default'].writeFileSync(cacheFile, JSON.stringify(cache || {}), "utf-8");
+                        fs__default['default'].writeFileSync(publishFiles().novelMetadata(novel), JSON.stringify(meta, null, 4));
+                        fs__default['default'].writeFileSync(publishFiles().novelChapterTitles(novel), JSON.stringify(chapterTitles));
+                        fs__default['default'].writeFileSync(publishFiles().novelCompiledContent(novel), JSON.stringify(content));
+                        fs__default['default'].writeFileSync(cacheFiles().novelCompileCache(novel), JSON.stringify(cache || {}), "utf-8");
                         benchmark.filesystem.end = perf_hooks.performance.now();
                         t1 = perf_hooks.performance.now();
                         outputMessage({
@@ -17568,7 +17614,7 @@ function _compileChapter() {
                         });
                         resolve(meta);
 
-                      case 30:
+                      case 29:
                       case "end":
                         return _context3.stop();
                     }
@@ -17592,16 +17638,11 @@ function _compileChapter() {
 }
 
 function generateSiteSettings() {
-  var settingsFile = path__default['default'].join(process.cwd(), "/site-settings.yml");
-  console.log("Generating site metadata from site-settings.yml at", settingsFile);
-  var settings = F___CODE_proyek_prognovelCli_node_modules_jsYaml.safeLoad(fs__default['default'].readFileSync(settingsFile));
+  var settings = F___CODE_proyek_prognovelCli_node_modules_jsYaml.safeLoad(fs__default['default'].readFileSync(siteFiles().settings));
   if (!settings.cors) settings.cors = "*";
   settings.contribution_roles = settings["rev_share_contribution_per_chapter"] ? Object.keys(settings["rev_share_contribution_per_chapter"]) : [];
-  var publishFolder = path__default['default'].join(process.cwd(), "/.publish");
   ensurePublishDirectoryExist();
-  var metadataFile = path__default['default'].join(publishFolder, "/sitemetadata.json"); // console.log(metadataFile);
-
-  fs__default['default'].writeFileSync(metadataFile, JSON.stringify(settings, null, 4));
+  fs__default['default'].writeFileSync(publishFiles().siteMetadata, JSON.stringify(settings, null, 4));
   contributionRoles.set(settings.contribution_roles);
   revSharePerChapter.set(settings["rev_share_contribution_per_chapter"]);
   return settings;
@@ -17698,12 +17739,12 @@ function fixTypo(_x) {
 
 function _fixTypo() {
   _fixTypo = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee(opts) {
-    var typo, novel;
+    var typo, id;
     return F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
-            if (fs$2.existsSync(files.cache().typoCache)) {
+            if (fs$2.existsSync(cacheFiles().typoCache)) {
               _context.next = 4;
               break;
             }
@@ -17713,7 +17754,7 @@ function _fixTypo() {
             return _context.abrupt("return");
 
           case 4:
-            typo = JSON.parse(fs$2.readFileSync(files.cache().typoCache, "utf-8"));
+            typo = JSON.parse(fs$2.readFileSync(cacheFiles().typoCache, "utf-8"));
 
             if (Object.keys(typo).length) {
               _context.next = 9;
@@ -17729,14 +17770,14 @@ function _fixTypo() {
             console.log("");
             console.log(source.bgGreen.white(" FIXING TYPOS "));
 
-            for (novel in typo) {
-              replaceTypo(novel, typo[novel]);
+            for (id in typo) {
+              replaceTypo(id, typo[id]);
             }
 
             console.log("");
             console.log(""); // clear cache
 
-            fs$2.writeFileSync(files.cache().typoCache, "{}", "utf-8");
+            fs$2.writeFileSync(cacheFiles().typoCache, "{}", "utf-8");
 
           case 16:
           case "end":
@@ -17748,19 +17789,24 @@ function _fixTypo() {
   return _fixTypo.apply(this, arguments);
 }
 
-function replaceTypo(novel, typos) {
+function replaceTypo(novelID, typos) {
   console.log("");
-  console.log("(".concat(novel, ")"));
-  typos.forEach(function (typo) {
-    var _typo$where$split = typo.where.split("/"),
-        _typo$where$split2 = slicedToArray(_typo$where$split, 2),
-        book = _typo$where$split2[0],
-        chapter = _typo$where$split2[1];
+  console.log("(".concat(novelID, ")"));
+  typos.forEach(function (_ref) {
+    var where = _ref.where,
+        contributor = _ref.contributor,
+        fixedName = _ref.fixedName,
+        rating = _ref.rating;
 
-    var file = path.join(files.novel(novel).contentFolder, book, "".concat(chapter, ".md"));
-    var data = fs$2.readFileSync(file, "utf-8").replace(typo.contributor, typo.fixedName);
+    var _where$split = where.split("/"),
+        _where$split2 = slicedToArray(_where$split, 2),
+        book = _where$split2[0],
+        chapter = _where$split2[1];
+
+    var file = path.join(novelFiles(novelID).contentFolder, book, "".concat(chapter, ".md"));
+    var data = fs$2.readFileSync(file, "utf-8").replace(contributor, fixedName);
     fs$2.writeFileSync(file, data, "utf-8");
-    console.log(source.bold.green("  > ".concat(typo.contributor, " --> ").concat(typo.fixedName, " (").concat(typo.where, ")")));
+    console.log(source.bold.green("  > ".concat(contributor, " --> ").concat(fixedName, " (").concat(where, ")")));
   });
 }
 
@@ -17816,19 +17862,20 @@ function _build() {
       while (1) {
         switch (_context3.prev = _context3.next) {
           case 0:
-            console.log("Starting ProgNovel");
+            console.log("");
+            console.log("🚀 Starting ProgNovel...");
             settings = generateSiteSettings();
-            _context3.next = 4;
+            _context3.next = 5;
             return generateMetadata(settings.novels);
 
-          case 4:
+          case 5:
             novelsMetadata = _context3.sent;
             cleanMetadata = novelsMetadata.filter(function (novel) {
               return JSON.stringify(novel) !== "{}";
             });
             appendNovelsMetadata(cleanMetadata);
 
-          case 7:
+          case 8:
           case "end":
             return _context3.stop();
         }

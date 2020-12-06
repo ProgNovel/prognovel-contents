@@ -15,6 +15,5 @@ export declare function parseMarkdown(novel: string, files: string[]): {
     unregisteredContributors: any[];
     unchangedFiles: number;
     cache: {} | Cache;
-    cacheFile: string;
 };
 export {};

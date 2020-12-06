@@ -12,7 +12,8 @@ async function init(opts?: any) {
 async function addNovel(opts?: any) {}
 
 async function build(opts?: any) {
-  console.log("Starting ProgNovel");
+  console.log("");
+  console.log("🚀 Starting ProgNovel...");
   const settings = generateSiteSettings();
   const novelsMetadata = await generateMetadata(settings.novels);
   const cleanMetadata = novelsMetadata.filter((novel) => JSON.stringify(novel) !== "{}");
