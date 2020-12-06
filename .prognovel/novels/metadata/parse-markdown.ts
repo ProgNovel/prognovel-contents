@@ -47,14 +47,17 @@ export function parseMarkdown(novel: string, files: string[]) {
       for (const contribution of contributionRoles.get()) {
         const workers = meta.attributes[contribution];
         if (workers && revSharePerChapter.get()[contribution]) {
-          workers.split(",").forEach((contributor: string) => {
-            contributor = contributor.trim();
-            if (Object.keys(contributors.get(novel)).includes(contributor)) {
-              share[contributor] = (share[contributor] || 0) + revSharePerChapter.get()[contribution];
-            } else {
-              unregistered.push({ contributor, where: `${book}/chapter-${index}` });
-            }
-          });
+          workers
+            .split(",")
+            .filter((name: string) => !!name)
+            .forEach((contributor: string) => {
+              contributor = contributor.trim();
+              if (Object.keys(contributors.get(novel)).includes(contributor)) {
+                share[contributor] = (share[contributor] || 0) + revSharePerChapter.get()[contribution];
+              } else {
+                unregistered.push({ contributor, where: `${book}/chapter-${index}` });
+              }
+            });
         }
       }
 

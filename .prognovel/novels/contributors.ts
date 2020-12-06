@@ -55,7 +55,7 @@ export function warnUnregisteredContributors(
   const l = unregisteredContributors.length;
   const m = Array(margin).fill(" ").join("");
   let i = 0;
-  const typos = unregisteredContributors.length ? more() : [];
+  const typos = unregisteredContributors.length ? showTypoError() : [];
   if (!l) return;
   console.log(
     m +
@@ -93,7 +93,7 @@ export function warnUnregisteredContributors(
   );
   console.log("");
 
-  function more() {
+  function showTypoError() {
     const c = chalk.bold.grey;
     let i = 0;
     let prefix = "  // ";
@@ -112,19 +112,20 @@ export function warnUnregisteredContributors(
       .filter((contributor: typoUnregisteredContributor) => contributor.rating > 0.2)
       .sort((a: typoUnregisteredContributor, b: typoUnregisteredContributor) => b.rating - a.rating);
 
-    processedUnregisteredContributors.forEach((obj: typoUnregisteredContributor) => {
-      text[i++] = c(
-        prefix +
-          `${obj.contributor} -> ${obj.fixedName} (${obj.where}) ...${Math.floor(obj.rating * 100)}% likely`,
-      );
-    });
+    processedUnregisteredContributors.forEach(
+      ({ contributor, fixedName, where, rating }: typoUnregisteredContributor) => {
+        text[i++] = c(
+          prefix + `${contributor} -> ${fixedName} (${where}) ...${Math.floor(rating * 100)}% likely`,
+        );
+      },
+    );
 
     text[i++] = "";
     text[i++] =
       "  " +
       chalk.bgGreen.whiteBright(" TIPS ") +
-      ` Use command ${chalk.bold.green("prognovel fix-typo")} if you're sure`;
-    text[i++] = "         all of typos above are true.";
+      ` Use command ${chalk.bold.green("prognovel fix-typo")} to fix above typos`;
+    text[i++] = "         in batches (make sure suggestions above correct first).";
 
     const cacheFolder = join(process.cwd(), "/.cache");
     if (!existsSync(cacheFolder)) mkdirSync(cacheFolder);

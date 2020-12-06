@@ -17121,8 +17121,8 @@ function warnUnregisteredContributors(unregisteredContributors) {
       text[i++] = c(prefix + "".concat(obj.contributor, " -> ").concat(obj.fixedName, " (").concat(obj.where, ") ...").concat(Math.floor(obj.rating * 100), "% likely"));
     });
     text[i++] = "";
-    text[i++] = "  " + source.bgGreen.whiteBright(" TIPS ") + " Use command ".concat(source.bold.green("prognovel fix-typo"), " if you're sure");
-    text[i++] = "         all of typos above are true.";
+    text[i++] = "  " + source.bgGreen.whiteBright(" TIPS ") + " Use command ".concat(source.bold.green("prognovel fix-typo"), " to fix above typos");
+    text[i++] = "         in batches (make sure suggestions above correct first).";
     var cacheFolder = path.join(process.cwd(), "/.cache");
     if (!fs$2.existsSync(cacheFolder)) fs$2.mkdirSync(cacheFolder);
     var typoCache;
