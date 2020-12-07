@@ -2700,12 +2700,16 @@ var source = chalk;
 function errorImageNotFound(novel, imageType) {
   failBuild(["".concat(imageType, " image not found in folder ").concat(novel, "."), "make sure image file with name ".concat(source.underline(imageType), " exists, with extensions one of the following:"), " - " + imageExt.join(", ")]);
 }
+function errorSiteSettingsNotFound() {
+  failBuild(["site-settings.yaml not found in your project's root folder.", "", "Make sure you're in the right folder or use command ".concat(source.underline("prognovel init"), " to create a new one in this folder.")]);
+}
 function failBuild(reason) {
-  var color = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : source.red;
+  var title = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "";
+  var color = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : source.red;
   var prefix = "  ";
   console.log("");
   console.log("");
-  console.log(prefix + source.bgRed.white(" ERROR "));
+  console.log(prefix + source.bgRed.white(" ERROR ") + " " + title);
   console.log("");
 
   if (Array.isArray(reason)) {
@@ -6668,13 +6672,23 @@ var jsYaml = {
 var F___CODE_proyek_prognovelCli_node_modules_jsYaml = jsYaml;
 
 function checkValidBookFolder(novel) {
-  var settings = F___CODE_proyek_prognovelCli_node_modules_jsYaml.safeLoad(fs__default['default'].readFileSync(siteFiles().settings));
+  var errors = [];
+  var errorIndex = 0;
+  var settings;
+
+  try {
+    settings = F___CODE_proyek_prognovelCli_node_modules_jsYaml.safeLoad(fs__default['default'].readFileSync(siteFiles().settings));
+  } catch (_) {
+    errorSiteSettingsNotFound();
+  }
+
   var isInfoExist = fs__default['default'].existsSync(novelFiles(novel).info);
   var isSynopsisExist = fs__default['default'].existsSync(novelFiles(novel).synopsis);
   var isExistInSettings = settings.novels.includes(novel);
-  if (!isInfoExist) console.error(source.bold.red("info.yml doesn't exist in folder ".concat(novel)));
-  if (!isSynopsisExist) console.error(source.bold.red("synopsis.md doesn't exist in folder ".concat(novel)));
-  if (!isExistInSettings) console.error(source.bold.yellow("novel ".concat(novel, " is not defined in site-settings.yaml (check in root folder)")));
+  if (!isInfoExist) errors[errorIndex++] = "".concat(errorIndex, ") info.yaml doesn't exist in folder ").concat(novel);
+  if (!isSynopsisExist) errors[errorIndex++] = "".concat(errorIndex, ") synopsis.md doesn't exist in folder ").concat(novel);
+  if (!isExistInSettings) errors[errorIndex++] = "".concat(errorIndex, ") novel ").concat(novel, " is not defined in site-settings.yaml (check in root folder)");
+  if (errors.length) failBuild(errors, "".concat(novel, " error..."));
   return isInfoExist && isSynopsisExist && isExistInSettings;
 }
 function ensurePublishDirectoryExist(novel) {
@@ -6689,8 +6703,8 @@ function ensurePublishDirectoryExist(novel) {
   }
 }
 
-var sizes = BOOK_COVER.sizes;
-var formats = BOOK_COVER.formats;
+var sizes = BOOK_COVER.sizes,
+    formats = BOOK_COVER.formats;
 function generateBookCover(_x) {
   return _generateBookCover.apply(this, arguments);
 }
@@ -17638,7 +17652,14 @@ function _compileChapter() {
 }
 
 function generateSiteSettings() {
-  var settings = F___CODE_proyek_prognovelCli_node_modules_jsYaml.safeLoad(fs__default['default'].readFileSync(siteFiles().settings));
+  var settings;
+
+  try {
+    settings = F___CODE_proyek_prognovelCli_node_modules_jsYaml.safeLoad(fs__default['default'].readFileSync(siteFiles().settings));
+  } catch (_) {
+    errorSiteSettingsNotFound();
+  }
+
   if (!settings.cors) settings.cors = "*";
   settings.contribution_roles = settings["rev_share_contribution_per_chapter"] ? Object.keys(settings["rev_share_contribution_per_chapter"]) : [];
   ensurePublishDirectoryExist();
@@ -17892,4 +17913,3 @@ exports.check = check;
 exports.fixTypo = fixTypo;
 exports.host = host;
 exports.init = init;
-//# sourceMappingURL=main.js.map

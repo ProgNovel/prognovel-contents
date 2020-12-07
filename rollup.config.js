@@ -18,7 +18,7 @@ export default {
     file: ".prognovel/.dist/main.js",
     name: "prognovel-contents",
     format: "cjs",
-    sourcemap: true,
+    sourcemap: false,
   },
   // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
   external: ["sharp", "dessert-yaml-js", "wasm-frontmatter"],
@@ -34,7 +34,7 @@ export default {
     wasm(),
     typescript(),
     commonjs(),
-    sourcemap(),
+    // sourcemap(),
     // https://github.com/rollup/rollup-plugin-node-resolve#usage
     resolve({
       preferBuiltins: true,

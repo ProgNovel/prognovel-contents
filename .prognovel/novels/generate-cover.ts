@@ -5,9 +5,7 @@ import { publishFiles, novelFiles } from "../_files";
 import { BOOK_COVER } from "../prognovel.config";
 import { ensurePublishDirectoryExist } from "../utils/check-valid-book-folder";
 
-const sizes = BOOK_COVER.sizes;
-const formats = BOOK_COVER.formats;
-const inputType = "jpg";
+const { sizes, formats } = BOOK_COVER;
 
 export async function generateBookCover(novel: string, placeholderRatio = 1) {
   const folder = publishFiles();

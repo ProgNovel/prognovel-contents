@@ -2,20 +2,30 @@ import fs from "fs";
 import chalk from "chalk";
 import yaml from "js-yaml";
 import { publishFiles, siteFiles, novelFiles } from "../_files";
+import { errorSiteSettingsNotFound, failBuild } from "./build/fail";
 
 export function checkValidBookFolder(novel: string) {
-  const settings = yaml.safeLoad(fs.readFileSync(siteFiles().settings));
+  let errors = [];
+  let errorIndex = 0;
+  let settings;
+  try {
+    settings = yaml.safeLoad(fs.readFileSync(siteFiles().settings));
+  } catch (_) {
+    errorSiteSettingsNotFound();
+  }
 
   const isInfoExist = fs.existsSync(novelFiles(novel).info);
   const isSynopsisExist = fs.existsSync(novelFiles(novel).synopsis);
   const isExistInSettings = settings.novels.includes(novel);
 
-  if (!isInfoExist) console.error(chalk.bold.red(`info.yml doesn\'t exist in folder ${novel}`));
-  if (!isSynopsisExist) console.error(chalk.bold.red(`synopsis.md doesn\'t exist in folder ${novel}`));
+  if (!isInfoExist) errors[errorIndex++] = `${errorIndex}) info.yaml doesn\'t exist in folder ${novel}`;
+  if (!isSynopsisExist) errors[errorIndex++] = `${errorIndex}) synopsis.md doesn\'t exist in folder ${novel}`;
   if (!isExistInSettings)
-    console.error(
-      chalk.bold.yellow(`novel ${novel} is not defined in site-settings.yaml (check in root folder)`),
-    );
+    errors[
+      errorIndex++
+    ] = `${errorIndex}) novel ${novel} is not defined in site-settings.yaml (check in root folder)`;
+
+  if (errors.length) failBuild(errors, `${novel} error...`);
 
   return isInfoExist && isSynopsisExist && isExistInSettings;
 }

@@ -1,4 +1,4 @@
-import chalk from "chalk";
+import chalk, { ChalkFunction } from "chalk";
 import { imageExt, NovelImageType } from "../../_files";
 
 export function errorImageNotFound(novel: string, imageType: NovelImageType) {
@@ -11,11 +11,25 @@ export function errorImageNotFound(novel: string, imageType: NovelImageType) {
   ]);
 }
 
-export function failBuild(reason: string | string[], color = chalk.red) {
+export function errorSiteSettingsNotFound(): void {
+  failBuild([
+    "site-settings.yaml not found in your project's root folder.",
+    "",
+    `Make sure you're in the right folder or use command ${chalk.underline(
+      "prognovel init",
+    )} to create a new one in this folder.`,
+  ]);
+}
+
+export function failBuild(
+  reason: string | string[],
+  title: string = "",
+  color: ChalkFunction = chalk.red,
+): void {
   const prefix = "  ";
   console.log("");
   console.log("");
-  console.log(prefix + chalk.bgRed.white(" ERROR "));
+  console.log(prefix + chalk.bgRed.white(" ERROR ") + " " + title);
   console.log("");
   if (Array.isArray(reason)) {
     reason.forEach((text) => {
