@@ -7,13 +7,14 @@ interface Cache {
         unregistered: string[];
     };
 }
-export declare function parseMarkdown(novel: string, files: string[]): {
-    content: {};
-    chapters: any[];
-    chapterTitles: {};
-    contributions: {};
-    unregisteredContributors: any[];
+export declare function parseMarkdown(novel: string, files: string[]): parsingMarkdownResult;
+interface parsingMarkdownResult {
+    content: any;
+    chapters: string[];
+    chapterTitles: object;
+    contributions: object;
+    unregisteredContributors: string[];
     unchangedFiles: number;
-    cache: {} | Cache;
-};
+    cache: Cache;
+}
 export {};

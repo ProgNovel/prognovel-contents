@@ -1,4 +1,5 @@
 import fs from "fs";
+import path from "path";
 import * as markdown from "markdown-wasm";
 import fm from "front-matter";
 import { contributionRoles, revSharePerChapter, contributors } from "../contributors";
@@ -14,28 +15,31 @@ interface Cache {
   };
 }
 
-export function parseMarkdown(novel: string, files: string[]) {
+type ChapterTitles = object;
+
+export function parseMarkdown(novel: string, files: string[]): parsingMarkdownResult {
   let content = {};
   let chapters = [];
-  let chapterTitles = {};
+  let chapterTitles: ChapterTitles = {};
   let contributions = {};
   let unregisteredContributors = [];
   let unchangedFiles = 0;
-  let cache: Cache | {};
+  let cache: Cache;
   let folder = cacheFiles();
   if (!fs.existsSync(folder.folder)) fs.mkdirSync(folder.folder);
   try {
     cache = JSON.parse(fs.readFileSync(folder.novelCompileCache(novel), "utf-8")) || {};
   } catch (err) {
+    // @ts-ignore
     cache = {};
   }
   files.forEach((file) => {
     let meta;
     let lastModified = fs.statSync(file).mtime.getTime();
     const index = file.split("chapter-")[1].slice(0, -3);
-    const book = file.split("contents/")[1].split("/chapter")[0];
+    const book = file.split("contents\\")[1].split("\\chapter")[0];
     const name = `${book}/chapter-${index}`;
-    const cacheLastModified = cache[file]?.lastModified || 0;
+    const cacheLastModified = cache?.[file]?.lastModified || 0;
     let share = {};
     let unregistered = [];
     if (lastModified > cacheLastModified) {
@@ -74,15 +78,18 @@ export function parseMarkdown(novel: string, files: string[]) {
       ++unchangedFiles;
       // contributors.bulkAddContributors(novel, cache[file]["contributors"]);
     }
+
+    // wrapping up
     unregisteredContributors = [...unregisteredContributors, ...unregistered];
     unregistered = [];
-    if (!chapterTitles[book]) chapterTitles[book] = {};
+
+    if (!chapterTitles?.[book]) chapterTitles[book] = {};
     chapterTitles[book]["chapter-" + index] = (meta.attributes as any).title || "chapter-" + index;
     chapters.push(book + "/chapter-" + index);
-    // console.log(share);
-    Object.keys(contributors.get(novel)).forEach((contributor) => {
+
+    for (const contributor in contributors.get(novel)) {
       contributions[contributor] = (contributions[contributor] || 0) + (share[contributor] || 0);
-    });
+    }
   });
 
   return {
@@ -94,4 +101,14 @@ export function parseMarkdown(novel: string, files: string[]) {
     unchangedFiles,
     cache,
   };
+}
+
+interface parsingMarkdownResult {
+  content: any;
+  chapters: string[];
+  chapterTitles: object;
+  contributions: object;
+  unregisteredContributors: string[];
+  unchangedFiles: number;
+  cache: Cache;
 }

@@ -21,15 +21,19 @@ export function errorSiteSettingsNotFound(): void {
   ]);
 }
 
-export function failBuild(
-  reason: string | string[],
-  title: string = "",
-  color: ChalkFunction = chalk.red,
-): void {
+interface failBuildOptions {
+  label?: string;
+  color?: ChalkFunction;
+}
+
+export function failBuild(reason: string | string[], title: string = "", opts?: failBuildOptions): void {
   const prefix = "  ";
+  const color = opts?.color ?? chalk.red;
+  const label = opts?.label ?? "error";
+
   console.log("");
   console.log("");
-  console.log(prefix + chalk.bgRed.white(" ERROR ") + " " + title);
+  console.log(prefix + chalk.bgRed.white(` ${label.toUpperCase} `) + " " + title);
   console.log("");
   if (Array.isArray(reason)) {
     reason.forEach((text) => {

@@ -1,6 +1,6 @@
 ---
 title: Hidden Power in Yashura Family
-author: radhy
+author: Radhy
 ---
 
 <authors-note id="Radhy" type="danger">

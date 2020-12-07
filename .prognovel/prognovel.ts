@@ -4,6 +4,7 @@ import { generateSiteSettings } from "./site/generate-site-settings";
 import { host } from "./hosting";
 import { check } from "./check";
 import { fixTypo } from "./fix-typo";
+import { failBuild } from "./utils/build";
 
 async function init(opts?: any) {
   console.log("Initialize on folder:", process.cwd());
@@ -13,11 +14,15 @@ async function addNovel(opts?: any) {}
 
 async function build(opts?: any) {
   console.log("");
-  console.log("🚀 Starting ProgNovel...");
-  const settings = generateSiteSettings();
-  const novelsMetadata = await generateMetadata(settings.novels);
-  const cleanMetadata = novelsMetadata.filter((novel) => JSON.stringify(novel) !== "{}");
-  appendNovelsMetadata(cleanMetadata);
+  console.log(" 🚀 Starting ProgNovel...");
+  try {
+    const settings = generateSiteSettings();
+    const novelsMetadata = await generateMetadata(settings.novels);
+    const cleanMetadata = novelsMetadata.filter((novel) => JSON.stringify(novel) !== "{}");
+    appendNovelsMetadata(cleanMetadata);
+  } catch (err) {
+    failBuild([err], "unexpected error!", { label: "crash" });
+  }
 }
 
 export { init, build, addNovel, host, check, fixTypo };

@@ -1,1 +1,1 @@
-export { errorImageNotFound } from "./fail";
+export { errorImageNotFound, failBuild } from "./fail";

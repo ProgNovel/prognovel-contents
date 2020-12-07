@@ -57,7 +57,7 @@ async function compileChapter(folder: string, images, novel: string) {
     const t0 = performance.now();
 
     benchmark.glob.start = performance.now();
-    const files = await globby(`novels/${novel}/contents/**/*.md`);
+    const files = await glob(`novels/${novel}/contents/**/*.md`, { filesOnly: true });
     benchmark.glob.end = performance.now();
 
     benchmark.markdown.start = performance.now();

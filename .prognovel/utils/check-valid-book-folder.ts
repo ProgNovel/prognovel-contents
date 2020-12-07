@@ -1,5 +1,4 @@
 import fs from "fs";
-import chalk from "chalk";
 import yaml from "js-yaml";
 import { publishFiles, siteFiles, novelFiles } from "../_files";
 import { errorSiteSettingsNotFound, failBuild } from "./build/fail";

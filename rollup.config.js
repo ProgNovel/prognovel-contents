@@ -6,7 +6,7 @@ import babel from "rollup-plugin-babel";
 import { wasm } from "@rollup/plugin-wasm";
 // import regenerator from "rollup-plugin-regenerator";
 // import builtins from "rollup-plugin-node-builtins";
-import sourcemap from "rollup-plugin-sourcemaps";
+// import sourcemap from "rollup-plugin-sourcemaps";
 
 const pkg = require("./package.json");
 
@@ -21,14 +21,14 @@ export default {
     sourcemap: false,
   },
   // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
-  external: ["sharp", "dessert-yaml-js", "wasm-frontmatter"],
+  external: ["sharp"],
   cache: true,
   watch: {
     include: ".prognovel/**",
   },
   plugins: [
     // builtins(),
-    // regenerator(),
+    // regenerator(),d
     json(),
     // typescript({ useTsconfigDeclarationDir: true }),
     wasm(),

@@ -138,7 +138,7 @@ export function warnUnregisteredContributors(
 
     writeFileSync(cacheFiles().typoCache, JSON.stringify(typoCache));
 
-    return text;
+    return processedUnregisteredContributors.length ? text : [];
   }
 }
 
