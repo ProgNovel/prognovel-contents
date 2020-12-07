@@ -2,22 +2,33 @@ import fs from "fs";
 import path from "path";
 import * as markdown from "markdown-wasm";
 import fm from "front-matter";
+import { createHashFromFile } from "../../utils/hash-file";
 import { contributionRoles, revSharePerChapter, contributors } from "../contributors";
 import { cacheFiles } from "../../_files";
+import { performance } from "perf_hooks";
 
-interface Cache {
+interface Options {
+  hash?: boolean;
+}
+
+type Cache = {
   file: {
     body: string;
     data: any;
     lastModified: DOMHighResTimeStamp;
     contributions: any;
     unregistered: string[];
+    hash: string;
   };
-}
+};
 
 type ChapterTitles = object;
 
-export function parseMarkdown(novel: string, files: string[]): parsingMarkdownResult {
+export async function parseMarkdown(
+  novel: string,
+  files: string[],
+  opts?: Options,
+): Promise<parsingMarkdownResult> {
   let content = {};
   let chapters = [];
   let chapterTitles: ChapterTitles = {};
@@ -33,7 +44,8 @@ export function parseMarkdown(novel: string, files: string[]): parsingMarkdownRe
     // @ts-ignore
     cache = {};
   }
-  files.forEach((file) => {
+
+  for await (const file of files) {
     let meta;
     let lastModified = fs.statSync(file).mtime.getTime();
     const index = file.split("chapter-")[1].slice(0, -3);
@@ -42,8 +54,13 @@ export function parseMarkdown(novel: string, files: string[]): parsingMarkdownRe
     const cacheLastModified = cache?.[file]?.lastModified || 0;
     let share = {};
     let unregistered = [];
-    if (lastModified > cacheLastModified) {
-      cache[file] = {};
+    let hash;
+    if (typeof cache[file] === "undefined") cache[file] = {};
+    if (opts?.hash) hash = await createHashFromFile(file);
+    const hasChanged = opts?.hash ? hash !== cache[file].hash : lastModified > cacheLastModified;
+
+    if (hasChanged) {
+      if (opts?.hash) cache[file].hash = hash;
       meta = fm(fs.readFileSync(file, "utf-8"));
       content[name] = markdown.parse(meta.body);
 
@@ -90,7 +107,7 @@ export function parseMarkdown(novel: string, files: string[]): parsingMarkdownRe
     for (const contributor in contributors.get(novel)) {
       contributions[contributor] = (contributions[contributor] || 0) + (share[contributor] || 0);
     }
-  });
+  }
 
   return {
     content,

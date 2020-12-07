@@ -69,7 +69,7 @@ async function compileChapter(folder: string, images, novel: string) {
       unregisteredContributors,
       unchangedFiles,
       cache,
-    } = parseMarkdown(novel, files);
+    } = await parseMarkdown(novel, files, { hash: true });
     benchmark.markdown.end = performance.now();
     // console.log(cache);
 
