@@ -1,16 +1,18 @@
+import type { UnregisterContributor } from "../types";
 interface Options {
     hash?: boolean;
 }
-declare type Cache = {
-    file: {
-        body: string;
-        data: any;
-        lastModified: DOMHighResTimeStamp;
-        contributions: any;
-        unregistered: string[];
-        hash: string;
-    };
-};
+interface Cache {
+    [novel: string]: CacheValue;
+}
+interface CacheValue {
+    body: string;
+    data: any;
+    lastModified: DOMHighResTimeStamp;
+    contributions: any;
+    unregistered: UnregisterContributor[];
+    hash?: string;
+}
 export declare function parseMarkdown(novel: string, files: string[], opts?: Options): Promise<parsingMarkdownResult>;
 interface parsingMarkdownResult {
     content: any;

@@ -2,6 +2,7 @@ import chalk from "chalk";
 import { existsSync, mkdirSync, writeFileSync, readFileSync } from "fs";
 import { findBestMatch } from "string-similarity/src/index";
 import { cacheFiles } from "../_files";
+import type { UnregisterContributor, TypoUnregisteredContributor } from "../novels/types";
 
 export const contributors = {
   pool: new Map(),
@@ -100,7 +101,7 @@ export function warnUnregisteredContributors(
     text[i++] = c(prefix + chalk.underline("possible typos:"));
     text[i++] = c(prefix);
     const processedUnregisteredContributors = unregisteredContributors
-      .map((obj: unregisterContributor) => {
+      .map((obj: UnregisterContributor) => {
         let typo = findBestMatch(obj.contributor, Object.keys(contributors.get(novel)));
         return {
           ...obj,
@@ -108,11 +109,11 @@ export function warnUnregisteredContributors(
           fixedName: typo.bestMatch.target,
         };
       })
-      .filter((contributor: typoUnregisteredContributor) => contributor.rating > 0.2)
-      .sort((a: typoUnregisteredContributor, b: typoUnregisteredContributor) => b.rating - a.rating);
+      .filter((contributor: TypoUnregisteredContributor) => contributor.rating > 0.2)
+      .sort((a: TypoUnregisteredContributor, b: TypoUnregisteredContributor) => b.rating - a.rating);
 
     processedUnregisteredContributors.forEach(
-      ({ contributor, fixedName, where, rating }: typoUnregisteredContributor) => {
+      ({ contributor, fixedName, where, rating }: TypoUnregisteredContributor) => {
         text[i++] = c(
           prefix + `${contributor} -> ${fixedName} (${where}) ...${Math.floor(rating * 100)}% likely`,
         );
@@ -140,16 +141,4 @@ export function warnUnregisteredContributors(
 
     return processedUnregisteredContributors.length ? text : [];
   }
-}
-
-export interface unregisterContributor {
-  contributor: string;
-  where: string;
-}
-
-export interface typoUnregisteredContributor {
-  contributor: string;
-  where: string;
-  rating: number;
-  fixedName: string;
 }

@@ -17703,6 +17703,26 @@ function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symb
 function _unsupportedIterableToArray$1(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray$1(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray$1(o, minLen); }
 
 function _arrayLikeToArray$1(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function ownKeys$1(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread$1(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys$1(Object(source), true).forEach(function (key) { defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys$1(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+var emptyCache = {
+  body: "",
+  data: {},
+  lastModified: 0,
+  contributions: {},
+  unregistered: []
+};
+var emptyFrontMatter = {
+  attributes: _objectSpread$1({
+    title: ""
+  }, Object.keys(F___CODE_proyek_prognovelCli_node_modules_jsYaml.safeLoad(fs__default['default'].readFileSync(siteFiles().settings, "utf-8")).rev_share_contribution_per_chapter).reduce(function (prev, cur) {
+    prev[cur] = {};
+    return prev;
+  }, {})),
+  body: ""
+};
 function parseMarkdown(_x, _x2, _x3) {
   return _parseMarkdown.apply(this, arguments);
 }
@@ -17737,23 +17757,23 @@ function _parseMarkdown() {
             _loop = /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee() {
               var _cache, _cache$file;
 
-              var file, meta, lastModified, index, book, name, cacheLastModified, share, unregistered, hash, hasChanged, _iterator2, _step2, _loop2, contributor;
+              var file, frontmatter, lastModified, index, book, name, cacheLastModified, calculatedRevenueShare, unregistered, hash, hasChanged, _iterator2, _step2, _loop2, contributor;
 
               return F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee$(_context) {
                 while (1) {
                   switch (_context.prev = _context.next) {
                     case 0:
                       file = _value;
-                      meta = void 0;
+                      frontmatter = void 0;
                       lastModified = fs__default['default'].statSync(file).mtime.getTime();
                       index = file.split("chapter-")[1].slice(0, -3);
                       book = file.split("contents\\")[1].split("\\chapter")[0];
                       name = "".concat(book, "/chapter-").concat(index);
                       cacheLastModified = ((_cache = cache) === null || _cache === void 0 ? void 0 : (_cache$file = _cache[file]) === null || _cache$file === void 0 ? void 0 : _cache$file.lastModified) || 0;
-                      share = {};
+                      calculatedRevenueShare = {};
                       unregistered = [];
                       hash = void 0;
-                      if (typeof cache[file] === "undefined") cache[file] = {};
+                      if (typeof cache[file] === "undefined") cache[file] = Object.create(emptyCache);
 
                       if (!(opts === null || opts === void 0 ? void 0 : opts.hash)) {
                         _context.next = 15;
@@ -17771,23 +17791,23 @@ function _parseMarkdown() {
 
                       if (hasChanged) {
                         if (opts === null || opts === void 0 ? void 0 : opts.hash) cache[file].hash = hash;
-                        meta = frontMatter(fs__default['default'].readFileSync(file, "utf-8"));
-                        content[name] = ie(meta.body);
+                        frontmatter = frontMatter(fs__default['default'].readFileSync(file, "utf-8"));
+                        content[name] = ie(frontmatter.body);
                         _iterator2 = _createForOfIteratorHelper(contributionRoles.get());
 
                         try {
                           _loop2 = function _loop2() {
                             var contribution = _step2.value;
-                            var workers = meta.attributes[contribution];
+                            var workers = frontmatter.attributes[contribution];
 
                             if (workers && revSharePerChapter.get()[contribution]) {
-                              workers.split(",").filter(function (name) {
+                              workers.split(",").map(function (name) {
+                                return name.trim();
+                              }).filter(function (name) {
                                 return !!name;
                               }).forEach(function (contributor) {
-                                contributor = contributor.trim();
-
                                 if (Object.keys(contributors.get(novel)).includes(contributor)) {
-                                  share[contributor] = (share[contributor] || 0) + revSharePerChapter.get()[contribution];
+                                  calculatedRevenueShare[contributor] = (calculatedRevenueShare[contributor] || 0) + revSharePerChapter.get()[contribution];
                                 } else {
                                   unregistered.push({
                                     contributor: contributor,
@@ -17807,17 +17827,18 @@ function _parseMarkdown() {
                           _iterator2.f();
                         }
 
-                        cache[file].contributions = share;
+                        cache[file].contributions = calculatedRevenueShare;
                         cache[file].lastModified = lastModified;
-                        cache[file].data = meta.attributes;
+                        cache[file].data = frontmatter.attributes;
                         cache[file].body = content[name];
                         cache[file].unregistered = unregistered;
                       } else {
                         // console.log("Get from cache for", file);
-                        share = cache[file].contributions;
+                        calculatedRevenueShare = cache[file].contributions;
                         unregistered = cache[file].unregistered;
                         content[name] = cache[file].body;
-                        (meta ? meta : meta = {}).attributes = cache[file].data;
+                        if (typeof frontmatter === "undefined") frontmatter = Object.create(emptyFrontMatter);
+                        frontmatter.attributes = cache[file].data;
                         ++unchangedFiles; // contributors.bulkAddContributors(novel, cache[file]["contributors"]);
                       } // wrapping up
 
@@ -17825,11 +17846,11 @@ function _parseMarkdown() {
                       unregisteredContributors = [].concat(toConsumableArray(unregisteredContributors), toConsumableArray(unregistered));
                       unregistered = [];
                       if (!(chapterTitles === null || chapterTitles === void 0 ? void 0 : chapterTitles[book])) chapterTitles[book] = {};
-                      chapterTitles[book]["chapter-" + index] = meta.attributes.title || "chapter-" + index;
+                      chapterTitles[book]["chapter-" + index] = frontmatter.attributes.title || "chapter-" + index;
                       chapters.push(book + "/chapter-" + index);
 
                       for (contributor in contributors.get(novel)) {
-                        contributions[contributor] = (contributions[contributor] || 0) + (share[contributor] || 0);
+                        contributions[contributor] = (contributions[contributor] || 0) + (calculatedRevenueShare[contributor] || 0);
                       }
 
                     case 23:
@@ -18075,9 +18096,9 @@ function outputMessage(_ref) {
   warnUnregisteredContributors(unregisteredContributors, log.padding + log.marginLeft, id);
 }
 
-function ownKeys$1(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+function ownKeys$2(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread$1(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys$1(Object(source), true).forEach(function (key) { defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys$1(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread$2(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys$2(Object(source), true).forEach(function (key) { defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys$2(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 function generateMetadata(_x) {
   return _generateMetadata.apply(this, arguments);
 }
@@ -18234,7 +18255,7 @@ function _compileChapter() {
                         }
 
                         synopsis = marked_1(fs__default['default'].readFileSync(novelFiles(novel).synopsis, "utf8"));
-                        meta = _objectSpread$1(_objectSpread$1({
+                        meta = _objectSpread$2(_objectSpread$2({
                           id: novel
                         }, info), {}, {
                           synopsis: synopsis,

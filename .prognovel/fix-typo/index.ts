@@ -2,7 +2,7 @@ import chalk from "chalk";
 import { cacheFiles, novelFiles } from "../_files";
 import { existsSync, readFileSync, writeFileSync } from "fs";
 import { join } from "path";
-import type { typoUnregisteredContributor } from "../novels/contributors";
+import type { TypoUnregisteredContributor } from "../novels/types";
 
 export async function fixTypo(opts?: any) {
   if (!existsSync(cacheFiles().typoCache)) {
@@ -38,10 +38,10 @@ export async function fixTypo(opts?: any) {
   writeFileSync(cacheFiles().typoCache, "{}", "utf-8");
 }
 
-function replaceTypo(novelID: string, typos: typoUnregisteredContributor[]) {
+function replaceTypo(novelID: string, typos: TypoUnregisteredContributor[]) {
   console.log("");
   console.log(`(${novelID})`);
-  typos.forEach(({ where, contributor, fixedName, rating }: typoUnregisteredContributor) => {
+  typos.forEach(({ where, contributor, fixedName, rating }: TypoUnregisteredContributor) => {
     const [book, chapter] = where.split("/");
     const file = join(novelFiles(novelID).contentFolder, book, `${chapter}.md`);
 
