@@ -2705,16 +2705,17 @@ function errorSiteSettingsNotFound() {
   failBuild(["site-settings.yaml not found in your project's root folder.", "", "Make sure you're in the right folder or use command ".concat(source.underline("prognovel init"), " to create a new one in this folder.")]);
 }
 function failBuild(reason) {
-  var _opts$color, _opts$label;
+  var _opts$color, _opts$label, _opts$labelColor;
 
   var title = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "";
   var opts = arguments.length > 2 ? arguments[2] : undefined;
   var prefix = "  ";
   var color = (_opts$color = opts === null || opts === void 0 ? void 0 : opts.color) !== null && _opts$color !== void 0 ? _opts$color : source.red;
   var label = (_opts$label = opts === null || opts === void 0 ? void 0 : opts.label) !== null && _opts$label !== void 0 ? _opts$label : "error";
+  var labelColor = (_opts$labelColor = opts === null || opts === void 0 ? void 0 : opts.labelColor) !== null && _opts$labelColor !== void 0 ? _opts$labelColor : source.bgRed.white;
   console.log("");
   console.log("");
-  console.log(prefix + source.bgRed.white(" ".concat(label.toUpperCase, " ")) + " " + title);
+  console.log(prefix + labelColor(" ".concat(label.toUpperCase(), " ")) + " " + title);
   console.log("");
 
   if (Array.isArray(reason)) {
@@ -6693,7 +6694,9 @@ function checkValidBookFolder(novel) {
   if (!isInfoExist) errors[errorIndex++] = "".concat(errorIndex, ") info.yaml doesn't exist in folder ").concat(novel);
   if (!isSynopsisExist) errors[errorIndex++] = "".concat(errorIndex, ") synopsis.md doesn't exist in folder ").concat(novel);
   if (!isExistInSettings) errors[errorIndex++] = "".concat(errorIndex, ") novel ").concat(novel, " is not defined in site-settings.yaml (check in root folder)");
-  if (errors.length) failBuild(errors, "".concat(novel, " error..."));
+  if (errors.length) failBuild(errors, "".concat(novel, " error..."), {
+    label: "crash"
+  });
   return isInfoExist && isSynopsisExist && isExistInSettings;
 }
 function ensurePublishDirectoryExist(novel) {

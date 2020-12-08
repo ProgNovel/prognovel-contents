@@ -5,6 +5,7 @@ export declare function errorSiteSettingsNotFound(): void;
 interface failBuildOptions {
     label?: string;
     color?: ChalkFunction;
+    labelColor?: ChalkFunction;
 }
 export declare function failBuild(reason: string | string[], title?: string, opts?: failBuildOptions): void;
 export {};

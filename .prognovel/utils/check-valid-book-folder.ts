@@ -24,7 +24,7 @@ export function checkValidBookFolder(novel: string) {
       errorIndex++
     ] = `${errorIndex}) novel ${novel} is not defined in site-settings.yaml (check in root folder)`;
 
-  if (errors.length) failBuild(errors, `${novel} error...`);
+  if (errors.length) failBuild(errors, `${novel} error...`, { label: "crash" });
 
   return isInfoExist && isSynopsisExist && isExistInSettings;
 }

@@ -24,16 +24,18 @@ export function errorSiteSettingsNotFound(): void {
 interface failBuildOptions {
   label?: string;
   color?: ChalkFunction;
+  labelColor?: ChalkFunction;
 }
 
 export function failBuild(reason: string | string[], title: string = "", opts?: failBuildOptions): void {
   const prefix = "  ";
   const color = opts?.color ?? chalk.red;
   const label = opts?.label ?? "error";
+  const labelColor = opts?.labelColor ?? chalk.bgRed.white;
 
   console.log("");
   console.log("");
-  console.log(prefix + chalk.bgRed.white(` ${label.toUpperCase} `) + " " + title);
+  console.log(prefix + labelColor(` ${label.toUpperCase()} `) + " " + title);
   console.log("");
   if (Array.isArray(reason)) {
     reason.forEach((text) => {
