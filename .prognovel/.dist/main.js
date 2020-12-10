@@ -17647,7 +17647,7 @@ function warnUnregisteredContributors(unregisteredContributors) {
   if (!l) return;
   console.log(m + source.bold.yellow(Array(EMPTY_SPACES + 2).fill("*").join("")) + (typos[i++] || ""));
   console.log(m + source.bold.yellow("*" + Array(EMPTY_SPACES).fill(" ").join("") + "*") + (typos[i++] || ""));
-  console.log(m + source.bold.yellow("*  ".concat(source.underline(l + (l > 10 ? "" : " ") + "unregistered contributors found "), "        *")) + (typos[i++] || ""));
+  console.log(m + source.bold.yellow("*  ".concat(source.underline(l + " unregistered contributors found" + (l > 9 ? "" : " ")), "        *")) + (typos[i++] || ""));
   console.log(source.bold.yellow(m + "*                                            *") + (typos[i++] || ""));
   unregisteredContributors.forEach(function (warn) {
     var text = "  - ".concat(warn.contributor, " at ").concat(warn.where);
@@ -18230,7 +18230,7 @@ function _compileChapter() {
                         benchmark.markdown.start = perf_hooks.performance.now();
                         _context3.next = 9;
                         return parseMarkdown(novel, files, {
-                          hash: true
+                          hash: false
                         });
 
                       case 9:

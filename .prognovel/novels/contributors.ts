@@ -70,7 +70,7 @@ export function warnUnregisteredContributors(
   console.log(
     m +
       chalk.bold.yellow(
-        `*  ${chalk.underline(l + (l > 10 ? "" : " ") + "unregistered contributors found ")}        *`,
+        `*  ${chalk.underline(l + " unregistered contributors found" + (l > 9 ? "" : " "))}        *`,
       ) +
       (typos[i++] || ""),
   );
