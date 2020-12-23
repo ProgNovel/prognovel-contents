@@ -11,11 +11,14 @@ interface SiteFiles {
 }
 interface PublishFiles {
     folder: string;
+    fullMetadata: string;
     siteMetadata: string;
     novelFolder: (novel: NovelID) => string;
     novelMetadata: (novel: NovelID) => string;
     novelChapterTitles: (novel: NovelID) => string;
     novelCompiledContent: (novel: NovelID) => string;
+    novelBinary: (novel: NovelID) => string;
+    novelBinaryRange: (novel: NovelID) => string;
     novelCoverFolder: (novel: NovelID) => string;
     novelCover: (novel: NovelID, type: NovelImageCoverType, ext: NovelImageType, size?: "" | "2x" | "3x") => string;
 }

@@ -2,10 +2,9 @@ import { readFileSync, writeFileSync } from "fs";
 import { publishFiles } from "../_files";
 
 export function appendNovelsMetadata(novelsMetadata) {
-  const siteMetadataFile = publishFiles().siteMetadata;
   try {
-    const siteMetadata = JSON.parse(readFileSync(siteMetadataFile, "utf-8"));
-    novelsMetadata = novelsMetadata.map((meta) => {
+    const siteMetadata = JSON.parse(readFileSync(publishFiles().siteMetadata, "utf-8"));
+    const shortMetadata = novelsMetadata.map((meta) => {
       return {
         id: meta.id,
         title: meta.title,
@@ -14,8 +13,13 @@ export function appendNovelsMetadata(novelsMetadata) {
         lastChapter: meta.chapters[meta.chapters.length - 1],
       };
     });
-    siteMetadata.novelsMetadata = novelsMetadata;
-    writeFileSync(siteMetadataFile, JSON.stringify(siteMetadata, null, 2));
+    siteMetadata.novelsMetadata = shortMetadata;
+    writeFileSync(publishFiles().siteMetadata, JSON.stringify(siteMetadata, null, 2));
+    siteMetadata.fullMetadata = novelsMetadata.reduce((prev, cur) => {
+      prev[cur.id] = cur;
+      return prev;
+    }, {});
+    writeFileSync(publishFiles().fullMetadata, JSON.stringify(siteMetadata, null, 2));
   } catch (err) {
     console.error("Error when reading site metadata.");
     console.error(err);

@@ -7,9 +7,12 @@ export const publishFiles = function (): PublishFiles {
   return {
     folder: folder,
     siteMetadata: join(folder, "sitemetadata.json"),
+    fullMetadata: join(folder, "fullmetadata.json"),
     novelFolder: (id: NovelID) => join(folder, id),
     novelMetadata: (id: NovelID) => join(folder, id, `metadata.json`),
     novelChapterTitles: (id: NovelID) => join(folder, id, "chapter-titles.json"),
+    novelBinary: (id: NovelID) => join(folder, id, "data.txt"),
+    novelBinaryRange: (id: NovelID) => join(folder, id, "data-range.txt"),
     novelCompiledContent: (id: NovelID) => join(folder, id, "content.json"),
     novelCoverFolder: (id: NovelID) => join(folder, id, "cover"),
     novelCover: (id: NovelID, type: NovelImageCoverType, ext: NovelImageType, size?) => {
@@ -77,11 +80,14 @@ interface SiteFiles {
 
 interface PublishFiles {
   folder: string;
+  fullMetadata: string;
   siteMetadata: string;
   novelFolder: (novel: NovelID) => string;
   novelMetadata: (novel: NovelID) => string;
   novelChapterTitles: (novel: NovelID) => string;
   novelCompiledContent: (novel: NovelID) => string;
+  novelBinary: (novel: NovelID) => string;
+  novelBinaryRange: (novel: NovelID) => string;
   novelCoverFolder: (novel: NovelID) => string;
   novelCover: (
     novel: NovelID,

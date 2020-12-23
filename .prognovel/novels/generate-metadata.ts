@@ -91,10 +91,7 @@ async function compileChapter(folder: string, images, novel: string) {
     let meta = { id: novel, ...info, synopsis, chapters: chapterList, cover: images, rev_share };
 
     ensurePublishDirectoryExist(novel);
-    fs.writeFileSync(publishFiles().novelMetadata(novel), JSON.stringify(meta, null, 4));
-    fs.writeFileSync(publishFiles().novelChapterTitles(novel), JSON.stringify(chapterTitles));
-    fs.writeFileSync(publishFiles().novelCompiledContent(novel), JSON.stringify(content));
-    fs.writeFileSync(cacheFiles().novelCompileCache(novel), JSON.stringify(cache || {}), "utf-8");
+    generateFiles({ novel, meta, chapterTitles, content, cache });
     benchmark.filesystem.end = performance.now();
 
     const t1 = performance.now();
@@ -110,4 +107,25 @@ async function compileChapter(folder: string, images, novel: string) {
 
     resolve(meta);
   });
+}
+
+function generateFiles({ novel, meta, chapterTitles, content, cache }) {
+  const data = {
+    metadata: JSON.stringify(meta),
+    chapterTitles: JSON.stringify(chapterTitles),
+    content: JSON.stringify(content),
+  };
+  let i = 0;
+  const range = {
+    metadata: [i, (i += data.metadata.length)],
+    chapterTitles: [i, (i += data.chapterTitles.length)],
+    content: [i, (i += data.content.length)],
+  };
+  const bin = { metadata: meta, chapterTitles, content };
+  fs.writeFileSync(publishFiles().novelMetadata(novel), JSON.stringify(meta, null, 4));
+  fs.writeFileSync(publishFiles().novelChapterTitles(novel), JSON.stringify(chapterTitles));
+  fs.writeFileSync(cacheFiles().novelCompileCache(novel), JSON.stringify(cache || {}), "utf-8");
+  fs.writeFileSync(publishFiles().novelCompiledContent(novel), JSON.stringify(content));
+  fs.writeFileSync(publishFiles().novelBinary(novel), JSON.stringify(bin));
+  fs.writeFileSync(publishFiles().novelBinaryRange(novel), JSON.stringify(range));
 }

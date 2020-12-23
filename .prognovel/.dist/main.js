@@ -786,7 +786,7 @@ try {
 }
 });
 
-var F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator = runtime_1;
+var F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator = runtime_1;
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
   try {
@@ -2736,6 +2736,7 @@ var publishFiles = function publishFiles() {
   return {
     folder: folder,
     siteMetadata: path.join(folder, "sitemetadata.json"),
+    fullMetadata: path.join(folder, "fullmetadata.json"),
     novelFolder: function novelFolder(id) {
       return path.join(folder, id);
     },
@@ -2744,6 +2745,12 @@ var publishFiles = function publishFiles() {
     },
     novelChapterTitles: function novelChapterTitles(id) {
       return path.join(folder, id, "chapter-titles.json");
+    },
+    novelBinary: function novelBinary(id) {
+      return path.join(folder, id, "data.txt");
+    },
+    novelBinaryRange: function novelBinaryRange(id) {
+      return path.join(folder, id, "data-range.txt");
     },
     novelCompiledContent: function novelCompiledContent(id) {
       return path.join(folder, id, "content.json");
@@ -2804,11 +2811,9 @@ function getYaml(file) {
 }
 
 function appendNovelsMetadata(novelsMetadata) {
-  var siteMetadataFile = publishFiles().siteMetadata;
-
   try {
-    var siteMetadata = JSON.parse(fs$2.readFileSync(siteMetadataFile, "utf-8"));
-    novelsMetadata = novelsMetadata.map(function (meta) {
+    var siteMetadata = JSON.parse(fs$2.readFileSync(publishFiles().siteMetadata, "utf-8"));
+    var shortMetadata = novelsMetadata.map(function (meta) {
       return {
         id: meta.id,
         title: meta.title,
@@ -2817,8 +2822,13 @@ function appendNovelsMetadata(novelsMetadata) {
         lastChapter: meta.chapters[meta.chapters.length - 1]
       };
     });
-    siteMetadata.novelsMetadata = novelsMetadata;
-    fs$2.writeFileSync(siteMetadataFile, JSON.stringify(siteMetadata, null, 2));
+    siteMetadata.novelsMetadata = shortMetadata;
+    fs$2.writeFileSync(publishFiles().siteMetadata, JSON.stringify(siteMetadata, null, 2));
+    siteMetadata.fullMetadata = novelsMetadata.reduce(function (prev, cur) {
+      prev[cur.id] = cur;
+      return prev;
+    }, {});
+    fs$2.writeFileSync(publishFiles().fullMetadata, JSON.stringify(siteMetadata, null, 2));
   } catch (err) {
     console.error("Error when reading site metadata.");
     console.error(err);
@@ -6675,7 +6685,7 @@ var jsYaml = {
 	addConstructor: addConstructor
 };
 
-var F___CODE_proyek_prognovelCli_node_modules_jsYaml = jsYaml;
+var F___CODE_proyek__prognovel_prognovelCli_node_modules_jsYaml = jsYaml;
 
 function checkValidBookFolder(novel) {
   var errors = [];
@@ -6683,7 +6693,7 @@ function checkValidBookFolder(novel) {
   var settings;
 
   try {
-    settings = F___CODE_proyek_prognovelCli_node_modules_jsYaml.safeLoad(fs__default['default'].readFileSync(siteFiles().settings));
+    settings = F___CODE_proyek__prognovel_prognovelCli_node_modules_jsYaml.safeLoad(fs__default['default'].readFileSync(siteFiles().settings));
   } catch (_) {
     errorSiteSettingsNotFound();
   }
@@ -6718,13 +6728,13 @@ function generateBookCover(_x) {
 }
 
 function _generateBookCover() {
-  _generateBookCover = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee(novel) {
+  _generateBookCover = asyncToGenerator( /*#__PURE__*/F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee(novel) {
     var folder,
         inputImage,
         images,
         placeholderSizes,
         buffer;
-    return F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee$(_context) {
+    return F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
@@ -17319,7 +17329,7 @@ function mediator(a, b) {
 	return compare$1(this, a.converted, b.converted);
 }
 
-var F___CODE_proyek_prognovelCli_node_modules_alphanumSort_lib = function (array, opts) {
+var F___CODE_proyek__prognovel_prognovelCli_node_modules_alphanumSort_lib = function (array, opts) {
 	if (!Array.isArray(array) || array.length < 2) {
 		return array;
 	}
@@ -17476,7 +17486,7 @@ function parse$3 (string) {
   }
 
   var yaml = match[match.length - 1].replace(/^\s+|\s+$/g, '');
-  var attributes = F___CODE_proyek_prognovelCli_node_modules_jsYaml.load(yaml) || {};
+  var attributes = F___CODE_proyek__prognovel_prognovelCli_node_modules_jsYaml.load(yaml) || {};
   var body = string.replace(match[0], '');
   var line = computeLocation(match, string);
 
@@ -17500,8 +17510,8 @@ function createHashFromFile(_x) {
 }
 
 function _createHashFromFile() {
-  _createHashFromFile = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee(filePath) {
-    return F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee$(_context) {
+  _createHashFromFile = asyncToGenerator( /*#__PURE__*/F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee(filePath) {
+    return F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
@@ -17526,7 +17536,7 @@ function _createHashFromFile() {
   return _createHashFromFile.apply(this, arguments);
 }
 
-var F___CODE_proyek_prognovelCli_node_modules_stringSimilarity_src = {
+var F___CODE_proyek__prognovel_prognovelCli_node_modules_stringSimilarity_src = {
 	compareTwoStrings:compareTwoStrings,
 	findBestMatch:findBestMatch
 };
@@ -17594,7 +17604,7 @@ function areArgsValid(mainString, targetStrings) {
 	if (targetStrings.find( function (s) { return typeof s !== 'string'})) return false;
 	return true;
 }
-var F___CODE_proyek_prognovelCli_node_modules_stringSimilarity_src_2 = F___CODE_proyek_prognovelCli_node_modules_stringSimilarity_src.findBestMatch;
+var F___CODE_proyek__prognovel_prognovelCli_node_modules_stringSimilarity_src_2 = F___CODE_proyek__prognovel_prognovelCli_node_modules_stringSimilarity_src.findBestMatch;
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -17666,7 +17676,7 @@ function warnUnregisteredContributors(unregisteredContributors) {
     text[i++] = c(prefix + source.underline("possible typos:"));
     text[i++] = c(prefix);
     var processedUnregisteredContributors = unregisteredContributors.map(function (obj) {
-      var typo = F___CODE_proyek_prognovelCli_node_modules_stringSimilarity_src_2(obj.contributor, Object.keys(contributors.get(novel)));
+      var typo = F___CODE_proyek__prognovel_prognovelCli_node_modules_stringSimilarity_src_2(obj.contributor, Object.keys(contributors.get(novel)));
       return _objectSpread(_objectSpread({}, obj), {}, {
         rating: typo.bestMatch.rating,
         fixedName: typo.bestMatch.target
@@ -17720,7 +17730,7 @@ var emptyCache = {
 var emptyFrontMatter = {
   attributes: _objectSpread$1({
     title: ""
-  }, Object.keys(F___CODE_proyek_prognovelCli_node_modules_jsYaml.safeLoad(fs__default['default'].readFileSync(siteFiles().settings, "utf-8")).rev_share_contribution_per_chapter).reduce(function (prev, cur) {
+  }, Object.keys(F___CODE_proyek__prognovel_prognovelCli_node_modules_jsYaml.safeLoad(fs__default['default'].readFileSync(siteFiles().settings, "utf-8")).rev_share_contribution_per_chapter).reduce(function (prev, cur) {
     prev[cur] = {};
     return prev;
   }, {})),
@@ -17731,10 +17741,10 @@ function parseMarkdown(_x, _x2, _x3) {
 }
 
 function _parseMarkdown() {
-  _parseMarkdown = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee2(novel, files, opts) {
+  _parseMarkdown = asyncToGenerator( /*#__PURE__*/F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee2(novel, files, opts) {
     var content, chapters, chapterTitles, contributions, unregisteredContributors, unchangedFiles, cache, folder, _iteratorNormalCompletion, _didIteratorError, _iteratorError, _loop, _iterator, _step, _value;
 
-    return F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee2$(_context2) {
+    return F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee2$(_context2) {
       while (1) {
         switch (_context2.prev = _context2.next) {
           case 0:
@@ -17757,12 +17767,12 @@ function _parseMarkdown() {
             _iteratorNormalCompletion = true;
             _didIteratorError = false;
             _context2.prev = 11;
-            _loop = /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee() {
+            _loop = /*#__PURE__*/F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee() {
               var _cache, _cache$file;
 
               var file, frontmatter, lastModified, index, book, name, cacheLastModified, calculatedRevenueShare, unregistered, hash, hasChanged, _iterator2, _step2, _loop2, contributor;
 
-              return F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee$(_context) {
+              return F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee$(_context) {
                 while (1) {
                   switch (_context.prev = _context.next) {
                     case 0:
@@ -18107,9 +18117,9 @@ function generateMetadata(_x) {
 }
 
 function _generateMetadata() {
-  _generateMetadata = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee2(novels) {
+  _generateMetadata = asyncToGenerator( /*#__PURE__*/F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee2(novels) {
     var firstNovel, folders, appendGlobalNovelMetadata;
-    return F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee2$(_context2) {
+    return F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee2$(_context2) {
       while (1) {
         switch (_context2.prev = _context2.next) {
           case 0:
@@ -18118,7 +18128,7 @@ function _generateMetadata() {
               var novelContributors;
 
               try {
-                novelContributors = F___CODE_proyek_prognovelCli_node_modules_jsYaml.load(fs__default['default'].readFileSync(novelFiles(novel).contributorsConfig));
+                novelContributors = F___CODE_proyek__prognovel_prognovelCli_node_modules_jsYaml.load(fs__default['default'].readFileSync(novelFiles(novel).contributorsConfig));
               } catch (err) {
                 console.error(source.bold.red("Can't find contributors.yml for novel ".concat(novel, ".")));
               }
@@ -18136,9 +18146,9 @@ function _generateMetadata() {
           case 4:
             folders = _context2.sent;
             return _context2.abrupt("return", Promise.all(folders.map( /*#__PURE__*/function () {
-              var _ref = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee(folder) {
+              var _ref2 = asyncToGenerator( /*#__PURE__*/F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee(folder) {
                 var folderName, placeholderRatio, images;
-                return F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee$(_context) {
+                return F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee$(_context) {
                   while (1) {
                     switch (_context.prev = _context.next) {
                       case 0:
@@ -18185,7 +18195,7 @@ function _generateMetadata() {
               }));
 
               return function (_x5) {
-                return _ref.apply(this, arguments);
+                return _ref2.apply(this, arguments);
               };
             }())));
 
@@ -18204,16 +18214,16 @@ function compileChapter(_x2, _x3, _x4) {
 }
 
 function _compileChapter() {
-  _compileChapter = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee4(folder, images, novel) {
-    return F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee4$(_context4) {
+  _compileChapter = asyncToGenerator( /*#__PURE__*/F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee4(folder, images, novel) {
+    return F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee4$(_context4) {
       while (1) {
         switch (_context4.prev = _context4.next) {
           case 0:
             return _context4.abrupt("return", new Promise( /*#__PURE__*/function () {
-              var _ref2 = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee3(resolve) {
+              var _ref3 = asyncToGenerator( /*#__PURE__*/F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee3(resolve) {
                 var t0, files, _yield$parseMarkdown, content, chapters, chapterTitles, contributions, unregisteredContributors, unchangedFiles, cache, rev_share, chapterList, info, synopsis, meta, t1;
 
-                return F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee3$(_context3) {
+                return F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee3$(_context3) {
                   while (1) {
                     switch (_context3.prev = _context3.next) {
                       case 0:
@@ -18248,10 +18258,10 @@ function _compileChapter() {
                         rev_share = calculateContributors(novel, contributions);
                         benchmark.rev_share.end = perf_hooks.performance.now();
                         benchmark.sorting_chapters.start = perf_hooks.performance.now();
-                        chapterList = F___CODE_proyek_prognovelCli_node_modules_alphanumSort_lib(chapters);
+                        chapterList = F___CODE_proyek__prognovel_prognovelCli_node_modules_alphanumSort_lib(chapters);
                         benchmark.sorting_chapters.end = perf_hooks.performance.now();
                         benchmark.filesystem.start = perf_hooks.performance.now();
-                        info = F___CODE_proyek_prognovelCli_node_modules_jsYaml.load(fs__default['default'].readFileSync(novelFiles(novel).info, "utf8"));
+                        info = F___CODE_proyek__prognovel_prognovelCli_node_modules_jsYaml.load(fs__default['default'].readFileSync(novelFiles(novel).info, "utf8"));
 
                         if (!Array.isArray(info.paymentPointers)) {
                           info.paymentPointers = [info.paymentPointers];
@@ -18267,10 +18277,13 @@ function _compileChapter() {
                           rev_share: rev_share
                         });
                         ensurePublishDirectoryExist(novel);
-                        fs__default['default'].writeFileSync(publishFiles().novelMetadata(novel), JSON.stringify(meta, null, 4));
-                        fs__default['default'].writeFileSync(publishFiles().novelChapterTitles(novel), JSON.stringify(chapterTitles));
-                        fs__default['default'].writeFileSync(publishFiles().novelCompiledContent(novel), JSON.stringify(content));
-                        fs__default['default'].writeFileSync(cacheFiles().novelCompileCache(novel), JSON.stringify(cache || {}), "utf-8");
+                        generateFiles({
+                          novel: novel,
+                          meta: meta,
+                          chapterTitles: chapterTitles,
+                          content: content,
+                          cache: cache
+                        });
                         benchmark.filesystem.end = perf_hooks.performance.now();
                         t1 = perf_hooks.performance.now();
                         outputMessage({
@@ -18284,7 +18297,7 @@ function _compileChapter() {
                         });
                         resolve(meta);
 
-                      case 38:
+                      case 35:
                       case "end":
                         return _context3.stop();
                     }
@@ -18293,7 +18306,7 @@ function _compileChapter() {
               }));
 
               return function (_x6) {
-                return _ref2.apply(this, arguments);
+                return _ref3.apply(this, arguments);
               };
             }()));
 
@@ -18307,11 +18320,41 @@ function _compileChapter() {
   return _compileChapter.apply(this, arguments);
 }
 
+function generateFiles(_ref) {
+  var novel = _ref.novel,
+      meta = _ref.meta,
+      chapterTitles = _ref.chapterTitles,
+      content = _ref.content,
+      cache = _ref.cache;
+  var data = {
+    metadata: JSON.stringify(meta),
+    chapterTitles: JSON.stringify(chapterTitles),
+    content: JSON.stringify(content)
+  };
+  var i = 0;
+  var range = {
+    metadata: [i, i += data.metadata.length],
+    chapterTitles: [i, i += data.chapterTitles.length],
+    content: [i, i += data.content.length]
+  };
+  var bin = {
+    metadata: meta,
+    chapterTitles: chapterTitles,
+    content: content
+  };
+  fs__default['default'].writeFileSync(publishFiles().novelMetadata(novel), JSON.stringify(meta, null, 4));
+  fs__default['default'].writeFileSync(publishFiles().novelChapterTitles(novel), JSON.stringify(chapterTitles));
+  fs__default['default'].writeFileSync(cacheFiles().novelCompileCache(novel), JSON.stringify(cache || {}), "utf-8");
+  fs__default['default'].writeFileSync(publishFiles().novelCompiledContent(novel), JSON.stringify(content));
+  fs__default['default'].writeFileSync(publishFiles().novelBinary(novel), JSON.stringify(bin));
+  fs__default['default'].writeFileSync(publishFiles().novelBinaryRange(novel), JSON.stringify(range));
+}
+
 function generateSiteSettings() {
   var settings;
 
   try {
-    settings = F___CODE_proyek_prognovelCli_node_modules_jsYaml.safeLoad(fs__default['default'].readFileSync(siteFiles().settings));
+    settings = F___CODE_proyek__prognovel_prognovelCli_node_modules_jsYaml.safeLoad(fs__default['default'].readFileSync(siteFiles().settings));
   } catch (_) {
     errorSiteSettingsNotFound();
   }
@@ -18330,8 +18373,8 @@ function host(_x, _x2) {
 }
 
 function _host() {
-  _host = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee(cwd, opts) {
-    return F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee$(_context) {
+  _host = asyncToGenerator( /*#__PURE__*/F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee(cwd, opts) {
+    return F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
@@ -18344,16 +18387,27 @@ function _host() {
   return _host.apply(this, arguments);
 }
 
+var mock = ["{\"test\":[0,", "12], \"w", "ew\":[13, 20]}--", "-testing tes", "ting oi oi oi"];
 function check() {
   return _check.apply(this, arguments);
 }
 
 function _check() {
-  _check = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee() {
-    return F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee$(_context) {
+  _check = asyncToGenerator( /*#__PURE__*/F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee() {
+    var readable;
+    return F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
+            readable = new stream$5.Readable();
+            readable.push(mock[0], "utf-8");
+            readable.push(mock[1], "utf-8");
+            readable.push(mock[2], "utf-8");
+            readable.push(mock[3], "utf-8");
+            readable.push(mock[4], "utf-8"); // readable.pipe(readChapterBuffer);
+            // readChapterBuffer(readable);
+
+          case 6:
           case "end":
             return _context.stop();
         }
@@ -18415,9 +18469,9 @@ function fixTypo(_x) {
 }
 
 function _fixTypo() {
-  _fixTypo = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee(opts) {
+  _fixTypo = asyncToGenerator( /*#__PURE__*/F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee(opts) {
     var typo, id;
-    return F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee$(_context) {
+    return F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
@@ -18492,8 +18546,8 @@ function init(_x) {
 }
 
 function _init() {
-  _init = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee(opts) {
-    return F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee$(_context) {
+  _init = asyncToGenerator( /*#__PURE__*/F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee(opts) {
+    return F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
@@ -18514,8 +18568,8 @@ function addNovel(_x2) {
 }
 
 function _addNovel() {
-  _addNovel = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee2(opts) {
-    return F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee2$(_context2) {
+  _addNovel = asyncToGenerator( /*#__PURE__*/F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee2(opts) {
+    return F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee2$(_context2) {
       while (1) {
         switch (_context2.prev = _context2.next) {
           case 0:
@@ -18533,9 +18587,9 @@ function build(_x3) {
 }
 
 function _build() {
-  _build = asyncToGenerator( /*#__PURE__*/F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee3(opts) {
+  _build = asyncToGenerator( /*#__PURE__*/F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.mark(function _callee3(opts) {
     var settings, novelsMetadata, cleanMetadata;
-    return F___CODE_proyek_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee3$(_context3) {
+    return F___CODE_proyek__prognovel_prognovelCli_node_modules__babel_runtime_regenerator.wrap(function _callee3$(_context3) {
       while (1) {
         switch (_context3.prev = _context3.next) {
           case 0:
