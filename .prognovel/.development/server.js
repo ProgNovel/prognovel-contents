@@ -31,7 +31,7 @@ polka()
       if (!!titles_only) {
         res.end(getNovelChapterTitles(name));
       } else {
-        res.end(getNovelMetadata(name));
+        res.end(JSON.stringify({ ...getNovelMetadata(name), chapterTitles: getNovelChapterTitles(name) }));
       }
     } catch (err) {
       console.log(err);
@@ -39,13 +39,13 @@ polka()
     }
   })
   .get("/chapter", (req, res) => {
-    let { novel, name, book } = req.query;
+    let { novel, fetch } = req.query;
     addMeter(req.query);
     res.setHeader("Content-Type", "application/json");
     res.setHeader("Cache-Control", "no-store");
     res.setHeader("Access-Control-Allow-Origin", "*");
     try {
-      res.end(getChapterData(novel, name, book));
+      res.end(JSON.stringify(getChapterData(novel, fetch.trim().split(","))));
     } catch (err) {
       res.writeHead(404, {
         "Content-Type": "application/json",

@@ -4,6 +4,12 @@ const { cleanHTML } = require("./string");
 const fm = require("front-matter");
 const md = require("marked");
 
+const data = {
+  "yashura-legacy": JSON.parse(
+    readFileSync(resolve(__dirname, `../../.publish/yashura-legacy/data.txt`), "utf-8"),
+  ),
+};
+
 function getSiteMetadata() {
   return readFileSync(resolve(__dirname, "../../sitemetadata.json"));
 }
@@ -13,40 +19,20 @@ function getNovelPath(novel) {
 }
 
 function getNovelMetadata(novel) {
-  return readFileSync(getNovelPath(novel) + "/.publish/metadata.json");
+  return data[novel].metadata;
 }
 
 function getNovelChapterTitles(novel) {
-  return readFileSync(getNovelPath(novel) + "/.publish/chapter-titles.json");
+  return data[novel].chapterTitles;
 }
 
-function getChapterData(novel, name, book) {
-  let markup;
-  try {
-    markup = readFileSync(
-      resolve(__dirname, `../../novels/${novel}/contents/${book}/${name}.md`),
-    ).toString();
-  } catch (err) {
-    console.log(err);
-    return {
-      title: "Error 404",
-      html: `<p>Chapter for novel ${novel} volume/book ${volume} chapter ${name} doesn't exist.`,
-      status: 404,
-    };
-  }
-
-  const frontmatter = fm(markup);
-  const content = md(frontmatter.body);
-  return JSON.stringify(
-    {
-      //@ts-ignore
-      title: frontmatter.attributes.title || "",
-      html: cleanHTML(content),
-      status: 200,
-    },
-    null,
-    2,
-  );
+function getChapterData(novel, fetch) {
+  return fetch.reduce((prev, cur) => {
+    prev[cur] = JSON.parse(JSON.stringify(data[novel].content[cur]));
+    prev[cur].html = prev[cur].body;
+    delete prev[cur].body;
+    return prev;
+  }, {});
 }
 
 const meter = new Map();
