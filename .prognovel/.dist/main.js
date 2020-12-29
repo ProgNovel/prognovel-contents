@@ -17805,7 +17805,6 @@ function _parseMarkdown() {
                       if (hasChanged) {
                         if (opts === null || opts === void 0 ? void 0 : opts.hash) cache[file].hash = hash;
                         frontmatter = frontMatter(fs__default['default'].readFileSync(file, "utf-8"));
-                        content[name] = ie(frontmatter.body);
                         _iterator2 = _createForOfIteratorHelper(contributionRoles.get());
 
                         try {
@@ -17843,18 +17842,25 @@ function _parseMarkdown() {
                         cache[file].contributions = calculatedRevenueShare;
                         cache[file].lastModified = lastModified;
                         cache[file].data = frontmatter.attributes;
-                        cache[file].body = content[name];
+                        cache[file].body = ie(frontmatter.body);
                         cache[file].unregistered = unregistered;
                       } else {
                         // console.log("Get from cache for", file);
                         calculatedRevenueShare = cache[file].contributions;
                         unregistered = cache[file].unregistered;
-                        content[name] = cache[file].body;
                         if (typeof frontmatter === "undefined") frontmatter = Object.create(emptyFrontMatter);
                         frontmatter.attributes = cache[file].data;
                         ++unchangedFiles; // contributors.bulkAddContributors(novel, cache[file]["contributors"]);
-                      } // wrapping up
+                      }
 
+                      content[name] = {};
+                      content[name].body = cache[file].body;
+                      content[name].title = cache[file].data.title || name;
+                      content[name].monetization = cache[file].data.monetization || false;
+                      content[name].contributors = contributionRoles.get().reduce(function (prev, cur) {
+                        prev[cur] = cache[file].data[cur] || "";
+                        return prev;
+                      }, {}); // wrapping up
 
                       unregisteredContributors = [].concat(toConsumableArray(unregisteredContributors), toConsumableArray(unregistered));
                       unregistered = [];
@@ -17866,7 +17872,7 @@ function _parseMarkdown() {
                         contributions[contributor] = (contributions[contributor] || 0) + (calculatedRevenueShare[contributor] || 0);
                       }
 
-                    case 23:
+                    case 28:
                     case "end":
                       return _context.stop();
                   }
@@ -18331,12 +18337,6 @@ function generateFiles(_ref) {
     chapterTitles: JSON.stringify(chapterTitles),
     content: JSON.stringify(content)
   };
-  var i = 0;
-  var range = {
-    metadata: [i, i += data.metadata.length],
-    chapterTitles: [i, i += data.chapterTitles.length],
-    content: [i, i += data.content.length]
-  };
   var bin = {
     metadata: meta,
     chapterTitles: chapterTitles,
@@ -18347,7 +18347,6 @@ function generateFiles(_ref) {
   fs__default['default'].writeFileSync(cacheFiles().novelCompileCache(novel), JSON.stringify(cache || {}), "utf-8");
   fs__default['default'].writeFileSync(publishFiles().novelCompiledContent(novel), JSON.stringify(content));
   fs__default['default'].writeFileSync(publishFiles().novelBinary(novel), JSON.stringify(bin));
-  fs__default['default'].writeFileSync(publishFiles().novelBinaryRange(novel), JSON.stringify(range));
 }
 
 function generateSiteSettings() {

@@ -2,12 +2,12 @@ site_title: ProgNovel
 contact: prognovel@gmail.com
 payment_pointer: $wallet.example.com/test
 backend_api: https://api.prognovel.workers.dev
+use_static_api: false
 
 ### PUBLISHED BOOKS ###
 # you can left out a book folder if you're not ready to publish a certain book
 novels:
   - yashura-legacy
-  - mock-novel
 
 ### WEBMONETIZATION REVSHARE OPTIONS ###
 # can point to multiple payment pointers with rev share using webfunding syntax

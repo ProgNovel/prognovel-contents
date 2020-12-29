@@ -115,17 +115,10 @@ function generateFiles({ novel, meta, chapterTitles, content, cache }) {
     chapterTitles: JSON.stringify(chapterTitles),
     content: JSON.stringify(content),
   };
-  let i = 0;
-  const range = {
-    metadata: [i, (i += data.metadata.length)],
-    chapterTitles: [i, (i += data.chapterTitles.length)],
-    content: [i, (i += data.content.length)],
-  };
   const bin = { metadata: meta, chapterTitles, content };
   fs.writeFileSync(publishFiles().novelMetadata(novel), JSON.stringify(meta, null, 4));
   fs.writeFileSync(publishFiles().novelChapterTitles(novel), JSON.stringify(chapterTitles));
   fs.writeFileSync(cacheFiles().novelCompileCache(novel), JSON.stringify(cache || {}), "utf-8");
   fs.writeFileSync(publishFiles().novelCompiledContent(novel), JSON.stringify(content));
   fs.writeFileSync(publishFiles().novelBinary(novel), JSON.stringify(bin));
-  fs.writeFileSync(publishFiles().novelBinaryRange(novel), JSON.stringify(range));
 }

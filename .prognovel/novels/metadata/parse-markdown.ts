@@ -86,7 +86,6 @@ export async function parseMarkdown(
     if (hasChanged) {
       if (opts?.hash) cache[file].hash = hash;
       frontmatter = fm(fs.readFileSync(file, "utf-8"));
-      content[name] = markdown.parse(frontmatter.body);
 
       for (const contribution of contributionRoles.get()) {
         const workers = frontmatter.attributes[contribution];
@@ -109,18 +108,26 @@ export async function parseMarkdown(
       cache[file].contributions = calculatedRevenueShare;
       cache[file].lastModified = lastModified;
       cache[file].data = frontmatter.attributes;
-      cache[file].body = content[name];
+      cache[file].body = markdown.parse(frontmatter.body);
       cache[file].unregistered = unregistered;
     } else {
       // console.log("Get from cache for", file);
       calculatedRevenueShare = cache[file].contributions;
       unregistered = cache[file].unregistered;
-      content[name] = cache[file].body;
       if (typeof frontmatter === "undefined") frontmatter = Object.create(emptyFrontMatter);
       frontmatter.attributes = cache[file].data;
       ++unchangedFiles;
       // contributors.bulkAddContributors(novel, cache[file]["contributors"]);
     }
+
+    content[name] = {};
+    content[name].body = cache[file].body;
+    content[name].title = cache[file].data.title || name;
+    content[name].monetization = cache[file].data.monetization || false;
+    content[name].contributors = contributionRoles.get().reduce((prev, cur) => {
+      prev[cur] = cache[file].data[cur] || "";
+      return prev;
+    }, {});
 
     // wrapping up
     unregisteredContributors = [...unregisteredContributors, ...unregistered];
