@@ -2704,6 +2704,9 @@ function errorImageNotFound(novel, imageType) {
 function errorSiteSettingsNotFound() {
   failBuild(["site-settings.yaml not found in your project's root folder.", "", "Make sure you're in the right folder or use command ".concat(source.underline("prognovel init"), " to create a new one in this folder.")]);
 }
+function errorNovelInfoNotFound(novel) {
+  failBuild(["Info file for novel ".concat(novel, " not found."), "", "Make sure you have ".concat(source.underline("info.yaml"), " in the novel folder.")]);
+}
 function failBuild(reason) {
   var _opts$color, _opts$label, _opts$labelColor;
 
@@ -6691,6 +6694,7 @@ function checkValidBookFolder(novel) {
   var errors = [];
   var errorIndex = 0;
   var settings;
+  var novelMetadata;
 
   try {
     settings = F___CODE_proyek__prognovel_prognovelCli_node_modules_jsYaml.safeLoad(fs__default['default'].readFileSync(siteFiles().settings));
@@ -6698,12 +6702,25 @@ function checkValidBookFolder(novel) {
     errorSiteSettingsNotFound();
   }
 
+  try {
+    novelMetadata = F___CODE_proyek__prognovel_prognovelCli_node_modules_jsYaml.safeLoad(fs__default['default'].readFileSync(novelFiles(novel).info));
+  } catch (_) {
+    // TODO errorNovelSettingsNotFound!
+    errorNovelInfoNotFound(novel);
+  }
+
   var isInfoExist = fs__default['default'].existsSync(novelFiles(novel).info);
   var isSynopsisExist = fs__default['default'].existsSync(novelFiles(novel).synopsis);
   var isExistInSettings = settings.novels.includes(novel);
+  var isTitleExist = novelMetadata.title;
+  var isDemographicExist = novelMetadata.demography;
+  var isGenreExist = novelMetadata.genre;
   if (!isInfoExist) errors[errorIndex++] = "".concat(errorIndex, ") info.yaml doesn't exist in folder ").concat(novel);
   if (!isSynopsisExist) errors[errorIndex++] = "".concat(errorIndex, ") synopsis.md doesn't exist in folder ").concat(novel);
   if (!isExistInSettings) errors[errorIndex++] = "".concat(errorIndex, ") novel ").concat(novel, " is not defined in site-settings.yaml (check in root folder)");
+  if (!isTitleExist) errors[errorIndex++] = "".concat(errorIndex, ") can't found title in info.yaml.");
+  if (!isGenreExist) errors[errorIndex++] = "".concat(errorIndex, ") can't found genre in info.yaml.");
+  if (!isDemographicExist) errors[errorIndex++] = "".concat(errorIndex, ") can't found demographic in info.yaml.");
   if (errors.length) failBuild(errors, "".concat(novel, " error..."), {
     label: "crash"
   });
@@ -18268,11 +18285,11 @@ function _compileChapter() {
                         benchmark.sorting_chapters.end = perf_hooks.performance.now();
                         benchmark.filesystem.start = perf_hooks.performance.now();
                         info = F___CODE_proyek__prognovel_prognovelCli_node_modules_jsYaml.load(fs__default['default'].readFileSync(novelFiles(novel).info, "utf8"));
-
-                        if (!Array.isArray(info.paymentPointers)) {
-                          info.paymentPointers = [info.paymentPointers];
-                        }
-
+                        info.genre = info.genre.split(",").filter(function (s) {
+                          return !!s;
+                        }).map(function (s) {
+                          return s.trim();
+                        });
                         synopsis = marked_1(fs__default['default'].readFileSync(novelFiles(novel).synopsis, "utf8"));
                         meta = _objectSpread$2(_objectSpread$2({
                           id: novel

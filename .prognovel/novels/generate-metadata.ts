@@ -83,9 +83,10 @@ async function compileChapter(folder: string, images, novel: string) {
 
     benchmark.filesystem.start = performance.now();
     const info = yaml.load(fs.readFileSync(novelFiles(novel).info, "utf8"));
-    if (!Array.isArray(info.paymentPointers)) {
-      info.paymentPointers = [info.paymentPointers];
-    }
+    info.genre = info.genre
+      .split(",")
+      .filter((s) => !!s)
+      .map((s) => s.trim());
     const synopsis = md(fs.readFileSync(novelFiles(novel).synopsis, "utf8"));
 
     let meta = { id: novel, ...info, synopsis, chapters: chapterList, cover: images, rev_share };

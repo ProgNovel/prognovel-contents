@@ -1,7 +1,7 @@
 import fs from "fs";
 import yaml from "js-yaml";
 import { publishFiles, siteFiles, novelFiles } from "../_files";
-import { errorSiteSettingsNotFound, failBuild } from "./build/fail";
+import { errorNovelInfoNotFound, errorSiteSettingsNotFound, failBuild } from "./build/fail";
 
 export function checkValidBookFolder(novel: string) {
   let errors = [];
@@ -14,17 +14,17 @@ export function checkValidBookFolder(novel: string) {
     errorSiteSettingsNotFound();
   }
   try {
-    novelMetadata = yaml.safeLoad(fs.readFileSync(novelFiles(novel).metadata));
+    novelMetadata = yaml.safeLoad(fs.readFileSync(novelFiles(novel).info));
   } catch (_) {
     // TODO errorNovelSettingsNotFound!
-    errorSiteSettingsNotFound();
+    errorNovelInfoNotFound(novel);
   }
 
   const isInfoExist = fs.existsSync(novelFiles(novel).info);
   const isSynopsisExist = fs.existsSync(novelFiles(novel).synopsis);
   const isExistInSettings = settings.novels.includes(novel);
   const isTitleExist = novelMetadata.title;
-  const isDemographyExist = novelMetadata.demography;
+  const isDemographicExist = novelMetadata.demography;
   const isGenreExist = novelMetadata.genre;
 
   if (!isInfoExist) errors[errorIndex++] = `${errorIndex}) info.yaml doesn\'t exist in folder ${novel}`;
@@ -33,7 +33,9 @@ export function checkValidBookFolder(novel: string) {
     errors[
       errorIndex++
     ] = `${errorIndex}) novel ${novel} is not defined in site-settings.yaml (check in root folder)`;
-
+  if (!isTitleExist) errors[errorIndex++] = `${errorIndex}) can't found title in info.yaml.`;
+  if (!isGenreExist) errors[errorIndex++] = `${errorIndex}) can't found genre in info.yaml.`;
+  if (!isDemographicExist) errors[errorIndex++] = `${errorIndex}) can't found demographic in info.yaml.`;
   if (errors.length) failBuild(errors, `${novel} error...`, { label: "crash" });
 
   return isInfoExist && isSynopsisExist && isExistInSettings;

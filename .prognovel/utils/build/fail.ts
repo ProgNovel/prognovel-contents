@@ -21,6 +21,14 @@ export function errorSiteSettingsNotFound(): void {
   ]);
 }
 
+export function errorNovelInfoNotFound(novel: string): void {
+  failBuild([
+    `Info file for novel ${novel} not found.`,
+    "",
+    `Make sure you have ${chalk.underline("info.yaml")} in the novel folder.`,
+  ]);
+}
+
 interface failBuildOptions {
   label?: string;
   color?: ChalkFunction;
