@@ -18289,6 +18289,11 @@ function _compileChapter() {
                         }).map(function (s) {
                           return s.trim();
                         });
+                        if (info.tags) info.tags = info.tags.split(",").filter(function (s) {
+                          return !!s;
+                        }).map(function (s) {
+                          return s.trim();
+                        });
                         synopsis = marked_1(fs__default['default'].readFileSync(novelFiles(novel).synopsis, "utf8"));
                         meta = _objectSpread$2(_objectSpread$2({
                           id: novel
@@ -18319,7 +18324,7 @@ function _compileChapter() {
                         });
                         resolve(meta);
 
-                      case 35:
+                      case 36:
                       case "end":
                         return _context3.stop();
                     }
