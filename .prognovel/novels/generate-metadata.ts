@@ -85,8 +85,13 @@ async function compileChapter(folder: string, images, novel: string) {
     const info = yaml.load(fs.readFileSync(novelFiles(novel).info, "utf8"));
     info.genre = info.genre
       .split(",")
-      .filter((s) => !!s)
-      .map((s) => s.trim());
+      .filter((s: string) => !!s)
+      .map((s: string) => s.trim());
+    if (info.tags)
+      info.tags = info.tags
+        .split(",")
+        .filter((s: string) => !!s)
+        .map((s: string) => s.trim());
     const synopsis = md(fs.readFileSync(novelFiles(novel).synopsis, "utf8"));
 
     let meta = { id: novel, ...info, synopsis, chapters: chapterList, cover: images, rev_share };
