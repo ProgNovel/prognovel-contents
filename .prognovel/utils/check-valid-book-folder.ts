@@ -16,7 +16,6 @@ export function checkValidBookFolder(novel: string) {
   try {
     novelMetadata = yaml.safeLoad(fs.readFileSync(novelFiles(novel).info));
   } catch (_) {
-    // TODO errorNovelSettingsNotFound!
     errorNovelInfoNotFound(novel);
   }
 
@@ -24,7 +23,7 @@ export function checkValidBookFolder(novel: string) {
   const isSynopsisExist = fs.existsSync(novelFiles(novel).synopsis);
   const isExistInSettings = settings.novels.includes(novel);
   const isTitleExist = novelMetadata.title;
-  const isDemographicExist = novelMetadata.demography;
+  const isDemographicExist = novelMetadata.demographic;
   const isGenreExist = novelMetadata.genre;
 
   if (!isInfoExist) errors[errorIndex++] = `${errorIndex}) info.yaml doesn\'t exist in folder ${novel}`;

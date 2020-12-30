@@ -6705,7 +6705,6 @@ function checkValidBookFolder(novel) {
   try {
     novelMetadata = F___CODE_proyek__prognovel_prognovelCli_node_modules_jsYaml.safeLoad(fs__default['default'].readFileSync(novelFiles(novel).info));
   } catch (_) {
-    // TODO errorNovelSettingsNotFound!
     errorNovelInfoNotFound(novel);
   }
 
@@ -6713,7 +6712,7 @@ function checkValidBookFolder(novel) {
   var isSynopsisExist = fs__default['default'].existsSync(novelFiles(novel).synopsis);
   var isExistInSettings = settings.novels.includes(novel);
   var isTitleExist = novelMetadata.title;
-  var isDemographicExist = novelMetadata.demography;
+  var isDemographicExist = novelMetadata.demographic;
   var isGenreExist = novelMetadata.genre;
   if (!isInfoExist) errors[errorIndex++] = "".concat(errorIndex, ") info.yaml doesn't exist in folder ").concat(novel);
   if (!isSynopsisExist) errors[errorIndex++] = "".concat(errorIndex, ") synopsis.md doesn't exist in folder ").concat(novel);
