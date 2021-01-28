@@ -11,7 +11,7 @@ const data = {
 };
 
 function getSiteMetadata() {
-  return readFileSync(resolve(__dirname, "../../sitemetadata.json"));
+  return JSON.stringify(require("../../.publish/sitemetadata.json"));
 }
 
 function getNovelPath(novel) {
