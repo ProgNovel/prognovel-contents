@@ -2821,6 +2821,9 @@ function appendNovelsMetadata(novelsMetadata) {
         id: meta.id,
         title: meta.title,
         author: meta.author,
+        demographic: meta.demographic,
+        genre: meta.genre,
+        tags: meta.tags,
         totalChapter: meta.chapters.length,
         lastChapter: meta.chapters[meta.chapters.length - 1]
       };
