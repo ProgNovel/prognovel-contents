@@ -1,6 +1,6 @@
 site_title: ProgNovel
 contact: prognovel@gmail.com
-payment_pointer: $wallet.example.com/test
+payment_pointer: $ilp.uphold.com/edR8erBDbRyq # ILP address for Creative Commons
 backend_api: https://api.prognovel.workers.dev
 use_static_api: false
 use_image_optimization_microservice: true
