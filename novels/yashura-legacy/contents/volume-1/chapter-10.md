@@ -1,793 +1,596 @@
 ---
-title: Bountiful Badril Mountain
+title: One Tulip Restaurant
+author: Radhy
 ---
 
-Shuro Yashura had a little black cow friend he called Beefy. Beefy was a high grade cow born from a superior breed that was the best cow Yashura Family could afford in these past decades. Days upon days, Shuro Yashura would be laughing across the barley field as Beefy chasing him from behind. They played, they were best friends forever. Shuro Yashura loved Beefy. No one could break them apart. For years, it was Shuro Yashura’s lifetime dream to make the greatest beef rendang ever from Beefy’s meat.
+When he arrived at Yashura Family’s gate, Shira saw Yulong planting fresh torches around the road of Yashura Family. Quietly, he glanced beside him. And much to his expectation, the Good-Natured Spirit who didn’t seem to get tired from pestering him before this suddenly sneered, then floated away without having to say a farewell.
 
-“Until then, we’ll be best friends forever!” Shuro Yashura exclaimed, patting Beefy’s firm fatty meat, while wondering what kind of delicious texture Beefy’s meat was going to offer.
+“Are there still some people around working on cleaning up the debris, Yulong?” Shira approached Yulong, showing off the braised chicken he got from the Elzhier Family. “I’ve got something for them.”
 
-But happy time was short. Soon, incoming evil approached in the form of Elder Fhantir.
+Yulong received the basket full of wrapped food. “Please go take a look at your uncle and cousin, young master. They’re in the family council. Let me handle the accommodation for volunteers now.”
 
-“Patriarch Shuro, we need to repair our wall but we’re dirt poor. We don’t have any choice.”
+Agreeing on Yulong’s suggestion, Shira then walked to the council hall. The council hall was different from the family hall--this was a place where only the elders and related family members would come to discuss an issue that was not appropriate for common family members to involved in. What welcomed him when he arrived, though, was a crowd. The crowd barely entered the hall, but this commotion confused him regardless.
 
-Shuro Yashura instinctively took a step back, protecting Beefy’s fatty body. “What do you mean, Elder Fhantir?”
+“Nooo!! I am the Eldest Young Lady of this family! This is unfair!!!”
 
-Elder Fhantir’s face formed an evil grin. 
+A young woman’s squeal shrilled enough to make Shira stopped his track. There he saw Mila’s bawling face bursting out of the council hall. She came to hug a wooden pillar with her eyes red with grievance, acting as if she was wronged. “What do you mean I can’t have my cosmetics anymore? How come the Eldest Young Lady like me couldn’t get my rightful allowance to buy cosmetics any longer? Don’t you know if I don’t apply my usual cosmetic at least once every three days, my skin would go back dry and rough? In Elzhier Family, even a maidservant could afford cosmetics everyday--but why couldn’t I? Why can’t I? What’s the point of being the Eldest Young Lady if some mere servants have skin more beautiful than me? What’s the point?!”
 
-“We need to sell Beefy!”
+What answered her was silent. Watching at the council hall from where Shira was standing, the building looked desolate.
 
-Shuro Yashura gasped. 
+At that Mila’s bawling became even louder. She covered her face and cried as she stormed off from the crowd, “Waaa! Waa!! I don’t want to be Eldest Young Lady anymore!”
 
-“Beefy, noooooooo--”
+The scene Mila throwing a tantrum was seen by members of the family, even the servants watching the spectacle. Shira felt a headache coming from this cousin of his. At this time of hardships, the outer family members of Yashura Family would seek stability from the elders as well as the authority of the main family’s bloodline; was Mila aware that her freaking out would make all these people uneasy?
 
-Patriarch Shuro abruptly opened his eyes. 
+Yet just as Shira began to carry on, a middle-aged man’s bawling followed
 
-“Beefy!”
+“What do you mean I can’t cook beef rendang anymore?!” Patriarch Shuro burst out from the council hall, thick moustache wet with snot, hugging a pillar and squealing at the direction of council hall acting as if he was wronged. “In Elzhier Family, even the most lowly servants can set up a stall selling beef stew and beef satay, they butcher cows once every two days and make delicious beef muchever they wanted--but why couldn’t I? Why can’t I? What’s the point of being a patriarch if some lowly servants could cook food more delicious than me? What’s the point?!”
 
-Short on his breath, Patriarch Shuro found himself sweating in his bed. He looked around his bedroom, confused. In the same room he saw his wife tidying clothes, and was looking at him strangely.
+Covering his crying face like a little girl throwing tantrums, Patriarch Shuro stormed off with a shrill, “I don’t want to be Yashura Family Patriarch anymore!”
 
-“Oh, dear, are you having a nightmare?” his wife asked.
+Shira was dumbfounded.
 
-“Nightmare?” Patriarch Shuro wiped sweat off his face. “Yeah, yeah, nightmare. It was only a nightmare. Heaven, I really thought Elder Fhantir’s gonna sell my Beefy…”
+At this point, forget about being uneasy. The outer family members and the servants were all dumbfounded as well.
 
-Relieved, Patriarch Shuro lying his head again on the pillow. He had been under heavy stress that he encountered a really, really terrifying nightmare. He needed a good rest.
+Only when Shira narrowed his eyes at them did these busibodies cough awkwardly and dispersed, acting as if they didn’t see anything.
 
-However, just when he was about to sleep happily again, his wife said, “But isn’t Elder Fhantir going to sell all of our cows to Elzhier Family today?” 
+The boy then entered the council hall. And as what he expected, the only one sitting in the hall supposed to host thirty was only an old man.
 
-Patriarch Shuro, who was already smiling comfortably preparing to fall asleep for the second time, abruptly opened his bloodshot eyes. 
+“Elder Fhantir.”
 
-“BEEEFFY, NOOOOOOOOOOOOO!!!”
+“Young Master Shira, you’ve come.”
 
-Shira was a neighbor to his uncle’s house. He just locked his door when he heard his uncle screaming this morning.
+The elder, Fhantir Yashura, was smoking old-fashioned pipe, the wrinkles on his face made him look even more evil than when he was younger. His official title was the treasurer of Yashura Family. In practice he was the most senior in the elder council, partly due to his age, but mostly because he was the one who managed everyone’s salary and the food expense Yashura Family could use. This old man decided what kind of food the family members could and couldn’t eat--for the kind of family of foodies, he was the most powerful man in the entire Yashura Family.
 
-“What now…” he sighed.
+And this Elder Fhantir told Shira to sit down with a tone that made the receiving end felt they’d never leave the room alive.
 
-Though he had something to do this morning, Shira thought it best if he checked out how his uncle was doing. After all, his uncle was left devastated after Elder Fhantir decided to sell off the entire family’s cows.
+“Is the treasury… really that bad, Elder Fhantir?” Shira asked.
 
-The main family’s houses in Yashura didn’t have any excotic decoration nor they had expensive decoration, but their style of home for living strikingly different than the common family members’ houses. As Yashura Family was the most conservative family than the two other major families, their taste in everyday architecture leaned more on the traditional side, as seen in the Patriarch’s main house still use old staged, wooden home style that installed two feet tall stairs to reached the door--the style of house that were commonly found in places where monsters swarm frequently struck, just like Badril Village was a few decades ago. The only thing that made Patriarch’s house different than simple folks’ staged house was the entire wooden house varnished with saps of lacquer trees, down to its wooden floor. When Shira visited his uncle’s house, he noticed the brazier in the yard was still sparking embers. He picked a wild twig and put out the fire as to save charcoal, thinking that Mila who usually put out this brazier as one of her her daily errands must be still asleep for her to miss this out.
+“We can afford to repair almost everything except the wall, young master,” Elder Fhantir said. Seeing the amicable look on the boy’s face, the elder grumbled. “What’s with that look?”
 
-Shira then knocked on the door. “Uncle, aunt, can I come in?”
+“Please enlighten me with the situation, Elder.”
 
-“The door is not locked,” a voice said, not from inside, but from the veranda where Shira was standing.
+Elder Fhantir’s wrinkled face made him look unhappy, yet he explained nonetheless. “Back then, when your grandfather was still alive, he contracted a specialist tribe to erect the wall, giving the responsibility to gather the material and to construct the wall themselves. They were the descendants of an ancient Mossack builders tribe. They knew better than us, and their works were always exemplary. But everything was expensive--especially the materials. The stone to build our wall isn’t something you can get from digging river beds. They were extracted from a certain mountain one hundred miles away from here. We need to recomission them to make our wall back to its original form.”
 
-“Mila?”
+Shira could understand the severity behind Elder Fhantir’s words. From the beginning, Yashura Family could gain a foothold as the major family because they could afford to protect their family members back when the time monster stampede and bandit attacks were as common occurrence as rain in humid season. Elzhier Family might be well-connected and wealthy, and Malikh Family might be successful gaining influence over the course of past decades, but historically, none of the two other families were more dependable than the Yashura in time of crisis. The story of his grandfather the previous Patriarch Yashura launching campaigns to eradicate volatile monster nests and exploiting Selaqs’ feral power to keep monsters at bay, as well his father Jhuro Yashura securing smooth trading routes, were stories of legend boys of the current generation often romanticized. Yashura Family was once known as the lion of Badril Village. And the sturdy wall of Yashura Family was something that the previous patriarch left behind--a standing symbol of Yashura Family’s might. Cutting corners in repairing the wall would be the same as telling people they wouldn’t be in business of being the village’s guardian anymore. At this time, especially when Elzhier Family was having the seat of the village head and Malikh Family enjoyed popularity brought by their Young Lady’s fame, Yashura Family couldn’t afford to be more left behind by having their influence and authority undermined further.
 
-“I’m here.” Apparently, Mila, whom Shira didn’t notice when he climbed the two feet tall stairs onto the veranda, was sitting there in the corner near the window. 
+Just as Shira could imagine how serious the situation was, Elder Fhantir continued giving him bad news, “That’s only the beginning of the problem. Now we need to figure out how to contact that builder tribe. Your grandfather no longer in this world, and the last Yashura Family elder who remembered the tribe’s location would be Elder Thula.”
 
-“What the hell are you doing…” Shira sighed as he squatted before a blob of bedsheet.
+“Will Elder Thula come out of his retirement to help us out?”
 
-Mila covered her body really well. Shira couldn’t even see her but her eyes peered through the slight gap on layers of the bedsheet.
+Elder Fhantir didn’t answer immediately. Instead he busied himself by refreshing his smoking tobacco. Shira thought that the elder wouldn’t be willing to answer this, but Elder Fhantir then said, “I’d rather leave hole in our wall than call that old bastard back.”
 
-She said, “My mother told me to go outside to do my daily errands--but I don’t feel like doing it. I’ll stay here chilling to waste my free time.”
+Shira was troubled seeing Elder Fhantir’s mood dropped. Elder Fhantir explained more.
 
-“No, I’m talking about why you’re covering yourself like this. I really thought you were dirty laundry just now.”
+“The old fart has something better to do than worrying our internal affair,” he said, making Shira recall that the story about his grandfather’s two trusted aides, one was elder who managed the internal finance and politics and the other one managed external affairs--both whom were ferocious in their own ways. Elder Fhantir said after a long exhale of smoke, “It’s not that we can’t do anything without Elder Thula. This builder tribe should be alive and well, their crafts passed down for generations. All we have to do is to track them down and leash a new contract.”
 
-“I’ll have you know! I’ll have you know, aisshhh! It’s Elder Fhantir! He confiscated the cosmetic Grandpa Piss gave me! He’s going to sell it to Elzhier Family!” Mila hissed with a voice full of seething anger. Maybe if Elder Fhantir wasn’t her senior and one who was regarded as pseudo Grand Elder of Yashura Family, Mila would pull her sleeves and came to fight him to death to in order protect her cosmetic.
+“Is all this really that expensive for you to confisticate Mila’s cosmetics.”
 
-Shira, on the other hand, had a complicated feeling after hearing that. He couldn’t but asked, “I understand if Elder Fhantir sold the family's property to repair our wall. But did he really take your stuff by force?”
+“It’s because those cosmetics handcrafted by Grandpa Piss that makes it complicated,” Elder Fhantir looked solemn, “The one who connected your grandfather to that builder tribe was Granny Niu Elang from Elzhier Family in the first place. These women from Elzhier Family were feisty, your grandfather did a lot to receive help from them. Now we need to ask her favor again. Elzhier Family wants Mila’s cosmetics this time.”
 
-“Well…” the voice from the blob of bedsheets was dragging, “he did say he would contact Grandpa Piss to send another one next week but… how am I supposed to protect my skin until then?!”
+Shira fell to his thought. Was his grandfather asked a favor from someone in the all woman sect hidden in Elzhier Family back then? Women sure did love cosmetics.
 
-Turned out the one who was unreasonable was Mila in the first place. Shira felt he wasted his precious twenty seconds for his time sympathizing with this block headed cousin of his.
+Elder Fhantir impatiently said again, “Fool. Why freak out just because a damned cosmetic? You people could just ask then more from Grandpa Piss later, he won’t dare to reject us if he knew we’re having a damn hole in our wall.”
 
-“Stop this Mila, you’re making yourself looking like a fool,” Shira said. 
+Shira recalled how Mila behaved pampered before the friendly Grandpa Piss. It did seem that he might personally concoct cosmetics for Mila for the second time. “What about my uncle’s ruckus?”
 
-He pulled the bedsheet from Mila, but the girl hissed and struggled.
+“Didn’t I say everything was expensive? I’m going to sell all of our cows on our ranches. Elzhier Family wealthy enough to take them all. We also need the surplus from this deal for our saving to build roads that your grandfather couldn’t manage to build before his death. Road--that’s your grandfather unfulfilled wish. It’s better than having these money squandering fools thinning out our treasury everytime we celebrate Ngajen Ceremony.”
 
-“What are you doing? You’re exposing me naked!”
+Unlike his cousin and his uncle, Shira didn’t question Elder Fhantir’s decision. Owning a cow ranch was a symbol of influence in Badril Village, mainly because with stock of beef they could gain good impressions and reputation by cooking delicious food during Ngajen Ceremony. If Yashura Family sold all of their cows to Elzhier Family, it’d be the same as they surrendered the competition to their own rival. But Yashura Family still had goats. It was not like they couldn’t make do without beef. No matter how much he liked beef, in Shira’s opinion, repairing the wall was more important than the privilege of hosting Ngajen Ceremony with beef rendang.
 
-Shira immediately took his hands off the bedsheet. Grimaced, he asked, “What? You’re not wearing any clothes?”
+“You’re the first one from our family’s main bloodline who’s not freaking out for nothing. Saying this much to your uncle is useless. You’ll just make do,” Elder Fhantir said. His impression on the gullible Patriarch Shuro really that bad.
 
-“No! I’m not applying my skin care!!”
+Beyond what already explained, Elder Fhantir wasn’t willing to share it with a junior like Shira regardless his status of the young master. Just when Shira about to leave the council hall, Elder Fhantir gave him a message, “An injured lion needs others’ help to survive, young master. But it doesn’t mean it won’t be able to roar again the next time.”
 
-He just realized Mila was in that kind of phase where she was worse than when she was on her periods. Throwing his hands off the air, Shira left his cousin on the veranda and continued to enter the house. From his aunt he learned his uncle also on that kind of phase where he’d spend in bed, depressed.
+Shira nodded. After stepping out of the hall, he looked back in pensive. Yashura Family members and other elders had long referred to meeting face-to-face with Elder Fhantir for a death punishment. Just a glare from the mean-looking old elder could make legs turn jelly. But in a hard time, the boy actually was glad that Yashura Family had the final defense that was heartless enough to face a crisis with adversity--as his uncle, he thought he wouldn’t be able to come with decisive decisions like this. Shira rubbed his nose. Looked at the passing family members and servant. Then looked back at the family hall. He wondered how many more people in Yashura Family who shared the same thought as him regarding of Elder Fhantir.
 
-Madam Yashura sighed, “He always has a soft side like this. Why couldn’t he be more decisive like his brother? Will Yashura Family be okay if our patriarch couldn’t even get himself straight?”
+---
 
-“Aunt, don’t worry,” Shira said, putting down the glass of soybean milk his aunt gave him, “I can substitute for Uncle Shuro on the family hall breakfast this morning since Elder Fhantir’s going to take over the session anyway. Elder Fhantir needs to officially announce his decision to repair our ruined wall, so people wouldn’t notice much if Uncle Shuro absent.”
+The mess happened in Yashura Family made Malikh Family look very tranquil. By the next morning, Lyla Blackwood already was familiar enough with Malikh Family’s place she ran joyfully toward the kitchen with the tip of her toes.
 
-“Would that be alright?”
+“Sistah Bhela, yuuhuuu~ yuhuu~~” Lyla greeted as she deeply took a whiff. The aroma of peanut sauce satay early in the morning was heavenly. Bhela was squatting alone in front of the kitchen, waving a fan for grilling satay, occasionally flipping bamboo skewered chicken satays. Lyla came to squat beside her, staring at the halfway done chicken satay, asking, “Sis Bhela, you’re making satay for your family’s breakfast?”
 
-“As long as Uncle Shuro is fine on tonight’s council meeting, I can’t see reasons for elders would make things difficult for him,” Shira said, confident that more than half of the elders would find excuses to avoid this morning breakfast in family hall, thus as long as Elder Fhantir spared his uncle, it should be fine not attending the morning assembly.
+People around here didn’t usually eat satays for breakfast. But Lyla was hyped for satays recently, so Bhela decided to begin the day with one. “These are for us. Aunties inside are making chicken soup, they left me some chicken breasts to cook as I see fit.”
 
-And it turned out his guess was correct. When he came to the family hall, even the common family members, upon seeing Elder Fhantir had taken the stage, had the face of pretending to see nothing and immediately sneaked out before they were noticed. This made Shira wonder whether those people really were more afraid of Elder Fhantir than the prospect of having Yashura Family’s authority crumbled away slowly. People wouldn’t notice if Patriarch Shuro was absent this morning--only because most of them were busy hiding in their own home trying to cook up excuses to be absent themselves.
+“How lucky! Thank you aunties in the kitchen!” Lyla shouted.
 
-Fortunately, Yashura Family wasn’t as hopeless as it seemed to be. Amongst the minority of elders and common family members who stayed in the family hall, most of them had put solemn expressions and listened to Elder Fhantir’s announcement, eyes brimming with concern. Amongst these faces were traditionalists and hardliners of which Patriarch Shuro always avoided--because if troubles invited debates, the patriarch had never even once won an argument against these people.
+From the kitchen window flashed one of the aunties’ faces, replied her with a laugh, “Don’t mention it. You’re not staying here forever, Young Lady Lyla, so might as well eat every one of Mossack's original recipes!”
 
-And so the talk went on for a half hours. After the breakfast session was done in the family hall, Shira came to talk personally with Elder Fhantir, who detached himself to smoke a pipe as soon as he had the chance to do so.
+“Ih wao! Such good aunties! Malikh Family aunties are the best!”
 
-“Elder Fhantir, please take a look at this,” Shira softly placed a wooden box in front of Elder Fhantir. 
+Lyla was waiting for the chicken satay to cook. She couldn’t stop staring at the chicken juice dropping on burnt coconut shells below, which then later steamed and released the aroma of peanut sauce goodness. Not much time passed, Lyla droll began to well in her mouth.
 
-“A box?”
+“Sis, can I fan satay too?”
 
-“My private stash,” Shira said.
+Instead of giving Lyla the fan she had on her hand, Bhela said to her, “Go ask aunties for a fan for you. And also ask whether the marinated carps ready to be grilled.”
 
-This was his secret box he had since he was a child, the only one who knew it existed only people who lived in his house--himself, and his father Jhuro, who never stayed home.
+“Is the fish for the two of us too?” Lyla asked with glimmering eyes.
 
-Elder Fhantir opened the box, then closed it again after he took a brief peek. This made Shira’s smile turned wry. He expected Elder Fhantir would grill him half to death over the content of the box, but got speechless by Elder Fhantir’s lack of reaction.
+“Yes.”
 
-“What?” Elder Fhantir grunted. “You want me to nag over the reason why you have so much precious stuff on you? I already know you are hiding your wealth even though you haven’t yet going through your coming of age ceremony.”
+“Waawoooww!”
 
-Shira was silent. Exhaling lines of smoke through his nostril, Elder Fhantir continued again, “I’m not blind. I knew what you were up to something since months ago. Previously, I don’t know why you have so much money to befriend an outsider peddler to work for you. But after all those Nalaqs nonsense happened, I reckoned there no need to ask you now.”
+The little happiness Lyla found in this humble village was that she could eat satay and grilled fish for breakfast. Back in Blackwood Family manor, Lyla wouldn’t even dare to dream for this to happen. Kitchens in Blackwood manors were forbidden for Lyla to enter, but the Malikh’s kitchens were forever open for her to plunder.
 
-Boys and girls of southern lands were expected to focus only doing daily errands for their parents until the day they were treated as adults on their coming of age ceremony. If the elder willing to let it go the matter of him breaking rules, then surely Shira wouldn’t complain. “Please be free to use it as you see fit. To leave a leeway for our family’s next month Ngajen Ceremony is all I’m asking you.”
+And so Lyla entered the kitchen to fetch some fan for grilling. But kitchen aunties stopped her to give her snacks and crackers. So instead of returning to Bhela immediately, Lyla sat on a wooden table, munching a salty cow skin cracker the aunties shoved her, swinging her legs back and forth as she lazily the drama that unfolding in the kitchen; the old woman in charge of making sambal, Granny Litha, was scolding some haughty young maidservants.
 
-“Hoo, you’re trying to negotiate--I thought you saw the errors of your way and came to ask for forgiveness because I’m scary.”
+“How many times I have to tell you, don’t throw away edible cabbages!” Granny hished as she knocked her walking stick on the ground to make a protesting noise. “How many times should I tell you, you pampered bunch of babies?!”
 
-“Elder Fhantir, that’s basically my entire saving I had on me currently,” Shira said with a helpless smile. He didn’t expect the old elder to tease him.
+“But Granny Litha,” one of the maidservants talked back, “Elder Jhamil ordered us to throw away all vegetables that are not fresh anymore!”
 
-A young man shouldn’t be too impudent and Shira certainly knew his line. Elder Fhantir’s face was apathetic, yet his eyes still clear enough to see sincerity in the boy’s face. He knew that this young master of his was negotiating not for himself, but for his uncle who was devastated in his own bedroom.
+Another young maidservant followed suit, “Yes, Elder Jhamil said that. He also said that the noble guest used to eat food differently than us, so we all need to make sure we control our food quality before presenting them to the noble guest from Blackwood Family. You may not know this, Granny Litha, but nobles can’t eat dirty food!”
 
-“Very well,” Elder Fhantir dropped his smoking pipe. “Tell that uncle of yours I will leave only one cattle for him to slaughter in the next Ngajen Ceremony. But I will still sell the Wagyu breed that fool uncle of yours always talked to. I can’t give him that cow, it’s the reason why Elzhier Family is willing to buy our cattles in the first place.”
+At the same time as the young maidservant fiercely arguing with the grumpy old lady, Lyla knocked the wooden bowl that held all the skin crackers aunties gave her, accidentally dropping them onto the floor. After making sure right and left that nobody realized her blunder, she squatted, picked the crackers on the floor, and patted them to get rid of any dirt.
 
-Ah, in the end, Shira couldn’t save his uncle’s Beefy from being sold by Elder Fhantir. Poor Uncle Shuro--Shira wanted to help him but Elder Fhantir was just too strong.
+“Five second rule!” she rationalized. She then shoved them all quickly into her mouth. _Crunch crunch crunch._ She continued to watch, acting as if the heated arguments didn’t have anything to do with her.
 
-It was just sad. But what was more sad for him that the fact before he entered the family hall, Shira was the richest kid in the younger generation of the entire Badril Village--stepping out of the family hall he was dead broke. Shira originally wanted to save a few for his pocket money before Monkey and Snake come back bringing the fruits of his investment, but he didn’t out of guilty conscience. Not to mention Elder Fhantir’s glare giving him an incredible emotional pressure--now he somehow knew why people avoid Elder Fhantir as if their lives were on the line.
+Because Granny Litha wasn’t someone with a golden tongue, in the end, all she only could was grumply use the oldest card in her sleeves--”Hmph! Back when I was your age, to eat a leaf of cabbage was already a blessing! You young’uns really don’t know how lucky you are to live in a time of peace where you don’t have to worry about monster stampedes and bandit raids! Back then, don’t even mention rice, there were times that we didn’t even have millets to fill our bellies! Us old folks were so poor and hungry that we had to eat grass for our daily food!”
 
-“I did hope everything’s going to be fine next month,” Shira said to himself. If Yashura Family still a mess the time Monkey brought him money, then he wouldn’t be able to sleep at night if he didn’t face Elder Fhantir for the second time.
+Everyone in the kitchen already heard Granny Litha’s “back when I was your age” scolding for the thousand times, so her words entered their right ears then left through the left ears immediately. Well, everyone was, except Lyla.
 
-After having a breakfast Shira circled around the yard and checked the street where Good-Natured Spirit always hung out smoking cigarettes, wanting to earn some money out of him. Shira didn’t find the Nalaq, though, even after searching on the hill behind Yashura Family still he couldn’t see the annoying cocky smirk that always greeted him with half-harmless verbal abuse.
+“I want to ask something, Aunty Yaya,” Lyla said as she tugged the aunty’s sleeve who stood beside her.
 
-Shira then went down to visit his uncle’s home, wanting to find an errand that could generate him some money. He just realized as he itchily rubbed his nose that the prospect of holding no wealth made him very restless. He was restless enough to the point he’d go scraping for pennies. There got to be something he could do to earn Kobe coins.
+“What is it you want to know, Young Lady Lyla?” the aunty called Aunty Yaya smiled, while seamlessly transferring one of the cinnamon buns on the tray that she had onto Lyla’s hand.
 
-“Why don’t you open your own food stall?” his aunt told him when he asked for some work. While generally working and opening business before coming of age ceremony was looked down upon, but most boys and girls still able to earn pocket money by taking advantage of the running errands for their parents. “Your uncle made quite a lot of fortune when he was young by opening his own food stall, you know. Aunt originally preparing Bulayak Satay for launch, there’s a whole pot of Bulayak Satay sauce back in the room. You go ask the kitchen for leftover chicken innards, then you can use Aunt’s Bulayak sauce and sell satays at the mountain’s foot.”
+Before proceeding with her question, Lyla quickly gobbled the cinnamon bun like a squirrel. After the bun was gone she finally asked, “Is it true that people in Badril Village eat grass?”
 
-That was actually a good idea. If his guardian was the one who took an initiative to send him on an errand where he could gather some money the old people--even hardliners like Elder Fhantir--they wouldn’t be able to question him of breaking the rules out loud. Amongst the three members of Patriarch Shuro’s family, Shira always knew his aunt was the most reliable of them.
+Smile on the Aunty Yaya’s face froze. She looked at this girl asking that kind of question with such big, googly eyes. If she gave her a wrong reply, wouldn’t the girl think that Badril Village was such an uncivilized place for eating grass?
 
-The young masters of big families usually had many ways of getting money secretly through connection. Some privileged young masters like Shira, had people like his aunt and Butler Yulong he always relied on. Eventually, also with Butler Yulong who made things smooth behind the scenes, Shira set off from Yashura Family pushing a portable stall in form of a cart, with the destination of Badril Mountain’s entrance--commonly known as the border between the village and mountain full of monsters--a place where hunters and teenagers who wanted to raise their levels by fighting monsters usually hung around in search of team party or preparing for their adventures.
+“There are actually some types of grasses that can be eaten, don’t you know, Young Lady Lyla?” the aunty said with the straightest smile she could put on her face. “One particular grass, for example, called Paku Grass, which you can find easily in Badril Mountain’s valley. While Paku Grass usually boiled with herbs and dried fruits, its taste can change if you chew it raw thirty times--it becomes sweet just like how rice tastes if you chew it long enough!”
 
-He began grilling Bulayak Satay as soon as he unloaded his cart and his food stall assembled at the place reversed for Yashura Family’s people. Before his satays get done not many people interested in his shop. However, as the smokes from his grilling satays spread across the place, some older people then came to him with their faces sullen as if Shira did them wrong.
+“Iih wao! I didn’t know that!” Lyla exclaimed as her mouth gapped with “O” shape. Aunty Yaya nodded as she was glad that this sweet noble young lady wasn’t disgusted after knowing some people ate grass--which was something poorer folks had done to survive until past two decades, when the routes to trade were secured and the economy improved thanks to Jhuro Yashura’s and Ghalim Malikh’s gang living outside as <span style="text-decoration:underline;">road warriors</span>.
 
-“Isn’t it too soon for you to set up your business, Young Master Shira?” an old hunter said to him.
+Not much long after that Bhela entered the kitchen because she felt Lyla forgot about the fan and the marinated fish. But soon she realized the uncomfortable mood around the kitchen. She heard Granny Litha yell something before. She too had grown dull with Granny’s “back when I was your age” scolding, so she didn’t remember what that was about.
 
-Another one said, “Our kids are following our ancestors' rules not to be too mindful about money before their coming of age ceremony, Young Master Shira. You came from Yashura Family, I know; but if you break customs so blatantly, wouldn’t that be a bad example for other kids of other families, no?”
+“What happened?” Bhela asked Lyla.
 
-These people were from common origin, but their tones were particularly harsh seeing Shira trying to earn money for himself. Southern Mossack culture didn’t lack a caste system, albeit vague and hadn’t had the inequality class struggles problems like more sophisticated society of the western empires and the easterns kingdoms did. Poor and rich were commonly seen dining together at the same table during ceremonies. Peasants and masters were usually laughing and farming together under the scorching sun. And because of that, it was understandable for random folks berating young masters if they were crossing the line. 
+Instead of answering, Lyla asked something unrelated, “Sis Bhela, don’t you know you actually can eat grass?”
 
-Though unfamiliar to the experience, Shira knew this. Thus he previously prepared an excuse so people would leave him earning money in peace.
+“Who said that?”
 
-“I’m opening my stall under my uncle’s order,” Shira lied with a straight face. “My Yashura Family recently got in trouble financially in case you don’t know. So my uncle told me to get some money for disaster relief fund. Try this, this is the famous Shuro Yashura’s secret Bulayak Satay recipe.”
+“Granny Litha!”
 
-They didn’t believe Shira at first. But upon tasting the Bulayak Satay themselves, these complainer relished themselves in the deliciousness of the satays.
+Thinking about it again, Bhela did recall Granny Litha yelling something about grass.
 
-“Ah, it really is Patriarch Shuro’s Bulayak Satay! I’d be damned!”
+“And Aunty Yaya said grass can become sweet if you chew it thirty times!”
 
-“How long was the last time I eaten satays from Patriarch Shuro’s food stall?” the other one lamented the fact that with no social status, eating food that was personally cooked by Patriarch of Yashura Family was only a dream. “I can’t believe you can replicate the same taste of Patriarch Shuro’s Bulayak Satay, Young Master Shira. I thought it could only be done only if you share the same kitchen with Patriarch Shuro at least for twenty years! To think you have this kind of talent, you’d be a great Patriarch Yashura in the future!”
+Bhela was angry at Aunty Yaya. Not because she was lying to Lyla, but because what she said was actually true. Eating grass was something Granny Litha said when she was furious, as people really did eat Paku Grass to survive everytime disaster struck in the old days. But nowadays nobody in Badril Village was so poor they had to resort eating grass anymore. Bhela didn’t know how to explain this to Lyla so she changed the topic back instead. “Grilled fish is better. We need to grill our fish outside. There’s too much smoke inside. Look, your eyes have already teary.”
 
-“Yes, yes, of course,” Shira humbly nodded at the sudden sung of praise given to him. He knew his uncle’s name alone could make his food stall best seller in the village if he wanted to, thus he unashamedly took credit over the Bulayak Satay’s sauce that his aunt had prepared for him beforehand. “Do you like it, dear customers?”
+Lyla’s eyes indeed was red because the smoke from wooden fire pots.
 
-“It’s Patriarch Shuro’s secret Bulayak Satay recipe. What’s not to like?” one man said with a friendly smile.
+“Where’s your fan?” Bhela asked.
 
-Shira also began to smile friendly, “Thank you. That would be thirty five Kobe copper coins.”
+“All the fans are being used by aunties to cook, except one,” Lyla told Bhela what she found after watching all the aunties working when she herself was busy eating cow skin crackers.
 
-And abruptly the original friendly smile froze flastergabbedly.
+“And where’s the fan that’s not being used to cook?” Bhela then asked.
 
-“What?! Thirty five?” one man slapped his thigh in anger. “Patriarch Shuro only sold his Bulayak Satay for five copper coins back in the day!”
+“There!” Lyla pointed at the old granny who, while grinding chillies to make <span style="text-decoration:underline;">sambal</span>, grumpily fanned the smoke from coming to her face. It was her habit to fan herself when she was angry.
 
-“Ah, that was more twenty years ago. Dear kind uncles, have you read something called inflation? Should I enlighten you with a lecture on basic economy theory?”
+Granny Litha didn’t have any spouse or significant others in her life. She was an old maiden, the kind who wouldn’t be able to get respect from her peers, because none of her relatives had been willing to step up in her time of crisis. So usually, when others need the fan, they just ask her casually. Nobody really respected her even though her skill in making spicy <span style="text-decoration:underline;">sambal </span>was second to none. At this time even most of the younger generation of Malikh Family forgot that Granny Litha was actually Elder Jhamil’s aunt--though they lived their lives separately, and Elder Jhamil couldn’t be bothered with an aunt who stuck in the back of family kitchen for decades. In the end, Granny Litha could scold people however much she wanted to--but if there was no one to back her, she couldn’t really argue back when she was the one who was slowing others’ work.
 
-The complainers learned this Yashura Family’s young master was actually hard to deal with. They left unhappy after paying for the Bulayak Satay they had eaten.
+Bhela didn’t tell Lyla to ask the fan from Granny Litha, however. She needed Granny Litha’s <span style="text-decoration:underline;">sambal</span> for the grilled carp after all. She gave Lyla the fan in her hands instead.
 
-After that, with the help of his uncle’s reputation as one of the best cook in Badril Village, Shira didn’t encounter any difficulty selling his Bulayak Satay anymore. People came, at times even forming a line, which was rare for other food stalls. The amount of money flowing in made his smile become more slick and natural as the time went by. Indeed, as they said, even rice could taste as sweet as sugar cane if earned with the good ol’ honest hard work--although in Shira’s case, half-honest half-hard work, since he should credit his aunt for preparing the Bulayak Satay.
+“Use this, and stop bothering aunties working. Let’s cook our fish outside now.”
 
-“Business is good, good good good.” A voice intrusively came from his side when Shira’s thought entrapped by the coins he was counting. Shira raised his head--not surprisingly, Good-Natured Spirit came uninvited as always.
+Holding the fan, Lyla ran outside, yelling, “Grill fish, I’m comiiiing!”
 
-“Ah, where were you before, I was searching for you everywhere.”
+Before following Lyla outside, Bhela came to Aunt Yaya, said, “Aunty Yaya, please don’t put any weird ideas inside Lyla’s head.”
 
-“Kid, adult got stuff they have to deal with,” Good-Natured Spirit replied as he bent with a cigarette on his lips, lighting it with the flame made by fresh charcoal that Shira had just thrown it. “What do you searching me for anyway?”
+Aunt Yaya knew the young lady was complaining because she said too much about the grass. So she replied, “I’m sorry, Young Lady Bhela. It’s just if I don’t explain clearly to her, Young Lady Lyla would think lowly for us southerners to have to eat grass during hard times.”
 
-“Well, I sought you to play chess. But I’ve got stuff to do deal with so I currently can’t humor a _busy_ adult like you. Maybe later before evening. I’m free around that time.”
+“Trust me,” Bhela said seriously, “that is not what she was thinking.”
 
-Good-Natured Spirit chuckled, too lazy to counter the boy’s sarcasm. “Alright, man, call me anytime whenever you ready to lost your soul.” 
+Bhela later told a servant to fetch her a wholesome banana leaves directly from its tree. Although usually Lyla didn’t feel like working and doing some other boring stuff, she was surprisingly obedient when it came to her own food. She liked preparing the banana leaves because it was kind of novel for her to eat food without using a plate--they laid the cleaned banana leaves without cutting them into parts, spread white rice, and decoratively lining up chicken satay along with those sweet peanut sauce that painted the rice brown with deliciousness. Finally, the grilled carp was on top, poured with red spicy <span style="text-decoration:underline;">sambal uleg</span> that the aunties in the kitchen had prepared for them--made by Granny Litha, of course.
 
-Shira had never worried about how he’d win the game against Good-Natured Spirit--the bet he’d extort him was the place he needed to get creative, instead.
+Turned out eating like this, even without a fork and knife that Lyla always thought was a hassle, Lyla found very satisfying and she liked it very much. Any food would feel so much good if eat with friends. The breakfast was private for the two of them. But even for the glouton Lyla, it was quite a festive she couldn’t ask for more.
 
-“Why the fuck you Yashuras always made your charcoal from goddamn coconut shells?” Good-Natured Spirit groaned as he had difficulty lighting his cigarette. 
+_Buurrpp…_
 
-“Don’t ask me. We’ve been overwhelmed by coconut ever since my uncle took the position of the family’s head,” Shira said. Even this Bulayak Satay, unlike any other satays specialized in other families, used coconut milk and red spices as the base for its sauce instead of the earthy, creamy peanut sauce Mossacks’ satays always known for. There was a reason why Patriarch Shuro had the best Bulayak Satay recipe, but sucked at making other kinds of satays.
+The girl shamelessly burped while she patted her satisfied belly. “I’m pregnant with food, hihi. Look, Sistah, I’m preg--oiish oiish oiiiish… my naawse!”
 
-It wasn’t even two hours since he opened his food stall. The amount of customers Shira had dwindled after people began climbing the mountain to either hunt for monsters or training their levels. With the outrageous amount of revenue he got after exploiting his uncle’s name, surely his aunt wouldn’t complain if he ate one or two portions of Bulayak Satay for himself. And thus under the carefree sun Shira had his leg crossed lazily, eating grilled chicken innard satays with the spicy but mild Bulayak Satay sauce, Shira talked some useless stuff with Good-Natured Spirit who was smoking beside him to pass time. 
+Bhela always punished her with a pinch on her nose everytime she burped or did some other stupid things.
 
-“You should stop talking to yourself. You’re making me ashamed for having you as my fiancé.”
+“You’re a girl, Lyla, how many times I told you to stop burping,” Bhela said.
 
-The one who was talking before him was the Young Lady of Malikh Family, Bhela Malikh. She came with archery gears, complete with half-breast armor for female archers used to not having her things got in the way of her drawing arrows, and the famous icy face that wasn’t smiling; anyone could guess she didn’t come here to say hello to her fiancé. She came purely because she overheard Patriarch Shuro’s Bulayak Satay was being sold once again.
+That morning after their breakfast a young family elder came to Bhela, asking her to come to the family’s hall. Bhela was expecting for Elder Khasim to contact her, mainly due to the secret document she gave him, but she didn’t expect for Elder Khasim to work this fast.
 
-Shira thought it was his bad luck, the first day he opened his food stall he met someone he’d rather not meet the most. Especially when the bastard Good-Natured Spirit was around only to laugh at him.
+“Lyla,” Bhela called, “do you want to join me?”
 
-“Two portion Bulayak Satay, put it in one plate,” Bhela said in business-like manner.
+Lyla, who was busy on her knees trying to scrape the leftover satay peanut sauce on the banana leaves, raised her head, asking, “Where to?”
 
-“Do you want to eat here or wrap it home?” he asked.
+“Family Hall.”
 
-Bhela didn’t immediately answer, she glanced at the stack of clay plates stacked for consumers who wanted to eat on the spot. “How much would you sell for one clay plate you have?”
+“Family Hall?” Lyla’s ear perked up. Wasn’t the Family Hall the place where all the food that the kitchen made gathered in one place? “Let’s go, Sis Bhela! Let’s go eat our next breakfast today!!!”
 
-“This is not a wareshop,” Shira remarked.
+Meanwhile, in the Malikh’s family hall, the clamors amongst the common members of the family reverberated across the hall. Elder Jhamil tried very hard to appear calm, but his reddened face betrayed him regardless.
 
-One glance was enough to tell she wasn’t happy. She said coldly, “I have a friend. We’re planning to eat here. But I don’t want her to meet you.”
+On the opposite side, Elder Khasim calmly stroked his gray beard, his face brimmed with determination. Even his followers had hints of confidence in their eyes too. This morning, under the watchful gazes of all members of the Malikh Family, Elder Khasim accused Elder Jhamil of exploiting his position to gain benefits for himself and his own group. One must know beforehands that accusing an elder before their peers without the process of discussion in Council Hall was something unprecedented, even in the other major families. As one misstep could bite the accuser very, very badly. All this could tell that Elder Khasim wasn’t joking. He planned to go all out this very morning.
 
-“Hah hah, sure you don’t. Though I would appreciate it if you didn’t say it aloud. Here, I’ll give you one plate you can bring home for fifty Kobe copper coins.” Just get the hell out of here--Shira’s sour tone implied.
+At first, when the accusation landed, Elder Jhamil’s people were angry. They barked even louder than dogs to call Elder Khasim’s character as the family elder for slandering colleagues in front of common people. But soon Elder Khasim took out a scroll, reading one by one the deficit and the part where family owned materials mysteriously gone, forcing them to shut their mouth. Elder Khasim read it down to great details. The more he read, the more common members of Malikh Family got angry instead.
 
-For the first time Shira was grateful that Good-Natured Spirit--who had been rolling on the floor from his hysterical laughing--to not revealing himself to the common eyes. And he also felt lucky for having a face thick enough to maintain his poker face as he wordlessly prepared Bulayak Satay for Bhela to take out.
+“I originally didn't mind if some greedy people wanted to make some profits after their years of showing loyalty to Malikh Family,” with a biting sarcasm, Elder Khasim began his conclusion. “But one thing I couldn’t let go is the fact that our One Tulip Restaurant has lost its might and reputation in recent years. We might incompetent enough not to get proof all this years, Elder Jhamil, but nobody here was a fool.”
 
-Just as Shira was about to complete the order, Bhela said something to him, “Just so that you know, Young Master Blackwood is a certified Level 13 Knight class who studied under a veteran of the royal knight army. Compared to that, your Level 3 Novice status isn’t worth mentioning.”
+When Elder Khasim mentioned One Tulip Restaurant, everyone’s face turned solemn. It was fine if it was another of Malikh Family’s businesses, but One Tulip Restaurant, beside having been providing Malikh Family with quite a significant income, had been the symbol of Malikh Family’s rise many decades ago. This very restaurant was located in the nearest city in radius one hundred kilometers away, was originally a private business of the then Madam Malikh. When her husband passed away and her son too young to become the patriarch, she took control of the family and turned this simple restaurant to be a very strategic piece for Malikh Family’s expansion to the outside world. One Tulip Restaurant was the reason Malikh Family got enough wealth to build their own family’s wall in the first place, which ultimately led them to establish themselves as the third major family of Badril Village. For an official to taint such a historical place with their greed, all members of Malikh Family wouldn’t be satisfied unless they got to parade the culprit all around the village, before shoving him to a lion monster’s den or maybe even worse.
 
-Giving the Bulayak Satay Bhela ordered, Shira said, “It’s very nice of you to be concerned for your _real_ fiancé. But please don’t have to worry, I have my own plan.”
+“Elder Khasim, why are you brought One Tulip Restaurant out of the sudden?” Elder Jhamil’s face was sneering, but his hidden palms couldn’t stop from sweating. “Here I sit through all of your bullshit waiting for your nonsense to over. But what did I get? More nonsense, ceh! Do you want to throw mud on my face that bad to slander me in front of the entire Malikh Family? In your bullshit report you read before never once you mentioned One Tulip Restaurant!”
 
-Bhela frowned.
+“What are you saying, Elder Jhamil?” Elder Khasim just waved his hand at his opponent’s spat. “I only said that nobody here was a fool, I admit that we still haven’t found a single clue about One Tulip’s recession yet.” Actually, in the document Bhela gave him Elder Khasim found out about Elder Jhamil’s ridiculous corruption at One Tulip Restaurant. If not for the young lady’s reluctance for creating a complete chaos, Elder Khasim would gladly send this unreasonably greedy Elder Jhamil to his grave right here, right now.
 
-“Making a contract with an evil Nalaq isn’t a smart plan,” she said flatly, and said nothing afterward. The girl turned around and leave immediately as soon as she paid for the Bulayak Satay.
+Elder Khasim then turned to the crowd, said, “You all heard the proof I’ve got against Elder Jhamil’s shameless corruption. You can trust me, I got it from a very incredible trusted source. I’m going to use my position as the senior elder of the Malikh Family to impeach Elder Jhamil for this reason. The problem now, is there anyone here still willing to trust Elder Jhamil on managing One Tulip Restaurant?”
 
-Shira sighed. Everyone always said that he was the luckiest boy in Badril Village to be promised the village’s most beautiful and talented Bhela Malikh--yet, in his honest opinion, his noisy cousin Mila Yashura was cuter than this proud peacock who always had the expression seeing everyone else was beneath her. A fiancée who looked down on him on the front, and envious young men from behind, truly--Shira lamented--if he wasn’t the unluckiest boy in Badril Village, what was he then?
+Everyone whispered to each other, but Elder Khasim knew nobody was willing to place their trust toward Elder Jhamil currently.
 
-“Kid, your girl is pretty hot, alright, but I think there’s something wrong in her head,” Good-Natured Spirit said solemnly as he patted his ethereal clothes from invisible dusts. “How come a handsome me could be evil?”
+“Elder Khasim,” the old elder who managed the treasury opened his mouth, “I’m willing to work this old bone to check through family’s account books to validate your accusation. And I also do believe we need to relieve Elder Jhamil from his position at One Tulip Restaurant’s manager for a while--at least until we know whether Elder Khasim is telling the truth. Elder Khasim staking his reputation to impeach Elder Jhamil in the public, after all.”
 
-“Oh, yes, you’re not downright evil.” Shira nodded. “Lecher, maybe, but not every degenerate are plain evil like their haters believe.”
+“Elder, you…” Elder Jhamil was tongue-tied. This old foggy was very friendly toward him previously. He also got fat from benefits especially these past few days from Blackwood’s bribing scheme. To think even this old fox changing tune so quickly….
 
-Good-Natured Spirit looked at him with eyes narrowed. He recalled the first time he revealed himself in front of Shira, the boy was alert and conscious of his own words and actions. Yet, some months later, and many games of chess later, this kid got cocky and never really put him in his eyes. 
+Since One Tulip Restaurant was mentioned, anybody in the family would immediately washed their hands before being implicated in the scandal. Regardless of whether Elder Khasim was telling the truth or not, when the two factions were going to commit an all out war, best to be spectators along with other neutral elders and watch the spectacle from the sideline.
 
-“You know,” Good-Natured Spirit after a click of tongue, “that Bimbo Nalaq was worshipped by her girl and their relationship is pretty healthy. I’m not asking you to worship me, but at least you Mossack people should respect a Nalaq, no?”
+It was at that time Bhela and Lyla arrived at the Malikh Family Hall. When a family servant announced their arrival, the squabbling elders immediately looked at the two girls. Elder Khasim wanted Bhela to sit in the elders spot to join the argument as the member of main family, but Bhela led Lyla to a spot where snacks were abundant instead. The girls had just had their breakfast--and they came here for the desserts, nothing more.
 
-“I recall you said you’re not a Nalaq some time ago. One thing about respect, Ol’ Good-Natured Spirit, it is something earned--so maybe if you don’t make troubles all around the place I’ll kneel in front of you.”
+Helpless for wanting the young lady’s full support, Elder Khasim then pretended that the Young Lady Bhela Malikh wasn’t informed of the Elder Jhamil’s corruption matter, explaining, “We just argue about Elder Jhamil’s crime, Young Lady Bhela. This might be cruel to ask a girl who hasn’t yet had her coming of her age ceremony; but since your mother is busy attending on your ill father, then we incompetent elders have no choice but rely on you, young lady. Please, take a look at this proof I’ve collected from my trusted source.”
 
-“When was I making trouble? The fuck did I do?” asked the guy who been mocking him and laughing out loud before. Talking with Good-Natured Spirit somehow made Shira’s mood even worsen. “And who the hell gives you permission to talk some fancy shit?”
+Elder Khasim stood up from his cross-legged sitting to deliver the proof to Bhela--the trusted source he referred to in his speech. Bhela originally wanted to appear solemn reading it, but Lyla just couldn’t eat brown sugar pudding without making a mess on her face, so Bhela had to take a napkin and wipe the pudding from Lyla’s face first. Instead of looking like the proper young lady with the main family’s bloodline authority, at this time Bhela looked just like a young wife having to take care her little daughter.
 
-“I’m not the one who’s saying it. It’s Yulong.”
+“Well?” after reading it, Bhela raised her head, aware of the entire family’s attention directed at her. “If this was my father, I’m sure he’s not willing to let Elder Jhamil operate One Tulip Restaurant until the suspicion is cleared.”
 
-“Yulong, eh?”
+Elder Khasim nodded. “That is the case, young lady. My heart was bleeding when I uncovered this dirty matter to the entire family--but that is only because I think we urgently need someone else to manage One Tulip Restaurant, not Elder Jhamil!”
 
-“Yes, Yulong--why you’re having that kind of face whenever it’s about Yulong?” Shira asked.
+“Hmph!” Seeing that Elder Khasim wagging his tail in front of the young lady, Elder Jhamil harrumphed. His family was managing One Tulip Restaurant for three generations, how could he not see what the fella was really after?
 
-Good-Natured Spirit sneered between smoking his cigarette. “No meaning, I just find the old prick’s too pretentious. It’s annoying.”
+Seeing that the Young Lady Malikh was now busy explaining traditional cakes to her friend Young Lady Blackwood, Elder Jhamil decided to strike first as to leave a retreating path for himself.
 
-“You should stop. Yulong is a good man.”
+“Young Lady Bhela, I admit during my official duty I let some of my subordinates slip up due to my negligence--I admit guilty on some of Elder Khasim’s accusation!” he said with loud voice. “However, young lady, if you really are representing the main family, then please consider this matter carefully! One hundred years ago, Matriarch Malikh trusted One Tulip Restaurant to my grandfather, I don’t believe she’ll be happy in after life if some busybodies covet her precious legacy!”
 
-“Oohhh… really?” the nalaq sneered.
+Elder Khasim sneered at Elder Jhamil. Couldn’t this moron see that Young Lady Bhela he pleaded to was the one who actually orchestrated all this? “And then, who would you suggest to pass on your position, Elder Jhamil?”
 
-“Well, at least he’s sophisticated,” Shira said, then, with a low voice, he inquired, “Yulong somehow knew about the sect in Elzhier Family. He’s someone reliable, don’t you think.”
+Seeing that smug look on Elder Khasim’s face, Elder Jhamil turned vigilant. He glanced at Bhela who carefreely cracking nuts for Lyla to eat. Something wasn’t quite right, but he didn’t know what.
 
-“Heeh, I wouldn’t know,” Good-Natured Spirit acted as if he didn’t care. But Shira caught his eyes winced a little. 
+“Ehem,” Elder Jhamil began. “My son is an excellent young elder who recently got into service of Malikh Family’s council, young lady. He’s excellent in arithmetic and his Level and Class is also appropriate to be in position of leadership--I suggest you see him to understand how capable he is!”
 
-The boy didn’t say anything excessive after that. For the leecher Nalaq to hold himself back from making misogynist jokes when there were chances, he knew Good-Natured Spirit had a thought on his own. Shira, too, pretended to know nothing and continued selling Bulayak Satay liked he did before. It was because of Yulong’s name. The Nalaq’s sudden alertness made him able to confirm that he was able to safely extort Good-Natured Spirit so many times without getting retaliated--because Yulong, from behind, was watching over him.
+“I’ve seen him. In the kitchen.” Bhela said cooly. “Anyone who doesn’t know the rules of the kitchen shouldn’t be let working into any food stall, much less a restaurant. He should stay away from One Tulip Restaurant.”
 
-“Your girl, anyhow, feels that it's beneath her to get engaged with Novice trash like you,” Good-Natured Spirit suddenly said with an out-of-tune voice that was unusual to him, “why don’t you prove her wrong, eh? I still got Training of Hell for you to get stronk fast, remember? The offer still stand. You’ll be crowded with chicks if you follow my way.” 
+Chuckles and muffled snickers were heard from Elder Khasim’s side. Elder Jhamil’s face just got redder than he normally was.
 
-They had discussed this before, so Shira replied with the same answer. “No,” he said, “I have my own plan for this. Even if Yashura Family doesn’t get lucky with Sir Staterwind’s offer, there’s no need for me to sweat blood and tears just so that girl can have her own satisfaction.”
+Presenting a nephew of his, Elder Khasim confidently said, “This is someone I’d like to recommend, Young Lady Bhela. I believe my nephew’s education and honesty is something that everyone already knows. He got reputation amongst the younger generation as straight as a pole. Young Lady Bhela too, who was busy studying for two years abroad, also knew his excellence upon your return, I assume?”
 
-Shira might be not able to beat the noble young master from that Blackwood Family. He didn’t have to. When no one expected him to win the only thing he should avoid was to drag Yashura Family’s face down the mud--as long as he able to lose with grace, anything else fine.
+“Yes,” Bhela said. She glanced at the scholarly young man beside Elder Khasim. “But can he make sambal?”
 
-“Where are you going?” Shira asked when he saw Good-Natured Spirit arose from his sitting.
+Elder Khasim, who originally smug, blinked his eyes at Bhela’s question. “Sambal? Pardon my young lady?”
 
-“I’m gonna familiar myself with some chicks.”
+“I want to know whether he knows how to make a sambal or not.”
 
-Shira didn’t want to see the Nalaq when he out harassing girls with his invisibility. So he didn’t make him stay.
+Elder Khasim’s nephew was a scholar who had a strong grasp on arithmetic. But he never worked in the kitchen. Scratching his head, he wryly replied, “My current job isn’t requiring me to learn how to make sambal, young lady.”
 
-Good-Natured Spirit floated away as if he did the usual business and looked for some eye candies. But the moment he got out of the Shira’s line of sight, he appeared again, somewhat hidden in the crowd, crossing his arms with cigarettes between fingers he watched the boy carefully, eyes narrowed sharp.
+Bhela was calm. She said, “No matter who’s in charge of One Tulip Restaurant, it’s gonna decline eventually. It’s because of one particular reason; in the past, One Tulip Restaurant often praised by foreigners for a place to get the best sambal in the whole southern lands, but over the years no one could replicate the original sambal. For that certain reason One Tulip Restaurant isn't as popular as it used to be. Choosing a manager is no simple matter. But the main family’s main requirement for One Tulip Restaurant’s new manager should be simple; we want someone dedicated who knows how to make a great sambal, someone who can lead One Tulip Restaurant to recover its past glory.”
 
-It had been months the Nalaq realized he couldn’t beat the boy with only game of chess. He realized, as the time went by, Shira became cocky in front of him, and more so in the past few weeks. And now that the kid realized he got some backers watching over him, Good-Natured Spirit thought he would become even more cocky, and he didn’t welcome that quite nicely.
+Still blinking his eyes awkwardly, Elder Khasim then asked, “Young lady, do you perhaps have someone in mind to appoint as One Tulip Restaurant’s manager?”
 
-“Heehh,” he snorted. He turned back and floated away as Shira suddenly became busy with the second wave of customers.
+“No,” Bhela said straightforwardly.
 
-***
+“Then how about--”
 
-One thing that made Bulayak Satay stood out was its use of coconut. Bulayak Satay wasn’t the only satay recipe that used coconut milk as its base for the sauce, but it certainly widely known for wrapping Lontong with coconut leaves. Lontong was rice steamed in wrapping, was plain but filling. A famous travelling consineur once called it “solid boring porridge”, which was a praise for staple grain to support the rich taste of spicy dishes that Mossack cuisines known for. In any other satay dishes, however, Lontong always synonymed by color green, since it was commonly made by putting washed rice on green banana leaves and left it cook under steam heat.
+“But I can ask a foreigner for her opinion.”
 
-Reason for why Bulayak Satay different; the coconut leaves first weaved into a cone or long tube before filled with rice, resulting in the same but quite different Lontong that people normally eat on any other dishes. Granted, Bulayak Satay maybe wasn’t the only one dish that use coconut leaves wrapped Lontong, but a certain patriarch/coconut scholar would argue that if served with ordinary banana leaves Lontong, then Bulayak Satay would be nothing but ordinary satay with spicy coconut milk sauce. This patriarch/coconut scholar happened to be the best Bulayak Satay maker in the whole Badril Village, so his words were pretty big deal back when he said that. This was why in Badril Village Bulayak Satay was synonymous of coconut leaves Lontong.
+Elder Khasim wanted to say something but Bhela went ahead asking the foreigner she mentioned, anyway.
 
-The one who explained this was a maidservant of Elzhier Family named Nilda Elzhier. Lyla seemed to be listening while she dipped the long Lontong with spicy coconut milk sauce, mostly because Nilda also taught her the way to enjoy Bulayak Satay properly, which in Lyla’s experience, quite novel and enjoyable compared to peanut sauce satays Bhela always gave her.
+She asked, “Who do you think makes the most delicious sambal in Malikh Family, Lyla?”
 
-“I like this Bulayak Satay! Why don’t aunties in the kitchen never make Bulayak Satay, Sis Bhela?”
+Lyla’s eyes shone. Such an easy question! “Of course it’s Granny Litha! Granny Litha’s sambal is super delicious!”
 
-“Because Yashura Family makes the best Bulayak Satay, though they don’t sell it very often,” Bhela said, recalling the last time she had eaten Patriarch Shuro’s Bulayak Satay was when she was seven.
+“Mm. Grandma Litha it is.”
 
-Today, thing Lyla liked the most about Bulayak Satay--aside the taste--was the joy when she unwrapped the coconut leaves Lontong. Nilda taught her to open on one end, then let the gravity unwhirled it opened partially so that she could eat it while holding the wrapped side. With that, there was no need to use spoon or fork to enjoy Bulayak Satay.
+And thus, as the Young Lady of the Malikh Family had declared, Litha Malikh, known as Grandma Litha, or Cranky Old Granny as some called her, became the manager of One Tulip Restaurant. As their presence no longer needed, Bhela pulled Lyla’s hand, said, “Let’s go, Lyla.”
 
-“Whoever thought of this is a genius!” Lyla exclaimed as she bit the dipped Lontong. 
+Lyla stood up after she plundered cakes and pastries she was able to bring outside. They just sat there in less than three minutes, but already solved one of the biggest political battles that happened in Malikh Family’s history.
 
-“Mm,” Bhela hummed, took a bit of one satay. Her face might not look like it, but she was happy seeing that Lyla had a very healthy appetite.
+Common family members who were watching, although they hadn’t had any good impression toward cranky Granny Litha, were quite satisfied by Young Lady Bhela’s decision--mostly because they felt good upon hearing Lyla said their family’s sambal was super delicious. After all, Lyla Blackwood was a blue blood noble young lady through and through. Receiving praise from such a person made them overproud. But sophisticated ones like the elders had different reactions than common people.
 
-The three of them were squatting behind a shop owned by Malikh Family, hiding from the public sight. After all, although Lyla had disguised herself with common clothes, there always chances that people might wonder the origin of a girl they didn’t know. They didn’t want that. Even though the Elzhier Family’s side promised Bhela to obstruct Butler Tim and Elder Jhamil’s faction from finding her and Lyla. 
+“Isn’t Granny Litha that one hateful Granny who is very hard to please?” someone whispered from Elder Jhamil’s faction.
 
-Meanwhile, Nilda the maidservant was watching the two of them from the side. Originally, Bhela ordered Bulayak Satay for two people, and Nilda thought the two girls would share the food like sisters. It was true they shared the Bulayak Satay, but Bhela seemed to touch no more than three satays, while the rest were wolved down by the glutton Lyla.
+“Isn’t Granny Litha is Elder Jhamil’s blood relative aunt?” someone whispered from Elder Khasim’s side.
 
-“Is it fine to let Young Lady Lyla eat all the food? Isn’t you have big meal when having breakfast before?” Nilda asked, concerned by the pure glutton by the name of Lyla Blackwood.
+Upon returning back from their shock, Elder Khasim and Elder Jhamil both sprang up and shouted, “Please wait, Young Lady Bhela!”
 
-Bhela looked at the maidservant, replied straightforwardly, “It is fine.”
+---
 
-“Yeah, it’s fine!” Lyla howled. “Back in my home they always give me a small plate of meat while call it high-end cuisine! What high-end cuisine? If it can’t fill my belly then it’s not worth being called cuisine! Bulayak Satay is the real high-end cuisine--Badril Village food is the best!”
+Chasing across the corridor, both elders then found Bhela and Lyla already wasn’t there. Elder Khasim found himself together with his rival Elder Jhamil as he gathered his breath. Both of them harrumphed, turned around and walked away in two completely different reactions.
 
-“You sure are very happy visiting Badril Village, Young Lady Lyla,” Nilda said with a smile.
+Elder Khasim then returned to his followers, who were anxious waiting for his return. One of them asked, “Elder Khasim, is Young Lady Bhela serious about pointing Granny Litha as the manager of One Tulip Restaurant?”
 
-One striking trait that Nilda had noticed when watching Lyla ate was that the Blackwood girl’s skin was bright and healthy, seemingly nourished by a very expensive tonic. Nilda also noticed Bhela’s skin became more beautiful than the last time she saw her, but it was nowhere near Lyla’s that would make even the prettiest girl envious.
+Although he too was feeling doubt and disappointment, but Elder Khasim knew Young Lady Bhela wouldn’t be joking around after secretly giving him the weapon to jab Elder Jhamil’s faction. “It seems that is the case,” he gravely nodded.
 
-“Young Lady Bhela, are you using cosmetics given by Medicine King to Young Lady Lyla?”
+“Does Young Lady trust us in the first place?” someone asked.
 
-Bhela looked at Lyla’s bright and healthy skin. “Yes. Nobles like Blackwood Family loved to use mercury powder to whiten their skin, so previously she wasn’t always like this. It’s very fortunate the cosmetic gifted to me can revitalize her malnourished skin.”
+“Is this how Young Lady Bhela putting us in place after making a ruckus attacking Elder Jhamil’s faction?”
 
-“How envious of you two can maintain your beauty with Medicine King’s cosmetic,” Nilda the maidservant lamented. “I heard Yashura Family sold their Eldest Young Lady’s cosmetics this morning, but Aunty Niu Elang sent those cosmetics back to the sect for disciples to compete for. I heard the girls in my sect all going crazy fighting for them.”
+“I knew it! Ah, just when we got our grip on Elder Jhamil’s weakness! Young Lady Bhela isn’t yet going through her coming of age ceremony, we should’ve invited her mother Madam Malikh instead!”
 
-Bhela blinked upon hearing the maidservant mentioned the sect. All she knew about the faraway sect where her friend Ryntia Elzhier studied was that it was well-connected, resourceful, and was boldly an all-girl sect in the midst of patriarchal society. Not much beyond that her knowledge about the place. But today she learned, apparently, it was the kind of sect where its disciples fight each other over some cosmetics. 
+“You! Watch your mouth!” Elder Khasim furiously slapped the last person’s cheek. “It’s already good enough for a member of the main family answering our invitation, you’ve got guts to question her integrity! Don’t you know this faction is over if we offend Young Lady Bhela now?!”
 
-“Is Sister Ryntia alright there? I have used the cosmetics only once both for me and Lyla--if Sister Ryntia wants it, I can send mine since we don’t really put attention to this kind of things, anyway.”
+The elder who got slapped was ashamed when his colleagues all stared at him. He quickly backed away. Everyone there knew they hadn’t got any chance when they asked Madam Malikh to support their faction, so even if Young Lady Bhela gave them a copper Kobe koin then they could be considered lucky.
 
-“You don’t have to, Young Lady Bhela. If our Eldest Young Lady really eyed the cosmetics then there wouldn’t be any competition in the first place.”
+After the mood recovered, someone asked, “Elder Khasim, what are we supposed to do now?”
 
-Bhela insisted, “Why don’t you do me a favor and inform her later whether she has a friend who also wants that cosmetic. Just count this as my thanks for the helps during my time in the seminars and for bringing croissants the other day.”
+“I don’t know,” Elder Khasim shook his head. “You all should wait and see, don’t make ruckus and question the main family in the open!”
 
-“Yes, croissant!” Lyla quipped. “Let’s barter that cosmetic with croissants instead! One cosmetic, with croissants this many!” she said while holding a bamboo basket almost twice the size of her belly. Barter cosmetic made by the famous Medicine King and a basketful of pastries; her face was unusually solemn as if she just presented a very good deal, honestly believe a cosmetic that sought by many nobles and royals, worth pastries that could only fill her belly for one day.
+In the end, they all could only sigh as they couldn’t fathom Young Lady Bhela’s real intention.
 
-Conversation got cut off when Nilda felt at loss seeing her serious expression. The girl indeed was too easy to get excited. There was no use explaining things to Lyla if she didn’t get it. A pat on the head was all Bhela did to calm the excited Lyla. And eventually, the supposed noble Blackwood young lady lost interest and began on chugging fresh coconut that prepared for her beforehand, then for some reason she broke into a dance and began to sing, completely forgetting about her outrageous deal. It just how Lyla was being Lyla.
+This scene also happened on Elder Jhamil’s side. Reporting to Butler Tim, they both racked their brains trying to guess Bhela Malikh’s thoughts.
 
-***
+“Isn’t giving the position to your aunt is like taking from right hand to move it to the left one?” Butler Tim asked. “Is that enemy of yours already fallen out of her favor?”
 
-Originally, Lyla and Bhela spent some times eating Bulayak Satay not just to hang around. They planned to climb the mountain after all. 
+“I don’t know yet, suppose that she really did want to limit Elder Khasim’s faction from getting too much power,” Elder Jhamil said, though he wasn’t too sure about his own words.
 
-But Badril Village mountain was known to be hostile filled with beast and monsters--and in the more scarier, deeper place, roamed by the feared Selaqs. Some places were relatively safe but it was already a norm for those who wanted to climb to form a party first, adventuring and leveling together while they were at it. Unfortunately, the only sect members in Elzhier Family Bhela could borrow was this lass named Nilda. Therefore, she had to invite some more reliable youngsters to accompany her to hunt games on the mountain.
+“You guys think too much,” a young woman with revealing garments said lazily as she painted her toe in the corner of the room. “That girl is like my Young Lady Lyla. Besides being lucky with her Unique Class, all she does is play with Young Lady Lyla all day. Could that kind of girl smart enough to play around politics with professionals like you?”
 
-The problem was if she sought people without others’ help she’d only attract boys that wanted to hit her. It was fine if they only annoyed her; Bhela could just send them off with a cold glare, they wouldn’t dare to bother her the second time. But Lyla was different. Bhela didn’t want some flies getting close especially when Lyla had her head-in-the-cloud moment.
+“You, what are you saying?” Butler Tim had begun to feel unhappy seeing this maidservant in his room. “Didn’t I say not to let Young Lady Lyla spend too much time with Bhela Malikh? Do you know because Young Lady Lyla opened her mouth, now Elder Jhamil’s people had a hard time reversing Bhela Malikh’s decision? Why were you letting her going outside in the first place?”
 
-“Where’s your young master, really? Setting off when the sun is hanging high is undesirable,” Bhela said to Nilda. 
+“She said she wanted to take a dump, so of course I had to let her go!” the maidservant snarled.
 
-“I’m sorry for the inconvenience, Young Lady Bhela. Unless it was Eldest Young Lady, we don’t have much voice in voicing influence in the main family--especially for Young Master Bonithon Elzhier. If it’s alright with you I will go to see whether my young master is ready with his friends.”
+“And you believed her? That is literally the one and only excuse Young Lady Lyla used whenever she wanted to slip away!”
 
-“Then you’ll be inconvenienced by me, many thanks.”
+“Why are you blaming me now? Weren’t you the one who said you missed me?!”
 
-Because of the treatments she always got whether in the village or overseas, Bhela hadn’t trusted boys. But toward Bony Elzhier it was different. Not because she trusted his personality, but because she heard some secrets from his elder sister, Ryntia Elzhier who studied on a sect overseas, a secret good enough to put him in his place. She trusted this secret that the well-known delinquent Young Master of Elzhier Family wouldn’t want to hit on her or Lyla--the problem was two of his lackeys, however. 
+Elder Jhamil took a step back. Trapped in the middle of lovers’ fight, truly felt like he was stuck in two hard places.
 
-“Young Lady Bhela,” Pilek, one of Bony’s lackeys, approached with grinning face, “I heard Malikh Family is hosting a very noble foreign young lady. Would it be possible to introduce me to her, eh? Eh?”
+Fortunately, Butler Tim didn’t want to spend the day quarreling with this maid, and told Elder Jhamil to go bribing his aunt Granny Litha and try to protect his men's position in One Tulip Restaurant. Elder Jhamil felt the same. His family might not have contact with Granny Litha, but if he smoothen it up, wouldn’t it be easy to get One Tulip Restaurant back to his pocket?
 
-“What?” 
+This was also especially what Elder Khasim and his followers worried about. The main reason why Elder Jhamil got a hold of the family’s inner working in the first place was because he got too many privileges of being the manager of One Tulip Restaurant. The morale of Elder Khasim’s faction dwindled as they realized their Young Lady Bhela was missing after she brought Lyla out of the family hall this morning. Meanwhile, Elder Jhamil came to the kitchen to make a deal with Granny Litha before everyone else could influence the cranky old granny.
 
-It wasn’t Bhela who responded, but a girl who was squatting beneath a tree, who chewing on raw grass. Whenever Bhela wasn’t looking Lyla always been naughty, it just so happened that she was curious whether Paku Grass would become sweet if she chewed it long enough, just like Aunty Yaya told her. 
+“You want me to preserve some of your friends positions?” Granny Litha asked Elder Jhamil with her hand didn’t stop <span style="text-decoration:underline;">nguleg</span> sambal.
 
-Pilek gloated. Anyone who was idiot enough to imitate goats chewing on wild grass surely wasn’t anybody important. So her ignored the grass-chewing girl and continued on pestering Bhela, saying, “Please introduce me to Young Lady Blackwood! I’ll owe you a lot!”
+“Yes, yes, we are family after all, Aunt Litha. I’ve got some problems to deal with thus I can’t manage One Tulip Restaurant for now, so Young Lady Bhela found you to supervise it in my stead!”
 
-Bhela just looked at him coldly with her mouth shut. It was Lyla again who jumped and snarled, “Who are you?”
+Granny Litha didn’t immediately answer. She glanced at this nephew of hers up and down.
 
-Against a strange girl with such a rude and grassy mouth, Pilek lost his patience and rolled his eyes. “And who are you? What are you doing eating grass anyway?”
+“Back when I was your age, I kissed my elders’ hands before asking anything from them. What’s really wrong with this generation, where’s your manner?”
 
-“Paku Grass is edible! Granny Litha said so!”
+“Please, Aunt Litha, not now! You must’ve been tired working in the kitchen all these years, right? How about I make you a nice house in the inner family complex? I’ll build you a big one, how about it?”
 
-Before Pilek could even scoff her stupidity, Bony came to slap his head from behind. It seemed Bony was sensible enough to realize the real identity of the weird girl.
+Still occupied in grinding her sambal, Granny Litha stopped <span style="text-decoration:underline;">nguleg</span> and said, “Tell me your most trusted friends and their positions.”
 
-“This is Lyla, my cousin,” Bhela introduced only after Lyla felt happy seeing Pilek’s wronged face, while her fingers busily forcing Lyla to spit out grass the naughty girl just ate.
+Elder Jhamil prepared to lose more in this negotiation, but he didn’t expect it to be this easy!
 
-Bony said, “I received some coins from Elder Shyla and tasked to accompany you adventuring the mountain.”
+Excited, he grabbed a stool and sat in front of Granny Litha, telling her the information she was gonna need if Granny Litha was to help him retain his influence inside One Tulip Restaurant.
 
-“I just want you to guard Lyla. Don’t bother with me, I can carry around myself.”
+The aunties and the maidservants quietly eavesdropped on their conversation. They’d never seen Elder Jhamil act like that in front of Granny Litha--usually, even though she was his blood relative aunt, Elder Jhamil never bothered to greet her, acting as if they were strangers, much less behave politely in front of Granny Litha. This made them feel complicated, as they’d thought Granny Litha was very much abandoned by her maiden family due her inability to attract a spouse. After all, even the lowest ranking maidservants treated Granny Litha like an air everytime she nagged with her “when I was your age” phrase. What really happened if Granny Litha asked Elder Jhamil to discipline these kitchen aunties and servants, then?
 
-Bony shrugged. He got paid and the client had the right to tell him what to do. Thus, after telling his lackeys to check on their equipment, he told them their task, “You two guard Bhela’s cousin closely. I’ll be at the tail.”
+Granny Litha finally finished making sambal, scooped the red paste of chillies into a wooden bowl. Before she confirming she understood whatever Elder Jhamil plead her to, Granny Litha asked, “Are you sure Young Lady Bhela is the one who appointed me?”
 
-“You’re guarding the back, boss?” Polio asked. “And with Bhela at the front, what danger should we’re guarding her from?”
+All smiles, Elder Jhamil said, “Yes, Aunt Litha. Almost everyone was there when she said that.”
 
-“Maybe we should keep an eye on her so that she doesn’t eat any other weird things, like grass, for instance.” Pilek from the side chuckled. 
+“Very well,” Granny Litha stood up. She then faced from the crowd of eavesdropping aunties, “Yaya, Umha, you two come here.”
 
-Bony slapped the back of his head again. Pilek almost cried felt wronged because he didn’t know what he did wrong.
+Aunty Yaya and one aunty called Aunty Umha, who was dull and slow in her nature, stiffly trotted toward Granny Litha.
 
-“Just keep an eye on that girl, don’t say anything unnecessary,” Bony said solemnly. “And also--don’t argue with her. Just don’t.”
+“Granny, you called?”
 
-Bhela saw the boys discussing their things through, then turned to Nilda to ask, “Does your young master know about your sect?”
+“Yaya,” Granny Litha said slowly, “you’re the most hateful and stupid person ever worked in this kitchen, you never even pretended listening to my words ever since you worked here. However, you cook very well.”
 
-Nilda shook her head. “Aunty Niu Elang decided not to involve too much of the family into sect matters.”
+“Y-yes?” Aunty Yaya wasn’t sure Granny Litha was completing her or not.
 
-“Then he shouldn’t be informed about Lyla’s identity.”
+Granny Litha looked at the other aunty. “Umha, you’re the most dull person instead. I agree with everyone here to keep you away from the cooking pot--boiled water is the most suited for you to make.”
 
-“Well, young lady, anyone could guess when Elder Jhamil sent their men all around the village to search for her,” Nilda said with a smile, lightly hinted with her eyes to the girl who was sneakily looking for something she could chew.
+This middle-aged aunty called Umha was dejected Granny Litha mentioned her shortcoming in front of everyone. Like Aunty Yaya, she wasn’t sure why Granny Litha even called her speciasifically.
 
-***
+“However,” Granny Litha continued, “I always noticed you always prepared uniformed chillies for me, and since you were tasked on picking fruits and vegetables I never once doubt you’re going to make a mistake like accidentally picking a rotting fruit. You’re slow, but always careful and very detailed. So you’ll be the accountant for One Tulip Restaurant from now on.”
 
-Later on, they climbed Badril Mountain with a party of six people. Bhela as the Archer and the scout was at the very front, traversing the moldy stone stairs of the mountain, picking routes based on her memories two years before she attended the oversea seminars. 
+_Claaank!_
 
-Bony committed as the most senior and a Knight class fighter with the highest level to guard the party’s back, resting a big machete on his broad shoulder, wearing no armor beside coarse clothes he wore this morning. From the talks of the peddlers and travelers, those southern fighters with Knight class were more crude and practical than their westerner peers--the westerners which were always gallant, always speaking about honors, always clad in steel armor and always had their own insignia embedded on their shield. Their southern peers instead were simple. They were known by their brute prowess not by their elite romanticism, totally not being cheap like some western Knights used to mock them.
+A maidservant accidentally dropped a ceramic plate somewhere in the kitchen. But no eyes were even moving at her. Everyone was struck dumb by Granny Litha sudden appointment on making a dull aunty an accountant for the legendeary One Tulip Restaurant.
 
-Speaking of being cheap, there was Pilek. He was a Pugilist so his weapon mostly a spiked gauntlet he bought for a few copper coins from the blacksmith uncle who lived next door--quite unexpectedly, Pugilist that usually wasn’t that popular in the job market outside the village, was quite abundant here, especially when youngsters’ thugs battle were popular, thus many created gauntlets for them resulting those simple weapons’ price dropped very cheap. 
+“Aunt Litha!!!” Elder Jhamil jumped from his stool with horror on his face, “y-you can’t! These servants can’t work in prestigious place like One Tulip Restaurant!”
 
-On the other hand, Polio the other Bony’s lackey was a traditional Mage who brought an old wooden staff he inherited from his father, who long retired casting spell in favor of stable life farming and fulfilling duty as the elder of a minor family in the village. The usually quiet deliquent looked like a proper mage when he equipped the old staff. Nilda, who looked even more humble in her maidservant attire, brought with her a simple-looking dagger she put in her belt--of which, secretly, was something she got from her predecessor and being imbued by high-level magic by her sect’s Artificer, a knife that being too modest of an appearance if throats cutted and blood spilt were being counted.
+Granny Litha ignored the freaked Elder Jhamil, then said to Aunty Yaya, “Yaya, you unlikable lass, help me cook in One Tulip Restaurant, I don’t like it but I suppose you’ll be the head chef from now on!”
 
-And finally, there was Lyla. Lyla brought a bamboo basket. A fine crafted bamboo basket, but an ordinary bamboo basket nonetheless.
+“M-me…?” Aunty Yaya stammered as she pointed her face with trembling fingers.
 
-“Get me some berries to feed bunnies and kitties~~ yuuhuuu~ feeding lovely bunnies and kitties~~~”
+“Yes, you. Do you want me to pick someone else?”
 
-“Really, what is this girl really doing here?” Pilek uttered as he watched, while others were occupied with monsters and mountain beasts, Lyla was busy foraging the mountain, humming on some carefree song about bunnies and kitties. The previous empty basket was now filled with mushroom and berries. She didn’t even seemed to be interested in leveling up her stats.
+Aunty Yaya didn’t reply, as she wasn’t sure how to reply to that question.
 
-“Don’t say anything unnecessary, remember,” Polio reminded. 
+Elder Jhamil, who realized this aunt of his was actually unreasonable like the young lady that appointed her as the manager of One Tulip Restaurant, now thought that he needed softer measures to make Granny Litha realize the error in her way.
 
-And thus, they continued adventuring the mountain with such light and hearty atmosphere with Lyla’s bunny and kitty song playing in the background.
+“Aunt Litha, if you’re unreasonable like this, then even the main family wouldn’t be able to defend you if the elders council all banded together to take back your newly acquired position!”
 
-Five minutes ago, Bhela spotted a fleeing pheasant. She sprang alone with her bow in order to hunt it down. Bony, the leader of the boys, went on a different path to investigate the mountain since the air about it was quite different than the usual.
+Granny Litha didn’t want to bother with this nephew who never wanted to acknowledge her for years. The old woman brought her bamboo fan used to manage wood fire with her. Her eyes were sharp searchin as she walked around the kitchen. She recalled a face wasn’t too familiar in her mind, only she didn’t the other’s identity. Moments later, she stood in front of a sixteen years old young maidservant of the lowest ranking, whose job was no more than peeling fruits and cleaning vegetables.
 
-“Still, we’re climbing up to hunt some wild goats but haven’t found any for a few hours,” Pilek complained after gulping fresh water from his bamboo container.
+“What’s your name?” Granny Litha asked.
 
-Polio said after a thought, “Mountain goats are adept and sensitive to dangers. So maybe it’s not safe today, after all.”
+“My name is Rara,” the maidservant replied, her eyes blinking confusedly.
 
-“Huusshh! That girl is maybe listening!” Pilek whispered, glancing at Lyla and the maidservant Nilda who both were sat on grassy ground to eat some mountain fruits they had gathered. Pilek continued, “What if they decided to annul our job and don’t pay us?”
+“No Malikh surname?”
 
-Polio looked at him. “Well, it depends on what Boss Bony has to say. If he’s saying it’s dangerous and we need to return back to the village, then we’re going down no matter what. If you want to keep your money then it’s our boss’s mood that you should’ve worried about.”
+“No, my mother is a maidservant, and my father is a hunter from outside the family. My mother said it’s still five years more for me to get a Malikh surname if I don’t make trouble while working in the kitchen.”
 
-Bony came back and sat down with Pilek and Polio, wiping sweat on his forehead with the bottom of his shirt the first thing he did. 
+“You don’t need to wait five years. Come with me to meet Grand Elder to get your Malikh surname.”
 
-“How is it, boss?” Pilek asked.
+“Eeehh? Granny Litha?” unlike Aunty Yaya and Aunty Umha who were dumbfounded, the girl maidservant stood up and took a few steps back, her eyes shook.
 
-Bony took a big gulp of fresh water before he replied.
+“What? You afraid? I saw you carved some rabbit figures for Young Lady Lyla when you were on your break. You’ve got talents. So I want you as my chief decorator.”
 
-“I’ve been circling around the mountain. I found nothing.”
+Elder Jhamil grunted. The smile on his face swept away by his disgust. If the aunties who basically were servants bad enough, then appointing a young maidservant with no Malikh surname was akin to losing one’s mind. Elder Jhamil felt that One Tulip Restaurant would turn into ruin if Granny Litha just did whatever she wanted to do.
 
-“Nothing? That’s good. I really thought we won’t get paid today.”
+“Aunt Litha, my late grandfather wouldn’t be resting in peace if you messed up his One Tulip Restaurant! Please reconsider this!”
 
-“No,” Bony cut off Pilek’s sense of relief, said with an urgent tone, “it is really nothing. Except the beasts we’ve met before, I found no other beasts prowling around the mountain.”
+“His restaurant? Bah!” Granny Litha spat. “Even when he was alive, he wouldn’t dare to claim Matriarch’s One Tulip Restaurant as his own!”
 
-“Is it bad?”
+Elder Jhamil was taken aback. It was then he realized he just uttered some words that, if said in front of those hateful fellows from Elder Khasim’s faction, would end his whole career for good.
 
-“It is bad.”
+“Yaya, Umha, and you lass, meet me in front of Grand Elder’s house. After we get Rara her surname, we’ll go to where One Tulip Restaurant is. There are loads of work waiting for you to do!”
 
-Bony spat his phlegm.
+Aunty Umha, who originally was the most timid aunty out of all them, asked stammeringly, “D-do we have to pay for the carriage cost ourselves?”
 
-“We should go down. But let’s hear what that Malikh girl’s going to say first,” he said as he peered through the distance, seeing a young female silhouette hopping around on slippery steps with a pheasant carcass in her hands.
+“Let’s go!” Aunty Yaya pulled Aunty Umha’s and also fetched the young maidservant Rara out of the kitchen. With Elder Jhamil’s face red with rage like that, she decided it was best to not linger around in the kitchen any longer.
 
-“Sis Bhela, did you find the wild mountain goats?” Lyla shouted as soon as Bhela returned.
+For matter as big as One Tulip Restaurant, servants’ opinions like theirs weren’t important. Aunty Yaya prayed that both Young Lady Bhela and Granny Litha weren't just messing around with the whole arrangement. After all, if a petty man with Elder Jhamil’s caliber took his anger, then there was no hope for Aunty Yaya and the others to live decently in Malikh Family anymore.
 
-“Yes, but they hide behind a path guarded by a big anaconda.”
+---
 
-Lyla gasped. A big anaconda was a big deal. Its belly was so big it can fit an adult person in it. Its presence gave a big warning thus Lyla asked worriedly, “Does that mean we won’t get to make goat satays tonight?”
+Malikh Family had only one Grand Elder. This elder was an old man that had celebrated his one hundred years birthday a few years ago, with no particular ability of being the most respectable elder except for his seniority. Everyone called him Grand Elder Malikh, the last gatekeeper of Malikh’s policies, most respectable that even Ghalim Malikh would ask his opinion for big matters back when the Malikh Patriarch was in his prime. This Grand Elder akin to Granny Niu Elang of Elzhier Family and both Elder Fhantir and Elder Thula of Yashura Family in term of seniority and authority in their respective families.
 
-Bhela patted her head. “Don’t worry. Tonight we’ll be grilling wild goat satays with Aunty Yaya and others.”
+Elder Jhamil, knowing he couldn’t talk sense to his aunt, quickly set off complaining to Grand Elder before Granny Litha could get the Malikh surname for the young maidservant called Rara. He reached the Grand Elder’s house before them, but unexpectedly Elder Jhamil met with Elder Khasim there.
 
-She had promised Lyla, and she didn’t plan to retract it back. So she approached Bony and others again to make a deal.
+“Grand Elder,” Elder Jhamil decided to ignore his political rival, proceeded to report instead, “as you might already know, Young Lady Bhela used her position as the eldest young lady of the main family to appoint my aunt Litha Malikh as the new manager of One Tulip Restaurant. Yet, due to her lack of exposure to the family’s ethics and education in her youth, she made an unreasonable turnover without putting too much thought into it. She plans to switch One Tulip Restaurant’s key positions with servants who worked in the kitchen!”
 
-“You guys can have the anaconda. I just want a single wild goat,” Bhela said to them.
+“Oh, she did?” Elder Khasim remarked as he poured warm tea for Grand Elder Malikh. Seeing that the fella Jhamil freaking out put a smile on his face. He smelled something foul, maybe if he dug deeper, he could get on something to pin Elder Jhamil down.
 
-“That big anaconda you mean? The one that everyone was talking about last year? Are you crazy?” Pilek realized his tongue slipped and quickly corrected his tune. “Dear kind Young Lady Bhela, it’s not that we don’t want to help you. But against a Level 18 Anaconda, even with Boss Bony here we won’t make the cut!”
+Elder Jhamil glared at him. Although he didn’t want to drop stone onto his foot, as a veteran politician, he knew the principle of taking control before the damage spread.
 
-“You are wrong,” Bhela said flatly, “it’s Level 19.”
+“Grand Elder, I know my aunt is old and a bit reasonable. I’m willing to take responsibility for her mistake if she happened to be ignorant of the common rules. But not only did she appoint servants, she also picked a young one of the lowest ranking that doesn’t have Malikh surname!”
 
-“That is even worse!”
+The last sentence Elder Jhamil uttered frozen Elder Khasim’s smile. No wonder this snake Elder Jhamil admitting mistakes in front of his own enemy; turned out this fella wanted to use him to defend his own reputation.
 
-Bhela wanted to discuss this to someone with more intellect, so she turned to Bony. “I haven’t seen any other beast that strong enough to threaten our party except for that big anaconda. There wouldn’t be any distractions. So hunting it down should be easy.”
+Elder Khasim unwillingly said, “Now that I’ve heard Granny Litha did something that makes the legitimacy of One Tulip Restaurant be put under question, I can’t stay silent anymore. Grand Elder, I hope you can give warning to Granny Litha when she comes to seek your guide.”
 
-“And you’re saying you don’t find anything wrong with not seeing any other beast except that anaconda?”
+Grand Elder Malikh was old and tired. Both the elders weren't sure whether he actually heard what they were saying with that sleepy expression he had. Slowly, Grand Elder picked his glass of tea, drank it, and put it back--but he didn’t say anything to reply to both of the elders.
 
-Bhela was quiet for a moment. Back when she hunted the fleeing pheasant, a masked woman came to her to tell that she ought to be careful not to approach the peak of Badril Mountain. A disturbance happened this morning; the watchers witnessed the beasts and wild animals fleeing down the mountain. Seeing the mountain dwellers running for their lives like that only meant one bad thing--Selaq. 
+“Grand Elder, what is it your say regarding this matter?” Elder Jhamil cautiously probed.
 
-Because Bhela had received help from women with similar masks in the past, Bhela did put the warning in her heart. “They are fleeing because Selaqs become more active than usual,” she said to Bony. “We should be fine as long as we return back before the sun sets.”
+Again, Grand Elder said nothing. He only murmured some inaudible whispers to himself.
 
-Bony looked hesitant, thus Bhela added, “Young Master Elzhier, I just want to let you know that I have other mean to bring that anaconda down. I came to you purely because I’ve received many favor from your elder sister. You must be at the tip of your level progress, so killing this anaconda should give you an opportunity to advance to the next level.”
+_Knock knock._
 
-Polio, with a sharp tone, asked her, “And how would you hunt down an anaconda that can eat people with a single maw, young lady?”
+“Old fart, I’m coming in,” Granny Litha’s figure entered the house as soon as her voice resounded. Granny Litha sat in front of Grand Elder along with Elder Khasim and Elder Jhamil, she didn’t even ask permission as she brought three servants from the kitchen with her. From the way they looked, changing clothes they wore and carrying clothed bags with them, it obvious that she already decided to bring the three of them out of the village and nobody could make her decide otherwise.
 
-Bhela looked at him. Her gaze wasn’t exactly friendly as she replied, “Don’t get eaten.”
+“I need you to approve Malikh surname for this lass, old fart. My carriage is waiting outside. So quickly make it official, don’t waste anyone’s time!”
 
-She turned around and returned to Lyla and Nilda. Just like her trademark expression, Bhela’s respond was cold, seemed to particularly not care about how they should take down the dangerous slithering creature that set them apart with the wild goats that Lyla wanted to grill as satays very much.
+Elder Jhamil gasped in horror at Granny Litha impudence. Raising her voice in front of Grand Elder was bad enough. Calling her old fart was simply beyond words. The aunties and the maidservant behind her already pale beyond paper sheet--they now realized their future had been jeopardized by the time Granny Litha selected them. Even Elder Khasim, who originally enjoyed seeing Elder Jhamil stumbled by this unreasonable relative of his, had became speechless at Granny Litha’s cheekiness.
 
-Pilek punched a floating leaves with his knuckle indignantly, spat, “She’s talking like that only because she’s in the back with her damn bow!”
+The Grand Elder Malikh himself, however, didn’t seem to have any opinion regarding her rude behavior. He wordlessly stood up and went on searching for his stamp.
 
-A few days ago, Pilek was one of those villagers who was proud of Bhela Malikh for her talent and capability of being selected to oversea seminars. But the more he talked with her the more he recalled how unlikable this lass originally was. Somehow Pilek felt deceived by her fame and her pretty face.
+“Now, lass, you want to join our proud Malikh Family? Come here,” he said while waving his hand.
 
-Polio once again proceeded to ask the boss, Bony, “Now what do we do, boss?”
+The young maidservant Rara wasn’t this timid originally. Scary Granny Litha beside her, and two higher ups elders staring at her like hawks in front of her. Although it was her dream to get a better life for her family by getting officially recognized in the Malikh Family, the heavy atmosphere made her limbs feel like noodles. For the first time she felt she didn’t want to be a Malikh anymore.
 
-Bony was originally crossing his arms, fell to his own thought. Looking at his two lackeys, he whispered, “The last thing I want things to happen is to refund their money. That girl has Elder Shyla backing her somehow.”
+“Why are you still hesitating lass?” Granny Litha impatiently slapped her thigh. “Back when I was your age, us little girls all had to face Elder Bhantul to get permission to go outside! This lazy old foggy is nowhere as scary as Elder Bhantul!”
 
-Even Pilek who had his blood boiled in anger closed his mouth shut suddenly. His boss the Young Master of Elzhier Family--although of being a good-for-nothing delinquent like everybody said--was sharp, and aware of things normally people wouldn’t be aware of. Despite being the heir himself, Bony knew who he shouldn’t offend inside Elzhier Family. And naturally Pilek and Polio who followed him for years would also heard the normally friendly and sexy Elder Shyla wasn’t someone to be reckoned with.
+Just as Elder Jhamil wanted to plead his aunt to shut her mouth for her own good, Grand Elder Malikh chuckled on the side.
 
-“Anaconda then…” Polio muttered.
+“Elder Bhantul sure is scary. Matriarch Malikh promoted him out of the blue just so that she could make us naughty elders regret our mistakes,” Grand Elder muttered with nostalgic expression. Back when he first started his career as a young elder in the family elder council, he suffered a lot under Elder Bhantul’s oppression.
 
-“That girl won’t change her mind no matter how we convince her,” Pilek wryly smiled.
+Eventually the young maidservant Rara became Rara Malikh only because the already crying maidservant couldn’t stand her ears being twisted by the impatient Granny Litha.
 
-“Don’t dilly dallying around. Let’s go now,” Bony said as he rested his machete on his shoulder and began to march, even though Bhela hadn’t finished eating berries with Lyla gathered.
+“Here you go, lass,” Grand Elder Malikh said after he stamped a fine white paper document. There were not many low-ranking servants proposed to the family to get surnames in Malikh Family, therefore Grand Elder Malikh never had the need to outsource his responsibility as the most senior elder to grant surnames. That didn’t mean Elder Khasim and Elder Jhamil didn’t know how the procedure was, however. They were baffled seeing how unusually accommodating Grand Elder Malikh was to this nameless servant. Grand Elder then said, “You are Rara Malikh from now on. Please always remember that your identity and action will reflect Malikh Family from this point onward. You’re one of us.”
 
-“Please keep Lyla safe,” Bhela said to Nilda as she equipped her quiver once again.
+“Th-thank you, Grand Elder,” Rara Malikh stammeredly replied.
 
-“Don’t worry, Young Lady Bhela. Some elder sisters of mine are here to give support,” the maidservant said with a slight smile.
+The paper she received felt it was heftier than the giant cauldron she always tasked to set up whenever Ngajen Ceremony came. She never touched a white paper as fine as this, much less an official document.
 
-Bhela felt assured knowing that. She then looked at Lyla, patted her head. She said, “Lyla, there’s something I want to tell you.”
+Elder Khasim sighed, while Elder Jhamil’s face was sour. Now that Grand Elder had demonstrated that he didn’t have any intention to make One Tulip Restaurant’s transition harder, both the two elders knew the restaurant was Granny Litha’s for good.
 
-“Hmm, what is it, Sistah?”
+“Litha,” Grand Elder Malikh muttered as Granny Litha about to lead the others walking out of the door.
 
-Bhela picked one berry and put it in her mouth.
+“What is it again, old fart?”
 
-“Kittens don’t eat berries,” she said.
+Grand Elder looked at her with a hint of pensive look on his eyes.
 
-“What?!” 
+“Neither Patriarch Ghalim or I had succeeded in convincing you to return to One Tulip Restaurant again. What is it that made you change your mind this time?”
 
-Lyla was shocked by the sudden revelation. Never would she thought that the cute kitties didn't like sweet berries she had gathered with her own hands. It was unbelievable. But what was even more unbelievable was that, a minute later, Lyla also found out bunnies don’t actually eat mushrooms--truly unbelievable!
+“You’re asking me this? Why don’t you ask the fools beside you who almost gnawed Malikh Family inside out? I’m going to One Tulip Restaurant simply because the main family needed me to.”
 
-***
+“Mm, is that so?” Grand Elder nodded off his head, looking about to fall asleep. “I just thought nobody would change your mind unless Old Matriarch personally asks you to.”
 
-The anaconda Bhela sighted was a beast feared by nearby hunters and young adventurers. Normally, if a dangerous beast appeared within the hunting routes, major families would form a subjugate team to hunt it down. Though this one was different. The problem was this big anaconda originally lived beyond the safe vicinity, so the practical Badril Village Head thought giving people warning would be far more efficient than form a posse--which often usually calling back the village’s fighters that been working outside the village. However, because the disturbance from the top of the mountain, it slithering down to more peaceful place, rendering the lower part of Badril Mountain dangerous because of it. 
+Granny Litha didn’t like when others were being like this. She carried on leading the other aunties and newly made Rara Malikh out of Elder Ghalim’s house, who was sighing as the door being closed.
 
-Young people were ambitious, especially those with talents like Bhela Malikh and Bony Elzhier. Since they were the ones who found it down here, they’d use this opportunity to hunt the anaconda themselves and leveling up in the process.
+---
 
-“Take this, you dumb son of a bitch! Hya hya hyaa!” Pilek’s high pitched swearing resounded across the mountain as he unleashed a flurry of infused mana punches--which deal almost no damage to the thick-skinned anaconda five times his size. 
+Although Yashura Family had gotten a part of their wall turned into debris because of reasons they didn’t want to talk about, something weird also happened on the other side of Badril Village. A cranky old woman was chosen as Malikh Family’s One Tulip Restaurant manager. People were laughing it off as a joke, saying that Malikh Family really too bored for them to promote an expired old maiden to manage their most prestigious restaurant.
 
-On contrary, it was actually better if Pilek didn’t blindly attacking instead. That what was Bhela thought. She was an Unique Class Archer of which she herself was confident to be able the most damage to her giant opponent, yet, due to Bony and Pilek at the front not knowing the word “holding back”, her arrows were to harass carefully instead of packing them with destructive elemental power. Clicks of tongue the only way she expressed her annoyance whenever her chance of shooting her skill disrupted by two muscleheads at the front.
+But some, mostly organizers of Ngajen Ceremony, aunties and chefs, all sort of people who dealt with food, actually knew Granny Litha and the fact that she was the mind behind Malikh Family’s undeniably most delicious sambal known in recent decades. The news about this made others happy, especially the Elzhier Family. Now that those hateful Yashuras somehow managed to get their asses screwed by strange incidents and the most powerful sambal maker of Malikh Family was gone, Patriarch of Elzhier Family felt it was time for the Elzhiers to experience their long-awaited meteoric rise.
 
-Not far away from there, hidden behind the foliage and leaves of tree branch were two silhouettes, watching the unorganized party battling the anaconda. They were women in masks, one with falcon mask and the other with an owl one, both who were under Elder Shyla’s direct command to watch over Bhela and others.
+In the meantime, Granny Litha and others were loading their stuff onto the water buffalo carriage. Aunty Yaya and others were feeling lost. The three of the newly made restaurant higher ups, especially the young Rara Malikh, were overwhelmed by curious gazes of onlookers. Even after taking a deep breath, still they weren’t sure about their sudden promotion.
 
-“Seems like Young Lady Bhela is showing her inexperience in adapting with other party members,” the falcon mask commented.
+“Oh,” Aunty Yaya’s face brightened as she saw a familiar face amongst the onlookers, “isn’t that Jeng Kheles?”
 
-“Young Lady Bhela wasn’t the type of person who was comfortable shouting around to people, especially boys,” the owl mask said.
+The middle-aged woman Aunty Yaya referred to was a social butterfly servant of Elzhier Family, and she had a good relationship with Aunty Yaya. However, upon knowing that she was being noticed, the servant called Jeng Kheles turned her head and trotted away. She acted as if they didn’t know each other.
 
-“She should stick around with the Mage boy and let him yell at the two others instead.”
+“You’ll get used to it,” the coarse voice of Granny Litha resounded behind her.
 
-“Well, I don’t think that boy was the type who likes shouting, either.”
+Aunty Yaya cast her gaze down. The cranky Granny Litha, the nervous Aunty Umha, and ex-maidservant Rara Malikh, who hugging her coarse travelling bag, looking almost at her limit of having a mental breakdown--couldn’t she see some sweeter faces other than these unpleasant folks before they set off for One Tulip Restaurant?
 
-With no attacks packed with real power dealing enough damage, the anaconda didn’t seem to be cornered by the four party members--almost. It was the work of the three boys that gave a surprising good result instead.
+“Yuuhuuu~~~ hellow there Malikh aunties!”
 
-“Those three’s teamwork is real solid. Young Master Bonithon is a good team leader. I don’t know he have this kind of talent,” the owl mask remarked.
+Lyla Blackwood and Bhela Malikh came unexpectedly. Aunty Yaya was surprised. They heard the Blackwood Family escorts were looking for this Young Lady Lyla everywhere, but here she was, tip-toeing around with a big bamboo basket she hugged close to her chest. Wearing dull-looking clothes that had its color faded, coupled with her bun-styled hair, she looked no different than any other Badril Village girls on the street. No wonder people sent by Butler Tim of Blackwood Family couldn’t locate their carefree young lady.
 
-“Of course he is. He’s the younger brother of Young Lady Ryntia, after all.”
+“Ah, Young Lady Lyla, what are you doing here?!” Aunty Yaya asked with her voice suppressed.
 
-Bony and his two lackeys attacked neither with fancy skills nor technique but solid pummelling. Only if reading their flow one could tell how good their coordination was. Bony, for example, got the deadliest attack of them all, but his attack style mostly done in short and heavy bursts that leave no chance for his opponent to defend against. But that also meant he didn’t focus on defending against counter-attacks. So this was when Pilek came in.
+“We’re going to rice paddies! We’re going to gather rice field conch!” Lyla replied with eyes full of anticipation. She continued, “I’m going to fill this basket with delicious rice field conch, and Sis Bhela would skewer them into spicey satays for lunch!”
 
-Pilek flurry of punches that delivered a little lighter than Bony’s machete swings, but he was steady and able to keep prolonged attacks that if ignored, could deal quite a significant damage. Pilek might’ve looked like he was jumping around like some annoying monkey, managed to avoid fatal attacks every time, but his steady assaults and his nimble agility allowed him to successfully draw the annaconda’s attention by the time Bony’s defence was at its edge. And then, by the time Pilek was short on his breath from avoiding the annacond’s giant jaw, from the back came Polio’s turn to unleash his most powerful skill, which despite many chance to use it previously, he just saved it particularly for this kind of situation. 
+“What? How could a noble young lady like you jump into mud to gather dirty rice field conches?” Aunty Yaya had a headache looking at these two troublesome young ladies before her. “More importantly, Young Lady Bhela, why would you bring your bow if you were only going to go to rice paddies?”
 
-The anaconda staggered its head up in the air by the magic force Polio shot. Its sharp eyes locked at the despicable Mage that broke part of its skin. Slithering its giant body forward, it tried to approach Polio instead bothering with the two humans that it had difficulty in dealing with. But Bony, who had recovered his balance, wouldn’t allow it to roam free. He chased from the side, completely disregarding his defense, trying to chop its giant body with his machete. Polio running in circle in the meantime. 
+Bhela, contrast to Lyla who carried a large basket to gather conch, had her shortbow and quiver full of arrows with her. “After rice field, we’re going to mountain,” Bhela replied.
 
-By the time anaconda’s attention was back to Bony and Pilek again, everyone had already repositioned, back to square one, streaming attacks and gnawing the anaconda’s lifeforce little by little. The anaconda trapped in the rhythm created by Bony and his two lackeys, the beast realized these cursed humans were actually playing it around. 
+“We’re going to hunt wild goats!” Lyla exclaimed. “And Sis Bhela would skewer them into peanut sauce satays for lunch!” Sneakily, she wiped her droll that unfortunately leaked after she mentioned delicious satays a few times. Clearly Lyla was looking forward to her lunch this afternoon.
 
-With this kind of teamwork, actually, only the three of them would be able to deal with the anaconda as long as they didn’t get unlucky. But things wouldn’t be smooth as they planned. Because there was Bhela in the back who was completely out of sync with their rhythm.
+“Young Lady Bhela,” Aunty Yaya asked with a pleading tone, “don’t you know Blackwood Family is looking for Young Lady Lyla?”
 
-“Shit!”
+“Yes, I know. That’s why we’re crashing in Elzhier Family now,” Bhela replied.
 
-Bony cursed as he saw the beast changed its direction toward Bhela. He and two others forgot about Bhela because they thought they already got the anaconda by its tail. They broke their own flow and chased the beast madly--even Polio gave chase with his wooden staff--as they tried to get its attention back to them. But it was futile. The anaconda was mature and thus realized the best chance it got to damage its enemy was to deal with the Archer.
+“Hihi, people here don’t recognize my face. They won’t find me if I bun my hair this way,” Lyla giggled, referring to her hair bun style that was popular only in commoners circle. She didn’t realize, though, even if she didn’t bother disguised herself with different hair style, nobody would recognize a girl with bamboo basket in her hands as a noble young lady if she kept yelling about gathering conch on rice paddies every few minutes or so.
 
-Bhela saw the beast approaching her. Her gaze was straight, cold, decisive. She drew one arrow she marked beforehand from her quiver.
+Aunty Yaya groaned as she didn’t know how to handle the naughty Lyla and the stoic Bhela, when the family had its political disturbance, were looking forward to playing around to their heart’s content.
 
-“Bhela, what are you doing?! Quickly run away!” Bony’s thunderous shout frustratingly bolstered through the air.
+Granny Litha came with a walking stick she always had with her whenever she went outside Malikh Family’s area. “You two ran away just so that you can make satays outdoor? Back when I was your age, girls were all very obedient staying at home learning how to weave our own dress and make sambals all day! Only smelly boys get dirty gathering ride field conches and hunting for wild goats!”
 
-Yet Bhela hadn’t moved an inch from where she was standing. She quietly drew her bow and shot the arrow halfway between her and the anaconda. Her aim was fine up until then, but no one seemed to find her shooting this time was weird.
+Lyla, however, who never had the experience of living as a real local girl, disagreed. “What?! Why would I share my satays with smelly boys? That would never happen!”
 
-“You want to get eaten? Shit, Malikh Family will kill me, I shouldn’t have been accepted assigned by this crazy girl!”
+“Hmph! You city girl, how entitled!”
 
-At one side, two hidden masked women who were watching previously became alerted too. The one with the falcon mask took out a crossbow and began reloading it with one bolt.
+Bhela ruffled Lyla’s hair and said, “Lyla, isn’t there something you want to ask Granny Litha?”
 
-“Wait,” the owl stopped her colleague from aiming the crossbow at the beast. “Look closely at what Young Lady Bhela doing,” she said, her tone was restrained, not clear whether she was conflicted or being awed.
+“So, you want to ask me something?” Granny Litha looked at the bamboo basket holding girl.
 
-As it turned out, Bhela had launched the third arrow. All of them aimed at the same position--an empty ground between her and the anaconda. And all of them marked by weird little flags colored with red, blue, green, and the fourth arrow, brown--all of them seemed to represented the elemental she had affinities with.
+“Yes,” Lyla said, her face became serious as she asked, “How exactly grass taste like?”
 
-By the time the anaconda unwittingly crushed the four marked arrow with its giant body, Bhela snapped her fingers and chanted, “Explosion.”
+“No, that wasn’t what you want to ask Granny Litha, wasn’t it?” Bhela ruffled Lyla’s hair harder. She then asked it instead on the naughty’s girl behalf. “We want to know whether it’s okay to visit One Tulip Restaurant this evening.”
 
-_BOOOOOMMMM!!!_
+“Why do you need my permission for this? Aren’t you two naughty lasses the one who made this old granny has to venture outside the village to deal with the mess that incompetent folks left behind?”
 
-The beast’s body sprang onto the air by the sudden fissure produced from delayed magic arrows Bhela had launched. It wriggled in dirt as it tried to extinguish the magic flame that engulfed its body. Yet it wasn’t something as easy as it seemed to be.
+Lyla blinked her eyes, didn’t know what Granny Litha was talking about.
 
-The flame was something Bhela made with one of her basic elemental magic arrow. It wasn’t anything lethal to the anaconda this size. But what made it terrifying was that, the moment Bhela shot another marked arrow to the flaming anaconda, the fire smoldered even bigger, almost burning the entire area if Bhela didn’t know how to control the fire with her water elemental magic arrows.
+On the other hand, Bhela continued patting Lyla’s head, pretending she didn’t know what Granny Litha was talking about.
 
-In the meantime, Bony and others stood speechlessly. They could only watched as Bhela shooting arrows like she was pouring gasoline. Seeing that there was still much arrows in her quivers, and seeing the magic arrows didn’t actually consume large enough mana, Bhela really did have a way to turn this fierce anaconda into a barbequed snake like she said when asking Bony and others to join her.
+“Hmph!” Granny Litha snorted. She crankily scolded them again, “You think your parents would let you girls travelling around after dark without family’s supervision?”
 
-However, not even she had done shaving half of the beast’s lifeforce Bhela suddenly stopped.
+“Don’t worry, Granny Litha,” Bhela said, “someone I know in Elzhier Family said Elder Sheyla had some business to attend in the same city tonight. So I merely asked for a ride and they let us come with them.”
 
-She rubbed the wristband she had on her left hand as to summon a “Team Party” window. An ethereal panel floated before her, but there was nothing much in it beside the option to manage one party which she was in--which was led by Bony--and she tapped it quit.
+Some folks in Badril Village still superstitious and looked down on girls who liked to go out at night. But Bhela didn’t care. Lyla wanted to visit One Tulip Restaurant after knowing delicious food there. Therefore, as the Young Lady of Bhela Malikh, she had to accommodate this glutton to taste Malikh Family’s most prized dishes at their fullest potential, as this might be their last chance to play to their heart’s content before Butler Tim really did restrict Lyla’s movement.
 
-_Bhela Malikh has left the party._
+And with that, Bhela and Lyla let the aunties and Granny Litha enter the carriage, setting them off on the mouth of Badril Village.
 
-_Lyla Blackwood has left the party._
+“Don’t forget to prepare me beef satays tonight for freeeee~~” Lyla yelled as she waved her hand. The water-buffalo carriage Granny Litha and others were slowly drifted away from Badril Village, yet, the girl still happily waving her hand while yelling a bunch of food that she wanted to eat.
 
-“Eh?” Pilek was surprised. “That mentally challenged girl actually is a Blackwood?!”
+Granny Litha snorted. “That lass comes from a rich noble family, yet she still dares to ask this old woman beef satay for free?”
 
-Bony and Polio were surprised too. They thought she would let them quit the party first as to not catching Lyla’s real identity. But Bhela just went ahead and made Lyla quit on her behalf.
+Such an air headed girl! Granny Litha had lived for more than eighty years, yet never she met a girl like Lyla Blackwood!
 
-Pilek mused, “Thinking about it again, it’s quite strange why Bhela’s the one who initiated the party setup; they actually want to disguise the fact that Bhela’s cousin is actually a Blackwood Family’s maidservant!”
+The old woman couldn’t take her eyes off the girls. Bhela seemed to be saying something to Lyla, ruffling her head out of habit. This young lady of fifteen’s face was too far away for Granny Litha to notice her expression--yet, somehow, she could see the vivid image of a stoic girl pampering her friend like she was her own sister.
 
-Beside him, Polio wanted to correct his friend. “You birdbrain. Southern Mossack families have custom to grant surnames to outer family members and hardworking servants, but for foreign blood nobles--” he stopped, realized Bhela was glaring at him, then muttered, “never mind.”
+“Back when I was their age--”
 
-Bhela came to them and said, “Now you can finish it. I don’t need the experience it drops.”
+Back when Granny Litha was at their age, she never had the impudence to mess around like them. She was always fond of her study and practicing her craft to be a disciple worthy of Matriarch Malikh. And she always felt content with her life. Once a while, whenever she did a good job, a beautiful woman would ruffle her hair. This beautiful woman almost had never smiled nor she ever gave people praise, a coldness and stoic that fit with her icy beauty, giving chill those who didn’t know her well--yet, in reality, very warm to those who close with her.
 
-It wasn’t a problem for Bony and others if Bhela didn’t want the experience from killing a Level 19 Anaconda. The thing was, she took Lyla along with her.
+Remembering her beauty made Granny Litha thinking about that young lady of hers who made her travel outside the village to manage One Tulip Restaurant that she already gave up decades ago.
 
-Bony said, “You okay for your cousin not receiving experience at the least? She’s still Level 6 Novice after all.”
+“But I thought you’ll never care about One Tulip Restaurant again unless Matriarch Malikh personally comes to ask you to.”
 
-“She doesn’t need it,” Bhela replied flatly.
+Grand Elder Malikh said that.
 
-Pilek laughed. “Your cousin’s level is the worst I’ve seen since Shira--and you said she doesn’t need free EXP? Young Lady Bhela, are you holding a grudge against that scatterbrain cousin of yours to hold her back from getting spoon fed from doing nothing?”
+A soft sigh escaped Granny Litha’s dry lips. She shook her head and tried to watch scenery as the carriage slowly traversed the grassy road ahead.
 
-Both Bony and Polio already were getting used to Pilek’s hobby to tease people. But Bhela wasn’t. She narrowed her eyes at them and said coldly, “Continue with what you’re doing. I’m going to hunt some wild goats.”
+“I will return, Litha. In the meantime, please continue making sambal and prove yourself worthy in inheriting my One Tulip Restaurant.”
 
-Bhela turned around and left.
+Under a stormy night sometimes in the past, the beautiful woman pulled her hood again after she said her farewell. Litha Malikh was one of the people she visited before she went following a man’s step, just a night before the news of Matriarch Malikh’s sudden retirement and the rumor of her eloping with an unknown man made a big wave in Badril Village. Even after all these seventy years, Granny Litha would never forget that beautiful face whose iciness hid a very warm soul that she always looked up to.
 
-As stupid as Pilek was, he did realize that Bhela was really angry. Bony said nothing and began approaching the flaming anaconda to chop it up. The atmosphere became stuck up, so Pilek smoothen it down with a series of fake coughs.
+Sighing once again, Granny Litha accidentally uttered her train of thought, “Young Lady Bhela is fifteen this year, isn’t she?”
 
-Polio patted his shoulder, with a friendly smile, he gave him an advice, “You should’ve shut your damn mouth, man.”
+“Huh?” Aunty Yaya who sat beside her woke up from her nap. “She is.”
 
-***
+“She looks quite like Matriarch Malikh when she was young,” Granny Litha said.
 
-Ever since Lyla found out that bunnies and kitties didn’t actually like her mountain harvests, she accepted the reality and reorganized her plans. Instead of gathering mushrooms and berries, now Lyla decided to gather mangoes. 
+“Is she?”
 
-“Huup!” the girl exclaimed as she caught a falling mango with her bamboo basket.
+Not only their beauty was the same, even their temperament, preference of doing things, and their boldness to disregard the old custom--all the resemblance between them were strikingly uncanny. If only not for Bhela’s short bob hair cut and her youthfulness, Granny Litha really thought Matriarch Malikh really did return to Malikh Family after all these seventy long years.
 
-Since the mango tree grew on the ownerless mountain, nobody would complain if they gathered all the ripened fruits here. Up on the tree, Nilda, despite not wearing dress for girls, able to agilely maneuvered through branch to branch. Her nimble yet light movement looked as if she spent a quite part of her younger years to train in the art of climbing trees. She didn’t even broke it when she tip-toeing upon branches that almost as thin as twigs.
-
-“That’s it for ripen mangoes, young lady,” Nilda said as she sat on a leafless tree branch. “Everything else up here is still young and sour. Do you want them too?”
-
-Lyla took a big bite of one juicy ripened mango. This was Honey Mangoo so it was sweeter than average mangoo. “I don’t like sour fruits,” she replied.
-
-“But, Young Lady Lyla, have you tried eating Rujak?” Nilda then said with a mischievous smile.
-
-“Rujak?” Lyla blinked, “what’s that?”
-
-“You can think of Rujak as a sweet version of sambal--but for fruits!”
-
-Lyla gasped again. Sambal for fruits?
-
-“Quick, Nilda, quickly grab all those young mangoes!”
-
-Seeing that Lyla was very interested in Rujak, Nilda explained what Rujak was as she moved from branch to branch picking on young mangos. Like Sambal, Rujak used chillies for its base for the heat--only all Rujak recipes were added brown sugar to make them sweet. Most popular Rujak used sweetened peanut sauce like that modified version of what they used in Satay recipes. In the end, whatever kind of Rujak they were talking about, what Rujak was about was dressing sour fruits in spicy, sweet sauce, the sacred side dish that idle aunties liked to eat whenever they gathered to gossip.
-
-The more Nilda described it the more Lyla holding her drool. She couldn’t wait to ask Granny Litha to make her young mango Rujak with all these fruits she gathered.
-
-_Crack!_
-
-A noise of some twigs snapped was heard from the thick foliage behind them. Lyla turned her head, and found that there were sound of steps that was neither from her nor from Nilda. Her googly eyes peered through the obstacles. A bulky shadow could be seen through, too big for a human’s silhouette, approaching with nothing but two glimmering sharp vertical pupil eyes and the muffled low growling of a beast.
-
-_Crack--crack…_
-
-The beast revealed itself.
-
-Lyla blinked again. The beast which lowered its head before her was a kitty--a big kitty, stripped fur, baring strong fangs, deadly fangs. It took awhile for Lyla to recall that a kitty this big was called with another name--tiger. Tiger was the king of the mountain. And the king of the mountain didn’t seem to come here with the intention to play.
-
-_Shuua._
-
-Nilda flawlessly landed just right in front of Lyla, protecting her sight from gazing through the prying eyes of the growling tiger.
-
-“Well, quite a big fellow, aren’t you?” Nilda had the corner of her mouth raised. “I won’t take another step forward if I were you.”
-
-The tiger stopped. From the way it hesitated it seemingly understood human speech, though common sense dictated it actually couldn’t. Seeing that the two girls before it weren’t armed enough to threaten it, the tiger then began taking another step forward.
-
-_Whoooshh!_
-
-The tiger yelped. Its instinctual primitive mind wasn’t fast enough to catch the reality had happened. In an instant, piercing pain stuck on its shoulder--a pain which immediately vanished as blood gushing throughout its body. The next thing it knew, its legs went wimp and it couldn’t move its body,
-
-“See? I told you.” Nilda squatted before the paralyzed beast, taunting it with a soft pat on its head.
-
-“Nilda,” someone called her name. Almost like feather, two shadows landed weightlessly behind  her. Both figures hid their faces behind masks.
-
-“Big sisters, Young Lady Lyla is fine,” turning her head, Nilda whispered.
-
-The falcon mask, who had a crossbow in her hand, said also with a whisper, “The other kids are almost done with their business. They’ll come back soon. Keep an eye closely on Young Lady Lyla in case another wandering beast comes.”
-
-“Yes,” Nilda eagerly said. “Is it okay Young Lady Lyla sees you?”
-
-“If it’s Young Lady Lyla I don’t see any problem with it,” the masked woman replied. This wasn’t the first time Lyla saw her and the girl didn’t seem to mind too much about them, two shadow agents that specialized in covert missions. They only revealed themselves in front of Lyla only because they reckoned that the airhead Lyla was too scatterbrain to disturb their daily missions.
-
-They didn’t notice but, Lyla, the subject in their secret conversation, had come to squat in front of the paralyzed tiger. She patted the beast’s head just like Nilda did before, but with a softer touch which invited a sad growl from the beast.
-
-“Eh? What are you doing, Young Lady Lyla?”
-
-By the time Nilda realized it, Lyla had already pulled out the poisoned bolt that stuck on the tiger’s shoulder and poured a whole vial of healing potion Bhela gave her before they climbed the mountain.
-
-Nilda’s expression was complicated. She asked again, “Why are you healing this one, Young Lady Lyla? It’s dangerous. What if it attacked you?”
-
-“It won’t,” Lyla said.
-
-Nilda thought Lyla was being mischievous again. So she kindly reminded, “Tigers have sharp fangs,” she said, “it can eat you the moment it’s able to move.”
-
-“No, it won’t,” Lyla said again. Her eyes glued to tiger that had giving up expression.
-
-At first, Nilda smiled as her brain tried to look for an excuse to make Lyla stay away from the beast. But she stopped when she saw the unusual light on Lyla’s eyes--her eyes were sad, but not exactly tearful. She gazed through the beast’s eyes with a trance of pity. It was an expression that no one would expect coming from a girl who liked hopping around to sing and dance all day around.
-
-Not long after that Bhela returned along with the boys who carried a goat’s carcass with them. Bhela thought Lyla’s cheerful singing would welcome her by the time she arrived, but the sight of a limping ferocious tiger made a visible turbulence through her face muscle.
-
-“What happened?” Bhela asked Nilda.
-
-“Don’t worry, Young Lady Bhela. This beast is poisoned, it can’t move--for now,” Nilda assured her.
-
-It was not that Bhela didn’t believe her, but upon seeing Lyla’s rare expression, she knew something else was going on.
-
-“Lyla,” Bhela squatted beside the girl, asked softly, “what happened?”
-
-Lyla rubbed the tiger’s head as she replied, “Aunty Tiger came here to ask for help.”
-
-The lack of usual enthusiasm in her reply made Bhela thinking about something. 
-
-“What does she want us to do?” Bhela asked again.
-
-Lyla was silent for a moment, her fingers didn’t stop shuffling on the fur on the tiger’s forehead.
-
-“Her child--she’s looking for her child.”
-
-Bhela looked closely at the unmoving tiger before relied, “Then let’s help looking for her cub.”
-
-Lyla looked at Bhela and blinked.
-
-“Can we, really?”
-
-“Mn.” Bhela assured with a nod.
-
-Lyla felt happy for the tiger. She hopped around and regained her usual happy self. While she promised cheerfully to the paralyzed tiger that she and Bhela--who could do anything according to her--would help the beast to look for its cub, the latter then came to Bony and two other boys to employ them again to search for the missing cub.
-
-“Somehow, I felt this girl paid us to be her lackeys from the start,” Pilek lamented. Beside futilely fought the anaconda only to see Bhela defeat it alone, the only meaningful job they had been doing this time was carrying a dead goat for her. She didn’t say it, but apparently Bhela wanted for paid porters, not bodyguards or party members.
-
-Before set out to do the new task they got, Bony led his two lackeys to put the goat’s carcass below a shadowy tree. At that moment his eyes swept on the ordinary maidservant that he knew working in his family, then glanced at the pitiful tiger on the ground. He caught a striking old slashing wound on the tiger’s face. His father told him about a particular tiger that once Elzhier Family tried to subjugate, of which his father proudly claimed he succeed in slashing the beast’s face despite of failure in bringing it down. Thinking that, he looked at the maidservant again. Nilda caught him looking at her way, thus she respectfully bowed as the customary of one servant to her master. Bony turned and said nothing in the end.
-
-“Let’s go,” Bony brought the two others away to look for one tiger cub. At least for generous payment and opportunity to raise his level, Bony could look for the young beast until the sun lowered.
-
-In the meantime, Bhela would be going to look for the cub along with Lyla.
-
-“Nilda, please stay here to look over the mother tiger,” Bhela said.
-
-“You can count me on that, Young Lady Bhela.”
-
-Lyla came to the paralyzed tiger again and put two ripened mangoes before the beast.
-
-“Here, Aunty Tiger. You can eat these while we’re searching your kitty for you!”
-
-Bhela wanted to say that neither tigers, bunnies nor kitties ate mangoes. But Lyla’s determined face made her hold her tongue.
-
-***
-
-The moment Nilda was alone, two silhouettes who hid their presence when the others were here, returned unapologizingly as they checked on the helpless mother tiger.
-
-“Didn’t expect for Young Lady Lyla reacted that way, I should’ve used another bolt if I knew it will be going like this,” the falcon mask said. For the trained eyes like these masked women, they didn’t need to use magic items or particular skill to know that there was no hope for this beast. “Oh, well--” she took out a dagger, and put the tiger’s out of its misery, “--you told that young lady an excuse for this, Nilda.”
-
-Nilda looked at the fresh blood that gushed out from the tiger’s slit throat. “I’ll say it suddenly has a fever and died.”
-
-Standing in the back, the woman with owl mask, opened her mouth after a deep thought, “About Young Lady Lyla--do we know anything about her?”
-
-“Young Lady Lyla?” the falcon mask stood up after wiping the blood from her dagger. “She’s from Blackwood, quite a cute girl for someone who is slow learner.” Slow learner was a polite tone to imply that for a fourteen years old girl with only Level 6 Novice was considered behind the standard, even for commoners who couldn’t afford to buy Boost Elixir in bulk like Blackwood Family was.
-
-Though her face was hidden, it was obvious the owl masked woman had something she wanted to say.
-
-“Sister Owl, do you have something on your mind?” Nilda asked curiously.
-
-“Well, she’s actually was posted back in the seminars that those girls attended, so she’s quite concerned about them,” the falcon mask teased from the side.
-
-The owl didn’t humor her partner’s teasing and instead said seriously, “I just noticed after the boys mentioned it--but I guess it’s true, something about Young Lady Bhela diberelatedly suppressed Young Lady Lyla from leveling up.” She took a beat, explaining, “I’ve seen Young Lady Bhela trained diligently and is very disciplined toward herself. But I haven’t seen her use the slightest bit of her attention to train Young Lady Lyla.”
-
-“I think you’re overthinking it, Sister,” Nilda said sweetly. “Young Lady Lyla is very spoiled, you see. That’s because Young Lady Bhela pampered her a little bit too much.”
-
-The one who disagreed with Nilda was the falcon mask instead. “You don’t know that she’s taking Young Lady Lyla with her out of the party before the anaconda was slain.”
-
-The expression on Nilda’s face showed a hint of surprise. “Really?”
-
-“It’s what really happened,” the falcon said, her voice sounded dry.
-
-“But why Young Lady Bhela do that to her own friend?” Nilda asked.
-
-Meanwhile, not long after they went looking for the missing cub, Bhela and Lyla found a scene that quite peculiar. On the brown mountain ground was pool of blood, gushed out from the two dead beasts that both seemed to die after fighting each other. One tiger and the other was golden fur gorilla. Both had majestic appearance which suggested the were the kind that ruled the Badril Mountain before this tragedy happened. Bhela, who felt slight dizzy from the excessive smell of blood, wanted to pull Lyla from there.
-
-“Nuu, Sis Bhela,” Lyla struggled, then continued saying, “behind the rock, behind the rock!”
-
-Bhela’s perception as an Unique Class Archer was enhanced and soon knew there was something moving behind the rock Lyla pointed at. When they came to check it out, immediately a tiger cub welcomed them with a lazy yawning.
-
-“Huu… here kitty kitty kitty…”
-
-Lyla picked up the tiger cub and hugged it dearly.
-
-Somehow Bhela found this cub wasn’t even bothered by the ghastly scene happened nearby. She looked again at the dead tiger, and back at the cub, and concluded that the father ought to be dead defending the little one. Yet the tiger cub looked it just wanted to back to sleep, had little care with the tragedy befell it.
-
-“Ssuuush shuuush suuushh… it’s okay kitty, it’s okay, you’ll be my little friend from now own. Sis Bhela and me will be your new sisters!”
-
-The cub yawned again. It didn’t want to bother with this human girl speaking. It snuggled in Lyla’s bosom and slept. Only a moment later Bhela learned that the cub’s cubby body actually had slightly shaken in its slept--and only when Lyla tried very hard to pet the cub, it began to be calm again.
-
-“Lyla, we can’t stay here after dark, so we must return back immediately if we want people to give the Father Tiger a proper burial today,” Bhela said.
-
-They walked out of the bloody place with a new companion with them. Bhela silently looking for a striking detail of the place so that she could send people here without her guiding her. Since Lyla already said that they’d be the cub’s sisters, then it was within reason for Bhela to respect the cub’s deceased relatives.
-
-“Ssuuusshh suuushhhh…” Lyla pet the cub in her bosom again after a muffled welp escaped the cub’s mouth. “It’s okay… it’s okay… your parents must forbid you to cry, isn’t it? Poor kitty, poor kitty… sleep sleep sleep now sleep.”
-
-While Lyla’s whole attention was on the tiger cub, Bhela looked around to see whether a third person was there to listen to their conversation, including the masked women from the sect she was friendly with. Only after she making sure they were alone did she stopped Lyla’s steps.
-
-“Lyla,” Bhela said, “you still remember what I told you about the voices?”
-
-“To not anybody knows I can hear them?”
-
-“Listen, Lyla, after we get together with the others, Nilda likely will say something to you.”
-
-“About what?” Lyla asked to express her ignorance, but failed to hide the hint of sadness and disappointment mixed in her tone.
-
-“Lyla…” Bhela squat to get below the Lyla’s eyes level, trying to be patient with her, “you know tigers usually are very dangerous and not uncommon for them to eat people. Sister Bhela, too, if don’t know about the voices that come to you, wouldn’t dare to take chances when it comes to your life. Our friends wanted to protect you, Lyla, they meant well. You can pout but you must not hold your anger.”
-
-Lyla’s mind filled with fun things and fluffy stuffs. So if people didn’t try to make her listen most likely she wouldn’t retained what she heard in her airy head. So whenever Bhela wanted to make sure Lyla listened she’d look into her eyes. Eventually, Lyla relented, her shoulder dropped and a rare sigh could be heard from that mouth that she usually used to yelling and singing cheerfully.
-
-“Why you must tell me this, Sis Bhela? I’m not the one who lost their parents.”
-
-“You’re right,” Bhela patted the tiger cub’s head. “I know this is a very hard favor. But can you learn to forgive, little one?” While Bhela tried to explaining things to the cub, this little beast raised its head that was buried in Lyla’s bosom, took a glance at Bhela’s face, then it yawned again and sleep.
-
-It felt weird to coax a beast that hadn’t even developed its intelligence yet. But the moment Bhela saw the relief on Lyla’s face, she knew everything worked out for the better. With the sleepy companion the had just found, Lyla and Bhela returned to regroup with others.
-
-“You’re okay kitty?” Lyla uttered as the tiger moved in her bosom, “really, aren’t you a little big for a kitty?”
-
-The tiger cub woke up from its sleep, maybe because it smelt its mother’s presence just nearby. A hint of teary mist formed on the corner of its eyes. Lyla bitterly smiled, immediately coaxed the little one, “It’s okay, kitty, we’re with you. We’re family now,” she said. “And since we’re family…” she mused, stopped her steps, then raised the fellow little tiger up in the air, exclaiming, “how about I give you a new name? You’re big, and you’re a kitty--how about I name you Mister Kitty?”
-
-The cub yawned, seemed not too eager with its new name Lyla had bestowed. But the girl found it quite nice to her ears, so she decided to settle with the name. “You’re going to start a new life from now on! Let’s properly say your farewell to your parents! Come on, Mister Kitty! We need to get moving, Mister Kitty!”
-
-Lyla excitedly repeated Mister Kitty here Mister Kitty there. She was quite pleased with the name, obviously. Yet seeing that the girl became cheerful again, Bhela didn’t have the heart to tell her that the cub was, in fact, a female.
-
-***
+---

@@ -31,7 +31,7 @@ Seeing that Bhela wasn’t that responsive with the idea, Elder Jhamil spoke fur
 
 “We don’t fear those Yashura’s retaliation, Young Lady. You don’t have to be afraid they’ll come here to bully us because of that trash from Yashura Family!”
 
-“We support you, Young Lady!”
+“We’ll support you, Young Lady!”
 
 “Don’t be afraid!”
 
@@ -457,7 +457,7 @@ Shira cut his roundabout pitching. “You want me to back the Alchemist?”
 
 The boy’s eyes wandered through the peddler’s wares before looked at him in the eyes. “Even I must tread through the game of cat and dog with the elders because of the rules,” he explained to Monkey, who in turn, could only smile helplessly.
 
-<novel-trivia>
+<novel-trivia label="lore">
 
 Mossack’s custom dictates children who haven’t gone through their coming of age ceremony--usually at the age of sixteen--to not being involved in politics and commerce. This is the reason why Shira--as he mostly acquired money winning through streaks of chess games with Good-Natured Spirit--couldn’t recklessly flaunt his personal wealth in public.
 

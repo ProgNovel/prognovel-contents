@@ -1,8 +1,9 @@
 ---
 title: The Generation's Best Unique Class
+author: Radhy
 ---
 
-Badril Village, though had been two years passed without her presence, was the same as always for Bhela Malikh. She hadn’t that many acquaintances her age she could consider friendly before. In spite of that, from the day she returned, people act as if they were her rekindled childhood friends she never knew she had.
+Badril Village was the same as always. The place and the people, it was the same Bhela remembered back from before she travelled for seminars across countries. She hadn’t that many acquaintances her age she could consider friendly before. Yet from the day she returned, people act as if they were her rekindled childhood friends she never knew she had.
 
 “Young Lady Bhela,” a daughter of an elder from Elzhier Family asked curiously, “is the rumor about that story true?”
 
@@ -20,39 +21,35 @@ Giggles of girls followed after the girl’s words. When Bhela returned to Badri
 
 “Why else would Young Lady Bhela take the Chef Chief position if she didn’t expect for her lover to come tonight? He’ll come for sure!”
 
-“Yeah, yeah, everybody is saying Young Lady Bhela doing just for that!”
+Bhela looked at them calmly. Inside she found it amazing how people could conjure their own stories despite not seeing the true story by their own eyes.
 
-Bhela found it was amazing how people could conjure their own rumors despite not seeing the true story by their own eyes.
+And just when the young ladies about to get excited discussing Young Lady Bhela’s “love life”, a vigorous shout resounded the courtyard announcing that Blackwood Family had arrived.
 
-And just when the young ladies started getting excited discussing Young Lady Bhela’s ‘love life’, a vigorous shout resounded the courtyard announcing that Blackwood Family had arrived.
+“Blackwood Family?” someone cocked their head and looked over the direction of the gate. “What kind of family is so bold announcing their names in other family’s ngajen ceremony? Not even Village Head’s Elzhier Family patriarch’d be such big person to be able throwing their weights around to Ngajen Ceremony’s host!”
 
-“Blackwood Family?” someone cocked their head and looked over the direction of the gate. “What kind of family is so bold announcing their names in other family’s ngajen ceremony? Not even Village Head’s Elzhier Family would do to the ceremony host!”
+Curious guests tailed the hurried Malikh Family elders to see some commotion they thought would occur. However, not only did the Malikhs not make a fuss over it, they even bowed their heads toward the newly arrived noble as if they were servants greeting their returning master. Young people were overly excited because nobles were foreign and appeared in stories all of their lives.
 
-“Only foreigners to be that stupid to be rude in big family like Malikh! If this is my place I’d send a guard to kick their ass out as soon as possible!”
-
-“Look over there! Malikh Family elders are rushing to the gate! Let’s check out how’s Malikhs going to deal with it!”
-
-Curious guests were tailing the elders to see some commotion they thought would occur. However, not only did the Malikhs not make a fuss over it, they even bowed their heads toward the newly arrived noble as if they were servants greeting their returning master. Young people were overly excited because nobles were foreign and appeared in stories all of their lives.
-
-Meanwhile, Mila, who already went back with her friend, was gritting teeth with anger. Beside her Romana was holding the tomboy back, though concerned she didn't say a word.
+Meanwhile, Mila, who already went back with her friend, was gritting teeth with anger.
 
 “Why should I am the one who always had to hold myself back?” Mila hissed in a low voice as if she was wronged.
 
-“Look around and think about who’s receiving the blow the most. Everyone’s talking about your cousin right now--do you want to make it worse for him?”
+Romana was beside her, warning her, “You, don’t be hasty! Look around and think about who’s receiving the blow the most. Everyone’s talking gossips about Bhela, and then eventually they’ll start to talk about your cousin. Against bullshit your cousin is usually having I-don’t-care attitude, do you think his social reputation can survive if the topic taking an unexpected turn? Do you want to make it worse for him?”
 
-After hearing her friend’s warning, Mila began to take a deep breath and think things through. Romana was right. When she opened her ears Mila could hear people comparing the young master of this noble Blackwood Family with her cousin Shira. They compared such a gallant-looking young noble with a trash of Yashura Family young master, adding with their own biased seasoning here and there, making her cousin Shira look really bad. Mila trembled as her face boiled red from holding back her anger.
+After hearing her friend’s elaborate warning, Mila began to take a deep breath and think things through. Romana was right. When she opened her ears Mila could hear a few people comparing the young master of this noble Blackwood Family with her cousin Shira. They compared such a gallant-looking young noble with a trash of Yashura Family young master, adding with their own biased seasoning here and there, making her cousin Shira look really lousier than he usually was. Mila trembled as her face boiled red from holding back her anger.
 
-“Where’s Shira right now?”
+Mila took a deep breath again. Released it. She looked at Romana and asked.
 
-“I think he went hiding!” Romana said.
+“Where’s that kid right now?”
 
-“Hiding?! He’s embarrassed to show his face that much?”
+“Shira? I think he went hiding!”
 
-After circling around a bit, Mila found the boy’s silhouette in the shadow far from the braziers' light. There, he was squatting, hiding along with two other silhouettes who were also squatting in a suspicious manner.
+“Hiding?! Suddenly he cares about face and know what is shame now?”
+
+After searching around a bit, Mila and Romana found the boy’s silhouette in the shadow far from the braziers' light. There, he was squatting, hiding along with two other silhouettes who were also squatting in a suspicious manner.
 
 “Now, young master, where the hell did you get this coin?” someone whispered from the suspicious bunch.
 
-The reply came also in the same hushed manner. “Don’t ask me now, just know I’ve got a few more hidden in my house. I can’t move my family, but if you’re fine with this, I can invest in your goods earlier.”
+The reply came also in the same hushed manner. “Don’t ask me now, just know I’ve got a few more hidden in my house. I can’t move my family until at least a few years after my coming of age ceremony--but if you’re fine with this, I can invest in your goods earlier.”
 
 “We’re fine? Of course we’re fine! Don’t you know how amazing this coin is?”
 
@@ -62,15 +59,15 @@ The reply came also in the same hushed manner. “Don’t ask me now, just know 
 
 “You tell me.”
 
-“Yeah, these coins weren’t issued by any countries, but they’re valuable. Lots of herbs and ingredients in the black markets can only be bought with these coins...”
+“Yeah, these coins weren’t issued by any countries, but they’re valuable. They say the unknown goldsmith was \_the \_legend. Lots of herbs and ingredients in the black markets can only be bought with these coins...”
 
 _...whisper whisper whisper..._
 
-Mila approached.
+Mila stepped in.
 
 “Ey, what are you doing?!”
 
-For some reasons, Shira and Monkey, one of his companions, almost jumped in fright by her barking. Both Mila and Romana behind her saw Shira and Monkey were acting suspicious--but Sneak, the third silhouette, didn’t even try to hide that he was nibbling on something delicious.
+For some reasons, Shira and Monkey, one of his companions, almost jumped in fright by her barking. Both Mila and Romana behind her saw Shira and Monkey were acting suspicious--but Snake, the third silhouette, didn’t even try to hide that he was nibbling on something delicious.
 
 Mila, with a weird face, hissed, “Is that… _rendang_ you guys were eating?”
 
@@ -84,7 +81,7 @@ Mila was so angry she slapped the banana leaves in Shira’s hand.
 
 “Young master, someone trying to get you cuckolded?” licking his fingers for some leftover rendang sauce, Snake asked from the side.
 
-Shira shook his head. “Cuckold is a very strong word. That girl didn’t even consider me from the beginning. It’s not like we're a married couple yet.”
+Shira shook his head. “Cuckold is a very strong word. That girl Bhela didn’t even consider me from the beginning. It’s all just formalities, sooner or later they’re going to announce it was a mistake and people would forget about it..”
 
 He then came to pick the spoiled beef and mourned, “ah… my poor rendang.”
 
@@ -94,31 +91,37 @@ Monkey blurted, “Rendang is not important?”
 
 Mila glared at Monkey. The monkey-faced peddler closed his mouth as soon as he opened it.
 
-Romana saw her friend Mila had a bad affinity with her cousin whenever she was angry, thus came to explain from the side, “Young Master Shira, don’t you know people outside the Mossack culture do take engagement seriously? It’s understandable for a young heir of a conservative family like Yashura to not care much about it--but, whatever your feelings regarding your engagement is, if Young Lady Bhela has an affair outside, she’ll also drag down Yashura Family’s reputation. So please be mindful about it more for the sake of your family.”
+Romana saw her friend Mila had a bad affinity with her cousin whenever she was angry, thus came to explain from the side, “Young Master Shira, don’t you know people outside the Mossack culture do take engagement seriously? It’s understandable for a young heir of a conservative family like Yashura to not care much about it--but, whatever your feelings regarding your engagement is, if Young Lady Bhela has an affair outside, she’ll eventually drag down Yashura Family’s reputation. You won’t notice it until later you take patriarch’s mantle from your uncle. So please be mindful about it more for the sake of your family.”
 
-They didn’t really think about this deeply since straightforward Mossack people were the type to have children before they were even married. If things went awry, Shira reckoned his uncle and the elders in his family might think the engagement matter was similar to puppy love, about children bantering, but the young generation who was exposed to stories and gossips from books and travellers might think about it differently. And someone who didn’t hang out so much like Shira wouldn’t be able to tell how these youngsters would talk about this incident in the future.
+Shira usually wouldn’t mind letting Mila have her way with her reasoning, but Romana, her friend, was a daughter of a family elder from a smaller family than Yashura, they knew their stuff and Shira always thought Romana had some talent her father had. Shira and older generation Yashuras didn’t really think about this engagement deeply since straightforward Mossack people were the type to have children before they were even married--but mostly because the one who started, Shira’s father Jhuro Yashura, almost hadn’t been home dealing with details to make the engagement looked real. At worst when things went awry, Shira reckoned his uncle and the elders in his family might think the engagement matter was similar to puppy love, about children bantering, but Romana seemed to suggest the young generations who were exposed to stories and gossips from books and travellers might think about it differently.
 
-So Shira stood up and patted his trouser, admitted, “Ah, you’re right, Romana.”
+So Shira stood up and patted his trouser, admitted, “Ah, you’re right.”
 
-Mila crossed her arms. Frowning at her cousin. “What are you gonna do now? Fight them? No need to be afraid, I’m with you.”
+“Of course we are right!” Mila sneered.
 
-Snake, still squatting comfortably, added, “Young Master, my grandfather and my older brother are still here too. You won’t be at a disadvantage in case things go downhill.”
+Shira rolled his eyes. Anyone who didn’t contribute in thinking things through shouldn’t have acted high and mighty in front of him.
+
+Monkey, who was silent before, cleared his phlegm and showed his support. “What are you gonna do now, Young Master? Fight them? No need to be afraid, I’m with you.”
+
+Snake, still squatting comfortably, added, “Young Master, my grandfather and my older brother are still here too. It wouldn’t be too bad if we make some ruckus a little bit.”
 
 “It’s decided. Let’s kick their asses!” Mila growled.
 
-“The heck are you talking about kicking people’s asses in Ngajen Ceremony?” Shira grunted.
+“The heck are you talking about kicking people’s asses in Ngajen Ceremony?” Shira grunted. “And please, Mister Monkey, Mister Snake, this is family’s matter, you don’t have to worry about it.”
 
-“Then at least let me slap that slut’s arrogant face!”
+Mila insisted, “Then at least let me slap that slut’s arrogant face!”
 
 Shira shook his head.
 
 “Let’s go,” he said.
 
-“We’re gonna slap her face now?” Mila asked.
+“We’re gonna slap her face now?”
 
-“No. We at least have to make Family Yashura’s presence known here,” Shira said. He caught his companions’ confused expressions, so he added, “Everyone is getting excited because most of them are young'uns. But if this incident gets out of the hands, the elders from other families won’t be silent about it.”
+“No. We at least have to make Family Yashura’s presence known here,” Shira said. He caught his companions’ confused expressions, so he added, “Everyone is getting excited because most of them are from the younger generation. But if this incident gets out of the hands, the elders from other families won’t be silent about it.”
 
-Mila wanted to say something but didn’t after seeing Shira’s relaxed face. She didn’t want to say something silly that’d change the boy’s mind. Therefore, with Shira leading the way, she and her friend Romana went to see the ruckus caused by the noble’s arrival. Leaving Monkey and Sneak who were silent looking at their back.
+Shira was sure about this. Because hardliners and conservatives usually were from the older ones, people who didn’t meddle much on gossip and such.
+
+Mila wanted to say something but didn’t after seeing Shira’s relaxed face. At least, the boy said something. She didn’t want to say something silly that’d change his mind. Therefore, with Shira leading the way, she and her friend Romana went to see the ruckus caused by the noble’s arrival. Leaving Monkey and Sneak who were silent looking at their back.
 
 The two exchanged glances.
 
@@ -134,7 +137,7 @@ But it was Monkey who shouted in joy, “I got one!”
 
 Pushing out Snake’s face from grabbing the rendang in his hand, Monkey felt wronged and cried, “Why would a rich gentleman like you fight over a single beef with this poor peddler? Don’t you know my family can only afford to eat beef once a year?”
 
-“Why, you asked?” Snake sneered, “There’s no need to say the obvious. You don’t get to eat Patriarch Shuro’s handmade rendang everyday! And I’m saying this after starving for beef ever since I’m following you.”
+“Why, you asked?” Snake sneered, “There’s no need to say the obvious. You don’t get to eat Patriarch Shuro’s handmade rendang once a year!”
 
 “Fuck off!”
 
@@ -158,7 +161,7 @@ Monkey at first didn’t get what the servant was talking about. Then he realize
 
 ---
 
-The one who enthusiastically greeted the young noble of Blackwood Family was Elder Jhamil instead of Bhela Malikh. He managed to conjure thirty years worth of bullshitting skills to flatter and fawn over the other party, rather thick faced to continue despite the young master of noble family rolled his eyes several times. As soon as the young noble caught the sight of a short-haired girl he immediately escaped from Elder Jhamil’s clutch with a big grin on his face.
+The one who enthusiastically greeted the young noble of Blackwood Family was Elder Jhamil instead of Bhela Malikh. He managed to conjure thirty years worth of bullshitting skills to flatter and fawn over people with background, rather thick-faced to continue despite young master of the noble family rolling his eyes several times. As soon as the young noble caught the sight of a short-haired girl he immediately escaped from Elder Jhamil’s clutch with a big grin on his face.
 
 “Ah, Sister Bhela!”
 
@@ -166,9 +169,9 @@ The one who enthusiastically greeted the young noble of Blackwood Family was Eld
 
 “How are you doing Young Lady Bhela? Fancy to meet you again,” he said as he gifted the girl a flower.
 
-Bhela received the flower but then immediately passed it to a random maidservant beside her. She said as if it was nothing, “I’m fine. Thank you.”
+Bhela received the flower but then immediately passed it to a random maidservant beside her. She asked him instead of replying the greeting, “Is Lyla resting well?”
 
-Young Master Frane Blackwood smiled wryly. “I’ve been travelling with hardly any rest so that I can see you sooner, my young lady,” the young master of Blackwood Family, Frane Blackwood, said, “may I be so lucky to receive your company tonight?”
+“It’s been five days since she came home, she has been much livelier than from two years ago--thanks to you.” Young Master Frane Blackwood smiled. There was a hint of impatience behind his smile, not wanting the conversion indulged in a topic he didn’t care about, thus he said. “Instead, I’ve been travelling with hardly any rest so that I can see you sooner, my young lady. I didn’t have the chance to have my rest. So may I be so lucky to receive your company tonight?”
 
 “I’m sorry, but here the words ‘tonight’s companion’ have different meanings than when you say it in the western-style ball--so, no, Young Master Blackwood, I can’t give you company tonight,” she said.
 
@@ -184,59 +187,67 @@ There was a rare restraint in Bhela’s voice as she replied, “I apologize for
 
 “Lead the way then.”
 
-Badril Village locals witnessed the valiant Young Lady of Malikh Family taking charge of the Ngajen Ceremony as the Chief Chef, but with the appearance of her bowing to two unfamiliar guests as well, whispers were floating amongst the Ngajen Ceremony guests. Before long, everyone knew that two guests Bhela Malikh greeted were the ones she personally invited, but was neglected before the family’s gate because of the excitement made by the noble’s arrival. Bhela came to them to apologize in person.
+Badril Village locals witnessed the valiant Young Lady of Malikh Family taking charge of the Ngajen Ceremony as the Chief Chef, but with the appearance of her bowing to two unfamiliar guests as well, whispers were floating amongst the Ngajen Ceremony guests. Before long, everyone knew that two guests Bhela Malikh greeted were the ones she personally invited, but was neglected before the family’s gate because of the excitement made by the noble’s arrival. Bhela approached them to apologize in person.
 
 Young Master Frane Blackwood, who felt ignored, pulled a self-decrepitating sneer. He complained to Elder Jhamil instead, “Oh, Malikh Family elder, can you tell me the identity of those two guests who made even Young Lady Bhela to bow her head?”
 
-“Ehem, ehem,” Elder Jhamil didn’t know what to answer, so he concocted a reply out of thin air, “I think they were relatives from her maternal family.”
+“Ehem, ehem,” Elder Jhamil didn’t know what to answer, so he concocted a reply out of thin air, “I think they’re relatives from her maternal family.”
 
 “Is that so? From the way they are dressed, they don’t look from that respectable background enough to get the young lady’s full attention. Don’t you think so?”
 
-“Young noble is right. Young Lady Bhela’s father once was a gangster thus he didn’t manage to teach common sense to the young lady. I’ll talk to her later to explain what’s really important.”
+“Young noble is right. Young Lady Bhela’s father was a gangster when he was young so it’s understandable for him to fail teaching the young lady common sense. I’ll talk to her later to explain what’s really important.”
 
-After a bit of excuse and fawning, Young Master Blackwood felt this Elder Jhamil was acceptable. He told the Blackwood Family’s servants to bring the gifts he had prepared, which were naturally accepted by Elder Jhamil on the young lady’s behalf. In the meantime, people were disappointed that the drama they were expecting didn’t happen. But what could they do besides shaking their heads and disperse?
+After a bit of excuse and fawning, Young Master Blackwood felt this Elder Jhamil was acceptable. He told the Blackwood Family’s servants to bring the gifts he had prepared, which were naturally accepted by Elder Jhamil on the young lady’s behalf. In the meantime, people were disappointed that they weren’t able to watch the fun they expected to see. But what could they do besides shaking their heads and disperse?
 
 ---
 
-Year after year, the ngajen ceremony evolved from stiff sessions of praying ceremony for village safety to the new stylish festivities of foods and happy times for the youngsters, where fads and trends emerge. However big their way of life was changing the conservative major families, Yashura and Elzhier, still pretty much followed the old ways, especially when it came to the prayers. Only Malikh Family amongst the three that eager to embrace the new world that was coming. And by Elder Jhamil’s direction, instead of local shamans, Malikh Family asked help from foreign priests from western orthodox temples from nearby villages to lead the prayer.
+The Ngajen Ceremony started about five decades ago, evolved from solemn sessions of praying ceremony for village safety to the new stylish festivities of foods, where fads and trends emerge. However grand their way of life was changing, the conservative major families--Yashura and Elzhier--when it came to the tradition, still pretty much followed the old ways, especially the prayers, as the slightest bit of deriving the tradition would receive nags and complaints from the previous generation elders. Only Malikh Family amongst the three that was eager to move away from the tradition with stride intended to be impressive; doing that, instead of local shamans, Malikh Family asked help from foreign priests from western orthodox temples from nearby villages to lead the prayer. Under Elder Jhamil’s impression he’d make sure his Ngajen Ceremony wouldn’t be embarrassing in front of the noble guest.
 
-It was all good if one made a progressive decision with the greater good in mind. But here was the problem; orthodox temple priests usually led prayers for abundant harvest, while Ngajen Ceremony was all about calming Selaqs from descending the mountain. These priests probably hadn’t any clue how Selaqs looked like.
+After the praying was done, Mila complained non-stop since they finished praying with other guests.
 
-“It was inappropriate for a noble to pray to old Mossack deities they don’t believe in, that was Malikhs’ excuses,'' Mila complained non-stop since they finished praying with other guests. In her hands--like a young mother hugging her baby--were plates of food she had just plundered from Malikh Family’s banquet tables prepared to entertain guests.
+“It was inappropriate for a noble to pray to old Mossack deities they don’t believe in, that was the Malikhs’ excuse.''
 
-“What deity? Wasn’t the mantra replaced from ancient Mossack prayers to magic spell mantra to calm down Selaq since… I don’t know, fifty years ago?” Romana said. The food in her hands was no less than Mila’s. These two girls seemed to think Malikh Family would regret offending them if they plunder the latter’s prepared feast like no tomorrow.
+“What deity? Wasn’t the mantra replaced from ancient Mossack prayers to magic spell mantra to calm down Selaq since… I don’t know, fifty years ago?” Romana said.
 
-“That's what I was saying! We no longer those ancient Mossacks who would sacrifice relatives so Selaqs won’t come down the mountain! Nowadays we’ve been using legit spells to keep all those Selaqs away, and these stupid Malikhs want to change the tradition just to appease some visiting noble? They’d rather avoid their noble guest to be uncomfortable than preventing Selaqs from coming down to chew their stupid brains, hah!”
+“That's what I was saying! We no longer those ancient Mossacks who would sacrifice relatives so Selaqs won’t come down the mountain! Nowadays we’ve been using legit spells to keep all those Selaqs at bay, and these stupid Malikhs want to change the tradition just to make some visiting noble feels comfortable? Bah!”
 
-Compared to noisy girls beside him, Shira was able to keep his head to his feet. Romana signaled Mila with her eyes when she realized the boy wasn’t so into retaliating against the Malikhs; instead of invading the feast Shira, grabbed Malikh Family’s snacks moderately whenever he could--just like any other normal guests that came here.
+Romana nodded along. “Malikh Family is so stupid.”
+
+“That what I was saying!”
+
+While voicing out her complaints, Mila liked to act impressive and cocky, with her head held up high, chest upward, but in her hands--like a young mother hugging her baby--were plates of food she had just plundered from Malikh Family’s banquet tables prepared to entertain guests.
+
+Romana also had food in her hands, no less than Mila’s. These two girls seemed to think Malikh Family would regret offending them if they plunder the latter’s prepared feast like no tomorrow.
+
+Compared to noisy girls beside him, Shira was able to keep his head to his feet, acting moderately as a normal guest supposed to be.
 
 Mila grumbled with a bad mood, faced Shira and said, “Don’t you have something you need to do?”
 
-“Like what?” Shira hoped this cheeky cousin of his wouldn’t say something about kicking people’s asses again.
+Shira had his arms crossed while he savored a wet cake he managed to snatch from a busy Malikh Family’s servant. He looked at her, eyes lazily half-closed, asked, “And like what?”
 
-“We can’t wait for something to happen,” she said. “Go ask that bitc--I mean, that fiancée of yours--go ask for a dance. The young’uns are starting to get heated. Look there, one of them couples are dancing. You go join them since that short-haired cunt is your fiancée after all.”
+“We can’t wait for something to happen!” she said. Originally they planned just to show off their face, but they didn’t expect for Malikh Family to be shameless enough to even thrown away traditions. For opponents that didn’t care about face, Mila thought they ought to be more proactive. “Go ask that bitc--I mean, that fiancée of yours--go ask for a dance. The young’uns are starting to get heated. Look there, one of them couples are dancing. You go join them since that short-haired cunt is your fiancée after all.”
 
 Mila glanced around for a while before she realized she just had her tongue slipped. She quickly corrected her previous words, “Did I say cunt? I mean short-haired bitch--no, short-haired _young lady_.”
 
-“Why don’t you just be honest with yourself here. People have been calling Malikhs much worse here because the foreign priests matter!” Romana laughed.
+Romana laughed. “Why don’t you just be honest with yourself here. I heard names calling for the Malikhs much worse than yours because the foreign priests matter!”
 
-At that moment a very young maidservant of Malikh Family just passed by and overheard their conversation. The little maidservant snorted in anger, which made Mila snorted back as a retort.
+At that moment a very young maidservant of Malikh Family just passed by and overheard their conversation. The little maidservant snorted in anger, which made Mila snort back as a retort.
 
 “Go, go! Go dance with her!” Mila whispered when she was sure only Shira and Romana were around.
 
 Shira clicked his tongue. “I don’t even have a single proper conversation with her these past ten years. Why should I go ask her dance out of the blue? Just showing our face around here is enough.”
 
-“Fool! If she accepted to dance with you then all is good, that would only confirm Malikh Family’s cocky attitude is only because their dipshit brains are getting fried by their own inflated proud ego, nothing serious! But if she ignores you in front of others… heh--she dares!”
+“Fool! If she accepted to dance with you then all is good, that would only confirm Malikh Family’s cocky attitude is only because their dipshit brains are getting fried by their own inflated proud ego--nothing serious! But if she ignores you in front of others… heh heh… she dares!”
 
 “That’s easy for you to say. If someone you don’t like suddenly asks your hands for a dance, what would you feel later on when you found out refusing means two families become enemies?”
 
-“Uh-uh, I don’t feel nothing. If he’s my fiancé then it’s my job to go my way out to make it clear in public! Going dancing, going kissing, like a proper damned couple! That’s what the goddamn engagement is all about! Right?”
+“Uh-uh, I don’t feel nothing. If he’s my fiancé then it’s my job to go my way out to make it clear in public! Going dancing, going kissing, like a proper damned couple! We must, because people have eyes--and they also have noisy mouths! That’s what the goddamn engagement is all about! Right?”
 
 Mila ate a cookie and she blinked. Unsure of the previous words she said, she glanced at Romana and murmured, “...right?”
 
-Romana shrugged.
+Romana shrugged. Folks back in her family never did set up engagements before--it wasn’t common for the southerners. Actually, neither of the three of them knew what was proper for engaged couples.
 
-But Shira wouldn’t back down easily. He continued arguing, “What if your fiancé is Bony Elzhier, then? Are you going to kiss him to prove he’s your fiancé?”
+Shira didn’t like the idea Mila spouting. He argued, “What if your fiancé is Bony Elzhier, then? Mila, are you going to kiss him to prove he’s your fiancé?”
 
 Mila hid her gasp.
 
@@ -246,47 +257,49 @@ Shira groaned against his cousin’s unreasonableness. But before he could conco
 
 “Oh, Young Master Shira,” Monkey came patting him on the shoulder, “it seems you get cuckolded for real this time.”
 
-People were clapping and whistling as the flashy Young Master Frane Blackwood led Young Lady Bhela Malikh by the hand.
+People were clapping and whistling as the flashy Young Master Frane Blackwood. As it turned out, while Shira and Mila were debating about what they should do, the stylish young noble instead had led Young Lady Bhela Malikh by the hand.
 
 “Young Lady Malikh was entertaining two guests previously, but that bald elder raised a fuss about how she neglected the young noble, so in the end it came to this.”
 
-Monkey laughed as he teased Shira with his elbow, “They’re going to dance. When two people were dancing in Ngajen Ceremony, that meant they--” he caught the scary experssion on Mila’s face, stopped, “nevermind…”
+Monkey laughed as he teased Shira with his elbow, “They’re going to dance. When two people were dancing in Ngajen Ceremony, that meant they--” he caught the scary expression on Mila’s face, stopped, “nevermind…”
 
 “That slut!” Mila hissed.
 
-This was getting serious. Whenever Mila showed that kind of face something bad would happen. Again, the moment Shira opened his mouth to say something, someone else came to grab him in the shoulder.
+This was getting serious; whenever Mila showed that kind of face something bad would happen. Again, the moment Shira opened his mouth to say something, someone else came to grab him in the shoulder.
 
 “Brat, your woman is going to cuckold you in public,” said the newcomer, Good-Natured Spirit, who literally came out of the thin air.
 
 “You too?”
 
-Shira had a headache. Both Monkey and Snake couldn’t see the annoying Good-Natured Spirit, but the three of them were in harmony in mocking him. They mocked him to the point saying he wouldn’t care would only embarrass him further.
+Shira had a headache. Both Monkey and Snake couldn’t see the annoying Good-Natured Spirit, but the three of them were in harmony in mocking him. They mocked him to the point saying he didn't care would only embarrass him further.
 
 In the meantime, being led by the hand, Bhela Malikh asked Young Master Blackwood, “What kind of remedy Blackwood Family brought with you?”
 
 “Why so much in hurry, my young lady?” the young noble gave a laugh and a flash of smile. “No need to worry, Blackwood Family sympathize with the disaster that befell your father, so my mother send me here to personally deliver the medicine Blackwood House had sought far and wide.”
 
-Bhela Malikh said nothing more. The Young Master of Blackwood Family pondered as he read the cold expression of the girl, thinking that even with flowers and jewelry gifts, nothing could move this young lady. Such a waste of that beautiful face to not letting a single smile escaped, Young Master Blackwood could only smacked his lips and shook his head. But as soon as he mentioned a medicine he brought for her father, the feisty young lady became amiable almost immediately.
+Bhela Malikh said nothing more. The Young Master of Blackwood Family pondered as he read the cold expression of the girl, thinking that even with flowers and jewelry gifts, nothing could move this young lady. Such a waste of that beautiful face to not let a single smile escape, Young Master Blackwood could only smack his lips and shook his head. But as soon as he mentioned a medicine he brought for her father, the feisty young lady became amiable almost immediately.
 
 Good thing for him. Bhela Malikh was talented, the Blackwood Family planned to have her inside their house, and if things went this smoothly he could do that his mother told him sooner than he expected.
 
-“Little bitch of Malikh Family,” a girl roared, “you finally show your true color you bitch! Is Yashura Family a joke to you?!”
+But unfortunately, things wouldn’t go as smooth as he wished to.
 
-The furious Mila Yashura became the center of attention. She snorted as she strode, like an angry bull preparing to charge, with the mood that would make the crowd wordlessly give way to her. Not only because they didn’t want anything to do with the infamous young lady of Yashura Family--who, when angry, once punched Bony in the face with a nosebleed--but also because she got a sword in her hands.
+“Little bitch of Malikh Family,” a roar of a young woman’s crashed upon the merry festive, “you finally show your true color you bitch! Is Yashura Family a joke to you?!”
 
-Shira glanced down. His father’s sword he brought with him was gone. He looked again at the unsheated weapon in his cousin’s hands.
+Mila Yashura strode forward. She snorted, like an angry bull preparing to charge, with the mood that would make the crowd wordlessly give way to her. Not only because they didn’t want anything to do with the infamous young lady of Yashura Family--who, when angry, once punched Bony in the face with a nosebleed--but also because she got a sword in her hands.
 
-He could only slap his own face the moment he noticed what was happened.
+Shira glanced down. His father’s sword he brought with him was gone. He looked again at the unsheathed weapon in his cousin’s hands.
 
-Mila took a step forward slowly, but her face turned even fiercer. She spoke, “You got guts to bring a lover from outside, eh? I knew something fishy happened when I saw you cut your hair, you little slut.”
+He could only slap his own face the moment he noticed what was happening.
+
+With every firm step she took, Mila's face turned even fiercer. She spoke, “You got guts to bring a lover from outside, eh? I knew something fishy happened when I saw you cut your hair, you little slut.”
 
 “I cut my hair because it got in the way during my training,” Bhela replied plainly. “And this is not my lover. Just a relative of my friend.”
 
-“You lying little slut. As if someone like you have any friends!”
+“You lying slut. As if someone like you have any friends!”
 
-“I do have a friend.” Bhela said. A rare emphasizing tone in her voice was telling that she was upset, but she held back from explaining further.
+“I do have a friend.” Bhela said. A rare strain in her voice showed that she was upset, but since all Mila did was sneering, it was pointless to explain anyway.
 
-“I don’t care what your excuse is! Do you think I don’t know what you shitty Malikhs up to? You already don’t put Yashura Family in your eyes, eh? Just because you bitch have a little vacation outside, eh? If you think you’re a big shot, why don’t you prove it here and now?!”
+“I don’t care what your excuse is!” Mila spat. “Do you think I don’t know what you shitty Malikhs up to? You already don’t put Yashura Family in your eyes, eh? Just because you bitch have a little vacation outside, eh? If you think you’re so good, why don’t you prove it here and now?!”
 
 Bhela Malikh was silent for a while. Looking at Mila, she then asked, “And what are you suggesting I should do, Young Lady Yashura?”
 
@@ -304,25 +317,25 @@ Bhela didn’t want to argue with her. So she told the nearest servant to go gra
 
 On the other side, Monkey anxiously elbowed Shira, said, “Should I drag your cousin back?”
 
-“Stand down, mister. Mila is the one who’s starting it. She can’t afford to back down now.”
+Shira put his hand on Monkey’s shoulder. “Stand down, mister. Mila is the one who’s starting this mess. She can’t afford to have people think she’s chickened out now.”
 
 Beside them Snake was nodding as he understood what Shira meant.
 
-Then with a laugh, Good-Natured Spirit, who was already tired jeering him, said to Shira. “Kid, shit just got real. Ain’t that a good idea to pull her before it’s too late?”
+Then with a laugh, Good-Natured Spirit, who was already tired jeering him, said to Shira. “Kid, shit just got real. Your cousin’s only good when it comes to raw brawl without using skills and mana. Ain’t that a good idea to pull her before it’s too late, now?”
 
 Shira wanted to but he couldn’t. He knew exactly Mila’s strength. Fighting bare hands, she might get a chance to stand against the strongest youngster in the village, but it would become a different story when weapons and mana were involved.
 
-Since Mila was the one to propose the duel, bailing out before the fight began would be slapping her own face in front of the guests. It was a bad idea, because Mila didn’t appear to have the slightest chance to win. So bad that it’d be more reasonable to just surrender. But Shira knew Mila hated to go back on her words the most. Thus he silently moved closer to her, prepared to pull her back in before the situation really got out of his hands.
+Since Mila was the one to propose the duel, bailing out before the fight began would be slapping her own face in front of the guests. Yet doing this way was a bad idea either, because Mila didn’t appear to have the slightest chance to win. So bad that it’d be more reasonable to just admit surrender. But Shira knew Mila hated to go back on her words the most. Thus he silently moved closer to her, prepared to pull her back in before the situation really got out of his hands.
 
 Meanwhile, Young Master Blackwood, was pulled out by an adjutant of his family.
 
-Smirking, he asked the adjutant, “Who is that girl who picking a fight with Bhela?”
+“Who is that girl who’s picking a fight with Bhela?”
 
 “Seems like the eldest young lady of that family,” the adjutant replied.
 
 “You mean the family my Bhela got engaged to?” Young Master Frane Blackwood asked as if Bhela already his. The corner of his lips curled as he thought this might be a good chance to do something on the engagement that Blackwood House already saw as a thorn in their eyes. “Do you have something on that girl?”
 
-“Replying to young master, since Yashura Family is the main obstacle for us to get Young Lady Bhela Malikh to our side, your mother has already sent someone to investigate them. The eldest young lady of Yashura Family merely a Level 10 Specialist class who just graduated from Novice about seven months ago.”
+“Replying to young master, since Yashura Family is the main obstacle for us to get Young Lady Bhela Malikh to our side, your mother has already sent someone to investigate them. The eldest young lady of Yashura Family merely a Level 10 Specialist class who just graduated from Novice about seven months ago. She didn’t even have the talent to attend schools or any sects outside this little village.”
 
 Young Master Blackwood couldn’t help but chuckle. Even though the two young ladies had the same level, a Specialist merely support class that wasn’t suited in combat. This duel affair would turn out to be a joke.
 
@@ -332,31 +345,23 @@ Young Master Blackwood scoffed. “Let my Bhela teach her some manners. I don’
 
 “What’s on your mind, adjutant?”
 
-“I just made a round to check the guests attending this ceremony, and I found…”--he lowered his voice--“...some spectators amongst the guests that shouldn’t have be here….”
-
-“Go on,” the young noble urged.
-
-“I just received the word, young master, there are experts that Elder Jhamil said he didn’t invite.”
+“I just made a round to check the guests attending this ceremony, and I found…”--he lowered his voice--“...some spectators amongst the guests that shouldn’t have been here….”
 
 Young Master Blackwood frowned. “What… what’s that supposed to mean?”
 
-On the less crowded place of the courtyard, the middle-aged man who Bhela greeted before, along with the middle-aged woman, watched the commotion unfold while nibbling on steamed peanuts. He glanced at the other place where a man calmly sipping tea, a man with a hard face who couldn’t hide his sharp aura, then swept his gaze at the one who beside him, a short stature man who wore a headband to hide his reddish hair from public, who also happened to enjoy steamed peanuts while his focus solely at one direction in the crowd.
+In the less crowded place of the courtyard, the middle-aged man who Bhela greeted before, along with the middle-aged woman, witnessed the commotion from afar. The middle-aged man was frowning to his thought, but the middle-aged woman was interested in knowing Bhela’s two other guests; an eastern Kaya man, sipping his tea, leaking a sharp aura that with his bringing that could only formed from habits and his everyday’s business. One other guest was more relaxed, a short stature man who wore a headband to hide his reddish hair from public, who also happened to enjoy steamed peanuts while his focus solely at one direction in the crowd while occassionally rubbed his beard watching the spectacle with interest.
 
-All of them came in common garments incognito. But still Elder Jhamil sent people to keep tabs on them, especially since the bald elder still didn’t know the reason Bhela Malikh invited these foreigners.
+In the meantime, Elder Jhamil saw his arrangement didn’t come as smoothly as he wanted, came forward to invite himself as the judge of the two young ladies’ duel. For a chance to humiliate those simple Yashuras and to slip himself onto the spotlight, he couldn’t ask for a better opportunity.
 
-The ngajen ceremony usually consisted of three main parts--prayer, socializing, and sending offerings to the mountain as the finale. It was uncommon for irrelevant events to happen between them. However, since the young lady of the host had already accepted the duel, Malikh Family set up an emergency venue for the fight.
-
-Elder Jhamil came to invite himself as the judge. For a change to hummiliate those simple Yashuras and to slip himself onto the spotlight, he couldn’t ask for better opportunity.
-
-“You two ready?” Elder Jhamil asked both of the opposing sides. “This is a friendly match between two friendly families. So stop before your blade hit your enemy,” he said, seemingly talking to either sides, but didn’t say anything about the arrows part.
+“You two ready?” Elder Jhamil asked both of the opposing sides. “This is a friendly match between two friendly families. So stop before your blade hits your enemy,” he said, seemingly talking to both sides, but didn’t say anything about the arrows part.
 
 Since Bhela Malikh was an Archer, she suggested to Mila, “I’m using a bow. So you can move first. I’ll try to dodge for ten seconds.”
 
-“I don’t need that,” Mila scoffed.
+“I don’t need that,” Mila laughed sarcastically. “You want an excuse to escape when I kick your ass, aren’t you?”
 
-“Very well…” she said. She glanced at Elder Jhamil, said, “Elder Jhamil, please begin the duel."
+“Very well…” she said. She glanced at Elder Jhamil. Elder Jhamil nodded at her.
 
-Elder Jhamil counted to three.
+Then came the countdown.
 
 The duel began.
 
@@ -376,21 +381,21 @@ Mila was confident before. She knew a trick against an Archer, but here she was 
 
 _Clank!_
 
-The first blue arrow dissapeared almost the moment it reached Mila. The sound of metallic clash that followed the said arrow resounded three more times, and the three arrows left behind too disappeared almost immediately. Mila, thought she ought to dodge the magic arrows, leap a step backward, but her hasty movement combined with the slippery mud made her slipped her foothold, accidentally fell to her butt instead.
+The first blue arrow disappeared almost the moment it reached Mila. The sound of metallic clash that followed the said arrow resounded three more times, and the three arrows left behind disappeared almost immediately. Mila, though she ought to dodge the magic arrows, leap a step backward, but her hasty movement combined with the slippery mud made her slip her foothold, accidentally fell to her butt instead.
 
-Bhela aimed down her bow. Everyone was staring at her with complicated and questioning gaze, as an Archer who could do magic, this was the first time everyone witnessed it.
+Bhela aimed down her bow. Everyone was staring at her with a complicated and questioning gaze, as an Archer who could do magic, this was the first time everyone witnessed it.
 
 “It’s a four elemental affinity spell!” someone’s voice roared through the silenced venue, “I heard it, I doubted it, but she really did it!”
 
-Everyone looked at his way, the man who shouted, and saw that it was the middle-aged man whom Bhela invited from outside the village. He sat eating steamed peanuts then, now he was standing perplexed.
+Everyone looked at his way, the man who shouted, and saw that it was the middle-aged man whom Bhela invited from outside the village. He sat eating steamed peanuts then, now he was standing perplexed with his trembling finger pointing at Bhela.
 
-Bhela, realizing that the man was the center of the attention, and bow to him from afar.
+Bhela, realizing that the man was the center of the attention, bowed to him from afar.
 
 “She really did it…” the man said under his breath.
 
-Someone who sat beside him said, “Sure she did, the only one right now--I guess now that you big brain from Elemental Stone School witnessed it I guess you can die without regret?”
+The woman sitting beside him said, “Sure she did, the only one right now--I guess now that you big brain from Elemental Stone School witnessed it I guess you can die without regret?”
 
-The man looked at the woman who accompanied him, he said still with expression of disbelieve, “It’s a four elemental affinity spell…”
+The man looked at the woman, he said still with an expression of disbelief, “It’s a four elemental affinity spell…”
 
 “Yes, yes, you already said that.”
 
@@ -406,7 +411,7 @@ As the woman said that, someone else blurted not far away from there.
 
 “Pardon? Sir Kurusiya?” the woman asked.
 
-The one she was talking to was the quiet man with sharp aura. He said as a matter of fact like tone, “She didn’t stop it. Someone else did,” he sipped his tea, and when the woman still confused, he explained with hoarse voice, “those are magic, but they were still arrows shot from a bow. You can’t stop flying arrows. That girl calculated and slightly missed her aim as to not hurting her opponent. But she didn’t plan to stop it.”
+The one she was talking to was the quiet eastern man with the sharp aura. He said as a matter of fact like tone, “She didn’t stop it. Someone else did,” he sipped his tea, and when the woman was still confused, he explained with a hoarse voice, “those are magic, but they were still arrows shot from a bow. You can’t stop flying arrows. That girl calculated and slightly missed her aim as to not hurting her opponent. But she didn’t plan to stop it.”
 
 The woman questioned him, “If she wasn’t the one who stopped it, then would you know why the arrows disappears?”
 
@@ -414,19 +419,19 @@ The man put down his glass of tea. “I don’t know. Why you ask me? Ask that f
 
 The woman, along with the middle-aged man from Stone Elemental School, looked up to the bearded foreigner.
 
-“She’s not the one who stopped it,” the bearded man said with a smile.
+“She’s not the one who stopped it,” the bearded man said with a smile. “I saw how it was done with my own eyes.”
 
-Meanwhile, Mila, who mellowed from her defeat and still sat on the muddy ground, gulped as she saw her cousin come to pick her up.
+Meanwhile, Mila, who mellowed from her defeat and still sat on the muddy ground, gulped as she saw her cousin Shira come to pick her up.
 
-“I lost,” she said to Shira.
+“I lost,” she said to him.
 
-“No you didn’t, that girl is the one who put down her bow first, and you still got your swords in your hands--so technically you’d win.”
+Shira looked at her, taking time to choose his words carefully, said, “No you didn’t. That girl is the one who put down her bow first, and you still got your swords in your hands--so technically you have won.”
 
 “I fell to my butt, I was humiliated,” Mila said, her voice trembled, “I lost….”
 
-Shira sighed. He grabbed Mila’s hand and pulled her up. “It’s adult problems from hereon, Uncle Shuro would likely summon my father back. For now, let’s get out of here,” he said.
+Shira sighed. He grabbed Mila’s hand and pulled her up. “It’s adults problems from hereon forward. Uncle Shuro would likely summon my father back and make him talk seriously with Malikh Family. For now, let’s get out of here,” he said.
 
-Monkey and Snake, along with the nervous Romana, came to follow them from behind to shield them from people’s laughter. Mila was so humiliated the usually feisty tomboy was so down she couldn’t afford to hold her head straight. As Shira witnessed how pitiful his cousin was, regret overwhelming him when he remembered how he was holding back from taking action himself.
+Monkey and Snake, along with the nervous Romana, came to follow them from behind to shield them from people’s laughter. Mila was so humiliated the usually feisty tomboy couldn’t afford to hold her head straight. As Shira witnessed his pitiable cousin, regret overwhelming him when he remembered how he was holding back from taking action himself.
 
 “Brat,” someone called him.
 
@@ -435,209 +440,5 @@ Shira turned his head. It was Good-Natured Spirit.
 “You owe me this time,” the Nalaq said.
 
 Shira nodded.
-
----
-
-“Hear ye hear ye people! Gather around and hear me announce something incredible, people! Gather around, will ya!”
-
-Standing on top of a table, Elder Jhamil shouted to gather people, announcing something that the Young Master of Blackwood Family passed him beforehands. “Although winner of the duel is Young Lady Bhela, Young Master Frane of Blackwood House is concerned by some stupid unruly girl of the supposed biggest family in Badril Village behavior would smear my young lady--”
-
-“Big news! Big news!” someone else’s shouting cut off Elder Jhamil’s announcement, “Young Master Bonithon is running around beating people! Watch your mouth if you don’t want get beaten for no reason!”
-
-“Bony is going crazy! He’s going to kick people’s asses! Nobody knows why!”
-
-“What the fuck is going on! Why Elzhier Family messing with us Malikhs now?”
-
-At the chaotic scene before him, Elder Jhamil’s face showed a frown and a hint of hesitation. He then cleared his phlegm anyway, trying to get people’s attention, then pushed on announcing carefully, “Young Master Frane Blackwood is concerned that--”
-
-“Elder Jhamil!!” a servant came running with a horrified expression, “Bony is coming for you, run away!”
-
-Elder Jhamil pointed his finger at the servant and roared, “What is that brat from Elzhier Family wants to do with me! Go kick him out, I’m trying to tell everybody something important here!”
-
-“But he doesn’t listen to reasons! He’s going to punch your face, is what he said just now!”
-
-“Imbecile! Do you think a young master would jump around like a monkey and punch an elder of another family in the damn face?! He’s making ruckus. Go on, kick him out!”
-
-Looking at the crowd from the rushedly made stage, he then smiled and continued, “Right, everybody, it’s Young Master of Blackwood Family; what I’m saying is that since Young Lady Bhela Malikh is winning with ease against the foolish young lady of _that_ family, Young Master Blackwood concerned that some people would shrug my young lady’s victory. So he proposed, in order to make it clear the disparity between Malikh and--sheesh--Yashura, he proposed that him as a friendly representative of Malikh Family and Shira Yashura as the repre--”
-
-“Elder Jhamil--watch out!”
-
-He had it taking from lowly servants who cut off his announcement. Fuming in anger, Elder Jhamil pointed his finger toward the one who was spriting toward him and roared, “How many times I told you to just kick him out! Shut your trap and go kick the damned brat!”
-
-Elder Jhamil was losing his cool. But what he failed to realize in time was that the one who sprinted toward him wasn’t a servant from his family. It was not the one who telling him to run away. And before he knew it, someone leaped up on the table where he was standing and delivered a punch to the face.
-
-“Gaaahhh!”
-
-Even after Elder Jhamil stumbled down the table he stood on, his assaulter didn’t plan to let him go. And what came after that was a torrent of hardened fist, pummeling his face even though he screamed for mercy. Only when the chaotic crowd succeeded in saving him did Elder Jhamil see the assaulter’s face--it was indeed the Young Master from Elzhier Family.
-
-“Young Master Bonithon… what did you… why did you do this… for what reason?!” Elder Jhamil choked out his grievance.
-
-Bony, the man who beat the bald elder black and blue, replied with nothing but a cold stare. Instead, it was an almost incoherent voice of Pilek who answered instead.
-
-“Kekekek, don’t be angry Elder Baldy! We just discussed how you were a splendid Pugilist a long time ago, so Boss Bony came here to find out whether it was true or not! That’s why he asked you to a barehand duel!” Pilek came in with a swagger and a bottle of booze in his hand. From a single glance anybody could tell he was drunk.
-
-Elder Jhamil’s lips trembled. What duel? That brat just leaped out of nowhere without saying anything, then immediately beating him black and blue!
-
-The only one from the three delinquents who hadn’t had the smell of liquor from his body was Polio. He wore an apologetic smile, and with a slight sigh, he said, “Please forgive them, dear kind Malikh sirs, my friends are terrible when they are drunk.”
-
-Polio made a round to apologize to any Malikhs he saw. But the Malikh Family didn’t appreciate his gesture, receiving jeerings in return.
-
-Polio was a patient young man, but Pilek wasn’t. The drunk Pilek didn’t take their attitude kindly, randomly walking to a servant, said, “Hah? What the fuck are you staring me at, you no-name Malikh servant? Wanna die, eh? Huuuraah!!!”
-
-_Shatter!_
-
-Without a warning he swung the booze in his hand to a Malikh family servant. The man he attacked stumbled backward holding his bloodied head from the crash Pilek gave him.
-
----
-
-Bhela Malikh had just settled greeting four foreign guests that she invited from outside, and was on her way to fetch cuisines from the kitchen to humor her guests, then she witnessed the chaotic brawl unfold with a crowdful of cheers and jeers mixed in between. Perhaps there were more than a dozen men involved, with the Malikhs servants, guards, common family members even an elder came along to surround Bony and his two underlings.
-
-“Young Lady Bhela…” a little maidservant with a crest of Elzhier Family in her uniform bowed to Bhela politely.
-
-Bhela looked at her. She returned the bow even though the other party clearly was a servant. “Miss Elzhier,” she spoke softly.
-
-“No need to be polite to this servant, Young Lady.”
-
-“I can’t be impolite to Sister Ryntia’s friends.”
-
-The Elzhier Family maidservant smiled. Since Bhela insisted, then she wouldn’t be bowing her head anymore.
-
-She said, “Eldest Young Lady sends me to ask for your forgiveness for her brother’s brashness, Young Lady Bhela.”
-
-Bhela looked at the brawl that started in her family’s courtyard. This chaos would spell imperfect on tonight's Malikh Family’s Ngajen Ceremony.
-
-“There’s no need for that. Since I accepted Young Lady Mila Yashura’s duel then I somewhat anticipated Young Master Bonithon will follow suit to make trouble tonight. If anything, it is I the one who should apologize to Sister Ryntia because I couldn’t handle the situation well. Please tell her that I’ll try to maintain friendship between Malikh and Elzhier Family.”
-
-Still with the serene smile on her face, the Elzhier Family maidservant studied the expression on Bhela’s face. She spoke a moment after, “Then I’ll let Eldest Young Lady Elzhier knows by tomorrow.”
-
-“Thanks,” Bhela offered her gratitude with a bow.
-
-By this time, the brawl became anything but intensified, as men either from Elzhier Family or thugs that previously had dealings with Bony’s group came in to reinforce the Elzhier young master. Before the Malikhs could pressure the intruders with numbers, but then the completely overwhelmed by the new reinforcement.
-
-“Huurraaahh!” Pilek sent a Malikh man flying with his kick. “Where the fuck your previous cocky taunt? Cat got your tongue, eh?”
-
-The only unspoken rules in brawls were strictly no usage of mana and spell as well as no sharp objects to use as weapons. But when it was chaotic and nobody could watch everybody the sharpest mind with tricks the one who prevailed--this is why the likes of Pilek and his friend Polio who always struck in place people wouldn’t be willing the one who were taking the advantage in brawls. Even hunters and seasoned guards were no match against these naughty brats.
-
-For example, when Pilek’s punch was blocked by Elder Jhamil’s son, “You shitty brat, just wait till I deal with your father--kuukgghh!”
-
-And because no one was watching, Pilek used his knee to strike the cocky young elder in the balls.
-
-With a sad whimper from his trembling lips, Elder Jhamil’s son curled onto the ground holding his precious balls that Polio struck.
-
-Seeing that a family elder was mercilessly defeated, a few Malikhs came to avenge their young elder. By then, Pilek already had Polio watching over his back.
-
-At that point, no Malikhs could match them in hand-in-hand brawl.
-
-A stranger then casually walked in. Pilek stopped, looking at him, and amidst the chaotic scene it took a while for him to find out that the man was actually a foreigner--an eastern Kaya man. The man had a sheathed sword on his hips. But Pilek wasn’t afraid as long as he stick with the brawl rules to use only fighting unarmed.
-
-“Huurraaah!”
-
-Pilek threw a feint. Most simple Malikhs would fall for this. But the eastern Kaya man didn’t budge. Seemed to even anticipate it. With a movement too fast for Pilek to follow the man grabbed his wrist, flicked him and sent him into the air like it was nothing.
-
-It was only after Pilek rolled in the mud he realized what had happened.
-
-The man then glanced aside and walked toward Polio who in his own right was too engrossed with the brawl. With his left hand pushing Polio’s shoulder and the other hand grabbing his wrist, he flipped Polio just like he did Pilek beforehand.
-
-Pilek and a few others that the man previously flipped were amazed by how effortlessly the man disabling enthusiastic young men from fighting.
-
-The sword handle the man had was wrapped with cloth and its body too thin for regular blades. Those who noticed this would understand that the man wasn’t an ordinary Kaya. Polio was one of them.
-
-“A Samurai!” he exclaimed a moment after he got thrown onto the muddy ground.
-
-The Kaya man stopped, looking at him, then spoke with a displeased tone, “I am but a masterless ronin.”
-
-The man then continued walking toward a different direction.
-
-Bony was fighting with three men alone, so he couldn’t afford to look around. He didn’t realize the Kaya man at first, but when the man tried to grab the wild young master’s wrist, Bony reacted--he reacted by throwing a punch to the man’s face.
-
-The man slapped his flying fist from the side, tremendously muffled its momentum. Again, he tried to grab Bony’s wrist and his shoulder. Bony tried resisting but the man’s speed was too fast for him to compete.
-
-As the man prepared to flip him, Bony felt a faint gush of the wind from his legs. It didn’t take him a second to realize the man just putting his hand on his shoulder as a feint--his real target was to gently nudge his foot on rooting from the ground, which, if he’d focus his effort to get his shoulder free from the man’s grasp, a small window of opening that could be used by his opponent to disrupt his sense of balance. Thus Bony firmly stomped his feet to the ground instead. He grabbed the man’s sleeve to make his opponent not be able to easily throw like Pilek and Polio.
-
-Responding to Bony’s choice, the man curled the corner of his lips. Bony caught a hint of taunt when he staring the man in the eyes.
-
-“Kkuuuggghh!”
-
-Bony did succeed in preventing himself get flipped to the ground. But he got struck in the gut instead.
-
-The man didn’t let him go. The moment Bony stepping backward due to shock having stricken, the man was charging and got his wrist in the blink of the eyes--what happened afterward was Bony got his feet swept and he completely lost his ground, and got cheered by his friends as the last man who got thrown into the mud.
-
-Bony then sat there looking as the fight stopped; since someone took him down, more and less the Malikhs had won the brawl.
-
-“Aren’t you Thoqek’s son?” the Kaya man asked Bony.
-
-Bony wasn’t willing to open his mouth when his father’s name got mentioned.
-
-Receiving no answer, the man thus carelessly said, “Unexpectedly, you’ve got more guts than your father. Get up now, and stop making trouble in Ghalim Malikh’s home.”
-
-The young ruffians with Bony as the leader naturally wouldn’t be arrogant anymore since they had been defeated. They retreated calmly, and the Malikhs didn’t dare taunt them the second time in case Bony would change his mind and started on a rampage again. In the end, the real reason why Bony came targeting Malikh Family, as many people knew, was that he wasn’t a drinker that would lose reason to punch another family’s elder in the face.
-
-Speaking about an elder who got a punch in the face; after Bony and others were gone, Elder Jhamil showed his nose out of his hiding place. He gritted his teeth. He swore he’d use his full resource to get back from Bony’s father in the next village council meeting.
-
-“Elder Jhamil, you still haven’t announced the thing I ask you to do,” from behind, the sullen young noble Frane Blackwood said to him.
-
-“Y-young Master Blackwood, please spare me--the mood isn’t that good to draw people’s attention after that kid crashing our Ngajen Ceremony just now. How about I brief it to other village leaders tomorrow in the village council meeting?”
-
-“No, I want everyone to know it by tonight. This is the right time and the right place to announce it. Besides, I want to see what kind of a young man the one who’s supposed to be my rival.”
-
-Elder Jhamil didn’t want to show his beaten face to the crowd tonight. But as much as he love his face he knew flattery wouldn’t get him out of this situation--at least not if he didn’t want to offend the young noble. And so with a heavy face he climbed the table once again, hiding off his reluctancy.
-
-Someone heartily made a joke on him, “Elder Jhamil, we thought you’re a man who care about face the most--I don’t expect you to boldly show how handsome you’ve become now!”
-
-“Kids nowadays getting big headed by their privileges as young masters--naturally I’ll let their fathers know how to discipline their brats!” Elder Jhamil coldly said. “Anyway, you all know that my Young Lady Bhela is a girl with talent and her future is boundless. Here in Malikh Family we’re not willing to throw our princess to cow’s dunk that is Yashura Family’s trash young master. And our friend Young Noble Frane Blackwood also thinks the same!”
-
-Such passionate speech, naturally people were cheering in anticipation of the next spectacle they thought they were going to witness.
-
-Getting the cue from Elder Jhamil, Frane Blackwood came forward with a swagger. “I speak this as a close friend of Young Lady Bhela Malikh. Someone with the name of Shira Yashura; if you think you’re worthy of her, do you dare to prove it by having a duel with me?!”
-
-The crowd was silent. They were waiting for the reply.
-
-Frane Blackwood swept the crowd with his eyes.
-
-Someone said to him the boy he challenged was utter trash. He was amused guessing how this trash would respond to his duel challenge, especially when Bhela Malikh had just completely defeated the cheeky young lady from his family.
-
-There were already murmurs spreading. People were also curious whether Shira was going to accept or run away from it.
-
-And then…
-
-“_Cough, cough…_” someone awkwardly stepped forward with a wry smile plastered on his face. People recognized his face, which looked like a monkey, and many of them had seen him together with Shira Yashura.
-
-He was Monkey. He said, “This young noble… about your proposed duel… I’m afraid Young Master Shira Yashura can’t answer it tonight.”
-
-Frane Blackwood laughed. “Why? He’s scared? His cousin challenged Young Lady Bhela to a duel for no apparent reason; don’t tell me we can do the same to them?”
-
-“No, it’s not that.”
-
-Elder Jhamil pointed his finger at Monkey. “We all know Shira Yashura is a trash who can’t even advance to Level 4 Novice! Young Master Frane Blackwood is kind. Tonight, he’s going to give Shira one chance to admit that he’s unworthy of Young Lady Bhela Malikh to the crowd here. He does that, and there will be no need for Young Master Frane Blackwood to embarrass him by kicking his ass!”
-
-“Yes, yes, but he can’t give you an answer tonight,” Monkey insisted.
-
-Now it was Elder Jhamil who laughed. “He’s really scared facing Young Master Frane right now?!”
-
-“No…”
-
-“Then why?”
-
-Monkey sighed.
-
-“Because he’s already gone home!”
-
-Elder Jhamil was furious. The whole point he had to gather people even though his face had been beaten by Bony was to call out the boy and embarrass him in public, as per the young noble request. But the said person himself already went home, so Elder Jhamil standing on top of the table was for nothing.
-
-Immediately he ordered a servant to send the message to Yashura Family, while in between, cursing the fact that he didn’t get the chance to distract the guests from discussing the previous brawl. Sure enough, not only the people were talking about Bhela Malikh’s hidden Unique Class, they were also talking about Bony, and people he beat to pulp, especially Elder Jhamil. People no longer cared to gossip about Young Lady Mila Yashura who had been sent home defeated, but they laughed at someone present who had just his misfortune like Elder Jhamil instead.
-
-Elder Jhamil had lost his face in the end. Literally and metaphorically.
-
-On the other hand, with a solemn expression Monkey looked at his partner Snake who was enjoying the banquet and had amused himself watching the spectacle previously.
-
-Monkey said with a whisper, “Why the hell your family doesn’t show his face when they dumping shit to Young Master and Young Lady Yashura just now?!”
-
-Snake glanced at him lazily. “I don’t know. They said they were going to diagnose Patriarch Ghalim Malikh previously.”
-
-“Can’t you just fetch your brother instead? Didn’t you put your words to assure young master before this? What if he thinks we’re people who put our words lightly?”
-
-“The one who’s diagnosing the patriarch is my grandfather, my brother supposed to be free enough to be a busybody just now,” Snake said, displeased by Monkey’s tone accusing him of being unloyal to his own word.
-
-Actually, he also confused why his brother didn’t show his nose when Young Lady Mila recklessly brought a sword to challenge Bhela to a duel. From his understanding of his brother’s character and the relationship between his family and Yashura from what he knew told him that more or less his brother was going to back Yashura if the drama with Malikh Family intensified. But he didn’t. Snake would barge into Malikh Family’s doors to look for his grandfather if he knew it was going to be like this instead.
 
 ---

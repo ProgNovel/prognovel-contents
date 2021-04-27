@@ -1,561 +1,678 @@
 ---
-title: Evil Rogue Nalaq
+title: Venerable Mama Ross
+author: Radhy
 ---
 
-The Yashura was a normal family in Badril Village, Norman’s investigations concluded to this. Yet the pair of Yurin cousins believed Yashura was anything but normal, simply because Mama Ross said so.
+In Badril Village, lived two friends who were as close as blood sisters. One had her posture clean, straight, noble--her spotless white face shone like a gem, and she moved as gracefully as a noble swan.
 
-On break from the meeting, Merly took an excuse to stroll Yashura Family’s place. The girl declined Patriarch Shuro’s offer to get a maidservant to accompany her, saying she could just ask direction to whoever she met when needed. She wasn’t alone, however, Mama Ross was inside her. Because the awkward mood from earlier, Patriarch Shuro and his family readily agreed, unaware that Mama Ross took the chance to investigate Yashura Family from inside out.
+The other one had a pair of curious, big googly eyes--coupled with her svelte neck yet plump cheeks, she looked like that one cute, hyperactive village girl if she was in plain clothes.
 
-“The ancient defensive formation’s heart should be around here,” Mama Ross whispered inside Merly’s mind. No one was around when they just arrived in Yashura Family’s garden.
+The former one was prideful; she strived to be an excellent lady with her gifted talent. While the other girl, she had always been a playful one; the kind of girl that would slip away to play whenever left unchecked. The prideful Bhela never said it, but the playful Lyla knew that both of them were happy to be able to be together again after the seminars they attended together ended.
 
-“Are you sure they have that kind of formation, Mama Ross?” Merly asked hesitantly, “they don’t seem the sophisticated kind.”
+During their idyllic time at Badril Village, Bhela had heard the anxiety of her relatives and her allies regarding Lyla's presence. The minority were saying that Lyla, in spite of her status as a noble descent, was no more than a fodder--pretext for Butler Tim and the servants of Blackwood Family infiltrating Malikh Family. The unfortunate thing was that concern wasn't unfounded--indeed, Blackwood Family had been giving support to the opposing faction from the shadow, the tensions that previously shimmered behind the scene began to surface. Some worried it was only a matter of time it burst into conflict. Yet, contrary to her aloof appearance, Bhela regarded ties of her friendship very seriously; everyone who had warned her out of good intention left shaking their heads helplessly after finding out the plan that Bhela had in mind.
 
-“The current generation maybe simple, but their origin definitely not,” Mama Ross explained. “The fact that no experts guarding the family means their history is thinning out. Maybe the only real expert that living the standard of ancient Yashura is that Jhuro child Norman talked before.”
+As Lyla was very excited and looking forward to exploring the fun life that Badrill Village could offer, Bhela found herself weak and wasn’t willing to let Lyla down.
 
-“The kid’s father…” Merly mumbled.
+After she was done with her chores, Bhela used the little spare time she had before archery training to write a single letter. This letter was to be sent to a long friend of hers, who she hadn’t met for almost ten years. The other party was always the big sister in Bhela’s heart ever since she was five.
 
-“Patriarch Shuro’s still in his prime age, there’s still a chance for him to get an heir from his own blood. Yet, even though his talent is hopeless, Shira Yashura’s position as the next patriarch is very stable. We should get Jhuro Yashura investigated to decide whether or not Yashura Family should be befriended.”
+And naturally, as Elder Jhamil’s influence was powerful enough for him to monitor the letter coming in and out in Malikh Family, he was alerted by the letter Bhela Malikh had sent.
 
-“Yes.”
+“Oh, a letter? So she has more connections outside?” Butler Tim asked with one of his brows raised.
 
-Merly had been in a conversation with Mama Ross the entire time. If anyone was beside the girl then, they’d only see the girl talked alone to empty air.
+“It’s actually the eldest Young Lady of Elzhier Family. Ten years ago, an expert was on a journey and accidentally found out that Elzhier Family had some talent suited for her sect. She was recruited back then, everyone was talking about it for months since she was the first one of Badril Village children who went to study overseas.”
 
-Mama Ross confirmed that the so-called Good-Natured Spirit wasn’t exactly a good fella, thus getting Young Master Shira Yashura into their Blue Robe Society was impossible. But Jerrin indicated he got interested in making a contact between the Yashura and Yurin, because they’d heard Norman spoke many good things about the man called Jhuro Yashura. In addition, Mama Ross also just discovered the formation she felt even before entering Badril Village actually came from this very garden. If the result of their investigation resulted in sactifactionary, then continuing their relationship with Yashura Family wouldn’t be a bad thing.
+Maybe because his face showed a trace of concern, the maidservant who was waiting for Butler Tim quickly poured a cup of tea for him to ease his throat. Elder Jhamil, who was also sitting at the same table as Butler Tim, raised his empty cup toward the maidservant. He smiled as he wordlessly asked for his cup to be refilled. But the maidservant blatantly ignored him, acting as if this elder was empty air.
 
-“Mm, if Jerrin couldn’t get contracted with a Nalaq till he’s in his thirty, getting to know families and clans with ancient histories will help him get his chance for a patriarch seat instead,” Mama Ross said after a thought.
+“Is this something that I should be careful about, hmm?” sipping his tea, Butler Tim then asked Elder Jhamil.
 
-“Thank you for helping my cousin all this time, Mama Ross,” Merly whispered, recalled Jerrin’s position as the family head’s successor was pretty bad before Mama Ross’s soul revived as a Nalaq.
+“N--no, from the way Elzhier Family behaved these past few years, I don’t think so.”
 
-“I didn’t do much except for giving my approval, my dear. That child Jerrin already preparing a backup plan if his career in Blue Robe Society gets stuck. Knowing his personality, how could I not helping him?” Mama Ross sighed. Between Patriarch Yurin’s three sons, Mama Ross favored the youngest, Jerrin, who always eager to do menial tasks for her and Merly even though he had the position of senior disciple brother. “Anyway, that formation, I felt it resonating a bit from that direction. Go over there, Merly my dear.”
+Butler Tim also didn’t pursue the matter any further. Even if the girl really studied in a sect somewhere in a rich western kingdom, really, what could a country bumpkin do in the city? Even those with talents, if they couldn’t keep up with the nobles whose resources were endless as the ocean, all the country bumpkin could do was step aside to make way for those with privileges.
 
-What welcoming them was statue of a lion. Cracks were apparent on its moldy surface, yet the fierce roar the lion bragged suggested its unwillingness being defeated by the flow of time. Mama Ross couldn’t tell the exact year the statue being built, but the knowledge of an exhausting study about ancient Formations during her time helped her to guess the lion statue’s age. The venerable Nalaq found the lingering _mana_ injected into the statue almost one hundred years old.
+“You’re a capable man, Elder Jhamil. I’ll be waiting for a report about the letter’s reply in a few days time.”
 
-Appearing out from Merly’s body, Mama Ross continued to study the lion statue with her brows knitted.
+“Of course, Butler Tim, you can always rely on me!”
 
-“Quite unexpected. There are at least seven different minor supportive formations installed after the main defensive Formation!”
+Butler Tim nodded in satisfaction.
 
-Merly didn’t know about Art of Formation that much. But she could feel Mama Ross’s faint gasp of surprise, she instantly knew this finding was a big deal. “Is that very good, Mama Ross?”
+“Good, then if nothing else, I’ll be going.”
 
-“At least today we know Yashura Family had a Formation genius two to three generations ago,” Mama Ross said solemnly. If Yurin Family could get a peek on this Formation genius’s legacy, Mama Ross wouldn’t be so worried about the two Yurin children whom she already took under her wings. “The mana applied is almost one hundred years old. But I suspect this statue way older than that; look here, Merly, the mana cast on the statue is seeped deep into the stone. One method to prolong a Formation’s lifespan is to cast it on an ancient object. And the mana applied seems to be layered, maybe someone has used it for something else before this statue became the heart of defensive Formation.”
+He stood up and began to walk out from the room. The tea serving maidservant followed him in a docile manner. When no one was around, Elder Jhamil who was still in the room poured him a glass of tea, and picked the biscuit from the snack container. “Ahhh…” he sighed after he tasted how delicate the tea was after he poured milk in it. Indeed, even the life of a butler of a noble family was comfortable. Life as the most influential elder in Malikh Family couldn’t even compare.
 
-Merly asked, “Mama Ross means they have another secret like this? I heard there’s a well-respected bank goes with the name Yashura World Bank in the west of Tiramikal Continent. Is this family connected to them in some way?”
+The letter Bhela sent, at least, would take several days depending how far the recipient was. Maybe even more than a week or months. So Elder Jhamil thought to himself that he should take it easy and enjoy life as such Butler Tim demonstrated himself recently.
 
-“I haven’t had the chance to study recent history since my revival, my dear. There’s a possibility the Yashura branched out in the past and made themselves rooted in different places, but it’s not our concern for now,” Mama Ross waved her hand gently. “Go try use your magic item to identify the mystery behind this Formation, Merly my dear. Leaning one or two about ancient spell is very beneficial for your current progress.”
+Never would Elder Jhamil and Butler Tim think that they were wrong. What possibly a fifteen years old girl with a bit of fame and talent could do, in the end?
 
-Ever since she made the contract with Mama Ross, Merly never once hesitated doing whatever the lady Nalaq asked her to do. This time was no different. The Yurin girl immediately took out a wristband from her **Mystic Bag**, the kind that glow eerie light upon injected with little bit of mana. The wristband was a magic item, specialized in casting support skills related to Specialist Class, of which usually used to gather information from object or person by reading the subtle data from their flow of mana.
+Thirty minutes passed after the courir had gone with the letter. A beautiful elder of Elzhier Family came to Malikh Family. She came in bringing with her style and perfume. Following behind her was a maidservant girl wordlessly carrying a tray of food and snacks.
 
-Just when Merly began activating the wristband…
+“Oh, ohh! Elder Sheyla, Malikh Family is honored to be graced by your presence!” Elder Jhamil immediately spouted his praise. Despite the respectful flattery, he couldn’t help himself from stopping his eyes stared at the lady’s big breasts.
 
-“This Young Lady Yurin, the statue you want to play with is too dirty. It’s too humble for young lady to play with. Please allow this old servant clean it for you first.”
+“Oh, you and your tongue, Elder Jhamil!” the woman giggled charmingly. “I came here under my patriarch’s order. Yesterday, he regretted not having to prepare himself to receive the dear noble as the Village Head of Badril Village. So Elzhier Family is here to send our token of apology to the young noble miss, Lyla Blackwood!”
 
-Not only Merly, even Mama Ross was started by the sudden voice intruding from behind. They whirled their body around, found an old butler smiled a serene smile. It was Yulong.
+Originally, Elder Jhamil was excited upon hearing Elder Sheyla came visiting the family, excited both in mind and _lower_ body. However, as soon as he heard she came for the noble, Elder Jhamil began to hesitate.
 
-Startled a few steps back both at the same time, Mama Ross and Merly had their tongue tied as they watched Yulong approached the old lion statue. The pair couldn’t take their eyes off from the old butler, and they couldn’t say anything either.
+“Oh, uhhh… Elder Sheyla… you see, the noble is…”
 
-The lady Nalaq was indignant knowing someone dared to sneakily hid behind them. There was no way an experienced Mage like Mama Ross, although long ceased to live, to be unaware someone standing behind unless the other party intentionally suppressed their presence--Mama Ross would suffer a thousand deaths if she was that sloppy back in her time. Haplessly, they witnessed without protest as Yulong, still keeping his professional butler poise, unhurriedly brushed the moss off from the statue’s surface.
+“Is Young Miss Lyla won’t receive our token of apology?” Elder Sheyla’s tone was sad, almost a whimper. Then she began to talk about something unrelated, “recently shops under my management hadn’t been doing well. If this goes on, coupled with my failure to apologize to Young Miss, maybe Patriarch Elzhier will revoke my elder title… you know, it’s very hard for a weak lady like me have a career in this patriarchal society….”
 
-Knowing that the guest awkwardly stared at him, Yulong turned toward the dumbfounded Merly and said politely, “It might take a while to clean this statue, Young Lady Yurin. Perhaps, the flower garden in the west wing suits you best rather than this old uncared place. You should be more careful next time when visiting unknown places.”
+Elder Jhamil blinked. It was famous in Badril Village that Elder Sheyla had gained her status as an elder flawlessly by her own ability--yet someone like her, someone with great ability and _very big_ assets, had her own problems she struggled with.
 
-Now it was Merly’s turn to get angry at the kind-looking old butler. Mama Ross too harrumphed as if she knew Yulong could see her despite not making herself visible to ordinary eyes. Though his words were polite, it was clear he intended to get rid of them. Mama Ross told Merly to go back and not making trouble in front this seemingly powerless butler who didn’t have any level and class.
+“Haahh… I know I’m only living alone without a husband and has been… lonely,” she sighed melancholily--while not forgetting to swept her hair and “accidentally” flaunt her charm, the _big_ ones. “If only there’s someone who is reliable enough to lessen my worry…”
 
-“That butler is trouble,” Mama Ross whispered when they already far away. “I can’t see any mana inside him. Any living being should have at least trace of mana, even if they never use it their entire life.”
+Her giant dose of charms were really breathtaking. Staring, Elder Jhamil found himself gulping. He then said stammeringly, “E-elder Sheyla, don’t be sad, I’m only considering that if the noble is resting or not. But, but… if you really need to apologize to dear noble… maybe I can ask whether the young noble lady is available!”
 
-As if she understood Mama Ross’s worry, Merly’s mind searching back of the stories she heard from her cousin Jerrin, stories about criminals and psychopaths who spent a great deal of effort and resources to hide their real power and mana so that they could blend amongst the peer of commonfolks. When the first time that butler greeted them at the Yashura Family’s gate, Mama Ross told Merly to be vigilant of him--now she knew why.
+Elder Sheyla’s eyes brightened. She clapped once, then she exclaimed, “Really, Elder Jhamil, you can?”
 
-Patriarch Shuro Yashura and his daughter Mila were accompanying the male guests on the courtyard, chatting while standing in circle with hands holding glasses of _tuak_. Even though they were embarrassing themselves during the talks before, one shouldn’t underestimated how thick the pair father and daughter’s faces were--they laughed and joked carefreely as if nothing had happened.
+“Of course, of course, if the noble’s being troubled then it’s all on me!” Elder Jhamil thumped his chest proudly. “Please, Elder Sheyla, please sit and drink this tea with milk and biscuits and wait as I’ll get you some good news. Please wait!”
 
-Merly and Mama Ross came back, and they wanted Jerrin and Norman to join them stroll the spacious Yashura Family’s place. Both the men who were called understood that something had happened from seeing the concerned look on Merly’s face.
+As if he was injected with chicken blood, Elder Jhamil bolted through the Malikh Family’s compound. He wasn’t looking to ask about the noble like he promised, but he came to his son instead.
 
-“Strange? The old butler?” Jerrin rubbed his chin hearing Merly’s concern--Mama Ross, who hadn’t come out from her body to preserve mana, let the girl did the talking after they pulled Jerrin and Norman to a safe place away from prying eyes. Jerrin then hummed again as he thought of something, saying, “A butler who looks like coming from a noble family but working here instead already strange. And from the name the butler doesn’t sound like coming from the west, either.”
+He asked his son, “Is your mother home?”
 
-“No, not that kind of strange,” Merly shook her head. “Mama Ross feels no presence of mana coming out from that butler.”
+His son, the one with black-and-blue’d face, replied annoyedly, “No, she’s outside gossiping again. I saw her with her gangs before, maybe she'll be back just the sun’s about to set like usual.”
 
-“What?” Jerrin knitted his brows, he worked on Blue Robe Society’s External Relations Department for two years and had been aware ugly cases where bad people hid their real power and covered their identity, “is he hiding from someone or something?”
+“Great!” Elder Jhamil was so happy he almost jumped. “Maybe today I’ll get a chance of my lifetime!”
 
-Norman witnessed Merly’s strange behaviour back when Yulong greeted them at the gate. For the lady Nalaq to be vigilant against the harmless-looking old butler was already within expectations. “Young Lady Merly, is there anything this servant can help you with?”
+Elder Jhamil was excited, so excited that he failed to notice, in Elzhier Family, Patriarch Elzhier had a headache trying his best for his shops to appeal for the noble young lady but never sent anyone to apologize directly. In fact, Patriarch Elzhier wasn’t even aware that Elder Sheyla was visiting Malikh Family.
 
-“Mama Ross said uncovering the background of the butler named Yulong and Shira Yashura’s father, Jhuro Yashura, is a priority for us to make a decision regarding Yashura Family,” Merly slowly said, then she delivered the words Mama Ross said within her mind to the coachman, “Norman, how much do you know about these two people?”
+A maidservant of Elzhier Family walked on the corridor where it was usually off limits for the outsiders. When a Malikh Family elder noticed her, she said her objective, revealing the content of the tray she held--pastries, sweet wet snacks, and a few kinds of food as gifts. She intentionally mentioned that Elder Jhamil, who was chatting happily with Elder Sheyla of Elzhier Family, already gave his consent. And just like that, this unassuming maid was able to reach the most unreachable part of Malikh Family: Bhela Malikh’s private archery field.
 
-“If this about Sir Jhuro Yashura, I happen to know a bit and heard some rumors, I can write another report about him in detail,” Norman took a beat, seemed to be hesitating, “but for the old butler… apart from the fact he hails from Young Master Shira’s mother’s entourage fifteen years ago, there’s no other peculiar information about him.”
+Bhela was training her archery when the Elzhier Family’s maidservant came. Realizing there was a visitor, Bhela put down her brows and wiped her sweaty face with a towel.
 
-Butler Yulong’s record was clean and straight, always keeping his job in order and never made mistakes. Apparently, Patriarch Shuro liked him greatly, giving him many responsibilities of the inner Yashura Family matters even though the Mossack people hadn’t had any experiences hiring webstern-style butlers.
+“Young Lady Bhela, we’ve received your letter. Eldest Young Lady sent me here,” the maidservant said.
 
-“Mm.” Merly hummed, closing her eyes. Jerrin and Norman waited for her as they knew the girl was communicating with the lady Nalaq inside her body. A moment later, she opened her eyes, declaring Mama Ross’s intention as if she was a revered envoy, “Norman, you uncover Butler Yulong’s past before we leave the village.”
+Bhela came to receive the tray from the maidservant. There were two other maidservants who were waiting for Bhela, they quickly prepared the table--which usually used to lay arrows and Bhela’s bows. Pretty soon, the table was full of delicious snacks.
 
-“Understood, Young Lady Merly.”
+“This young miss, please sit down too,” Bhela asked the maidservant.
 
-Investigating a person with a clean background wasn't an easy thing to do. However, since Mama Ross gave the order herself, then Norman had no choice other than succeeding. His real masters were Merly’s and Jerrin’s fathers, thus he’d do anything in his reach so that the two little masters of his kept receiving the lady Nalaq’s favor.
+With an ambiguous smile, the maidservant replied, “Young lady, I’m only a servant.”
 
-“Merly, do we need to consult this with Teacher Barront?” Jerrin asked.
+Bhela nodded as she understood. She only heard on the surface from big sisters who were on duty, that whenever these sect girls clothed in servant attires, then their identity would be servants regardless of the past. Many of these sisters were lively and gossipy, but to take their roles seriously Bhela only met them once or twice during the seminars.
 
-Merly shook her head. For this matter, she didn’t need to ask Mama Ross, since the Nalaq already said before pulling Jerrin and Norman that they needed someone to entertain the host. It was no good for the guests to minding their own business if the host being polite with them. After all, the Yurins might need to befriend this Yashura Family if the investigations turned out to be good.
+“Do you mind if someone else joins me on the table?” Bhela asked the Elzhier Family’s maidservant.
 
-“Teacher Barront is the one who can humor Patriarch Yashura. So we don’t need to bother him. Let’s just focus on the butler and the kid’s father,” Merly said. She had made herself comfortable with calling the shot since the others respected Mama Ross inside of her. After that Merly told both the men what Mama Ross and her discovered in Yashura Family’s old garden. Jerrin Yurin’s eyes shone upon hearing the mysterious ancient Formation and the prospect of old Formation genius’s legacy.
+“Please go ahead. Officially, these foods are going to be sent to Young Lady Lyla as a token of apology anyway.”
 
-Even though they didn’t get the third disciple Sir Baront wanted, Jerrin and Merly haste journeyed to Badril Village wasn’t a wasted matter indeed.
+Even only glancing at the table someone like Bhela could notice some mixed foreign cuisines and biscuits on there, treats that were far more superior than the one Butler Tim gave her. And looking at them again, Bhela couldn’t help but felt familiar. Back during the travelling for the seminars, some of these were the snacks that would be waiting on her palates after she done with her training.
 
-They walked back to regroup with their teacher. As soon as they saw the Patriarch Shuro and his daughter Mila, Jerrin with a big smile congratulating the other party, “Patriarch Yashura, I heard your family is a hidden master in the art of Formation. Why don’t we discuss about it sometimes?”
+“Lyla! Where are you? Come here for a second,” Bhela called.
 
-“Haha! What hidden master, Young Master Jerrin, you’re overestimating us common village folks!” Patriarch Shuro humbly dismissed the remark with a hearty laugh. He then coughed, leaning to his daughter Mila and whispered, “Girl, what’s this _Formation_ thingy he’s talking about?”
+Not far away from there, from the thick foliage behind the archer field, came Lyla’s impatient cry, “Nuuu!!! I’m busy over here!”
 
-“The fuck would I know?!” Mila whispered back impatiently. “Am I looked like a geek like that kid Shira?”
+But Bhela then said, “I’ve got croissants.”
 
-Patriarch Shuro pretended he didn’t hear what Mila said and continued laughing. He said to Jerrin, “Young Master Jerrin, you just need to find my nephew Shira if you have something complicated to discuss, he’s the smartest of us villagers!”
+“CROOOOISSAAANNNTTTT!!!!”
 
-Shira was the only one in Yashura Family who actually read books. The simple-minded pair father and daughter threw the hot ball to him whenever this kind of problem arose. Jerrin and others good-naturedly nodded even though the sneaky whispers didn’t escaped their ears. The pair’s face indeed as thick as Yashura Family’s legendary sturdy wall.
+From the bushes leaped a silhouette of a girl. She bared her fangs, along with mouth leaking droll.
 
-Speaking of Shira, he came back after he said he was going to bring the rogue Nalaq with him. He returned alone.
+“CROISSANT?! DID I HEAR CROISSANTS???? WHERE?! WHERE?!!!”
 
-“Shira my boy, what’s taking you so long?” Patriarch Shuro asked.
+Bhela waved the buttery pastry towards her.
 
-Shira replied, “The Nalaq asked for red roses, and he wanted to meet Esteemed Madame Ross in a secluded shed, so I needed a few while preparing those.”
+“CROISSANT, I WANT!!!”
 
-“What for?”
+Lyla sprinted as if there was no tomorrow. Her face completely filled with dirt, hair tangled with leaves, leaving her dress--which was supposed to represent her noble house--completely messy and dirty.
 
-Shira shrugged. “Don’t know. Didn’t ask.” More accurately, he didn’t _want to_ ask.
+“Which one is my share?” Lyla asked impatiently.
 
-“It doesn’t matter,” Merly butted in. “Against a low-leveled rogue Nalaqs, a warning from Mama Ross is suffice to make them run between their tails. It doesn’t matter if they’re preparing a trap or not.”
+“You can eat how many as you want,” Bhela said.
 
-So the other party thought Good-Natured Spirit was setting a trap. That’s good, it was better for Shira if they misunderstood--that way, he didn’t need to explain the matter about the shady candle-lit room, out-of-place bed of roses, and a certain Good-For-Nothing Spirit playing guitar.
+It was dangerous for an ignorant person to utter that sentence to Lyla, but as Bhela was already a veteran in feeding Lyla with snacks and food, she of course knew what would happen next: the pastry on the tray was completely gone, stuffed inside Lyla’s mouth. Her cheeks got puffed like a nut addict squirrel.
 
-Merly then ordered Shira to lead her to the shed where the two Nalaqs supposed to meet. The boy sighed, didn’t know whether the girl or the Nalaq inside her the one who was rude to him this time. But it didn’t matter, in the end, even that cocky Good-Natured Spirit didn’t worth a penny on the esteemed guests’ eyes. He felt bad thinking Good-Natured Spirit would get rejected and would get rid off. He still felt bad about his primary source of income that would soon disappear.
+_Om nom nom nom_.
 
-Shira sighed again.
+A rabbit hopped out of bushes. It looked around, then its eyes accidentally met with the swollen cheeks Lyla’s.
 
-“Stop sighing,” Merly barked as she followed behind the boy.
+“Mwister Bwaanyy!”
 
-Shira turned his head and smiled wryly, he didn’t say anything. The girl didn’t have anyone to accompany her, except for him and the lady Nalaq inside her. He began to think if these people really did underestimated Good-Natured Spirit.
+The rabbit’s ears shot up in alertness.
 
-“Shouldn’t we brought more people?” he asked cautinously.
+“Whwere dwo ywu want to gwo, Mwister Bwanny? Don’t rwan awway from meehhh!”
 
-“Mama Ross already scared enough low-leveled Nalaqs she an expert on it. Let’s not waste anyone’s time,” Merly said, knitting her brows.
+Not even she finished swallowing all the pastry she ate, Lyla already bolted again to chase the escaping rabbit. This was what happened if Lyla left unchecked, she just played and, oftentimes, suddenly rolling around on the ground for no apparent reason.
 
-This was the girl he talking with, not the Nalaq, Shira realized. But he didn’t understand why she got angry with such little thing. Shira just shrugged it and thought the girl didn’t like him from the start. Thus he didn’t say any unnecessary words. They were already close to the secluded shed anyway.
+“You two, please make sure Lyla doesn’t hurt herself,” Bhela said to the maids who were serving her.
 
-“That is the place where the Nalaq is waiting,” Shira said as he pointed out a nice little shed that seemingly ordinary. Then he coughed, saying, “Be careful… he might prepare something… unexpected.”
+“Right away, young lady.”
 
-Mama Ross came out from Merly’s body. Looking at the awkward Shira, she waved her hand, saying, “Thank you for your concern, child. A Nalaq’s threat might scare you since you’ve been living all your life in a small village like this. However, I’m already getting used to a life in the great war; setting a little trap is futile against me.”
+That left Bhela and the maidservant from Elzhier Family. Bhela knew there was going to be a discussion where no one else was supposed to learn.
 
-With his eyes blinking, Shira clasped his wrist, tried very hard to look innocent and pretending to know nothing about the near future trouble that he worried might happen. When Mama Ross realized the weird expression on the boy’s face, she waved her hand dismissively.
+From her sleeve, the maidservant who came along with Elder Sheyla Elzhier took out a scroll. “Young Lady Bhela, please take a look at this.”
 
-“Nothing will happen. If that rogue Nalaq is smart, he’d be obedient move away after we talk like two civilized Nalaqs,” Mama Ross said confidently.
+The scroll was lite. Enough to hide it easily between clothes. But the content was anything but light.
 
-Shira nodded with a smile that became even more wry than the smile he had previously. Mama Ross and Merly already said their pieces, naturally they wouldn’t want to waste time convincing a boy they only knew less than a day that everything would be alright.
+“This is…”
 
-“Merly, wait here with this Yashura child. Giving a warning to this rogue Nalaq should take around five minutes, I’ll be quick,” Mama Ross said as she ruffled Merly’s hair.
+The first thing she read was a profile of someone named Tim Krosslugan. Born and raised in a servant family, fated to serve the Blackwood Family since childhood. The scroll contained his level of education, wealth, connections he made over the years, along with recent bribes he made or received and the name of his current lover. Bhela frowned when she recognized the name of the lover written in it.
 
-“Yes, Mama Ross.”
+“Butler Tim… and that maid… are having an affair?”
 
-Then Mama Ross floated away toward the secluded shed’s direction. Soon, her transparent figure seeped into the wooden plank door. Nobody except her and Good-Natured Spirit was inside.
+“Yes, the maid who always serves him a cup of tea. They were doing intercouse in regular basis. In fact, they’re doing it in a room right at this moment.”
 
-_JREEENGG!!!_
+Bhela let out a soft groan. The maid was supposed to wait for Lyla. For them to neglect their young lady to this extent, even Bhela as the host was ashamed of their behaviour.
 
-A crisp noise of a guitar being strummed from inside was heard immediately after Mama Ross entered. It transitioned seamlessly into an energizing, unapologetic Spanish guitar melody.
+“What would you do, young lady?” The Elzhier Family’s maidservant asked with her ambiguous voice, almost as if her tone was floating, “the intruders were disrespectful towards Malikh Family. If you read the scroll further, then you’ll see an applicable move you can make right here, right now.”
 
-_Jreng jeeng jreng jeng jreeng..._
+Bhela read the next section, the tea serving maidservant's name revealed. Although its content was lacking than Butler Tim’s, Bhela could see why the Elzhier Family’s maidservant recommended it. Turns out the tea serving maid’s lovers were not just Butler Tim, but some other people which one Bhela recognized--Frane Blackwood. That pompous Blackwood Family’s Young Master who was always chasing her actually had a lover who was serving another man right inside his crush’s house. The maid wasn’t exactly beautiful, but she was Frane Blackwood’s first woman, there was a record where he got repulsive due to possessiveness.
 
-No angry arguments could be heard from inside, quiet except for Good-Natured Spirit trying to hit on Mama Ross with his corny romantic guitar melody. It was peaceful unlike what Shira worried beforehand. However, just when Shira about to pat his chest in relief, the shed suddenly exploded.
+“This is disgusting,” Bhela murmured.
 
-_BBOOOOOOOMMMM!!!_
+“You can blackmail that butler. This maid’s position is a little bit special in Young Master Blackwood’s mind.”
 
-***
+Bhela’s frown tightened. It wasn’t that she didn’t care about a scandal happening right in her roof, but for a maiden like her to confront scandalous adults wouldn’t be a good sight to see. She then lowered the report she was reading.
 
-It wasn’t that long since a loud explosion came from Yashura Family, the explosion made the village shook yet again. The Village Head, who was in Elzhier Family doing trivial daily paper job, turned his head at the source of explosion.
+Butler Tim was distracted. The fact that Lyla could play till her legs cramped and ate till her belly was bloated like a pregnant young woman was only because Butler Tim was distracted by a woman and his own schemes. Bhela glanced at Lyla playing with the rabbit. Her eyes looked serene. Could Lyla still be this unrestrained if Bhela attacked Butler Tim directly?
 
-“Again? What happened in Yashura Family?!”
+The Elzhier Family’s maidservant guessed roughly what Bhela had in mind, thus she didn’t mention the affair again.
 
-Even in Malikh Family, the forever carefree Lyla Blackwood who previously was busy coaxing the proud bunny with carrots, swiftly sprang back to Bhela, shocked by the sudden explosion.
+“We also have complied the activities and unethical dealing of everyone under Elder Jhamil’s wings.”
 
-“What was that Sistah?! What was that!!!” Lyla cried as she leaped into Bhela’s embrace.
+As Bhela read it further, she couldn’t help but be amazed by how detailed the report was. Some corruption cases even dated back ten years ago, back when Bhela a brat who didn’t even yet realize how evil Elder Jhamil whom she called with horrific uncle. It wasn’t that difficult to end Elder Jhamil’s career with only this. If she went down to that route, however, the major problem would be to political upheavals that would follow. Not to mention that several elders that were previously the core of the family's management under her father still couldn’t be contacted--even with her friends in Elzhier Family’s help--making direct assault on corrupt elders would be too risky to carry out.
 
-Bhela’s face was solemn as she tried to guess what had happened. Then, looking at Lyla’s scaredy eyes, she said slowly, “Someone who made contract with evil is being punished by karma. You should remember this to not following their foolish step, Lyla.”
+Not to mention, her father’s condition was a little better since the ngajen ceremony, to force him to stand up from his bed and lead the family, Bhela didn’t want to see that happen.
 
-Lyla, who had her mind half-occupied with the now fleeing bunny, nodded her head even though she didn’t fully understand. Bhela brought the noble girl indoor as to not minding about the explosion that had nothing to do with Malikh Family.
+“Have you made up your mind, young lady?”
 
-Back to Yashura Family, the secluded meeting place where now bushes and trees being swallowed by raging flames. Choked in thick flying dust, Shira lifted his head from kissing dirt. Near him, Merly Yurrin stared at the burning shed dazedly with a glint of righteous fury seen on her eyes.
+“Yes,” Bhela said. “Please send my thanks for Sister Ryntia Elzhier’s kindness again. I’m much in her debt.”
 
-Shira followed the girl’s gaze toward the source of the madness, yet could see nothing but raging fire. In the center of it, Good-Natured Spirit’s voice could be heard: “Whoa, whoa there, big boobs lady, let’s try to talk this out in civilized manner, okay…”
+“Eldest Young Lady is your friend, Young Lady Bhela. It’s natural for us to take care of her friend,” the Elzhier Family’s maidservant said with her head slightly bowed.
 
-Suddenly, the licking flames that arose with the tall of adult males began to get sucked in single direction, unfolding the two ethereal silhouettes in the midst of it all: a suave, hairy chest revealing Good-Natured Spirit hugging a guitar with a stalk of red rose he bit between his teeth, and a fireball channeling Mama Ross, who was very mad and now busy trying to kill him.
+“I will write something for Sis Ryntia. I’ll promise I’ll pay the favor that I owe in the future.”
 
-_BOOOOMMM!!!_
+Bhela was talking about paying favors with a solemn face, the maidservant only smiled at this.
 
-The fireball exploded even more shocking than the one from before. When Shira lifted his head again this time, not only the shed ruined by the swallowing fire, the thick, sturdy wall that had been the pride of Yashura Family for a hundred years, that been said could defend against one thousand type of monsters, had its most sturdy part blasted by the blind fireball Mama Ross thrown.
+“Eldest Young Lady will be waiting. And if nothing else… then,” the maidservant laid out a purple-ish colored bottle on the table, “please carry this for your protection, Young Lady Bhela.”
 
-Shira couldn’t help but to suck a deep breath. It only could described madness happening all around him. The most shocking of all of this was, even though Mama Ross attacked him with tremendous destructive power, Good-Natured Spirit dodgedly disappeared for a brief moment then suddenly popped out beside the tongue-tied Mama Ross, unschated.
+Bhela studied the bottle. She couldn’t help but be confused by the sudden gesture. “May I ask… what this bottle does?”
 
-“Now, now, beautiful lady, being fierce is okay, but too much of it you’ll ruin your beauty. Let’s calm down and talk about peace and love, okay?” his husky whisper rang beside Mama Ross’s ear, while sneakily, his hand had been groping her butt.
+“Does Young Lady remember yesterday’s explosion coming from Yashura Family’s area?”
 
-Mama Ross’s pupil shrank. She had long been dead, and had long forgotten how fast and deadly the guy’s move could be.
+Bhela blinked. Yesterday, there was indeed a commotion about an explosion coming from Yashura Family’s place. But Bhela didn’t expect that it was caused by a simple bottle like this.
 
-“Hufff!” exploding the mana she reserved these past three years, Mama Ross engulfed her spiritual being with living flame, she immediately broke free from Good-Natured Spirit’s blatant sexual assault, and while doing so, made a whip with her fire elemental mana and flashed it onto Good-Natured Spirit’s face.
+“It’s our sect's finest elixir for conjuring exorcism flame. Currently, Yashura Family hosts a very… evil Nalaq. And Young Master Shira Yashura even benefited a lot from having a connection with him.”
 
-Hissing, Good-Natured Spirit remarked, “Fierce!”
+“He does?” Bhela tightened her brow.
 
-The woman who used to be one of the pillars that supervised Tiramikal Continent was by no means weak. Even when she revived as a Nalaq, and she could only manifest one-fourth of her past power with the help of the contract she made with Merly Yurin, the whip she created with the intent of blasting the shameless rogue Nalaq’s face only leave a shallow whipping mark. Good-Natured Spirit even smirked as he rubbed his whipped face.
+The maidservant nodded. “The rumors of him being a useless Level 3 Novice is already obsolete since that Nalaq gave him many good things.”
 
-The fury in her eyes shimmered no longer; it burst out along with her abundance enmity. The magical flame that gulfing her body began to seep inside, coloring her entire ethereal body with the color of fiery ember.
+“This is unexpected,” Bhela said with a displeased tone. Having see a fair share of ugly schemes of the young nobles, Bhela believed information from people she trusted more than a fiancé she never had a conversation with. “Yashura Family had always been upright for years,” she said then, “a boy before his coming of age ceremony shouldn’t be playing too much with money unsupervised.”
 
-“Mama Ross!” Merly cried, trying to call her name and make her return to her normal calm Mama Ross. The inexperienced Merly was at loss; the position of the contractor of Mama Ross made it known that the lady Nalaq was planning to burn herself along with the evil, vulgar Nalaq with the guitar.
+“I can’t really say about Young Master Shira’s character, all I can say is that this Nalaq is a bad news. Young Lady Bhela--” the maidservant stopped as her eyes swam to assess Bhela’s charming figure, “--you’re the type that the Nalaq likely to harass.”
 
-“What to do? I just touch you a little, beautiful big boobs lady, no need to get serious!” Even Good-Natured Spirit couldn’t help but complain to seek justice--which very much he didn’t deserve.
+Bhela’s face was slightly perturbed.
 
-The flaming Mama Ross arose into the air. Like a rising sun she shone her fire elemental affinity mana like the ancient idol in stories. 
+The maidservant said again, “Even the Eldest Young Lady is very concerned of your safety ever since she received the news of our sisters have fallen to this Nalaq evil conducts…”
 
-Shira was thunderstruck. It seemed Mama Ross was going to release an awesome fire skill that would blast Good-For-Nothing Spirit for good. However… did the mad lady Nalaq considered Merly and him also was inside her firing range?
+“Were the victims okay?”
 
-Not far from where Shira was crouching from danger, he saw Merly kneeling with her head lowered, expression serene, seemingly to beg for miracle yet accepting whatever calamity that would descend upon her at the same time.
+“They were alright since they could escape swiftly as soon as the evil Nalaq showed himself. They’re professionals, after all.”
 
-“Fool!” although Shira didn’t like the girl, as a pure Mossack descendant as he was, he absolutely wouldn’t let the most taboo event befall his Yashura Family; a Mossack, even if it would kill him, wouldn’t let a guest die in his own yard lest a terrible luck would descend upon his bloodline in the future generations.
+“Then I can only say my thanks again for your concern. I owe you twice today.”
 
-Therefore, moving his untalented body as a Novice, Shira sprang from his hiding position, grabbing the Young Lady Yurin by the hip, and started to escape to a cover.
+The maid servant nodded.
 
-“Release me, you little swine!” Merly screamed, “I need to channel my mana for Mama Ross!”
+“It seems I’m overstaying your grace today, young lady. My sisters need me back for a mission today,” before she turned back, the maidservant gave Bhela one last warning. “No matter what, young lady, please protect your back against that evil Nalaq.”
 
-So the reason for the lady Nalaq could cast a spell this powerful was because this girl provided her with raw mana. Shira’s expression darkened. Although he had the slightest virtue of ancient Mossack to respect and protect one’s guests, he wasn’t a fool himself who would be washing his own neck while the other person sharpening their executing blade. 
+“My back, yes, I will take extra care of my back--”
 
-Shira had decided. They said human channeled mana through breathing technique as their basic function to connect their manasphere inside toward the ever empowering law of System outside. Thus, for this situation, Shira simply pinched Merly’s neck and covered her mouth as to not let her breathing properly.
+“No, no, young lady. Your _back_. Protect it well. I mean it.”
 
-“Sffhwine! Shhffwiiine!”
+“Okay…?” Bhela tilted her head in confusion. Did the maidservant try to warn her that the evil Nalaq would come at the most unexpected direction--that was… her back? Looking at the maidservant’s serious face, she wasn't so sure anymore.
 
-Indeed that worked. Mama Ross felt the mana being supplied to her halted, and abruptly her sharp gaze moved to the restrained Merly.
+Even after the maidservant and Elder Sheyla went back to Elzhier Family, Bhela still dazedly staring at the exorcism elixir in her hand. Around an hour after that, Lyla returned, only because her legs were tired chasing the rabbit all over the place. Bhela dazedly staring still at the elixir.
 
-“Release Merly immediately!”
+Difference between Selaq and Nalaq was that Nalaq could be reasoned with. Many Nalaqs granted security and prosperity. But to reason with evil Nalaqs just for the riches had been proven to be mistakes in the course of history.
 
-Shira staggered, the fiery aura Mama Ross radiated intimidate him. But with Yashura Family’s safety behind him, he forced himself to hold his ground.
+“Yashura Family…” she murmured. Recalling a boy who was supposed to be her fiancé, her brows tightened, “having a contact with an evil Nalaq… what did he planned to do?”
 
-“You’re going to destroy Yashura Family, Esteemed Lady Nalaq, please quell your anger!” Shira begged.
+---
 
-“Impudent! Who told you to talk back to me! Release her!”
+A certain young master of the major family planned to get rich so that he had the chance to live a slow life as the Yashura Family’s patriarch in the future. Beyond that, he planned nothing.
 
-Shira’s sucked a deep breath. He just did what he did because he thought that Mama Ross lost her mind in a momentary lapse of reason, all due to Good-Natured Spirit’s assault. Yet the more he saw, the clearer it was to him that he was wrong. The lady Nalaq had her mind in order, and the anger and the killing intent directed toward the boy were real.
+And the supposed evil Nalaq, who brought himself by the name of Good-Natured Spirit, was basking in the sun while carelessly enjoying a painting of lady that got her bottom raised in an erotic pose. He was in the mood to appreciate women’s heavenly butts, thanks to the feisty unwanted visitors who blasted him with exorcism elixir. As a gentleman as Good-Natured was, he couldn’t get mad toward beautiful ladies--especially those with big boobs and big butts. Instead, just like any unreserved cultured gentlemen would do, he yearned to get to know them better, privately.
 
-For a split second Shira glanced at Good-Natured Spirit, the one who started it all, but it was useless. The bastard was mesmerized in the awe of Mama Ross’s curves, wasn’t clear whether he realized--or even cared--about the impending doom that would soon befall them.
+“Man, those girls from Big Boobed Sect likely won’t come here for a while…” Good-Natured Spirit sighed. He rolled the semi-porn painting he had and put it inside a bag, which seemed magically swallowing the painting in spite of its small size. Then he picked up the cigarette he left on top of a rock, inhaling it for all the smoke it was worth left. He then cocked his head up.
 
-“Good-Natured Bastard!” the boy yelled.
+Like an enlightened monkey, Shira Yashura tangled himself upside down on a tree branch, his eyes calmly closed.
 
-Good-Natured Spirit glanced at him for a second, shrugging, then swept back his eyes to enjoy the scenery. The enraged Mama Ross had her ethereal clothes became more transparent, so Good-Natured Spirit couldn’t be bothered.
+Good-Natured Spirit ground the cigarette he had against the rock. “How is it?” he asked.
 
-Seeing that talking to both the Nalaqs was useless, Shira then whispered beside Merly’s ear. “Please do me a favor. Lady Nalaq can burn the bastard all she wants, just not here in Yashura Family.”
+“I think I’m ready to level up,” Shira said, slowly opening his eyes.
 
-There was no response coming from Merly. All Shira could hear was her heavy breathing, breathing through her mouth, the breath that escaping from between his fingers.
+He wasn’t talking about his level as a Novice. But about a peculiar **passive skill** he got from Good-Natured Spirit, of which he won by a fair game of chess about three months ago.
 
-“Please, talk to Lady Nalaq,” Shira said again, begging.
+Good-Natured Spirit stood up. As a Nalaq, he usually floated, yet his feet glued to the ground as if the gravity once again accepted him as a living being that had a body mass.
 
-Merly was stiff like a statue. Shira had no choice but to release her, since he had no more reliable options. Yet although he didn’t have too much hope relying on the girl, never did he expected that Merly would turn on him, with her eyes drown in fury, pointing her finger with surefire judgement.
+“Come down a sec, let me test you.” After he said that, Good-Natured Spirit stomped the earth with his right foot. Three pebbles with similar sizes jumped, floating on the air, then wrapped by the same bluish aura as the hollowing energy that shrouded the Nalaq with. He grabbed the pebbles with a sweep of his hand--they reappeared between Good-Natured Spirit’s fingers hollowly, with a trace of ethereal quality, the trait of objects that only spiritual beings like Nalaqs could interact with.
 
-“Swine! How dare you touching me! Who do you think you are?!” Merly’s scream squealing sharply. Turning to Mama Ross, she complained, “Mama Ross, please give me a justice!”
+Shira, with his hairs tangled upside down by the gravity, asked with a frown, “You’re not trying to kill me, are you?”
 
-“Good!” the flaming Mama Ross curtly exclaimed, “no wonder such a hateful Nalaq found himself a home here. Turns out they’re both wearing the same disgusting wolf skin, good!”
+“You’re saying you're scared of pebbles?” Good-Natured Spirit scoffed.
 
-Shira’s eyes turned cold. It didn’t need a brain for him to realize the lady Nalaq intended to burn the defenseless him before she dealt with Good-Natured Spirit.
+“You heard the saying, right?”
 
-Merly began to recharge mana again for Mama Ross. Shira felt they didn’t even hesitate this time.
+Good-Natured Spirit groaned. “Stop. I don’t like it when you’re being a smartass.”
 
-Yet, in spite of him standing in a dangerous situation, Shira didn’t bulge. He just stared at them coldly, didn’t even try to defend himself.
+“The saying goes,” Shira, closing his eyes again, said, “a single pebble could take a life if thrown by a brainless Nalaq.”
 
-“You’re a guest of Yashura Family, are you sure you want to harm your host?” the boy warned icily.
+“It’s _thrown by a_ _careless person_, you little fuck,” Good-Natured Spirit scowled. “Come down here so that I can see your progress on **Water Flowing Style**.”
 
-Mama Ross scoffed. She began to conjure a fireball, not too big, but enough to burn the cocky boy to half-death state.
+Shira jumped down from the tree branch with a three hundred sixty degree flip--a move which a year ago he couldn’t hope to achieve. The **Water Flowing Style** Good-Natured Spirit gave him improved his athletic instinct by a very large margin. But applied to him, a boy who’d rather use his brain than muscles, the result wasn’t that apparent if seen by untrained eyes; he never really used the skills he got from winning the bet against Good-Natured Spirit. That attitude, however, changed since he had a duel to fight with the Young Master of Blackwood Family.
 
-Good-Natured Spirit, who was interrupted, “Ah, big boobs lady, I know that little shit is kinda annoying, but I wouldn’t throw that dangerous fireball at him if I were you.”
+“Really, I bet there’s going to be a ton of people coming to watch the duel, I need a way to get defeated in a way that won’t bring shame to Yashura Family…” he murmured.
 
-“Shut up! You’re the next one who’s gonna die, Gyl!”
+“You’re talking about that duel? The one with that shitty face Blackgood-whut-you-call-it guy? Why defeat, though? Just smash his damn face, really, it’s easy if you wanted to.”
 
-Good-Natured Spirit laughed. Sure enough, this lady Nalaq was a bimbo. He, the Nalaq who had been here for around a year, would plan it through step by step before even he pluck a strand of the boy’s hair. “Harming someone behind Yashura Family’s wall is hefta complicated matter than you’d think,” he said.
+“It’s weird you called him ‘shitty face’, when that noble’s face resembles yours.”
 
-Though he wasn’t going to admit it, Good-Natured Spirit look forward to seeing the cocky boy who always rob his wallet after games of chess going to piss himself. It wasn’t happening, to his disappointment, the boy proved to have nerves of steel in the face of growing deadly fireball--that, or was in dire need of getting his brain diagnosed. 
+“You dare say he looks like this handsome me?”
 
-Was the little moron knew the fireball from a high-leveled Nalaq could do more than melt his face?
+“I really thought he’s your descendant or something. Both the same--face and shamelessness alike. Bet he’s also a despicable pervert.”
 
-Good-Natured Spirit sighed. Thinking about it again, this Yashura young master brat would really dying wasn’t going to happen. He curious who was going to step forward to diffuse the situation, anyway. 
+Good-Natured Spirit snorted. Ignoring the impudent boy, he then came back asking him, “You can mess that Blackdood guy’s face, even if you’re a shitty Level 3 Novice. Anything is possible with the help of this Ol’ Good Natured-Spirit. This Ol’ me feeling good enough to teach you something about mysterious awesome power. Get it? A power--mysterious and awesome. Sounds cool, isn’t it? I’ll give it to you for free. Seriously, I mean it. You believe me kiddo?”
 
-The only thing he regretted that the bimbo’s melons this time actually the real deal. Unfortunately, the first thing she did after coming to this village was to poke on the hornet nest. Though he, as the good-natured gentleman he was, wanted to save a bimbo in the imminent distress--definitely not when he wasn’t sure whether the bimbo would throw fireball at his face again after he saved her like a handsome, suave knight as he actually was. 
+“No.”
 
-_SWUOOOOSSSHH!!_
+“Ey, this is where you should reply with a ‘how?’! Really, I tell you, if you follow my lead, I can give you a power beyond the **System**.”
 
-Before even Mama Ross could throw her fireball, four pouncing metal snakes sprang from her blind spots, coiling around her transparent body. 
+“Ohhh…” Shira nodded unenthusiastically. “What **System** we talking about again?”
 
-The one who diffuse the situation as Good-Natured Spirit predicted really did stepping forward.
+“_The_ **System**.”
 
-Four masked silhouette leaped out of their hiding place, pushing the stunned Mama Ross’s face onto the ground. All happened too fast. Merly, in midst of freaking out, only to return at reality at the scene of Mama Ross being reprimanded in chains by four masked women in black--and very tight--clad. Only two seconds passed, Merly herself got pushed down by from behind.
+The power beyond the **System** only occured in myths. Level and Classes that had been the foundation of many orders, the systematic stats, said to be relevant and useless in front of it. Shira, as a rational young man, of course believed the possibility of this chaotic power beyond the order--but coming from this Nalaq, knowing from experience, Shira felt it was complete bullshit.
 
-Shira, with his eyes alert, glanced back to prepare being reprimanded like Mama Ross and Merly. Yet the masked women didn’t bother with him. The boy wasn’t sure whether this mysterious group lacked personals or simply didn’t see him as a threat. He wasn’t expecting them at all.
+“I knew you were interested,” Good-Natured Spirit crossed his arms, smirked, “this is a training program I made myself. I called it ‘Training of Hell’. This is where you’re acquiring a cheat-like power kiddo. Hence the cool name. Hella training in hell. By utilizing my two thousands years of experience and knowledge, atop of the hellish sessions of training where you’ll tread in situations between life and death--”
 
-On the contrary, the only one who expected these mysterious women in tight suits’ arrival was Good-Natured Spirit; he was happy to see those voluptuous curves again. Some of them had even bigger melons than Mama Ross.
+“Nope, not interested. You’re just going to beat me to my death, aren’t you?”
 
-This made Shira tightening his brows. Weren’t these women from the hidden Big-Boobs Sect Good-Natured Spirit mentioned once?
+“I need your soul intact in order to possess you. What the fuck I’m going to do with your body if you are dead?”
 
-As they said, seeing is believing. Seeing that Good-Natured Spirit was smug and happy there was no reason for Shira to not believing him now.
+“I don’t know, perhaps you’re holding a grudge after losing repeatedly in chess you brought on your own.”
 
-“Release me! We did our stand against their sexual assault! Release Mama Ross!” Merly screamed. Even then, the masked women didn’t budge. They kept pinning the them down the ground.
+Good-Natured Spirit stared with narrowed eyes.
 
-Only after Shira watched the girl futilely cried her injustice he did notice the masked women didn’t come here to antagonize Yashura Family. He would be at the disadvantages otherwise, since the other party didn’t seem to be uninformed Badril Village dwellers who were ignorant of the southerner rules. Shira wasn’t afraid of Mama Ross and the faraway Yurin Family since they were outsiders; however, if the women were sent by someone who rooted in Badril Village, it’d be quite a different story.
+“I don’t like it when you look like you’re being a smartass.”
 
-_Splaash!_
+Shira shrugged. Good-Natured Spirit at that snorted. He prepared to flick his pebbles. Shira readied his stance.
 
-The sound of splashing water came as surprising as thunderous strike. Just when the esteemed Nalaq Mama Ross being pushed down pitifully and Merly had to spit dirts than accidentally entered her mouth as her cheek forced kissing the ground, the old butler, Yulong, unconcernedly ran toward the fire with a bucket of water.
+But at the moment of whimsical Good-Natured Spirit decided not to flick them. He played the three peebles in his hands with the attitude like he had nothing better to do.
 
-“Yulong!” Shira ran toward the butler, and urgently whispered, “go tell my uncle, anonymous members of a hidden sect came into our walls!”
+“Just throw them already.”
 
-Yulong, gazing at his young master blankly, asked, “What hidden sect, young master? I don’t know what you are talking about.”
+Good-Natured Spirit smirked.
 
-“Don’t you see how they pin down Madame Nalaq?” Shira hissed.
+_Whhoooshh!_
 
-Yulong followed the direction Shira signaled with his eyes. The masked women awkwardly waiting for the old butler took his eyes off them. A moment later, the butler’s eyes came back to the boy again. His wrinkled face smiled with worry. “Young Master Shira, I don’t see anyone there.”
+The Nalaq flicked one pebble with his thumb. The pebble that infused with his bluish aura bolted through the air, slowly--no, it was as swift as a flying arrow but Shira’s perception caught the projectile in a slow motion.
 
-“Yulong, you’re joking,” Shira said wryly. Yulong always a solemn man and never did Shira saw him made a joke--especially not in this kind of situation. “They burned down the damned place, Yulong. All started because Madame Ross confront that guy!”
+Something coming deep from the boy’s subconsciousness, taking over his body seamlessly, then sending command to his motoric nervous system to bend his body slightly sideways--the flying pebble shot through the space between his arm and hip.
 
-“What guy?” Yulong again followed the direction Shira signalled, but now with a pair of alertful eyes. The Nalaq with a guitar brazenly returned back the butler’s gaze, he scoffed. Yulong’s gaze turned cold.
+“Next--”
 
-But then Yulong said to Shira again, “I don’t see anything, Young Master.”
+The second and the third pebbles were coming. And like before, Shira avoided them in an effortless manner, moving only a mere inch more than it needed not to get hit by the Nalaq’s pebbles.
 
-“Yulong…”
+Shira only learned Good-Natured Spirit’s Water Flowing Style amateurly, but he managed to dodge the three peebles infused with the Nalaq’s aura. However, as the last pebble, Shira had to continue the Water Flowing Style’s flow; his lack of experience using the passive skill failed him to return to his stance properly--made him to spin one hundred eighty degrees backward. The boy didn’t think too much because he thought he passed the Nalaq’s lame test. It was only afterward Shira realized the Nalaq forced him to turn his back on as the fourth pebble came and knocked his head.
 
-“Young master, I really don’t see anything,” Yulong said with an assuring smile. “Even if I did, do you think some people have that kind of nerve to do that kind of brazen thing inside of Yashura Family walls? What if…”--his eyes tracked on the masked women, the pinned Nalaq, and the screaming girl--, “what if Yashura Family relatives leave their works outside and run back here because some misunderstanding?”
+“Kg-uggh!” Shira hissing as he rubbed his head. “Why the hell? It's supposed to be three.”
 
-Good-Natured Spirit laughed at the blatant indirect threat. The eyes of the masked women flickered, exchanged glances at each other, and quickly came to a decision; they must leave this place immediately.
-
-The masked women disappeared like a wind blowing puffs of smoke, bringing the crying and screaming Merly and Mama Ross whose eyes seemed to be lost. All of the sudden, the burning place turned quiet.
-
-“See, there’s nothing there,” Yulong nodded as if he was satisfied with something.
-
-Now that the beautiful lasses already gone, Good-Natured Spirit laughed sarcastically at the old butler as he playfully played his guitar. “I didn’t see anything, I didn’t do anything.” And with that, he flew away like nothing had happened.
-
-Not long after that, a panic stricken crowd came trotting urgently with buckets of water on their hands. Leading them was Patriarch Shuro, who upon seeing the large fire and the hole in the family’s wall with his own eyes, had almost fainted on the spot. It was fortunate Mila was there with a few of idle young wives she knew, who most of them knew had an affinity with water elemental and could provide some help in extinguishing the fire.
-
-“Shira, what’s happened here?!” Mila asked with shrill voice.
-
-Before Shira could decide whether to tell the truth or not, Butler Yulong came forward and begged for forgiveness. “Apologize, Young Lady Mila, this servant burned some trash here and unwittingly set ablaze the whole place. It’s all my fault.” he admit regretfully. After lifting his head from bowing in front of Mila, Yulong looked at the blinking Shira, then smiled at the two cousins. “Thankfully, those trashes already gone. So I guarantee no accidents will happen in the future.”
-
-Since Yulong already plead guilty from the whole matter, naturally Mila let it go and focused on helping the crowd stopping the fire before it spread somewhere else. Nobody there except Shira had a second thought on Yulong’s confession.
-
-Shira glanced at the butler, the old man who he’d known far back since he was in milking years. He still hesitating. Not to mention the rampaging Mama Ross and the Big-Boobs Sect--as Good-Natured Spirit called them--actually did exist, Shira really didn’t expect Yulong, the one who supposed more solemn and strict than an ox, could actually tell lies with such a straight face. He was shocked by the revelation.
-
-Eventually, an hour was needed to extinguish the fire. Yashura Family then fought the disaster with grit and grievance. It was considered slow since they had a few spare water affinity Mage with them. This partly because never did anyone expected that the more serious explosion happening, but more because they had been worried the whole time about a matter that none of them could answer. 
-
-“Patriarch Shuro Yashura,” Baront Staterwind came in with solemn atmosphere, the trace of his previous politeness wasn’t there anymore, “my disciple Merly Yurrin and Esteemed Madame Ross wandered around in Yashura Family. But still till now, we can’t find here, their aura we’re supposed able to track also vanish without a trace.”
-
-The whole line of Patriarch Shuro’s family were nervous. Someone even gulped because the tense mood.
-
-“We’re coming with friendly intention, Patriarch Yashura, we’re just want to find them right now. So if you know something, please do tell us. Consider this I’m indebted to your Yashura Family.”
-
-Patriarch Shuro nodded gravely. Then he turned his head to Mila his daughter.
-
-“Mm.” Mila Yashura nodded solemnly. Then she turned her head to Shira her cousin.
-
-Shira wanted to turn his head but Yulong, the one who most suspicious, wasn’t here with them. So he had to answer seriously, “I don’t know. I don’t see anything.”
-
-Baront Staterwind’s and Jerrin Yurrin’s faces fell. Eventually, Yashura Family could only offer an apology and ambiguously promised to find Merly and the lady Nalaq. Sir Baront Staterwind wasn’t happy, but there was nothing he could do since Yashura Family the one who suffered the greatest lost at the end of the day.
-
-Sometime later, Yulong the old butler was seen oversaw the servants to clean up the mess. Though Patriarch Shuro Yashura said he’d punish Yulong over the incident, the fact he still able to command over the servants like the usual, was akin to telling the outsiders that Yashura Family wouldn’t pursue this matter in spite of the heavy loss they’d received. There were mixed opinions regarding family’s policy toward the old butler this time.
-
-“Yulong,” Shira stepped in to approach the old butler who was managing the workers cleaning the ruin, “can I talk with you a second?”
-
-“What is it that young master needs from this old butler?” Yulong inquired with the usual polite smile of his.
-
-Ensuring that no one else heard what he was going to say, Shira leaned in to whisper, “Don’t hide it from me any longer, Yulong. Tell me what kind of sect hidden in Elzhier Family.”
-
-Yulong looked at him puzzledly. “Why do you think Elzhier Family is hiding anything?”
-
-“The only family who’s in contact with foreign sect in the last ten years is Elzhier Family,” Shira said unhesitantly. “I’ve heard the Ryntia Elzhier was sending lots of trivial letters from overseas. People thought her not sending good stuff from outside means she lost favor from the sect that recruited her, but I don’t think a young woman from a no-name village would be able to live casually in foreign land if they lose the only foothold they have.”
-
-Yulong smiled. “And why do you think they would be hiding only from the last ten years, young master?”
-
-Shira didn’t expect Yulong would make things harder for him. He was already missing the old Yulong who always nice to him. 
-
-“I’m pretty sure the expert who recruited Elzhier Family’s eldest young lady came from the same pack with the women that brought Merly and the lady Nalaq away.”
-
-“Yes. But how can you be so sure?”
+“When did I say I’ll throw three pebbles? But this is for your own good, a’right. Do you get the moral story about the fourth pebble?”
 
 Shira frowned.
 
-“Yulong, who’s your real master really, now?” he said carefully, naturally didn’t want to admit his ridiculous guess was based on the famous rumors of the said expert had her chest a bit too big than average beauties--something that he immediately linked to the nickname Good-Natured Spirit gave to their sect.
+“If you’re trying to be a smartass, you’re gonna get fucked up indefinitely.”
 
-“Apologize if this old man offends you, young master,” Yulong said with an unhurried tone. “But due to my old duty for Sir Jhuro, I’ll have to make sure you prepare before you explore the uncharted side of Badril Village. But then again,” Yulong put his arms on his back and continued, “if you want to know some trivial matters, I guess I can help as long as you tell me what your current objective is.”
+“You asshole.”
 
-“I just want to fetch them back to Sir Baront and his party,” Shira said.
+“Ey, is that how you’re supposed to say to a revered Nalaq?”
 
-Yulong seemed to gather his thought for a second, with his pair of eyes that hadn’t had showing any sign of weariness due to old age landed on the boy’s face. The Young Master of Yashura Family was fifteen years old this year. One more year until his official age of ceremony. But seeing the determined young face staring back at him, in the end, Yulong could only concede and sighed deeply.
+“You’re the one who said you’re not a Nalaq.”
 
-“I see, you are indeed have matured too soon, young master. There’s nothing I could do to stop you if you’re this stubborn,” Yulong said while his head nodded lightly. Then he proceed to tell Shira some matters that unknown to common people. “Although the only family in Badril Village that has adopted matriarchy system in the past, in reality, the family where women actually have the most political power is Elzhier Family. It just they don’t show their fangs in the daylight. And they spread their influence and mingle with the common folks. So you won’t be able to contact them if you go through their main door. Go ask them for Elder Shyla, young master. She handles their external matters and works in the open, so she’s the most highest ranking out of them you can meet right now. And if anyone stops you--” Yulong plucked a pin of roaring lion he had on his butler uniform--it was the popular emblem of roaring Yashura Family, “shows them that you represent Yashura Family to fetch the guests they’ve taken.”
+“Now, now, let’s not be so hasty goin’ back a smartass again, shall we? Lest, more ‘accident’ bound to happen…”
 
-Shira received the pin from Yulong; there wasn’t anything different with the usual family’s emblem, from what he studied. And the matter Yulong gave him the pin meant that, for whatever reasons, he wouldn’t get involved beyond this. As the one who felt the most responsible over the incident, Shira didn’t plan to rely on too much from him again, anyway.
+“Ughh…” Shira was fed up dealing with this Nalaq. “Screw this. I’m going home.”
 
-***
+Good-Natured Spirit shrugged, then he rested his back on a tree. Shira thought a Nalaq couldn’t be more carefree than Good-Natured Spirit. From his mystic bag, Good-Natured Spirit took out a new painting that was more inappropriate than the one from before. He said to Shira, “Don’t forget to exercise your breathing, Water Flowing Style is all about your breath. Level 3 Water Flowing Style is on another whole level that Level 2. You already feel the difference, no?”
 
-Elder Shyla was born in Badril Village, had long found a successful career as a career woman in Elzhier Family’s domestic politics. And the unusual big luggages on her chest--if following the thinking of Good-For-Nothing Spirit--would also reinforced the idea of this hidden sect was already being around in Badril Village for decades. 
+Although Good-Natured Spirit’s advice rarely did good--most turned out to be pranks, actually--this time Shira did feel the passive skill Good-Natured Spirit taught him had some sort of mysterious effect back when he dodged the Nalaq’s pebbles. Upon returning to Yashura Family, he decided to look for a Specialist who would show his **Stats Window**--the one who would do it free for him would be his cousin, Mila Yashura.
 
-Shira couldn’t help but shook at the idea of hidden power controlling those usually smug Elzhiers from the shadow. It was no wonder Elzhier Family could easily retain their connections and had the more assets and material wealth than what Yashura and Malikh owned combined.
+And when he came to Mila:
 
-Walking toward the Elzhier Family’s pace in the west of Badril Village, the boy couldn’t help but concerned; any elders would be fine, but not Elder Shyla. The reason for this was because she was an unmarried woman, and not just an ordinary unmarried woman--if the recent Bhela Malikh wasn’t so adored for her beauty and talent, any man in Badril Village would say Elder Shyla was their goddess. The most beautiful and elegant woman in Badril Village, no other aunties could even compare. This made Shira worried if he approached her the wrong way, might lead to some headache he wouldn’t expect like what Bhela Malikh gave him already.
+“Pah! How come your Wisdom goes up yet again? How many times do I have to tell you, you’ve got to have some muscles, put your effort on raising Strength and Agility!”
 
-“Oh, isn’t this Yashura brat?” a rather unpleasant laugh could be heard from behind.
+Yet, although it was free, it didn’t mean it wouldn’t incur any cost. If he wasn't careful Mila would nag him with full power, which depending on the weather and how the wind shifted her mood, the nagging could last half a day. Shira sighed inside his heart, if he knew Mila was on that time of the month today, he would use his own money to get his Stats checked. Only, the last time he used an outsider Specialist’s service, everyone in the village immediately knew that he was the only teen that still wasn’t better than ten years old kids.
 
-Shira turned his head. The trio privileged young thugs, as they called them, Bony and his two friends Pilek and Polio, just returned from the river with a few of freshly caught carp in their hands. The one who was laughing was that Pilek who always wore an idiotic grin on his face.
+“Where are you going?” Mila crossed her arms when seeing that Shira trying to escape.
 
-“I heard your girl ditching you for a rich boy, Young Master Shira,” he said with his grin, approaching Shira. “Don’t be too sad. Bhela that girl might not be the best for you, but hey, there are still many fish out there. Like here, you can marry this carp for life.”
+“I haven’t done my share of today’s chores. Uncle and aunt have done so much for me… I’ll be doing my part of filial duty and do some errands right now….”
 
-Shira declined the fish Pilek jokingly offered. Seeing there was Bony there, Shira decided not to take Pilek’s joke seriously. “No thanks, I think you need it more since no girls ever accepted your confession.”
+“Errands? You meant goofing around in the market?”
 
-“You--” Pilek didn’t know what to say. His romance story indeed more pitiful than everyone else his age.
+Shira groaned. If Mila was like this, he knew from experience that she wouldn’t let him off easily.
 
-“You’re going to Elzhier Family?” Bony who stayed silent then asked Shira.
+“Go to the field training, you’ve got to learn how to handle wooden swords,” Mila said. “Forget about errands. If you at least show even the slightest bit of motivation on preparing for your upcoming duel, then I’ll talk to my mother about exempting you on daily chores.”
 
-“Yashura Family is quite unlucky today,” Shira replied with a nod. Then he said ambiguously, “Someone got entangled in today’s accident and direly in need for something. We’ve heard Elder Shyla has this particular something and I’m willing to trade something for that something.”
+“I’ve been preparing myself, though.”
 
-Bony frowned, “What is it that you needed?”
+“What did you do?”
 
-“I want to engage in private trade with Elder Shyla,” Shira also frowned, “you’re also someone who would inherit a major family, Young Master Bonithon, I expect you to know that I’m in a pinch to not leaking sensitive matters.”
+“I’ve been training on this wonderful skill called Water Flowing Style from a certain… mmm… master…?”
 
-“Exactly because you’re going to inherit a major family, it’s best for you not to meet Elder Shyla in private,” Bony said. “She’s an unmarried woman. It’s one year until your coming of age ceremony. And add that to the mess with Malikh Family recently. If people say you’re too bitter and want to run away for another, people will talk. You’re yourself should’ve realized how they talked a lot of shit about you.”
+“Why fuck you tilting your head for? What kind of stupid master was willing to train you when all you do all day was lazing around alone on the hill?”
 
-Until two years ago, Bony and his two friends had always been the first one to pick on him. Shira didn’t know why, he just reckoned they had something against him. There was a hint of impatient on Bony’s tone as he explaining matters to him.
+“I wasn’t alone,” Shira said solemnly, “the Venerable Good Nalaq is always with me.”
 
-Shira sighed inside. It seemed to him that asking help from these punks was only a pipe dream. If only Mila was here, things would get easier, since that angry tomboy might be the only one who could deal with Bony. The tales from two years ago, tales of her punching Bony’s face and made his pointy nose bled still a legend amongst the youngsters.
+Hearing the Nalaq was mentioned, Mila sucked the deepest breath out of her life.
 
-Bony didn’t even budge when Shira showed him the pin Yulong gave him. Not surprisingly, he didn’t get anything from Bony eventually. Shira began to think to get inside Elzhier Family through bribing some guards and maidservants was easier than this. Without anymore chit-chat he along with Pilek and Polio then strode away with a bunch of fish they caught, discussing merely how they’d cook the fish and what spice they were going to use. 
+Seeing that Mila subconsciously took a step backward, Shira didn’t let her off the hook. He turned his body and bowed apologetically to an empty air. “I’m very sorry about my cousin’s rude mouth, Sir Venerable Good Nalaq… she’s always dumb like this and never put any attention to her wording. Please be patient until she grows enough to have an adult’s brain.”
 
-And just when Shira about to decide whether to use backdoor instead, someone poked his shoulder from behind.
+Mila, although usually thoughtless of the consequence of her behaviour, she wasn’t born stupid. She knew very well the result of angering a revered Nalaq. Because of that, she immediately dropped to her knees and begged for forgiveness.
 
-“Wha--? You scared me…” Shira smiled upon finding the one who poked him only a girl of ten years old. This girl also had a carp fish on her hand, and from the clothes she wore and the fact she was barefoot, Shira reckoned she was a servant’s daughter that coming along with Bony to help them fishing on the river. “Is there something you need, girl?” he asked awkwardly seeing the clear eyes of the servant girl staring deeply at him.
+“Have mercy, Sir Venerable Good Nalaq! I never thought you were so kind to bless this ignorant cousin of mine with your boundless knowledge. I’m very sorry to offend you with my uncouth mouth!”
 
-“Can I see that pin?” the girl asked.
+Shira then pretended to listen to the empty air, nodding off his head. “Mm. Sir Venerable Good Nalaq said you’re the one who were stupid.”
 
-Since the roaring lion pin wasn’t that precious looking, Shira agreed immediately. It didn’t seem like the girl would run away as soon as she got the pin on her hands. Instead, she studied the pin with determined face.
+“Yes! Yes, I’m the one who was stupid! Let me punish myself by eating dirt so that I can appease Sir Venerable Good Nalaq!”
 
-“Can I get that again? There’s something I need to do, girl,” Shira said hurriedly. He didn’t have the time to humor a servant girl he didn’t even know her name.
+“Eh, you don’t have to do that,” Shira could see Mila was her father’s daughter. Even though in everyday’s life their personalities were completely different, sometimes, they just naturally alike in some aspects. “Just leave me alone for now. Sir Venerable Good Nalaq said the things he bestowed upon me are secret that he doesn’t want anyone to know.”
 
-Seeing the impatience in Shira’s eyes, the girl returned the pin back to him, plus a free coupon for a shop owned by Elzhier Family. “You should wait at my parents’ shop, Young Master Shira. There are free snacks for you to eat there.”
+Shira could see Mila nodded in retreat. But knowing the girl’s personality, she’d find another reason to bother him by the end of the day.
 
-“No, like I said, there’s something I’ve got to do.”
+He turned, only to find out that Butler Yulong saw all that happened. The butler’s expression was ugly.
 
-The girl blinked, still her eyes staring at him. Shira got uncomfortable. He didn’t even know why this girl gave him a free snacks coupon out of the sudden.
+“Uhh… Yulong, I think Sir Venerable Good Nalaq…”
 
-“Young Master Shira,” the girl said flatly, “if you want to fetch Young Lady Yurin and Lady Ross, you should wait at my parents’ shop. Someone soon will bring them to you.”
+“Young Lady Mila acts like that because she worries about you, young master. You shouldn’t have teased her like that.”
 
-Shira was flastergabbed. Before even he could ask something from the girl, she already trotting far away to follow Bony and others. It was later when Shira woke up from his daze that he realized he just talked with a member of the hidden sect.
+Yulong had always been kind, the wrinkled smile he had always gave the impression of a gentle old grandpa. Butler Yulong was always been the one who responsible for his education more than his own father, who was rarely in Badril Village, and his uncle Shuro, who was taking care of him as the guardian. Therefore, whenever he got angry, Shira knew he’d better listened to him.
 
-The girl, who was only ten years old and barely developed, was undisputedly a member of the so-called Big-Boobs Sect. Shira’s face was grim realizing the whole matter was far more complicated than he thought.
+Around that time, not far from Badril Village, a small coach took its time journeying through the mountainous road.
 
-***
+The coachman was a gray-haired middle-aged man, with a magic sword on his belt, acting as the sole bodyguard for the two people inside. A mid-twenty young man was found sleeping there, while the other one, a girl around Mila’s age, was killing time by reading a lite novel.
 
-After the masked women brought her away, Merly felt her head was heavy, felt like they made her inhale something hypnotic. Although her consciousness was a mess, somehow Merly able to retain her ability to measure time, and counting only an hour had passed since the incident in Yashura Family. Her blurry perception relapsed from time to time. She heard someone talking near her, but couldn’t make up sensible conclusion.
+“Hmm?” the girl found herself frowning, in spite of the novel’s content which was lighthearted romance. The man also felt a subtle change in her expression, forcing himself awake, became alert immediately. Ever since the girl made the contract with her Nalaq, her own expression wasn’t necessarily reflecting her own emotion alone.
 
-“…I did have my suspicious, but never would’ve thought Elzhier Family is Luna’s Elzhier that I always knew…” that was Mama Ross’s voice. She said more about Elzhier, but Merly couldn’t follow her words after that. But a moment later, Mama Ross’s grave tone nearly woke Merly up. “Who is the lunatic who dared to revive Gyl’s soul?”
+“Something wrong, Merly?” the young man asked.
 
-Merly didn’t mistaken, Mama Ross’s tone now filled with grievance, the same grievance that she felt drove Mama Ross into trying to kill that evil, vulgar rogue Nalaq.
+With her fingers on her chin, still frowning, the girl replied, “Mama Ross tells me this place is weirdly secure.”
 
-And the one who replied Mama Ross was a woman, whose voice was clear and beautiful, merrily said, “You shouldn’t have asked a humble member of the sect like me a question like that, Lady Ross. Fortunately, Sect Founder coincidentally leave a message for you. She said that since the Liberators chairman gave his permission for you and the other pillars to take Mister Gyl down, certainly he didn’t need for your permission to revive him as a Nalaq.”
+The coach on the front replied instead, “Road to Badril Village is safe, young lady. A ferocious group of Road Warriors had been watching this route for about twenty years now. This is a good village.”
 
-“Ha! Why still call us backstabbing women the Seven Pillars then? It’s nothing but glorify a compromise! Reviving that bastard brings nothing but disaster!”
+“Oh, for twenty years straight? Badril Village sure has some dedicated good Samaritans protecting their livelihood. I wonder if Yurrin Family would be able to employ them,” the young man pondered.
 
-Elder Shyla politely disagree. “Mister Gyl has been revived for around one hundred years. And no such disaster like you were talking about has happened. You better leave everything in the past, Lady Ross, as this is what our Sect Founder wishes for you. Sect Founder knew, after all, you are the one amongst the pillar to hold the most grudge against Mister Gyl. But please, Lady Ross, remember that you have Yurin Family under your wing now. And also remember Young Lady Merly Yurin is about to enter Blue Robe Society by next year. You wouldn’t want to put this girl Merly in danger, would you?”
+“Haha, you can ask them, young master. Don’t you say you’re about to visit a family called Yashura, today? The founder of that Road Warriors is a man named Jhuro Yashura. He's been retired for fifteen years now, but his influence lasted enough to move his gang around--that’s the kind of man this Jhuro fellow is.”
 
-Mama Ross didn’t answer the woman’s question. Merly, as the contractor of Mama Ross’s soul, felt the echoes of the Nalaq’s fluctuate emotion; it was the same when Mama Ross descended into uncontrollable rage upon seeing the disgusting vulgar smirk of that rogue Nalaq. Only this time, as she inflicted by Mama Ross’s overwhelming sadness, she felt like her heart being sliced by a thousand cuts.
+“Hoo… if that’s true, even if Teacher Staterwind doesn’t get his third student here, our journey should still be worthwhile,” the man nodded in satisfaction. As a young master from a merchant family, he long knew how precious diligent Road Warriors to secure trading routes in southern land were infested with monsters and rogue bandits.
 
-“Ugghhh…” a soft groan escaped Merly’s lips. She wanted to get up, but even her eyelids felt heavy. Her head felt like shattered into pieces.
+“Merly, why are you still frowning?” he asked the girl.
 
-“Oh, you’re awake?” the woman’s voice directed at her. When Merly able to open her eyes wide, slowly the face of a beautiful vixen entered her sight. Her smile wasn’t too excessive, yet, since Mama Ross didn’t like her, naturally Merly thus found this woman quite dislikable.
+“Mama Ross said… it’s not about bandits, but an ancient formation. It was set here. Strong enough to hold against bombardment of Mages’ artilleries.”
 
-It was quite difficult for Merly to see what was going on. She held through, eventually, and found out she was inside a humble room with walls made with logs of _cendana_ woods--a kind of wood that looked ordinary outward but would give a rare comforting scene for the occupants, the type that looked shabby but actually was a high-class materials. Mama Ross was sitting beside her. Two other figures in the room were the vixen who later introduced herself as Elder Shyla of Elzhier Family, along with a maidservant who was grinding herbal roots for the soup that been shimmering in the middle of the room.
+It was almost as if the venerable Nalaq said this place was going to be an upcoming place for war. The man was silent hearing that. The coach, however, was a little doubtful, but he was polite when pointing out since the other party was a girl contracted with a venerable Nalaq. “That’s weird, Young Lady Merly. We’re far away from the border, and sure there’s no fortress built around here.”
 
-Elder Shyla used a pair of chopsticks to pick braised meat cuts that was sliced in uniformed rectangle, putting them into a bowl garnished with exquisitely sliced vegetables. The silent maidservant then carefully poured the shimmering broth, creating a clear harmonic sound as the warm water splashing onto the antique-looking ceramic bowl.
+“I don’t know, Norman. Mama Ross the one who said that.”
 
-Smiling to Merly, Elder Shyla said, “You must feel a bit heavy after inhaling our sect’s calming herbs. Please, Young Lady Yurin, consider this as a gesture of apology from us.”
+The coach, Norman, could only nod his head if the venerable Nalaq inside Merly’s body was the one who insisted.
 
-Initially, Merly wanted to refuse the other party’s offer. Calling a numbing poison a calming herb was an outrageous understatement. Yet Mama Ross told her to accept it. “Savor the soup, my dear. You’ll never got to eat this kind of meat again.”
+They arrived at Badril Village about one hour later. Because the coach was made with splendid wood, the party of Yurrin Family was mistaken as the second visiting noble. The village head even enthusiastically welcomed them. The village head was disappointed, however, after knowing the new visitors were just random kids from a rich merchant family. His apparent disappointment made a bad impression on the visitors, but the Yurrin’s party of three didn’t say anything about it. And eventually, the girl and the young man finally reunited with their teacher.
 
-“Sure the meat is rare,” Elder Shyla laughed cheerfully, “even the core disciples of our sect can eat at most three serving each year. We are willing to part with it because we value Lady Ross’s past relationship with our Sect Founder.”
+Sir Baront rent them rooms at the inn he stayed. Then they came to discuss their business in the village.
 
-Merly didn’t know what kind of soup she ate that day. But she’d never forget the look on Mama Ross’s face, who seemed wry with awkwardness, almost telling her that as long as they got this soup as the compensation, then any grievance wouldn’t be too much to bear.
+“The Nalaq in this village doesn’t want to meet with Madame Ross,” Baront Staterwind said hesitantly, afraid he offending the Nalaq who resided inside his disciple’s body, “so I think we’ll try to talk a bit more with Yashura Family. They’re the ones that host the Nalaq. Their young master likely to be soul contracted--even if not, chances are he’ll be later. I want to make him your younger brother disciple. Jerrin, Merly, I’ll ask both of you cooperate with me later.”
 
-“Elder Shyla,” a young flat voice of ten years old girl greeted after the door being knocked thrice, “Young Master of Yashura Family came to fetch the guests.”
+“I do think they take us too lightly,” Jerrin said, not with an angry tone, but weren’t exactly satisfied either. He was a Level 19 Acolyte studied under Sir Baront Staterwind for seven years, but haven’t had the luck contracted with Nalaq. His cousin Merly Yurrin, however, did contract with a high-tier Nalaq. “Even noble families received us with better treatment the moment they knew about Madame Ross.”
 
-“Is it time? Is the Nalaq still around?”
+“Jerrin, you’ve got to understand, Yashura Family has an unidentified Nalaq living in their backyard. This concerns their livelihood--it’s understandable for them to worry more about a Nalaq that been living with them than us outsiders.”
 
-“Yes, he’s hanging around on the street like the usual,” the young girl replied.
+The door knocked. Norman came to report his findings about the soon-to-be third disciple.
 
-“Then this isn’t the time yet,” Elder Shyla said.
+“I’ve compiled a few points about Young Master Yashura that I deem important, please read this.” If nothing went wrong during their visit in Yashura Family, and Mama Ross approved the Nalaq from the other side, considering their teacher’s good mood, it was very likely that Jerrin and Yurrin would receive the third younger brother to study under Blue Robe Society with them. So the coach was tasked to gather information about Shira. Although a Knight usually involved of crude fighting, duel, skirmishing, and occasional ball parties, the gray-haired man unexpectedly adept at information gathering due to his rich experience in guerilla warfare.
 
-Merly just drank the broth till the last drop. Mama Ross told her to savor her bowl of soup clean. When Elder Shyla asked her that question, Merly put down the ceramic bowl and bowing her head in gratitude. “Thank you for the treat.”
+Reading the report, they noticed he was already engaged, which was quite an unusual practice in southern lands. Merly knew the fiancée was. She remarked that due to her promising talent and her rare Unique Class, Bhela Malikh was a celebrity during Merly’s trips in the seminars. Her mysterious backers also somehow managed to intimidate higher nobles during the seminar trips--making her one of those rare seminar attendees who could do whatever they wanted in place royal heirs and clan prodigies were like cabbages. Merly knew her from the rumors and stories her friends shared with her, but hadn’t had the chance to meet with the said person personally.
 
-“Drink this tea also, Young Lady Yurin, before you return to your people,” Elder Shyla offered a glass of tea, which Mama Ross also told Merly to drink.
+Jerrin didn’t know that, but then Sir Barront told the story about what had happened in Malikh Family’s Ngajen Ceremony. He went on to tell the story about the supposed fiancée and the cousin had a fight because some blue-blood fly came to create some misunderstanding and rumors in the village. Both of the disciples naturally formed their opinions.
 
-Meanwhile, one particular shop that Elzhier Family owned just lit their torches as the day was about to end. Shira sat alone, peeling a boiled egg he got for free, while his mind doubted the lack of customers since he got here was happening without any hidden interference. Yet everything looked normal. Even the hospitable pair husband and wife that running the shop seemed like they were not people from unordinary origin.
+“Both of you don’t have to worry. On the surface this boy’s talent can’t be considered good, but I’ve met with him already; I can say that he’s a sensible young man.”
 
-“I saw your daughter today,” Shira said as he sprinkled salt onto his boiled egg. “Her face looks like she’ll be a great talent in the future. Any thoughts on sending her to school to study? Or sending to a certain sect?”
+“You’re right, Teacher Staterwind. The best talent an Acolyte of Blue Robe Society could have is to get favored by a Nalaq. Everything else is unimportant. He’s already far ahead than an uncontracted Acolyte like me in terms of talent and luck,” Jerrin said, jokingly mocked himself.
 
-There was no one beside him and the pair of parents, so the husband responded his words with a laugh. “Young Master Shira surely jest. Looks like our dearest daughter got praised because a free voucher. In that case, please young master, tell us how you feel after eating this portion of free braised chicken on top of white rice!”
+Letting Jerrin and Merly spend two hours resting in the inn, Sir Baront Staterwind then sent someone to inform Yashura Family. He knew Yashura Family was quite prepared with a banquet already, but a reminder wouldn’t hurt.
 
-“Our daughter was lucky to be able to impress the aloof Young Master Yashura. Free voucher indeed is effective. We’re currently in promotion period, young master, please spread the word if you’re satisfied with our plates!” the wife said with a laugh as big as the husband’s. “Here, please drink this free avocado juice to accompany the free meal.”
+“This Yashura Family… are they living in the west or the east of the village?” Merly asked, a moment after they descended the inn’s stairs.
 
-Shira smiled dryly. The couple indeed knew how the world worked. He believed that these couple found out he was probing into the sect’s matter, and thus the bribe. They wanted to make Shira shut up with his curious questions.
+Sir Baront replied. “They’re on the east side. Yashura Family owns almost all the lands there. Why did you ask?”
 
-As someone who was already experienced in taking dirty money from a certain rogue Nalaq, Shira surely wouldn’t shy away from free benefits. He took the plate and grabbed the spoon. Forcing a bunch of hidden experts to come out was useless anyway. Quietly ate his free meals, Shira believed the other party would come since they already sacrificing braised chicken and avocado juice to make him stay obediently.
+“Mama Ross is concerned with something.”
 
-He was right. Halfway from cleaning his rice, the door inside the shop was opened. A maidservant was showing Merly Yurin the way out. Shira quickly drank his juice, and asked the shopkeepers to wrap his unfinished meal. Since the wood plate already matted with banana leaves, wrapping unfinished meals should be easy. For people as great and magnomous as them, for sure they wouldn’t dislike a clueless boy for shamelessly asking to bring home a free meal, or so Shira thought.
+The coach replied, “Young Lady Merly, Yashura Family is on the east side, while there are two families on the west side--Malikh and Elzhier. From what the locals said, those three major families seem to be normal.”
 
-“Haha, you surely jest, Young Master. As long as you come back again with your friends, you can take home as many as you want. Here, go bring this home.”
+“Mama Ross doesn’t want us to mess with people in the west side,” Merly said, “but coming to the east, she’s not sure…”
 
-Shira asked to bring home his unfinished meal, but got a basketful of fresh banana leaves-wrapped braised chicken instead.
+There was nothing out of the ordinary when the party approached Yashura Family. But Merly Yurrin found herself hesitate in taking another step forward--she felt Mama Ross’s restlessness inside of her. She straightened her head. An old butler was already standing by to welcome them.
 
-Somehow, Shira couldn’t help but took a liking toward these people with ulterior motives. Whether it was Good-Natured Spirit or this hidden sect members, they gave him free stuff. Shira took a note to visit this shop after each time he won on a game of chess against Good-Natured Spirit. Surely they’d welcome him with open arms, just the way Good-Natured Spirit used to act, right?
+“Welcome to Yashura Family,” Yulong said as he bowed his body. “We’ve prepared a little banquet to honor dear guests, please do follow me to the family hall.”
 
-Shira escorted Merly Yurin back to the inn she stayed. When Sir Barront Staterwind and Jerrin Yurin saw them, they were happy to see Merly unscathed. Shira used this opportunity to clear the misunderstanding between them. Surprisingly, Merly cooperated well. Maybe she finally saw the light after being forced to kiss dirt by those masked women. Or maybe the hidden sect finally put some sense in the high and mighty esteemed lady Nalaq about how to act in southern Mossacks’ homeland. Whatever the reason, in the end, the relationship problem Yashura Family had with their guests was resolved by Shira. He himself wasn’t expecting the problem would be this easy to solve.
+Sir Baront and Jerrin Yurrin often travelled the southern lands, having to impose many visits to many families. They replied to the locals’ greeting rather smoothly due to experience. The coach Norman, however, saw from the back of the party the Young Lady Merly’s figure consciously avoiding the butler. The coachman kept his finding to himself. In addition, he saw the butler realized the awkward gesture too, but Norman thought nothing of it.
 
-It was already sunset when Shira walked back home. His mind wander as he thought of the diner would be tasteless. The shock this day was too much for Yashura Family. Even the coconut lover uncle wouldn’t have so much energy to cook after this devastating incident. It was a good thing he brought a bamboo basket full of banana leaves wrapped braised chicken with him.
+---
 
-Accidentally, a bunch of kids playing tags brushing pass him, almost made him drop his banana leaves wrapped braised chicken. He thought of scolding these senseless kids. But the sight of a young girl laughing made him had a second thought. She made him remembered the Elzhier Family’s servant girl, the one who gave him the free voucher, a girl he believed affiliated with the hidden sect. And then he remembered one thing.
+For families of the southern Mossack that always throw hearty feasts for whichever reasons they could come up with, serving beef on the table could be considered grand and lavish. Yashura Family were bigger ranchers than Elzhier and Malikh Family combined, and they had the biggest plots of land in Badril Village, yet, a family this big, would only butcher cows only if the harvests of their rice paddies and other fields were abundant. But today Yashura Family spared no effort to cook the best rendang and beef stews to entertain Sir Baront Staterwind and his disciples.
 
-“This pin isn’t even special,” he murmured, looking at the roaring lion pin Yulong gave him. But if it wasn’t special, why a girl of ten years old could decide whether to pass him to one of the hidden sect’s covered nests, based on this pin alone?
+Patriarch Shuro Yashura didn’t sleep all night just to prepare his best rendang for the guests. He put his soul as he slowly poured coconut milk over the cooking beef, giving all of his concentration to create a rendang that was even better than all the rendang he made his entire life, combined. Wiping his brows, he looked toward the clear sky. He prayed and wished for three things; for his Yashura Family could send their heir to study overseas like the young ladies from Elzhier and Malikh Family had; second, he hoped that there weren’t going to be an accident worse than yesterday's explosion would happen today; third and most importantly, he hoped his rendang would cook perfectly tender with the perfect balance of taste by the time the guests come the the family. It’d be a sign of great luck if both the sauce dried enough and the meat become tender at the same, which was usually not the case when cooking rendang.
 
-He felt it wasn’t strictly Yashura Family that the hidden sect giving face. His uncle Patriarch Shuro was honest and clumsy, unlike the profesional Yulong, so at least the honest faces of Yashura Family he knew wouldn’t hiding anything like hidden sect or some other worrisome secret. He believed in Yashura Family’s innocence.
+The patriarch sighed. He was a hardcore Mossack to the bone. When his family’s fate hung upon a thin thread, he believed a good talk and good food would solve any problem in the world.
 
-And that was the time he realized the pin actually was a bit different than a normal one. There was a dent on its surface. The more he looked at it, the more he convinced that the dent wasn’t there accidentally. It was made to cover one of the lion’s eyes.
+In the family hall of Yashura Family, that afternoon.
 
-“One-Eyed Lion.” A long forgotten phrase escaped his lips. One-Eyed Lion was the name of a delinquent group that his father made during his youth, that eventually won battles against bands of bandits outside and successfully securing path for merchants to safely trade with Badril Village, finally made a name for himself. When far away villages heard of Badril Village, they’d immediately remembered Jhuro Yashura and his gang the One-Eyed Lion.
+Yashura Family welcomed the guests with a banquet, the Mossack way. Plates and bowls full of exotic traditional foods were grouped and stacked on the floor, while the host and the guests would sit cross-legged in a circle. Even though Yashura Family was big, to show the sincerity of the host and to avoid the political atmosphere, for this occasion Patriarch Shuro decided the ones that humor the guests were only his close family--him, his wife, his sole daughter, and his nephew, Shira. Sir Barront Staterwind sat cross-legged on the opposite side, with his two disciples sat each beside him, and a servant gray-haired middle-aged man sat calmly behind them.
 
-Shira didn’t know much about his father. He was almost never staying at home. And Patriarch Shuro, as gullible as he always was, never asked what his brother did outside the village. A headache came to him when he realized a bunch of mess he’d had to straighten out by the time he inherit the patriarch mantle because of this matter.
+Jerrin Yurrin, the older one, was originally an extravert, the kind that could always conjure a conversion out of the trivialest things. So he drove the light talks around bountiful southern harvests and foods, a kind of talk that Patriarch Shuro particularly fond of. Besides learning about the designated third disciple, Jerrin and Merly also unexpectedly learned a lot about coconuts, thanks to Patriarch Shuro’s passionate and needlessly deep knowledge in this field. Occasionally he and Patriarch Shuro and Sir Baront Staterwind would have a good laugh, highlighting the festive mood.
 
-“Yo kid, I saw you visit one of Big Boobs Sect’s place,” a haughty voice was heard. Shira groaned, quickly hid the pin he got, seeing the main nuisance finally showed himself again, with a cigarette between his fingers, carefreely floating with a punchable smirk on his face.
+In the meantime, however, Shira didn’t see the supposed high status Nalaq. Either Sir Barront and his disciples didn’t plan to engage seriously this afternoon, or the mysterious Nalaq sat back with a wait and see attitude, but all this made Shira couldn’t help but think that the prospect for him to study with these folks wasn’t as sweet as his uncle Patriarch Shuro previously believed. The only thing he noticed was the youngest member of the guests, the girl who called Merly Yurrin, was staring at him rudely.
 
-“I thought you die.” Shira snorted. 
+“I have a question for you,” Merly Yurrin for the first time talked to Shira. The older folks who were enjoying a hearty chat then stopped, they focused their attention to the girl.
 
-“What? The fuck did I do?” Good-Natured Spirit groaned as if he was wronged. The boy’s indignant eyes seemed to blame him upon the whole mess. “I didn’t do anything, alright. I did play my guitar, trying to flirt with her, but suddenly she wanted to melt my face with fireballs. What a salty bimbo, tsk.”
+Shira said, “What questions do you have for me, Young Lady Yurrin? I’ll answer the best I could.”
 
-“I saw you disrespected that lady Nalaq.”
+“Is it true that you are engaged to Bhela with the surname of Malikh?”
 
-“Ey, I just touch her butts a little bit. And that was after she went nuts with her fireballs.”
+“Oh,” the boy was taken aback a little bit. Since the other party asked about this topic, surely they knew about the ruckus that happened during Malikh Family’s Ngajen Ceremony. “The whole thing was planned before even I could barely talk.”
 
-“I have the feeling you met her before and did her a great injustice. She was trying to kill you, like, really hard. Maybe she’s someone from the time when you were alive?”
+“Ehem,” Patriarch Shuro cleared his phlegm, as he always knew this nephew of his always being too blunt whenever the topic of his engagement was brought out of the blue. “Young Lady Yurrin, the thing is, Shira’s father and the patriarch of Malikh Family were as close as brothers, so when they each had a baby boy and a baby girl, they thought it was a good idea for Yashura and Malikh to be together.” The patriarch saw his well-thought explanation wasn’t received well, thus awkwardly added, “That’s how it is, really. The engagement actually wasn’t a big deal before Patriarch Malikh’s daughter got chosen as a candidate to attend fancy seminars backed by lots of royal families and big clans. But now everyone seems to talk about it everywhere. Too many jealous people, so best to not taking what people say seriously.”
 
-“Don’t know. Told you I don’t remember things from back when I’m alive.”
+“I did attend the fancy seminars you’re talking about, Patriarch Yashura,” Merly said, her tone was a bit sour. “I reckon everyone in this village knows her real worth by now. Even during the seminars, Bhela Malikh is a celebrity amongst the students. She has a real talent and she always worked hard to back it up.”
 
-“Then do you have any idea why she hates you so much?” Shira asked. “Aside, you know, your assault earlier.”
+Shira smiled. He smiled not because he was in a good mood. Whenever that annoying topic came up, faking a smile was the only thing he could do.
 
-Good-Natured Spirit’s face turned solemn as he replied, “In this world, I fear no man, kid. But jealous exes? I fear them.”
+“Honestly, I balked at how sloppy your current talent is,” Merly continued, “even if a boy coming from a very poor family, at least getting to Level 6 at your age isn’t really a problem. But you, a healthy fifteen years old, who is the heir of the village’s major family, is unable to even ascend to a mere Level 4 Novice--honestly, honestly…”
 
-“It’s unbelievable to see my Yashura Family took the hit while you still shamelessly living and kicking,” Shira said icily, clearly didn’t believe what Good-Natured Spirit said. “No, I forgot, you already dead. I don’t understand why you always make trouble and acted as if you still can use that thing of yours.”
+Merly took out a scroll from her sleeve. The Yashura Family wasn’t too surprised for the guests to investigate Shira, but when it was mentioned blatantly they felt like they wanted to smack the boy’s head for making the family lose their face.
 
-Good-Natured Spirit only scoffed at the boy’s remark. Seeing that the boy hugging a bamboo basket loaded with bunch of banana leaves wrapped rice meal with him, Good-Natured Spirit picked one and asked, “Is this your haul from Big Boobs Sect’s hiding place?”
+“I don’t know what to say about this,” Merly sighed. “Your **Wisdom** far outweighs your other attributes. People say Stats only are numbers when it comes to the realm of men and earth, and I think they have one thing correct about a high number of **Wisdom** doesn’t actually mean the person is wise. Not in this case, anyway. Have you ever considered how your position of an heir and a fiancé of well-known best talent of this generation? Coarse attributes like **Strength** and **Agility **are the easiest to raise, and the most effective way to level up--yet, after seeing your current **Stats** is, even the most ignorant one can see that you didn’t even try.”
 
-But at the same time the invisible to common eyes Good-Natured Spirit picked one of the braised chicken rice, a pedestrian happened to pass by, gasping at the sight of floating banana wrapped rice in the empty air.
+The room fell silent. Patriarch Shuro Yashura opened his mouth, but closed before he made a sound. Even Mila, the one that first to defend her cousin during Malikh Family’s ngajen ceremony, lowered her head, feeling embarrassed herself--Merly did poked at the right wound.
 
-“Wh--what?!” the pedestrian gasped as his finger pointed at the supernatural thing happening before him. He saw Shira talked alone from afar, but he dismissed it knowing the rumors about Young Master Yashura was crazy from being spotted talking alone to empty air. Yet this time, the pedestrian thought he was the one that was crazy for seeing flying braised chicken rice.
+Naturally Shira was also silent. He knew if he opened his mouth now, the only thing that he could say only lame excuses.
 
-“Umm…” 
+In the end, it was Patriarch Shuro’s wife who opened her mouth and explained, “This… Young Lady Yurrin… it’s not like nephew Shira is too lazy to bother about it…”
 
-Shira wanted to explain things to the shocked pedestrian, but he took a step back as soon as Shira came forward.
+“Cough, he is, a bit… cough…” Patriarch Shuro, who felt guilty about lying, murmured between his fake cough. His wife elbowed from the side, the patriarch then acted as if he didn’t say anything.
 
-But then Good-Natured Spirit just carried on to open the braised chicken wrapping to see the content of the food.
+“Ever since Shira’s a baby he’s a bit too sensitive and can easily get sick,” Madam Yashura continued explaining for her nephew. “His mother left him the moment he was born, and at the time he couldn’t drink milk from wet nurses. There was an old doctor who Shira’s father brought from outside the village that always checked on him, and he said to stabilize Shira’s condition he needed to suppress his manasphere from being active--thus, his talent growth over the years hasn’t been very satisfying.” Madam Yashura sighed. She played the pitiful card since any other options already sealed. “Remembering back all those years ago, honestly, it’s already a blessing that he’s still able to keep his life. His father doesn’t even have the heart to force him taking up a sword like him. He was pitiful, this kid…”
 
-“No! Stay away from me!” the pedestrian cried in horror as he saw with his own eyes a flying braised chicken rice opening itself. Not wanting to spending a split second, he immediately ran away for his dear life.
+Shira unfortunately sat beside his aunt. So he couldn’t avoid getting his hair ruffled by his sobbing aunt.
 
-Shira was breathless seeing the scene unfolded. It was stupid if he didn’t think this wouldn’t begin another troublesome rumor about him. He looked aside, glaring at Good-Natured Spirit who was taking a whiff on the braised chicken he opened.
+On the other side, Merly was silent as if she was pondering, and Sir Barront quickly assured the family that Blue Robe Society regarded the contract with Nalaq more important than the students’ own talents. Jerrin, however, quietly glanced back from his shoulder, asking to verify the story from the person who had personally investigated the boy; Norman nodded his head telling something like that really did happen.
 
-“What?” Good-Natured Spirit raised his head. “The fuck did I do?”
+At this point, Shira knew his chances of being accepted as Sir Baront’s disciple were already screwed.
 
-Annoyed, Shira forcefully grabbed the opened braised chicken rice from Good-Natured Spirit’s hands, put it back to the bamboo basket. He continued walking and pretended not to see the Nalaq.
+A moment later, Merly continued with her sharp words as if she was numb to the awkward atmosphere. “Is this boy really have a disability?”
 
-***
+Shira said nothing. Patriarch Shuro timidly almost said no, but Madam Yashura hurriedly cried, “Yes! Back then, but he’s fine now.”
+
+Merly looked at Shira. It was not known from her gaze that she was feeling doubt, suspicion, affirmation, or anything at all. She then said, “Any Nalaq won’t choose any human without any redeeming quality to contract with. That is because the Nalaq will possess him after the contract ends, and will live in the human’s place until the mortal body rots. I’m not a magician. But I have an outstanding affinity with fire elemental, enough to ensure me achieving Rank-3 Fire Mage in the future; yet that only gives me 60 years worth of contract with my Nalaq, Mama Ross. Mama Ross happened to be a great Fire Mage herself in the past,” Merly took a beat, looking straight at Shira’s eyes. “Surely, the Nalaq of yours sees something different in you that interested him. If you can convince us what’s so good about you, maybe Mama Ross will favor you a bit when she confronts this Nalaq.”
+
+She was talking at him like he was some snotty kid, Shira didn’t like this girl’s tone. But he decided to reply to her since he wanted to save some face for his uncle.
+
+“Well…” Shira murmured.
+
+“Well?”
+
+“Maybe it’s because…” the only desire Good-Natured Spirit ever showed was worldly vulgar desire of women. Shira’s mind was thinking fast; Good-Natured Spirit was a ghost, so he couldn’t touch women unless he got a mortal body. Yet, a mere body wouldn’t make a womanizer Nalaq so desperate he was willing to lose again and again waging countless games of chess. There ought something that made Good-Natured Spirit desperate to get him, and it had something to do with getting women with the mortal body of his. Finally, he reached a conclusion. “Maybe because I’m handsome?”
+
+_“COUGH!”_ Mila loudly faked a cough.
+
+Her father and mother coughs followed suit.
+
+_“Cough cough cough!”_
+
+_“Cough cough!”_
+
+_“COUGH COUGH COUGH!!!”_
+
+It was unfortunate that no matter how loud they were coughing, the panicked family of three couldn’t cancel the guests from hearing Shira’s reply.
+
+Merly expressionessly said, “Your confidence is too much. You should’ve looked yourself in front of a mirror.”
+
+Shira groaned in his heart. It was probably true that in the village popular young men like Bony were more handsome than him but supposedly his face wasn’t that bad, either. He had enough of this rude girl. Previously he wasn’t this fed up when she stood in front of that unlikable young noble of Blackwood Family. For southern people, being taken lightly as a host was horrible, it was a common sense for Mossack descents scowled at ungrateful guests. This must be how Bhela Malikh felt when Mila brazenly asked her to a duel in her own courtyard.
+
+Frowning, Shira then said with an impatient tone, “That was the only plausible answer I could give you based on my understanding of his personality. If you really wanted to know his reason too much, why don’t you go ask him yourself?”
+
+“S-Shira!” Mila cried. She looked at her parents; her mother’s face looked distressed, her mother looked pale. Patriarch Shuro even decided to be silent, pretending as if he was a block of wood. This family was even made speechless by Shira’s brazenness.
+
+Merly said slowly as her eyes still locked on the youth, “This settles it. The one that approaches you isn’t a proper Nalaq--he isn’t even a low-ranked one.”
+
+Shira raised his eyebrows.
+
+“If it was a proper Nalaq,” Merly continued, her voice weirdly changed texture into a mature woman, “then you should’ve realized you’re talking to another one by now.”
+
+After Merly said that, she lowered her head, closing her eyes, seemingly fell into a sudden slumber. Mystical smoke puffed out behind her back, slowly condensed into an ethereal womanly figure. A face formed, she was exceedingly beautiful, and she was frowning; she had the same scornful gaze at Shira Yashura.
+
+“Greeting, Venerable Madame Ross!” Sir Barront Staterwind was the first one to give his greeting. Jerrin also turned to face Mama Ross and began prostrating.
+
+Seeing the guests reaction, Patriarch Shuro who already gave up his hope on his nephew’s prospect was startled. It took a beat for him to realize his nephew had done much more damage than screwing his chance of being accepted as Sir Barront’s disciple.
+
+“I am very sorry for my nephew’s impudence, Venerable Madame Nalaq!” Patriarch Shuro cried as soon as he slammed his forehead upon the mat covered floor, prostrating submissively. “Please don’t punish my ignorant nephew, if you wanted to punish someone then please punish this old me!”
+
+“No!” beside him, his daughter Mila Yashura slammed her forehead harder. “My father done no wrong! It was me who failed to guide my younger cousin even though I have the chances to do so! It was me! It was me who was responsible! Please punish just me!”
+
+Patriarch Shuro raised his head in disbelief; tears welled in his eyes as he gazed at the prostrating figure of his stubborn daughter. “Mila… what are you saying?” his voice was trembling, “the responsibility for guiding a youngster falls to his own parents and guardians only… you’ve done no wrong, daughter…”
+
+He was touched. Although this girl called him a moron almost every single day, today’s gesture showed that she actually had a slightest bit of care for him--her own blood father.
+
+Therefore, his eyes shot straight and filled with absolute determination; he was a father, an uncle, and the sole patriarch of Yashura Family. He decided to be a man. He decided to hold himself responsible.
+
+BAM!
+
+“I’m the one who was wrong!” Patriarch Shuro cried so loud that his voice echoed inside the family hall. “Please punish me as you see fit!”
+
+As his forehead kissed the floor mat, Patriarch Shuro closed his eyes, waiting for the hammer of punishment descend upon him. However--
+
+BAAM!
+
+Mila’s cry shrieked even louder than her father’s. “My father is brainless! The only knowledge he ever bestowed upon my ignorant cousin is useless trivia about damned coconuts! He’s not fit to guide anyone! It was me who was supposed to guide Shira! But I failed! So please punish me!”
+
+BAAAMM!!
+
+“No, punish me!” Patriarch Shuro urged.
+
+BAAM!
+
+“No, me!” Mila cried.
+
+BAMM!!!
+
+“My daughter is confused, I’m the one who’s wrong!”
+
+BAAM!
+
+“Confused is better than being stupid! You’ll feel better if you just punish me than a moron like him!”
+
+Beside the ceaseless yelling, Madam Yashura also prostrated with her body trembling. Shira, however, wasn’t shaking though he too followed the family of three to prostrate in front of the lady Nalaq
+
+Mama Ross originally didn’t care about this Yashura Family. But after seeing blood trickled on Mila’s forehead, Mama Ross sighed. The girl was the same age as her Merly Yurrin. She couldn’t watch this stupid scene any longer.
+
+Thus, with a wave of her hand, she said, “Stop! I don’t plan to punish anyone.”
+
+Slowly, both Patriarch Shuro and Mila raised their heads, peeking nervously at Mama Ross’s mood.
+
+“It’s okay if Madame Ross said so,” in the end, it was Sir Baront’s words that made the pair father and daughter at ease.
+
+Mama Ross said, “When I’m still alive, the Mossack chiefs all had self-respect and would never beg others to punish themselves. I don’t know what has happened in these two thousand years, time sure regresses men’s nature. You acted like a clown.”
+
+“I’m ashamed of my immature conduct,” Patriarch Shuro said, with his head lowered and his voice almost whimpering like a guilty puppy, “please do forgive this unworthy descendant of Mossack people…”
+
+“Stop that self-mockery. I don’t want to hear it anymore,” Mama Ross rebuked him. She then looked at the other members of Yashura Family who were still prostrating on the floor. “More important… lift your heads, all of you.”
+
+Shira and his aunt raised their heads.
+
+Mama Ross said to Shira, “I see how awkward you are, child. You’re not familiar with greeting a Nalaq. That’s more evident for Staterwind’s wrong about the Nalaq with you is a low-ranked one, not to mention the fact that he’s afraid of meeting a proper high-ranked Nalaq like me. Just look how brazen his eyes are.”
+
+The Yashura Family side were wordlessly accepting Mama Ross’s words. Shira was lazy and brazen, for that everyone in the family already knew. It was just because he was always living alone in his house that Yashura Family mainly left him be.
+
+But to be brazen in front of a Nalaq… could be this the old saying of courting his own death?
+
+Sir Barront Staterwind immediately said to Yashura Family, “Madame Ross is one of the pillars that oversaw Tiramikal Continent’s rebuilding after the Great Rebellion two thousands years ago--so she cares for common people greatly. Sir Patriarch Yashura, naturally Venerable Madame Nalaq wouldn’t be so petty before the ignorant folks like you!”
+
+As if it was a competition, Patriarch Shuro and his daughter Mila threw their into the floor and yelled both at the same time, “Thank you very much, Venerable Madame Ross!”
+
+Shira and his aunt followed after, but their responses weren’t as excited as the pair of father and daughter.
+
+Merly was swaying in her sitting posture, Mama Ross then hugged her onto her chest. The lady Nalaq accepted the Yashura Family’s gratefulness with only a glance in the corner of her eyes--the scene of an ethereal spirit holding a girl dearly seemed picturesque, leaving the onlookers felt a hint of warmness inside them. Shira remembered Good-Natured Spirit said that for him to touch living required procedure that was so bothersome that rarely a spirit would bother to do that. Seeing that the lady Nalaq before him stroking her girl’s hair meant that she really liked this girl called Merly Yurrin.
+
+“It seems Merly’s body still hasn’t adapted with temporary possession,” Mama Ross murmured, then she said without turning her eyes away from the girl, “Jerrin, you look somewhere for us to do combat training, this village must have somewhere good for us to train our sync.”
+
+“Yes, Madame Ross,” Jerrin Yurrin eagerly replied. Although he was supposed to be Merly’s elder disciple and her older cousin, in reality, all he was doing these past month was accompanying and taking care of Merly while she adapted with Mama Ross’s temporary possession--a technique of which developed quite sophisticatedly by Blue Robe Society.
+
+“Staterwind, Norman.”
+
+“Yes, Madame Ross?” Sir Barront and the coach and bodyguard for the Yurrins waited for the order.
+
+“That rogue Nalaq must’ve been hiding now that I can’t feel his presence. Go look for his whereabouts!”
+
+“Yes!!”
+
+Patriarch Shuro and his family felt nervous when he witnessed how decisive it looked when the lady Nalaq gave her orders. Especially the patriarch, although his looks seemed fierce like he was long engaged in banditry, this man couldn’t keep his calm and felt groveling on his knees was the more right thing to do.
+
+“Umm…” Only Shira who looked awkward, like he had something to say.
+
+“What is it, boy?” Mama Ross asked sharply as her hands patting Merly’s head.
+
+“I think that rogue Nalaq will meet you… Venerable Madame Ross…”
+
+“Oh? I’m being told that Nalaq doesn’t want to see me. What makes you think differently?”
+
+“Maybe Young Master Yashura began to see Madame Ross’s greatness,” Sir Baront Staterwind musing on the side.
+
+“Yes, after seeing you now I’m sure that rogue Nalaq will be awed by Madame Ross’s greatness.”
+
+Shira lifted his head slightly, stealing a glance with a covertly manner. He didn’t see clearly before since afraid he would be rude to the other party. But now, he could see the picture of a girl comfortably resting her head on two great melon pillows.
+
+After they had lunch together they decided to take a break from the meeting. After vaguely praising the lady Nalaq for her big, great assets, Shira was tasked to fetch for Good-Natured and see if he could make the two Nalaq meet. The boy didn’t search him for too long since he was familiar with the spots where the Nalaq hung out alone to smoke his cigarettes.
+
+“Good-For-Nothing Spirit.”
+
+“Yo, what’s up, kiddo?”
+
+“The Nalaq I told you is in the family, now. She said she wants to meet you.”
+
+Good-Natured Spirit sneered. “Is this a high-ranking Nalaq you’re talking about?”
+
+“She said you’re a rogue Nalaq.”
+
+“Fuck no, no,” Good-Natured Spirit waved his hand, saying, “I don’t believe any this Nalaq worshipping bullshit. Anyone who calls themselves _proper_ Nalaq is dead idiots with superiority complex who think they’re better because their names appeared in some fucking history books that practically no one read--the picture of you ignorant people grovelling everytime a Nalaq shows themselves is a puke-worthy sight to see. Fuck. Don’t count me for this nonsense man. I’m outta here.”
+
+He stood up and began to float away.
+
+It seemed Good-Natured Spirit didn’t really like his kind. But Shira already made a promise bringing him in front of Mama Ross; as the young master of Yashura Family, how could he bail on his own words now?
+
+Shira’s expression thus became solemn.
+
+He said, “She’s got melons.”
+
+Good-Natured Spirit slowing down.
+
+“She’s got big boobs and big butts,” Shira said again.
+
+Good-Natured Spirit changed his course a total one-hundred-eighty degrees. “The fuck you’re dilly-dallying about? A fine lady’s waiting. Lead the way!”
+
+---

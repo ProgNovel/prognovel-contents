@@ -3,396 +3,386 @@ title: Hidden Power in Yashura Family
 author: Radhy
 ---
 
-<authors-note id="Radhy" type="danger">
+“Hear ye hear ye people! Gather around and hear me announce something incredible, people! Gather around, will ya!”
 
-I don’t recommend reading from here onwards because the chapter below is still from the previous draft, which is different from the previous 4 chapters. Further edits will be made that most likely makes this chapter quite different than the current one.
+Standing on top of a table, Elder Jhamil shouted to gather people, announcing something that the Young Master of Blackwood Family passed him beforehands. “Although winner of the duel is Young Lady Bhela, Young Master Frane of Blackwood House is concerned by some stupid unruly girl of the supposed biggest family in Badril Village behavior would smear my young lady--”
 
-</authors-note>
+“Big news! Big news!” someone else’s shouting cut off Elder Jhamil’s announcement, “Young Master Bonithon is running around beating people! Watch your mouth if you don’t want get beaten for no reason!”
 
-In a certain hall in Malikh Family’s left wing complex, four people sat idly on the bamboo mats covered floor. They were being served local-specialty ginger drinks mixed with brown sugar with herbs to drink. There were also some roasted peanuts to chew. Despite they dressed humbly when attending the Ngajen Ceremony, three of them were elders with statuses, while one of them, the sword bearing Kaya man, wasn’t anyone to ignore either.
+“Bony is going crazy! He’s going to kick people’s asses! Nobody knows why!”
 
-Having knowing this, they still waiting for their host, Bhela Malikh, to wrap up the Ngajen Ceremony.
+“What the fuck is going on! Why Elzhier Family messing with us Malikhs now?”
 
-“Still,” Madame Sylvia said after a sip of ginger drink, “I wouldn’t have expected the girl’s talent to be that rare when she approached my sect with the invitation. The top brass only interested of her being the top grade during the seminar thus sent me to check her out. How about you, Mister Harrington?”
+At the chaotic scene before him, Elder Jhamil’s face showed a frown and a hint of hesitation. He then cleared his phlegm anyway, trying to get people’s attention, then pushed on announcing, “Young Master Frane Blackwood is concerned that--”
 
-“I wasn’t expecting it either. I only interested when the report said she showed a potential of being two elemental-affinities Archer. Three already great, but with four elementals, chances she’ll get her name down in history books.”
+“Elder Jhamil!!” a servant came running with a horrified expression, “Bony is coming for you, run away!”
 
-“That is what happen if she able to live long enough to develop her full potential,” the quiet man with sharp aura remarked. His face was thin, rough, and since he never liked to smile, he always looked like he meant business. The man was role model of eastern Kaya race ancient warriors--stand and sit in straight posture, humorless, and most importantly, always bringing the sharp, thin sword of katana on his hips.
+“You mutt! It’s Young Master Bonithon, don’t embarrass our family by following those crass people calling him Bony!” Elder Jhamil pointed his finger at the servant and roared, “What is that brat from Elzhier Family wants to do with me anyway?! It’s not his turn to show up here. Go, go kick him out! I’m trying to tell everybody something important here!”
 
-Madame Sylvia was interested on his remark. So she asked, “Oh, why you think of that, Sir Kurusiya?”
+“But he doesn’t listen to reasons! He’s going to punch your face, is what he said just now!”
 
-The eastern man replied, “Because she tangled herself with Blackwood Family,” he paused. “If this Blackwood the same one from this Blackwood guy I know, then it’s definitely a bad news for her.”
+“Imbecile! Do you think a young master would jump around like a monkey and punch an elder of another family in the damn face?! He’s making ruckus because he’s young, but he won’t have guts doing stupid things! Go, kick him out!”
 
-Mister Harrington from Elemental Stone School disagreed.
+Looking at the crowd from the rushedly made stage, he then smiled and continued, “Right, everybody, it’s Young Master of Blackwood Family; what I’m saying is that since Young Lady Bhela Malikh is winning with ease against the foolish young lady of _that_ family, Young Master Blackwood concerned that some people would shrug my young lady’s victory. So he proposed, in order to make it clear the disparity between Malikh and--sheesh--Yashura, he proposed that him as a friendly representative of Malikh Family and Shira Yashura as the repre--”
 
-“Since when our factions become soft?” he questioned. “We’re not that pitiful to handle some second-rate noble family. Honestly, I think that young man from that Blackwood Family such a pest. If Young Lady Bhela asks for my favor, I’ll handle him cleanly and thoroughly--right here, right now.”
+“Elder Jhamil--watch out!”
 
-“I’m not talking about Blackwood Family, I’m talking about the creepy guy with Blackwood as his last name,” Sir Kurusiya said as he put down his ginger drink. He wasn’t happy, so Madame Sylvia signaled Mister Harrington that it best not to continue arguing with the scary eastern Kaya man.
+He had it taking from lowly servants who cut off his announcement. Fuming in anger, Elder Jhamil pointed his finger toward the one who was spriting toward him and roared, “How many times I told you to just kick him out! Shut your trap and go kick the damned brat!”
 
-The hall suddenly turned quiet. Then, the fourth man was happily enjoyed his drink, out of the blue he blurted for his opinion that no one asked for. “That boy from Yashura Family is sure interesting…”
+Elder Jhamil was losing his cool. But what he failed to realize in time was that the one who sprinted toward him wasn’t a servant from his family. It was not the one who telling him to run away. It was somebody else without any mark of Malikh Family’s emblem. And before he knew it, this particular someone leaped up on the table where he was standing and delivered a punch to the face.
 
-Mister Harrington and Madame Sylvia smiled wryly. Nobody said anything about Yashura Family up until now. The fourth man, Baront Staterwind, came from a very peculiar faction. Which actually had nothing to do with Bhela’s type of talent. Even when he had already came to Badril Village, none would think he accepted Bhela Malikh’s invitation just to scout her talent.
+“Gaaahhh!”
 
-The hall’s door was knocked. Bhela entered. She politely greeted the four respected guests before she sat down.
+Even after Elder Jhamil stumbled down the table he stood on, his assaulter didn’t plan to let him go. And what came after that was a torrent of hardened fist, pummeling his face even though he screamed for mercy. Only when he squealed like a pig people torrent to drag the assaulter away from him.
 
-“I’m sorry for the wait, dear elders. Malikh Family hasn’t prepared the best dishes for you during the ceremony, so I asked the best chef we have to cook special meals for you,” Bhela said, then she glanced at the door. “Please enter, aunty!”
+“Young Master Bonithon… what did you… why did you do this… for what reason?!” Elder Jhamil choked out his grievance.
 
-The moment she called, a middle-aged woman who helped Bhela in the kitchen before came with a line of maidservants, bringing freshly cooked dinner meals with them. It was better than what the Malikhs served for the guests before, even compared to the meals served for the family’s important guests cooked by Bhela as the chief chef.
+Bony, the man who beat the bald elder mercilessly, replied with nothing but a cold stare.
 
-“I rather you serve me some alcohol,” the eastern Sir Kurusiya said to her.
+Instead, it was an almost incoherent voice of Pilek who answered instead. “Kekekek, don’t be angry Elder Baldy! We just discussed how you were a splendid Pugilist a long time ago, so Boss Bony came here to find out whether it was true or not! That’s why he asked you to a barehand duel!” Pilek came in with a swagger and a bottle of booze in his hand. From a single glance anybody could tell he was drunk. “You wouldn’t lose to a duel, won’t you? Boss Bony here is a Knight but he doesn’t even use his sword!”
 
-Bhela nodded at his request and asked the aunty to fetch the best alcohol she could find. Of course, the best person to get help was the elder who provided Bhela with the hall to host her guests. Bhela hoped the said elder already knew the importance of this meeting thus not being stingy with his alcohol collection.
+Elder Jhamil’s lips trembled. What duel? That brat just leaped out of nowhere without saying anything, then immediately beating him black and blue!
 
-“Can we start now, young lady? I don’t have a good alcohol tolerance so I rather get this completed before us adults get to drink,” Madame Sylvia said.
+The only one from the three delinquents who hadn’t had the smell of liquor from his body was Polio. He wore an apologetic smile, and with a slight sigh, he said, “Please forgive them, dear kind Malikh sirs, my friends are terrible when they are drunk.”
 
-“We have delicious food here served, Madame Sylvia. To be honest, all the wait before is for the aunties preparing dinner for dear elders,” Bhela said.
+Polio made a round to apologize to any Malikhs he saw. But the Malikh Family didn’t appreciate his gesture, giving harsh jeerings in return.
 
-But not of the adults believed her words easily.
+Polio was a patient young man, but Pilek wasn’t. The drunk Pilek didn’t take their attitude kindly.
 
-“Hoho, you seem so nervous, young lady. You might not look like it, but you seem about to cry,” Sir Baront Staterwind said.
+He randomly approached a Malikh Family’s servant, pulling his lips ugly, sneering, “Hah? What the fuck are you staring me at, you no-name Malikh servant? Wanna die, eh? Huuuraah!!!”
 
-“Just state what you want from us, don’t waste anymore time,” Sir Kurusiya urged.
+_Shatter!_
 
-Bhela lowered her head. With her lips tremblingly parted, she said, “As you might know, my father fell ill when I was overseas attending the seminar. My mother has contacted many doctors and alchemists to make medicines for him, yet my father’s condition never improved. I request for elders’ wisdom and strength, please help my poor father, he was in misery for months…”
+Without a warning he swung the booze in his hand to a Malikh family servant. The man he attacked stumbled backward holding his bloodied head from the crash Pilek gave him.
 
-Bhela prostated.
+On the other side, Bhela Malikh had just settled greeting foreign guests she invited from outside, and was on her way to fetch cuisines from the kitchen to humor her guests, then she witnessed the chaotic brawl unfold with a crowdful of cheers and jeers mixed in between. Perhaps there were more than a dozen men involved, with the Malikhs servants, guards, common family members even an elder came along to surround Bony and his two underlings.
 
-“Please, help me father… he’s dying… please…” she begged.
+“Young Lady Bhela…” a little maidservant with a crest of Elzhier Family in her uniform bowed to Bhela politely.
 
-Mister Harrington and Madame Sylvia exchanged glances. The peculiar beardy man, Sir Baront, merely nodded without letting his thoughts known. Meanwhile, Sir Kurusiya, who didn’t bulge seeing the pretty girl begging in front of him, coldly said, “Well, this is really a waste of time.”
+Bhela looked at her. She returned the bow even though the other party clearly was a servant. “Miss Elzhier,” she spoke softly.
 
-Hearing the eastern man snorted, Bhela’s heart went cold. She prepared herself bowing down for help, without stating a single offer to prove how desperate herself.
+“No need to be polite to this servant, Young Lady.”
 
-“And, young lady…” Madame Sylvia asked slowly, “what would you do if someone managed to heal your father?”
+“I can’t be impolite to Sister Ryntia’s friends.”
 
-Bhela rose up. She looked straight to Madam Sylvia’s gaze, then said, “Anything,”
+The Elzhier Family maidservant smiled. Since Bhela insisted, then she wouldn’t be bowing her head anymore.
 
-“Anything?”
+She said, “Eldest Young Lady sends me to ask for your forgiveness for her brother’s brashness, Young Lady Bhela.”
 
-“Anything.”
+Bhela looked at the brawl that started in her family’s courtyard. This chaos would spell imperfect on tonight's Malikh Family’s Ngajen Ceremony.
 
-The room went quiet. Only Mister Harrington’s regretful sigh could be heard.
+“There’s no need for that. Since I accepted Young Lady Mila Yashura’s duel, I somewhat anticipated Young Master Bonithon will follow suit to make trouble tonight. If anything, it is me the one who should apologize to Sister Ryntia because I couldn’t handle the situation well. Please send her a letter telling that I’ll try to maintain friendship between Malikh and Elzhier Family.”
 
-It was Sir Baront Staterwind who explained with a good intention, “It really seems you haven’t grasped the situation you were in, young lady. The guest who gave you the gift from before, he’s a young master of a family known as the peerless medicine makers and doctors. If they couldn’t cure your father illness, then I believe no one in this room knows who really can.”
+Still with the serene smile on her face, the Elzhier Family maidservant studied the expression on Bhela’s face. She spoke a moment after, “Then I’ll let Eldest Young Lady Elzhier knows by tomorrow.”
 
-“If I had a petty mind, young lady, I’d kill for the cosmetic you got from them. That’s how valuable their skills are,” Madam Sylvia said as she shook her head in pity.
+“Thanks,” Bhela offered her gratitude with a bow.
 
-Bhela Malikh bit her lips. She was eloquent when she invited these experts months ago. Yet tonight, she had completely became tongue-tied and defeated. The cold air suddenly felt more unbearable. Although the warm meals’ delicious aroma wafted through the hall, not a single person had any incentive to touch their food. Everyone in the hall sunken into silence.
+By this time, the brawl became anything but intensified, as men either from Elzhier Family or thugs that previously had dealings with Bony’s group came in to reinforce the Elzhier young master. Before the Malikhs could pressure the intruders with numbers, but then the completely overwhelmed by the new reinforcement.
 
-“You want my advice, young lady?” the sharp voice of Sir Kurusiya sliced through the awkward atmosphere. He continued, “Having turned your back against Yashura Family is the dumbest decision you did. I didn’t come here because of you. I know your father, and I certainly know that swordsman from Yashura Family more. It’s a pity I couldn’t meet them today. Really, a complete waste miles and miles of journey.”
+“Huurraaahh!” Pilek sent a Malikh man flying with his kick. “Where the fuck your previous cocky taunt? Cat got your tongue, eh?”
 
-With that, Sir Kurusiya, stood up and prepared to leave.
+The only unspoken rules in brawls were strictly no usage of mana and spell as well as no sharp objects to use as weapons. But when the fight was chaotic, nobody could watch everybody, thus the sharpest mind with tricks were the one who prevailed--this is why the likes of Pilek and his friend Polio who always struck in place people wouldn’t be willing the one who were taking the advantage in brawls. Even hunters and seasoned guards were no match against these naughty brats.
 
-Bhela Malikh quickly swallowed her bitterness, also stood up and said, “Please, Elder Kurusiya, let me see you the way out.”
+For example, when Pilek’s punch was blocked by Elder Jhamil’s son, “You shitty brat, just wait till I deal with your father--kuukgghh!”
 
-“No, don’t,” Sir Kurusiya flatly rejected her offer. “Sit down. These three fogies still haven’t decided what they want to do with you. Better think carefully about what you’re going to say to them next.”
+And because no one was watching, Pilek used his knee to strike the cocky young elder in the balls.
 
-The eastern man saw himself out. Following his suggestion, Bhela Malikh sat down again and faced the three experts, with her mind suddenly became as blank as a barren field in the corner of abandoned land. She didn’t know what she ought to say to them, seeing the looks of pity they directed at her. Then, just when she managed to regain her bravery to say something, the door slammed open--
+With a sad whimper from his trembling lips, Elder Jhamil’s son curled onto the ground holding his precious balls that Polio struck.
 
-“I come as the representative of Blackwood Family!” Young Master Frane Blackwood boldly yelled.
+Seeing that a family elder was mercilessly defeated, a few Malikhs came to avenge their young elder. By then, Pilek already had Polio watching over his back.
 
-He swagered himself in along with Elder Jhamil’s son and the adjutant of Blackwood Family under his wings. The arrogant behaviour of this young noble completely disregard the experts in the room. Madame Sylvia had enough. She dissed him, “What are you doing here uninvited?”
+At that point, no Malikhs could match them in hand-in-hand brawl.
 
-Instead of the adjutant who usually spoke for his young master, it was the young elder of Malikh Family, Elder Jhamil’s son who replying. “This madam has eyes but doesn’t know what good for her. Of course Young Master Blackwood is invited! He’s the special guest of Malikh Family after all!”
+A stranger then casually walked in. Pilek stopped, looking at him, and amidst the chaotic scene it took a while for him to find out that the man was actually a foreigner--an eastern Kaya man. The man had a sheathed sword on his hips. But Pilek wasn’t afraid as long as he stick with the rules to only fight unarmed.
 
-“What’s your name, boy?” the middle-aged woman hissed.
+“Huurraaah!”
 
-“I’m Elder Jhamil’s eldest son! What’s up with you, you don’t have the right to know my name!”
+Pilek threw a feint. Most simple Malikhs would fall for this. But the eastern Kaya man didn’t budge. Seemingly to even anticipate it. With a movement too fast for Pilek to follow the man grabbed his wrist, flicked him and sent him into the air like it was nothing.
 
-“Is that it? Very well. It seems just because I respect the southerner custom by dressing commonly you ignorant people already forgot what's best for you. Very well!”
+It was only after Pilek rolled in the mud he realized what had happened.
 
-_Zziiing!_
+The man then glanced aside and walked toward Polio who in his own right was too engrossed with the brawl. With his left hand pushing Polio’s shoulder and the other hand grabbing his wrist, he flipped Polio just like he did Pilek beforehand.
 
-With a flashing draw of metallic sword, Madame Sylvia stood up to give this ignorant young elder a lesson. But her companion Mister Harrington quickly pulled her back before things really blown up.
+Pilek and a few others that the man previously flipped were amazed by how effortlessly the man disabling enthusiastic young men from fighting.
 
-“You brought a weapon with you!” the Elder Jhamil’s son screamed with his finger pointing at Madame Sylvia who already trembling holding back her fury. “Do you not know what’s gonna happen to guests who bring weapons inside their host’s home?”
+The sword handle the man had was wrapped with cloth and its body too thin for regular blades. Those who noticed this would understand that the man wasn’t an ordinary Kaya.
 
-Young Master Blackwood rolled his eyes and told his adjutant, “Send this toad out of here, he’s too noisy!”
+“A Samurai!” Polio exclaimed the moment the Kaya man approached him.
 
-“Right away,” the adjutant said. Then with his bony hands, he pulled the screaming Elder Jhamil’s son forcefully.
+The Kaya man stopped, looking at him, then spoke with a displeased tone, “I am but a masterless ronin.”
 
-“Is the discussion still ongoing?” Frane Blackwood asked the sitting guests as he tightened the blue necktie he wore. He said to Bhela, “Blackwood Family offers a lifetime terms of benefit for you, young lady. Not only medicines, if it boost potion you ask, or equipments, magic items, weapons--you name it, we have all things you’d dare to imagine!”
+Then, still ignoring the sword in his belt, he grabbed Polio and flipped him onto the muddy ground.
 
-“Hoho,” his uninvited offer gave Sir Baront Staterwind a chuckle. The three guests Bhela invited hailed from their own factions, so even if they wanted to rope Bhela in, they would consult with their higher ups about the specific terms they’d give to her as benefits. However, Blackwood Family was, in fact, only a noble family, not an organizational faction, with the only way in was through marriage--so of course the young noble would be able to offer a “lifetime benefits” to her so brazenly.
+Bony was fighting with three men alone, so he couldn’t afford to look around. He didn’t realize the Kaya man at first, but when the man tried to grab the wild young master’s wrist, Bony reacted--he reacted by throwing a punch to the man’s face.
 
-“Thank you for holding back your anger, Madame Sylvia,” Bhela completely bowed her head to the angry guest while she completely disregarded Young Master Blackwood’s offers.
+The man slapped his flying fist from the side, tremendously muffled its momentum. Again, he tried to grab Bony’s wrist and his shoulder. Bony tried resisting but the man’s speed was too fast for him to compete.
 
-Madame Sylvia nodded. She then looked at Young Master Blackwood and snorted. “Young lady, think carefully about what we said before. Some incapable people only able to spout honey trap to get what they want. Don’t be foolish because your father’s situation.”
+As the man prepared to flip him, Bony felt a faint gush of the wind from his legs. It didn’t take him a second to realize the man just putting his hand on his shoulder as a feint--his real target was to gently nudge his foot on rooting from the ground, which, if he’d focus his effort to get his shoulder free from the man’s grasp, a small window of opening that could be used by his opponent to disrupt his sense of balance. Thus Bony firmly stomped his feet to the ground instead. He grabbed the man’s sleeve to make his opponent not be able to easily throw like Pilek and Polio.
 
-“Thank you for the advice…”
+Responding to Bony’s choice, the man curled the corner of his lips. Bony caught a hint of taunt when he staring the man in the eyes.
 
-Young Master Blackwood wanted to argue with this lady. But he also held himself back as he didn’t know the other party’s identity. Therefore, all he could do was haughtily smiling elegantly as a proper noble as he was.
+“Kkuuuggghh!”
 
-“Has the discussion already started?” Frane Blackwood asked again. Pity him, not even one interested in answering. Because of that his face became red as he fumed with anger.
+Bony prevented himself getting throwed around like a sack. But instead he got struck in the gut.
 
-“Ah,” Sir Baront Staterwind looked outside the window and slapped his thigh, “look how late it is! I planned to sleep early because I have something I need to do tomorrow early in the morning!”
+What happened afterward was Bony got his feet swept and he completely lost his ground, and got cheered by his friends as the last man who got thrown into the mud.
 
-Bhela Malikh quickly offered to see him till the gate.
+Bony then sat there looking as the fight stopped; since someone took him down, more and less the Malikhs had won the brawl.
 
-“Hoho, how about you two?” Sir Baront asked the last two foreign experts, the pair of middle-aged man and woman, “overstaying your visit is considering a burden to these good Mossack folks, don’t you think so?”
+“Aren’t you Thoqek’s son?” the Kaya man asked Bony.
 
-“I’m but an ignorant western lady, I know little about the way of the southern people, so please don’t mind us being shameless,” Madame Sylvia said. She then looked at Bhela, “Young Lady Bhela, Mister Harrington and I apparently haven’t booked our place in the village’s inns. We don’t know our talks would turned out dragged this late. For this I have to beg you to let us stay in Malikh Family for a few good days.”
+Bony wasn’t willing to open his mouth when his father’s name got mentioned.
 
-“Hoho…” Sir Baront Staterwind chuckled as he looked at the poker face pair of experts. Wasn’t the four of them--including Sir Kurusiya, checked in the same inn this afternoon? It was clear Madame Sylvia and Mister Harrington had their own intentions, thus Sir Baront Staterwind shrugged the idea of exposing their little white lies.
+Receiving no answer, the man thus carelessly said, “Unexpectedly, you’ve got more guts than your father. Get up now, and stop making trouble in Ghalim Malikh’s home.”
 
-And with that, Bhela Malikh led the three expert guests she invited out of the room. Young Master Blackwood, who was ignored so hard she almost exploded, yelling, “Young Lady Bhela!”
+The young ruffians with Bony as the leader couldn’t act arrogant anymore. They retreated, and the Malikhs didn’t dare taunt them the second time in case Bony would change his mind and started on a rampage again. In the end, the real reason for why did Bony come targeting Malikh Family, nobody would ever know.
 
-Bhela turned around. “Yes, Young Master Blackwood?”
+After Bony and others were gone, Elder Jhamil showed his nose out of his hiding place. He gritted his teeth. He swore he’d use his full resource to get back from Bony’s father in the next village council meeting.
 
-“How about me?”
+“Elder Jhamil, you still haven’t announced the thing I ask you to do,” from behind, the sullen young noble Frane Blackwood said to him.
 
-Bhela Malikh blinked. Then she picked a bowl of roasted peanuts and approached him, saying softly, “Please sit down and enjoy this snack. I need to attend to my guests.”
+“Y-young Master Blackwood, please spare me--the mood isn’t that good to draw people’s attention after that kid crashing our Ngajen Ceremony just now. How about I brief it to other village leaders tomorrow in the village council meeting?”
 
-Hearing her soft, yet slightly cold voice, Young Lady Blackwood the understood something that made him excited, so excited he obediently sat down and nimbled on the roasted peanuts the beautiful Young Lady Bhela gave him.
+“No, I want everyone to know it by tonight. This is the right time and the right place to announce it. Besides, I want to see what kind of a young man the one who’s supposed to be my rival.”
 
-Then after Bhela brought the guests out, the Blackwood Family adjutant who was waiting outside came in inside the hall.
+Elder Jhamil didn’t want to show his beaten face to the crowd tonight. But as much as he love his face he knew flattery wouldn’t get him out of this situation--at least not if he didn’t want to offend the young noble. And so with a heavy face he climbed the table once again, hiding off his reluctancy.
 
-“What are you doing?!” Young Master Blackwood hissed.
+Someone heartily made a joke on him, “Elder Jhamil, we thought you’re a man who care about face the most--I don’t expect you to boldly show how handsome you’ve become now!”
 
-The adjutant gawked. “Young master, I’m here to serve you…”
+“Kids nowadays getting big headed by their privileges as young masters--naturally I’ll let their fathers know how to discipline their brats!” Elder Jhamil coldly said. “Anyway, you all know that my Young Lady Bhela is a girl with talent and her future is boundless. Here in Malikh Family we’re not willing to throw our princess to cow’s dunk that is Yashura Family’s trash young master. And our friend Young Noble Frane Blackwood also thinks the same!”
 
-“Serve me?” the young master cringed. What a joke! Soon he’d have a time being alone with Young Lady Bhela, and this old man wanted to be here right when he had the chance of his lifetime? What if there--during the discussion--was an accident where he had to be responsible as a man? Would he be happy if the adjutant was here when that happened?
+Such passionate speech, naturally people were cheering in anticipation of the next spectacle they thought they were going to witness.
 
-Absolutely not!
+Getting the cue from Elder Jhamil, Frane Blackwood came forward with a swagger. “I speak this as a close friend of Young Lady Bhela Malikh. Someone with the name of Shira Yashura; if you think you’re worthy of her, do you dare to prove it by having a duel with me?!”
 
-“Get out! Don’t dawdle around here tonight! I need to discuss an important manner with Young Lady Bhela secretly!”
+The crowd was silent. They were waiting for the reply.
 
-“Y-young master--”
+Frane Blackwood swept the crowd with his eyes.
 
-“What are you waiting for! Go back to the inn and don’t bother me till the next morning!”
+Someone said to him the boy he challenged was utter trash. He was amused guessing how this trash would respond to his duel challenge, especially when Bhela Malikh had just completely defeated the cheeky young lady from his family.
 
-The adjutant naturally understood what was inside the young master’s mind. He didn’t dare to linger around. With careful steps, he closed the door and went back to the inn Blackwood Family checked in.
+There were already murmurs spreading. People were also curious whether Shira was going to accept or run away from it.
 
-In the meantime, Young Master Blackwood was so excited he couldn’t sit calmly alone in the hall. The thought of having private discussion with a girl as pretty as Bhela Malikh made him thinking a lot of things. Slowly, he getting horny.
+And then…
 
-“What is taking her so long?” he mumbled to himself after waiting a fruitless thirty minutes. “Is it maybe she needs to… prepare, herself?”
+“_Cough, cough…_” someone awkwardly stepped forward with a wry smile plastered on his face. People recognized his face, which looked like a monkey, and many of them had seen him together with Shira Yashura.
 
-If it was going to be her first time, of course she needed time to prepare herself, Young Master Blackwood thought. This young noble had “befriend” and participating in “private discussions” with many experienced women. But virgin girls, he never tasted any.
+He was Monkey. He said, “This young noble… about your proposed duel… I’m afraid Young Master Shira Yashura can’t answer it tonight.”
 
-Because of that, he willing to wait however much longer for the young lady to prepare herself. And thus, after waiting for another thirty minutes, nothing happened. Nothing happened for the next hour as well. Then, after waiting for nearly three hours alone, the door finally opened…
+Frane Blackwood laughed. “Why? He’s scared? His cousin challenged Young Lady Bhela to a duel for no apparent reason; don’t tell me we can do the same to them?”
 
-“Young Lady Bhela, you finally ready!” Young Master Blackwood snapped out of his sleepy face and excitedly came to greet the visitor. Much to his disappointment, the visitor turned out to be the faithful adjutant.
+“No, it’s not that.”
 
-“Why is that you?!” Young Master Blackwood roared.
+Elder Jhamil pointed his finger at Monkey. “We all know Shira Yashura is a trash who can’t even advance to Level 4 Novice! Young Master Frane Blackwood is kind. Tonight, he’s going to give Shira one chance to admit that he’s unworthy of Young Lady Bhela Malikh to the crowd here. He does that, and there will be no need for Young Master Frane Blackwood to embarrass him by kicking his ass!”
 
-“Y-young master… let’s get back to the inn,” the adjutant nervously asked.
+“Yes, yes, but he can’t give you an answer tonight,” Monkey insisted.
 
-“Where’s Young Lady Bhela?”
+Now it was Elder Jhamil who laughed. “He’s really scared facing Young Master Frane right now?!”
 
-“She is in her room…”
+“No…”
 
-“Then you send someone there to ask her when she’s going to meet me,” the young noble ordered.
+“Then why?”
 
-“I’m afraid I can’t… young master…”
+Monkey sighed.
 
-“I’ve been waiting for hours, why?”
+“Because he’s already gone home!”
 
-The adjutant gulped before he replied.
+Elder Jhamil was furious. The whole point he had to gather people even though his face had been beaten by Bony was to call out the boy and embarrass him in public, as per the young noble request. But the said person himself already went home, so Elder Jhamil standing on top of the table was for nothing.
 
-“Because the young lady has already gone sleeping since three hours ago!”
+Immediately he ordered a servant to send the message to Yashura Family, while in between, cursing the fact that he didn’t get the chance to distract the guests from discussing the previous brawl. Sure enough, not only the people were talking about Bhela Malikh’s hidden Unique Class, they were also talking about Bony, and people he beat to pulp, especially Elder Jhamil. People no longer cared to gossip about Young Lady Mila Yashura who had been sent home defeated, but they laughed at someone present who had just his misfortune like Elder Jhamil instead.
 
-So much for his dreamy private discussion! Young Master Blackwood was so angry for being misled that he slapped the adjutant’s face all the way back to his inn.
+Elder Jhamil had lost his face in the end. Literally and metaphorically.
+
+On the other hand, with a solemn expression Monkey looked at his partner Snake who was enjoying the banquet and had amused himself watching the spectacle previously.
+
+Monkey said with a whisper, “Why the hell your family doesn’t show his face when they dumping shit to Young Master and Young Lady Yashura just now?!”
+
+Snake glanced at him lazily. “I don’t know. They said they were going to diagnose Patriarch Ghalim Malikh previously.”
+
+“Can’t you just fetch your brother instead? Didn’t you put your words to assure young master before this? What if he thinks we’re people who put our words lightly?”
+
+“The one who’s diagnosing the patriarch is my grandfather, my brother supposed to be free enough to be a busybody just now,” Snake said, displeased by Monkey’s tone accusing him of being unloyal to his own word.
+
+In a room where Patriarch Ghalim Malikh rested on his sickbed, Grandpa Piss and Snotty both had swirled black liquid-filled flasks in their hands. They had deep frown on their face. Even after drawing Ghalim Malikh’s blood for the forth time, they still didn’t come to the conclusion for the the patriarch’s illness diagnosis.
+
+More exactly, they didn’t dare to.
+
+Sitting on the corner of the room, the pale Madam Malikh, bit her bottom lips, asked with griviance filled her voice, “My husband was poisoned, wasn’t he?”
+
+She stared at Snotty, the one who looked awkward and had a hint of guilt in his face, because before Grandpa Piss wasn’t really willing to give her a definite answer even to the simplest question. Snotty, feeling stuck between two hard places, could only glance at his grandfather; the answer to the madam’s question wasn’t something he could afford to mess with.
+
+Grandpa Piss felt his grandson’s difficulty. So instead with a kind grandfather’s smile plastered on his face, he replied, “Don’t worry, Madam Malikh, Patriarch is merely had problem is his diet. He got an allergy to some food he ate few days prior to his ill. Just make him drink this and let him hydrated all the time, he’ll be back in two weeks time.”
+
+Madam Malikh lowered her head. The more Grandpa Piss smiled and the more Snotty tried to follow suit with the awkward smile of his, the more they looked like quack doctors. This only made Madam Malikh felt indignant in her heart and tried to reason herself from throwing these two fakes out from Malikh Family.
 
 ---
 
-A single torch on a stick stubbornly lit the corner of the village in spite of the strong wind. A howling wolf in the distance reinforced the lone, cold sense of the midnight Badril Village. The only shop that still open at this hours could be counted with one hand, and this liquor shop was one of them. No customer visited it except a foreign eastern Kaya man.
+Four people sat on the bamboo mats covered floor. They were Bhela Malikh’s personal guests, and were invited by her to a secluded place far away from the courtyard which was still in chaos due to Bony and his cronies crashing the ceremony.
 
-A series of step could be heard. The sleepy shopkeeper snapped back when he heard a new customer approaching.
+The kitchen aunties--not the usual young maid servants--came asking them for the sort of refreshment they’d like to be served with.
 
-“Give me a glass of _tuak_, shopkeeper,” the new customer ordered with a booming voice. One could see his beardy feature when his face exposed to the shop’s lantern light. “Mind if I join you, Sir Kurusiya?”
+Half of the guests Bhela invited here were raised in families ridden with political intricacies. Seeing the lack of proper maidservants in order, more or less they could guess the relationship Bhela Malikh had with the people who currently ruled the Malikh Family.
 
-The eastern man didn’t reply. He drank his alcohol instead.
+“Still,” the middle-aged woman said after a sip of ginger drink, “I wouldn’t have expected the girl’s talent to be that rare when she approached my sect with the invitation. The top brass were only interested in her being the top grade during the seminars. That is the only reason they let me leave my post for this trip. How about you, Mister Harrington?”
 
-Sir Baront Staterwind laughed by his cold treatment. The beardy guy was an easygoing person, so he casually grabbed a bowl of steamed peanuts and started to nibble on those snacks.
+She glanced at her travelling partner. But the middle-aged man, Harrington, who was already monopolizing the lantern, stuck himself in the corner as he wrote fervently in his worn-out journal.
 
-“You’re not visiting Bhela’s father? You said you know him, you know, saying hi to a sick old buddy?”
+“Forget it, I shouldn’t ask,” the middle-aged woman rolled her eyes. She glanced at the two other guests, whom she hadn’t acquainted, personally. “What about you two, gentlemen?”
 
-“I don’t say hi to a dying man,” Sir Kurusiya said.
+“Quite interesting! This village is!” the bearded red-haired man replied with a laugh. “It’s not everyday you two girls fight it out in some catfights girls are used to having. These lasses are very much different from the noble young ladies you see in the city! This village’s sure quite something, hoho.”
 
-The answer made the air awkward. So Sir Baront quickly came with another topic.
+The man talked with a boomed voice and merry tone, probably because he was under the influence of tuaq, an alcoholic drink concocted by locals. He raised at the bottle of tuaq Malikh Family had, he drunk a lot of it but still he lamented, “Their tuaq isn’t that impressive though.”
 
-“It seems those two lovers adamant to protect the girl,” he said, referring to the other two experts who once were couple before Mister Harrington lost Madame Sylvia to another guy. “Or I think they just want some privacy to have some little reunion… who knows?”
+The Kaya swordsman who kicked Bony and others out was sitting beside him. He glanced lazily and said, “You don’t get to drink good tuaq in Malikh Family. Elzhier and Yashura made better tuaq, but Yashuras only serve their in-house brewed tuaq only to their close friends, and you’ve got to have some use to Elzhier Family if you want bottles of tuaq from them.”
 
-Sir Kurusiya never bothered with petty gossip, he callously replied, “They don’t know Malikh Family. They can’t protect her forever.”
+The middle-aged woman looked at the eastern man. That was the most words she heard from his since tonight.
 
-“Exactly,” Sir Baront Staterwind agreed. After that both men continued drinking without saying anything.
+“Is this not your first time here, Mister Kurusiya?” she asked.
 
-“Hey shopkeeper,” Sir Baront called, “don’t you have anything with less alcohol? I have a business I’d like to deal with tomorrow, so I want to avoid shitty hangover.”
+The Kaya man named Kurusiya glanced at the woman. He didn’t like it when people probed into him, especially ambiguous with a smile speaking as if nothing happened, thus he coldly spoke, “I drank their tuaq before.”
 
-“I have some sweet _tuak_,” the shopkeeper poured a new bottle into Sir Baront’s empty glass, “this one usually for them boys who haven’t gone coming of age ceremony. No alcohol, costs as little as four copper kobe coins.”
+The bearded man got interested and asked, “Oho? Which families’ tuaq you’ve drunk?”
 
-“Four coppers, ah! Why’s that the souther I go the cheaper the drink?” he sipped it, “mm! Pretty good, my good man!”
+“The three of them.”
 
-He tipped the shopkeeper with a silver coin. The shopkeeper was dumbfounded but quickly recovered and hid the coin safely.
+Someone knocked the door indicating they’d want to interrupt their dialogues. Bhela, leading the kitchen duty aunties, came in bringing the serving meals for the guests. In usual Mossack private festive people ate cross-legged on bamboo-woven mats and put the food on the floor, often on top of clay plates--but, if the host prepared enough, they came with cleaned fresh banana leaves and spread the rice, chicken curry, half-cut cured salted eggs, fresh vegetables and so on and so forth on top of the leaves which often left the impression of authentic feast for first time tourists. In spite of that, the middle-aged woman and her travelling partner had a more pressing matter in mind, and Kurusiya didn’t care about the meal; which then left the bearded man to wolf down the food though he ate a proper meal recently during the Ngajen Ceremony feast. The feast upon the banana leaves was basically he ate himself.
 
-Sir Kurusiya said to Sir Baront, “You want to go to Yashura Family tomorrow?”
+“So it’s true,” the bearded man pondered, speaking while getting his bare hand dirty eating the food at the same time, “special guests got special meals during this so-called Ngajen Ceremony.” He looked at Bhela, this girl he hadn’t much interaction with during the seminars because he was an instructor for a different field than archery. He didn’t even recall he had a proper conversation with the girl. But the girl took the role along with other kitchen aunties that came with her as the server, pouring water into the glass, thus the man acted friendly nonetheless. “Back in the ceremony I heard you took the role as Chief Chef, so I assume you cook this yourself?”
 
-“How did you know?”
+“Yes. The aunties also prepared rendang braised since before the Ngajen Ceremony started,” Bhela said.
 
-“Even though I can’t see him, I know the one who repelled Bhela’s arrow was a Nalaq,” Sir Kurusiya said.
+“Oho, rendang, finally!”
 
-“Hoho, since I managed to rope in the young lady of Yurin Family, I’ve got promoted to an instructor,” Sir Baront smiled widely. “Doing the legwork isn’t my job anymore… but checking him and the boy won’t hurt, so I’m going. Hmm, I wonder if the Nalaq has already form his contract?”
+As the host Bhela was quietly pleased with the man’s enthusiasm. “Please do try our stewed carp, Sir Baront Staterwind. It cooked with my mother’s maternal family’s secret recipe.”
 
-“Huuh…” the shopkeeper, who had been hearing their chatting, couldn’t help but asked, “you good sir, what’s this talking about a Nalaq having to do with Yashura Family?”
+“Secret recipe? Interesting!”
 
-“Oh, you’re a Yashura?” Sir Baront asked.
+The bearded man Bhela referred to as Sir Baront Staterwind was excited trying Malikh Family’s cooking. Actually, he barely had something to do with the matter that brought the two other guests--the middle-aged woman and her travelling partner--to come to Badril Village. But the year’s brightest seminar student invited him to, and he happened to a big fan of travelling across Mossack cultures and cuisines. Thus, here he was.
 
-“I’m Elzhier, from the outer family,” the shopkeeper said. “I’ve been in this village for forty years, but never I’ve heard any Nalaq passing by.”
+“Girl,” the middle-aged woman curtly criticized from the side, “amongst my students I adore you and I know you like to do things independently--but to lower yourself to do maid’s chore is too much for seminar alumni.”
 
-“Hoho, that’s why I’m going. Usually a rogue Nalaq isn’t someone tied with a faction, so they aren’t that big of deal--which also make them easier to rope in!”
+Bhela looked at her and softly said, “Please don’t take offense for this, Madame Sylvia. It is our custom for the woman of the house to serve the important guests of the house.”
 
-“Ooohh! Are you a Nalaq expert, mister? From overseas? Our family’s eldest young lady actually was scouted by a passing expert from overseas too, an expert from purple something sect!”
+Eastern swordsman Kurusiya, who began annoyed with the glutton bearded man beside him, correcting Bhela, “Madam of the house would be required to serve her husband’s important friends that are coming to the house--that’s the original Mossack custom you’re talking about.”
 
-“Hoho, you mean Purple Garden Sect?” Sir Baront Staterwind and asked as he played along.
+Bhela looked at the eastern Kaya man, though was talking about a custom not of his own people, had a tone of criticizing her. She didn’t take it to the heart. “You are right, Mister. I’m sorry for my ignorance.”
 
-But Sir Kurusiya was sceptic. “Purple Garden Sect is too far. And someone from that kind of superpower faction won’t be too idle to accidentally passing by on this kind of rural village.”
+The middle-aged man who was busy writing before slammed his journal to the floor. “That’s not important,” he said. “Bhela Malikh, I’m your elemental affinity instructor during the seminars, but you never told me about your four elemental affinity. What’s the meaning of this?!”
 
-Sir Baront nodded at Sir Kurusiya’s logic. Even if it was that particular sect that accepted the said young lady, both experts wouldn’t be too sure about whether she could be the sect’s legitimate disciple. Their doubts made the shopkeeper embarrassed. Since ten years ago, the tales of the eldest young lady of Elzhier Family being accepted by a foreign expert was a legend amongst Badril Village locals. Except her and the recent Malikh Family’s young lady, no one in the village was lucky got scouted to study oversea, so it became a fact that Elzhier Family was very proud of--and was one of the reasons why the Elzhier could win the village head’s seat from Yashura Family after their decades of leading Badril Village. But the problem was, in the letters their young lady sent home, she always talked about shops, fashions, and some other trivial stuffs that usually young women her age excited about. That made even her father, the current Elzhier Family’s patriarch and the Village Head, felt it was became difficult to still boasting the young lady’s status after ten years of her spending overseas.
+This question Bhela had prepared for an answer before.
 
-“But still, experts, you might not know this, but our eldest young lady was Young Lady of Malikh Family’s closest childhood friend! When Young Lady Bhela Malikh only a little girl our young lady gave her a lot of pointers and knowledge, so much that I assure that if it wasn’t for her being there for Young Lady Bhela, the Malikh Family wouldn’t get their talented Unique Class for at least the next one hundred years!”
+“My friend I considered as a sister told me not to reveal it in the seminars, Mister Harrington.”
 
-“Right…” Sir Baront became awkward instantly. To think some ignorant folks believed blessing of Unique Classes was that simple, even Sir Kurusiya scoffed at the idea.
+“And you trust your friend more than your teachers?”
 
-The shopkeeper’s face became red as he realized it was wise not to delay any longer. So he quickly said, “If you have some spare time, sir experts, I’m sure our Elzhier Family willing to entertain you!”
+“Yes,” she said, as a matter of fact. The girl wasn’t afraid of the eyes of these elders staring at her.
 
-After paying for their drinks, even the agreeable Sir Baront Staterwind felt it was very awkward for him to return to this little shop. Both decided not to get themselves involved with Elzhier Family after the shopkeeper’s little salesman talks, whilst not knowing the inn they stayed inn owned by Elzhier Family.
+“You….”
 
-On the way back, Sir Baront asked Sir Kurusiya for advice.
+“Apologize, Mister Harrington. It's just that my current talent is a rather sensitive issue and some people would go a long way to make me join their faction. I invited three of the most suitable factions I think the most suited for me to continue developing my talent in.”
 
-“Yo, Kurusiya, I’m going to accept the Yashura boy as my third disciple if the Nalaq’s pretty good. But, you know, the Nalaq who contracted with youngest disciple is a master thirteen thousands years ago. She was a heavy weight figure, so I reckon I’ll let her calls the shot. What’s your opinion on this?”
+Bhela didn’t say that somehow, because of her relationship with the Young Lady of Blackwood Family, her secret was leaked earlier than she intended and more or less resulted in tonight’s noise during the ceremony.
 
-“How powerful is this Nalaq you’re talking about?”
+“Three of us?” The middle-aged woman, Madame Sylvia, curtly smiled as she glanced at the uninvited fourth person.
 
-Sir Baront grinned. “You know the legend about Seven Pillars of Tiramikal Continent? She’s the Frost Mage mentioned in that history. Pretty neat, huh? She was able to revive as Nalaq and regained her consciousness five years ago. All the big shots in my Blue Robe Society can’t wait for the girl she’s contracted with to formally accepted into our faction.”
+Kurusiya knew what her glances meant. He put down the glass of tea he currently drank, said, “I’m not in business in the girl’s future study, I’m here to visit my Ghalim Malikh.”
 
-“If that’s the case then your disciple isn’t necesserily worse than Malikh’s four elemental Archer girl.”
+“Are you friends of my father, Mister Kurusiya?”
 
-“So you know why I can’t accept the boy if he’s too crude--I can’t afford to offend this madam Nalaq even the slightest bit.” he took out a bag of roasted peanuts he bought from the shopkeeper, and started to nibble on them. “I’m going to write a letter to my disciples, they’ve been playing around in the neighboring village. This madam Nalaq will come and check the boy herself.”
+“Friend? No. Ghalim, Jhuju, and others are just some rebellious brats to me.”
 
-Sir Kurusiya abruptly stopped his steps.
+Listening to Kurusiya’s apathetic tone, Bhela blinked her eyes. Her father was nearly forty, but the Kaya man sitting before her looked the same of her father’s age--probably younger. Besides the greying hairs people would think this eastern swordsman was at most thirty.
 
-“You want my advice?” he looked straight at Sir Baront’s eyes. “My advice is simple. You’re going to make this madam Nalaq of yours polite and you’re going to beg her to be mindful of her attitude in front of Yashura Family.”
+Kurusiya continued, “I’m here waiting until they finish diagnosing your father. This fellow here drags me because he doesn’t know anyone to accompany him to feast more than he should.”
 
-“You’re joking? You serious?”
+Baront Staterwind nodded then immediately went back enjoying the food.
 
-“I’m always serious,” Sir Kurusiya said.
+“If you’re waiting for Old Doctor to diagnose my father, Mister Kurusiya, he’s already done. You can visit my father now.”
 
----
+Grandpa Piss and Snotty came to diagnose the ill Patriarch Ghalim Malikh. Hearing they were done, Kurusiya preparing to leave. Inwardly, Madame Sylvia and Mister Harrington were delighted that their competitor was lessened by one.
 
-Patriarch of Yashura Family, Shuro Yashura, was exhilarated to see Grandpa Piss and Snotty came to visit the village. One part because he treasured the friendships between their family and Grandpa Piss’s relatives, but mainly, he got to show-off his latest coconut cake recipe.
+Kurusiya caught the gloat on these foreigners’ eyes, though their lips smiling in friendly manner. He was never fond of those who harbored hidden designs. So before he walked out of the room, the man turned his head, casually throwing a question out of nowhere, “Girl, what is your relationship with Ryntia Elzhier?”
 
-“Ah, this is life, drinking _tuak_ when we’re watching the moon, getting drunk while we’re eating coconuts. What a life!” Patriarch Shuro mumbled.
+Madame Sylvia and Mister Harrington immediately became alert. They came from the west, and they didn’t expect a name they heard often mentioned casually in this room.
 
-“What a life indeed,” Grandpa Piss nodded with a low chuckle. On the sky, the full moon was shining bright really beautiful.
+Bhela was also confused. Nevertheless she replied, “Ryntia Elzhier is my friend. She admitted to a sect in the far west ten years ago, but we regularly keep in touch through letters.”
 
-After he’d done his part in ngajen ceremony, Patriarch Shuro Yashura accompanied the old Alchemist and his grandson in a spacious veranda, where they ate coconut cakes and drinking \_tuak \_while spending time moongazing. They had the Yashura Family’s sole butler, Yulong, to hold the \_tuak \_bottle and refilled their cups when empty.
+Though her words were light, Bhela saw the expression on Madame Sylvia and Mister Harrington became restrained. The girl raised her brows thinking her words must be wrong somewhere.
 
-“Grandpa Piss, why didn’t you tell us beforehand before you visit Badril Village? We ran out of _rendang_ before even the ceremony ended, so I’m sorry if you couldn’t eat _rendang_!”
+But then Kurusiya asked again, “Then did she give you a favor when she helped get you admitted into those two years seminars?”
 
-“Hoho, we already ate chicken curry in Malikh Family, you don’t have to prepare food for us,” Grandpa Piss said.
+Madame Sylvias’s and Mister Harrington’s expression changed again. Bhela finally aware the Kaya man felt annoyed and deliberately sowing doubts for the other guests.
 
-“How about breakfast? Are we still have leftover chickens, Yulong?”
+“It’s just a favor between friends. Us girls from the same village naturally Sister Elzhier would lend her arms whenever she could,” Bhela quickly said. Before anyone could say anything, she stood up and offered to walk Mister Kurusiya out. “Please, Mister, I’ll show you the way to my father’s room.”
 
-“We still have some leftover grilled village chicken, I’ll talk with the kitchen to reheat two portion first thing in the morning,” Yulong said.
+After Bhela accompanied the man to her father’s place, the room descended into silence. The middle-aged woman Madame Sylvia and her travelling partner retreated into their own train of thought. Sir Baront Staterwind, on the other hand, wasn’t bothered enough with it since he didn’t come from the west like the other two, and his superiors actually weren’t expecting for him to recruit the girl since they didn’t employ that many archers nor wizards in their faction.
 
-The Yashura Family’s patriarch was a role model of the stereotype Mossack people. He loved to cook and loved even more to feed people. It was no wonder why southern Mossacks’ visitors always felt welcomed whenever they visited the southern lands.
+Unexpectedly, when Sir Baront Staterwind reached out for a glass of spring water, he heard the aunties that came with Bhela whispered in the corner. “Isn’t that dog supposed to be at least fifty years old? How come his face looked so young?”
 
-“I sent them to bring _rendang_ to Malikh Family, I never expected something like that to happen, hah!” Patriarch Shuro shook his head with a weak smile plastered on his face. During their talk, Grandpa Piss mentioned they met with Shira and Mila, as well mentioned the duel that happened between the two families’ young ladies and the upcoming duel between Shira and the young noble from Blackwood Family. “Whatever, if jerks wanted to fight with us, we won’t back down. Yashura Family never a coward!”
+“I don’t know, why ask me?” whispered the other aunty. “Previous Patriarch Yashura’s people always been the weird ones.”
 
-“I believe Young Master Shira knows what he has to do,” Grandpa Piss assured.
+Baront Staterwind became interested in the aunties’ gossip.
 
-“I hope so, pity his father never around to hold the sky falling for him,” Patriarch Shuro gulped his _tuak_. “Anyway, let’s talk about something else. That Ghalim, you checked on him, Grandpa? What’s happened to him?”
+“This lady,” he said, “is the previous young lady who fought Bhela came from Yashura Family you’re talking about just now?”
 
-Snotty a little scared when Shuro Yashura suddenly brought up that topic. Snotty glanced at Butler Yulong’s wrinkled face, Yulong smiled back at him. The big muscle man couldn’t help but shuddered inside.
+Two aunties didn’t expect the esteemed guests would talk to them. “Yes, it is mister.”
 
-“Patriarch Ghalim isn’t feeling well after eating some unhygienic food. I already prescribed some medicine for him, but I don’t know when he’d be able to get back at being patriarch since his digestive system was never good.”
+“What’s that Kaya man has to do with them?”
 
-“Ah, is that so? Never knew he had something like that,” Patriarch Shuro mumbled. “There’s this really bad rumor about him being poisoned, Grandpa Piss, we never had something wicked like that in Badril Village.”
+One aunty replied, “He didn’t tell you, mister? Kurusiya is Yashura Family’s guard captain from the previous generation. Young Lady Bhela doesn’t know, but everyone from the previous generation knows about him. They say, that man killed a lot of people under the previous Patriarch Yashura’s order. But we never left our village so we never know the truth of this matter.”
 
-“No, no no no, I can assure you, it’s not poison. I’ve been in the business more than seventy years--it’s _not_ a poison.”
+“Lots of them he killed,” another one added with a nod. “After the previous Patriarch Yashura was gone he retired from his position. After that he wandered outside like a vagabond. Last time people talking about him he spent his retirement teaching his swordsmanship to previous Patriarch Yashura’s son, Jhuro Yashura.”
 
-Grandpa Piss helped Yashura Family a lot when the patriarch’s in-law, Jhuro’s wife, had Shira in her belly. So Patriarch Shuro had long esteemed Grandpa Piss’s medicinal skill, even though he didn’t really had any idea how skillful the friendly old man was. He believed Grandpa Piss in the end.
+Sir Baront Staterwind knew that man had a lot of blood on his hand even if these aunties didn’t tell him. Probably more than them. Since both of them travelled toward Badril Village, they decided to share the same carriage as to split the cart rental. Although they were acquaintances, they weren’t close enough for Sir Baront Staterwind to know Kurusiya’s past.
 
-“We shouldn’t talk about sad things, Patriarch. Here, I bought a _tuak_ my family handmade ourself. Let’s give it a try,” Grandpa Piss said.
+What Sir Baront didn’t expect the man’s had history with this barely known village.
 
-“Please, let me,” Butler Yulong asked the _tuak_ bottle Grandpa Piss took out and poured it evenly to Patriarch Shuro’s, Grandpa Piss’s, along with Snotty’s glasses.
+“Yashura Family is powerful, but nowadays we call them Toothless Yashuras for a reason,” seeing that the guest was interested in their story, the aunties excitedly gossipped, “current Patriarch Yashura’s a cook--people like them but compared to his brother Jhuro Yashura and his father the previous patriarch he doesn’t worth that much. And the next one, their heir, aiiisshh… how should I say this? He’s rather... untalented.”
 
-The second thing Patriarch Shuro loved, after coconuts, was a strong _tuak_. He was the first one to gulp his glass clean, and he sighed about how good Grandpa Piss’s family _tuak_ craft was. However, soon after that, his eyes somehow became heavy.
+The other aunty quipped with a regrettable face. “It’s our Malikh Family’s bad fortune for our excellent young lady to get entangled with that declined family.”
 
-“Huhh… usually, I still can drink till dawn…” Patriarch Shuro said with a yawn. “Let’s drink together… come on, Snotty, come drink with Uncle Shuro more.”
+Hearing this Sir Baront Staterwind was smiling. He washed his hand from spring water provided in a wooden bowl, then he said amiably, “I saw a boy came forward after Bhela’s duel ended. Is this Yashura Family’s heir the one who picked up Young Lady Yashura?”
 
-“Patriarch, I think you are tired,” Yulong said softly, rejecting to pour patriarch’s glass.
+“That’s the one! It’s Young Master Yashura, mister. He isn’t even looked that handsome for Young Lady Bhela, is he?”
 
-“Snotty, you go accompany Uncle Shuro inside,” Grandpa Piss said.
+Sir Baront Staterwind was polite, he just nodded to accomodate these gossipy aunties. Inside he remembered what he saw during the short duel between Bhela and Yashura’s Young Lady, and he remembered how Bhela’s magic arrows vanished before they hit her opponents.
 
-Snotty nodded while still holding his glass full of _tuak_. The liquor was definitely mixed with something. Considering it was his grandfather who presented it, it was amazing to see Patriarch Shuro Yashura to be able to resist the urge to sleepiness. Snotty stood up and brought the yawning Shuro Yashura away.
+He picked a fresh fruit to nibble and hummed. While the other two guests Madame Sylvia and Mister Harrington were thinking about their chances to recruit Bhela into their faction, Sir Baront Staterwind, the third guest Bhela personally invited from the two years seminars, already looked the other side of the pasture. He decided to pay Yashura Family a visit tomorrow.
 
-After both of them gone, Yulong picked up a clean glass. He poured the liquor that made Patriarch Shuro sleepy and drank it for himself. Grandpa Piss took out his second bottle and accompanied Yulong drinking _tuak_.
+In the meantime, on the other side of Malikh Family resident.
 
-“Is there’s something you need to discuss with me?” Yulong asked.
+Bhela walked the eastern man to her father’s room. The place was devoid of servants as always, only a pair of grandpa and his grandson hung out just outside the room, nibbling steamed peanuts while idly watching the moon.
 
-“Indeed, it’s about Ghalim Malikh’s real condition…” Grandpa Piss didn’t leave any details when he told the Butler Yulong what had really happened in Malikh Family, particularly his discovery about the true nature of poison that made Patriarch Ghalim bedridden.
+“Oh, Kurusiya, you came,” the old Grandpa Piss was beamed with smile when he saw the Kaya man approached them with sword hanging on his waist. It was bad manner to get close to people with weapons, sheated or not. But Grandpa Piss and Snotty was happy to invite Kurusiya to eat steamed peanuts with them. Bhela on the other hand went in to ask whether her mother needed anything. Kurusiya wasn’t polite like he was with the previous guests and picked a few peanuts as soon as he sat.
 
-When he heard that shocking fact, there was no surprise in the butler’s old face. Only sorrow and regret.
+“You want to see Ghalim,” Grandpa Piss said, “I suggest you don’t.”
 
-“I knew this would happened,” Yulong sighed.
+Snotty added from the side, “Madam Malikh hates us to the bone. She even swore us when we told her Old Madam was the one who sent us.” the muscle man was nervous, drenched in cold sweat. “It’s really lucky no one beside us heard what she said about Old Madam was, I guess Uncle Ghalim never really told his family about Old Madam. He’d never tell them how scary his grandmother can be.”
 
-“Then there’s Blackwood Family too…” Grandpa Piss’s sigh followed. “They seems interested in taking away Young Lady Bhela as a bride… I really don’t know what to say…”
+Kurusiya followed the pair’s advice. Madam Malikh’s maiden family lived in the neighbor village about two days walking in the north, so he wasn’t familiar with Ghalim’s wife that much.
 
-Yulong drank the _tuak_ and told Grandpa Piss his reasoning, “That boy from Blackwood Family still hasn’t accepted Sir Jhuro’s decission to retire sixteen years ago. He’s been keeping quiet because he knew even the royalty and the organization behind him couldn’t protect him from Old Sir Lharu’s and Old Madam Sari’s retrubution. Time’s change. I reckon there’s some change somewhere that make him cocky.”
+“What happened?” he asked.
 
-“Old Sir and Old Madam too far away to give help in case something like this happens suddenly. Should I help you and Sir Jhuro keeping tabs on Blackwood Family?” Grandpa Piss asked.
+Grandpa Piss told his story. The grandfather and grandson diagnosed Patriarch Ghalim Malikh was simply had a weak digestive system. Madam Malikh wasn’t convinced, and she politely told them to scram as far as possible. But how could the famous Medicine King and his heir ran away just because a madam dissed them? Therefore, Grandpa Piss and Snotty would create an excuse to stay in Malikh Family in case something happened, at least for tonight they’d stay overnight. Both Snotty and Grandpa Piss talked a lot but they didn’t really answer Kurusiya’s concern; for them to be forced to play quack doctors, there ought to be something going on.
 
-While Jhuro Yashura left behind resources and men outside before he retired, he almost never interacted with the high society of nobility. For ears and eyes to reach those fancy places, it would take time and efforts for current Yulong and Shuro Yashura to do so. It was way better to ask Grandpa Piss who already familiar due to his family’s generations of Alchemist profession. However, Yulong rejected the offer without giving it a real thought.
+Therefore Kurusiya leaned on closer, asked, “Tell me, Grandpa Piss, what was the thing that took down Ghalim?”
 
-“You don’t need to worry. Blackwood Family only taking a ride of that boy’s ambition. If he really supports his foster family right from the start, Blackwood won’t be stuck with their viscount nobility rank.”
+Grandpa Piss’s face that previously beaming turned expressionless. “I can’t tell you yet, let’s wait hearing what Yulong has to say.”
 
-Grandpa Piss wanted to offer any more help, but he long sensed the old butler’s distrust of him on affairs that didn’t include medicines and elixirs. So he kept his mouth shut for the time being.
+Kurusiya reacted with his eyebrows knitted. Grandpa Piss might have to ask the old master’s and old madam’s opinions on big matters, but he supposed to not needing answer to Yulong.
 
-Not long after that, a golden owl landed on the veranda where the two old men enjoyed their _tuak_. The own brought a small piece of paper and inked quill with it.
+Snotty knew what the Kaya man had in mind. He said, “Let’s just wait, Uncle Kurusiya. Honestly Grandpa and I rather not get our own family entangled in this matter.”
 
-“Go, send this message to Sir Jhuro, as fast as possible!” Butler Yulong said to the owl after he wrote his tiny letter. Then he glanced at Grandpa Piss and said, “this is an owl I keep around in case there’s an emergency. Sir Jhuro also brought one with him.”
+Then Grandpa Piss told Kurusiya they already sent words to both Yulong in Malikh Family and old Madam Malikh, Ghalim’s grandmother. Old Madam Malikh sent Grandpa Piss and Snotty to check her grandson’s condition, while Yulong priorly informed Jhuro Yashura to send Kurusiya back to the village dealing on the matter.
 
-Grandpa Piss nodded with a painful smile. This golden owl was long thought to be extinct, but the reality there were small amounts of them were being kept in case of emergencies. They were rare, almost becoming birds of legend. Small to medium sized kingdoms wouldn’t dare to think getting their hands on it, not to mention Grandpa Piss’s own family. But this old butler had one with him. And the prodigial man of Yashura Family casually brought this treasure bird with him to travel around the southern land.
+Since Old Madam Malikh’s live on the other side of the continent, words might delayed a few days, so they only waited for Yulong’s response instead.
 
-“This is really for emergency,” Yulong said coldly, knowing full well the old Alchemist’s envy.
+And thus, they waited, an owl flew above their head and landed.
 
-“I know, I know--for emergency.”
+With an iron clipping Grandpa Piss picked the hidden letter from the owl’s throat. He read and then he put down the letter and let the owl flew away.
 
-The owl then flew away bringing Yulong’s letter.
+He looked at Kurusiya, Kurusiya leaned to listen.
 
-Grandpa Piss and Snotty returned back to their own village the next morning. After sending them away, Yulong found out the young master, Shira Yashura, wanted to go to the market to pick some goods for his contracted pedlers to sell. He was worried the young master’s inexperience getting him exploited. Therefore, he waited in the gate and followed the boy from behind.
-
-In front of an inn owned by Elzhier Family, Yulong saw a familiar eastern Kaya man came out with a respectable, but humble Mossack man behind him. The Kaya man, Sir Kurusiya, noticed Yulong, immediately cupped his fist and bowed his body. That was a salute of great respect eastern Kaya men usually give to people they regard highly. Sir Baront Staterwind didn’t know what was going on, so he imitated his companion to salute Yulong even though he didn’t really know he was only a butler.
-
-“You know them, Yulong?” Shira asked.
-
-“The Kaya man once works in the same place as your father, young master.”
-
-“Oh, that’s why you know him.” Yulong was his mother helper, and his father brought him along to Yashura Family when Shira still in his mother’s belly. Shira never liked to listen about his father’s past, even though it was often glorified since he was completely stopped marauding bandits from approaching Badril Village. Walking toward the market, Shira kept quiet and didn’t ask the matter any further.
-
----
-
-Far away from Badril Village, the golden owl Yulong tasked with the emergency letter flew through walls of mist and mountains. It instinctively knew the location of its recipient, Jhuro Yashura, even though Yulong wasn’t necesserarily knew where he was. Not even a half day passed by since the bird took off from Yashura Family, it flew already more than halfway toward its destination.
-
-Its speed was unprecendeted amongst the magical beast. No wonder commonfolks thought it was the bird of the legend. It was a shame that it failed to detect a single flash on the horizon, resulting it to succumb to a terrible fate.
-
-_Flap flap flap!_
-
-The owl futilely tried to avoid danger.
-
-A single flash all it took to capture the dumbfounded owl. A pair of cold talons gripped its short neck and the next thing it knew, the owl panically flapping its wings in search of oxygen, only to be deprived of fresh air even more. The owl couldn’t see the beast, it only saw a dashingly crimson flash before it was captured by the neck. The hostile beast scretched, only after that the owl realized a damned predator eagle already got it. Annoyed by the owl’s desperate struggle, the eagle broke its neck. The handsome crimson-colored eagle then delivered the dead owl to a mysterious masked man, who then passed it to another man--a pale, thin man who only dressed himself as black as the phantom itself.
-
-“This owl coming out from Yashura Family, Mister Blackwood. The bird brings a letter with it,” the masked man said as he presented the letter to the pale man.
-
-“Ah, so they figured it out about the poison,” the pale man with Blackwood surname said. Beside him and the masked man, there was a third man who drained the blood of the golden owl, prepared a little feast of its dead body. The man was very peculiar; bald, with veined oversized muscles that looked like it was almost exploded, and the strange tatooes that covered its body. He was a northern barbarian, the kind that never took orders from civilized men no matter they came from the west, south, or the east. Yet, when the Blackwood guy told him top plucking the dead owl, he obidiently put aside the carcass, not daring to show any hints of disatisfaction.
-
-“Mister, the young lady of Malikh Family turns out to be a four-elemental Unique Class, she’s a real talent with tremendous potential--your sister tries to take her to Blackwood Family and having a setback because there’s some experts happened to visit Malikh Family. Shall we send anymore resources to help her?”
-
-“What’s her Blackwood Family have to do with me? It’s already good enough I let her to use my name to coerce people and strengthen her influence in commerce world. She’s getting annoying every time she’s using my toys. That Jhuju’s poison I sent to her only a reminder to Ghalim of our old friendship, my sister should be thankful enough if she gets some benefits from it.”
-
-The masked man knew the pale man was irritated by his sister’s cockiness. So he excused himself and brought the crimson eagle with him, disappearing into the shadow.
-
-“We’ve rested enough,” the pale man said as he crumbled the small letter he read. The bald barbarian’s head cocked and he await the order. “Prepare the horses,” the man continued, “I’ve got an old friend I should say hi to.”
+“Yulong said to let you deal it as needed, so I’d just tell you what really happened to Ghalim; he was poisoned,” Grandpa Piss said solemnly, “by Jhuro Yashura’s poison.”
 
 ---

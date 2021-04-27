@@ -19,7 +19,7 @@ The hunter spun a sharp dagger, holding it by the tip of its blade, having a ges
 
 He’d rather not, to be honest, since splitting a goat’s gut could be messy if he did it crudely. Even if he was the young master of the family, when messing with the raw meat, not even his uncle could save him from the aunties’ nagging. Shira Yashura was nearly sixteen, almost reaching adulthood, so he had to participate in butchering goats; it was a quite tasking task, but was easy enough compared to butchering cows he had to do in a few years. But for the fifteen years old young master, getting the hang of the butchering knife’s handle was plenty of experience already for him.
 
-<novel-trivia>
+<novel-trivia label="trivia">
 
 As the custom dictates, every month in ngajen ceremony preparation, the boys will have to deal with cows and goats while the girls help aunties plucking chickens’ and ducks’ feathers. Whether the gatekeepers' children or the family’s next heirs, all of them are required to do it every time a major ceremony approaches.
 
@@ -27,29 +27,29 @@ As the custom dictates, every month in ngajen ceremony preparation, the boys wil
 
 After doing his part in butchering a goat Shira immediately took a bath to remove the bloody pungent. On a whim he then strolled to the kitchen to grab some snacks. There he witnessed how all the coconuts he and his uncle shred already transformed into delicious foods; rendang, Bulayak satay, coconut satay, spicy curry, many other mouth drolling coconut cuisines. The coconut loving uncle was all smiles and gave him a big portion of the famous beef cuisine the locals called rendang--which, normally, even for a young master like Shira would get to eat rendang once every few months. But with enough wit and experience in currying favor with his uncle, he got to taste those delicious food handed down by his uncle, the Chief Chef, personally.
 
-“Shira my boy,” Patriarch Shuro said to his nephew who was squatting below the shadow of a thick pillar, happily munching on his rendang, “you’re going to visit Malikh Family tonight. Keep a good check on your cousin. Don’t embarrass Yashura Family and present our rendang\_ \_for their main family.”
+“Shira my boy,” Patriarch Shuro said to his nephew who was squatting below the shadow of a thick pillar, happily munching on his rendang, “you’re going to visit Malikh Family tonight. Keep a good check on your cousin. Don’t embarrass Yashura Family and present our rendang for their main family.”
 
 “Sure.”
 
 ---
 
-<novel-trivia>
+Laughters and chatters made the night more merry than any other thay of the month. It was brighter than usual, as villagers came out of their house to set up big braziers to light the road between the families that were holding festives. From one hundred meters away, through the thick wall of the big families, the mouth-watering aroma of prepared food wafted through the air as if they informally invited people to come and to taste the delicacy these big families had. The change in scenery upon the arrival of the night signaled the nigh of Ngajen Ceremony.
+
+<novel-trivia novel="trivia">
 
 Domesticated cows were less in numbers than goats in Badril Village, so meals from cows, not including the innards which could be made into popular but cheap cuisines, like only served for village big shots or important visitors during the ngajen ceremony.
 
 </novel-trivia>
 
-Laughters and chatters made the night more merry than any other thay of the month. It was brighter than usual, as villagers came out of their house to set up big braziers to light the road between the families that were holding festives. From one hundred meters away, through the thick wall of the big families, the mouth-watering aroma of prepared food wafted through the air as if they informally invited people to come and to taste the delicacy these big families had. The change in scenery upon the arrival of the night signaled the nigh of Ngajen Ceremony.
-
-Yashura Family, the oldest family around, was known to have the best food amongst all families in Badril Village, while Elzhier Family known as the family that always threw the biggest party post-ceremony--Elzhier Family’s maidservants were beautiful and they’d show off their voluptuous bodies every single ngajen ceremony. Particularly this month however, everyone was anticipating the ceremony thrown by Malikh Family; for two years since the young lady’s absence they threw nothing more than mediocre festivities, her return was to be seen as their revival on the village’s political stage. And from how big their arrangement looked like, it seemed Malikh Family didn’t plan to fail everyone’s expectations.
+Yashura Family, the oldest family around, was known to have the best food amongst all families in Badril Village, while Elzhier Family known as the family that always threw the biggest party post-ceremony--Elzhier Family’s maidservants were beautiful and they’d show off their voluptuous bodies every single ngajen ceremony. Particularly this month however, everyone was anticipating the ceremony thrown by Malikh Family; for two years since the young lady’s absence they threw nothing more than mediocre arrangements, and her return was to be seen as their revival on the village’s political stage. From how extravagant their approach in dealing with festive and catering contractors was, it seemed Malikh Family didn’t plan to fail everyone’s expectations.
 
 Shira Yashura wore the same suit he got from his uncle on his fifteenth birthday. It was the usual suit he’d wear whenever a ceremony was held. His uncle bought it from a merchant who had connections outside the kingdom, which was pretty good since the fabric wasn’t stiff, but could get unbearably itchy in places he didn’t want to scratch whenever there were people around. The obvious part missing from the wears his peers were wearing was beast pelts.
 
-Pelts from ferocious beasts were known for irrefutable proof for boys’ courage and manliness. As many young gentlemen of Badril Village wore on their necks, always looking for the opportunity to show off the trophy of their preys to girls--which translated as fashionable fads for boys who wanted to get laids.
+Pelts from ferocious beasts were known for irrefutable proof for boys’ courage and manliness. As many young gentlemen of Badril Village wore on their necks, always looking for the opportunity to show off the trophy of their preys to girls--which translated as fashionable fads for boys, very popular for those who wanted to get laids.
 
 Of course, Shira, as part of the dull and no-nonsense camp of the boys in Badril Village, never had participated in that kind of indecent business. He was so dull that the only girl who would accompany him to attend ceremonies was his cousin Mila--who, even though her face was quite pretty, also happened to be in terrible luck for romance.
 
-“No matter how many times I see it, it’s always impressive to see how fast you wrap all these banana leaves,” Shira commented as he watched how Mila wrapped rendang with banana leaves. She was very good at it, comparable to the aunties’ skills that had been forged day and night in the family’s kitchen.
+“No matter how many times I see it, it’s always impressive to see how fast you wrap all these banana leaves,” Shira commented as he watched how Mila wrapped rendang with banana leaves. She was very good at it, comparable to the aunties’ skills that had been forged day and night in the family’s kitchen. It seemed no matter how tomboy his cousin was being a housewife was her biggest talent after all.
 
 “You talking? You’ve done your training with the family's sword technique, I assume?” Mila said with her lips pouted. Shira thought it was unusual for Mila didn’t nag her mouth off immediately when she saw him. He saw a sword wrapped in cloth near Mila. His face immediately twisted in a troubled look.
 
@@ -57,13 +57,13 @@ Of course, Shira, as part of the dull and no-nonsense camp of the boys in Badril
 
 “You--” Mila hissed.
 
-“What should I do with a sword inside another family’s ceremony?” Shira said. The sword was his father’s, and that was his reason he didn’t want to use it. “Look, I can only draw the blade from the sheath at most. Without a proper amount of Strength attribute I can’t swing this properly. It rejects my mana. I’d make a fool out of myself if that happened.”
+“What should I do with a sword inside another family’s ceremony?” Shira shook his head. The sword was his father’s, and that was his reason he didn’t want to use it. “Look, I can only draw the blade from the sheath at most. Without a proper amount of Strength attribute I can’t swing this properly. It rejects my mana. I’d make a fool out of myself if that happened.”
 
 “That’s because you were stupidly increasing your Wisdom instead of, that’s why you--arghh! Just forget about it! I know you’re trying to make excuses! Since you’re so weak all we can do is flaunting around your father’s reputation. We’ve got to remind people that our Yashura Family’s not to mess with. Here, just slip this fucking sword in your belt.”
 
-“Ah, this is embarrassing. Those rumors are about to get worse tonight,” Shira said with a sigh. His reputation as a trash talent was annoying enough, added this shameless act of throwing his weight around, he’d become more reluctant to show his face in the public later on. But still he unwillingly slipped the sword in his belt.
+“Ah, this is embarrassing. Those rumors are about to get worse tonight,” Shira said with a sigh. His reputation as a trash talent was annoying enough, added this shameless act of throwing his weight around, he’d become more reluctant to show his face in the public later on. But refusing her now he’d never know what the girl would do, so he unwillingly did what she said.
 
-Mila snorted. She ignored the complaint. Right now she could care less about the rumors about her cousin. What she had to prioritize tonight was the bad premonition she had about Bhela Malikh’s short hair--nobody believed her when she said that Bhela was being a slut for cutting her hair short in spite of her being in an engagement. While her hands craftly knotted the rendang wrapped in banana leaves with a rope made with dried coconut leaves, she suddenly had a cold smile; the image of those impudent Malikhs shuddering under the famous sword of Yashura Family’s Unique Class, Jhuro Yashura the Blackfang Swordsman, entertained her she began to chuckle coldly.
+Mila didn’t care what Shira had in mind. While her hands finishing the wrap of the rendang, she thought of Malikh Family, suddenly a sneer appeared on her face; the image of those impudent Malikhs shuddering under the famous sword of Yashura Family’s Unique Class, Jhuro Yashura the Blackfang Swordsman, entertained her she began to chuckle coldly.
 
 “Huhuhu… just you wait you bitch…”
 
@@ -471,7 +471,7 @@ Grandpa Piss nodded with an amiable smile. “Of course. Been twelve years since
 
 ---
 
-<novel-trivia>
+<novel-trivia label="trivia">
 
 The nickname of “Grandpa Piss” stuck on Grandmaster Alchemist’s name for twelve years. When a friend of his asked the origin of this horrible nickname, the Grandmaster laughed it off and said a princess of his old friend’s family started calling him that, because her cousin who was still a three years old brat urinated on him every time the Grandmaster tried to hug him.
 

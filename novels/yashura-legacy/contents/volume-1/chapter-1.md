@@ -30,11 +30,15 @@ The spirit scoffed.
 
 “This won’t do, Ol’ Nalaq. The peddlers that come around here rarely accept strange currency. Neighbor country’s money is usually fine but I don’t think these coins would do. I don’t even know which country these coins are from.”
 
+“You don’t like it?”
+
+“Well, at least it got roaring lion mark like Yashura Family’s emblem. They even looked the same.”
+
 “Then use it to add your savings,” the spirit said. “And don’t call me Nalaq. Don’t push your primitive tribal nonsense to me. Call me ‘Good-Natured Spirit’ as usual. I’m not like your usual Nalaqs, brat.”
 
-“It’s not tribal.” The boy didn’t show any sign of agreement. He didn’t know why this roguish-grinning spirit didn’t like to be called a Nalaq. The way southern Mossack people, like the boy himself, addressed spirits were usually by two terms: Nalaq and Selaq. As far as he knew Nalaq was a title worth to be proud of.
+“It’s not tribal.” The boy said. He didn’t know why this roguish-grinning spirit didn’t like to be called a Nalaq. The way southern Mossack people, like the boy himself, addressed spirits were usually by two terms: Nalaq and Selaq. As far as he knew Nalaq was a title worth to be proud of.
 
-<novel-trivia label=”Lore”>
+<novel-trivia label="lore">
 
 Nalaq were those of the spirit of fallen heroes and mages, had attained high-level of enlightenment to see ways to preserve souls across death. Whilst no longer to be alive, Nalaqs own their consciousness and retain their memories as well intelligence, though part of their original power diminished, especially those who relied on physical might during their prime.
 
@@ -48,13 +52,13 @@ Theoretically the spirit that currently playing chess was a Nalaq. He still got 
 
 “No, I was thinking just the usual--I was wondering about your very existence and your real identity.”
 
-“That so?” the spirit raised his chin. “Don’t need overthinking it, boy. Hehe. If you know even a piece of my name then you’d be amazed by how amazing I am. Everybody is my bitch when I’m still your age back then, hehe. That’s true.”
+“That so?” the spirit raised his chin. “Don’t need overthinking it, boy. Hehe. If you know even a piece of my name then you’d be amazed by how amazing I am. Back when I was still your age, everybody is my bitch. Heh, true story.”
 
 “Hooohhh…” the boy half-heartedly nodded. As expected, every time he brought the topic about the spirit’s identity, all he got was empty talks, disgusting enough for him to regret for bringing up the topic. For now, the only joyous thing he got to do was counting the money he won from the chess game as the bullshit Good-Natured Spirit sang about his past tuning endlessly in the background.
 
 ---
 
-Somewhere in Tiramikal Continent, far in the opposite side of the cold, barbaric northern lands, not too isolated from the bustling early-capitalistic empires of the western lands, and not too far away from the neighbor eastern lands of never-ending warfares between the eastern Kaya feudal lords, a village known as Badril Village was living peaceful for a number of years. The old blood the locals knew as Badril Village’s three big families rooted deeply these past one hundred years in spite of the thinning southern Mossack heritage. Despite slowly developing their rural village worthy of the westerner tourists and easterners refugees, the southern locals still taking pride in their Mossack hunters and gatherers ancestry. Exactly one year ago Good-Natured Spirit appeared in this humble village.󠆞
+Somewhere in Tiramikal Continent, far in the opposite side of the cold, barbaric northern lands, not too isolated from the empires of the western lands, and not too far away from the neighbor eastern lands of never-ending warfares between the eastern Kaya feudal lords, a village known as Badril Village was living peaceful in the south of the continent for a many years. The old blood the locals knew as Badril Village’s three big families rooted deeply these past one hundred years in spite of the thinning southern Mossack heritage. Exactly one year ago Good-Natured Spirit appeared in this humble village.󠆞
 
 On the wall of Yashura Family’s courtyard, which was ridiculously thick and tall for ordinary villages, the spirit took out a rolled paper of dried tobacco. This might not be common knowledge known only to limited people; for converting earthly materials to spiritual goods for Nalaqs to use, it could only be done in an expensive and complicated manner--usually performed in rituals by the royalties and great ancient clans for annual offerings to their ancestors. But the spirit in shabby leather armor did the converting for cigarettes and other trivial goods. Nobody knew how he did it. Even if they did, it’d be very hard to judge whether his quirk was worth to be admired or to be ridiculed at. Nevertheless he got this kind of air around him that telling people he didn’t care much about what they think.
 
