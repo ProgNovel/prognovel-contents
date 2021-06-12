@@ -72,7 +72,7 @@ export async function parseMarkdown(
     let frontmatter: FrontMatter;
     let lastModified = fs.statSync(file).mtime.getTime();
     const index = file.split("chapter-")[1].slice(0, -3);
-    const book = file.split("contents\\")[1].split("\\chapter")[0];
+    const book = file.split("contents/")[1].split("/chapter")[0];
     const name = `${book}/chapter-${index}`;
     const cacheLastModified = cache?.[file]?.lastModified || 0;
     let calculatedRevenueShare: RevenueShare = {};

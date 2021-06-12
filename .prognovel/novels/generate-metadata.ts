@@ -16,6 +16,8 @@ import { cacheFiles, novelFiles, publishFiles } from "../_files";
 
 export async function generateMetadata(novels: string[]) {
   const firstNovel = novels[0];
+
+  //@ts-expect-error
   const folders = await globby("novels/*", { onlyDirectories: true, unique: true });
   // console.log("Detecting folders:", folders);
   return Promise.all(
@@ -57,19 +59,15 @@ async function compileChapter(folder: string, images, novel: string) {
     const t0 = performance.now();
 
     benchmark.glob.start = performance.now();
-    const files = await glob(`novels/${novel}/contents/**/*.md`, { filesOnly: true });
+    const files = await (
+      await glob(`novels/${novel}/contents/**/*.md`, { filesOnly: true })
+    ).map((path: string) => path.replace(/\\/g, "/"));
+    console.log(files);
     benchmark.glob.end = performance.now();
 
     benchmark.markdown.start = performance.now();
-    let {
-      content,
-      chapters,
-      chapterTitles,
-      contributions,
-      unregisteredContributors,
-      unchangedFiles,
-      cache,
-    } = await parseMarkdown(novel, files, { hash: false });
+    let { content, chapters, chapterTitles, contributions, unregisteredContributors, unchangedFiles, cache } =
+      await parseMarkdown(novel, files, { hash: false });
     benchmark.markdown.end = performance.now();
     // console.log(cache);
 
