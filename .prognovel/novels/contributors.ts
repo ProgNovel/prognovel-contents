@@ -2,7 +2,7 @@ import chalk from "chalk";
 import { existsSync, mkdirSync, writeFileSync, readFileSync } from "fs";
 import { findBestMatch } from "string-similarity/src/index";
 import { cacheFiles } from "../_files";
-import type { UnregisterContributor, TypoUnregisteredContributor } from "../novels/types";
+import type { UnregisterContributor, TypoUnregisteredContributor, RevShareNovelMetadata } from "../novels/types";
 
 export const contributors = {
   pool: new Map(),
@@ -39,10 +39,15 @@ export function addContributor(novel: string, contributor: string) {
   contributors[novel] = (contributors[novel] || []).push(contributor);
 }
 
-export function calculateContributors(novel, contributions): string[] {
+export function calculateContributors(novel, contributions): RevShareNovelMetadata[] {
   // console.log(contributors.get(novel));
   return Object.keys(contributions).map((contributor) => {
-    return `${contributors.get(novel)[contributor]}#${contributions[contributor]}`;
+    return {
+      name: contributor,
+      weight: contributions[contributor],
+      paymentPointer: `${contributors.get(novel)[contributor]}`,
+      webfundingPaymentPointer: `${contributors.get(novel)[contributor]}#${contributions[contributor]}`,
+    } 
   });
 }
 

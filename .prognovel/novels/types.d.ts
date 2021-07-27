@@ -24,3 +24,10 @@ export interface FrontMatter {
   attributes: object;
   body: string;
 }
+
+export interface RevShareNovelMetadata {
+  name: string;
+  weight: string | number;
+  paymentPointer: string;
+  webfundingPaymentPointer?: string;
+}

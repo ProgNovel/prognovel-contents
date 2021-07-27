@@ -2,7 +2,6 @@ import fs from "fs";
 import yaml from "js-yaml";
 import chalk from "chalk";
 import md from "marked";
-import globby from "globby";
 import glob from "tiny-glob";
 import { performance } from "perf_hooks";
 import { checkValidBookFolder, ensurePublishDirectoryExist } from "../utils/check-valid-book-folder";
@@ -13,12 +12,13 @@ import { contributors, calculateContributors } from "./contributors";
 import brotli from "brotli";
 import { outputMessage, benchmark } from "./metadata/logging";
 import { cacheFiles, novelFiles, publishFiles } from "../_files";
+import { lstatSync } from "fs";
 
 export async function generateMetadata(novels: string[]) {
   const firstNovel = novels[0];
 
-  //@ts-expect-error
-  const folders = await globby("novels/*", { onlyDirectories: true, unique: true });
+  const folders = (await glob("novels/*")).filter(folder => lstatSync(folder).isDirectory());
+  console.log(folders)
   // console.log("Detecting folders:", folders);
   return Promise.all(
     folders.map(async (folder) => {
@@ -73,6 +73,7 @@ async function compileChapter(folder: string, images, novel: string) {
 
     benchmark.rev_share.start = performance.now();
     const rev_share = calculateContributors(novel, contributions);
+    console.log(contributions)
     benchmark.rev_share.end = performance.now();
 
     benchmark.sorting_chapters.start = performance.now();

@@ -8,7 +8,7 @@ import { publishFiles, siteFiles } from "../_files";
 export function generateSiteSettings() {
   let settings;
   try {
-    settings = yaml.safeLoad(fs.readFileSync(siteFiles().settings));
+    settings = yaml.load(fs.readFileSync(siteFiles().settings));
   } catch (_) {
     errorSiteSettingsNotFound();
   }
