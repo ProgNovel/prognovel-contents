@@ -44,7 +44,7 @@
     "meow": "^10.1.0",
     "polka": "^0.5.2",
     "sharp": "^0.28.3",
-    "string-similarity": "^4.0.3",
+    "string-similarity": "^4.0.4",
     "tiny-glob": "^0.2.6",
     "wasm-frontmatter": "^1.0.0",
     "yargs": "^15.4.1"
