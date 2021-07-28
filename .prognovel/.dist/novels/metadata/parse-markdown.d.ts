@@ -4,6 +4,7 @@ interface Options {
 }
 interface Cache {
     [novel: string]: CacheValue;
+    assignedRoles: any;
 }
 interface CacheValue {
     body: string;

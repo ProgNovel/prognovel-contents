@@ -11,6 +11,7 @@ export declare const contributionRoles: {
     set(roles: string[]): void;
     get(): any;
     assignRole(contributor: string, role: string): void;
+    setAssignedRolesForNovel(novel: string): void;
 };
 export declare const revSharePerChapter: {
     rev_share: {};

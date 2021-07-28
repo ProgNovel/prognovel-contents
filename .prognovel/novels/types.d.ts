@@ -30,4 +30,5 @@ export interface RevShareNovelMetadata {
   weight: string | number;
   paymentPointer: string;
   webfundingPaymentPointer?: string;
+  roles: string[]
 }

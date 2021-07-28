@@ -8,7 +8,7 @@ import { checkValidBookFolder, ensurePublishDirectoryExist } from "../utils/chec
 import { generateBookCover } from "./generate-cover";
 import sort from "alphanum-sort";
 import { parseMarkdown } from "./metadata/parse-markdown";
-import { contributors, calculateContributors } from "./contributors";
+import { contributors, calculateContributors, contributionRoles } from "./contributors";
 import brotli from "brotli";
 import { outputMessage, benchmark } from "./metadata/logging";
 import { cacheFiles, novelFiles, publishFiles } from "../_files";
@@ -64,6 +64,7 @@ async function compileChapter(folder: string, images, novel: string) {
     benchmark.glob.end = performance.now();
 
     benchmark.markdown.start = performance.now();
+    contributionRoles.setAssignedRolesForNovel(novel)
     let { content, chapters, chapterTitles, contributions, unregisteredContributors, unchangedFiles, cache } =
       await parseMarkdown(novel, files, { hash: false });
     benchmark.markdown.end = performance.now();

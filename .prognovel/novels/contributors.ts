@@ -25,10 +25,17 @@ export const contributionRoles = {
   get() {
     return this.roles;
   },
+  // TODO - allow role unassign after a change in the markdown
   assignRole (contributor: string, role: string) {
     this.contributorAssignedRoles[contributor] = Array.from(
       new Set([...(this.contributorAssignedRoles[contributor] || []), role])
     )
+  },
+  setAssignedRolesForNovel(novel: string) {
+    try {
+      this.contributorAssignedRoles = 
+        (JSON.parse(readFileSync(`.cache/${novel}.json`, 'utf-8'))).assignedRoles
+      }catch(err){}
   }
 };
 export const revSharePerChapter = {

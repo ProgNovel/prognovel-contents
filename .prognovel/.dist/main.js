@@ -14452,6 +14452,11 @@ var contributionRoles = {
   },
   assignRole: function assignRole(contributor, role) {
     this.contributorAssignedRoles[contributor] = Array.from(new Set([].concat(_toConsumableArray(this.contributorAssignedRoles[contributor] || []), [role])));
+  },
+  setAssignedRolesForNovel: function setAssignedRolesForNovel(novel) {
+    try {
+      this.contributorAssignedRoles = JSON.parse(fs.readFileSync(".cache/".concat(novel, ".json"), 'utf-8')).assignedRoles;
+    } catch (err) {}
   }
 };
 var revSharePerChapter = {
@@ -14674,6 +14679,7 @@ function _parseMarkdown() {
                         cache[file].data = frontmatter.attributes;
                         cache[file].body = ie(frontmatter.body);
                         cache[file].unregistered = unregistered;
+                        cache.assignedRoles = contributionRoles.contributorAssignedRoles;
                       } else {
                         // console.log("Get from cache for", file);
                         calculatedRevenueShare = cache[file].contributions;
@@ -15090,12 +15096,13 @@ function _compileChapter() {
                         files = _context3.sent;
                         benchmark.glob.end = perf_hooks.performance.now();
                         benchmark.markdown.start = perf_hooks.performance.now();
-                        _context3.next = 11;
+                        contributionRoles.setAssignedRolesForNovel(novel);
+                        _context3.next = 12;
                         return parseMarkdown(novel, files, {
                           hash: false
                         });
 
-                      case 11:
+                      case 12:
                         _yield$parseMarkdown = _context3.sent;
                         content = _yield$parseMarkdown.content;
                         chapters = _yield$parseMarkdown.chapters;
@@ -15155,7 +15162,7 @@ function _compileChapter() {
                         });
                         resolve(meta);
 
-                      case 38:
+                      case 39:
                       case "end":
                         return _context3.stop();
                     }

@@ -15,6 +15,7 @@ interface Options {
 
 interface Cache {
   [novel: string]: CacheValue;
+  assignedRoles: any
 }
 
 interface CacheValue {
@@ -111,6 +112,7 @@ export async function parseMarkdown(
       cache[file].data = frontmatter.attributes;
       cache[file].body = markdown.parse(frontmatter.body);
       cache[file].unregistered = unregistered;
+      cache.assignedRoles = contributionRoles.contributorAssignedRoles
     } else {
       // console.log("Get from cache for", file);
       calculatedRevenueShare = cache[file].contributions;
