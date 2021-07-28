@@ -14443,11 +14443,15 @@ var contributors = {
 };
 var contributionRoles = {
   roles: [],
+  contributorAssignedRoles: {},
   set: function set(roles) {
     this.roles = roles;
   },
   get: function get() {
     return this.roles;
+  },
+  assignRole: function assignRole(contributor, role) {
+    this.contributorAssignedRoles[contributor] = Array.from(new Set([].concat(_toConsumableArray(this.contributorAssignedRoles[contributor] || []), [role])));
   }
 };
 var revSharePerChapter = {
@@ -14460,13 +14464,13 @@ var revSharePerChapter = {
   }
 };
 function calculateContributors(novel, contributions) {
-  // console.log(contributors.get(novel));
   return Object.keys(contributions).map(function (contributor) {
     return {
       name: contributor,
       weight: contributions[contributor],
       paymentPointer: "".concat(contributors.get(novel)[contributor]),
-      webfundingPaymentPointer: "".concat(contributors.get(novel)[contributor], "#").concat(contributions[contributor])
+      webfundingPaymentPointer: "".concat(contributors.get(novel)[contributor], "#").concat(contributions[contributor]),
+      roles: contributionRoles.contributorAssignedRoles[contributor]
     };
   });
 }
@@ -14634,17 +14638,18 @@ function _parseMarkdown() {
 
                         try {
                           _loop2 = function _loop2() {
-                            var contribution = _step2.value;
-                            var workers = frontmatter.attributes[contribution];
+                            var role = _step2.value;
+                            var workers = frontmatter.attributes[role];
 
-                            if (workers && revSharePerChapter.get()[contribution]) {
+                            if (workers && revSharePerChapter.get()[role]) {
                               workers.split(",").map(function (name) {
                                 return name.trim();
                               }).filter(function (name) {
                                 return !!name;
                               }).forEach(function (contributor) {
                                 if (Object.keys(contributors.get(novel)).includes(contributor)) {
-                                  calculatedRevenueShare[contributor] = (calculatedRevenueShare[contributor] || 0) + revSharePerChapter.get()[contribution];
+                                  contributionRoles.assignRole(contributor, role);
+                                  calculatedRevenueShare[contributor] = (calculatedRevenueShare[contributor] || 0) + revSharePerChapter.get()[role];
                                 } else {
                                   unregistered.push({
                                     contributor: contributor,
@@ -14985,8 +14990,6 @@ function _generateMetadata() {
             folders = _context2.sent.filter(function (folder) {
               return fs.lstatSync(folder).isDirectory();
             });
-            console.log(folders); // console.log("Detecting folders:", folders);
-
             return _context2.abrupt("return", Promise.all(folders.map( /*#__PURE__*/function () {
               var _ref2 = _asyncToGenerator( /*#__PURE__*/regenerator.mark(function _callee(folder) {
                 var folderName, placeholderRatio, images;
@@ -15042,7 +15045,7 @@ function _generateMetadata() {
               };
             }())));
 
-          case 8:
+          case 7:
           case "end":
             return _context2.stop();
         }
@@ -15085,15 +15088,14 @@ function _compileChapter() {
 
                       case 6:
                         files = _context3.sent;
-                        console.log(files);
                         benchmark.glob.end = perf_hooks.performance.now();
                         benchmark.markdown.start = perf_hooks.performance.now();
-                        _context3.next = 12;
+                        _context3.next = 11;
                         return parseMarkdown(novel, files, {
                           hash: false
                         });
 
-                      case 12:
+                      case 11:
                         _yield$parseMarkdown = _context3.sent;
                         content = _yield$parseMarkdown.content;
                         chapters = _yield$parseMarkdown.chapters;
@@ -15107,7 +15109,6 @@ function _compileChapter() {
                         // console.log(cache);
                         benchmark.rev_share.start = perf_hooks.performance.now();
                         rev_share = calculateContributors(novel, contributions);
-                        console.log(contributions);
                         benchmark.rev_share.end = perf_hooks.performance.now();
                         benchmark.sorting_chapters.start = perf_hooks.performance.now();
                         chapterList = lib(chapters);
@@ -15154,7 +15155,7 @@ function _compileChapter() {
                         });
                         resolve(meta);
 
-                      case 40:
+                      case 38:
                       case "end":
                         return _context3.stop();
                     }

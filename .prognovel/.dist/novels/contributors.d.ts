@@ -7,8 +7,10 @@ export declare const contributors: {
 };
 export declare const contributionRoles: {
     roles: any[];
+    contributorAssignedRoles: {};
     set(roles: string[]): void;
     get(): any;
+    assignRole(contributor: string, role: string): void;
 };
 export declare const revSharePerChapter: {
     rev_share: {};

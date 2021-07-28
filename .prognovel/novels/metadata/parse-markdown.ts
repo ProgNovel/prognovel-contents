@@ -87,17 +87,18 @@ export async function parseMarkdown(
       if (opts?.hash) cache[file].hash = hash;
       frontmatter = fm(fs.readFileSync(file, "utf-8"));
 
-      for (const contribution of contributionRoles.get()) {
-        const workers = frontmatter.attributes[contribution];
-        if (workers && revSharePerChapter.get()[contribution]) {
+      for (const role of contributionRoles.get()) {
+        const workers = frontmatter.attributes[role];
+        if (workers && revSharePerChapter.get()[role]) {
           workers
             .split(",")
             .map((name: string) => name.trim())
             .filter((name: string) => !!name)
             .forEach((contributor: string) => {
               if (Object.keys(contributors.get(novel)).includes(contributor)) {
+                contributionRoles.assignRole(contributor, role)
                 calculatedRevenueShare[contributor] =
-                  (calculatedRevenueShare[contributor] || 0) + revSharePerChapter.get()[contribution];
+                  (calculatedRevenueShare[contributor] || 0) + revSharePerChapter.get()[role];
               } else {
                 unregistered.push({ contributor, where: `${book}/chapter-${index}` });
               }

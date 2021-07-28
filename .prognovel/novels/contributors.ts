@@ -18,12 +18,18 @@ export const contributors = {
 };
 export const contributionRoles = {
   roles: [],
+  contributorAssignedRoles: {},
   set(roles: string[]) {
     this.roles = roles;
   },
   get() {
     return this.roles;
   },
+  assignRole (contributor: string, role: string) {
+    this.contributorAssignedRoles[contributor] = Array.from(
+      new Set([...(this.contributorAssignedRoles[contributor] || []), role])
+    )
+  }
 };
 export const revSharePerChapter = {
   rev_share: {},
@@ -40,13 +46,13 @@ export function addContributor(novel: string, contributor: string) {
 }
 
 export function calculateContributors(novel, contributions): RevShareNovelMetadata[] {
-  // console.log(contributors.get(novel));
   return Object.keys(contributions).map((contributor) => {
     return {
       name: contributor,
       weight: contributions[contributor],
       paymentPointer: `${contributors.get(novel)[contributor]}`,
       webfundingPaymentPointer: `${contributors.get(novel)[contributor]}#${contributions[contributor]}`,
+      roles: contributionRoles.contributorAssignedRoles[contributor]
     } 
   });
 }
