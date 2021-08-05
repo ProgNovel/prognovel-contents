@@ -36,7 +36,7 @@ export function outputMessage({
 }) {
   const logTitle = chalk.bold.blueBright("[" + title + "]:");
   const log = new Log({ marginLeft: 0 });
-  const contributorsNumber = Object.keys(contributors.get(id))?.length;
+  const contributorsNumber = contributors.getNovelContributors(id)?.length;
   const { glob, sorting_chapters, markdown, rev_share, filesystem } = benchmark;
 
   const texts = [

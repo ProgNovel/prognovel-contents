@@ -14432,12 +14432,22 @@ function _objectSpread$2(target) { for (var i = 1; i < arguments.length; i++) { 
 var contributors = {
   pool: new Map(),
   addContributor: function addContributor(novel, contributor) {
-    this.pool[novel] = (this.pool[novel] || []).push(contributor);
+    if (!this.pool[novel]) this.pool[novel] = [];
+    this.pool[novel] = [].concat(_toConsumableArray(this.pool[novel]), [contributor]);
   },
-  bulkAddContributors: function bulkAddContributors(novel, people) {
-    this.pool[novel] = people;
+  bulkAddContributors: function bulkAddContributors(novel, data) {
+    for (var contributor in data) {
+      if (typeof data[contributor] === "string") {
+        data[contributor] = {
+          payment: data[contributor]
+        };
+      }
+
+      data[contributor].name = contributor;
+      this.addContributor(novel, data[contributor]);
+    }
   },
-  get: function get(novel) {
+  getNovelContributors: function getNovelContributors(novel) {
     return this.pool[novel];
   }
 };
@@ -14450,12 +14460,13 @@ var contributionRoles = {
   get: function get() {
     return this.roles;
   },
+  // TODO - allow role unassign after a change in the markdown
   assignRole: function assignRole(contributor, role) {
     this.contributorAssignedRoles[contributor] = Array.from(new Set([].concat(_toConsumableArray(this.contributorAssignedRoles[contributor] || []), [role])));
   },
   setAssignedRolesForNovel: function setAssignedRolesForNovel(novel) {
     try {
-      this.contributorAssignedRoles = JSON.parse(fs.readFileSync(".cache/".concat(novel, ".json"), 'utf-8')).assignedRoles;
+      this.contributorAssignedRoles = JSON.parse(fs.readFileSync(".cache/".concat(novel, ".json"), "utf-8")).assignedRoles;
     } catch (err) {}
   }
 };
@@ -14470,13 +14481,18 @@ var revSharePerChapter = {
 };
 function calculateContributors(novel, contributions) {
   return Object.keys(contributions).map(function (contributor) {
-    return {
+    var contributorData = contributors.getNovelContributors(novel).find(function (c) {
+      return c.name === contributor;
+    });
+    var result = {
       name: contributor,
       weight: contributions[contributor],
-      paymentPointer: "".concat(contributors.get(novel)[contributor]),
-      webfundingPaymentPointer: "".concat(contributors.get(novel)[contributor], "#").concat(contributions[contributor]),
+      paymentPointer: "".concat(contributorData.payment),
+      webfundingPaymentPointer: "".concat(contributorData.payment, "#").concat(contributions[contributor]),
       roles: contributionRoles.contributorAssignedRoles[contributor]
     };
+    if (contributorData.email) result.email = contributorData.email;
+    return result;
   });
 }
 function warnUnregisteredContributors(unregisteredContributors) {
@@ -14510,7 +14526,10 @@ function warnUnregisteredContributors(unregisteredContributors) {
     text[i++] = c(prefix + source.underline("possible typos:"));
     text[i++] = c(prefix);
     var processedUnregisteredContributors = unregisteredContributors.map(function (obj) {
-      var typo = src_2(obj.contributor, Object.keys(contributors.get(novel)));
+      var contributorNames = contributors.getNovelContributors(novel).reduce(function (prev, cur) {
+        return [].concat(_toConsumableArray(prev), [cur.name]);
+      }, []);
+      var typo = src_2(obj.contributor, contributorNames);
       return _objectSpread$2(_objectSpread$2({}, obj), {}, {
         rating: typo.bestMatch.rating,
         fixedName: typo.bestMatch.target
@@ -14604,7 +14623,7 @@ function _parseMarkdown() {
             _loop = /*#__PURE__*/regenerator.mark(function _callee() {
               var _cache, _cache$file;
 
-              var file, frontmatter, lastModified, index, book, name, cacheLastModified, calculatedRevenueShare, unregistered, hash, hasChanged, _iterator2, _step2, _loop2, contributor;
+              var file, frontmatter, lastModified, index, book, name, cacheLastModified, calculatedRevenueShare, unregistered, hash, hasChanged, _iterator2, _step2, _loop2, _iterator3, _step3, _name;
 
               return regenerator.wrap(function _callee$(_context) {
                 while (1) {
@@ -14652,7 +14671,11 @@ function _parseMarkdown() {
                               }).filter(function (name) {
                                 return !!name;
                               }).forEach(function (contributor) {
-                                if (Object.keys(contributors.get(novel)).includes(contributor)) {
+                                var contributorPool = contributors.getNovelContributors(novel);
+
+                                if (contributorPool.find(function (c) {
+                                  return c.name === contributor;
+                                })) {
                                   contributionRoles.assignRole(contributor, role);
                                   calculatedRevenueShare[contributor] = (calculatedRevenueShare[contributor] || 0) + revSharePerChapter.get()[role];
                                 } else {
@@ -14703,12 +14726,20 @@ function _parseMarkdown() {
                       if (!(chapterTitles !== null && chapterTitles !== void 0 && chapterTitles[book])) chapterTitles[book] = {};
                       chapterTitles[book]["chapter-" + index] = frontmatter.attributes.title || "chapter-" + index;
                       chapters.push(book + "/chapter-" + index);
+                      _iterator3 = _createForOfIteratorHelper(contributors.getNovelContributors(novel));
 
-                      for (contributor in contributors.get(novel)) {
-                        contributions[contributor] = (contributions[contributor] || 0) + (calculatedRevenueShare[contributor] || 0);
+                      try {
+                        for (_iterator3.s(); !(_step3 = _iterator3.n()).done;) {
+                          _name = _step3.value.name;
+                          contributions[_name] = (contributions[_name] || 0) + (calculatedRevenueShare[_name] || 0);
+                        }
+                      } catch (err) {
+                        _iterator3.e(err);
+                      } finally {
+                        _iterator3.f();
                       }
 
-                    case 28:
+                    case 29:
                     case "end":
                       return _context.stop();
                   }
@@ -14929,7 +14960,7 @@ var benchmark = {
   }
 };
 function outputMessage(_ref) {
-  var _Object$keys;
+  var _contributors$getNove;
 
   var id = _ref.id,
       title = _ref.title,
@@ -14942,7 +14973,7 @@ function outputMessage(_ref) {
   var log = new Log({
     marginLeft: 0
   });
-  var contributorsNumber = (_Object$keys = Object.keys(contributors.get(id))) === null || _Object$keys === void 0 ? void 0 : _Object$keys.length;
+  var contributorsNumber = (_contributors$getNove = contributors.getNovelContributors(id)) === null || _contributors$getNove === void 0 ? void 0 : _contributors$getNove.length;
   var glob = benchmark.glob,
       sorting_chapters = benchmark.sorting_chapters,
       markdown = benchmark.markdown,

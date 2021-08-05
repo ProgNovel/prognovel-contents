@@ -5,7 +5,9 @@
 # https://community.webmonetization.org/grantfortheweb/non-profit-payment-pointers-2890
 
 # Author
-Radhy: $ilp.uphold.com/LJmbPn7WD4JB # ILP address - FreeCodeCamp
+Radhy:
+  payment: $ilp.uphold.com/LJmbPn7WD4JB # ILP address - FreeCodeCamp
+  email: prognovel@gmail.com
 
 # Editor
 MyEditor: $ilp.uphold.com/D7BwPKMQzBiD # ILP address - Internet Archive
@@ -13,5 +15,5 @@ MyEditor: $ilp.uphold.com/D7BwPKMQzBiD # ILP address - Internet Archive
 # Proofreader
 MyProofreader: $ilp.uphold.com/rKe8mMbUGkBm # ILP address - Web Foundation
 Zoom: $ilp.uphold.com/edR8erBDbRyq # ILP address - Creative Commons
-Kabooom: $ilp.uphold.com/JWP2Um9RFi9a # ILP address - Artist Rescue Trust 
+Kabooom: $ilp.uphold.com/JWP2Um9RFi9a # ILP address - Artist Rescue Trust
 Wowee: $ilp.uphold.com/QkG86UgXzKq8 # ILP address - Defold Foundation

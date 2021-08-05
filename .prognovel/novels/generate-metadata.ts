@@ -17,7 +17,7 @@ import { lstatSync } from "fs";
 export async function generateMetadata(novels: string[]) {
   const firstNovel = novels[0];
 
-  const folders = (await glob("novels/*")).filter(folder => lstatSync(folder).isDirectory());
+  const folders = (await glob("novels/*")).filter((folder) => lstatSync(folder).isDirectory());
   // console.log("Detecting folders:", folders);
   return Promise.all(
     folders.map(async (folder) => {
@@ -64,7 +64,7 @@ async function compileChapter(folder: string, images, novel: string) {
     benchmark.glob.end = performance.now();
 
     benchmark.markdown.start = performance.now();
-    contributionRoles.setAssignedRolesForNovel(novel)
+    contributionRoles.setAssignedRolesForNovel(novel);
     let { content, chapters, chapterTitles, contributions, unregisteredContributors, unchangedFiles, cache } =
       await parseMarkdown(novel, files, { hash: false });
     benchmark.markdown.end = performance.now();

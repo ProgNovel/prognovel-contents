@@ -2,17 +2,36 @@ import chalk from "chalk";
 import { existsSync, mkdirSync, writeFileSync, readFileSync } from "fs";
 import { findBestMatch } from "string-similarity/src/index";
 import { cacheFiles } from "../_files";
-import type { UnregisterContributor, TypoUnregisteredContributor, RevShareNovelMetadata } from "../novels/types";
+import type {
+  UnregisterContributor,
+  TypoUnregisteredContributor,
+  RevShareNovelMetadata,
+} from "../novels/types";
+
+interface ContributorProfile {
+  name: string;
+  payment: string;
+  email?: string;
+}
 
 export const contributors = {
-  pool: new Map(),
-  addContributor(novel: string, contributor: string) {
-    this.pool[novel] = (this.pool[novel] || []).push(contributor);
+  pool: new Map() as Map<string, ContributorProfile[]>,
+  addContributor(novel: string, contributor: ContributorProfile) {
+    if (!this.pool[novel]) this.pool[novel] = [];
+    this.pool[novel] = [...this.pool[novel], contributor];
   },
-  bulkAddContributors(novel: string, people: string[]) {
-    this.pool[novel] = people;
+  bulkAddContributors(novel: string, data: any) {
+    for (const contributor in data) {
+      if (typeof data[contributor] === "string") {
+        data[contributor] = {
+          payment: data[contributor],
+        };
+      }
+      data[contributor].name = contributor;
+      this.addContributor(novel, data[contributor]);
+    }
   },
-  get(novel: string) {
+  getNovelContributors(novel: string) {
     return this.pool[novel];
   },
 };
@@ -26,17 +45,16 @@ export const contributionRoles = {
     return this.roles;
   },
   // TODO - allow role unassign after a change in the markdown
-  assignRole (contributor: string, role: string) {
+  assignRole(contributor: string, role: string) {
     this.contributorAssignedRoles[contributor] = Array.from(
-      new Set([...(this.contributorAssignedRoles[contributor] || []), role])
-    )
+      new Set([...(this.contributorAssignedRoles[contributor] || []), role]),
+    );
   },
   setAssignedRolesForNovel(novel: string) {
     try {
-      this.contributorAssignedRoles = 
-        (JSON.parse(readFileSync(`.cache/${novel}.json`, 'utf-8'))).assignedRoles
-      }catch(err){}
-  }
+      this.contributorAssignedRoles = JSON.parse(readFileSync(`.cache/${novel}.json`, "utf-8")).assignedRoles;
+    } catch (err) {}
+  },
 };
 export const revSharePerChapter = {
   rev_share: {},
@@ -48,19 +66,20 @@ export const revSharePerChapter = {
   },
 };
 
-export function addContributor(novel: string, contributor: string) {
-  contributors[novel] = (contributors[novel] || []).push(contributor);
-}
-
 export function calculateContributors(novel, contributions): RevShareNovelMetadata[] {
   return Object.keys(contributions).map((contributor) => {
-    return {
+    const contributorData = contributors.getNovelContributors(novel).find((c) => c.name === contributor);
+    const result: RevShareNovelMetadata = {
       name: contributor,
       weight: contributions[contributor],
-      paymentPointer: `${contributors.get(novel)[contributor]}`,
-      webfundingPaymentPointer: `${contributors.get(novel)[contributor]}#${contributions[contributor]}`,
-      roles: contributionRoles.contributorAssignedRoles[contributor]
-    } 
+      paymentPointer: `${contributorData.payment}`,
+      webfundingPaymentPointer: `${contributorData.payment}#${contributions[contributor]}`,
+      roles: contributionRoles.contributorAssignedRoles[contributor],
+    };
+
+    if (contributorData.email) result.email = contributorData.email;
+
+    return result;
   });
 }
 
@@ -120,7 +139,12 @@ export function warnUnregisteredContributors(
     text[i++] = c(prefix);
     const processedUnregisteredContributors = unregisteredContributors
       .map((obj: UnregisterContributor) => {
-        let typo = findBestMatch(obj.contributor, Object.keys(contributors.get(novel)));
+        const contributorNames = contributors
+          .getNovelContributors(novel)
+          .reduce((prev: string[], cur: ContributorProfile): string[] => {
+            return [...prev, cur.name];
+          }, []);
+        let typo = findBestMatch(obj.contributor, contributorNames);
         return {
           ...obj,
           rating: typo.bestMatch.rating,

@@ -15,7 +15,7 @@ interface Options {
 
 interface Cache {
   [novel: string]: CacheValue;
-  assignedRoles: any
+  assignedRoles: any;
 }
 
 interface CacheValue {
@@ -96,8 +96,10 @@ export async function parseMarkdown(
             .map((name: string) => name.trim())
             .filter((name: string) => !!name)
             .forEach((contributor: string) => {
-              if (Object.keys(contributors.get(novel)).includes(contributor)) {
-                contributionRoles.assignRole(contributor, role)
+              const contributorPool = contributors.getNovelContributors(novel);
+
+              if (contributorPool.find((c) => c.name === contributor)) {
+                contributionRoles.assignRole(contributor, role);
                 calculatedRevenueShare[contributor] =
                   (calculatedRevenueShare[contributor] || 0) + revSharePerChapter.get()[role];
               } else {
@@ -112,7 +114,7 @@ export async function parseMarkdown(
       cache[file].data = frontmatter.attributes;
       cache[file].body = markdown.parse(frontmatter.body);
       cache[file].unregistered = unregistered;
-      cache.assignedRoles = contributionRoles.contributorAssignedRoles
+      cache.assignedRoles = contributionRoles.contributorAssignedRoles;
     } else {
       // console.log("Get from cache for", file);
       calculatedRevenueShare = cache[file].contributions;
@@ -140,9 +142,8 @@ export async function parseMarkdown(
     chapterTitles[book]["chapter-" + index] = (frontmatter.attributes as any).title || "chapter-" + index;
     chapters.push(book + "/chapter-" + index);
 
-    for (const contributor in contributors.get(novel)) {
-      contributions[contributor] =
-        (contributions[contributor] || 0) + (calculatedRevenueShare[contributor] || 0);
+    for (const { name } of contributors.getNovelContributors(novel)) {
+      contributions[name] = (contributions[name] || 0) + (calculatedRevenueShare[name] || 0);
     }
   }
 
