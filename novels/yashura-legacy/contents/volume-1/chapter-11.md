@@ -1,5 +1,6 @@
 ---
 title: Bountiful Badril Mountain
+monetization: true
 ---
 
 <authors-note id="Radhy">
