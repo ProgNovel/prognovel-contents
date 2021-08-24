@@ -14426,9 +14426,9 @@ function areArgsValid(mainString, targetStrings) {
 }
 var src_2 = src.findBestMatch;
 
-function ownKeys$2(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
+function ownKeys$3(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread$2(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys$2(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys$2(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread$3(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys$3(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys$3(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 var contributors = {
   pool: new Map(),
   addContributor: function addContributor(novel, contributor) {
@@ -14530,7 +14530,7 @@ function warnUnregisteredContributors(unregisteredContributors) {
         return [].concat(_toConsumableArray(prev), [cur.name]);
       }, []);
       var typo = src_2(obj.contributor, contributorNames);
-      return _objectSpread$2(_objectSpread$2({}, obj), {}, {
+      return _objectSpread$3(_objectSpread$3({}, obj), {}, {
         rating: typo.bestMatch.rating,
         fixedName: typo.bestMatch.target
       });
@@ -14562,6 +14562,43 @@ function warnUnregisteredContributors(unregisteredContributors) {
     fs.writeFileSync(cacheFiles().typoCache, JSON.stringify(typoCache));
     return processedUnregisteredContributors.length ? text : [];
   }
+}
+
+function ownKeys$2(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread$2(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys$2(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys$2(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function generateContributorData(chapterData, novel) {
+  var contributors = chapterData.contributors,
+      title = chapterData.title,
+      body = chapterData.body,
+      monetization = chapterData.monetization,
+      banner = chapterData.banner;
+  var config = novelFiles(novel).contributorsConfig;
+  var contributorData = load$2(fs.readFileSync(config));
+  return {
+    title: title,
+    body: body,
+    monetization: monetization,
+    banner: banner,
+    contributors: Object.keys(contributors).reduce(function (prev, cur) {
+      if (contributors[cur]) prev[cur] = contributors[cur].split(",").map(function (name) {
+        return name.trim();
+      }).filter(function (name) {
+        return !!name;
+      }).map(function (contributor) {
+        if (typeof contributorData[contributor] === "string") {
+          contributorData[contributor] = {
+            payment: contributorData[contributor]
+          };
+        }
+
+        return _objectSpread$2({
+          name: contributor
+        }, contributorData[contributor] || {});
+      });
+      return prev;
+    }, {})
+  };
 }
 
 function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
@@ -14719,7 +14756,9 @@ function _parseMarkdown() {
                       content[name].contributors = contributionRoles.get().reduce(function (prev, cur) {
                         prev[cur] = cache[file].data[cur] || "";
                         return prev;
-                      }, {}); // wrapping up
+                      }, {});
+                      content[name] = generateContributorData(content[name], novel);
+                      if (!content[name].banner) delete content[name].banner; // wrapping up
 
                       unregisteredContributors = [].concat(_toConsumableArray(unregisteredContributors), _toConsumableArray(unregistered));
                       unregistered = [];
@@ -14739,7 +14778,7 @@ function _parseMarkdown() {
                         _iterator3.f();
                       }
 
-                    case 29:
+                    case 31:
                     case "end":
                       return _context.stop();
                   }

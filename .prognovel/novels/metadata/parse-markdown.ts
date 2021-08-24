@@ -6,6 +6,7 @@ import { createHashFromFile } from "../../utils/hash-file";
 import { contributionRoles, revSharePerChapter, contributors } from "../contributors";
 import { cacheFiles, novelFiles, siteFiles } from "../../_files";
 import { performance } from "perf_hooks";
+import { generateContributorData } from "../post-processing/contributors-data";
 import yaml from "js-yaml";
 import type { RevenueShare, ChapterTitles, FrontMatter, UnregisterContributor } from "../types";
 
@@ -133,6 +134,9 @@ export async function parseMarkdown(
       prev[cur] = cache[file].data[cur] || "";
       return prev;
     }, {});
+
+    content[name] = generateContributorData(content[name], novel);
+    if (!content[name].banner) delete content[name].banner;
 
     // wrapping up
     unregisteredContributors = [...unregisteredContributors, ...unregistered];
