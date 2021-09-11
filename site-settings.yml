@@ -12,9 +12,31 @@ novels:
 
 ### WEBMONETIZATION REVSHARE OPTIONS ###
 # can point to multiple payment pointers with rev share using webfunding syntax
-payment_pointers_site_global:
-  - platform: 10%
+global_payment_pointers:
+  - owner: $ilp.uphold.com/edR8erBDbRyq#25
+  - manager1: $ilp.uphold.com/edR8erBDbRyq#12
+  - manager2: $ilp.uphold.com/edR8erBDbRyq#15
+  - chief_developer: $ilp.uphold.com/edR8erBDbRyq#15
+  - senior_developer: $ilp.uphold.com/edR8erBDbRyq#10
+  - junior_developer1: $ilp.uphold.com/edR8erBDbRyq#5
+  - junior_developer2: $ilp.uphold.com/edR8erBDbRyq#4
+  - junior_developer3: $ilp.uphold.com/edR8erBDbRyq#3
 
+# when subscribers are reading novels, payment pointers for website owner
+# and staffs will be limited to make spaces for novel authors and contributors
+# revenue share.
+#
+# example: 30% limit means owners and staffs will receive 0.3x of their
+# usual revenue for subscribers who reading novel, while the rest will be
+# distributed among authors and their contributors (editors, proofreaders, illustrators, etc)
+limit_global_payment_pointers_share_in_novel: 30%
+
+# unlike global revshare, total revenue share rate for novel contributors
+# will be accumulated for every chapters a person credited for
+#
+# example: authors who wrote 10 chapters with share of 5 will have
+# 50 revshare weight, while editor who edits 5 chapter with share of 4
+# will have 20 revshare weight
 rev_share_contribution_per_chapter:
   author: 5
   translator: 4

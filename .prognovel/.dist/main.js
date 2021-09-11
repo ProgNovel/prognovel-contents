@@ -15293,6 +15293,17 @@ function generateSiteSettings() {
   fs__default['default'].writeFileSync(publishFiles().siteMetadata, JSON.stringify(settings, null, 4));
   contributionRoles.set(settings.contribution_roles);
   revSharePerChapter.set(settings["rev_share_contribution_per_chapter"]);
+
+  if (!settings.global_payment_pointers) {
+    console.error("no global payment pointers found");
+    process.exit();
+  }
+
+  if (!settings.limit_global_payment_pointers_share_in_novel) {
+    console.error("no limit setting for global payment pointers found");
+    process.exit();
+  }
+
   return settings;
 }
 
