@@ -11,16 +11,8 @@ novels:
   - yashura-legacy
 
 ### WEBMONETIZATION REVSHARE OPTIONS ###
-# can point to multiple payment pointers with rev share using webfunding syntax
-global_payment_pointers:
-  - owner: $ilp.uphold.com/edR8erBDbRyq#25
-  - manager1: $ilp.uphold.com/edR8erBDbRyq#12
-  - manager2: $ilp.uphold.com/edR8erBDbRyq#15
-  - chief_developer: $ilp.uphold.com/edR8erBDbRyq#15
-  - senior_developer: $ilp.uphold.com/edR8erBDbRyq#10
-  - junior_developer1: $ilp.uphold.com/edR8erBDbRyq#5
-  - junior_developer2: $ilp.uphold.com/edR8erBDbRyq#4
-  - junior_developer3: $ilp.uphold.com/edR8erBDbRyq#3
+
+# edit file site-contributors.yml to set up payments for website owners and staff
 
 # when subscribers are reading novels, payment pointers for website owner
 # and staffs will be limited to make spaces for novel authors and contributors

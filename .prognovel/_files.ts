@@ -24,6 +24,7 @@ export const publishFiles = function (): PublishFiles {
 export const siteFiles = function (): SiteFiles {
   return {
     settings: getYaml(join(process.cwd(), "site-settings.yml")),
+    contributors: getYaml(join(process.cwd(), "site-contributors.yml")),
   };
 };
 
@@ -76,6 +77,7 @@ function getYaml(file: string) {
 
 interface SiteFiles {
   settings: string;
+  contributors: string;
 }
 
 interface PublishFiles {

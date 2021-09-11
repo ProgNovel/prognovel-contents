@@ -1,0 +1,20 @@
+ProgNovel:
+  email: prognovel@gmail.com
+  payment: $ilp.uphold.com/edR8erBDbRyq
+  rate: 25
+
+JS_Developer:
+  payment: $ilp.uphold.com/edR8erBDbRyq
+  rate: 10
+
+Backend_Developer:
+  payment: $ilp.uphold.com/edR8erBDbRyq
+  rate: 14
+
+generalStaff:
+  payment: $ilp.uphold.com/edR8erBDbRyq
+  rate: 20
+
+m4naG3R:
+  payment: $ilp.uphold.com/edR8erBDbRyq
+  rate: 22

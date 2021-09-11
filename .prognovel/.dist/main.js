@@ -2766,7 +2766,8 @@ var publishFiles = function publishFiles() {
 };
 var siteFiles = function siteFiles() {
   return {
-    settings: getYaml(path.join(process.cwd(), "site-settings.yml"))
+    settings: getYaml(path.join(process.cwd(), "site-settings.yml")),
+    contributors: getYaml(path.join(process.cwd(), "site-contributors.yml"))
   };
 };
 var cacheFiles = function cacheFiles() {
@@ -15278,6 +15279,21 @@ function generateFiles(_ref) {
   fs__default['default'].writeFileSync(publishFiles().novelBinary(novel), JSON.stringify(bin));
 }
 
+function getSiteContributors() {
+  var contributorData = load$2(fs.readFileSync(siteFiles().contributors));
+  return Object.keys(contributorData).reduce(function (prev, cur) {
+    var data = {
+      name: cur,
+      paymentPointer: contributorData[cur].payment,
+      weight: contributorData[cur].rate,
+      webfundingPaymentPointer: "".concat(contributorData[cur].payment, "#").concat(contributorData[cur].rate),
+      roles: contributorData[cur].roles || []
+    };
+    if (contributorData[cur].email) data.email = contributorData[cur].email;
+    return [].concat(_toConsumableArray(prev), [data]);
+  }, []);
+}
+
 function generateSiteSettings() {
   var settings;
 
@@ -15289,21 +15305,17 @@ function generateSiteSettings() {
 
   if (!settings.cors) settings.cors = "*";
   settings.contribution_roles = settings["rev_share_contribution_per_chapter"] ? Object.keys(settings["rev_share_contribution_per_chapter"]) : [];
-  ensurePublishDirectoryExist();
-  fs__default['default'].writeFileSync(publishFiles().siteMetadata, JSON.stringify(settings, null, 4));
-  contributionRoles.set(settings.contribution_roles);
-  revSharePerChapter.set(settings["rev_share_contribution_per_chapter"]);
-
-  if (!settings.global_payment_pointers) {
-    console.error("no global payment pointers found");
-    process.exit();
-  }
+  settings.global_payment_pointers = getSiteContributors();
 
   if (!settings.limit_global_payment_pointers_share_in_novel) {
     console.error("no limit setting for global payment pointers found");
     process.exit();
   }
 
+  ensurePublishDirectoryExist();
+  fs__default['default'].writeFileSync(publishFiles().siteMetadata, JSON.stringify(settings, null, 4));
+  contributionRoles.set(settings.contribution_roles);
+  revSharePerChapter.set(settings["rev_share_contribution_per_chapter"]);
   return settings;
 }
 

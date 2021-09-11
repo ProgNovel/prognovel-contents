@@ -8,6 +8,7 @@ export declare type NovelImageType = "banner" | "cover" | "UserProfile";
 export declare type NovelImageCoverType = "book" | "thumbnail";
 interface SiteFiles {
     settings: string;
+    contributors: string;
 }
 interface PublishFiles {
     folder: string;
