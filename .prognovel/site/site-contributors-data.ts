@@ -3,7 +3,7 @@ import { readFileSync } from "fs";
 import { siteFiles } from "../_files";
 
 export function getSiteContributors() {
-  const contributorData = load(readFileSync(siteFiles().contributors));
+  const contributorData = load(readFileSync(siteFiles().contributors)) || {};
 
   return Object.keys(contributorData).reduce((prev, cur) => {
     const data: any = {

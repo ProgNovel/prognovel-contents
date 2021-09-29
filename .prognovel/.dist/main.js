@@ -15280,7 +15280,7 @@ function generateFiles(_ref) {
 }
 
 function getSiteContributors() {
-  var contributorData = load$2(fs.readFileSync(siteFiles().contributors));
+  var contributorData = load$2(fs.readFileSync(siteFiles().contributors)) || {};
   return Object.keys(contributorData).reduce(function (prev, cur) {
     var data = {
       name: cur,
