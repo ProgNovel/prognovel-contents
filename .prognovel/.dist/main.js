@@ -15212,6 +15212,7 @@ function _compileChapter() {
                           cover: images,
                           rev_share: rev_share
                         });
+                        if (info.discord_group_id) meta.discord_group_id = info.discord_group_id;
                         ensurePublishDirectoryExist(novel);
                         generateFiles({
                           novel: novel,
@@ -15233,7 +15234,7 @@ function _compileChapter() {
                         });
                         resolve(meta);
 
-                      case 39:
+                      case 40:
                       case "end":
                         return _context3.stop();
                     }

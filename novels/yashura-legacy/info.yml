@@ -4,3 +4,6 @@ contact: prognovel@gmail.com
 demographic: seinen
 genre: fantasy, drama, comedy
 tags: demo novel, translated novel, indonesian novel
+# have Discord group you want readers to join?
+# uncomment below by remove # and set the value to your group ID
+discord_group_id: 676722349441024000

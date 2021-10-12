@@ -1,9 +1,8 @@
 site_title: ProgNovel
 contact: prognovel@gmail.com
-payment_pointer: $ilp.uphold.com/edR8erBDbRyq # ILP address for Creative Commons
 backend_api: https://api.prognovel.workers.dev
-use_static_api: false
 use_image_optimization_microservice: true
+disqus_id: prog-novel
 
 ### PUBLISHED BOOKS ###
 # you can left out a book folder if you're not ready to publish a certain book

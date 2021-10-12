@@ -93,6 +93,8 @@ async function compileChapter(folder: string, images, novel: string) {
 
     let meta = { id: novel, ...info, synopsis, chapters: chapterList, cover: images, rev_share };
 
+    if (info.discord_group_id) meta.discord_group_id = info.discord_group_id;
+
     ensurePublishDirectoryExist(novel);
     generateFiles({ novel, meta, chapterTitles, content, cache });
     benchmark.filesystem.end = performance.now();
