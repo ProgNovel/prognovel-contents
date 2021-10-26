@@ -15605,6 +15605,7 @@ function _build() {
 exports.addNovel = addNovel;
 exports.build = build;
 exports.check = check;
+exports.failBuild = failBuild;
 exports.fixTypo = fixTypo;
 exports.host = host;
 exports.init = init;

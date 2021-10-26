@@ -2,6 +2,7 @@ const { cfWorkerKV } = require("../utils/cloudflare-api");
 const { readFileSync, existsSync } = require("fs");
 const { load } = require("js-yaml");
 const { settings } = require("cluster");
+const { failBuild } = require("../.dist/main");
 
 exports.command = "publish";
 // exports.aliases = ["build", "b"];
@@ -18,9 +19,30 @@ exports.handler = async function (argv) {
   let novels = [];
   if (siteSettings) {
     novels = siteSettings.novels;
-    if (!novels) throw 'site-settings.yml doesn\'t contain "novels" value.';
+    if (!novels)
+      failBuild(
+        `Make sure you set value for "novels" variable in 
+  site-settings.yml (that located in your project\'s root folder)
+  with an array of strings for your novels' IDs. Novel IDs don't contain spaces
+  and must be the same as their novel folders in your project.
+  
+  [Example in site-settings.yml]
+
+  novels:
+    - my-new-novel
+    - my-other-novel
+  
+  ^ before dash each novel ID value, make sure each tab contain 2 spaces length.  `,
+        'site-settings.yml doesn\'t contain "novels" value',
+      );
   } else {
-    throw "No site-settings.yml is found.";
+    failBuild(
+      `Make sure you have site-settings.yml in your root project folder.
+    And make sure only to run ProgNovel CLI in your root project folder.
+    
+    If you haven't create your project already, create an empty folder and run "prognovel new [your-project-title]" there`,
+      "no site-settings.yml is found",
+    );
   }
   const metadata = readFileSync(".publish/fullmetadata.json", "utf-8");
   post.push(cfWorkerKV().put("metadata", metadata));

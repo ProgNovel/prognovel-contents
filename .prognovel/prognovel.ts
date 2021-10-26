@@ -25,6 +25,6 @@ async function build(opts?: any) {
   }
 }
 
-export { init, build, addNovel, host, check, fixTypo };
+export { init, build, addNovel, host, check, fixTypo, failBuild };
 
 // init();

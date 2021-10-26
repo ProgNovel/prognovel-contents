@@ -12,5 +12,6 @@ require("yargs")
   .command(require("./init"))
   .command(require("./build"))
   .command(require("./publish"))
+  .command(require("./new"))
   .command(require("./fix-typo"))
   .command(require("./check")).argv;
