@@ -15,7 +15,12 @@ exports.handler = async function ({ _ }) {
       'Make sure to add your project title, no space allowed. Use dash "-" instead of space. \n  Example: a novel with title My New Novel would be my-new-novel as its ID.',
       "title error",
     );
-  if (_.length > 2) console.log("parameter takes too long");
+  if (_.length > 2)
+    failBuild(
+      `To create a new project, use "prognovel new [your-project-title]". 
+  No spaces allowed for your project title.`,
+      "parameter too long",
+    );
   console.log({ novel: title });
 };
 
