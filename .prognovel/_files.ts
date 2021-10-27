@@ -2,7 +2,7 @@ import { existsSync } from "fs";
 import { join } from "path";
 import { errorImageNotFound } from "./utils/build";
 
-export const publishFiles = function (): PublishFiles {
+export const publishFiles = function (isNew = false): PublishFiles {
   const folder = join(process.cwd(), "/.publish");
   return {
     folder: folder,
@@ -21,10 +21,10 @@ export const publishFiles = function (): PublishFiles {
   };
 };
 
-export const siteFiles = function (): SiteFiles {
+export const siteFiles = function (isNew = false): SiteFiles {
   return {
-    settings: getYaml(join(process.cwd(), "site-settings.yml")),
-    contributors: getYaml(join(process.cwd(), "site-contributors.yml")),
+    settings: getYaml(join(process.cwd(), "site-settings.yml"), isNew),
+    contributors: getYaml(join(process.cwd(), "site-contributors.yml"), isNew),
   };
 };
 
@@ -38,7 +38,7 @@ export const cacheFiles = function (): CacheFiles {
   };
 };
 
-export const novelFiles = function (id: NovelID): NovelFiles {
+export const novelFiles = function (id: NovelID, isNew = false): NovelFiles {
   const folder = join(process.cwd(), "novels", id);
   return {
     metadata: join(folder, "metadata.json"),
@@ -46,8 +46,8 @@ export const novelFiles = function (id: NovelID): NovelFiles {
     banner: getNovelImagePath(id, "banner"),
     cover: getNovelImagePath(id, "cover"),
     synopsis: join(folder, "synopsis.md"),
-    info: getYaml(join(folder, "info.yml")),
-    contributorsConfig: getYaml(join(folder, "contributors.yml")),
+    info: getYaml(join(folder, "info.yml"), isNew),
+    contributorsConfig: getYaml(join(folder, "contributors.yml"), isNew),
   };
 
   function getNovelImagePath(novel: NovelID, image: NovelImageType, ext = "") {
@@ -67,8 +67,8 @@ export declare type NovelID = string;
 export type NovelImageType = "banner" | "cover" | "UserProfile";
 export type NovelImageCoverType = "book" | "thumbnail";
 
-function getYaml(file: string) {
-  if (existsSync(file)) return file;
+function getYaml(file: string, isNew = false) {
+  if (existsSync(file) || isNew) return file;
 
   const currentExt = file.endsWith("yaml") ? "yaml" : "yml";
   const nextExt = file.endsWith("yaml") ? "yml" : "yaml";

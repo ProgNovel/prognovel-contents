@@ -1,4 +1,4 @@
-const run = require("../.dist/main").build;
+const { fail } = require("./_errors");
 
 exports.command = "build";
 exports.aliases = ["build", "b"];
@@ -10,10 +10,12 @@ exports.builder = {
 };
 
 exports.handler = function (argv) {
-  run();
+  try {
+    require("../.dist/main").build();
+  } catch (error) {
+    fail();
+  }
 };
 
 exports.describe =
   "Build static API from markdowns and calculate Web Monetization API revenue share contribution";
-
-exports.run = run;

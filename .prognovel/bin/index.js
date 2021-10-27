@@ -9,9 +9,9 @@ if (process.argv.slice(-1)[0].endsWith("index.js")) {
 require("yargs")
   .scriptName("prognovel")
   .usage(`Usage: prognovel <command> [option (if any)]`)
-  .command(require("./init"))
   .command(require("./build"))
   .command(require("./publish"))
   .command(require("./new"))
+  .command(require("./novel"))
   .command(require("./fix-typo"))
   .command(require("./check")).argv;

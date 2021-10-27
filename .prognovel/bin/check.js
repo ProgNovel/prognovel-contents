@@ -1,6 +1,6 @@
 exports.command = "check";
 exports.aliases = ["check", "c"];
-
+const { fail } = require("./_errors");
 // exports.builder = {
 //   banana: {
 //     default: "cool",
@@ -11,7 +11,11 @@ exports.aliases = ["check", "c"];
 // };
 
 exports.handler = function (argv) {
-  require("../.dist/main").check();
+  try {
+    require("../.dist/main").check();
+  } catch (error) {
+    fail();
+  }
 };
 
 exports.describe =

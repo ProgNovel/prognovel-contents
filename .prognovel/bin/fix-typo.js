@@ -1,3 +1,5 @@
+const { fail } = require("./_errors");
+
 exports.command = "fix-typo";
 exports.aliases = ["typo", "ft"];
 
@@ -11,7 +13,11 @@ exports.aliases = ["typo", "ft"];
 // };
 
 exports.handler = function (argv) {
-  require("../.dist/main").fixTypo();
+  try {
+    require("../.dist/main").fixTypo();
+  } catch (error) {
+    fail();
+  }
 };
 
 exports.describe =

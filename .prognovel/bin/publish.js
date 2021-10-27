@@ -2,7 +2,8 @@ const { cfWorkerKV } = require("../utils/cloudflare-api");
 const { readFileSync, existsSync } = require("fs");
 const { load } = require("js-yaml");
 const { settings } = require("cluster");
-const { failBuild } = require("../.dist/main");
+const { failBuild } = require("../.dist/fail");
+const { fail } = require("./_errors");
 
 exports.command = "publish";
 // exports.aliases = ["build", "b"];
@@ -15,7 +16,12 @@ exports.builder = {
 
 exports.handler = async function (argv) {
   const post = [];
-  const siteSettings = load(readFileSync(getYaml("site-settings.yml"), "utf-8"));
+  let siteSettings;
+  try {
+    siteSettings = load(readFileSync(getYaml("site-settings.yml"), "utf-8"));
+  } catch (error) {
+    fail();
+  }
   let novels = [];
   if (siteSettings) {
     novels = siteSettings.novels;

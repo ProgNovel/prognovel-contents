@@ -2,38 +2,26 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
+var _prognovel_utils_build_fail = require('../_files-b1b5a907.js');
 var fs = require('fs');
-var path = require('path');
-var os = require('os');
-var tty = require('tty');
 var sharp = require('sharp');
-var util$1 = require('util');
+var path = require('path');
+var util = require('util');
+var os = require('os');
 var perf_hooks = require('perf_hooks');
 var crypto = require('crypto');
 var stream = require('stream');
+require('tty');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
 var fs__default = /*#__PURE__*/_interopDefaultLegacy(fs);
-var path__default = /*#__PURE__*/_interopDefaultLegacy(path);
-var os__default = /*#__PURE__*/_interopDefaultLegacy(os);
-var tty__default = /*#__PURE__*/_interopDefaultLegacy(tty);
 var sharp__default = /*#__PURE__*/_interopDefaultLegacy(sharp);
-var util__default = /*#__PURE__*/_interopDefaultLegacy(util$1);
+var path__default = /*#__PURE__*/_interopDefaultLegacy(path);
+var util__default = /*#__PURE__*/_interopDefaultLegacy(util);
+var os__default = /*#__PURE__*/_interopDefaultLegacy(os);
 
-function commonjsRequire () {
-	throw new Error('Dynamic requires are not currently supported by rollup-plugin-commonjs');
-}
-
-function unwrapExports (x) {
-	return x && x.__esModule && Object.prototype.hasOwnProperty.call(x, 'default') ? x['default'] : x;
-}
-
-function createCommonjsModule(fn, module) {
-	return module = { exports: {} }, fn(module, module.exports), module.exports;
-}
-
-var asyncToGenerator = createCommonjsModule(function (module) {
+var asyncToGenerator = _prognovel_utils_build_fail.createCommonjsModule(function (module) {
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
   try {
     var info = gen[key](arg);
@@ -74,9 +62,9 @@ module.exports = _asyncToGenerator;
 module.exports["default"] = module.exports, module.exports.__esModule = true;
 });
 
-var _asyncToGenerator = unwrapExports(asyncToGenerator);
+var _asyncToGenerator = _prognovel_utils_build_fail.unwrapExports(asyncToGenerator);
 
-var runtime_1 = createCommonjsModule(function (module) {
+var runtime_1 = _prognovel_utils_build_fail.createCommonjsModule(function (module) {
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
  *
@@ -828,1996 +816,9 @@ try {
 
 var regenerator = runtime_1;
 
-var colorName = {
-	"aliceblue": [240, 248, 255],
-	"antiquewhite": [250, 235, 215],
-	"aqua": [0, 255, 255],
-	"aquamarine": [127, 255, 212],
-	"azure": [240, 255, 255],
-	"beige": [245, 245, 220],
-	"bisque": [255, 228, 196],
-	"black": [0, 0, 0],
-	"blanchedalmond": [255, 235, 205],
-	"blue": [0, 0, 255],
-	"blueviolet": [138, 43, 226],
-	"brown": [165, 42, 42],
-	"burlywood": [222, 184, 135],
-	"cadetblue": [95, 158, 160],
-	"chartreuse": [127, 255, 0],
-	"chocolate": [210, 105, 30],
-	"coral": [255, 127, 80],
-	"cornflowerblue": [100, 149, 237],
-	"cornsilk": [255, 248, 220],
-	"crimson": [220, 20, 60],
-	"cyan": [0, 255, 255],
-	"darkblue": [0, 0, 139],
-	"darkcyan": [0, 139, 139],
-	"darkgoldenrod": [184, 134, 11],
-	"darkgray": [169, 169, 169],
-	"darkgreen": [0, 100, 0],
-	"darkgrey": [169, 169, 169],
-	"darkkhaki": [189, 183, 107],
-	"darkmagenta": [139, 0, 139],
-	"darkolivegreen": [85, 107, 47],
-	"darkorange": [255, 140, 0],
-	"darkorchid": [153, 50, 204],
-	"darkred": [139, 0, 0],
-	"darksalmon": [233, 150, 122],
-	"darkseagreen": [143, 188, 143],
-	"darkslateblue": [72, 61, 139],
-	"darkslategray": [47, 79, 79],
-	"darkslategrey": [47, 79, 79],
-	"darkturquoise": [0, 206, 209],
-	"darkviolet": [148, 0, 211],
-	"deeppink": [255, 20, 147],
-	"deepskyblue": [0, 191, 255],
-	"dimgray": [105, 105, 105],
-	"dimgrey": [105, 105, 105],
-	"dodgerblue": [30, 144, 255],
-	"firebrick": [178, 34, 34],
-	"floralwhite": [255, 250, 240],
-	"forestgreen": [34, 139, 34],
-	"fuchsia": [255, 0, 255],
-	"gainsboro": [220, 220, 220],
-	"ghostwhite": [248, 248, 255],
-	"gold": [255, 215, 0],
-	"goldenrod": [218, 165, 32],
-	"gray": [128, 128, 128],
-	"green": [0, 128, 0],
-	"greenyellow": [173, 255, 47],
-	"grey": [128, 128, 128],
-	"honeydew": [240, 255, 240],
-	"hotpink": [255, 105, 180],
-	"indianred": [205, 92, 92],
-	"indigo": [75, 0, 130],
-	"ivory": [255, 255, 240],
-	"khaki": [240, 230, 140],
-	"lavender": [230, 230, 250],
-	"lavenderblush": [255, 240, 245],
-	"lawngreen": [124, 252, 0],
-	"lemonchiffon": [255, 250, 205],
-	"lightblue": [173, 216, 230],
-	"lightcoral": [240, 128, 128],
-	"lightcyan": [224, 255, 255],
-	"lightgoldenrodyellow": [250, 250, 210],
-	"lightgray": [211, 211, 211],
-	"lightgreen": [144, 238, 144],
-	"lightgrey": [211, 211, 211],
-	"lightpink": [255, 182, 193],
-	"lightsalmon": [255, 160, 122],
-	"lightseagreen": [32, 178, 170],
-	"lightskyblue": [135, 206, 250],
-	"lightslategray": [119, 136, 153],
-	"lightslategrey": [119, 136, 153],
-	"lightsteelblue": [176, 196, 222],
-	"lightyellow": [255, 255, 224],
-	"lime": [0, 255, 0],
-	"limegreen": [50, 205, 50],
-	"linen": [250, 240, 230],
-	"magenta": [255, 0, 255],
-	"maroon": [128, 0, 0],
-	"mediumaquamarine": [102, 205, 170],
-	"mediumblue": [0, 0, 205],
-	"mediumorchid": [186, 85, 211],
-	"mediumpurple": [147, 112, 219],
-	"mediumseagreen": [60, 179, 113],
-	"mediumslateblue": [123, 104, 238],
-	"mediumspringgreen": [0, 250, 154],
-	"mediumturquoise": [72, 209, 204],
-	"mediumvioletred": [199, 21, 133],
-	"midnightblue": [25, 25, 112],
-	"mintcream": [245, 255, 250],
-	"mistyrose": [255, 228, 225],
-	"moccasin": [255, 228, 181],
-	"navajowhite": [255, 222, 173],
-	"navy": [0, 0, 128],
-	"oldlace": [253, 245, 230],
-	"olive": [128, 128, 0],
-	"olivedrab": [107, 142, 35],
-	"orange": [255, 165, 0],
-	"orangered": [255, 69, 0],
-	"orchid": [218, 112, 214],
-	"palegoldenrod": [238, 232, 170],
-	"palegreen": [152, 251, 152],
-	"paleturquoise": [175, 238, 238],
-	"palevioletred": [219, 112, 147],
-	"papayawhip": [255, 239, 213],
-	"peachpuff": [255, 218, 185],
-	"peru": [205, 133, 63],
-	"pink": [255, 192, 203],
-	"plum": [221, 160, 221],
-	"powderblue": [176, 224, 230],
-	"purple": [128, 0, 128],
-	"rebeccapurple": [102, 51, 153],
-	"red": [255, 0, 0],
-	"rosybrown": [188, 143, 143],
-	"royalblue": [65, 105, 225],
-	"saddlebrown": [139, 69, 19],
-	"salmon": [250, 128, 114],
-	"sandybrown": [244, 164, 96],
-	"seagreen": [46, 139, 87],
-	"seashell": [255, 245, 238],
-	"sienna": [160, 82, 45],
-	"silver": [192, 192, 192],
-	"skyblue": [135, 206, 235],
-	"slateblue": [106, 90, 205],
-	"slategray": [112, 128, 144],
-	"slategrey": [112, 128, 144],
-	"snow": [255, 250, 250],
-	"springgreen": [0, 255, 127],
-	"steelblue": [70, 130, 180],
-	"tan": [210, 180, 140],
-	"teal": [0, 128, 128],
-	"thistle": [216, 191, 216],
-	"tomato": [255, 99, 71],
-	"turquoise": [64, 224, 208],
-	"violet": [238, 130, 238],
-	"wheat": [245, 222, 179],
-	"white": [255, 255, 255],
-	"whitesmoke": [245, 245, 245],
-	"yellow": [255, 255, 0],
-	"yellowgreen": [154, 205, 50]
-};
-
-/* MIT license */
-/* eslint-disable no-mixed-operators */
-
-
-// NOTE: conversions should only return primitive values (i.e. arrays, or
-//       values that give correct `typeof` results).
-//       do not use box values types (i.e. Number(), String(), etc.)
-
-const reverseKeywords = {};
-for (const key of Object.keys(colorName)) {
-	reverseKeywords[colorName[key]] = key;
-}
-
-const convert$1 = {
-	rgb: {channels: 3, labels: 'rgb'},
-	hsl: {channels: 3, labels: 'hsl'},
-	hsv: {channels: 3, labels: 'hsv'},
-	hwb: {channels: 3, labels: 'hwb'},
-	cmyk: {channels: 4, labels: 'cmyk'},
-	xyz: {channels: 3, labels: 'xyz'},
-	lab: {channels: 3, labels: 'lab'},
-	lch: {channels: 3, labels: 'lch'},
-	hex: {channels: 1, labels: ['hex']},
-	keyword: {channels: 1, labels: ['keyword']},
-	ansi16: {channels: 1, labels: ['ansi16']},
-	ansi256: {channels: 1, labels: ['ansi256']},
-	hcg: {channels: 3, labels: ['h', 'c', 'g']},
-	apple: {channels: 3, labels: ['r16', 'g16', 'b16']},
-	gray: {channels: 1, labels: ['gray']}
-};
-
-var conversions = convert$1;
-
-// Hide .channels and .labels properties
-for (const model of Object.keys(convert$1)) {
-	if (!('channels' in convert$1[model])) {
-		throw new Error('missing channels property: ' + model);
-	}
-
-	if (!('labels' in convert$1[model])) {
-		throw new Error('missing channel labels property: ' + model);
-	}
-
-	if (convert$1[model].labels.length !== convert$1[model].channels) {
-		throw new Error('channel and label counts mismatch: ' + model);
-	}
-
-	const {channels, labels} = convert$1[model];
-	delete convert$1[model].channels;
-	delete convert$1[model].labels;
-	Object.defineProperty(convert$1[model], 'channels', {value: channels});
-	Object.defineProperty(convert$1[model], 'labels', {value: labels});
-}
-
-convert$1.rgb.hsl = function (rgb) {
-	const r = rgb[0] / 255;
-	const g = rgb[1] / 255;
-	const b = rgb[2] / 255;
-	const min = Math.min(r, g, b);
-	const max = Math.max(r, g, b);
-	const delta = max - min;
-	let h;
-	let s;
-
-	if (max === min) {
-		h = 0;
-	} else if (r === max) {
-		h = (g - b) / delta;
-	} else if (g === max) {
-		h = 2 + (b - r) / delta;
-	} else if (b === max) {
-		h = 4 + (r - g) / delta;
-	}
-
-	h = Math.min(h * 60, 360);
-
-	if (h < 0) {
-		h += 360;
-	}
-
-	const l = (min + max) / 2;
-
-	if (max === min) {
-		s = 0;
-	} else if (l <= 0.5) {
-		s = delta / (max + min);
-	} else {
-		s = delta / (2 - max - min);
-	}
-
-	return [h, s * 100, l * 100];
-};
-
-convert$1.rgb.hsv = function (rgb) {
-	let rdif;
-	let gdif;
-	let bdif;
-	let h;
-	let s;
-
-	const r = rgb[0] / 255;
-	const g = rgb[1] / 255;
-	const b = rgb[2] / 255;
-	const v = Math.max(r, g, b);
-	const diff = v - Math.min(r, g, b);
-	const diffc = function (c) {
-		return (v - c) / 6 / diff + 1 / 2;
-	};
-
-	if (diff === 0) {
-		h = 0;
-		s = 0;
-	} else {
-		s = diff / v;
-		rdif = diffc(r);
-		gdif = diffc(g);
-		bdif = diffc(b);
-
-		if (r === v) {
-			h = bdif - gdif;
-		} else if (g === v) {
-			h = (1 / 3) + rdif - bdif;
-		} else if (b === v) {
-			h = (2 / 3) + gdif - rdif;
-		}
-
-		if (h < 0) {
-			h += 1;
-		} else if (h > 1) {
-			h -= 1;
-		}
-	}
-
-	return [
-		h * 360,
-		s * 100,
-		v * 100
-	];
-};
-
-convert$1.rgb.hwb = function (rgb) {
-	const r = rgb[0];
-	const g = rgb[1];
-	let b = rgb[2];
-	const h = convert$1.rgb.hsl(rgb)[0];
-	const w = 1 / 255 * Math.min(r, Math.min(g, b));
-
-	b = 1 - 1 / 255 * Math.max(r, Math.max(g, b));
-
-	return [h, w * 100, b * 100];
-};
-
-convert$1.rgb.cmyk = function (rgb) {
-	const r = rgb[0] / 255;
-	const g = rgb[1] / 255;
-	const b = rgb[2] / 255;
-
-	const k = Math.min(1 - r, 1 - g, 1 - b);
-	const c = (1 - r - k) / (1 - k) || 0;
-	const m = (1 - g - k) / (1 - k) || 0;
-	const y = (1 - b - k) / (1 - k) || 0;
-
-	return [c * 100, m * 100, y * 100, k * 100];
-};
-
-function comparativeDistance(x, y) {
-	/*
-		See https://en.m.wikipedia.org/wiki/Euclidean_distance#Squared_Euclidean_distance
-	*/
-	return (
-		((x[0] - y[0]) ** 2) +
-		((x[1] - y[1]) ** 2) +
-		((x[2] - y[2]) ** 2)
-	);
-}
-
-convert$1.rgb.keyword = function (rgb) {
-	const reversed = reverseKeywords[rgb];
-	if (reversed) {
-		return reversed;
-	}
-
-	let currentClosestDistance = Infinity;
-	let currentClosestKeyword;
-
-	for (const keyword of Object.keys(colorName)) {
-		const value = colorName[keyword];
-
-		// Compute comparative distance
-		const distance = comparativeDistance(rgb, value);
-
-		// Check if its less, if so set as closest
-		if (distance < currentClosestDistance) {
-			currentClosestDistance = distance;
-			currentClosestKeyword = keyword;
-		}
-	}
-
-	return currentClosestKeyword;
-};
-
-convert$1.keyword.rgb = function (keyword) {
-	return colorName[keyword];
-};
-
-convert$1.rgb.xyz = function (rgb) {
-	let r = rgb[0] / 255;
-	let g = rgb[1] / 255;
-	let b = rgb[2] / 255;
-
-	// Assume sRGB
-	r = r > 0.04045 ? (((r + 0.055) / 1.055) ** 2.4) : (r / 12.92);
-	g = g > 0.04045 ? (((g + 0.055) / 1.055) ** 2.4) : (g / 12.92);
-	b = b > 0.04045 ? (((b + 0.055) / 1.055) ** 2.4) : (b / 12.92);
-
-	const x = (r * 0.4124) + (g * 0.3576) + (b * 0.1805);
-	const y = (r * 0.2126) + (g * 0.7152) + (b * 0.0722);
-	const z = (r * 0.0193) + (g * 0.1192) + (b * 0.9505);
-
-	return [x * 100, y * 100, z * 100];
-};
-
-convert$1.rgb.lab = function (rgb) {
-	const xyz = convert$1.rgb.xyz(rgb);
-	let x = xyz[0];
-	let y = xyz[1];
-	let z = xyz[2];
-
-	x /= 95.047;
-	y /= 100;
-	z /= 108.883;
-
-	x = x > 0.008856 ? (x ** (1 / 3)) : (7.787 * x) + (16 / 116);
-	y = y > 0.008856 ? (y ** (1 / 3)) : (7.787 * y) + (16 / 116);
-	z = z > 0.008856 ? (z ** (1 / 3)) : (7.787 * z) + (16 / 116);
-
-	const l = (116 * y) - 16;
-	const a = 500 * (x - y);
-	const b = 200 * (y - z);
-
-	return [l, a, b];
-};
-
-convert$1.hsl.rgb = function (hsl) {
-	const h = hsl[0] / 360;
-	const s = hsl[1] / 100;
-	const l = hsl[2] / 100;
-	let t2;
-	let t3;
-	let val;
-
-	if (s === 0) {
-		val = l * 255;
-		return [val, val, val];
-	}
-
-	if (l < 0.5) {
-		t2 = l * (1 + s);
-	} else {
-		t2 = l + s - l * s;
-	}
-
-	const t1 = 2 * l - t2;
-
-	const rgb = [0, 0, 0];
-	for (let i = 0; i < 3; i++) {
-		t3 = h + 1 / 3 * -(i - 1);
-		if (t3 < 0) {
-			t3++;
-		}
-
-		if (t3 > 1) {
-			t3--;
-		}
-
-		if (6 * t3 < 1) {
-			val = t1 + (t2 - t1) * 6 * t3;
-		} else if (2 * t3 < 1) {
-			val = t2;
-		} else if (3 * t3 < 2) {
-			val = t1 + (t2 - t1) * (2 / 3 - t3) * 6;
-		} else {
-			val = t1;
-		}
-
-		rgb[i] = val * 255;
-	}
-
-	return rgb;
-};
-
-convert$1.hsl.hsv = function (hsl) {
-	const h = hsl[0];
-	let s = hsl[1] / 100;
-	let l = hsl[2] / 100;
-	let smin = s;
-	const lmin = Math.max(l, 0.01);
-
-	l *= 2;
-	s *= (l <= 1) ? l : 2 - l;
-	smin *= lmin <= 1 ? lmin : 2 - lmin;
-	const v = (l + s) / 2;
-	const sv = l === 0 ? (2 * smin) / (lmin + smin) : (2 * s) / (l + s);
-
-	return [h, sv * 100, v * 100];
-};
-
-convert$1.hsv.rgb = function (hsv) {
-	const h = hsv[0] / 60;
-	const s = hsv[1] / 100;
-	let v = hsv[2] / 100;
-	const hi = Math.floor(h) % 6;
-
-	const f = h - Math.floor(h);
-	const p = 255 * v * (1 - s);
-	const q = 255 * v * (1 - (s * f));
-	const t = 255 * v * (1 - (s * (1 - f)));
-	v *= 255;
-
-	switch (hi) {
-		case 0:
-			return [v, t, p];
-		case 1:
-			return [q, v, p];
-		case 2:
-			return [p, v, t];
-		case 3:
-			return [p, q, v];
-		case 4:
-			return [t, p, v];
-		case 5:
-			return [v, p, q];
-	}
-};
-
-convert$1.hsv.hsl = function (hsv) {
-	const h = hsv[0];
-	const s = hsv[1] / 100;
-	const v = hsv[2] / 100;
-	const vmin = Math.max(v, 0.01);
-	let sl;
-	let l;
-
-	l = (2 - s) * v;
-	const lmin = (2 - s) * vmin;
-	sl = s * vmin;
-	sl /= (lmin <= 1) ? lmin : 2 - lmin;
-	sl = sl || 0;
-	l /= 2;
-
-	return [h, sl * 100, l * 100];
-};
-
-// http://dev.w3.org/csswg/css-color/#hwb-to-rgb
-convert$1.hwb.rgb = function (hwb) {
-	const h = hwb[0] / 360;
-	let wh = hwb[1] / 100;
-	let bl = hwb[2] / 100;
-	const ratio = wh + bl;
-	let f;
-
-	// Wh + bl cant be > 1
-	if (ratio > 1) {
-		wh /= ratio;
-		bl /= ratio;
-	}
-
-	const i = Math.floor(6 * h);
-	const v = 1 - bl;
-	f = 6 * h - i;
-
-	if ((i & 0x01) !== 0) {
-		f = 1 - f;
-	}
-
-	const n = wh + f * (v - wh); // Linear interpolation
-
-	let r;
-	let g;
-	let b;
-	/* eslint-disable max-statements-per-line,no-multi-spaces */
-	switch (i) {
-		default:
-		case 6:
-		case 0: r = v;  g = n;  b = wh; break;
-		case 1: r = n;  g = v;  b = wh; break;
-		case 2: r = wh; g = v;  b = n; break;
-		case 3: r = wh; g = n;  b = v; break;
-		case 4: r = n;  g = wh; b = v; break;
-		case 5: r = v;  g = wh; b = n; break;
-	}
-	/* eslint-enable max-statements-per-line,no-multi-spaces */
-
-	return [r * 255, g * 255, b * 255];
-};
-
-convert$1.cmyk.rgb = function (cmyk) {
-	const c = cmyk[0] / 100;
-	const m = cmyk[1] / 100;
-	const y = cmyk[2] / 100;
-	const k = cmyk[3] / 100;
-
-	const r = 1 - Math.min(1, c * (1 - k) + k);
-	const g = 1 - Math.min(1, m * (1 - k) + k);
-	const b = 1 - Math.min(1, y * (1 - k) + k);
-
-	return [r * 255, g * 255, b * 255];
-};
-
-convert$1.xyz.rgb = function (xyz) {
-	const x = xyz[0] / 100;
-	const y = xyz[1] / 100;
-	const z = xyz[2] / 100;
-	let r;
-	let g;
-	let b;
-
-	r = (x * 3.2406) + (y * -1.5372) + (z * -0.4986);
-	g = (x * -0.9689) + (y * 1.8758) + (z * 0.0415);
-	b = (x * 0.0557) + (y * -0.2040) + (z * 1.0570);
-
-	// Assume sRGB
-	r = r > 0.0031308
-		? ((1.055 * (r ** (1.0 / 2.4))) - 0.055)
-		: r * 12.92;
-
-	g = g > 0.0031308
-		? ((1.055 * (g ** (1.0 / 2.4))) - 0.055)
-		: g * 12.92;
-
-	b = b > 0.0031308
-		? ((1.055 * (b ** (1.0 / 2.4))) - 0.055)
-		: b * 12.92;
-
-	r = Math.min(Math.max(0, r), 1);
-	g = Math.min(Math.max(0, g), 1);
-	b = Math.min(Math.max(0, b), 1);
-
-	return [r * 255, g * 255, b * 255];
-};
-
-convert$1.xyz.lab = function (xyz) {
-	let x = xyz[0];
-	let y = xyz[1];
-	let z = xyz[2];
-
-	x /= 95.047;
-	y /= 100;
-	z /= 108.883;
-
-	x = x > 0.008856 ? (x ** (1 / 3)) : (7.787 * x) + (16 / 116);
-	y = y > 0.008856 ? (y ** (1 / 3)) : (7.787 * y) + (16 / 116);
-	z = z > 0.008856 ? (z ** (1 / 3)) : (7.787 * z) + (16 / 116);
-
-	const l = (116 * y) - 16;
-	const a = 500 * (x - y);
-	const b = 200 * (y - z);
-
-	return [l, a, b];
-};
-
-convert$1.lab.xyz = function (lab) {
-	const l = lab[0];
-	const a = lab[1];
-	const b = lab[2];
-	let x;
-	let y;
-	let z;
-
-	y = (l + 16) / 116;
-	x = a / 500 + y;
-	z = y - b / 200;
-
-	const y2 = y ** 3;
-	const x2 = x ** 3;
-	const z2 = z ** 3;
-	y = y2 > 0.008856 ? y2 : (y - 16 / 116) / 7.787;
-	x = x2 > 0.008856 ? x2 : (x - 16 / 116) / 7.787;
-	z = z2 > 0.008856 ? z2 : (z - 16 / 116) / 7.787;
-
-	x *= 95.047;
-	y *= 100;
-	z *= 108.883;
-
-	return [x, y, z];
-};
-
-convert$1.lab.lch = function (lab) {
-	const l = lab[0];
-	const a = lab[1];
-	const b = lab[2];
-	let h;
-
-	const hr = Math.atan2(b, a);
-	h = hr * 360 / 2 / Math.PI;
-
-	if (h < 0) {
-		h += 360;
-	}
-
-	const c = Math.sqrt(a * a + b * b);
-
-	return [l, c, h];
-};
-
-convert$1.lch.lab = function (lch) {
-	const l = lch[0];
-	const c = lch[1];
-	const h = lch[2];
-
-	const hr = h / 360 * 2 * Math.PI;
-	const a = c * Math.cos(hr);
-	const b = c * Math.sin(hr);
-
-	return [l, a, b];
-};
-
-convert$1.rgb.ansi16 = function (args, saturation = null) {
-	const [r, g, b] = args;
-	let value = saturation === null ? convert$1.rgb.hsv(args)[2] : saturation; // Hsv -> ansi16 optimization
-
-	value = Math.round(value / 50);
-
-	if (value === 0) {
-		return 30;
-	}
-
-	let ansi = 30
-		+ ((Math.round(b / 255) << 2)
-		| (Math.round(g / 255) << 1)
-		| Math.round(r / 255));
-
-	if (value === 2) {
-		ansi += 60;
-	}
-
-	return ansi;
-};
-
-convert$1.hsv.ansi16 = function (args) {
-	// Optimization here; we already know the value and don't need to get
-	// it converted for us.
-	return convert$1.rgb.ansi16(convert$1.hsv.rgb(args), args[2]);
-};
-
-convert$1.rgb.ansi256 = function (args) {
-	const r = args[0];
-	const g = args[1];
-	const b = args[2];
-
-	// We use the extended greyscale palette here, with the exception of
-	// black and white. normal palette only has 4 greyscale shades.
-	if (r === g && g === b) {
-		if (r < 8) {
-			return 16;
-		}
-
-		if (r > 248) {
-			return 231;
-		}
-
-		return Math.round(((r - 8) / 247) * 24) + 232;
-	}
-
-	const ansi = 16
-		+ (36 * Math.round(r / 255 * 5))
-		+ (6 * Math.round(g / 255 * 5))
-		+ Math.round(b / 255 * 5);
-
-	return ansi;
-};
-
-convert$1.ansi16.rgb = function (args) {
-	let color = args % 10;
-
-	// Handle greyscale
-	if (color === 0 || color === 7) {
-		if (args > 50) {
-			color += 3.5;
-		}
-
-		color = color / 10.5 * 255;
-
-		return [color, color, color];
-	}
-
-	const mult = (~~(args > 50) + 1) * 0.5;
-	const r = ((color & 1) * mult) * 255;
-	const g = (((color >> 1) & 1) * mult) * 255;
-	const b = (((color >> 2) & 1) * mult) * 255;
-
-	return [r, g, b];
-};
-
-convert$1.ansi256.rgb = function (args) {
-	// Handle greyscale
-	if (args >= 232) {
-		const c = (args - 232) * 10 + 8;
-		return [c, c, c];
-	}
-
-	args -= 16;
-
-	let rem;
-	const r = Math.floor(args / 36) / 5 * 255;
-	const g = Math.floor((rem = args % 36) / 6) / 5 * 255;
-	const b = (rem % 6) / 5 * 255;
-
-	return [r, g, b];
-};
-
-convert$1.rgb.hex = function (args) {
-	const integer = ((Math.round(args[0]) & 0xFF) << 16)
-		+ ((Math.round(args[1]) & 0xFF) << 8)
-		+ (Math.round(args[2]) & 0xFF);
-
-	const string = integer.toString(16).toUpperCase();
-	return '000000'.substring(string.length) + string;
-};
-
-convert$1.hex.rgb = function (args) {
-	const match = args.toString(16).match(/[a-f0-9]{6}|[a-f0-9]{3}/i);
-	if (!match) {
-		return [0, 0, 0];
-	}
-
-	let colorString = match[0];
-
-	if (match[0].length === 3) {
-		colorString = colorString.split('').map(char => {
-			return char + char;
-		}).join('');
-	}
-
-	const integer = parseInt(colorString, 16);
-	const r = (integer >> 16) & 0xFF;
-	const g = (integer >> 8) & 0xFF;
-	const b = integer & 0xFF;
-
-	return [r, g, b];
-};
-
-convert$1.rgb.hcg = function (rgb) {
-	const r = rgb[0] / 255;
-	const g = rgb[1] / 255;
-	const b = rgb[2] / 255;
-	const max = Math.max(Math.max(r, g), b);
-	const min = Math.min(Math.min(r, g), b);
-	const chroma = (max - min);
-	let grayscale;
-	let hue;
-
-	if (chroma < 1) {
-		grayscale = min / (1 - chroma);
-	} else {
-		grayscale = 0;
-	}
-
-	if (chroma <= 0) {
-		hue = 0;
-	} else
-	if (max === r) {
-		hue = ((g - b) / chroma) % 6;
-	} else
-	if (max === g) {
-		hue = 2 + (b - r) / chroma;
-	} else {
-		hue = 4 + (r - g) / chroma;
-	}
-
-	hue /= 6;
-	hue %= 1;
-
-	return [hue * 360, chroma * 100, grayscale * 100];
-};
-
-convert$1.hsl.hcg = function (hsl) {
-	const s = hsl[1] / 100;
-	const l = hsl[2] / 100;
-
-	const c = l < 0.5 ? (2.0 * s * l) : (2.0 * s * (1.0 - l));
-
-	let f = 0;
-	if (c < 1.0) {
-		f = (l - 0.5 * c) / (1.0 - c);
-	}
-
-	return [hsl[0], c * 100, f * 100];
-};
-
-convert$1.hsv.hcg = function (hsv) {
-	const s = hsv[1] / 100;
-	const v = hsv[2] / 100;
-
-	const c = s * v;
-	let f = 0;
-
-	if (c < 1.0) {
-		f = (v - c) / (1 - c);
-	}
-
-	return [hsv[0], c * 100, f * 100];
-};
-
-convert$1.hcg.rgb = function (hcg) {
-	const h = hcg[0] / 360;
-	const c = hcg[1] / 100;
-	const g = hcg[2] / 100;
-
-	if (c === 0.0) {
-		return [g * 255, g * 255, g * 255];
-	}
-
-	const pure = [0, 0, 0];
-	const hi = (h % 1) * 6;
-	const v = hi % 1;
-	const w = 1 - v;
-	let mg = 0;
-
-	/* eslint-disable max-statements-per-line */
-	switch (Math.floor(hi)) {
-		case 0:
-			pure[0] = 1; pure[1] = v; pure[2] = 0; break;
-		case 1:
-			pure[0] = w; pure[1] = 1; pure[2] = 0; break;
-		case 2:
-			pure[0] = 0; pure[1] = 1; pure[2] = v; break;
-		case 3:
-			pure[0] = 0; pure[1] = w; pure[2] = 1; break;
-		case 4:
-			pure[0] = v; pure[1] = 0; pure[2] = 1; break;
-		default:
-			pure[0] = 1; pure[1] = 0; pure[2] = w;
-	}
-	/* eslint-enable max-statements-per-line */
-
-	mg = (1.0 - c) * g;
-
-	return [
-		(c * pure[0] + mg) * 255,
-		(c * pure[1] + mg) * 255,
-		(c * pure[2] + mg) * 255
-	];
-};
-
-convert$1.hcg.hsv = function (hcg) {
-	const c = hcg[1] / 100;
-	const g = hcg[2] / 100;
-
-	const v = c + g * (1.0 - c);
-	let f = 0;
-
-	if (v > 0.0) {
-		f = c / v;
-	}
-
-	return [hcg[0], f * 100, v * 100];
-};
-
-convert$1.hcg.hsl = function (hcg) {
-	const c = hcg[1] / 100;
-	const g = hcg[2] / 100;
-
-	const l = g * (1.0 - c) + 0.5 * c;
-	let s = 0;
-
-	if (l > 0.0 && l < 0.5) {
-		s = c / (2 * l);
-	} else
-	if (l >= 0.5 && l < 1.0) {
-		s = c / (2 * (1 - l));
-	}
-
-	return [hcg[0], s * 100, l * 100];
-};
-
-convert$1.hcg.hwb = function (hcg) {
-	const c = hcg[1] / 100;
-	const g = hcg[2] / 100;
-	const v = c + g * (1.0 - c);
-	return [hcg[0], (v - c) * 100, (1 - v) * 100];
-};
-
-convert$1.hwb.hcg = function (hwb) {
-	const w = hwb[1] / 100;
-	const b = hwb[2] / 100;
-	const v = 1 - b;
-	const c = v - w;
-	let g = 0;
-
-	if (c < 1) {
-		g = (v - c) / (1 - c);
-	}
-
-	return [hwb[0], c * 100, g * 100];
-};
-
-convert$1.apple.rgb = function (apple) {
-	return [(apple[0] / 65535) * 255, (apple[1] / 65535) * 255, (apple[2] / 65535) * 255];
-};
-
-convert$1.rgb.apple = function (rgb) {
-	return [(rgb[0] / 255) * 65535, (rgb[1] / 255) * 65535, (rgb[2] / 255) * 65535];
-};
-
-convert$1.gray.rgb = function (args) {
-	return [args[0] / 100 * 255, args[0] / 100 * 255, args[0] / 100 * 255];
-};
-
-convert$1.gray.hsl = function (args) {
-	return [0, 0, args[0]];
-};
-
-convert$1.gray.hsv = convert$1.gray.hsl;
-
-convert$1.gray.hwb = function (gray) {
-	return [0, 100, gray[0]];
-};
-
-convert$1.gray.cmyk = function (gray) {
-	return [0, 0, 0, gray[0]];
-};
-
-convert$1.gray.lab = function (gray) {
-	return [gray[0], 0, 0];
-};
-
-convert$1.gray.hex = function (gray) {
-	const val = Math.round(gray[0] / 100 * 255) & 0xFF;
-	const integer = (val << 16) + (val << 8) + val;
-
-	const string = integer.toString(16).toUpperCase();
-	return '000000'.substring(string.length) + string;
-};
-
-convert$1.rgb.gray = function (rgb) {
-	const val = (rgb[0] + rgb[1] + rgb[2]) / 3;
-	return [val / 255 * 100];
-};
-
-/*
-	This function routes a model to all other models.
-
-	all functions that are routed have a property `.conversion` attached
-	to the returned synthetic function. This property is an array
-	of strings, each with the steps in between the 'from' and 'to'
-	color models (inclusive).
-
-	conversions that are not possible simply are not included.
-*/
-
-function buildGraph() {
-	const graph = {};
-	// https://jsperf.com/object-keys-vs-for-in-with-closure/3
-	const models = Object.keys(conversions);
-
-	for (let len = models.length, i = 0; i < len; i++) {
-		graph[models[i]] = {
-			// http://jsperf.com/1-vs-infinity
-			// micro-opt, but this is simple.
-			distance: -1,
-			parent: null
-		};
-	}
-
-	return graph;
-}
-
-// https://en.wikipedia.org/wiki/Breadth-first_search
-function deriveBFS(fromModel) {
-	const graph = buildGraph();
-	const queue = [fromModel]; // Unshift -> queue -> pop
-
-	graph[fromModel].distance = 0;
-
-	while (queue.length) {
-		const current = queue.pop();
-		const adjacents = Object.keys(conversions[current]);
-
-		for (let len = adjacents.length, i = 0; i < len; i++) {
-			const adjacent = adjacents[i];
-			const node = graph[adjacent];
-
-			if (node.distance === -1) {
-				node.distance = graph[current].distance + 1;
-				node.parent = current;
-				queue.unshift(adjacent);
-			}
-		}
-	}
-
-	return graph;
-}
-
-function link(from, to) {
-	return function (args) {
-		return to(from(args));
-	};
-}
-
-function wrapConversion(toModel, graph) {
-	const path = [graph[toModel].parent, toModel];
-	let fn = conversions[graph[toModel].parent][toModel];
-
-	let cur = graph[toModel].parent;
-	while (graph[cur].parent) {
-		path.unshift(graph[cur].parent);
-		fn = link(conversions[graph[cur].parent][cur], fn);
-		cur = graph[cur].parent;
-	}
-
-	fn.conversion = path;
-	return fn;
-}
-
-var route = function (fromModel) {
-	const graph = deriveBFS(fromModel);
-	const conversion = {};
-
-	const models = Object.keys(graph);
-	for (let len = models.length, i = 0; i < len; i++) {
-		const toModel = models[i];
-		const node = graph[toModel];
-
-		if (node.parent === null) {
-			// No possible conversion, or this node is the source model.
-			continue;
-		}
-
-		conversion[toModel] = wrapConversion(toModel, graph);
-	}
-
-	return conversion;
-};
-
-const convert = {};
-
-const models = Object.keys(conversions);
-
-function wrapRaw(fn) {
-	const wrappedFn = function (...args) {
-		const arg0 = args[0];
-		if (arg0 === undefined || arg0 === null) {
-			return arg0;
-		}
-
-		if (arg0.length > 1) {
-			args = arg0;
-		}
-
-		return fn(args);
-	};
-
-	// Preserve .conversion property if there is one
-	if ('conversion' in fn) {
-		wrappedFn.conversion = fn.conversion;
-	}
-
-	return wrappedFn;
-}
-
-function wrapRounded(fn) {
-	const wrappedFn = function (...args) {
-		const arg0 = args[0];
-
-		if (arg0 === undefined || arg0 === null) {
-			return arg0;
-		}
-
-		if (arg0.length > 1) {
-			args = arg0;
-		}
-
-		const result = fn(args);
-
-		// We're assuming the result is an array here.
-		// see notice in conversions.js; don't use box types
-		// in conversion functions.
-		if (typeof result === 'object') {
-			for (let len = result.length, i = 0; i < len; i++) {
-				result[i] = Math.round(result[i]);
-			}
-		}
-
-		return result;
-	};
-
-	// Preserve .conversion property if there is one
-	if ('conversion' in fn) {
-		wrappedFn.conversion = fn.conversion;
-	}
-
-	return wrappedFn;
-}
-
-models.forEach(fromModel => {
-	convert[fromModel] = {};
-
-	Object.defineProperty(convert[fromModel], 'channels', {value: conversions[fromModel].channels});
-	Object.defineProperty(convert[fromModel], 'labels', {value: conversions[fromModel].labels});
-
-	const routes = route(fromModel);
-	const routeModels = Object.keys(routes);
-
-	routeModels.forEach(toModel => {
-		const fn = routes[toModel];
-
-		convert[fromModel][toModel] = wrapRounded(fn);
-		convert[fromModel][toModel].raw = wrapRaw(fn);
-	});
-});
-
-var colorConvert = convert;
-
-var ansiStyles = createCommonjsModule(function (module) {
-
-const wrapAnsi16 = (fn, offset) => (...args) => {
-	const code = fn(...args);
-	return `\u001B[${code + offset}m`;
-};
-
-const wrapAnsi256 = (fn, offset) => (...args) => {
-	const code = fn(...args);
-	return `\u001B[${38 + offset};5;${code}m`;
-};
-
-const wrapAnsi16m = (fn, offset) => (...args) => {
-	const rgb = fn(...args);
-	return `\u001B[${38 + offset};2;${rgb[0]};${rgb[1]};${rgb[2]}m`;
-};
-
-const ansi2ansi = n => n;
-const rgb2rgb = (r, g, b) => [r, g, b];
-
-const setLazyProperty = (object, property, get) => {
-	Object.defineProperty(object, property, {
-		get: () => {
-			const value = get();
-
-			Object.defineProperty(object, property, {
-				value,
-				enumerable: true,
-				configurable: true
-			});
-
-			return value;
-		},
-		enumerable: true,
-		configurable: true
-	});
-};
-
-/** @type {typeof import('color-convert')} */
-let colorConvert$1;
-const makeDynamicStyles = (wrap, targetSpace, identity, isBackground) => {
-	if (colorConvert$1 === undefined) {
-		colorConvert$1 = colorConvert;
-	}
-
-	const offset = isBackground ? 10 : 0;
-	const styles = {};
-
-	for (const [sourceSpace, suite] of Object.entries(colorConvert$1)) {
-		const name = sourceSpace === 'ansi16' ? 'ansi' : sourceSpace;
-		if (sourceSpace === targetSpace) {
-			styles[name] = wrap(identity, offset);
-		} else if (typeof suite === 'object') {
-			styles[name] = wrap(suite[targetSpace], offset);
-		}
-	}
-
-	return styles;
-};
-
-function assembleStyles() {
-	const codes = new Map();
-	const styles = {
-		modifier: {
-			reset: [0, 0],
-			// 21 isn't widely supported and 22 does the same thing
-			bold: [1, 22],
-			dim: [2, 22],
-			italic: [3, 23],
-			underline: [4, 24],
-			inverse: [7, 27],
-			hidden: [8, 28],
-			strikethrough: [9, 29]
-		},
-		color: {
-			black: [30, 39],
-			red: [31, 39],
-			green: [32, 39],
-			yellow: [33, 39],
-			blue: [34, 39],
-			magenta: [35, 39],
-			cyan: [36, 39],
-			white: [37, 39],
-
-			// Bright color
-			blackBright: [90, 39],
-			redBright: [91, 39],
-			greenBright: [92, 39],
-			yellowBright: [93, 39],
-			blueBright: [94, 39],
-			magentaBright: [95, 39],
-			cyanBright: [96, 39],
-			whiteBright: [97, 39]
-		},
-		bgColor: {
-			bgBlack: [40, 49],
-			bgRed: [41, 49],
-			bgGreen: [42, 49],
-			bgYellow: [43, 49],
-			bgBlue: [44, 49],
-			bgMagenta: [45, 49],
-			bgCyan: [46, 49],
-			bgWhite: [47, 49],
-
-			// Bright color
-			bgBlackBright: [100, 49],
-			bgRedBright: [101, 49],
-			bgGreenBright: [102, 49],
-			bgYellowBright: [103, 49],
-			bgBlueBright: [104, 49],
-			bgMagentaBright: [105, 49],
-			bgCyanBright: [106, 49],
-			bgWhiteBright: [107, 49]
-		}
-	};
-
-	// Alias bright black as gray (and grey)
-	styles.color.gray = styles.color.blackBright;
-	styles.bgColor.bgGray = styles.bgColor.bgBlackBright;
-	styles.color.grey = styles.color.blackBright;
-	styles.bgColor.bgGrey = styles.bgColor.bgBlackBright;
-
-	for (const [groupName, group] of Object.entries(styles)) {
-		for (const [styleName, style] of Object.entries(group)) {
-			styles[styleName] = {
-				open: `\u001B[${style[0]}m`,
-				close: `\u001B[${style[1]}m`
-			};
-
-			group[styleName] = styles[styleName];
-
-			codes.set(style[0], style[1]);
-		}
-
-		Object.defineProperty(styles, groupName, {
-			value: group,
-			enumerable: false
-		});
-	}
-
-	Object.defineProperty(styles, 'codes', {
-		value: codes,
-		enumerable: false
-	});
-
-	styles.color.close = '\u001B[39m';
-	styles.bgColor.close = '\u001B[49m';
-
-	setLazyProperty(styles.color, 'ansi', () => makeDynamicStyles(wrapAnsi16, 'ansi16', ansi2ansi, false));
-	setLazyProperty(styles.color, 'ansi256', () => makeDynamicStyles(wrapAnsi256, 'ansi256', ansi2ansi, false));
-	setLazyProperty(styles.color, 'ansi16m', () => makeDynamicStyles(wrapAnsi16m, 'rgb', rgb2rgb, false));
-	setLazyProperty(styles.bgColor, 'ansi', () => makeDynamicStyles(wrapAnsi16, 'ansi16', ansi2ansi, true));
-	setLazyProperty(styles.bgColor, 'ansi256', () => makeDynamicStyles(wrapAnsi256, 'ansi256', ansi2ansi, true));
-	setLazyProperty(styles.bgColor, 'ansi16m', () => makeDynamicStyles(wrapAnsi16m, 'rgb', rgb2rgb, true));
-
-	return styles;
-}
-
-// Make the export immutable
-Object.defineProperty(module, 'exports', {
-	enumerable: true,
-	get: assembleStyles
-});
-});
-
-var hasFlag = (flag, argv = process.argv) => {
-	const prefix = flag.startsWith('-') ? '' : (flag.length === 1 ? '-' : '--');
-	const position = argv.indexOf(prefix + flag);
-	const terminatorPosition = argv.indexOf('--');
-	return position !== -1 && (terminatorPosition === -1 || position < terminatorPosition);
-};
-
-const {env} = process;
-
-let forceColor;
-if (hasFlag('no-color') ||
-	hasFlag('no-colors') ||
-	hasFlag('color=false') ||
-	hasFlag('color=never')) {
-	forceColor = 0;
-} else if (hasFlag('color') ||
-	hasFlag('colors') ||
-	hasFlag('color=true') ||
-	hasFlag('color=always')) {
-	forceColor = 1;
-}
-
-if ('FORCE_COLOR' in env) {
-	if (env.FORCE_COLOR === 'true') {
-		forceColor = 1;
-	} else if (env.FORCE_COLOR === 'false') {
-		forceColor = 0;
-	} else {
-		forceColor = env.FORCE_COLOR.length === 0 ? 1 : Math.min(parseInt(env.FORCE_COLOR, 10), 3);
-	}
-}
-
-function translateLevel(level) {
-	if (level === 0) {
-		return false;
-	}
-
-	return {
-		level,
-		hasBasic: true,
-		has256: level >= 2,
-		has16m: level >= 3
-	};
-}
-
-function supportsColor(haveStream, streamIsTTY) {
-	if (forceColor === 0) {
-		return 0;
-	}
-
-	if (hasFlag('color=16m') ||
-		hasFlag('color=full') ||
-		hasFlag('color=truecolor')) {
-		return 3;
-	}
-
-	if (hasFlag('color=256')) {
-		return 2;
-	}
-
-	if (haveStream && !streamIsTTY && forceColor === undefined) {
-		return 0;
-	}
-
-	const min = forceColor || 0;
-
-	if (env.TERM === 'dumb') {
-		return min;
-	}
-
-	if (process.platform === 'win32') {
-		// Windows 10 build 10586 is the first Windows release that supports 256 colors.
-		// Windows 10 build 14931 is the first release that supports 16m/TrueColor.
-		const osRelease = os__default['default'].release().split('.');
-		if (
-			Number(osRelease[0]) >= 10 &&
-			Number(osRelease[2]) >= 10586
-		) {
-			return Number(osRelease[2]) >= 14931 ? 3 : 2;
-		}
-
-		return 1;
-	}
-
-	if ('CI' in env) {
-		if (['TRAVIS', 'CIRCLECI', 'APPVEYOR', 'GITLAB_CI', 'GITHUB_ACTIONS', 'BUILDKITE'].some(sign => sign in env) || env.CI_NAME === 'codeship') {
-			return 1;
-		}
-
-		return min;
-	}
-
-	if ('TEAMCITY_VERSION' in env) {
-		return /^(9\.(0*[1-9]\d*)\.|\d{2,}\.)/.test(env.TEAMCITY_VERSION) ? 1 : 0;
-	}
-
-	if (env.COLORTERM === 'truecolor') {
-		return 3;
-	}
-
-	if ('TERM_PROGRAM' in env) {
-		const version = parseInt((env.TERM_PROGRAM_VERSION || '').split('.')[0], 10);
-
-		switch (env.TERM_PROGRAM) {
-			case 'iTerm.app':
-				return version >= 3 ? 3 : 2;
-			case 'Apple_Terminal':
-				return 2;
-			// No default
-		}
-	}
-
-	if (/-256(color)?$/i.test(env.TERM)) {
-		return 2;
-	}
-
-	if (/^screen|^xterm|^vt100|^vt220|^rxvt|color|ansi|cygwin|linux/i.test(env.TERM)) {
-		return 1;
-	}
-
-	if ('COLORTERM' in env) {
-		return 1;
-	}
-
-	return min;
-}
-
-function getSupportLevel(stream) {
-	const level = supportsColor(stream, stream && stream.isTTY);
-	return translateLevel(level);
-}
-
-var supportsColor_1 = {
-	supportsColor: getSupportLevel,
-	stdout: translateLevel(supportsColor(true, tty__default['default'].isatty(1))),
-	stderr: translateLevel(supportsColor(true, tty__default['default'].isatty(2)))
-};
-
-const stringReplaceAll$1 = (string, substring, replacer) => {
-	let index = string.indexOf(substring);
-	if (index === -1) {
-		return string;
-	}
-
-	const substringLength = substring.length;
-	let endIndex = 0;
-	let returnValue = '';
-	do {
-		returnValue += string.substr(endIndex, index - endIndex) + substring + replacer;
-		endIndex = index + substringLength;
-		index = string.indexOf(substring, endIndex);
-	} while (index !== -1);
-
-	returnValue += string.substr(endIndex);
-	return returnValue;
-};
-
-const stringEncaseCRLFWithFirstIndex$1 = (string, prefix, postfix, index) => {
-	let endIndex = 0;
-	let returnValue = '';
-	do {
-		const gotCR = string[index - 1] === '\r';
-		returnValue += string.substr(endIndex, (gotCR ? index - 1 : index) - endIndex) + prefix + (gotCR ? '\r\n' : '\n') + postfix;
-		endIndex = index + 1;
-		index = string.indexOf('\n', endIndex);
-	} while (index !== -1);
-
-	returnValue += string.substr(endIndex);
-	return returnValue;
-};
-
-var util = {
-	stringReplaceAll: stringReplaceAll$1,
-	stringEncaseCRLFWithFirstIndex: stringEncaseCRLFWithFirstIndex$1
-};
-
-const TEMPLATE_REGEX = /(?:\\(u(?:[a-f\d]{4}|\{[a-f\d]{1,6}\})|x[a-f\d]{2}|.))|(?:\{(~)?(\w+(?:\([^)]*\))?(?:\.\w+(?:\([^)]*\))?)*)(?:[ \t]|(?=\r?\n)))|(\})|((?:.|[\r\n\f])+?)/gi;
-const STYLE_REGEX = /(?:^|\.)(\w+)(?:\(([^)]*)\))?/g;
-const STRING_REGEX = /^(['"])((?:\\.|(?!\1)[^\\])*)\1$/;
-const ESCAPE_REGEX = /\\(u(?:[a-f\d]{4}|{[a-f\d]{1,6}})|x[a-f\d]{2}|.)|([^\\])/gi;
-
-const ESCAPES = new Map([
-	['n', '\n'],
-	['r', '\r'],
-	['t', '\t'],
-	['b', '\b'],
-	['f', '\f'],
-	['v', '\v'],
-	['0', '\0'],
-	['\\', '\\'],
-	['e', '\u001B'],
-	['a', '\u0007']
-]);
-
-function unescape$2(c) {
-	const u = c[0] === 'u';
-	const bracket = c[1] === '{';
-
-	if ((u && !bracket && c.length === 5) || (c[0] === 'x' && c.length === 3)) {
-		return String.fromCharCode(parseInt(c.slice(1), 16));
-	}
-
-	if (u && bracket) {
-		return String.fromCodePoint(parseInt(c.slice(2, -1), 16));
-	}
-
-	return ESCAPES.get(c) || c;
-}
-
-function parseArguments(name, arguments_) {
-	const results = [];
-	const chunks = arguments_.trim().split(/\s*,\s*/g);
-	let matches;
-
-	for (const chunk of chunks) {
-		const number = Number(chunk);
-		if (!Number.isNaN(number)) {
-			results.push(number);
-		} else if ((matches = chunk.match(STRING_REGEX))) {
-			results.push(matches[2].replace(ESCAPE_REGEX, (m, escape, character) => escape ? unescape$2(escape) : character));
-		} else {
-			throw new Error(`Invalid Chalk template style argument: ${chunk} (in style '${name}')`);
-		}
-	}
-
-	return results;
-}
-
-function parseStyle(style) {
-	STYLE_REGEX.lastIndex = 0;
-
-	const results = [];
-	let matches;
-
-	while ((matches = STYLE_REGEX.exec(style)) !== null) {
-		const name = matches[1];
-
-		if (matches[2]) {
-			const args = parseArguments(name, matches[2]);
-			results.push([name].concat(args));
-		} else {
-			results.push([name]);
-		}
-	}
-
-	return results;
-}
-
-function buildStyle(chalk, styles) {
-	const enabled = {};
-
-	for (const layer of styles) {
-		for (const style of layer.styles) {
-			enabled[style[0]] = layer.inverse ? null : style.slice(1);
-		}
-	}
-
-	let current = chalk;
-	for (const [styleName, styles] of Object.entries(enabled)) {
-		if (!Array.isArray(styles)) {
-			continue;
-		}
-
-		if (!(styleName in current)) {
-			throw new Error(`Unknown Chalk style: ${styleName}`);
-		}
-
-		current = styles.length > 0 ? current[styleName](...styles) : current[styleName];
-	}
-
-	return current;
-}
-
-var templates = (chalk, temporary) => {
-	const styles = [];
-	const chunks = [];
-	let chunk = [];
-
-	// eslint-disable-next-line max-params
-	temporary.replace(TEMPLATE_REGEX, (m, escapeCharacter, inverse, style, close, character) => {
-		if (escapeCharacter) {
-			chunk.push(unescape$2(escapeCharacter));
-		} else if (style) {
-			const string = chunk.join('');
-			chunk = [];
-			chunks.push(styles.length === 0 ? string : buildStyle(chalk, styles)(string));
-			styles.push({inverse, styles: parseStyle(style)});
-		} else if (close) {
-			if (styles.length === 0) {
-				throw new Error('Found extraneous } in Chalk template literal');
-			}
-
-			chunks.push(buildStyle(chalk, styles)(chunk.join('')));
-			chunk = [];
-			styles.pop();
-		} else {
-			chunk.push(character);
-		}
-	});
-
-	chunks.push(chunk.join(''));
-
-	if (styles.length > 0) {
-		const errMessage = `Chalk template literal is missing ${styles.length} closing bracket${styles.length === 1 ? '' : 's'} (\`}\`)`;
-		throw new Error(errMessage);
-	}
-
-	return chunks.join('');
-};
-
-const {stdout: stdoutColor, stderr: stderrColor} = supportsColor_1;
-const {
-	stringReplaceAll,
-	stringEncaseCRLFWithFirstIndex
-} = util;
-
-const {isArray} = Array;
-
-// `supportsColor.level` → `ansiStyles.color[name]` mapping
-const levelMapping = [
-	'ansi',
-	'ansi',
-	'ansi256',
-	'ansi16m'
-];
-
-const styles = Object.create(null);
-
-const applyOptions = (object, options = {}) => {
-	if (options.level && !(Number.isInteger(options.level) && options.level >= 0 && options.level <= 3)) {
-		throw new Error('The `level` option should be an integer from 0 to 3');
-	}
-
-	// Detect level if not set manually
-	const colorLevel = stdoutColor ? stdoutColor.level : 0;
-	object.level = options.level === undefined ? colorLevel : options.level;
-};
-
-class ChalkClass {
-	constructor(options) {
-		// eslint-disable-next-line no-constructor-return
-		return chalkFactory(options);
-	}
-}
-
-const chalkFactory = options => {
-	const chalk = {};
-	applyOptions(chalk, options);
-
-	chalk.template = (...arguments_) => chalkTag(chalk.template, ...arguments_);
-
-	Object.setPrototypeOf(chalk, Chalk.prototype);
-	Object.setPrototypeOf(chalk.template, chalk);
-
-	chalk.template.constructor = () => {
-		throw new Error('`chalk.constructor()` is deprecated. Use `new chalk.Instance()` instead.');
-	};
-
-	chalk.template.Instance = ChalkClass;
-
-	return chalk.template;
-};
-
-function Chalk(options) {
-	return chalkFactory(options);
-}
-
-for (const [styleName, style] of Object.entries(ansiStyles)) {
-	styles[styleName] = {
-		get() {
-			const builder = createBuilder(this, createStyler(style.open, style.close, this._styler), this._isEmpty);
-			Object.defineProperty(this, styleName, {value: builder});
-			return builder;
-		}
-	};
-}
-
-styles.visible = {
-	get() {
-		const builder = createBuilder(this, this._styler, true);
-		Object.defineProperty(this, 'visible', {value: builder});
-		return builder;
-	}
-};
-
-const usedModels = ['rgb', 'hex', 'keyword', 'hsl', 'hsv', 'hwb', 'ansi', 'ansi256'];
-
-for (const model of usedModels) {
-	styles[model] = {
-		get() {
-			const {level} = this;
-			return function (...arguments_) {
-				const styler = createStyler(ansiStyles.color[levelMapping[level]][model](...arguments_), ansiStyles.color.close, this._styler);
-				return createBuilder(this, styler, this._isEmpty);
-			};
-		}
-	};
-}
-
-for (const model of usedModels) {
-	const bgModel = 'bg' + model[0].toUpperCase() + model.slice(1);
-	styles[bgModel] = {
-		get() {
-			const {level} = this;
-			return function (...arguments_) {
-				const styler = createStyler(ansiStyles.bgColor[levelMapping[level]][model](...arguments_), ansiStyles.bgColor.close, this._styler);
-				return createBuilder(this, styler, this._isEmpty);
-			};
-		}
-	};
-}
-
-const proto = Object.defineProperties(() => {}, {
-	...styles,
-	level: {
-		enumerable: true,
-		get() {
-			return this._generator.level;
-		},
-		set(level) {
-			this._generator.level = level;
-		}
-	}
-});
-
-const createStyler = (open, close, parent) => {
-	let openAll;
-	let closeAll;
-	if (parent === undefined) {
-		openAll = open;
-		closeAll = close;
-	} else {
-		openAll = parent.openAll + open;
-		closeAll = close + parent.closeAll;
-	}
-
-	return {
-		open,
-		close,
-		openAll,
-		closeAll,
-		parent
-	};
-};
-
-const createBuilder = (self, _styler, _isEmpty) => {
-	const builder = (...arguments_) => {
-		if (isArray(arguments_[0]) && isArray(arguments_[0].raw)) {
-			// Called as a template literal, for example: chalk.red`2 + 3 = {bold ${2+3}}`
-			return applyStyle(builder, chalkTag(builder, ...arguments_));
-		}
-
-		// Single argument is hot path, implicit coercion is faster than anything
-		// eslint-disable-next-line no-implicit-coercion
-		return applyStyle(builder, (arguments_.length === 1) ? ('' + arguments_[0]) : arguments_.join(' '));
-	};
-
-	// We alter the prototype because we must return a function, but there is
-	// no way to create a function with a different prototype
-	Object.setPrototypeOf(builder, proto);
-
-	builder._generator = self;
-	builder._styler = _styler;
-	builder._isEmpty = _isEmpty;
-
-	return builder;
-};
-
-const applyStyle = (self, string) => {
-	if (self.level <= 0 || !string) {
-		return self._isEmpty ? '' : string;
-	}
-
-	let styler = self._styler;
-
-	if (styler === undefined) {
-		return string;
-	}
-
-	const {openAll, closeAll} = styler;
-	if (string.indexOf('\u001B') !== -1) {
-		while (styler !== undefined) {
-			// Replace any instances already present with a re-opening code
-			// otherwise only the part of the string until said closing code
-			// will be colored, and the rest will simply be 'plain'.
-			string = stringReplaceAll(string, styler.close, styler.open);
-
-			styler = styler.parent;
-		}
-	}
-
-	// We can move both next actions out of loop, because remaining actions in loop won't have
-	// any/visible effect on parts we add here. Close the styling before a linebreak and reopen
-	// after next line to fix a bleed issue on macOS: https://github.com/chalk/chalk/pull/92
-	const lfIndex = string.indexOf('\n');
-	if (lfIndex !== -1) {
-		string = stringEncaseCRLFWithFirstIndex(string, closeAll, openAll, lfIndex);
-	}
-
-	return openAll + string + closeAll;
-};
-
-let template;
-const chalkTag = (chalk, ...strings) => {
-	const [firstString] = strings;
-
-	if (!isArray(firstString) || !isArray(firstString.raw)) {
-		// If chalk() was called by itself or with a string,
-		// return the string itself as a string.
-		return strings.join(' ');
-	}
-
-	const arguments_ = strings.slice(1);
-	const parts = [firstString.raw[0]];
-
-	for (let i = 1; i < firstString.length; i++) {
-		parts.push(
-			String(arguments_[i - 1]).replace(/[{}\\]/g, '\\$&'),
-			String(firstString.raw[i])
-		);
-	}
-
-	if (template === undefined) {
-		template = templates;
-	}
-
-	return template(chalk, parts.join(''));
-};
-
-Object.defineProperties(Chalk.prototype, styles);
-
-const chalk = Chalk(); // eslint-disable-line new-cap
-chalk.supportsColor = stdoutColor;
-chalk.stderr = Chalk({level: stderrColor ? stderrColor.level : 0}); // eslint-disable-line new-cap
-chalk.stderr.supportsColor = stderrColor;
-
-var source = chalk;
-
-function errorImageNotFound(novel, imageType) {
-  failBuild(["".concat(imageType, " image not found in folder ").concat(novel, "."), "make sure image file with name ".concat(source.underline(imageType), " exists, with extensions one of the following:"), " - " + imageExt.join(", ")]);
-}
-function errorSiteSettingsNotFound() {
-  failBuild(["site-settings.yaml not found in your project's root folder.", "", "Make sure you're in the right folder or use command ".concat(source.underline("prognovel init"), " to create a new one in this folder.")]);
-}
-function errorNovelInfoNotFound(novel) {
-  failBuild(["Info file for novel ".concat(novel, " not found."), "", "Make sure you have ".concat(source.underline("info.yaml"), " in the novel folder.")]);
-}
-function failBuild(reason) {
-  var _opts$color, _opts$label, _opts$labelColor;
-
-  var title = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "";
-  var opts = arguments.length > 2 ? arguments[2] : undefined;
-  var prefix = "  ";
-  var color = (_opts$color = opts === null || opts === void 0 ? void 0 : opts.color) !== null && _opts$color !== void 0 ? _opts$color : source.red;
-  var label = (_opts$label = opts === null || opts === void 0 ? void 0 : opts.label) !== null && _opts$label !== void 0 ? _opts$label : "error";
-  var labelColor = (_opts$labelColor = opts === null || opts === void 0 ? void 0 : opts.labelColor) !== null && _opts$labelColor !== void 0 ? _opts$labelColor : source.bgRed.white;
-  console.log("");
-  console.log("");
-  console.log(prefix + labelColor(" ".concat(label.toUpperCase(), " ")) + " " + title);
-  console.log("");
-
-  if (Array.isArray(reason)) {
-    reason.forEach(function (text) {
-      console.log(color(prefix + text));
-    });
-  } else {
-    console.log(color(prefix + reason));
-  }
-
-  console.log("");
-  console.log("");
-  process.exit();
-}
-
-var publishFiles = function publishFiles() {
-  var folder = path.join(process.cwd(), "/.publish");
-  return {
-    folder: folder,
-    siteMetadata: path.join(folder, "sitemetadata.json"),
-    fullMetadata: path.join(folder, "fullmetadata.json"),
-    novelFolder: function novelFolder(id) {
-      return path.join(folder, id);
-    },
-    novelMetadata: function novelMetadata(id) {
-      return path.join(folder, id, "metadata.json");
-    },
-    novelChapterTitles: function novelChapterTitles(id) {
-      return path.join(folder, id, "chapter-titles.json");
-    },
-    novelBinary: function novelBinary(id) {
-      return path.join(folder, id, "data.txt");
-    },
-    novelBinaryRange: function novelBinaryRange(id) {
-      return path.join(folder, id, "data-range.txt");
-    },
-    novelCompiledContent: function novelCompiledContent(id) {
-      return path.join(folder, id, "content.json");
-    },
-    novelCoverFolder: function novelCoverFolder(id) {
-      return path.join(folder, id, "cover");
-    },
-    novelCover: function novelCover(id, type, ext, size) {
-      return path.join(folder, id, "cover", "cover-".concat(type).concat(size ? "-" + size : "", ".").concat(ext));
-    }
-  };
-};
-var siteFiles = function siteFiles() {
-  var isNew = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
-  return {
-    settings: getYaml(path.join(process.cwd(), "site-settings.yml"), isNew),
-    contributors: getYaml(path.join(process.cwd(), "site-contributors.yml"), isNew)
-  };
-};
-var cacheFiles = function cacheFiles() {
-  var folder = path.join(process.cwd(), "/.cache");
-  return {
-    folder: folder,
-    siteMetadata: path.join(folder, "sitemetadata.json"),
-    typoCache: path.join(folder, "contributors-typo.json"),
-    novelCompileCache: function novelCompileCache(id) {
-      return path.join(folder, "".concat(id, ".json"));
-    }
-  };
-};
-var novelFiles = function novelFiles(id) {
-  var isNew = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-  var folder = path.join(process.cwd(), "novels", id);
-  return {
-    metadata: path.join(folder, "metadata.json"),
-    contentFolder: path.join(folder, "contents"),
-    banner: getNovelImagePath(id, "banner"),
-    cover: getNovelImagePath(id, "cover"),
-    synopsis: path.join(folder, "synopsis.md"),
-    info: getYaml(path.join(folder, "info.yml"), isNew),
-    contributorsConfig: getYaml(path.join(folder, "contributors.yml"), isNew)
-  };
-
-  function getNovelImagePath(novel, image) {
-    var ext = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : "";
-    if (!ext) ext = imageExt[0];
-    var file = path.join(folder, "".concat(image, ".").concat(ext));
-    if (file && fs.existsSync(file)) return file;
-    if (imageExt.indexOf(ext) === imageExt.length - 1) errorImageNotFound(novel, image);
-    ext = imageExt[imageExt.indexOf(ext) + 1];
-    return getNovelImagePath(novel, image, ext);
-  }
-};
-var imageExt = ["jpg", "jpeg", "png", "webp"];
-
-function getYaml(file) {
-  var isNew = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-  if (fs.existsSync(file) || isNew) return file;
-  var currentExt = file.endsWith("yaml") ? "yaml" : "yml";
-  var nextExt = file.endsWith("yaml") ? "yml" : "yaml";
-  return file.slice(0, -1 * currentExt.length) + nextExt;
-}
-
 function appendNovelsMetadata(novelsMetadata) {
   try {
-    var siteMetadata = JSON.parse(fs.readFileSync(publishFiles().siteMetadata, "utf-8"));
+    var siteMetadata = JSON.parse(fs.readFileSync(_prognovel_utils_build_fail.publishFiles().siteMetadata, "utf-8"));
     var shortMetadata = novelsMetadata.map(function (meta) {
       return {
         id: meta.id,
@@ -2831,12 +832,12 @@ function appendNovelsMetadata(novelsMetadata) {
       };
     });
     siteMetadata.novelsMetadata = shortMetadata;
-    fs.writeFileSync(publishFiles().siteMetadata, JSON.stringify(siteMetadata, null, 2));
+    fs.writeFileSync(_prognovel_utils_build_fail.publishFiles().siteMetadata, JSON.stringify(siteMetadata, null, 2));
     siteMetadata.fullMetadata = novelsMetadata.reduce(function (prev, cur) {
       prev[cur.id] = cur;
       return prev;
     }, {});
-    fs.writeFileSync(publishFiles().fullMetadata, JSON.stringify(siteMetadata, null, 2));
+    fs.writeFileSync(_prognovel_utils_build_fail.publishFiles().fullMetadata, JSON.stringify(siteMetadata, null, 2));
   } catch (err) {
     console.error("Error when reading site metadata.");
     console.error(err);
@@ -6708,19 +4709,19 @@ function checkValidBookFolder(novel) {
   var novelMetadata;
 
   try {
-    settings = jsYaml$2.load(fs__default['default'].readFileSync(siteFiles().settings));
+    settings = jsYaml$2.load(fs__default['default'].readFileSync(_prognovel_utils_build_fail.siteFiles().settings));
   } catch (_) {
-    errorSiteSettingsNotFound();
+    _prognovel_utils_build_fail.errorSiteSettingsNotFound();
   }
 
   try {
-    novelMetadata = jsYaml$2.load(fs__default['default'].readFileSync(novelFiles(novel).info));
+    novelMetadata = jsYaml$2.load(fs__default['default'].readFileSync(_prognovel_utils_build_fail.novelFiles(novel).info));
   } catch (_) {
-    errorNovelInfoNotFound(novel);
+    _prognovel_utils_build_fail.errorNovelInfoNotFound(novel);
   }
 
-  var isInfoExist = fs__default['default'].existsSync(novelFiles(novel).info);
-  var isSynopsisExist = fs__default['default'].existsSync(novelFiles(novel).synopsis);
+  var isInfoExist = fs__default['default'].existsSync(_prognovel_utils_build_fail.novelFiles(novel).info);
+  var isSynopsisExist = fs__default['default'].existsSync(_prognovel_utils_build_fail.novelFiles(novel).synopsis);
   var isExistInSettings = settings.novels.includes(novel);
   var isTitleExist = novelMetadata.title;
   var isDemographicExist = novelMetadata.demographic;
@@ -6731,20 +4732,20 @@ function checkValidBookFolder(novel) {
   if (!isTitleExist) errors[errorIndex++] = "".concat(errorIndex, ") can't found title in info.yaml.");
   if (!isGenreExist) errors[errorIndex++] = "".concat(errorIndex, ") can't found genre in info.yaml.");
   if (!isDemographicExist) errors[errorIndex++] = "".concat(errorIndex, ") can't found demographic in info.yaml.");
-  if (errors.length) failBuild(errors, "".concat(novel, " error..."), {
+  if (errors.length) _prognovel_utils_build_fail.failBuild(errors, "".concat(novel, " error..."), {
     label: "crash"
   });
   return isInfoExist && isSynopsisExist && isExistInSettings;
 }
 function ensurePublishDirectoryExist(novel) {
-  if (!fs__default['default'].existsSync(publishFiles().folder)) {
-    fs__default['default'].mkdirSync(publishFiles().folder);
+  if (!fs__default['default'].existsSync(_prognovel_utils_build_fail.publishFiles().folder)) {
+    fs__default['default'].mkdirSync(_prognovel_utils_build_fail.publishFiles().folder);
   }
 
   if (!novel) return;
 
-  if (!fs__default['default'].existsSync(publishFiles().novelFolder(novel))) {
-    fs__default['default'].mkdirSync(publishFiles().novelFolder(novel));
+  if (!fs__default['default'].existsSync(_prognovel_utils_build_fail.publishFiles().novelFolder(novel))) {
+    fs__default['default'].mkdirSync(_prognovel_utils_build_fail.publishFiles().novelFolder(novel));
   }
 }
 
@@ -6765,11 +4766,11 @@ function _generateBookCover() {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
-            folder = publishFiles();
+            folder = _prognovel_utils_build_fail.publishFiles();
             ensurePublishDirectoryExist(novel);
             if (!fs__default['default'].existsSync(folder.novelCoverFolder(novel))) fs__default['default'].mkdirSync(folder.novelCoverFolder(novel)); // checking input image
 
-            inputImage = novelFiles(novel).cover; // metadata
+            inputImage = _prognovel_utils_build_fail.novelFiles(novel).cover; // metadata
 
             images = {
               book: {
@@ -6851,7 +4852,7 @@ function _generateBookCover() {
   return _generateBookCover.apply(this, arguments);
 }
 
-var defineProperty = createCommonjsModule(function (module) {
+var defineProperty = _prognovel_utils_build_fail.createCommonjsModule(function (module) {
 function _defineProperty(obj, key, value) {
   if (key in obj) {
     Object.defineProperty(obj, key, {
@@ -6871,9 +4872,9 @@ module.exports = _defineProperty;
 module.exports["default"] = module.exports, module.exports.__esModule = true;
 });
 
-var _defineProperty = unwrapExports(defineProperty);
+var _defineProperty = _prognovel_utils_build_fail.unwrapExports(defineProperty);
 
-var defaults$5 = createCommonjsModule(function (module) {
+var defaults$5 = _prognovel_utils_build_fail.createCommonjsModule(function (module) {
 function getDefaults() {
   return {
     baseUrl: null,
@@ -10310,7 +8311,7 @@ var lib = function (array, opts) {
 	return result;
 };
 
-var arrayLikeToArray = createCommonjsModule(function (module) {
+var arrayLikeToArray = _prognovel_utils_build_fail.createCommonjsModule(function (module) {
 function _arrayLikeToArray(arr, len) {
   if (len == null || len > arr.length) len = arr.length;
 
@@ -10325,9 +8326,9 @@ module.exports = _arrayLikeToArray;
 module.exports["default"] = module.exports, module.exports.__esModule = true;
 });
 
-unwrapExports(arrayLikeToArray);
+_prognovel_utils_build_fail.unwrapExports(arrayLikeToArray);
 
-var arrayWithoutHoles = createCommonjsModule(function (module) {
+var arrayWithoutHoles = _prognovel_utils_build_fail.createCommonjsModule(function (module) {
 function _arrayWithoutHoles(arr) {
   if (Array.isArray(arr)) return arrayLikeToArray(arr);
 }
@@ -10336,9 +8337,9 @@ module.exports = _arrayWithoutHoles;
 module.exports["default"] = module.exports, module.exports.__esModule = true;
 });
 
-unwrapExports(arrayWithoutHoles);
+_prognovel_utils_build_fail.unwrapExports(arrayWithoutHoles);
 
-var iterableToArray = createCommonjsModule(function (module) {
+var iterableToArray = _prognovel_utils_build_fail.createCommonjsModule(function (module) {
 function _iterableToArray(iter) {
   if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter);
 }
@@ -10347,9 +8348,9 @@ module.exports = _iterableToArray;
 module.exports["default"] = module.exports, module.exports.__esModule = true;
 });
 
-unwrapExports(iterableToArray);
+_prognovel_utils_build_fail.unwrapExports(iterableToArray);
 
-var unsupportedIterableToArray = createCommonjsModule(function (module) {
+var unsupportedIterableToArray = _prognovel_utils_build_fail.createCommonjsModule(function (module) {
 function _unsupportedIterableToArray(o, minLen) {
   if (!o) return;
   if (typeof o === "string") return arrayLikeToArray(o, minLen);
@@ -10363,9 +8364,9 @@ module.exports = _unsupportedIterableToArray;
 module.exports["default"] = module.exports, module.exports.__esModule = true;
 });
 
-unwrapExports(unsupportedIterableToArray);
+_prognovel_utils_build_fail.unwrapExports(unsupportedIterableToArray);
 
-var nonIterableSpread = createCommonjsModule(function (module) {
+var nonIterableSpread = _prognovel_utils_build_fail.createCommonjsModule(function (module) {
 function _nonIterableSpread() {
   throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
 }
@@ -10374,9 +8375,9 @@ module.exports = _nonIterableSpread;
 module.exports["default"] = module.exports, module.exports.__esModule = true;
 });
 
-unwrapExports(nonIterableSpread);
+_prognovel_utils_build_fail.unwrapExports(nonIterableSpread);
 
-var toConsumableArray = createCommonjsModule(function (module) {
+var toConsumableArray = _prognovel_utils_build_fail.createCommonjsModule(function (module) {
 function _toConsumableArray(arr) {
   return arrayWithoutHoles(arr) || iterableToArray(arr) || unsupportedIterableToArray(arr) || nonIterableSpread();
 }
@@ -10385,9 +8386,9 @@ module.exports = _toConsumableArray;
 module.exports["default"] = module.exports, module.exports.__esModule = true;
 });
 
-var _toConsumableArray = unwrapExports(toConsumableArray);
+var _toConsumableArray = _prognovel_utils_build_fail.unwrapExports(toConsumableArray);
 
-var asyncIterator = createCommonjsModule(function (module) {
+var asyncIterator = _prognovel_utils_build_fail.createCommonjsModule(function (module) {
 function _asyncIterator(iterable) {
   var method;
 
@@ -10406,7 +8407,7 @@ module.exports = _asyncIterator;
 module.exports["default"] = module.exports, module.exports.__esModule = true;
 });
 
-var _asyncIterator = unwrapExports(asyncIterator);
+var _asyncIterator = _prognovel_utils_build_fail.unwrapExports(asyncIterator);
 
 var e,n,t,r,o,i$1,a,u,s,f,c$1,d,p,m,y,h,w,A,b,E,g,_,T,S,R,I,v,L,M,U,H,P,W,x,O,D,F,N,B,C,K,j,q="object"==typeof process&&"object"==typeof process.versions&&"string"==typeof process.versions.node&&"function"==typeof require;let k;if(q)try{k=require("path");}catch(e){}function X(e){throw new Error("wasm abort"+(e?": "+(e.stack||e):""))}"undefined"!=typeof module&&(u=module,module=void 0),(s={preRun:[],postRun:[],print:console.log.bind(console),printErr:console.error.bind(console)}).ready=new Promise(u=>{s.onRuntimeInitialized=(()=>{s.___wasm_call_ctors=e=s.asm.c,s._wrealloc=n=s.asm.d,s._wfree=t=s.asm.e,s._WErrGetCode=r=s.asm.f,s._WErrGetMsg=o=s.asm.g,s._WErrClear=i$1=s.asm.h,s._parseUTF8=a=s.asm.i,u({});});}),q&&k&&(s.locateFile=function(e){return k.join(__dirname,e)});const G=s.print;let V=s.printErr;for(c$1 in f={},s=void 0!==s?s:{})s.hasOwnProperty(c$1)&&(f[c$1]=s[c$1]);for(c$1 in d=!1,p=!1,d="object"==typeof window,p="function"==typeof importScripts,m="object"==typeof process&&"object"==typeof process.versions&&"string"==typeof process.versions.node&&!d&&!p,y=!d&&!m&&!p,h="",m?(h=__dirname+"/",w=function(e,n){return b||(b=require("fs")),E||(E=require("path")),e=E.normalize(e),b.readFileSync(e,n?null:"utf8")},A=function(e){var n=w(e,!0);return n.buffer||(n=new Uint8Array(n)),n.buffer,n},process.argv.length>1&&process.argv[1].replace(/\\/g,"/"),process.argv.slice(2),"undefined"!=typeof module&&(module.exports=s),s.inspect=function(){return "[Emscripten Module object]"}):y?("undefined"!=typeof read&&(w=function(e){return read(e)}),A=function(e){return "function"==typeof readbuffer?new Uint8Array(readbuffer(e)):read(e,"binary")},"undefined"!=typeof scriptArgs?scriptArgs:"undefined"!=typeof arguments&&(arguments),void 0!==G&&("undefined"==typeof console&&(console={}),console.log=G,console.warn=console.error="undefined"!=typeof printErr?printErr:G)):(d||p)&&(p?h=self.location.href:document.currentScript&&(h=document.currentScript.src),h=0!==h.indexOf("blob:")?h.substr(0,h.lastIndexOf("/")+1):"",w=function(e){var n=new XMLHttpRequest;return n.open("GET",e,!1),n.send(null),n.responseText},p&&(A=function(e){var n=new XMLHttpRequest;return n.open("GET",e,!1),n.responseType="arraybuffer",n.send(null),new Uint8Array(n.response)})),f)f.hasOwnProperty(c$1)&&(s[c$1]=f[c$1]);function z(e,n){return e%n>0&&(e+=n-e%n),e}function Y(e){R=e,s.HEAP8=I=new Int8Array(e),s.HEAP16=new Int16Array(e),s.HEAP32=L=new Int32Array(e),s.HEAPU8=v=new Uint8Array(e),s.HEAPU16=new Uint16Array(e),s.HEAPU32=new Uint32Array(e),s.HEAPF32=new Float32Array(e),s.HEAPF64=new Float64Array(e);}function $(e){for(var n,t;e.length>0;)"function"!=typeof(n=e.shift())?"number"==typeof(t=n.func)?void 0===n.arg?s.dynCall_v(t):s.dynCall_vi(t,n.arg):t(void 0===n.arg?null:n.arg):n();}function J(e){return String.prototype.startsWith?e.startsWith(F):0===e.indexOf(F)}function Q(){try{if(g)return new Uint8Array(g);if(A)return A(N);throw "both async and sync fetching of the wasm failed"}catch(e){X(e);}}function Z(e){function n(){K||(K=!0,S||($(H),$(P),s.onRuntimeInitialized&&s.onRuntimeInitialized(),function(){if(s.postRun)for("function"==typeof s.postRun&&(s.postRun=[s.postRun]);s.postRun.length;)e=s.postRun.shift(),W.unshift(e);var e;$(W);}()));}x>0||(function(){if(s.preRun)for("function"==typeof s.preRun&&(s.preRun=[s.preRun]);s.preRun.length;)e=s.preRun.shift(),U.unshift(e);var e;$(U);}(),x>0||(s.setStatus?(s.setStatus("Running..."),setTimeout(function(){setTimeout(function(){s.setStatus("");},1),n();},1)):n()));}if(f=null,s.arguments&&(s.arguments),s.thisProgram&&s.thisProgram,s.quit&&s.quit,s.wasmBinary&&(g=s.wasmBinary),s.noExitRuntime&&s.noExitRuntime,"object"!=typeof WebAssembly&&V("no native wasm support detected"),T=new WebAssembly.Table({initial:8,maximum:8,element:"anyfunc"}),S=!1,"undefined"!=typeof TextDecoder&&new TextDecoder("utf8"),"undefined"!=typeof TextDecoder&&new TextDecoder("utf-16le"),M=s.TOTAL_MEMORY||16777216,(_=s.wasmMemory?s.wasmMemory:new WebAssembly.Memory({initial:M/65536}))&&(R=_.buffer),M=R.byteLength,Y(R),L[2044]=5251216,U=[],H=[],P=[],W=[],x=0,O=null,D=null,s.preloadedImages={},s.preloadedAudios={},F="data:application/octet-stream;base64,",J(N="markdown.wasm")||(j=N,N=s.locateFile?s.locateFile(j,h):h+j),H.push({func:function(){e();}}),B={a:function(e,n,t){v.set(v.subarray(n,n+t),e);},b:function(e){var n,t=I.length;if(e>2147418112)return !1;for(n=Math.max(t,16777216);n<e;)n=n<=536870912?z(2*n,65536):Math.min(z((3*n+2147483648)/4,65536),2147418112);return !!function(e){try{return _.grow(e-R.byteLength+65535>>16),Y(_.buffer),1}catch(e){}}(n)},memory:_,table:T},C=function(){var e={env:B,wasi_unstable:B};function n(e,n){var t=e.exports;s.asm=t,function(e){if(x--,s.monitorRunDependencies&&s.monitorRunDependencies(x),0==x&&(null!==O&&(clearInterval(O),O=null),D)){var n=D;D=null,n();}}();}function t(e){n(e.instance);}function r(n){return (g||!d&&!p||"function"!=typeof fetch?new Promise(function(e,n){e(Q());}):fetch(N,{credentials:"same-origin"}).then(function(e){if(!e.ok)throw "failed to load wasm binary file at '"+N+"'";return e.arrayBuffer()}).catch(function(){return Q()})).then(function(n){return WebAssembly.instantiate(n,e)}).then(n,function(e){V("failed to asynchronously prepare wasm: "+e),X(e);})}if(x++,s.monitorRunDependencies&&s.monitorRunDependencies(x),s.instantiateWasm)try{return s.instantiateWasm(e,n)}catch(e){return V("Module.instantiateWasm callback failed with error: "+e),!1}return function(){if(g||"function"!=typeof WebAssembly.instantiateStreaming||J(N)||"function"!=typeof fetch)return r(t);fetch(N,{credentials:"same-origin"}).then(function(n){return WebAssembly.instantiateStreaming(n,e).then(t,function(e){V("wasm streaming compile failed: "+e),V("falling back to ArrayBuffer instantiation"),r(t);})});}(),{}}(),s.asm=C,e=s.___wasm_call_ctors=function(){return s.asm.c.apply(null,arguments)},s.asm=C,D=function e(){K||Z(),K||(D=e);},s.run=Z,s.preInit)for("function"==typeof s.preInit&&(s.preInit=[s.preInit]);s.preInit.length>0;)s.preInit.pop()();Z(),s.inspect=(()=>"[asm]"),void 0!==u&&(module=u,u=void 0);class WError extends Error{constructor(e,n,t,r){super(n,t||"wasm",r||0),this.name="WError",this.code=e;}}let ee=0;s.postRun.push(()=>{ee=n(0,4);});const ne="undefined"!=typeof TextEncoder?(()=>{const e=new TextEncoder("utf-8"),n=new TextDecoder("utf-8");return {encode:n=>e.encode(n),decode:e=>n.decode(e)}})():"undefined"!=typeof Buffer?{encode:e=>new Uint8Array(Buffer.from(e,"utf-8")),decode:e=>Buffer.from(e.buffer,e.byteOffset,e.byteLength).toString("utf8")}:{encode:e=>{let n=[];for(let t=0,r=e.length;t!=r;++t)n[t]=255&e.charCodeAt(t);return new Uint8Array(n)},decode:e=>String(e)};s.ready;const re={COLLAPSE_WHITESPACE:1,PERMISSIVE_ATX_HEADERS:2,PERMISSIVE_URL_AUTO_LINKS:4,PERMISSIVE_EMAIL_AUTO_LINKS:8,NO_INDENTED_CODE_BLOCKS:16,NO_HTML_BLOCKS:32,NO_HTML_SPANS:64,TABLES:256,STRIKETHROUGH:512,PERMISSIVE_WWW_AUTOLINKS:1024,TASK_LISTS:2048,LATEX_MATH_SPANS:4096,WIKI_LINKS:8192,UNDERLINE:16384,DEFAULT:2823,NO_HTML:96},oe={HTML:1,XHTML:2};function ie(e,u){let s=void 0===(u=u||{}).parseFlags?re.DEFAULT:u.parseFlags,f=0;switch(u.format){case"xhtml":f|=oe.HTML|oe.XHTML;break;case"html":case void 0:case null:case"":f|=oe.HTML;break;default:throw new Error(`invalid format "${u.format}"`)}let c="string"==typeof e?ne.encode(e):e,l=function(e){let n=e(ee),t=L[ee>>2];if(0==t)return null;let r=v.subarray(t,t+n);return r.heapAddr=t,r}(e=>(function(e,r){const o=function(e){return e instanceof Uint8Array?e:new Uint8Array(e)}(e),i=o.length,a=function(e,t){const r=n(0,i);return v.set(e,r),r}(o),u=r(a,i);return function(e){t(e);}(a),u})(c,(n,t)=>a(n,t,s,f,e)));return function(){let e=function(){let e=r();if(0!=e){let n=o(),t=0!=n?UTF8ArrayToString(v,n):"";return i$1(),new WError(e,t)}}();if(e)throw e}(),u.bytes||u.asMemoryView?l:ne.decode(l)}
 
@@ -11239,7 +9240,7 @@ var NodeBuffer;
 
 try {
   // A trick for browserified version, to not include `Buffer` shim
-  var _require$1 = commonjsRequire;
+  var _require$1 = _prognovel_utils_build_fail.commonjsRequire;
   NodeBuffer = _require$1('buffer').Buffer;
 } catch (__) {}
 
@@ -11596,7 +9597,7 @@ var esprima;
 //
 try {
   // workaround to exclude package from browserify list.
-  var _require = commonjsRequire;
+  var _require = _prognovel_utils_build_fail.commonjsRequire;
   esprima = _require('esprima');
 } catch (_) {
   /* eslint-disable no-redeclare */
@@ -14509,25 +12510,25 @@ function warnUnregisteredContributors(unregisteredContributors) {
   var i = 0;
   var typos = unregisteredContributors.length ? showTypoError() : [];
   if (!l) return;
-  console.log(m + source.bold.yellow(Array(EMPTY_SPACES + 2).fill("*").join("")) + (typos[i++] || ""));
-  console.log(m + source.bold.yellow("*" + Array(EMPTY_SPACES).fill(" ").join("") + "*") + (typos[i++] || ""));
-  console.log(m + source.bold.yellow("*  ".concat(source.underline(l + " unregistered contributors found" + (l > 9 ? "" : " ")), "        *")) + (typos[i++] || ""));
-  console.log(source.bold.yellow(m + "*                                            *") + (typos[i++] || ""));
+  console.log(m + _prognovel_utils_build_fail.source.bold.yellow(Array(EMPTY_SPACES + 2).fill("*").join("")) + (typos[i++] || ""));
+  console.log(m + _prognovel_utils_build_fail.source.bold.yellow("*" + Array(EMPTY_SPACES).fill(" ").join("") + "*") + (typos[i++] || ""));
+  console.log(m + _prognovel_utils_build_fail.source.bold.yellow("*  ".concat(_prognovel_utils_build_fail.source.underline(l + " unregistered contributors found" + (l > 9 ? "" : " ")), "        *")) + (typos[i++] || ""));
+  console.log(_prognovel_utils_build_fail.source.bold.yellow(m + "*                                            *") + (typos[i++] || ""));
   unregisteredContributors.forEach(function (warn) {
     var text = "  - ".concat(warn.contributor, " at ").concat(warn.where);
     var spaces = EMPTY_SPACES - text.length > 0 ? new Array(EMPTY_SPACES - text.length).join(" ") + " " : "";
-    console.log(m + source.bold.yellow("*" + text + spaces + "*") + (typos[i++] || ""));
+    console.log(m + _prognovel_utils_build_fail.source.bold.yellow("*" + text + spaces + "*") + (typos[i++] || ""));
   });
-  console.log(m + source.bold.yellow("*" + Array(EMPTY_SPACES).fill(" ").join("") + "*") + (typos[i++] || ""));
-  console.log(m + source.bold.yellow(Array(EMPTY_SPACES + 2).fill("*").join("")) + (typos[i++] || ""));
+  console.log(m + _prognovel_utils_build_fail.source.bold.yellow("*" + Array(EMPTY_SPACES).fill(" ").join("") + "*") + (typos[i++] || ""));
+  console.log(m + _prognovel_utils_build_fail.source.bold.yellow(Array(EMPTY_SPACES + 2).fill("*").join("")) + (typos[i++] || ""));
   console.log("");
 
   function showTypoError() {
-    var c = source.bold.grey;
+    var c = _prognovel_utils_build_fail.source.bold.grey;
     var i = 0;
     var prefix = "  // ";
     var text = [];
-    text[i++] = c(prefix + source.underline("possible typos:"));
+    text[i++] = c(prefix + _prognovel_utils_build_fail.source.underline("possible typos:"));
     text[i++] = c(prefix);
     var processedUnregisteredContributors = unregisteredContributors.map(function (obj) {
       var contributorNames = contributors.getNovelContributors(novel).reduce(function (prev, cur) {
@@ -14551,19 +12552,19 @@ function warnUnregisteredContributors(unregisteredContributors) {
       text[i++] = c(prefix + "".concat(contributor, " -> ").concat(fixedName, " (").concat(where, ") ...").concat(Math.floor(rating * 100), "% likely"));
     });
     text[i++] = "";
-    text[i++] = "  " + source.bgGreen.whiteBright(" TIPS ") + " Use command ".concat(source.bold.green("prognovel fix-typo"), " to fix above typos");
+    text[i++] = "  " + _prognovel_utils_build_fail.source.bgGreen.whiteBright(" TIPS ") + " Use command ".concat(_prognovel_utils_build_fail.source.bold.green("prognovel fix-typo"), " to fix above typos");
     text[i++] = "         in batches (make sure suggestions above correct first).";
-    if (!fs.existsSync(cacheFiles().folder)) fs.mkdirSync(cacheFiles().folder);
+    if (!fs.existsSync(_prognovel_utils_build_fail.cacheFiles().folder)) fs.mkdirSync(_prognovel_utils_build_fail.cacheFiles().folder);
     var typoCache;
 
     try {
-      typoCache = JSON.parse(fs.readFileSync(cacheFiles().typoCache, "utf-8"));
+      typoCache = JSON.parse(fs.readFileSync(_prognovel_utils_build_fail.cacheFiles().typoCache, "utf-8"));
     } catch (error) {
       typoCache = {};
     }
 
     typoCache[novel] = processedUnregisteredContributors;
-    fs.writeFileSync(cacheFiles().typoCache, JSON.stringify(typoCache));
+    fs.writeFileSync(_prognovel_utils_build_fail.cacheFiles().typoCache, JSON.stringify(typoCache));
     return processedUnregisteredContributors.length ? text : [];
   }
 }
@@ -14577,7 +12578,7 @@ function generateContributorData(chapterData, novel) {
       body = chapterData.body,
       monetization = chapterData.monetization,
       banner = chapterData.banner;
-  var config = novelFiles(novel).contributorsConfig;
+  var config = _prognovel_utils_build_fail.novelFiles(novel).contributorsConfig;
   var contributorData = load$2(fs.readFileSync(config));
   return {
     title: title,
@@ -14624,7 +12625,7 @@ var emptyCache = {
 var emptyFrontMatter = {
   attributes: _objectSpread$1({
     title: ""
-  }, Object.keys(jsYaml$2.load(fs__default['default'].readFileSync(siteFiles().settings, "utf-8")).rev_share_contribution_per_chapter).reduce(function (prev, cur) {
+  }, Object.keys(jsYaml$2.load(fs__default['default'].readFileSync(_prognovel_utils_build_fail.siteFiles().settings, "utf-8")).rev_share_contribution_per_chapter).reduce(function (prev, cur) {
     prev[cur] = {};
     return prev;
   }, {})),
@@ -14648,7 +12649,7 @@ function _parseMarkdown() {
             contributions = {};
             unregisteredContributors = [];
             unchangedFiles = 0;
-            folder = cacheFiles();
+            folder = _prognovel_utils_build_fail.cacheFiles();
             if (!fs__default['default'].existsSync(folder.folder)) fs__default['default'].mkdirSync(folder.folder);
 
             try {
@@ -14875,7 +12876,7 @@ function _parseMarkdown() {
   return _parseMarkdown.apply(this, arguments);
 }
 
-var classCallCheck = createCommonjsModule(function (module) {
+var classCallCheck = _prognovel_utils_build_fail.createCommonjsModule(function (module) {
 function _classCallCheck(instance, Constructor) {
   if (!(instance instanceof Constructor)) {
     throw new TypeError("Cannot call a class as a function");
@@ -14886,9 +12887,9 @@ module.exports = _classCallCheck;
 module.exports["default"] = module.exports, module.exports.__esModule = true;
 });
 
-var _classCallCheck = unwrapExports(classCallCheck);
+var _classCallCheck = _prognovel_utils_build_fail.unwrapExports(classCallCheck);
 
-var createClass = createCommonjsModule(function (module) {
+var createClass = _prognovel_utils_build_fail.createCommonjsModule(function (module) {
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
     var descriptor = props[i];
@@ -14909,7 +12910,7 @@ module.exports = _createClass;
 module.exports["default"] = module.exports, module.exports.__esModule = true;
 });
 
-var _createClass = unwrapExports(createClass);
+var _createClass = _prognovel_utils_build_fail.unwrapExports(createClass);
 
 var Log = /*#__PURE__*/function () {
   function Log(opts) {
@@ -14977,7 +12978,7 @@ var Log = /*#__PURE__*/function () {
 }();
 
 function c(text) {
-  return source.bold.yellowBright(text);
+  return _prognovel_utils_build_fail.source.bold.yellowBright(text);
 }
 
 var benchmark = {
@@ -15012,7 +13013,7 @@ function outputMessage(_ref) {
       contributors = _ref.contributors,
       totalDuration = _ref.totalDuration,
       unregisteredContributors = _ref.unregisteredContributors;
-  var logTitle = source.bold.blueBright("[" + title + "]:");
+  var logTitle = _prognovel_utils_build_fail.source.bold.blueBright("[" + title + "]:");
   var log = new Log({
     marginLeft: 0
   });
@@ -15022,13 +13023,13 @@ function outputMessage(_ref) {
       markdown = benchmark.markdown,
       rev_share = benchmark.rev_share,
       filesystem = benchmark.filesystem;
-  var texts = ["Generating ".concat(source.bold.underline.blue(title), " metadata..."), "", "".concat(logTitle, " Finding markdown files takes ").concat((glob.end - glob.start).toFixed(2), " ms."), "".concat(logTitle, " Sorting chapters takes ").concat((sorting_chapters.end - sorting_chapters.start).toFixed(2), " ms."), "".concat(logTitle, " Calculating revenue sharing takes ").concat((rev_share.end - rev_share.start).toFixed(2), " ms."), "".concat(logTitle, " Processing ").concat(files.length, " markdown").concat(files.length !== 1 ? "s" : "", " (").concat(files.length - unchangedFiles, " changed) takes ").concat((markdown.end - markdown.start).toFixed(2), " ms."), "".concat(logTitle, " ").concat(contributorsNumber === 1 ? "person contributes" : contributorsNumber + " people contribute", " over ").concat(files.length, " chapters."), "".concat(logTitle, " Generating output files takes ").concat((filesystem.end - filesystem.start).toFixed(2), " ms.")];
+  var texts = ["Generating ".concat(_prognovel_utils_build_fail.source.bold.underline.blue(title), " metadata..."), "", "".concat(logTitle, " Finding markdown files takes ").concat((glob.end - glob.start).toFixed(2), " ms."), "".concat(logTitle, " Sorting chapters takes ").concat((sorting_chapters.end - sorting_chapters.start).toFixed(2), " ms."), "".concat(logTitle, " Calculating revenue sharing takes ").concat((rev_share.end - rev_share.start).toFixed(2), " ms."), "".concat(logTitle, " Processing ").concat(files.length, " markdown").concat(files.length !== 1 ? "s" : "", " (").concat(files.length - unchangedFiles, " changed) takes ").concat((markdown.end - markdown.start).toFixed(2), " ms."), "".concat(logTitle, " ").concat(contributorsNumber === 1 ? "person contributes" : contributorsNumber + " people contribute", " over ").concat(files.length, " chapters."), "".concat(logTitle, " Generating output files takes ").concat((filesystem.end - filesystem.start).toFixed(2), " ms.")];
 
   if (unregisteredContributors.length) {
     log.marginBottom = 0;
-    texts.push.apply(texts, ["    ".concat(source.bold.yellowBright("*")), "    ".concat(source.bold.yellowBright("*"))]);
+    texts.push.apply(texts, ["    ".concat(_prognovel_utils_build_fail.source.bold.yellowBright("*")), "    ".concat(_prognovel_utils_build_fail.source.bold.yellowBright("*"))]);
   } else {
-    texts.push.apply(texts, ["", "".concat(source.bold.underline.greenBright("SUCCESS"), " processing ").concat(title, " in ").concat(totalDuration, " ms.")]);
+    texts.push.apply(texts, ["", "".concat(_prognovel_utils_build_fail.source.bold.underline.greenBright("SUCCESS"), " processing ").concat(title, " in ").concat(totalDuration, " ms.")]);
   }
 
   log.show(texts);
@@ -15054,9 +13055,9 @@ function _generateMetadata() {
               var novelContributors;
 
               try {
-                novelContributors = jsYaml$2.load(fs__default['default'].readFileSync(novelFiles(novel).contributorsConfig));
+                novelContributors = jsYaml$2.load(fs__default['default'].readFileSync(_prognovel_utils_build_fail.novelFiles(novel).contributorsConfig));
               } catch (err) {
-                console.error(source.bold.red("Can't find contributors.yml for novel ".concat(novel, ".")));
+                console.error(_prognovel_utils_build_fail.source.bold.red("Can't find contributors.yml for novel ".concat(novel, ".")));
               }
 
               contributors.bulkAddContributors(novel, novelContributors);
@@ -15195,7 +13196,7 @@ function _compileChapter() {
                         chapterList = lib(chapters);
                         benchmark.sorting_chapters.end = perf_hooks.performance.now();
                         benchmark.filesystem.start = perf_hooks.performance.now();
-                        info = jsYaml$2.load(fs__default['default'].readFileSync(novelFiles(novel).info, "utf8"));
+                        info = jsYaml$2.load(fs__default['default'].readFileSync(_prognovel_utils_build_fail.novelFiles(novel).info, "utf8"));
                         info.genre = info.genre.split(",").filter(function (s) {
                           return !!s;
                         }).map(function (s) {
@@ -15206,7 +13207,7 @@ function _compileChapter() {
                         }).map(function (s) {
                           return s.trim();
                         });
-                        synopsis = marked_1(fs__default['default'].readFileSync(novelFiles(novel).synopsis, "utf8"));
+                        synopsis = marked_1(fs__default['default'].readFileSync(_prognovel_utils_build_fail.novelFiles(novel).synopsis, "utf8"));
                         meta = _objectSpread(_objectSpread({
                           id: novel
                         }, info), {}, {
@@ -15276,15 +13277,15 @@ function generateFiles(_ref) {
     chapterTitles: chapterTitles,
     content: content
   };
-  fs__default['default'].writeFileSync(publishFiles().novelMetadata(novel), JSON.stringify(meta, null, 4));
-  fs__default['default'].writeFileSync(publishFiles().novelChapterTitles(novel), JSON.stringify(chapterTitles));
-  fs__default['default'].writeFileSync(cacheFiles().novelCompileCache(novel), JSON.stringify(cache || {}), "utf-8");
-  fs__default['default'].writeFileSync(publishFiles().novelCompiledContent(novel), JSON.stringify(content));
-  fs__default['default'].writeFileSync(publishFiles().novelBinary(novel), JSON.stringify(bin));
+  fs__default['default'].writeFileSync(_prognovel_utils_build_fail.publishFiles().novelMetadata(novel), JSON.stringify(meta, null, 4));
+  fs__default['default'].writeFileSync(_prognovel_utils_build_fail.publishFiles().novelChapterTitles(novel), JSON.stringify(chapterTitles));
+  fs__default['default'].writeFileSync(_prognovel_utils_build_fail.cacheFiles().novelCompileCache(novel), JSON.stringify(cache || {}), "utf-8");
+  fs__default['default'].writeFileSync(_prognovel_utils_build_fail.publishFiles().novelCompiledContent(novel), JSON.stringify(content));
+  fs__default['default'].writeFileSync(_prognovel_utils_build_fail.publishFiles().novelBinary(novel), JSON.stringify(bin));
 }
 
 function getSiteContributors() {
-  var contributorData = load$2(fs.readFileSync(siteFiles().contributors)) || {};
+  var contributorData = load$2(fs.readFileSync(_prognovel_utils_build_fail.siteFiles().contributors)) || {};
   return Object.keys(contributorData).reduce(function (prev, cur) {
     var data = {
       name: cur,
@@ -15302,9 +13303,9 @@ function generateSiteSettings() {
   var settings;
 
   try {
-    settings = jsYaml$2.load(fs__default['default'].readFileSync(siteFiles().settings));
+    settings = jsYaml$2.load(fs__default['default'].readFileSync(_prognovel_utils_build_fail.siteFiles().settings));
   } catch (_) {
-    errorSiteSettingsNotFound();
+    _prognovel_utils_build_fail.errorSiteSettingsNotFound();
   }
 
   if (!settings.cors) settings.cors = "*";
@@ -15317,7 +13318,7 @@ function generateSiteSettings() {
   }
 
   ensurePublishDirectoryExist();
-  fs__default['default'].writeFileSync(publishFiles().siteMetadata, JSON.stringify(settings, null, 4));
+  fs__default['default'].writeFileSync(_prognovel_utils_build_fail.publishFiles().siteMetadata, JSON.stringify(settings, null, 4));
   contributionRoles.set(settings.contribution_roles);
   revSharePerChapter.set(settings["rev_share_contribution_per_chapter"]);
   return settings;
@@ -15372,7 +13373,7 @@ function _check() {
   return _check.apply(this, arguments);
 }
 
-var arrayWithHoles = createCommonjsModule(function (module) {
+var arrayWithHoles = _prognovel_utils_build_fail.createCommonjsModule(function (module) {
 function _arrayWithHoles(arr) {
   if (Array.isArray(arr)) return arr;
 }
@@ -15381,9 +13382,9 @@ module.exports = _arrayWithHoles;
 module.exports["default"] = module.exports, module.exports.__esModule = true;
 });
 
-unwrapExports(arrayWithHoles);
+_prognovel_utils_build_fail.unwrapExports(arrayWithHoles);
 
-var iterableToArrayLimit = createCommonjsModule(function (module) {
+var iterableToArrayLimit = _prognovel_utils_build_fail.createCommonjsModule(function (module) {
 function _iterableToArrayLimit(arr, i) {
   var _i = arr && (typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]);
 
@@ -15418,9 +13419,9 @@ module.exports = _iterableToArrayLimit;
 module.exports["default"] = module.exports, module.exports.__esModule = true;
 });
 
-unwrapExports(iterableToArrayLimit);
+_prognovel_utils_build_fail.unwrapExports(iterableToArrayLimit);
 
-var nonIterableRest = createCommonjsModule(function (module) {
+var nonIterableRest = _prognovel_utils_build_fail.createCommonjsModule(function (module) {
 function _nonIterableRest() {
   throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
 }
@@ -15429,9 +13430,9 @@ module.exports = _nonIterableRest;
 module.exports["default"] = module.exports, module.exports.__esModule = true;
 });
 
-unwrapExports(nonIterableRest);
+_prognovel_utils_build_fail.unwrapExports(nonIterableRest);
 
-var slicedToArray = createCommonjsModule(function (module) {
+var slicedToArray = _prognovel_utils_build_fail.createCommonjsModule(function (module) {
 function _slicedToArray(arr, i) {
   return arrayWithHoles(arr) || iterableToArrayLimit(arr, i) || unsupportedIterableToArray(arr, i) || nonIterableRest();
 }
@@ -15440,7 +13441,7 @@ module.exports = _slicedToArray;
 module.exports["default"] = module.exports, module.exports.__esModule = true;
 });
 
-var _slicedToArray = unwrapExports(slicedToArray);
+var _slicedToArray = _prognovel_utils_build_fail.unwrapExports(slicedToArray);
 
 function fixTypo(_x) {
   return _fixTypo.apply(this, arguments);
@@ -15453,17 +13454,17 @@ function _fixTypo() {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
-            if (fs.existsSync(cacheFiles().typoCache)) {
+            if (fs.existsSync(_prognovel_utils_build_fail.cacheFiles().typoCache)) {
               _context.next = 4;
               break;
             }
 
             console.log("");
-            console.log("    " + source.bold.redBright("No typo cache found. Make sure you're in the right folder and build the content first."));
+            console.log("    " + _prognovel_utils_build_fail.source.bold.redBright("No typo cache found. Make sure you're in the right folder and build the content first."));
             return _context.abrupt("return");
 
           case 4:
-            typo = JSON.parse(fs.readFileSync(cacheFiles().typoCache, "utf-8"));
+            typo = JSON.parse(fs.readFileSync(_prognovel_utils_build_fail.cacheFiles().typoCache, "utf-8"));
 
             if (Object.keys(typo).length) {
               _context.next = 9;
@@ -15471,13 +13472,13 @@ function _fixTypo() {
             }
 
             console.log("");
-            console.log(source.greenBright("  No typos found! Nice!"));
+            console.log(_prognovel_utils_build_fail.source.greenBright("  No typos found! Nice!"));
             return _context.abrupt("return");
 
           case 9:
             console.log("");
             console.log("");
-            console.log(source.bgGreen.white(" FIXING TYPOS "));
+            console.log(_prognovel_utils_build_fail.source.bgGreen.white(" FIXING TYPOS "));
 
             for (id in typo) {
               replaceTypo(id, typo[id]);
@@ -15486,7 +13487,7 @@ function _fixTypo() {
             console.log("");
             console.log(""); // clear cache
 
-            fs.writeFileSync(cacheFiles().typoCache, "{}", "utf-8");
+            fs.writeFileSync(_prognovel_utils_build_fail.cacheFiles().typoCache, "{}", "utf-8");
 
           case 16:
           case "end":
@@ -15512,10 +13513,10 @@ function replaceTypo(novelID, typos) {
         book = _where$split2[0],
         chapter = _where$split2[1];
 
-    var file = path.join(novelFiles(novelID).contentFolder, book, "".concat(chapter, ".md"));
+    var file = path.join(_prognovel_utils_build_fail.novelFiles(novelID).contentFolder, book, "".concat(chapter, ".md"));
     var data = fs.readFileSync(file, "utf-8").replace(contributor, fixedName);
     fs.writeFileSync(file, data, "utf-8");
-    console.log(source.bold.green("  > ".concat(contributor, " --> ").concat(fixedName, " (").concat(where, ")")));
+    console.log(_prognovel_utils_build_fail.source.bold.green("  > ".concat(contributor, " --> ").concat(fixedName, " (").concat(where, ")")));
   });
 }
 
@@ -15590,7 +13591,7 @@ function _build() {
           case 11:
             _context3.prev = 11;
             _context3.t0 = _context3["catch"](2);
-            failBuild([_context3.t0], "unexpected error!", {
+            _prognovel_utils_build_fail.failBuild([_context3.t0], "unexpected error!", {
               label: "crash"
             });
 
@@ -15605,13 +13606,13 @@ function _build() {
 }
  // init();
 
+exports.failBuild = _prognovel_utils_build_fail.failBuild;
+exports.novelFiles = _prognovel_utils_build_fail.novelFiles;
+exports.publishFiles = _prognovel_utils_build_fail.publishFiles;
+exports.siteFiles = _prognovel_utils_build_fail.siteFiles;
 exports.addNovel = addNovel;
 exports.build = build;
 exports.check = check;
-exports.failBuild = failBuild;
 exports.fixTypo = fixTypo;
 exports.host = host;
 exports.init = init;
-exports.novelFiles = novelFiles;
-exports.publishFiles = publishFiles;
-exports.siteFiles = siteFiles;
