@@ -11,6 +11,7 @@ exports.builder = {
 const COMMANDS = ["add", "remove"];
 
 exports.handler = async function (argv) {
+  console.log(require.main.path);
   const { _ } = argv;
   const cmd = _[1];
   if (!COMMANDS.includes(cmd))
