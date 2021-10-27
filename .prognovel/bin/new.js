@@ -24,14 +24,53 @@ exports.handler = async function ({ _ }) {
       "project already exists",
     );
   }
+
+  const { folderTitle } = await questions();
+  const basePath = folderTitle ? folderTitle + "/" : "";
+
+  if (folderTitle) mkdirSync(folderTitle);
+
   try {
-    mkdirSync(process.cwd() + "/novels");
+    mkdirSync(basePath + "novels");
   } catch (error) {}
   Object.keys(siteFilesContent).forEach((file) => {
-    writeFileSync(file, siteFilesContent[file], "utf-8");
+    writeFileSync(basePath + file, siteFilesContent[file], "utf-8");
   });
-  copyFileSync(require.main.path + "/assets/favicon.png", "favicon.png");
-  copyFileSync(require.main.path + "/assets/logo.png", "logo.png");
+  copyFileSync(require.main.path + "/assets/favicon.png", basePath + "favicon.png");
+  copyFileSync(require.main.path + "/assets/logo.png", basePath + "logo.png");
+  process.exit();
 };
+
+async function questions() {
+  const { stdin, stdout } = require("process");
+  console.log(require("readline-promise"));
+  const rl = require("readline-promise").default.createInterface({
+    input: stdin,
+    output: stdout,
+    terminal: true,
+  });
+
+  let newFolder = false;
+  let folderTitle = "";
+
+  while (true) {
+    const answer = await rl.questionAsync("Create project in a new folder? (N/y): ");
+    if (!answer || answer.toLowerCase() === "n") {
+      newFolder = false;
+      break;
+    } else if (answer.toLowerCase() === "y") {
+      newFolder = true;
+      break;
+    }
+  }
+
+  while (newFolder && !folderTitle) {
+    folderTitle = await rl.questionAsync("Insert folder name for your project: ");
+  }
+
+  return {
+    folderTitle,
+  };
+}
 
 exports.describe = "Create a blank ProgNovel project.";

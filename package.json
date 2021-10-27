@@ -45,6 +45,7 @@
     "meow": "^10.1.0",
     "node-fetch": "^2.0.0",
     "polka": "^0.5.2",
+    "readline-promise": "^1.0.5",
     "sharp": "^0.28.3",
     "string-similarity": "^4.0.3",
     "tiny-glob": "^0.2.9",
