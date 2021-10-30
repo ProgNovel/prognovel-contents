@@ -4,7 +4,7 @@ const { load } = require("js-yaml");
 const { failBuild } = require("../.dist/fail");
 const { fail } = require("./_errors");
 const { pickImage } = require("../.dist/main");
-
+const imageType = require("image-type");
 exports.command = "publish";
 // exports.aliases = ["build", "b"];
 
@@ -92,8 +92,14 @@ async function uploadSiteImages() {
   Required filename is ${image}.${allowedImageExt}`,
         `image for ${image} not found`,
       );
-
-    post.push(cfWorkerKV().put(`image:${image}`, readFileSync(siteImages[image])));
+    const buffer = readFileSync(siteImages[image]);
+    post.push(
+      cfWorkerKV().put(`image:${image}`, buffer, {
+        metadata: {
+          type: (imageType(buffer.slice(0, 12)) || {}).mime,
+        },
+      }),
+    );
   });
 
   return post;
@@ -115,7 +121,15 @@ async function uploadNovelImages(novel) {
         `image for ${image} not found`,
       );
 
-    post.push(cfWorkerKV().put(`image:${novel}:${image}`, readFileSync(novelImages[image])));
+    const buffer = readFileSync(novelImages[image]);
+
+    post.push(
+      cfWorkerKV().put(`image:${novel}:${image}`, buffer, {
+        metadata: {
+          type: (imageType(buffer.slice(0, 12)) || {}).mime,
+        },
+      }),
+    );
   });
 
   return post;
