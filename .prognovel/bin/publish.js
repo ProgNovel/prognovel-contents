@@ -1,9 +1,9 @@
 const { cfWorkerKV } = require("../utils/cloudflare-api");
 const { readFileSync, existsSync } = require("fs");
 const { load } = require("js-yaml");
-const { settings } = require("cluster");
 const { failBuild } = require("../.dist/fail");
 const { fail } = require("./_errors");
+const { pickImage } = require("../.dist/main");
 
 exports.command = "publish";
 // exports.aliases = ["build", "b"];
@@ -50,6 +50,17 @@ exports.handler = async function (argv) {
       "no site-settings.yml is found",
     );
   }
+
+  for await (p of await uploadSiteImages()) {
+    post.push(p);
+  }
+
+  for (novel of novels) {
+    for await (p of await uploadNovelImages(novel)) {
+      post.push(p);
+    }
+  }
+
   const metadata = readFileSync(".publish/fullmetadata.json", "utf-8");
   post.push(cfWorkerKV().put("metadata", metadata));
 
@@ -65,6 +76,50 @@ exports.handler = async function (argv) {
 };
 
 exports.describe = "Push generated content to Cloudflare KV Workers.";
+
+async function uploadSiteImages() {
+  const post = [];
+  const allowedImageExt = "{png,jpeg,webp,jpg,bmp}";
+  const siteImages = {
+    logo: await pickImage("logo." + allowedImageExt),
+    favicon: await pickImage("favicon." + allowedImageExt),
+  };
+
+  Object.keys(siteImages).forEach((image) => {
+    if (!siteImages[image])
+      failBuild(
+        `Make sure you have the required images in your project folder.
+  Required filename is ${image}.${allowedImageExt}`,
+        `image for ${image} not found`,
+      );
+
+    post.push(cfWorkerKV().put(`image:${image}`, readFileSync(siteImages[image])));
+  });
+
+  return post;
+}
+
+async function uploadNovelImages(novel) {
+  const post = [];
+  const allowedImageExt = "{png,jpeg,webp,jpg,bmp}";
+  const novelImages = {
+    banner: await pickImage(`novels/${novel}/cover.${allowedImageExt}`),
+    cover: await pickImage(`novels/${novel}/banner.${allowedImageExt}`),
+  };
+
+  Object.keys(novelImages).forEach((image) => {
+    if (!novelImages[image])
+      failBuild(
+        `Make sure you have the required images in your novel folder.
+  Required filename is novel/${novel}/${image}.${allowedImageExt}`,
+        `image for ${image} not found`,
+      );
+
+    post.push(cfWorkerKV().put(`image:${novel}:${image}`, readFileSync(novelImages[image])));
+  });
+
+  return post;
+}
 
 function getYaml(file) {
   if (existsSync(file)) return file;

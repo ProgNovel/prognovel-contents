@@ -96,7 +96,21 @@ tags: demo novel, translated novel, indonesian novel
 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, libero et maiores voluptate facilis quis ut? Deleniti incidunt a minima veniam quibusdam, est eum modi inventore, corrupti non assumenda ipsa?`,
 };
 
+const githubActionContent = {
+  "pull-request": `on:
+  pull_request:
+    branches:
+      - publish
+    types: [closed]
+
+jobs:
+  publish:
+    if: github.event.pull_request.merged == true
+    steps: // the rest of the code`,
+};
+
 module.exports = {
   siteFilesContent,
   novelFilesContent,
+  githubActionContent,
 };

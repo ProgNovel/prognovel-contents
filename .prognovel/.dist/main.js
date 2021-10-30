@@ -33,6 +33,10 @@ function createCommonjsModule(fn, module) {
 	return module = { exports: {} }, fn(module, module.exports), module.exports;
 }
 
+function getCjsExportFromNamespace (n) {
+	return n && n['default'] || n;
+}
+
 var asyncToGenerator = createCommonjsModule(function (module) {
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
   try {
@@ -15519,6 +15523,168 @@ function replaceTypo(novelID, typos) {
   });
 }
 
+var imageExtensions$1 = [
+	"ase",
+	"art",
+	"bmp",
+	"blp",
+	"cd5",
+	"cit",
+	"cpt",
+	"cr2",
+	"cut",
+	"dds",
+	"dib",
+	"djvu",
+	"egt",
+	"exif",
+	"gif",
+	"gpl",
+	"grf",
+	"icns",
+	"ico",
+	"iff",
+	"jng",
+	"jpeg",
+	"jpg",
+	"jfif",
+	"jp2",
+	"jps",
+	"lbm",
+	"max",
+	"miff",
+	"mng",
+	"msp",
+	"nitf",
+	"ota",
+	"pbm",
+	"pc1",
+	"pc2",
+	"pc3",
+	"pcf",
+	"pcx",
+	"pdn",
+	"pgm",
+	"PI1",
+	"PI2",
+	"PI3",
+	"pict",
+	"pct",
+	"pnm",
+	"pns",
+	"ppm",
+	"psb",
+	"psd",
+	"pdd",
+	"psp",
+	"px",
+	"pxm",
+	"pxr",
+	"qfx",
+	"raw",
+	"rle",
+	"sct",
+	"sgi",
+	"rgb",
+	"int",
+	"bw",
+	"tga",
+	"tiff",
+	"tif",
+	"vtf",
+	"xbm",
+	"xcf",
+	"xpm",
+	"3dv",
+	"amf",
+	"ai",
+	"awg",
+	"cgm",
+	"cdr",
+	"cmx",
+	"dxf",
+	"e2d",
+	"egt",
+	"eps",
+	"fs",
+	"gbr",
+	"odg",
+	"svg",
+	"stl",
+	"vrml",
+	"x3d",
+	"sxd",
+	"v2d",
+	"vnd",
+	"wmf",
+	"emf",
+	"art",
+	"xar",
+	"png",
+	"webp",
+	"jxr",
+	"hdp",
+	"wdp",
+	"cur",
+	"ecw",
+	"iff",
+	"lbm",
+	"liff",
+	"nrrd",
+	"pam",
+	"pcx",
+	"pgf",
+	"sgi",
+	"rgb",
+	"rgba",
+	"bw",
+	"int",
+	"inta",
+	"sid",
+	"ras",
+	"sun",
+	"tga"
+];
+
+var imageExtensions$2 = /*#__PURE__*/Object.freeze({
+	__proto__: null,
+	'default': imageExtensions$1
+});
+
+var imageExtensions = getCjsExportFromNamespace(imageExtensions$2);
+
+const extensions = new Set(imageExtensions);
+
+var isImage = filePath => extensions.has(path__default['default'].extname(filePath).slice(1).toLowerCase());
+
+function pickImage(_x) {
+  return _pickImage.apply(this, arguments);
+}
+
+function _pickImage() {
+  _pickImage = _asyncToGenerator( /*#__PURE__*/regenerator.mark(function _callee(path) {
+    return regenerator.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            _context.next = 2;
+            return tinyGlob(path);
+
+          case 2:
+            return _context.abrupt("return", _context.sent.filter(function (file) {
+              return isImage(file);
+            })[0]);
+
+          case 3:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, _callee);
+  }));
+  return _pickImage.apply(this, arguments);
+}
+
 function init(_x) {
   return _init.apply(this, arguments);
 }
@@ -15613,5 +15779,6 @@ exports.fixTypo = fixTypo;
 exports.host = host;
 exports.init = init;
 exports.novelFiles = novelFiles;
+exports.pickImage = pickImage;
 exports.publishFiles = publishFiles;
 exports.siteFiles = siteFiles;

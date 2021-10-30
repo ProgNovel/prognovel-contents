@@ -5,6 +5,7 @@ import { host } from "./hosting";
 import { check } from "./check";
 import { fixTypo } from "./fix-typo";
 import { failBuild } from "./utils/build";
+import { pickImage } from "./utils/image";
 import { novelFiles, publishFiles, siteFiles } from "./_files";
 
 async function init(opts?: any) {
@@ -26,6 +27,18 @@ async function build(opts?: any) {
   }
 }
 
-export { init, build, addNovel, host, check, fixTypo, failBuild, siteFiles, novelFiles, publishFiles };
+export {
+  init,
+  pickImage,
+  build,
+  addNovel,
+  host,
+  check,
+  fixTypo,
+  failBuild,
+  siteFiles,
+  novelFiles,
+  publishFiles,
+};
 
 // init();
