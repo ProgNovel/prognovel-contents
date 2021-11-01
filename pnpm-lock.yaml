@@ -20,6 +20,8 @@ specifiers:
   eslint-config-prettier: ^7.2.0
   eslint-plugin-import: ^2.22.1
   form-data: ^4.0.0
+  form-data-encoder: ^1.6.0
+  formdata-node: ^4.3.1
   front-matter: ^4.0.2
   glob: ^7.1.6
   glob-promise: ^4.2.0
@@ -58,6 +60,8 @@ dependencies:
   dessert-yaml-js: 1.0.3
   dotenv: 10.0.0
   form-data: 4.0.0
+  form-data-encoder: 1.6.0
+  formdata-node: 4.3.1
   front-matter: 4.0.2
   glob: 7.1.7
   glob-promise: 4.2.0_glob@7.1.7
@@ -2691,6 +2695,10 @@ packages:
     resolution: {integrity: sha1-C+4AUBiusmDQo6865ljdATbsG5k=}
     dev: true
 
+  /form-data-encoder/1.6.0:
+    resolution: {integrity: sha512-P97AVaOB8hZaniiKK3f46zxQcchQXI8EgBnX+2+719gLv5ZbDSf3J1XtIuAQ8xbGLU4vZYhy7xwhFtK8U5u9Nw==}
+    dev: false
+
   /form-data/4.0.0:
     resolution: {integrity: sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==}
     engines: {node: '>= 6'}
@@ -2698,6 +2706,14 @@ packages:
       asynckit: 0.4.0
       combined-stream: 1.0.8
       mime-types: 2.1.33
+    dev: false
+
+  /formdata-node/4.3.1:
+    resolution: {integrity: sha512-8xKSa9et4zb+yziWsD/bI+EYjdg1z2p9EpKr+o+Yk12F/wP66bmDdvjj2ZXd2K/MJlR3HBzWnuV7f82jzHRqCA==}
+    engines: {node: '>= 12.20'}
+    dependencies:
+      node-domexception: 1.0.0
+      web-streams-polyfill: 4.0.0-beta.1
     dev: false
 
   /front-matter/4.0.2:
@@ -3575,6 +3591,11 @@ packages:
 
   /node-addon-api/3.2.0:
     resolution: {integrity: sha512-kcwSAWhPi4+QzAtsL2+2s/awvDo2GKLsvMCwNRxb5BUshteXU8U97NCyvQDsGKs/m0He9WcG4YWew/BnuLx++w==}
+    dev: false
+
+  /node-domexception/1.0.0:
+    resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==}
+    engines: {node: '>=10.5.0'}
     dev: false
 
   /node-fetch/2.6.5:
@@ -4815,6 +4836,11 @@ packages:
 
   /wasm-frontmatter/1.0.1:
     resolution: {integrity: sha512-MygQsj9raFKBzG7kKZM+MA7Ux9q4KHWiv+FOe2HIjwhTtLmqfpsX1Na0RMrRJrqHFpSDoBRnZJpHfB6ov28bmA==}
+    dev: false
+
+  /web-streams-polyfill/4.0.0-beta.1:
+    resolution: {integrity: sha512-3ux37gEX670UUphBF9AMCq8XM6iQ8Ac6A+DSRRjDoRBm1ufCkaCDdNVbaqq60PsEkdNlLKrGtv/YBP4EJXqNtQ==}
+    engines: {node: '>= 12'}
     dev: false
 
   /webidl-conversions/3.0.1:

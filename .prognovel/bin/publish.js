@@ -93,13 +93,7 @@ async function uploadSiteImages() {
         `image for ${image} not found`,
       );
     const buffer = readFileSync(siteImages[image]);
-    post.push(
-      cfWorkerKV().put(`image:${image}`, buffer, {
-        metadata: {
-          type: (imageType(buffer.slice(0, 12)) || {}).mime,
-        },
-      }),
-    );
+    post.push(cfWorkerKV().put(`image:${image}`, buffer));
   });
 
   return post;
@@ -109,8 +103,8 @@ async function uploadNovelImages(novel) {
   const post = [];
   const allowedImageExt = "{png,jpeg,webp,jpg,bmp}";
   const novelImages = {
-    banner: await pickImage(`novels/${novel}/cover.${allowedImageExt}`),
-    cover: await pickImage(`novels/${novel}/banner.${allowedImageExt}`),
+    banner: await pickImage(`novels/${novel}/banner.${allowedImageExt}`),
+    cover: await pickImage(`novels/${novel}/cover.${allowedImageExt}`),
   };
 
   Object.keys(novelImages).forEach((image) => {
@@ -123,13 +117,7 @@ async function uploadNovelImages(novel) {
 
     const buffer = readFileSync(novelImages[image]);
 
-    post.push(
-      cfWorkerKV().put(`image:${novel}:${image}`, buffer, {
-        metadata: {
-          type: (imageType(buffer.slice(0, 12)) || {}).mime,
-        },
-      }),
-    );
+    post.push(cfWorkerKV().put(`image:${novel}:${image}`, buffer));
   });
 
   return post;
