@@ -47,7 +47,7 @@
     "js-yaml": "^4.1.0",
     "markdown-wasm": "^1.2.0",
     "marked": "^2.0.0",
-    "meow": "^10.1.0",
+    "meow": "^10.1.1",
     "node-fetch": "^2.0.0",
     "polka": "^0.5.2",
     "readline-promise": "^1.0.5",
