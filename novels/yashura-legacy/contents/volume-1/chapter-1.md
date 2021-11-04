@@ -1,7 +1,7 @@
 ---
 title: The Youth from Badril Village
 author: Radhy
-editor: Radhy, Zoom, MyEditor, Wowee
+editor: Zoom, MyEditor
 ---
 
 A fifteen years old boy played a game of chess against a spirit. Yesterday, he won a ghastly old encyclopedia nobody ever heard of. Today, the bet he eyed was silver coins. He didn’t know what he wanted from his opponent for tomorrow’s game. But the spirit in this dashing leather armor, adventurer-style, always wanted one thing for the game’s prize: taking control of the boy’s mortal body.
