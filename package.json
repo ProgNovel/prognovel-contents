@@ -54,7 +54,7 @@
     "sharp": "^0.28.3",
     "string-similarity": "^4.0.3",
     "tiny-glob": "^0.2.9",
-    "wasm-frontmatter": "^1.0.0",
+    "wasm-frontmatter": "^1.0.1",
     "yargs": "^17.0.1"
   },
   "devDependencies": {
