@@ -6,13 +6,14 @@ on:
 
 jobs:
   publish:
-    if: github.actor!= 'depbot'
-    if: github.event.pull_request.merged == true
+    if: |
+      github.event.pull_request.merged == true &&
+      github.actor!= 'depbot'
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: '16'
+          node-version: "16"
       - run: npm install
       - run: npm link
       - run: prognovel build
