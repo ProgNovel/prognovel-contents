@@ -1,7 +1,7 @@
 ---
 title: Hope
 author: Radhy
-editor: Radhy, Zoom, MyEditor, Wowee
+editor: Zoom, MyEditor, Wowee
 proofreader: MyProofreader
 ---
 
