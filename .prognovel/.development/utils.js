@@ -1,8 +1,5 @@
 const { resolve } = require("path");
 const { readFileSync } = require("fs");
-const { cleanHTML } = require("./string");
-const fm = require("front-matter");
-const md = require("marked");
 
 const data = {
   "yashura-legacy": JSON.parse(

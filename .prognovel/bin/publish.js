@@ -5,6 +5,8 @@ const { failBuild } = require("../.dist/fail");
 const { fail } = require("./_errors");
 const { pickImage } = require("../.dist/main");
 const imageType = require("image-type");
+const fetch = require("node-fetch");
+const FormData = require("form-data");
 exports.command = "publish";
 // exports.aliases = ["build", "b"];
 
@@ -13,6 +15,9 @@ exports.builder = {
     default: false,
   },
 };
+
+const webhook =
+  "https://discord.com/api/webhooks/905388052799717376/wiSMZXx-O0g-1sY90WNrmS7am88KnZ2FTSdTnn_vRXUgv7beJ1HVV9PymQOPcfwQ517s";
 
 exports.handler = async function (argv) {
   const post = [];
@@ -70,9 +75,12 @@ exports.handler = async function (argv) {
   });
 
   await Promise.all(post);
+
   console.log(
     "🚀 your novels have been updated in datacenters all around the world. This process might takes a minute.",
   );
+
+  postToDiscord(webhook, novels);
 };
 
 exports.describe = "Push generated content to Cloudflare KV Workers.";
@@ -89,7 +97,7 @@ async function uploadSiteImages() {
     if (!siteImages[image])
       failBuild(
         `Make sure you have the required images in your project folder.
-  Required filename is ${image}.${allowedImageExt}`,
+        Required filename is ${image}.${allowedImageExt}`,
         `image for ${image} not found`,
       );
     const buffer = readFileSync(siteImages[image]);
@@ -129,4 +137,44 @@ function getYaml(file) {
   const currentExt = file.endsWith("yaml") ? "yaml" : "yml";
   const nextExt = file.endsWith("yaml") ? "yml" : "yaml";
   return file.slice(0, -1 * currentExt.length) + nextExt;
+}
+
+async function postToDiscord(discordWebhookURL, novels) {
+  const siteMetadata = JSON.parse(readFileSync(".publish/fullmetadata.json"));
+  let text = novels
+    .map((novel) => {
+      const novelMetadata = siteMetadata.novelsMetadata.find((meta) => meta.id === novel);
+      return `
+> ${novelMetadata.title}\n`;
+    })
+    .join("\n");
+
+  text = `Hello gang!
+
+We have chapters updated here. Check it out!
+${text}`;
+  const embeds = novels.map((novel) => {
+    const novelMetadata = siteMetadata.novelsMetadata.find((meta) => meta.id === novel);
+    return {
+      // author: {
+      //   name: novelMetadata.title,
+      //   url: "https://demo.prognovel.com/novel/yashura-legacy",
+      //   icon_url: '"https://demo.prognovel.com/publish/yashura-legacy/cover-64x64.png"',
+      // },
+      title: novelMetadata.title + "update",
+      description: "Be ready for testing and delopment...",
+      url: "https://demo.prognovel.com/novel/yashura-legacy",
+    };
+  });
+  console.log(embeds);
+  await fetch(discordWebhookURL, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      content: text,
+      embeds,
+    }),
+  });
 }

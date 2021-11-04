@@ -100,7 +100,7 @@ const githubActionContent = {
   "pull-request": `on:
   pull_request:
     branches:
-      - publish
+      - main
     types: [closed]
 
 jobs:
