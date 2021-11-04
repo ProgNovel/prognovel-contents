@@ -45,7 +45,7 @@
     "image-type": "^4.1.0",
     "is-image": "^3.0.0",
     "js-yaml": "^4.1.0",
-    "markdown-wasm": "^1.1.2",
+    "markdown-wasm": "^1.2.0",
     "marked": "^2.0.0",
     "meow": "^10.1.0",
     "node-fetch": "^2.0.0",
