@@ -2,7 +2,13 @@ exports.command = "new";
 // exports.aliases = ["build", "b"];
 const { failBuild } = require("../.dist/fail");
 const { existsSync, mkdirSync, writeFileSync, copyFileSync } = require("fs");
-const { siteSettingsContent, siteContributorsContent, siteFilesContent } = require("./_new-files");
+const {
+  siteSettingsContent,
+  siteContributorsContent,
+  siteFilesContent,
+  homePageComponent,
+} = require("./_new-files");
+const { join } = require("path");
 
 exports.builder = {
   publish: {
@@ -33,9 +39,17 @@ exports.handler = async function ({ _ }) {
   try {
     mkdirSync(basePath + "novels");
   } catch (error) {}
+  try {
+    const componentsFolder = "components";
+    mkdirSync(basePath + componentsFolder);
+    Object.keys(homePageComponents).forEach((file) => {
+      writeFileSync(join(basePath, componentsFolder, file), homePageComponent[file], "utf-8");
+    });
+  } catch (error) {}
   Object.keys(siteFilesContent).forEach((file) => {
     writeFileSync(basePath + file, siteFilesContent[file], "utf-8");
   });
+
   copyFileSync(require.main.path + "/assets/favicon.png", basePath + "favicon.png");
   copyFileSync(require.main.path + "/assets/logo.png", basePath + "logo.png");
   process.exit();

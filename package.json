@@ -2,7 +2,7 @@
   "name": "@prognovel/prognovel-cli",
   "version": "0.0.1",
   "description": "A repo to manage contents of ProgNovel platform.",
-  "main": ".prognovel/prognovel.js",
+  "main": ".prognovel/bin",
   "bin": {
     "@prognovel/prognovel-cli": ".prognovel/bin/index.js",
     "prognovel": ".prognovel/bin/index.js"

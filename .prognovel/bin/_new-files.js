@@ -105,12 +105,43 @@ const githubActionContent = {
 
 jobs:
   publish:
-    if: github.event.pull_request.merged == true
-    steps: // the rest of the code`,
+    runs-on: ubuntu-latest
+    if: |
+      github.event.pull_request.merged == true &&
+      github.actor!= 'depbot'
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+      - run: npm install
+      - run: npm link
+      - run: prognovel build
+      - run: prognovel publish
+`,
+};
+
+const homePageComponent = {
+  "_LazyComponents.svelte": `<script lang="ts">
+  import UpdatesModule from "components/updates-page/UpdatesModule.svelte";
+  import WebMonetizationBanner from "components/web-monetization/WebMonetizationBanner.svelte";
+  import Warning from "./HomeWarning.svelte";
+  import ProgNovelPromo from "./ProgNovelPromo.svelte";
+</script>
+
+<div class="home-page__contained-component">
+  <Warning />
+  <WebMonetizationBanner />
+  <UpdatesModule seeAllLink="updates" />
+</div>
+
+<ProgNovelPromo />
+`,
 };
 
 module.exports = {
   siteFilesContent,
   novelFilesContent,
   githubActionContent,
+  homePageComponent,
 };
