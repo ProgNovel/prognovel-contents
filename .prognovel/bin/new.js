@@ -6,7 +6,7 @@ const {
   siteSettingsContent,
   siteContributorsContent,
   siteFilesContent,
-  homePageComponent,
+  components,
 } = require("./_new-files");
 const { join } = require("path");
 
@@ -40,11 +40,15 @@ exports.handler = async function ({ _ }) {
     mkdirSync(basePath + "novels");
   } catch (error) {}
   try {
-    const componentsFolder = "components";
-    mkdirSync(basePath + componentsFolder);
-    Object.keys(homePageComponents).forEach((file) => {
-      writeFileSync(join(basePath, componentsFolder, file), homePageComponent[file], "utf-8");
-    });
+    const componentsFolder = join(basePath, "components");
+    if (!existsSync(componentsFolder)) mkdirSync(componentsFolder);
+    for (const key in components) {
+      const folder = join(componentsFolder, key);
+      if (!existsSync(folder)) mkdirSync(folder);
+      Object.keys(components[key]).forEach((file) => {
+        writeFileSync(join(folder, file), components[key][file], "utf-8");
+      });
+    }
   } catch (error) {}
   Object.keys(siteFilesContent).forEach((file) => {
     writeFileSync(basePath + file, siteFilesContent[file], "utf-8");

@@ -1,9 +1,15 @@
 const { cfWorkerKV } = require("../utils/cloudflare-api");
-const { readFileSync, existsSync } = require("fs");
+const { readFileSync, existsSync, createWriteStream } = require("fs");
 const { load } = require("js-yaml");
 const { failBuild } = require("../.dist/fail");
 const { fail } = require("./_errors");
-const { pickImage } = require("../.dist/main");
+let main = {};
+try {
+  main = require("../.dist/main");
+} catch (error) {
+  // fail();
+}
+const { pickImage } = main;
 const imageType = require("image-type");
 const fetch = require("node-fetch");
 const FormData = require("form-data");
@@ -74,6 +80,19 @@ exports.handler = async function (argv) {
     post.push(cfWorkerKV().put(`data:${novel}:0`, data));
   });
 
+  post.push(
+    new Promise(async (resolve, reject) => {
+      try {
+        const out = ".publish/components.zip";
+        await zipDirectory("components", out);
+        await cfWorkerKV().put(`data:components.zip`, readFileSync(out));
+        resolve();
+      } catch (error) {
+        reject(error);
+      }
+    }),
+  );
+
   await Promise.all(post);
 
   console.log(
@@ -141,18 +160,9 @@ function getYaml(file) {
 
 async function postToDiscord(discordWebhookURL, novels) {
   const siteMetadata = JSON.parse(readFileSync(".publish/fullmetadata.json"));
-  let text = novels
-    .map((novel) => {
-      const novelMetadata = siteMetadata.novelsMetadata.find((meta) => meta.id === novel);
-      return `
-> ${novelMetadata.title}\n`;
-    })
-    .join("\n");
+  let text = `Hello gang!
 
-  text = `Hello gang!
-
-We have chapters updated here. Check it out!
-${text}`;
+We have chapters updated here.`;
   const embeds = novels.map((novel) => {
     const novelMetadata = siteMetadata.novelsMetadata.find((meta) => meta.id === novel);
     return {
@@ -161,8 +171,8 @@ ${text}`;
       //   url: "https://demo.prognovel.com/novel/yashura-legacy",
       //   icon_url: '"https://demo.prognovel.com/publish/yashura-legacy/cover-64x64.png"',
       // },
-      title: novelMetadata.title + "update",
-      description: "Be ready for testing and delopment...",
+      title: novelMetadata.title + " updates",
+      description: "New chapters have been published. Check it out!",
       url: "https://demo.prognovel.com/novel/yashura-legacy",
     };
   });
@@ -176,5 +186,27 @@ ${text}`;
       content: text,
       embeds,
     }),
+  });
+}
+
+const archiver = require("archiver");
+
+/**
+ * @param {String} source
+ * @param {String} out
+ * @returns {Promise}
+ */
+function zipDirectory(source, out) {
+  const archive = archiver("zip", { zlib: { level: 9 } });
+  const stream = createWriteStream(out);
+
+  return new Promise((resolve, reject) => {
+    archive
+      .directory(source, false)
+      .on("error", (err) => reject(err))
+      .pipe(stream);
+
+    stream.on("close", () => resolve());
+    archive.finalize();
   });
 }

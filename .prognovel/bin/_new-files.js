@@ -121,27 +121,28 @@ jobs:
 `,
 };
 
-const homePageComponent = {
-  "_LazyComponents.svelte": `<script lang="ts">
-  import UpdatesModule from "components/updates-page/UpdatesModule.svelte";
-  import WebMonetizationBanner from "components/web-monetization/WebMonetizationBanner.svelte";
-  import Warning from "./HomeWarning.svelte";
-  import ProgNovelPromo from "./ProgNovelPromo.svelte";
-</script>
-
-<div class="home-page__contained-component">
-  <Warning />
-  <WebMonetizationBanner />
-  <UpdatesModule seeAllLink="updates" />
-</div>
-
-<ProgNovelPromo />
-`,
+const components = {
+  "home-page": {
+    "ComponentsLazy.svelte": `<script lang="ts">
+    import UpdatesModule from "components/updates-page/UpdatesModule.svelte";
+    import WebMonetizationBanner from "components/web-monetization/WebMonetizationBanner.svelte";
+    import Warning from "components/home-page/HomeWarning.svelte";
+    import ProgNovelPromo from "components/home-page/ProgNovelPromo.svelte";
+  </script>
+  
+  <div class="home-page__contained-component">
+    <Warning />
+    <WebMonetizationBanner />
+    <UpdatesModule seeAllLink="updates" />
+  </div>
+  
+  <ProgNovelPromo />
+  `,
+  },
 };
-
 module.exports = {
   siteFilesContent,
   novelFilesContent,
   githubActionContent,
-  homePageComponent,
+  components,
 };
