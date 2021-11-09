@@ -130,11 +130,11 @@ const components = {
   import ProgNovelPromo from "components/home-page/ProgNovelPromo.svelte";
 </script>
 
-<div class="contain">
+<section class="contain">
   <Warning />
   <WebMonetizationBanner />
   <UpdatesModule seeAllLink="updates" />
-</div>
+</section>
 
 <ProgNovelPromo />
   `,
