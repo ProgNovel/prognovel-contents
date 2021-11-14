@@ -13,6 +13,7 @@ exports.handler = function (argv) {
   try {
     require("../.dist/main").build();
   } catch (error) {
+    console.error(error);
     fail();
   }
 };

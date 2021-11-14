@@ -1,7 +1,7 @@
 import fs from "fs";
 import yaml from "js-yaml";
 import chalk from "chalk";
-import md from "marked";
+import * as markdown from "markdown-wasm";
 import glob from "tiny-glob";
 import { performance } from "perf_hooks";
 import { checkValidBookFolder, ensurePublishDirectoryExist } from "../utils/check-valid-book-folder";
@@ -13,6 +13,7 @@ import brotli from "brotli";
 import { outputMessage, benchmark } from "./metadata/logging";
 import { cacheFiles, novelFiles, publishFiles } from "../_files";
 import { lstatSync } from "fs";
+import { applyNovelChanges } from "./metadata/apply-change";
 
 export async function generateMetadata(novels: string[]) {
   const firstNovel = novels[0];
@@ -89,7 +90,8 @@ async function compileChapter(folder: string, images, novel: string) {
         .split(",")
         .filter((s: string) => !!s)
         .map((s: string) => s.trim());
-    const synopsis = md(fs.readFileSync(novelFiles(novel).synopsis, "utf8"));
+    // await markdown.ready;
+    const synopsis = markdown.parse(fs.readFileSync(novelFiles(novel).synopsis, "utf8"));
 
     let meta = { id: novel, ...info, synopsis, chapters: chapterList, cover: images, rev_share };
 
@@ -109,6 +111,8 @@ async function compileChapter(folder: string, images, novel: string) {
       totalDuration: (t1 - t0).toFixed(2),
       unregisteredContributors,
     });
+
+    applyNovelChanges(novel, files, unchangedFiles);
 
     resolve(meta);
   });

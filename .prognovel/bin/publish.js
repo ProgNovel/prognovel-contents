@@ -1,5 +1,5 @@
 const { cfWorkerKV } = require("../utils/cloudflare-api");
-const { readFileSync, existsSync, createWriteStream } = require("fs");
+const { readFileSync, existsSync, createWriteStream, writeFileSync } = require("fs");
 const { load } = require("js-yaml");
 const { failBuild } = require("../.dist/fail");
 const { fail } = require("./_errors");
@@ -93,13 +93,22 @@ exports.handler = async function (argv) {
     }),
   );
 
-  await Promise.all(post);
+  try {
+    await Promise.all(post);
 
-  console.log(
-    "🚀 your novels have been updated in datacenters all around the world. This process might takes a minute.",
-  );
+    console.log(
+      "\n🚀 your novels have been updated in datacenters all around the world. This process might takes a minute.\n",
+    );
 
-  postToDiscord(webhook, novels);
+    if (process.env.SITE_URL) {
+      const updatedNovels = JSON.parse(readFileSync(".cache/novel-change.json", "utf-8"));
+
+      for (const novel of updatedNovels) {
+        console.log("👋 posting announcement for " + novel + " updates.");
+        postToDiscord(webhook, novel);
+      }
+    }
+  } catch (error) {}
 };
 
 exports.describe = "Push generated content to Cloudflare KV Workers.";
@@ -158,26 +167,36 @@ function getYaml(file) {
   return file.slice(0, -1 * currentExt.length) + nextExt;
 }
 
-async function postToDiscord(discordWebhookURL, novels) {
+async function postToDiscord(discordWebhookURL, novel) {
+  const discordColors = [
+    0, 1752220, 1146986, 3066993, 2067276, 3447003, 2123412, 10181046, 15277667, 11342935, 15844367, 12745742,
+    15105570, 11027200, 15158332, 10038562, 9807270, 9936031, 8359053, 12370112, 3426654, 2899536, 16776960,
+    16777215, 5793266, 10070709, 2895667, 2303786, 5763719, 16705372, 15418782, 15548997, 16777215, 2303786,
+  ];
+  let siteURL = process.env.SITE_URL;
+  if (siteURL.slice(-1) === "/") siteURL = siteURL.slice(0, -1);
   const siteMetadata = JSON.parse(readFileSync(".publish/fullmetadata.json"));
-  let text = `Hello gang!
-
-We have chapters updated here.`;
-  const embeds = novels.map((novel) => {
-    const novelMetadata = siteMetadata.novelsMetadata.find((meta) => meta.id === novel);
-    return {
+  let text = ``;
+  const novelMetadata = siteMetadata.novelsMetadata.find((meta) => meta.id === novel);
+  const embeds = [
+    {
       // author: {
       //   name: novelMetadata.title,
       //   url: "https://demo.prognovel.com/novel/yashura-legacy",
       //   icon_url: '"https://demo.prognovel.com/publish/yashura-legacy/cover-64x64.png"',
       // },
       title: novelMetadata.title + " updates",
-      description: "New chapters have been published. Check it out!",
-      url: "https://demo.prognovel.com/novel/yashura-legacy",
-    };
-  });
-  console.log(embeds);
-  await fetch(discordWebhookURL, {
+      description: `New chapters have been published. Check it out!\n\n${siteURL}/novel/${novel}`,
+      url: siteURL + `/novel/${novel}`,
+      image: {
+        url: siteURL + `/publish/${novel}/cover-128.jpeg`,
+        height: 128,
+        width: 128,
+      },
+      color: discordColors[Math.floor(Math.random() * discordColors.length)],
+    },
+  ];
+  const post = await fetch(discordWebhookURL, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -187,6 +206,14 @@ We have chapters updated here.`;
       embeds,
     }),
   });
+  if (post.status < 300) {
+    const updatedNovels = JSON.parse(readFileSync(".cache/novel-change.json", "utf-8"));
+    writeFileSync(
+      ".cache/novel-change.json",
+      JSON.stringify(updatedNovels.filter((s) => novel !== s)),
+      "utf-8",
+    );
+  }
 }
 
 const archiver = require("archiver");
