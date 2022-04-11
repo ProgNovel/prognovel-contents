@@ -54,7 +54,7 @@
     "string-similarity": "^4.0.3",
     "tiny-glob": "^0.2.9",
     "wasm-frontmatter": "^1.0.0",
-    "yargs": "^17.0.1"
+    "yargs": "^17.4.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
